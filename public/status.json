@@ -1,0 +1,92 @@
+{
+  "generatedAt": "2026-10-12T02:40:49.766384Z",
+  "papers": {
+    "mode": "Outcome-blind evidence review",
+    "publication_gate": "Human approval required"
+  },
+  "projects": [
+    {
+      "id": "01",
+      "name": "AortaPlan",
+      "readyForHuman": false,
+      "stage": "Escalation Deferred",
+      "status": "Blocked",
+      "summary": "Public CTA planning and geometry validation.",
+      "updatedAt": "2026-10-12T00:39:59.299355Z"
+    },
+    {
+      "id": "02",
+      "name": "BCM-Neuromodulation",
+      "readyForHuman": false,
+      "stage": "Queued",
+      "status": "Queued",
+      "summary": "Neuromodulation imaging data and cohort reconciliation.",
+      "updatedAt": "2026-10-12T02:34:47.103938Z"
+    },
+    {
+      "id": "03",
+      "name": "CTBone",
+      "readyForHuman": false,
+      "stage": "Escalation Deferred",
+      "status": "Blocked",
+      "summary": "CT bone biomarker reproducibility and validation.",
+      "updatedAt": "2026-10-12T00:45:57.244964Z"
+    },
+    {
+      "id": "04",
+      "name": "EchoNext",
+      "readyForHuman": false,
+      "stage": "Active",
+      "status": "Active",
+      "summary": "ECG and echocardiography pipeline validation.",
+      "updatedAt": "2026-10-12T02:40:49.734600Z"
+    },
+    {
+      "id": "05",
+      "name": "Ditto",
+      "readyForHuman": false,
+      "stage": "Escalation Deferred",
+      "status": "Blocked",
+      "summary": "Provenance-aware medical digital-twin infrastructure.",
+      "updatedAt": "2026-10-12T00:02:48.277296Z"
+    },
+    {
+      "id": "06",
+      "name": "Trace",
+      "readyForHuman": false,
+      "stage": "Escalation Deferred",
+      "status": "Blocked",
+      "summary": "Rights-aware document ingestion and fingerprinting.",
+      "updatedAt": "2026-10-11T22:10:18.457485Z"
+    },
+    {
+      "id": "07",
+      "name": "TEER",
+      "readyForHuman": false,
+      "stage": "Failed",
+      "status": "Blocked",
+      "summary": "Research-grade valve geometry and decision-support foundations.",
+      "updatedAt": "2026-10-11T23:48:26.831908Z"
+    },
+    {
+      "id": "08",
+      "name": "Papers",
+      "readyForHuman": false,
+      "stage": "Queued",
+      "status": "Queued",
+      "summary": "Evidence mapping and outcome-blind study design.",
+      "updatedAt": "2026-10-11T21:42:44.020739Z"
+    }
+  ],
+  "system": {
+    "activeJobs": 0,
+    "gpuJobs": "Redacted",
+    "integrity": "Evidence-gated",
+    "status": "Operational"
+  },
+  "vision": {
+    "active_jobs": 0,
+    "completed_jobs": 3,
+    "detail": "Aggregate public-safe scheduler state"
+  }
+}
