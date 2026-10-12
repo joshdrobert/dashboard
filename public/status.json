@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T02:54:11.081361Z",
+  "generatedAt": "2026-10-12T02:56:55.242551Z",
   "papers": {
     "mode": "Outcome-blind evidence review",
     "publication_gate": "Human approval required"
@@ -17,11 +17,11 @@
     {
       "id": "02",
       "name": "BCM-Neuromodulation",
-      "readyForHuman": false,
-      "stage": "Escalation Deferred",
-      "status": "Blocked",
+      "readyForHuman": true,
+      "stage": "Waiting User",
+      "status": "Attention",
       "summary": "Neuromodulation imaging data and cohort reconciliation.",
-      "updatedAt": "2026-10-12T02:53:39.368025Z"
+      "updatedAt": "2026-10-12T02:56:55.242535Z"
     },
     {
       "id": "03",
