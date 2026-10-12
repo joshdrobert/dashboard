@@ -1,12 +1,12 @@
 {
   "actionRequired": [],
-  "generatedAt": "2026-10-12T16:29:43.826259Z",
+  "generatedAt": "2026-10-12T23:16:04.930081Z",
   "hourlyCheckpoint": {
-    "at": null,
-    "changes": 2
+    "at": "2026-10-12T23:03:51.621658Z",
+    "changes": 8
   },
   "papers": {
-    "activeInvestigations": 0,
+    "activeInvestigations": 1,
     "authorizedStudies": 0,
     "candidateReservoir": 400,
     "mode": "Outcome-blind evidence review",
@@ -14,10 +14,10 @@
   },
   "projects": [
     {
-      "alert": "ORPHANED ROADMAP",
+      "alert": null,
       "blocker": null,
       "currentMilestone": "Engineering benchmark",
-      "currentTask": "aortaplan-public-dataset-decision-20261011",
+      "currentTask": "aortaplan-physical-space-recovery-20261012",
       "engineeringOutput": "Bounded task accepted",
       "id": "01",
       "lastMeaningfulProgress": "2026-10-12T16:20:47.243802Z",
@@ -25,31 +25,33 @@
       "next": null,
       "nextMilestone": "Public/authorized real-data decision",
       "projectGoal": "Validate legally accessible aortic geometry measurement foundations.",
-      "queueDepth": 0,
+      "queueDepth": 1,
       "readyForHuman": false,
       "scientificOutput": "No scientific milestone recorded",
-      "sinceHourlyCheckpoint": [],
-      "stage": "Escalation Deferred",
+      "sinceHourlyCheckpoint": [
+        "A new bounded task was queued."
+      ],
+      "stage": "Active",
       "stageProgress": {
         "completed": 1,
         "total": 3
       },
-      "status": "Blocked",
+      "status": "Active",
       "summary": "Public CTA planning and geometry validation.",
       "taskChecklist": {
         "completed": 0,
-        "total": 1
+        "total": 2
       },
-      "taskDescription": "Verify and rank currently accessible public aortic CTA datasets by legal access, infrarenal/AAA relevance, iliac/branch coverage, mask quality, geometry utility and N; write a source-linked decision record that labels the selected scope as an EVAR measurement dataset or segmentation/geometry engineering benchmark.",
-      "taskStartedAt": "2026-10-12T04:02:33.142912Z",
+      "taskDescription": "Close remaining physical-coordinate and orthogonal-plane invariants with synthetic ground truth before public-data benchmarking.",
+      "taskStartedAt": "2026-10-12T23:16:03.352367Z",
       "transfer": null,
-      "updatedAt": "2026-10-12T04:02:33.142912Z"
+      "updatedAt": "2026-10-12T23:16:03.352367Z"
     },
     {
-      "alert": "ORPHANED ROADMAP",
-      "blocker": "VISION job 726664 failed before file write: Dryad file_stream returned an interactive validation page; a read-only authorized-token probe returned HTTP 403 for that same endpoint. No replacement submitted; provider-supported authenticated download route remains required.",
+      "alert": null,
+      "blocker": null,
       "currentMilestone": "Verified staging",
-      "currentTask": "vision-dryad-v4-full-stage",
+      "currentTask": "bcm-transfer-failure-classification-20261012",
       "engineeringOutput": "Bounded task accepted",
       "id": "02",
       "lastMeaningfulProgress": "2026-10-12T16:21:05.776474Z",
@@ -57,23 +59,25 @@
       "next": null,
       "nextMilestone": "Cohort reconciliation",
       "projectGoal": "Stage and reproduce neuromodulation imaging analysis only after verified data access.",
-      "queueDepth": 0,
+      "queueDepth": 1,
       "readyForHuman": false,
       "scientificOutput": "No scientific milestone recorded",
-      "sinceHourlyCheckpoint": [],
+      "sinceHourlyCheckpoint": [
+        "A new bounded task was queued."
+      ],
       "stage": "Data Transfer",
       "stageProgress": {
         "completed": 0,
         "total": 4
       },
-      "status": "Blocked",
+      "status": "Active",
       "summary": "Neuromodulation imaging data and cohort reconciliation.",
       "taskChecklist": {
         "completed": 0,
-        "total": 1
+        "total": 2
       },
-      "taskDescription": "Download and integrity-verify the canonical CC0 Dryad v4 archive in persistent VISION scratch, then bind a compact staging receipt without committing raw data.",
-      "taskStartedAt": "2026-10-12T15:32:22.819763Z",
+      "taskDescription": "Classify the most recent Dryad/VISION transfer failure from retained nonsecret evidence, test a fresh signed-route byte-range validation only if locally renewable OAuth supports it, and otherwise document the resumable Mac-to-VISION handoff. Do not transmit credentials or restart verified files.",
+      "taskStartedAt": "2026-10-12T23:16:04.047626Z",
       "transfer": {
         "bytes_expected": 60049983649,
         "bytes_verified": 9839,
@@ -82,13 +86,13 @@
         "method": "VISION login to fast scratch",
         "state": "DATA_TRANSFER"
       },
-      "updatedAt": "2026-10-12T15:32:22.819763Z"
+      "updatedAt": "2026-10-12T23:16:04.047626Z"
     },
     {
-      "alert": "ORPHANED ROADMAP",
+      "alert": null,
       "blocker": null,
       "currentMilestone": "Pre-protocol readiness",
-      "currentTask": "regenerate-plan-392",
+      "currentTask": "ctbone-real-manifest-recovery-20261012",
       "engineeringOutput": "Bounded task accepted",
       "id": "03",
       "lastMeaningfulProgress": "2026-10-12T15:59:46.243311Z",
@@ -96,131 +100,135 @@
       "next": null,
       "nextMilestone": "Protocol authorization",
       "projectGoal": "Establish a leakage-safe, provenance-complete CT bone study protocol.",
-      "queueDepth": 0,
+      "queueDepth": 1,
       "readyForHuman": false,
       "scientificOutput": "No scientific milestone recorded",
-      "sinceHourlyCheckpoint": [],
-      "stage": "Escalation Deferred",
+      "sinceHourlyCheckpoint": [
+        "A new bounded task was queued."
+      ],
+      "stage": "Active",
       "stageProgress": {
         "completed": 1,
         "total": 3
       },
-      "status": "Blocked",
+      "status": "Active",
       "summary": "CT bone biomarker reproducibility and validation.",
       "taskChecklist": {
         "completed": 0,
-        "total": 1
+        "total": 2
       },
-      "taskDescription": "Decompose next unfinished PLAN milestone into at most three bounded tasks with relevant files and executable acceptance tests. Write AUTONOMY_NEXT.json; preserve verified work.",
-      "taskStartedAt": "2026-10-12T16:19:26.657455Z",
+      "taskDescription": "Audit the bounded available real-CT sample and write the roadmap-required provenance manifest; keep all missing outcomes and rights explicit.",
+      "taskStartedAt": "2026-10-12T23:15:58.800836Z",
       "transfer": null,
-      "updatedAt": "2026-10-12T16:19:26.657455Z"
+      "updatedAt": "2026-10-12T23:15:58.800836Z"
     },
     {
-      "alert": "ORPHANED ROADMAP",
+      "alert": null,
       "blocker": null,
       "currentMilestone": "Input contracts",
-      "currentTask": "regenerate-plan-382",
+      "currentTask": "echonext-patient-split-recovery-20261012",
       "engineeringOutput": "Bounded task accepted",
       "id": "04",
       "lastMeaningfulProgress": "2026-10-12T16:29:14.289686Z",
       "name": "EchoNext",
-      "next": null,
+      "next": "echonext-patient-split-recovery-20261012",
       "nextMilestone": "Patient-level split readiness",
       "projectGoal": "Establish reproducible, patient-linked ECG/echo input contracts before modelling.",
-      "queueDepth": 0,
+      "queueDepth": 1,
       "readyForHuman": false,
       "scientificOutput": "No scientific milestone recorded",
       "sinceHourlyCheckpoint": [
-        "A bounded task passed deterministic acceptance."
+        "A new bounded task was queued."
       ],
-      "stage": "Escalation Deferred",
+      "stage": "Queued",
       "stageProgress": {
         "completed": 1,
         "total": 3
       },
-      "status": "Blocked",
+      "status": "Queued",
       "summary": "ECG and echocardiography pipeline validation.",
       "taskChecklist": {
         "completed": 0,
         "total": 1
       },
-      "taskDescription": "Decompose next unfinished PLAN milestone into at most three bounded tasks with relevant files and executable acceptance tests. Write AUTONOMY_NEXT.json; preserve verified work.",
-      "taskStartedAt": "2026-10-12T12:13:16.100190Z",
+      "taskDescription": "Create the roadmap-required patient split audit preserving ECG/patient identities and rejecting cross-split patient overlap; do not train or report performance.",
+      "taskStartedAt": "2026-10-12T23:15:53.879793Z",
       "transfer": null,
-      "updatedAt": "2026-10-12T12:13:16.100190Z"
+      "updatedAt": "2026-10-12T23:15:53.879793Z"
     },
     {
-      "alert": "ORPHANED ROADMAP",
+      "alert": null,
       "blocker": null,
       "currentMilestone": "Lineage safeguards",
-      "currentTask": "plan-after-335",
+      "currentTask": "ditto-quantity-gap-recovery-20261012",
       "engineeringOutput": "Bounded task accepted",
       "id": "05",
       "lastMeaningfulProgress": "2026-10-12T16:21:37.075267Z",
       "name": "Ditto",
-      "next": null,
+      "next": "ditto-quantity-gap-recovery-20261012",
       "nextMilestone": "State/serialization contract",
       "projectGoal": "Build provenance-aware digital-twin quantity and lineage safeguards.",
-      "queueDepth": 0,
+      "queueDepth": 1,
       "readyForHuman": false,
       "scientificOutput": "No scientific milestone recorded",
-      "sinceHourlyCheckpoint": [],
-      "stage": "Escalation Deferred",
+      "sinceHourlyCheckpoint": [
+        "A new bounded task was queued."
+      ],
+      "stage": "Queued",
       "stageProgress": {
         "completed": 1,
         "total": 3
       },
-      "status": "Blocked",
+      "status": "Queued",
       "summary": "Provenance-aware medical digital-twin infrastructure.",
       "taskChecklist": {
         "completed": 0,
-        "total": 1
+        "total": 2
       },
-      "taskDescription": "Decompose next unfinished PLAN milestone into at most three bounded tasks with relevant files and executable acceptance tests. Write AUTONOMY_NEXT.json; preserve verified work.",
-      "taskStartedAt": "2026-10-12T10:27:02.007427Z",
+      "taskDescription": "Audit accepted quantity and persistence behavior against the authoritative plan and write the uncovered-behavior gap matrix; do not reimplement completed work.",
+      "taskStartedAt": "2026-10-12T23:15:53.882465Z",
       "transfer": null,
-      "updatedAt": "2026-10-12T10:27:02.007427Z"
+      "updatedAt": "2026-10-12T23:15:53.882465Z"
     },
     {
-      "alert": "ORPHANED ROADMAP",
+      "alert": null,
       "blocker": null,
       "currentMilestone": "Audit persistence",
-      "currentTask": "1.1.5-audit-persistence",
+      "currentTask": "trace-papers-contract-recovery-20261012",
       "engineeringOutput": "Bounded task accepted",
       "id": "06",
       "lastMeaningfulProgress": "2026-10-12T16:29:40.632531Z",
       "name": "Trace",
-      "next": null,
+      "next": "trace-papers-contract-recovery-20261012",
       "nextMilestone": "Ingestion-boundary validation",
       "projectGoal": "Persist rights-aware ingestion provenance and audit evidence.",
-      "queueDepth": 0,
+      "queueDepth": 1,
       "readyForHuman": false,
       "scientificOutput": "No scientific milestone recorded",
       "sinceHourlyCheckpoint": [
-        "A bounded task passed deterministic acceptance."
+        "A new bounded task was queued."
       ],
-      "stage": "Escalation Deferred",
+      "stage": "Queued",
       "stageProgress": {
         "completed": 1,
         "total": 3
       },
-      "status": "Blocked",
+      "status": "Queued",
       "summary": "Rights-aware document ingestion and fingerprinting.",
       "taskChecklist": {
         "completed": 0,
-        "total": 1
+        "total": 2
       },
-      "taskDescription": "Ensure upload audit records are persisted to database with proper schema and indexes",
-      "taskStartedAt": "2026-10-12T12:28:59.197745Z",
+      "taskDescription": "Write the bounded Papers integration contract defining evidence, claim, citation, reporting, AI-use, and eight-pass audit artifact interfaces; do not infer clinical results from fixtures.",
+      "taskStartedAt": "2026-10-12T23:15:53.883999Z",
       "transfer": null,
-      "updatedAt": "2026-10-12T12:28:59.197745Z"
+      "updatedAt": "2026-10-12T23:15:53.883999Z"
     },
     {
-      "alert": "ORPHANED ROADMAP",
+      "alert": null,
       "blocker": null,
       "currentMilestone": "Preclinical readiness",
-      "currentTask": "regenerate-plan-393",
+      "currentTask": "teer-validation-matrix-recovery-20261012",
       "engineeringOutput": "Bounded task accepted",
       "id": "07",
       "lastMeaningfulProgress": "2026-10-12T15:52:35.644470Z",
@@ -228,31 +236,33 @@
       "next": null,
       "nextMilestone": "Geometry/QC benchmark",
       "projectGoal": "Build preclinical geometry and QC foundations without clinical-performance claims.",
-      "queueDepth": 0,
+      "queueDepth": 1,
       "readyForHuman": false,
       "scientificOutput": "No scientific milestone recorded",
-      "sinceHourlyCheckpoint": [],
-      "stage": "Escalation Deferred",
+      "sinceHourlyCheckpoint": [
+        "A new bounded task was queued."
+      ],
+      "stage": "Active",
       "stageProgress": {
         "completed": 1,
         "total": 3
       },
-      "status": "Blocked",
+      "status": "Active",
       "summary": "Research-grade valve geometry and decision-support foundations.",
       "taskChecklist": {
         "completed": 0,
         "total": 1
       },
-      "taskDescription": "Decompose next unfinished PLAN milestone into at most three bounded tasks with relevant files and executable acceptance tests. Write AUTONOMY_NEXT.json; preserve verified work.",
-      "taskStartedAt": "2026-10-12T16:23:56.041586Z",
+      "taskDescription": "Write the preclinical placement-validation protocol and observed-endpoint availability matrix; mark unavailable references explicitly and make no clinical-performance claim.",
+      "taskStartedAt": "2026-10-12T23:16:02.676884Z",
       "transfer": null,
-      "updatedAt": "2026-10-12T16:23:56.041586Z"
+      "updatedAt": "2026-10-12T23:16:02.676884Z"
     },
     {
-      "alert": "ORPHANED ROADMAP",
+      "alert": null,
       "blocker": null,
       "currentMilestone": "Evidence screening",
-      "currentTask": "papers-ranked-screen-20261012",
+      "currentTask": "papers-derm001-evidence-screen-recovery-20261012",
       "engineeringOutput": "Bounded task accepted",
       "id": "08",
       "lastMeaningfulProgress": "2026-10-12T16:21:03.989232Z",
@@ -260,43 +270,36 @@
       "next": null,
       "nextMilestone": "Protocol authorization",
       "projectGoal": "Advance a source-backed, outcome-blind evidence pipeline.",
-      "queueDepth": 0,
+      "queueDepth": 1,
       "readyForHuman": false,
       "scientificOutput": "No scientific milestone recorded",
-      "sinceHourlyCheckpoint": [],
-      "stage": "Done",
+      "sinceHourlyCheckpoint": [
+        "A new bounded task was queued."
+      ],
+      "stage": "Active",
       "stageProgress": {
         "completed": 1,
         "total": 6
       },
-      "status": "Ready",
+      "status": "Active",
       "summary": "Evidence mapping and outcome-blind study design.",
       "taskChecklist": {
-        "completed": 1,
+        "completed": 0,
         "total": 1
       },
-      "taskDescription": "Select and screen at most three ranked reservoir candidates using source-linked evidence, recording declines or one justified next investigation. Do not authorize a protocol or claim novelty.",
-      "taskStartedAt": "2026-10-12T16:21:03.989078Z",
+      "taskDescription": "Perform one bounded nearest-work, data/evidence-feasibility, novelty, and journal-fit screen for existing ranked candidate DERM-001. Resolve only to REVISE_ONCE, DECLINE, ARCHIVE_EXTERNAL_DEPENDENCY, or a documented protocol-authorization recommendation; do not authorize a protocol without passing existing gates.",
+      "taskStartedAt": "2026-10-12T23:16:04.918193Z",
       "transfer": null,
-      "updatedAt": "2026-10-12T16:21:03.989078Z"
+      "updatedAt": "2026-10-12T23:16:04.918193Z"
     }
   ],
   "queueHealth": {
-    "orphanedCount": 8,
-    "orphanedRoadmaps": [
-      "AortaPlan",
-      "BCM-Neuromodulation",
-      "CTBone",
-      "EchoNext",
-      "Ditto",
-      "Trace",
-      "TEER",
-      "Papers"
-    ]
+    "orphanedCount": 0,
+    "orphanedRoadmaps": []
   },
   "system": {
     "activeJobs": 0,
-    "autonomy": "FAIL",
+    "autonomy": "PASS",
     "controllerMode": "continuous local",
     "cpuJobs": 0,
     "gpuJobs": 0,
