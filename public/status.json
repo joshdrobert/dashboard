@@ -6,7 +6,7 @@
     "strategicEscalation": "Strategic AI review",
     "technicalEscalation": "Codex"
   },
-  "generatedAt": "2026-10-12T23:50:33.584482Z",
+  "generatedAt": "2026-10-12T23:50:58.332242Z",
   "hourlyCheckpoint": {
     "at": "2026-10-12T23:40:27.439057Z",
     "changes": 2
@@ -94,7 +94,17 @@
       },
       "taskDescription": "Prepare and validate the nonsecret Mac-to-VISION resumable staging bridge before any large authenticated acquisition.",
       "taskStartedAt": "2026-10-12T23:49:53.986989Z",
-      "transfer": null,
+      "transfer": {
+        "active": false,
+        "bytes_expected": 60049983649,
+        "bytes_verified": 9839,
+        "files_expected": 3,
+        "files_verified": 1,
+        "local_bytes": 0,
+        "selected_route": "Authenticated Mac acquisition \u2192 resumable VISION transfer",
+        "state": "STAGING_BLOCKED",
+        "vision_bytes": 9839
+      },
       "updatedAt": "2026-10-12T23:49:53.986989Z"
     },
     {
@@ -209,7 +219,7 @@
       "readyForHuman": false,
       "scientificOutput": "No scientific milestone recorded",
       "sinceHourlyCheckpoint": [],
-      "stage": "Leased",
+      "stage": "Active",
       "stageProgress": {
         "completed": 1,
         "total": 3
@@ -221,9 +231,9 @@
         "total": 1
       },
       "taskDescription": "Create the roadmap-controlled evidence/claim/output audit example, including invalid-claim, retraction, and stale-policy failure paths.",
-      "taskStartedAt": "2026-10-12T23:50:33.574705Z",
+      "taskStartedAt": "2026-10-12T23:50:37.820495Z",
       "transfer": null,
-      "updatedAt": "2026-10-12T23:50:33.574705Z"
+      "updatedAt": "2026-10-12T23:50:37.820495Z"
     },
     {
       "alert": null,
