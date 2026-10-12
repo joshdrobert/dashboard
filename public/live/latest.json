@@ -1,5 +1,5 @@
 {
-  "at": 1791848734.6765141,
+  "at": 1791849034.3814569,
   "projects": {
     "AortaPlan": {
       "progress": "2026-10-12T23:24:23.498946Z",
@@ -8,8 +8,8 @@
     },
     "BCM-Neuromodulation": {
       "progress": "2026-10-12T23:26:45.812969Z",
-      "status": "Active",
-      "task": "bcm-cohort-manifest-tooling-recovery-20261012"
+      "status": "Queued",
+      "task": "bcm-mac-vision-bridge-preflight-20261012"
     },
     "CTBone": {
       "progress": "2026-10-12T23:29:30.442880Z",
@@ -23,13 +23,13 @@
     },
     "EchoNext": {
       "progress": "2026-10-12T23:28:04.381033Z",
-      "status": "Active",
+      "status": "Queued",
       "task": "echonext-clinical-labels-recovery-20261012"
     },
     "Papers": {
       "progress": "2026-10-12T23:24:14.115991Z",
-      "status": "Active",
-      "task": "papers-batch-funnel-recovery-20261012"
+      "status": "Queued",
+      "task": "deep-investigation-cts-001-20261012"
     },
     "TEER": {
       "progress": "2026-10-12T23:16:50.422774Z",
@@ -38,7 +38,7 @@
     },
     "Trace": {
       "progress": "2026-10-12T23:28:43.920013Z",
-      "status": "Queued",
+      "status": "Active",
       "task": "trace-roundtrip-recovery-20261012"
     }
   }

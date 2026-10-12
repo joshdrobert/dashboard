@@ -6,10 +6,10 @@
     "strategicEscalation": "Strategic AI review",
     "technicalEscalation": "Codex"
   },
-  "generatedAt": "2026-10-12T23:45:33.996762Z",
+  "generatedAt": "2026-10-12T23:50:33.584482Z",
   "hourlyCheckpoint": {
     "at": "2026-10-12T23:40:27.439057Z",
-    "changes": 0
+    "changes": 2
   },
   "papers": {
     "analysis": 0,
@@ -18,9 +18,12 @@
     "batchScreening": 1,
     "candidateBank": 400,
     "declined": 10,
-    "deepInvestigations": 0,
+    "deepInvestigations": 3,
+    "deepToAuthorized": 0,
+    "deepToDeclined": 0,
     "externalSubmission": "JOSHUA APPROVAL REQUIRED",
     "manuscripts": 0,
+    "rankedToDeep": 3,
     "rankedViableQueue": 6,
     "readyForHuman": 0,
     "researchPipeline": "AUTONOMOUS",
@@ -64,33 +67,35 @@
       "alert": null,
       "blocker": null,
       "currentMilestone": "Verified staging",
-      "currentTask": "bcm-cohort-manifest-tooling-recovery-20261012",
+      "currentTask": "bcm-mac-vision-bridge-preflight-20261012",
       "engineeringOutput": "Bounded task accepted",
       "id": "02",
       "lastMeaningfulProgress": "2026-10-12T23:26:45.812969Z",
       "name": "BCM-Neuromodulation",
-      "next": null,
+      "next": "bcm-mac-vision-bridge-preflight-20261012",
       "nextMilestone": "Cohort reconciliation",
       "projectGoal": "Stage and reproduce neuromodulation imaging analysis only after verified data access.",
-      "queueDepth": 1,
+      "queueDepth": 2,
       "readyForHuman": false,
       "scientificOutput": "No scientific milestone recorded",
-      "sinceHourlyCheckpoint": [],
-      "stage": "Staging",
+      "sinceHourlyCheckpoint": [
+        "A new bounded task was queued."
+      ],
+      "stage": "Authenticating",
       "stageProgress": {
         "completed": 0,
         "total": 4
       },
-      "status": "Active",
+      "status": "Queued",
       "summary": "Neuromodulation imaging data and cohort reconciliation.",
       "taskChecklist": {
         "completed": 0,
-        "total": 2
+        "total": 1
       },
-      "taskDescription": "Build and validate non-result cohort-manifest tooling from retained Dryad metadata and local artifact manifests; keep cohort reconciliation explicitly pending verified staging.",
-      "taskStartedAt": "2026-10-12T23:43:33.686913Z",
+      "taskDescription": "Prepare and validate the nonsecret Mac-to-VISION resumable staging bridge before any large authenticated acquisition.",
+      "taskStartedAt": "2026-10-12T23:49:53.986989Z",
       "transfer": null,
-      "updatedAt": "2026-10-12T23:43:33.686913Z"
+      "updatedAt": "2026-10-12T23:49:53.986989Z"
     },
     {
       "alert": null,
@@ -133,28 +138,28 @@
       "id": "04",
       "lastMeaningfulProgress": "2026-10-12T23:28:04.381033Z",
       "name": "EchoNext",
-      "next": null,
+      "next": "echonext-clinical-labels-recovery-20261012",
       "nextMilestone": "Patient-level split readiness",
       "projectGoal": "Establish reproducible, patient-linked ECG/echo input contracts before modelling.",
       "queueDepth": 1,
       "readyForHuman": false,
       "scientificOutput": "No scientific milestone recorded",
       "sinceHourlyCheckpoint": [],
-      "stage": "Leased",
+      "stage": "Queued",
       "stageProgress": {
         "completed": 1,
         "total": 3
       },
-      "status": "Active",
+      "status": "Queued",
       "summary": "ECG and echocardiography pipeline validation.",
       "taskChecklist": {
         "completed": 0,
         "total": 1
       },
       "taskDescription": "Write the endpoint/data-availability matrix separating available ECG labels from linked Echo outcomes; defer unavailable paired-data endpoints explicitly.",
-      "taskStartedAt": "2026-10-12T23:45:33.422802Z",
+      "taskStartedAt": "2026-10-12T23:50:30.056822Z",
       "transfer": null,
-      "updatedAt": "2026-10-12T23:45:33.422802Z"
+      "updatedAt": "2026-10-12T23:50:30.056822Z"
     },
     {
       "alert": null,
@@ -197,28 +202,28 @@
       "id": "06",
       "lastMeaningfulProgress": "2026-10-12T23:28:43.920013Z",
       "name": "Trace",
-      "next": "trace-roundtrip-recovery-20261012",
+      "next": null,
       "nextMilestone": "Ingestion-boundary validation",
       "projectGoal": "Persist rights-aware ingestion provenance and audit evidence.",
       "queueDepth": 1,
       "readyForHuman": false,
       "scientificOutput": "No scientific milestone recorded",
       "sinceHourlyCheckpoint": [],
-      "stage": "Queued",
+      "stage": "Leased",
       "stageProgress": {
         "completed": 1,
         "total": 3
       },
-      "status": "Queued",
+      "status": "Active",
       "summary": "Rights-aware document ingestion and fingerprinting.",
       "taskChecklist": {
         "completed": 0,
         "total": 1
       },
       "taskDescription": "Create the roadmap-controlled evidence/claim/output audit example, including invalid-claim, retraction, and stale-policy failure paths.",
-      "taskStartedAt": "2026-10-12T23:43:17.059764Z",
+      "taskStartedAt": "2026-10-12T23:50:33.574705Z",
       "transfer": null,
-      "updatedAt": "2026-10-12T23:43:17.059764Z"
+      "updatedAt": "2026-10-12T23:50:33.574705Z"
     },
     {
       "alert": null,
@@ -256,33 +261,35 @@
       "alert": null,
       "blocker": null,
       "currentMilestone": "Evidence screening",
-      "currentTask": "papers-batch-funnel-recovery-20261012",
+      "currentTask": "deep-investigation-cts-001-20261012",
       "engineeringOutput": "Bounded task accepted",
       "id": "08",
       "lastMeaningfulProgress": "2026-10-12T23:24:14.115991Z",
       "name": "Papers",
-      "next": null,
+      "next": "deep-investigation-cts-001-20261012",
       "nextMilestone": "Protocol authorization",
       "projectGoal": "Advance a source-backed, outcome-blind evidence pipeline.",
-      "queueDepth": 1,
+      "queueDepth": 4,
       "readyForHuman": false,
       "scientificOutput": "No scientific milestone recorded",
-      "sinceHourlyCheckpoint": [],
-      "stage": "Active",
+      "sinceHourlyCheckpoint": [
+        "A new bounded task was queued."
+      ],
+      "stage": "Queued",
       "stageProgress": {
         "completed": 1,
         "total": 6
       },
-      "status": "Active",
+      "status": "Queued",
       "summary": "Evidence mapping and outcome-blind study design.",
       "taskChecklist": {
         "completed": 0,
         "total": 1
       },
-      "taskDescription": "Normalize and classify the existing 400-candidate portfolio into durable funnel states, detect duplicate/prior-decline matches, and prepare a ranked bounded screening batch without authorizing protocols or fabricating evidence.",
-      "taskStartedAt": "2026-10-12T23:43:32.925260Z",
+      "taskDescription": "Deep-investigate the observable timing/validation reformulation of post-cardiac-surgery deterioration-to-rescue signals. Verify current literature/data access, causal limitations, viable endpoint/design, and journal fit; resolve to exactly AUTHORIZE_PROTOCOL, REVISE_ONCE, DECLINE, or ARCHIVE_EXTERNAL_DEPENDENCY.",
+      "taskStartedAt": "2026-10-12T23:49:53.984903Z",
       "transfer": null,
-      "updatedAt": "2026-10-12T23:43:32.925260Z"
+      "updatedAt": "2026-10-12T23:49:53.984903Z"
     }
   ],
   "queueHealth": {
