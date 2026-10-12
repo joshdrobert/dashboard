@@ -12,13 +12,18 @@ function ProgressView({ project }: { project: Project }) {
 }
 
 function ProjectCard({ project }: { project: Project }) {
+  const task = project.taskChecklist
+  const stage = project.stageProgress
   return <article className="card">
     <div className="cardTop"><span className="eyebrow">{project.id}</span><span className={`pill ${project.status.toLowerCase().replaceAll(' ','-')}`}>{project.status}</span></div>
     <h3>{project.name}</h3><p>{project.summary || 'No public-safe summary available.'}</p>
-    <ProgressView project={project} />
+    <div className="goal"><b>Project goal</b>{project.projectGoal || project.summary}</div>
+    <div className="task"><b>Current task</b><span>{project.currentTask || 'No admitted bounded task'}</span>{task && <small>Checklist {task.completed}/{task.total} · {Math.round(100 * task.completed / task.total)}%</small>}</div>
+    {stage && <div className="stageProgress"><span>Stage · {project.currentMilestone}</span><small>{stage.completed}/{stage.total}</small><div className="progress"><i style={{width:`${100 * stage.completed / stage.total}%`}} /></div></div>}
     <dl><div><dt>Job</dt><dd>{project.job ?? '—'}</dd></div><div><dt>Updated</dt><dd>{project.updatedAt ? new Date(project.updatedAt).toLocaleString() : 'Unknown'}</dd></div></dl>
     <dl><div><dt>Queue depth</dt><dd>{project.queueDepth ?? 0}</dd></div><div><dt>Last progress</dt><dd>{project.lastMeaningfulProgress ? new Date(project.lastMeaningfulProgress).toLocaleString() : '—'}</dd></div></dl>
     <div className="outputs"><span><b>Engineering</b>{project.engineeringOutput || '—'}</span><span><b>Scientific</b>{project.scientificOutput || '—'}</span></div>
+    {!!project.sinceHourlyCheckpoint?.length && <div className="hourly"><b>Since hourly check-in</b>{project.sinceHourlyCheckpoint.map((item, i)=><span key={i}>+ {item}</span>)}</div>}
     {project.next && <div className="next"><b>Next</b> {project.next}</div>}
     {project.blocker && <div className="alert"><b>Blocker</b><p>{project.blocker}</p></div>}
     {project.alert && <div className="orphan">{project.alert}</div>}
@@ -41,6 +46,7 @@ export default function App() {
   return <><header><div className="brand"><span className="mark">AI</span><div><b>Research Operations</b><small>Eight-workstream autonomous system</small></div></div><div className="system"><span className={`dot ${error?'bad':''}`} />{error ? 'OFFLINE' : (status?.system?.status || 'LOADING')}<small>{age === 'stale' ? 'STALE SNAPSHOT' : 'PUBLIC · REDACTED'}</small></div></header>
   <main><section className="hero"><div><span className="kicker">SYSTEM CONTROL</span><h1>Autonomous research,<br/><em>visible at a glance.</em></h1><p>Public-safe operational telemetry across eight active medical research workstreams.</p></div><div className="metrics"><div><strong>{status?.system?.autonomy ?? '—'}</strong><span>Portfolio autonomy</span></div><div><strong>{status?.system?.activeJobs ?? '—'}</strong><span>Active jobs</span></div><div><strong>{status?.system?.integrity || '—'}</strong><span>Integrity</span></div></div></section>
   {error && <div className="error">{error} No private data has been requested or exposed.</div>}
+  <section className="panel hour"><div className="sectionTitle"><span>Since last hourly check-in</span><small>{status?.hourlyCheckpoint?.changes ?? 0} MEANINGFUL CHANGES</small></div><p className="muted">Derived from accepted tasks, scientific gates, external compute, and task transitions only.</p></section>
   <div className="sectionTitle"><span>Workstreams</span><small>{projects.length} PROJECTS</small></div><section className="grid">{projects.map(p=><ProjectCard project={p} key={p.id}/>)}</section>
   <section className="split"><DetailPanel title="VISION Compute" data={status?.vision}/><DetailPanel title="Papers & Evidence" data={status?.papers}/></section>
   <section className="panel action"><div className="sectionTitle"><span>Action required</span><small>HUMAN-UNBLOCKABLE ONLY</small></div>{status?.actionRequired?.length ? status.actionRequired.map(item=><div className="readyRow" key={item.project}><b>{item.project}</b><span>{item.instruction}</span></div>) : <p className="muted">No human action is currently required.</p>}</section>

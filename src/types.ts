@@ -21,6 +21,15 @@ export interface Project {
   blocker?: string | null
   engineeringOutput?: string
   scientificOutput?: string
+  projectGoal?: string
+  currentMilestone?: string
+  nextMilestone?: string
+  taskDescription?: string | null
+  taskStartedAt?: string | null
+  taskChecklist?: { completed: number; total: number } | null
+  stageProgress?: { completed: number; total: number } | null
+  sinceHourlyCheckpoint?: string[]
+  transfer?: Record<string, unknown> | null
 }
 
 export interface SystemStatus {
@@ -31,6 +40,7 @@ export interface SystemStatus {
   papers?: Record<string, unknown>
   queueHealth?: { orphanedRoadmaps?: string[]; orphanedCount?: number }
   actionRequired?: Array<{ project: string; instruction: string }>
+  hourlyCheckpoint?: { at?: string | null; changes?: number }
 }
 
 export interface Activity { timestamp?: string; project?: string; message: string; level?: string }
