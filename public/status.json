@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T02:40:49.766384Z",
+  "generatedAt": "2026-10-12T02:54:11.081361Z",
   "papers": {
     "mode": "Outcome-blind evidence review",
     "publication_gate": "Human approval required"
@@ -18,10 +18,10 @@
       "id": "02",
       "name": "BCM-Neuromodulation",
       "readyForHuman": false,
-      "stage": "Queued",
-      "status": "Queued",
+      "stage": "Escalation Deferred",
+      "status": "Blocked",
       "summary": "Neuromodulation imaging data and cohort reconciliation.",
-      "updatedAt": "2026-10-12T02:34:47.103938Z"
+      "updatedAt": "2026-10-12T02:53:39.368025Z"
     },
     {
       "id": "03",
@@ -39,7 +39,7 @@
       "stage": "Active",
       "status": "Active",
       "summary": "ECG and echocardiography pipeline validation.",
-      "updatedAt": "2026-10-12T02:40:49.734600Z"
+      "updatedAt": "2026-10-12T02:52:06.249963Z"
     },
     {
       "id": "05",
@@ -63,10 +63,10 @@
       "id": "07",
       "name": "TEER",
       "readyForHuman": false,
-      "stage": "Failed",
+      "stage": "Escalation Deferred",
       "status": "Blocked",
       "summary": "Research-grade valve geometry and decision-support foundations.",
-      "updatedAt": "2026-10-11T23:48:26.831908Z"
+      "updatedAt": "2026-10-11T23:29:33.924326Z"
     },
     {
       "id": "08",
