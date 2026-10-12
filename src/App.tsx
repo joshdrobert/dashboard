@@ -17,7 +17,11 @@ function ProjectCard({ project }: { project: Project }) {
     <h3>{project.name}</h3><p>{project.summary || 'No public-safe summary available.'}</p>
     <ProgressView project={project} />
     <dl><div><dt>Job</dt><dd>{project.job ?? '—'}</dd></div><div><dt>Updated</dt><dd>{project.updatedAt ? new Date(project.updatedAt).toLocaleString() : 'Unknown'}</dd></div></dl>
+    <dl><div><dt>Queue depth</dt><dd>{project.queueDepth ?? 0}</dd></div><div><dt>Last progress</dt><dd>{project.lastMeaningfulProgress ? new Date(project.lastMeaningfulProgress).toLocaleString() : '—'}</dd></div></dl>
+    <div className="outputs"><span><b>Engineering</b>{project.engineeringOutput || '—'}</span><span><b>Scientific</b>{project.scientificOutput || '—'}</span></div>
     {project.next && <div className="next"><b>Next</b> {project.next}</div>}
+    {project.blocker && <div className="alert"><b>Blocker</b><p>{project.blocker}</p></div>}
+    {project.alert && <div className="orphan">{project.alert}</div>}
   </article>
 }
 
@@ -35,10 +39,11 @@ export default function App() {
   const ready = projects.filter(isReady), alerts = projects.filter(p=>p.alert)
   const age = staleness(status?.generatedAt)
   return <><header><div className="brand"><span className="mark">AI</span><div><b>Research Operations</b><small>Eight-workstream autonomous system</small></div></div><div className="system"><span className={`dot ${error?'bad':''}`} />{error ? 'OFFLINE' : (status?.system?.status || 'LOADING')}<small>{age === 'stale' ? 'STALE SNAPSHOT' : 'PUBLIC · REDACTED'}</small></div></header>
-  <main><section className="hero"><div><span className="kicker">SYSTEM CONTROL</span><h1>Autonomous research,<br/><em>visible at a glance.</em></h1><p>Public-safe operational telemetry across eight active medical research workstreams.</p></div><div className="metrics"><div><strong>{status?.system?.activeJobs ?? '—'}</strong><span>Active jobs</span></div><div><strong>{status?.system?.gpuJobs ?? '—'}</strong><span>GPU jobs</span></div><div><strong>{status?.system?.integrity || '—'}</strong><span>Integrity</span></div></div></section>
+  <main><section className="hero"><div><span className="kicker">SYSTEM CONTROL</span><h1>Autonomous research,<br/><em>visible at a glance.</em></h1><p>Public-safe operational telemetry across eight active medical research workstreams.</p></div><div className="metrics"><div><strong>{status?.system?.autonomy ?? '—'}</strong><span>Portfolio autonomy</span></div><div><strong>{status?.system?.activeJobs ?? '—'}</strong><span>Active jobs</span></div><div><strong>{status?.system?.integrity || '—'}</strong><span>Integrity</span></div></div></section>
   {error && <div className="error">{error} No private data has been requested or exposed.</div>}
   <div className="sectionTitle"><span>Workstreams</span><small>{projects.length} PROJECTS</small></div><section className="grid">{projects.map(p=><ProjectCard project={p} key={p.id}/>)}</section>
   <section className="split"><DetailPanel title="VISION Compute" data={status?.vision}/><DetailPanel title="Papers & Evidence" data={status?.papers}/></section>
+  <section className="panel action"><div className="sectionTitle"><span>Action required</span><small>HUMAN-UNBLOCKABLE ONLY</small></div>{status?.actionRequired?.length ? status.actionRequired.map(item=><div className="readyRow" key={item.project}><b>{item.project}</b><span>{item.instruction}</span></div>) : <p className="muted">No human action is currently required.</p>}</section>
   <section className="lower"><div className="panel ready"><div className="sectionTitle"><span>Ready for human</span><small>EXPLICIT GATE ONLY</small></div>{ready.length ? ready.map(p=><div className="readyRow" key={p.id}><b>{p.name}</b><span>Review requested →</span></div>) : <p className="muted">Nothing is explicitly marked ready for human review.</p>}</div>
   <div className="panel"><div className="sectionTitle"><span>Activity</span><small>LATEST</small></div><div className="feed">{activity.slice(0,6).map((a,i)=><div key={i}><time>{a.timestamp ? new Date(a.timestamp).toLocaleString(): '—'}</time><p><b>{a.project && `${a.project} · `}</b>{a.message}</p></div>)}{!activity.length&&<p className="muted">No public activity published.</p>}</div></div>
   <div className="panel"><div className="sectionTitle"><span>Alerts</span><small>{alerts.length}</small></div>{alerts.map(p=><div className="alert" key={p.id}><b>{p.name}</b><p>{p.alert}</p></div>)}{!alerts.length&&<p className="muted">No active public alerts.</p>}</div></section>

@@ -1,92 +1,171 @@
 {
-  "generatedAt": "2026-10-12T02:56:55.242551Z",
+  "actionRequired": [
+    {
+      "instruction": "Dryad authenticated download credential required. Research queue continues elsewhere.",
+      "project": "BCM-Neuromodulation"
+    }
+  ],
+  "generatedAt": "2026-10-12T03:22:12.926596Z",
   "papers": {
     "mode": "Outcome-blind evidence review",
     "publication_gate": "Human approval required"
   },
   "projects": [
     {
+      "alert": null,
+      "blocker": null,
+      "currentTask": "aortaplan-public-dataset-decision-20261011",
+      "engineeringOutput": "Bounded task accepted",
       "id": "01",
+      "lastMeaningfulProgress": "2026-10-12T00:17:14.830164Z",
       "name": "AortaPlan",
+      "next": null,
+      "queueDepth": 1,
       "readyForHuman": false,
-      "stage": "Escalation Deferred",
-      "status": "Blocked",
+      "scientificOutput": "No scientific milestone recorded",
+      "stage": "Active",
+      "status": "Active",
       "summary": "Public CTA planning and geometry validation.",
-      "updatedAt": "2026-10-12T00:39:59.299355Z"
+      "updatedAt": "2026-10-12T03:22:12.912557Z"
     },
     {
+      "alert": null,
+      "blocker": "Dryad authenticated download credential required.",
+      "currentTask": "vision-dryad-v4-full-stage",
+      "engineeringOutput": "Bounded task accepted",
       "id": "02",
+      "lastMeaningfulProgress": "2026-10-12T00:57:46.388377Z",
       "name": "BCM-Neuromodulation",
-      "readyForHuman": true,
+      "next": null,
+      "queueDepth": 0,
+      "readyForHuman": false,
+      "scientificOutput": "No scientific milestone recorded",
       "stage": "Waiting User",
       "status": "Attention",
       "summary": "Neuromodulation imaging data and cohort reconciliation.",
       "updatedAt": "2026-10-12T02:56:55.242535Z"
     },
     {
+      "alert": null,
+      "blocker": null,
+      "currentTask": "ctbone-label-leakage-audit-20261011",
+      "engineeringOutput": "Bounded task accepted",
       "id": "03",
+      "lastMeaningfulProgress": "2026-10-12T00:28:00.356693Z",
       "name": "CTBone",
+      "next": "ctbone-label-leakage-audit-20261011",
+      "queueDepth": 1,
       "readyForHuman": false,
-      "stage": "Escalation Deferred",
-      "status": "Blocked",
+      "scientificOutput": "No scientific milestone recorded",
+      "stage": "Queued",
+      "status": "Queued",
       "summary": "CT bone biomarker reproducibility and validation.",
-      "updatedAt": "2026-10-12T00:45:57.244964Z"
+      "updatedAt": "2026-10-12T03:22:01.791404Z"
     },
     {
+      "alert": null,
+      "blocker": null,
+      "currentTask": "local-repair-327-1",
+      "engineeringOutput": "Bounded task accepted",
       "id": "04",
+      "lastMeaningfulProgress": "2026-10-12T02:33:47.215471Z",
       "name": "EchoNext",
+      "next": null,
+      "queueDepth": 1,
       "readyForHuman": false,
+      "scientificOutput": "No scientific milestone recorded",
       "stage": "Active",
       "status": "Active",
       "summary": "ECG and echocardiography pipeline validation.",
-      "updatedAt": "2026-10-12T02:52:06.249963Z"
+      "updatedAt": "2026-10-12T03:14:11.870406Z"
     },
     {
+      "alert": null,
+      "blocker": null,
+      "currentTask": "ditto-contract-gap-matrix-20261011",
+      "engineeringOutput": "Bounded task accepted",
       "id": "05",
+      "lastMeaningfulProgress": "2026-10-11T23:52:03.099669Z",
       "name": "Ditto",
+      "next": null,
+      "queueDepth": 1,
       "readyForHuman": false,
-      "stage": "Escalation Deferred",
-      "status": "Blocked",
+      "scientificOutput": "No scientific milestone recorded",
+      "stage": "Active",
+      "status": "Active",
       "summary": "Provenance-aware medical digital-twin infrastructure.",
-      "updatedAt": "2026-10-12T00:02:48.277296Z"
+      "updatedAt": "2026-10-12T03:22:12.368919Z"
     },
     {
+      "alert": null,
+      "blocker": null,
+      "currentTask": "trace-metadata-provenance-gap-20261011",
+      "engineeringOutput": "Bounded task accepted",
       "id": "06",
+      "lastMeaningfulProgress": "2026-10-11T21:48:33.465550Z",
       "name": "Trace",
+      "next": null,
+      "queueDepth": 1,
       "readyForHuman": false,
-      "stage": "Escalation Deferred",
-      "status": "Blocked",
+      "scientificOutput": "No scientific milestone recorded",
+      "stage": "Active",
+      "status": "Active",
       "summary": "Rights-aware document ingestion and fingerprinting.",
-      "updatedAt": "2026-10-11T22:10:18.457485Z"
+      "updatedAt": "2026-10-12T03:22:06.994881Z"
     },
     {
+      "alert": null,
+      "blocker": null,
+      "currentTask": "teer-anatomy-contract-20261011",
+      "engineeringOutput": "Bounded task accepted",
       "id": "07",
+      "lastMeaningfulProgress": "2026-10-11T22:34:41.385170Z",
       "name": "TEER",
+      "next": null,
+      "queueDepth": 1,
       "readyForHuman": false,
-      "stage": "Escalation Deferred",
-      "status": "Blocked",
+      "scientificOutput": "No scientific milestone recorded",
+      "stage": "Active",
+      "status": "Active",
       "summary": "Research-grade valve geometry and decision-support foundations.",
-      "updatedAt": "2026-10-11T23:29:33.924326Z"
+      "updatedAt": "2026-10-12T03:22:11.413764Z"
     },
     {
+      "alert": null,
+      "blocker": null,
+      "currentTask": "papers-evidence-synthesis-fast-lane-20261011",
+      "engineeringOutput": "Bounded task accepted",
       "id": "08",
+      "lastMeaningfulProgress": "2026-10-08T19:36:51.572997Z",
       "name": "Papers",
+      "next": "papers-evidence-synthesis-fast-lane-20261011",
+      "queueDepth": 1,
       "readyForHuman": false,
+      "scientificOutput": "No scientific milestone recorded",
       "stage": "Queued",
       "status": "Queued",
       "summary": "Evidence mapping and outcome-blind study design.",
       "updatedAt": "2026-10-11T21:42:44.020739Z"
     }
   ],
+  "queueHealth": {
+    "orphanedCount": 0,
+    "orphanedRoadmaps": []
+  },
   "system": {
     "activeJobs": 0,
-    "gpuJobs": "Redacted",
+    "autonomy": "DEGRADED",
+    "cpuJobs": 0,
+    "gpuJobs": 0,
     "integrity": "Evidence-gated",
     "status": "Operational"
   },
   "vision": {
     "active_jobs": 0,
     "completed_jobs": 3,
-    "detail": "Aggregate public-safe scheduler state"
+    "cpu_active": 0,
+    "gpu_active": 0,
+    "results_consumed": 3,
+    "results_validated": 3
   }
 }

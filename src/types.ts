@@ -15,6 +15,12 @@ export interface Project {
   job?: string | number | null
   readyForHuman?: boolean
   alert?: string
+  currentTask?: string | null
+  queueDepth?: number
+  lastMeaningfulProgress?: string | null
+  blocker?: string | null
+  engineeringOutput?: string
+  scientificOutput?: string
 }
 
 export interface SystemStatus {
@@ -23,6 +29,8 @@ export interface SystemStatus {
   projects?: Project[]
   vision?: Record<string, unknown>
   papers?: Record<string, unknown>
+  queueHealth?: { orphanedRoadmaps?: string[]; orphanedCount?: number }
+  actionRequired?: Array<{ project: string; instruction: string }>
 }
 
 export interface Activity { timestamp?: string; project?: string; message: string; level?: string }
