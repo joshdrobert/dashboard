@@ -1,5 +1,5 @@
 {
-  "at": 1791848618.4803681,
+  "at": 1791848734.6765141,
   "projects": {
     "AortaPlan": {
       "progress": "2026-10-12T23:24:23.498946Z",
@@ -18,12 +18,12 @@
     },
     "Ditto": {
       "progress": "2026-10-12T23:32:44.184766Z",
-      "status": "Active",
+      "status": "Queued",
       "task": "local-repair-404-2"
     },
     "EchoNext": {
       "progress": "2026-10-12T23:28:04.381033Z",
-      "status": "Queued",
+      "status": "Active",
       "task": "echonext-clinical-labels-recovery-20261012"
     },
     "Papers": {

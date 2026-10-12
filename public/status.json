@@ -6,19 +6,19 @@
     "strategicEscalation": "Strategic AI review",
     "technicalEscalation": "Codex"
   },
-  "generatedAt": "2026-10-12T23:43:37.344725Z",
+  "generatedAt": "2026-10-12T23:45:33.996762Z",
   "hourlyCheckpoint": {
     "at": "2026-10-12T23:40:27.439057Z",
-    "changes": 7
+    "changes": 0
   },
   "papers": {
     "analysis": 0,
     "archivedExternalDependency": 0,
     "authorizedProtocols": 0,
-    "batchScreening": 0,
+    "batchScreening": 1,
     "candidateBank": 400,
     "declined": 10,
-    "deepInvestigations": 1,
+    "deepInvestigations": 0,
     "externalSubmission": "JOSHUA APPROVAL REQUIRED",
     "manuscripts": 0,
     "rankedViableQueue": 6,
@@ -43,9 +43,7 @@
       "queueDepth": 1,
       "readyForHuman": false,
       "scientificOutput": "No scientific milestone recorded",
-      "sinceHourlyCheckpoint": [
-        "A new bounded task was queued."
-      ],
+      "sinceHourlyCheckpoint": [],
       "stage": "Active",
       "stageProgress": {
         "completed": 1,
@@ -77,9 +75,7 @@
       "queueDepth": 1,
       "readyForHuman": false,
       "scientificOutput": "No scientific milestone recorded",
-      "sinceHourlyCheckpoint": [
-        "A new bounded task was queued."
-      ],
+      "sinceHourlyCheckpoint": [],
       "stage": "Staging",
       "stageProgress": {
         "completed": 0,
@@ -111,9 +107,7 @@
       "queueDepth": 1,
       "readyForHuman": false,
       "scientificOutput": "No scientific milestone recorded",
-      "sinceHourlyCheckpoint": [
-        "A new bounded task was queued."
-      ],
+      "sinceHourlyCheckpoint": [],
       "stage": "Queued",
       "stageProgress": {
         "completed": 1,
@@ -139,30 +133,28 @@
       "id": "04",
       "lastMeaningfulProgress": "2026-10-12T23:28:04.381033Z",
       "name": "EchoNext",
-      "next": "echonext-clinical-labels-recovery-20261012",
+      "next": null,
       "nextMilestone": "Patient-level split readiness",
       "projectGoal": "Establish reproducible, patient-linked ECG/echo input contracts before modelling.",
       "queueDepth": 1,
       "readyForHuman": false,
       "scientificOutput": "No scientific milestone recorded",
-      "sinceHourlyCheckpoint": [
-        "A new bounded task was queued."
-      ],
-      "stage": "Queued",
+      "sinceHourlyCheckpoint": [],
+      "stage": "Leased",
       "stageProgress": {
         "completed": 1,
         "total": 3
       },
-      "status": "Queued",
+      "status": "Active",
       "summary": "ECG and echocardiography pipeline validation.",
       "taskChecklist": {
         "completed": 0,
         "total": 1
       },
       "taskDescription": "Write the endpoint/data-availability matrix separating available ECG labels from linked Echo outcomes; defer unavailable paired-data endpoints explicitly.",
-      "taskStartedAt": "2026-10-12T23:43:17.057389Z",
+      "taskStartedAt": "2026-10-12T23:45:33.422802Z",
       "transfer": null,
-      "updatedAt": "2026-10-12T23:43:17.057389Z"
+      "updatedAt": "2026-10-12T23:45:33.422802Z"
     },
     {
       "alert": null,
@@ -173,28 +165,28 @@
       "id": "05",
       "lastMeaningfulProgress": "2026-10-12T23:32:44.184766Z",
       "name": "Ditto",
-      "next": null,
+      "next": "local-repair-404-2",
       "nextMilestone": "State/serialization contract",
       "projectGoal": "Build provenance-aware digital-twin quantity and lineage safeguards.",
       "queueDepth": 1,
       "readyForHuman": false,
       "scientificOutput": "No scientific milestone recorded",
       "sinceHourlyCheckpoint": [],
-      "stage": "Active",
+      "stage": "Queued",
       "stageProgress": {
         "completed": 1,
         "total": 3
       },
-      "status": "Active",
+      "status": "Queued",
       "summary": "Provenance-aware medical digital-twin infrastructure.",
       "taskChecklist": {
         "completed": 0,
         "total": 1
       },
       "taskDescription": "Decompose the recorded failure into a small local repair plan for task 404. Preserve its objective and acceptance checks; write AUTONOMY_NEXT.json.",
-      "taskStartedAt": "2026-10-12T23:43:02.314466Z",
+      "taskStartedAt": "2026-10-12T23:45:31.887267Z",
       "transfer": null,
-      "updatedAt": "2026-10-12T23:43:02.314466Z"
+      "updatedAt": "2026-10-12T23:45:31.887267Z"
     },
     {
       "alert": null,
@@ -211,9 +203,7 @@
       "queueDepth": 1,
       "readyForHuman": false,
       "scientificOutput": "No scientific milestone recorded",
-      "sinceHourlyCheckpoint": [
-        "A new bounded task was queued."
-      ],
+      "sinceHourlyCheckpoint": [],
       "stage": "Queued",
       "stageProgress": {
         "completed": 1,
@@ -245,9 +235,7 @@
       "queueDepth": 1,
       "readyForHuman": false,
       "scientificOutput": "No scientific milestone recorded",
-      "sinceHourlyCheckpoint": [
-        "A new bounded task was queued."
-      ],
+      "sinceHourlyCheckpoint": [],
       "stage": "Active",
       "stageProgress": {
         "completed": 1,
@@ -279,9 +267,7 @@
       "queueDepth": 1,
       "readyForHuman": false,
       "scientificOutput": "No scientific milestone recorded",
-      "sinceHourlyCheckpoint": [
-        "A new bounded task was queued."
-      ],
+      "sinceHourlyCheckpoint": [],
       "stage": "Active",
       "stageProgress": {
         "completed": 1,
