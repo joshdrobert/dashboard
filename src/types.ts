@@ -38,6 +38,7 @@ export interface SystemStatus {
   projects?: Project[]
   vision?: Record<string, unknown>
   papers?: Record<string, unknown>
+  autonomyPolicy?: Record<string, unknown>
   queueHealth?: { orphanedRoadmaps?: string[]; orphanedCount?: number }
   actionRequired?: Array<{ project: string; instruction: string }>
   hourlyCheckpoint?: { at?: string | null; changes?: number }

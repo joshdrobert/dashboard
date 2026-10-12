@@ -1,26 +1,41 @@
 {
   "actionRequired": [],
-  "generatedAt": "2026-10-12T23:16:04.930081Z",
+  "autonomyPolicy": {
+    "human": "Only essential external/user actions",
+    "localResolution": "Evidence lookup",
+    "strategicEscalation": "Strategic AI review",
+    "technicalEscalation": "Codex"
+  },
+  "generatedAt": "2026-10-12T23:43:37.344725Z",
   "hourlyCheckpoint": {
-    "at": "2026-10-12T23:03:51.621658Z",
-    "changes": 8
+    "at": "2026-10-12T23:40:27.439057Z",
+    "changes": 7
   },
   "papers": {
-    "activeInvestigations": 1,
-    "authorizedStudies": 0,
-    "candidateReservoir": 400,
-    "mode": "Outcome-blind evidence review",
-    "publication_gate": "Human approval required"
+    "analysis": 0,
+    "archivedExternalDependency": 0,
+    "authorizedProtocols": 0,
+    "batchScreening": 0,
+    "candidateBank": 400,
+    "declined": 10,
+    "deepInvestigations": 1,
+    "externalSubmission": "JOSHUA APPROVAL REQUIRED",
+    "manuscripts": 0,
+    "rankedViableQueue": 6,
+    "readyForHuman": 0,
+    "researchPipeline": "AUTONOMOUS",
+    "screened": 16,
+    "traceEditorialReview": 0
   },
   "projects": [
     {
       "alert": null,
       "blocker": null,
       "currentMilestone": "Engineering benchmark",
-      "currentTask": "aortaplan-physical-space-recovery-20261012",
+      "currentTask": "aortaplan-topology-qc-recovery-20261012",
       "engineeringOutput": "Bounded task accepted",
       "id": "01",
-      "lastMeaningfulProgress": "2026-10-12T16:20:47.243802Z",
+      "lastMeaningfulProgress": "2026-10-12T23:24:23.498946Z",
       "name": "AortaPlan",
       "next": null,
       "nextMilestone": "Public/authorized real-data decision",
@@ -42,19 +57,19 @@
         "completed": 0,
         "total": 2
       },
-      "taskDescription": "Close remaining physical-coordinate and orthogonal-plane invariants with synthetic ground truth before public-data benchmarking.",
-      "taskStartedAt": "2026-10-12T23:16:03.352367Z",
+      "taskDescription": "Add the next roadmap-required synthetic topology/QC and failure-abstention validation after physical-coordinate acceptance.",
+      "taskStartedAt": "2026-10-12T23:43:32.912322Z",
       "transfer": null,
-      "updatedAt": "2026-10-12T23:16:03.352367Z"
+      "updatedAt": "2026-10-12T23:43:32.912322Z"
     },
     {
       "alert": null,
       "blocker": null,
       "currentMilestone": "Verified staging",
-      "currentTask": "bcm-transfer-failure-classification-20261012",
+      "currentTask": "bcm-cohort-manifest-tooling-recovery-20261012",
       "engineeringOutput": "Bounded task accepted",
       "id": "02",
-      "lastMeaningfulProgress": "2026-10-12T16:21:05.776474Z",
+      "lastMeaningfulProgress": "2026-10-12T23:26:45.812969Z",
       "name": "BCM-Neuromodulation",
       "next": null,
       "nextMilestone": "Cohort reconciliation",
@@ -65,7 +80,7 @@
       "sinceHourlyCheckpoint": [
         "A new bounded task was queued."
       ],
-      "stage": "Data Transfer",
+      "stage": "Staging",
       "stageProgress": {
         "completed": 0,
         "total": 4
@@ -76,28 +91,21 @@
         "completed": 0,
         "total": 2
       },
-      "taskDescription": "Classify the most recent Dryad/VISION transfer failure from retained nonsecret evidence, test a fresh signed-route byte-range validation only if locally renewable OAuth supports it, and otherwise document the resumable Mac-to-VISION handoff. Do not transmit credentials or restart verified files.",
-      "taskStartedAt": "2026-10-12T23:16:04.047626Z",
-      "transfer": {
-        "bytes_expected": 60049983649,
-        "bytes_verified": 9839,
-        "files_expected": 3,
-        "files_verified": 1,
-        "method": "VISION login to fast scratch",
-        "state": "DATA_TRANSFER"
-      },
-      "updatedAt": "2026-10-12T23:16:04.047626Z"
+      "taskDescription": "Build and validate non-result cohort-manifest tooling from retained Dryad metadata and local artifact manifests; keep cohort reconciliation explicitly pending verified staging.",
+      "taskStartedAt": "2026-10-12T23:43:33.686913Z",
+      "transfer": null,
+      "updatedAt": "2026-10-12T23:43:33.686913Z"
     },
     {
       "alert": null,
       "blocker": null,
       "currentMilestone": "Pre-protocol readiness",
-      "currentTask": "ctbone-real-manifest-recovery-20261012",
+      "currentTask": "ctbone-repeatability-recovery-20261012",
       "engineeringOutput": "Bounded task accepted",
       "id": "03",
-      "lastMeaningfulProgress": "2026-10-12T15:59:46.243311Z",
+      "lastMeaningfulProgress": "2026-10-12T23:29:30.442880Z",
       "name": "CTBone",
-      "next": null,
+      "next": "ctbone-repeatability-recovery-20261012",
       "nextMilestone": "Protocol authorization",
       "projectGoal": "Establish a leakage-safe, provenance-complete CT bone study protocol.",
       "queueDepth": 1,
@@ -106,32 +114,32 @@
       "sinceHourlyCheckpoint": [
         "A new bounded task was queued."
       ],
-      "stage": "Active",
+      "stage": "Queued",
       "stageProgress": {
         "completed": 1,
         "total": 3
       },
-      "status": "Active",
+      "status": "Queued",
       "summary": "CT bone biomarker reproducibility and validation.",
       "taskChecklist": {
         "completed": 0,
         "total": 2
       },
-      "taskDescription": "Audit the bounded available real-CT sample and write the roadmap-required provenance manifest; keep all missing outcomes and rights explicit.",
-      "taskStartedAt": "2026-10-12T23:15:58.800836Z",
+      "taskDescription": "Run the accepted extraction twice on the bounded licensed sample and emit the roadmap-required repeatability receipt. Fingerprint inputs/configuration and make no AUC claim.",
+      "taskStartedAt": "2026-10-12T23:43:17.055035Z",
       "transfer": null,
-      "updatedAt": "2026-10-12T23:15:58.800836Z"
+      "updatedAt": "2026-10-12T23:43:17.055035Z"
     },
     {
       "alert": null,
       "blocker": null,
       "currentMilestone": "Input contracts",
-      "currentTask": "echonext-patient-split-recovery-20261012",
+      "currentTask": "echonext-clinical-labels-recovery-20261012",
       "engineeringOutput": "Bounded task accepted",
       "id": "04",
-      "lastMeaningfulProgress": "2026-10-12T16:29:14.289686Z",
+      "lastMeaningfulProgress": "2026-10-12T23:28:04.381033Z",
       "name": "EchoNext",
-      "next": "echonext-patient-split-recovery-20261012",
+      "next": "echonext-clinical-labels-recovery-20261012",
       "nextMilestone": "Patient-level split readiness",
       "projectGoal": "Establish reproducible, patient-linked ECG/echo input contracts before modelling.",
       "queueDepth": 1,
@@ -151,55 +159,53 @@
         "completed": 0,
         "total": 1
       },
-      "taskDescription": "Create the roadmap-required patient split audit preserving ECG/patient identities and rejecting cross-split patient overlap; do not train or report performance.",
-      "taskStartedAt": "2026-10-12T23:15:53.879793Z",
+      "taskDescription": "Write the endpoint/data-availability matrix separating available ECG labels from linked Echo outcomes; defer unavailable paired-data endpoints explicitly.",
+      "taskStartedAt": "2026-10-12T23:43:17.057389Z",
       "transfer": null,
-      "updatedAt": "2026-10-12T23:15:53.879793Z"
+      "updatedAt": "2026-10-12T23:43:17.057389Z"
     },
     {
       "alert": null,
       "blocker": null,
       "currentMilestone": "Lineage safeguards",
-      "currentTask": "ditto-quantity-gap-recovery-20261012",
+      "currentTask": "local-repair-404-2",
       "engineeringOutput": "Bounded task accepted",
       "id": "05",
-      "lastMeaningfulProgress": "2026-10-12T16:21:37.075267Z",
+      "lastMeaningfulProgress": "2026-10-12T23:32:44.184766Z",
       "name": "Ditto",
-      "next": "ditto-quantity-gap-recovery-20261012",
+      "next": null,
       "nextMilestone": "State/serialization contract",
       "projectGoal": "Build provenance-aware digital-twin quantity and lineage safeguards.",
       "queueDepth": 1,
       "readyForHuman": false,
       "scientificOutput": "No scientific milestone recorded",
-      "sinceHourlyCheckpoint": [
-        "A new bounded task was queued."
-      ],
-      "stage": "Queued",
+      "sinceHourlyCheckpoint": [],
+      "stage": "Active",
       "stageProgress": {
         "completed": 1,
         "total": 3
       },
-      "status": "Queued",
+      "status": "Active",
       "summary": "Provenance-aware medical digital-twin infrastructure.",
       "taskChecklist": {
         "completed": 0,
-        "total": 2
+        "total": 1
       },
-      "taskDescription": "Audit accepted quantity and persistence behavior against the authoritative plan and write the uncovered-behavior gap matrix; do not reimplement completed work.",
-      "taskStartedAt": "2026-10-12T23:15:53.882465Z",
+      "taskDescription": "Decompose the recorded failure into a small local repair plan for task 404. Preserve its objective and acceptance checks; write AUTONOMY_NEXT.json.",
+      "taskStartedAt": "2026-10-12T23:43:02.314466Z",
       "transfer": null,
-      "updatedAt": "2026-10-12T23:15:53.882465Z"
+      "updatedAt": "2026-10-12T23:43:02.314466Z"
     },
     {
       "alert": null,
       "blocker": null,
       "currentMilestone": "Audit persistence",
-      "currentTask": "trace-papers-contract-recovery-20261012",
+      "currentTask": "trace-roundtrip-recovery-20261012",
       "engineeringOutput": "Bounded task accepted",
       "id": "06",
-      "lastMeaningfulProgress": "2026-10-12T16:29:40.632531Z",
+      "lastMeaningfulProgress": "2026-10-12T23:28:43.920013Z",
       "name": "Trace",
-      "next": "trace-papers-contract-recovery-20261012",
+      "next": "trace-roundtrip-recovery-20261012",
       "nextMilestone": "Ingestion-boundary validation",
       "projectGoal": "Persist rights-aware ingestion provenance and audit evidence.",
       "queueDepth": 1,
@@ -217,21 +223,21 @@
       "summary": "Rights-aware document ingestion and fingerprinting.",
       "taskChecklist": {
         "completed": 0,
-        "total": 2
+        "total": 1
       },
-      "taskDescription": "Write the bounded Papers integration contract defining evidence, claim, citation, reporting, AI-use, and eight-pass audit artifact interfaces; do not infer clinical results from fixtures.",
-      "taskStartedAt": "2026-10-12T23:15:53.883999Z",
+      "taskDescription": "Create the roadmap-controlled evidence/claim/output audit example, including invalid-claim, retraction, and stale-policy failure paths.",
+      "taskStartedAt": "2026-10-12T23:43:17.059764Z",
       "transfer": null,
-      "updatedAt": "2026-10-12T23:15:53.883999Z"
+      "updatedAt": "2026-10-12T23:43:17.059764Z"
     },
     {
       "alert": null,
       "blocker": null,
       "currentMilestone": "Preclinical readiness",
-      "currentTask": "teer-validation-matrix-recovery-20261012",
+      "currentTask": "teer-geometry-qc-recovery-20261012",
       "engineeringOutput": "Bounded task accepted",
       "id": "07",
-      "lastMeaningfulProgress": "2026-10-12T15:52:35.644470Z",
+      "lastMeaningfulProgress": "2026-10-12T23:16:50.422774Z",
       "name": "TEER",
       "next": null,
       "nextMilestone": "Geometry/QC benchmark",
@@ -253,19 +259,19 @@
         "completed": 0,
         "total": 1
       },
-      "taskDescription": "Write the preclinical placement-validation protocol and observed-endpoint availability matrix; mark unavailable references explicitly and make no clinical-performance claim.",
-      "taskStartedAt": "2026-10-12T23:16:02.676884Z",
+      "taskDescription": "Extend the accepted preclinical geometry QC with bounded coordinate/invariance verification and explicit uncertainty/abstention outputs; no clinical-performance claims.",
+      "taskStartedAt": "2026-10-12T23:43:30.967595Z",
       "transfer": null,
-      "updatedAt": "2026-10-12T23:16:02.676884Z"
+      "updatedAt": "2026-10-12T23:43:30.967595Z"
     },
     {
       "alert": null,
       "blocker": null,
       "currentMilestone": "Evidence screening",
-      "currentTask": "papers-derm001-evidence-screen-recovery-20261012",
+      "currentTask": "papers-batch-funnel-recovery-20261012",
       "engineeringOutput": "Bounded task accepted",
       "id": "08",
-      "lastMeaningfulProgress": "2026-10-12T16:21:03.989232Z",
+      "lastMeaningfulProgress": "2026-10-12T23:24:14.115991Z",
       "name": "Papers",
       "next": null,
       "nextMilestone": "Protocol authorization",
@@ -287,10 +293,10 @@
         "completed": 0,
         "total": 1
       },
-      "taskDescription": "Perform one bounded nearest-work, data/evidence-feasibility, novelty, and journal-fit screen for existing ranked candidate DERM-001. Resolve only to REVISE_ONCE, DECLINE, ARCHIVE_EXTERNAL_DEPENDENCY, or a documented protocol-authorization recommendation; do not authorize a protocol without passing existing gates.",
-      "taskStartedAt": "2026-10-12T23:16:04.918193Z",
+      "taskDescription": "Normalize and classify the existing 400-candidate portfolio into durable funnel states, detect duplicate/prior-decline matches, and prepare a ranked bounded screening batch without authorizing protocols or fabricating evidence.",
+      "taskStartedAt": "2026-10-12T23:43:32.925260Z",
       "transfer": null,
-      "updatedAt": "2026-10-12T23:16:04.918193Z"
+      "updatedAt": "2026-10-12T23:43:32.925260Z"
     }
   ],
   "queueHealth": {
