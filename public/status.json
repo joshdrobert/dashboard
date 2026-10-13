@@ -6,7 +6,7 @@
     "strategicEscalation": "Strategic AI review",
     "technicalEscalation": "Codex"
   },
-  "generatedAt": "2026-10-13T13:34:15.321198Z",
+  "generatedAt": "2026-10-13T13:39:16.621021Z",
   "hourlyCheckpoint": {
     "at": "2026-10-13T13:00:35.039428Z",
     "changes": 0
@@ -18,9 +18,9 @@
     "batchScreening": 0,
     "candidateBank": 400,
     "declined": 10,
-    "deepExecuting": 1,
+    "deepExecuting": 0,
     "deepInvestigations": 1,
-    "deepQueued": 0,
+    "deepQueued": 1,
     "deepToAuthorized": 0,
     "deepToDeclined": 0,
     "externalSubmission": "JOSHUA APPROVAL REQUIRED",
@@ -119,10 +119,10 @@
         "files_expected": 3,
         "files_verified": 1,
         "last_byte_growth": "2026-10-13T12:35:01.902162Z",
-        "last_checked_at": 1791898452.588157,
+        "last_checked_at": 1791898755.239466,
         "last_growth_at": 1791894901.9021618,
-        "local_bytes": 30584864768,
-        "local_percent": 50.9348,
+        "local_bytes": 31792824320,
+        "local_percent": 52.9465,
         "retry_count": 41,
         "selected_route": "Authenticated Mac acquisition \u2192 resumable VISION transfer",
         "state": "DATA_TRANSFER",
@@ -220,9 +220,9 @@
         "total": 1
       },
       "taskDescription": "Implement the next bounded input-contract validation from the accepted preprocessing objective; no training or performance claims.",
-      "taskStartedAt": "2026-10-13T13:30:11.211284Z",
+      "taskStartedAt": "2026-10-13T13:38:51.229490Z",
       "transfer": null,
-      "updatedAt": "2026-10-13T13:30:11.211284Z",
+      "updatedAt": "2026-10-13T13:38:51.229490Z",
       "v1Convergence": {
         "endState": "EchoNext/END_STATE.md",
         "nextGate": "Patient-level split readiness",
@@ -310,9 +310,9 @@
         "total": 1
       },
       "taskDescription": "Implement the next bounded malformed-input fingerprint persistence regression from the accepted durability objective.",
-      "taskStartedAt": "2026-10-13T13:28:28.478146Z",
+      "taskStartedAt": "2026-10-13T13:38:22.991970Z",
       "transfer": null,
-      "updatedAt": "2026-10-13T13:28:28.478146Z",
+      "updatedAt": "2026-10-13T13:38:22.991970Z",
       "v1Convergence": {
         "endState": "Trace/END_STATE.md",
         "nextGate": "Ingestion-boundary validation",
@@ -355,9 +355,9 @@
         "total": 1
       },
       "taskDescription": "Implement the next bounded coordinate/QC regression from the accepted synthetic/preclinical benchmark objective; no clinical-performance claims.",
-      "taskStartedAt": "2026-10-13T13:27:35.074922Z",
+      "taskStartedAt": "2026-10-13T13:37:48.565481Z",
       "transfer": null,
-      "updatedAt": "2026-10-13T13:27:35.074922Z",
+      "updatedAt": "2026-10-13T13:37:48.565481Z",
       "v1Convergence": {
         "endState": "TEER/END_STATE.md",
         "nextGate": "Geometry/QC benchmark",
