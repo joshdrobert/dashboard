@@ -6,10 +6,10 @@
     "strategicEscalation": "Strategic AI review",
     "technicalEscalation": "Codex"
   },
-  "generatedAt": "2026-10-13T12:35:27.795814Z",
+  "generatedAt": "2026-10-13T12:40:30.764837Z",
   "hourlyCheckpoint": {
     "at": "2026-10-13T12:00:17.382403Z",
-    "changes": 1
+    "changes": 2
   },
   "papers": {
     "analysis": 0,
@@ -37,18 +37,20 @@
       "alert": null,
       "blocker": null,
       "currentMilestone": "Engineering benchmark",
-      "currentTask": "regenerate-plan-469",
+      "currentTask": "aortaplan-geometry-receipt-crosscheck-20261013",
       "engineeringOutput": "Bounded task accepted",
       "id": "01",
-      "lastMeaningfulProgress": "2026-10-13T12:29:11.824099Z",
+      "lastMeaningfulProgress": "2026-10-13T12:40:25.895200Z",
       "name": "AortaPlan",
-      "next": "regenerate-plan-469",
+      "next": "aortaplan-geometry-receipt-crosscheck-20261013",
       "nextMilestone": "Public/authorized real-data decision",
       "projectGoal": "Validate legally accessible aortic geometry measurement foundations.",
       "queueDepth": 1,
       "readyForHuman": false,
       "scientificOutput": "No scientific milestone recorded",
-      "sinceHourlyCheckpoint": [],
+      "sinceHourlyCheckpoint": [
+        "A bounded task passed deterministic acceptance."
+      ],
       "stage": "Queued",
       "stageProgress": {
         "completed": 1,
@@ -58,21 +60,33 @@
       "summary": "Public CTA planning and geometry validation.",
       "taskChecklist": {
         "completed": 0,
-        "total": 1
+        "total": 3
       },
-      "taskDescription": "Decompose the recorded failure into a small local repair plan for task 467. Preserve its objective and acceptance checks; write AUTONOMY_NEXT.json.",
-      "taskStartedAt": "2026-10-13T12:29:11.937371Z",
+      "taskDescription": "Cross-check accepted measurement receipt against public geometry benchmark and persist a reproducible regression artifact.",
+      "taskStartedAt": "2026-10-13T12:40:26.768698Z",
       "transfer": null,
-      "updatedAt": "2026-10-13T12:29:11.937371Z"
+      "updatedAt": "2026-10-13T12:40:26.768698Z",
+      "v1Convergence": {
+        "currentMilestone": "Engineering benchmark",
+        "endState": "AortaPlan/END_STATE.md",
+        "nextGate": "Public/authorized real-data decision",
+        "projectState": "AortaPlan/PROJECT_STATE.md",
+        "roadmap": "AortaPlan/ROADMAP_V1.md",
+        "taskProgress": {
+          "completed": 0,
+          "total": 3
+        },
+        "whyThisMatters": "Advances the frozen V1 milestone."
+      }
     },
     {
       "alert": null,
       "blocker": null,
-      "currentMilestone": "Verified staging",
-      "currentTask": "bcm-real-vision-auth-preflight-20261013",
+      "currentMilestone": "DATA_TRANSFER",
+      "currentTask": "Authenticated Mac acquisition + resumable VISION scratch sync",
       "engineeringOutput": "Bounded task accepted",
       "id": "02",
-      "lastMeaningfulProgress": "2026-10-13T01:16:42.440935Z",
+      "lastMeaningfulProgress": "2026-10-13T12:35:01.902162Z",
       "name": "BCM-Neuromodulation",
       "next": null,
       "nextMilestone": "Cohort reconciliation",
@@ -81,31 +95,57 @@
       "readyForHuman": false,
       "scientificOutput": "No scientific milestone recorded",
       "sinceHourlyCheckpoint": [],
-      "stage": "Staging",
+      "stage": "DATA_TRANSFER",
       "stageProgress": {
         "completed": 0,
         "total": 4
       },
-      "status": "Active",
+      "status": "TRANSFER",
       "summary": "Neuromodulation imaging data and cohort reconciliation.",
       "taskChecklist": {
         "completed": 0,
         "total": 1
       },
-      "taskDescription": "Complete the actual authenticated Mac-to-VISION small-artifact preflight after VISION authentication: verify remote scratch existence/writability/quota, resumable transfer, remote byte count, checksum, and cleanup. Do not acquire Data.zip unless every check passes.",
+      "taskDescription": "Acquiring Data.zip locally and synchronizing to VISION scratch.",
       "taskStartedAt": "2026-10-13T12:02:05.477981Z",
       "transfer": {
-        "active": false,
-        "bytes_expected": 60049983649,
+        "acquisition_alive": true,
+        "acquisition_pid": 24274,
+        "active": true,
+        "bytes_expected": 60047113996,
         "bytes_verified": 9839,
+        "expected_bytes": 60047113996,
+        "failure": "VISION_AUTH_REQUIRED",
+        "file_state": "PARTIAL",
         "files_expected": 3,
         "files_verified": 1,
-        "local_bytes": 0,
+        "last_byte_growth": "2026-10-13T12:35:01.902162Z",
+        "last_checked_at": 1791895217.925442,
+        "last_growth_at": 1791894901.9021618,
+        "local_bytes": 16382951424,
+        "local_percent": 27.2835,
+        "retry_count": 41,
         "selected_route": "Authenticated Mac acquisition \u2192 resumable VISION transfer",
-        "state": "STAGING_BLOCKED",
-        "vision_bytes": 9839
+        "state": "DATA_TRANSFER",
+        "sync_alive": false,
+        "sync_pid": null,
+        "verification_state": "PENDING",
+        "vision_bytes": 14638120960,
+        "vision_percent": 24.3777
       },
-      "updatedAt": "2026-10-13T12:02:05.477981Z"
+      "updatedAt": "2026-10-13T12:02:05.477981Z",
+      "v1Convergence": {
+        "currentMilestone": "BCM-V1-M1",
+        "endState": "BCM-Neuromodulation/END_STATE.md",
+        "nextGate": "BCM-V1-M2",
+        "projectState": "BCM-Neuromodulation/PROJECT_STATE.md",
+        "roadmap": "BCM-Neuromodulation/ROADMAP_V1.md",
+        "taskProgress": {
+          "completed": 0,
+          "total": 1
+        },
+        "whyThisMatters": "Closes canonical dataset staging before cohort reconciliation."
+      }
     },
     {
       "alert": null,
@@ -135,56 +175,34 @@
         "total": 1
       },
       "taskDescription": "Add the next bounded regression for explicit unavailable cohort-manifest fields and denominator consistency; no model fitting or clinical claim.",
-      "taskStartedAt": "2026-10-13T12:30:42.030039Z",
+      "taskStartedAt": "2026-10-13T12:40:01.355729Z",
       "transfer": null,
-      "updatedAt": "2026-10-13T12:30:42.030039Z"
-    },
-    {
-      "alert": "ORPHANED ROADMAP",
-      "blocker": null,
-      "currentMilestone": "Input contracts",
-      "currentTask": "local-repair-454-1",
-      "engineeringOutput": "Bounded task accepted",
-      "id": "04",
-      "lastMeaningfulProgress": "2026-10-13T12:35:27.497411Z",
-      "name": "EchoNext",
-      "next": null,
-      "nextMilestone": "Patient-level split readiness",
-      "projectGoal": "Establish reproducible, patient-linked ECG/echo input contracts before modelling.",
-      "queueDepth": 0,
-      "readyForHuman": false,
-      "scientificOutput": "No scientific milestone recorded",
-      "sinceHourlyCheckpoint": [
-        "A bounded task passed deterministic acceptance."
-      ],
-      "stage": "Done",
-      "stageProgress": {
-        "completed": 1,
-        "total": 3
-      },
-      "status": "Ready",
-      "summary": "ECG and echocardiography pipeline validation.",
-      "taskChecklist": {
-        "completed": 1,
-        "total": 1
-      },
-      "taskDescription": "Decompose the recorded failure into a small local repair plan for task 454. Preserve its objective and acceptance checks; write AUTONOMY_NEXT.json.",
-      "taskStartedAt": "2026-10-13T12:35:27.497268Z",
-      "transfer": null,
-      "updatedAt": "2026-10-13T12:35:27.497268Z"
+      "updatedAt": "2026-10-13T12:40:01.355729Z",
+      "v1Convergence": {
+        "currentMilestone": "Pre-protocol readiness",
+        "endState": "CTBone/END_STATE.md",
+        "nextGate": "Protocol authorization",
+        "projectState": "CTBone/PROJECT_STATE.md",
+        "roadmap": "CTBone/ROADMAP_V1.md",
+        "taskProgress": {
+          "completed": 0,
+          "total": 1
+        },
+        "whyThisMatters": "Advances the frozen V1 milestone."
+      }
     },
     {
       "alert": null,
       "blocker": null,
-      "currentMilestone": "Lineage safeguards",
-      "currentTask": "local-repair-468-1",
+      "currentMilestone": "Input contracts",
+      "currentTask": "local-repair-454-2",
       "engineeringOutput": "Bounded task accepted",
-      "id": "05",
-      "lastMeaningfulProgress": "2026-10-13T12:14:32.779136Z",
-      "name": "Ditto",
-      "next": "local-repair-468-1",
-      "nextMilestone": "State/serialization contract",
-      "projectGoal": "Build provenance-aware digital-twin quantity and lineage safeguards.",
+      "id": "04",
+      "lastMeaningfulProgress": "2026-10-13T12:35:27.497411Z",
+      "name": "EchoNext",
+      "next": "local-repair-454-2",
+      "nextMilestone": "Patient-level split readiness",
+      "projectGoal": "Establish reproducible, patient-linked ECG/echo input contracts before modelling.",
       "queueDepth": 1,
       "readyForHuman": false,
       "scientificOutput": "No scientific milestone recorded",
@@ -195,28 +213,40 @@
         "total": 3
       },
       "status": "Queued",
-      "summary": "Provenance-aware medical digital-twin infrastructure.",
+      "summary": "ECG and echocardiography pipeline validation.",
       "taskChecklist": {
         "completed": 0,
         "total": 1
       },
-      "taskDescription": "Decompose the recorded failure into a small local repair plan for task 468. Preserve its objective and acceptance checks; write AUTONOMY_NEXT.json.",
-      "taskStartedAt": "2026-10-13T12:24:48.836199Z",
+      "taskDescription": "Decompose the recorded failure into a small local repair plan for task 454. Preserve its objective and acceptance checks; write AUTONOMY_NEXT.json.",
+      "taskStartedAt": "2026-10-13T12:35:34.912944Z",
       "transfer": null,
-      "updatedAt": "2026-10-13T12:24:48.836199Z"
+      "updatedAt": "2026-10-13T12:35:34.912944Z",
+      "v1Convergence": {
+        "currentMilestone": "Input contracts",
+        "endState": "EchoNext/END_STATE.md",
+        "nextGate": "Patient-level split readiness",
+        "projectState": "EchoNext/PROJECT_STATE.md",
+        "roadmap": "EchoNext/ROADMAP_V1.md",
+        "taskProgress": {
+          "completed": 0,
+          "total": 1
+        },
+        "whyThisMatters": "Advances the frozen V1 milestone."
+      }
     },
     {
       "alert": null,
       "blocker": null,
-      "currentMilestone": "Audit persistence",
-      "currentTask": "trace-malformed-fingerprint-recovery-20261013",
+      "currentMilestone": "Lineage safeguards",
+      "currentTask": "local-repair-468-1",
       "engineeringOutput": "Bounded task accepted",
-      "id": "06",
-      "lastMeaningfulProgress": "2026-10-13T02:44:07.268419Z",
-      "name": "Trace",
+      "id": "05",
+      "lastMeaningfulProgress": "2026-10-13T12:14:32.779136Z",
+      "name": "Ditto",
       "next": null,
-      "nextMilestone": "Ingestion-boundary validation",
-      "projectGoal": "Persist rights-aware ingestion provenance and audit evidence.",
+      "nextMilestone": "State/serialization contract",
+      "projectGoal": "Build provenance-aware digital-twin quantity and lineage safeguards.",
       "queueDepth": 1,
       "readyForHuman": false,
       "scientificOutput": "No scientific milestone recorded",
@@ -227,15 +257,73 @@
         "total": 3
       },
       "status": "Active",
+      "summary": "Provenance-aware medical digital-twin infrastructure.",
+      "taskChecklist": {
+        "completed": 0,
+        "total": 1
+      },
+      "taskDescription": "Decompose the recorded failure into a small local repair plan for task 468. Preserve its objective and acceptance checks; write AUTONOMY_NEXT.json.",
+      "taskStartedAt": "2026-10-13T12:35:44.148062Z",
+      "transfer": null,
+      "updatedAt": "2026-10-13T12:35:44.148062Z",
+      "v1Convergence": {
+        "currentMilestone": "Lineage safeguards",
+        "endState": "Ditto/END_STATE.md",
+        "nextGate": "State/serialization contract",
+        "projectState": "Ditto/PROJECT_STATE.md",
+        "roadmap": "Ditto/ROADMAP_V1.md",
+        "taskProgress": {
+          "completed": 0,
+          "total": 1
+        },
+        "whyThisMatters": "Advances the frozen V1 milestone."
+      }
+    },
+    {
+      "alert": null,
+      "blocker": null,
+      "currentMilestone": "Audit persistence",
+      "currentTask": "local-repair-456-1",
+      "engineeringOutput": "Bounded task accepted",
+      "id": "06",
+      "lastMeaningfulProgress": "2026-10-13T02:44:07.268419Z",
+      "name": "Trace",
+      "next": "local-repair-456-1",
+      "nextMilestone": "Ingestion-boundary validation",
+      "projectGoal": "Persist rights-aware ingestion provenance and audit evidence.",
+      "queueDepth": 1,
+      "readyForHuman": false,
+      "scientificOutput": "No scientific milestone recorded",
+      "sinceHourlyCheckpoint": [
+        "A new bounded task was queued."
+      ],
+      "stage": "Queued",
+      "stageProgress": {
+        "completed": 1,
+        "total": 3
+      },
+      "status": "Queued",
       "summary": "Rights-aware document ingestion and fingerprinting.",
       "taskChecklist": {
         "completed": 0,
         "total": 1
       },
-      "taskDescription": "Implement the next bounded malformed-input fingerprint persistence regression from the accepted durability objective.",
-      "taskStartedAt": "2026-10-13T12:29:26.514889Z",
+      "taskDescription": "Decompose the recorded failure into a small local repair plan for task 456. Preserve its objective and acceptance checks; write AUTONOMY_NEXT.json.",
+      "taskStartedAt": "2026-10-13T12:39:56.071499Z",
       "transfer": null,
-      "updatedAt": "2026-10-13T12:29:26.514889Z"
+      "updatedAt": "2026-10-13T12:39:56.071499Z",
+      "v1Convergence": {
+        "currentMilestone": "Audit persistence",
+        "endState": "Trace/END_STATE.md",
+        "nextGate": "Ingestion-boundary validation",
+        "projectState": "Trace/PROJECT_STATE.md",
+        "roadmap": "Trace/ROADMAP_V1.md",
+        "taskProgress": {
+          "completed": 0,
+          "total": 1
+        },
+        "whyThisMatters": "Advances the frozen V1 milestone."
+      }
     },
     {
       "alert": null,
@@ -253,7 +341,7 @@
       "readyForHuman": false,
       "scientificOutput": "No scientific milestone recorded",
       "sinceHourlyCheckpoint": [],
-      "stage": "Active",
+      "stage": "Verifying",
       "stageProgress": {
         "completed": 1,
         "total": 3
@@ -265,9 +353,21 @@
         "total": 1
       },
       "taskDescription": "Implement the next bounded coordinate/QC regression from the accepted synthetic/preclinical benchmark objective; no clinical-performance claims.",
-      "taskStartedAt": "2026-10-13T12:32:48.712345Z",
+      "taskStartedAt": "2026-10-13T12:40:17.796757Z",
       "transfer": null,
-      "updatedAt": "2026-10-13T12:32:48.712345Z"
+      "updatedAt": "2026-10-13T12:40:17.796757Z",
+      "v1Convergence": {
+        "currentMilestone": "Preclinical readiness",
+        "endState": "TEER/END_STATE.md",
+        "nextGate": "Geometry/QC benchmark",
+        "projectState": "TEER/PROJECT_STATE.md",
+        "roadmap": "TEER/ROADMAP_V1.md",
+        "taskProgress": {
+          "completed": 0,
+          "total": 1
+        },
+        "whyThisMatters": "Advances the frozen V1 milestone."
+      }
     },
     {
       "alert": null,
@@ -299,14 +399,24 @@
       "taskDescription": "Deep-investigate CTS-001 using retained primary source receipts only; exclude unsupported claims and terminate as AUTHORIZE_PROTOCOL, REVISE_ONCE, DECLINE, or ARCHIVE_EXTERNAL_DEPENDENCY.",
       "taskStartedAt": "2026-10-13T11:55:04.296880Z",
       "transfer": null,
-      "updatedAt": "2026-10-13T11:55:04.296880Z"
+      "updatedAt": "2026-10-13T11:55:04.296880Z",
+      "v1Convergence": {
+        "currentMilestone": "Evidence screening",
+        "endState": "Papers/END_STATE.md",
+        "nextGate": "Protocol authorization",
+        "projectState": "Papers/PROJECT_STATE.md",
+        "roadmap": "Papers/ROADMAP_V1.md",
+        "taskProgress": {
+          "completed": 0,
+          "total": 1
+        },
+        "whyThisMatters": "Advances the frozen V1 milestone."
+      }
     }
   ],
   "queueHealth": {
-    "orphanedCount": 1,
-    "orphanedRoadmaps": [
-      "EchoNext"
-    ]
+    "orphanedCount": 0,
+    "orphanedRoadmaps": []
   },
   "system": {
     "activeJobs": 0,
@@ -318,6 +428,11 @@
     "legacyScheduledPrompts": 0,
     "portfolioProjects": 8,
     "status": "Operational"
+  },
+  "v1Convergence": {
+    "enabled": true,
+    "primaryMetric": "frozen milestone acceptance, not task/commit count",
+    "sourceOfTruth": "repo-native END_STATE.md, ROADMAP_V1.md, PROJECT_STATE.md"
   },
   "vision": {
     "active_jobs": 0,

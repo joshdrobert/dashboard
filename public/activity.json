@@ -1,6 +1,26 @@
 [
   {
     "message": "A bounded task passed deterministic acceptance.",
+    "project": "AortaPlan",
+    "timestamp": "2026-10-13T12:40:25.895200Z"
+  },
+  {
+    "message": "A new bounded task was queued.",
+    "project": "Trace",
+    "timestamp": "2026-10-13T12:39:56.071541Z"
+  },
+  {
+    "message": "A new bounded task was queued.",
+    "project": "EchoNext",
+    "timestamp": "2026-10-13T12:35:34.913005Z"
+  },
+  {
+    "message": "A new bounded task was queued.",
+    "project": "EchoNext",
+    "timestamp": "2026-10-13T12:35:32.264784Z"
+  },
+  {
+    "message": "A bounded task passed deterministic acceptance.",
     "project": "EchoNext",
     "timestamp": "2026-10-13T12:35:27.497411Z"
   },
@@ -38,25 +58,5 @@
     "message": "A new bounded task was queued.",
     "project": "AortaPlan",
     "timestamp": "2026-10-13T12:21:57.366718Z"
-  },
-  {
-    "message": "A bounded task passed deterministic acceptance.",
-    "project": "CTBone",
-    "timestamp": "2026-10-13T12:20:28.522891Z"
-  },
-  {
-    "message": "A new bounded task was queued.",
-    "project": "CTBone",
-    "timestamp": "2026-10-13T12:15:05.768564Z"
-  },
-  {
-    "message": "A bounded task passed deterministic acceptance.",
-    "project": "CTBone",
-    "timestamp": "2026-10-13T12:15:00.010439Z"
-  },
-  {
-    "message": "A bounded task passed deterministic acceptance.",
-    "project": "Ditto",
-    "timestamp": "2026-10-13T12:14:32.779136Z"
   }
 ]
