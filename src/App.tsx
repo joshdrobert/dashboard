@@ -3,7 +3,7 @@ import { entries, isReady, progressFor, staleness } from './helpers'
 import type { Activity, Project, SystemStatus } from './types'
 
 const expected = ['AortaPlan','BCM-Neuromodulation','CTBone','EchoNext','Ditto','Trace','TEER','Papers']
-const UI_BUILD_ID = 'local'
+const UI_BUILD_ID = 'd3509a8'
 
 function ProgressView({ project }: { project: Project }) {
   const progress = progressFor(project)
