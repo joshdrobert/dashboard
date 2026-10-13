@@ -1,10 +1,10 @@
 {
-  "at": 1791901716.54745,
+  "at": 1791902017.306339,
   "projects": {
     "AortaPlan": {
-      "progress": "2026-10-13T12:40:25.895200Z",
+      "progress": "2026-10-13T14:28:54.927597Z",
       "status": "Active",
-      "task": "local-repair-486-1"
+      "task": "local-repair-486-2"
     },
     "BCM-Neuromodulation": {
       "progress": "2026-10-13T12:35:01.902162Z",
@@ -22,9 +22,9 @@
       "task": "regenerate-plan-493"
     },
     "EchoNext": {
-      "progress": "2026-10-13T12:45:37.356940Z",
-      "status": "Active",
-      "task": "local-repair-487-1"
+      "progress": "2026-10-13T14:30:12.349247Z",
+      "status": "Queued",
+      "task": "echonext-ptbxl-m1-executable-receipt-20261013"
     },
     "Papers": {
       "progress": "2026-10-13T14:00:48.474935Z",
@@ -33,13 +33,13 @@
     },
     "TEER": {
       "progress": "2026-10-13T13:10:23.733772Z",
-      "status": "Active",
-      "task": "local-repair-455-2"
+      "status": "Ready",
+      "task": "local-repair-455-1"
     },
     "Trace": {
       "progress": "2026-10-13T14:27:00.621282Z",
       "status": "Queued",
-      "task": "trace-real-study-plumbing-audit-20261013"
+      "task": "local-repair-489-2"
     }
   }
 }
