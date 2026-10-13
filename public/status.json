@@ -6,10 +6,10 @@
     "strategicEscalation": "Strategic AI review",
     "technicalEscalation": "Codex"
   },
-  "generatedAt": "2026-10-13T12:20:19.750109Z",
+  "generatedAt": "2026-10-13T12:25:25.083966Z",
   "hourlyCheckpoint": {
     "at": "2026-10-13T12:00:17.382403Z",
-    "changes": 0
+    "changes": 2
   },
   "papers": {
     "analysis": 0,
@@ -18,7 +18,9 @@
     "batchScreening": 1,
     "candidateBank": 400,
     "declined": 10,
+    "deepExecuting": 1,
     "deepInvestigations": 2,
+    "deepQueued": 1,
     "deepToAuthorized": 0,
     "deepToDeclined": 0,
     "externalSubmission": "JOSHUA APPROVAL REQUIRED",
@@ -32,10 +34,10 @@
   },
   "projects": [
     {
-      "alert": "ORPHANED ROADMAP",
+      "alert": null,
       "blocker": null,
       "currentMilestone": "Engineering benchmark",
-      "currentTask": "aortaplan-measurement-receipt-regression-20261013",
+      "currentTask": "local-repair-467-1",
       "engineeringOutput": "Bounded task accepted",
       "id": "01",
       "lastMeaningfulProgress": "2026-10-13T12:13:05.937528Z",
@@ -43,25 +45,27 @@
       "next": null,
       "nextMilestone": "Public/authorized real-data decision",
       "projectGoal": "Validate legally accessible aortic geometry measurement foundations.",
-      "queueDepth": 0,
+      "queueDepth": 1,
       "readyForHuman": false,
       "scientificOutput": "No scientific milestone recorded",
-      "sinceHourlyCheckpoint": [],
-      "stage": "Done",
+      "sinceHourlyCheckpoint": [
+        "A new bounded task was queued."
+      ],
+      "stage": "Active",
       "stageProgress": {
         "completed": 1,
         "total": 3
       },
-      "status": "Ready",
+      "status": "Active",
       "summary": "Public CTA planning and geometry validation.",
       "taskChecklist": {
-        "completed": 1,
+        "completed": 0,
         "total": 1
       },
-      "taskDescription": "Add the next bounded regression for accepted measurement/abstention receipt integrity; no clinical claim.",
-      "taskStartedAt": "2026-10-13T12:13:05.937394Z",
+      "taskDescription": "Decompose the recorded failure into a small local repair plan for task 467. Preserve its objective and acceptance checks; write AUTONOMY_NEXT.json.",
+      "taskStartedAt": "2026-10-13T12:24:56.201935Z",
       "transfer": null,
-      "updatedAt": "2026-10-13T12:13:05.937394Z"
+      "updatedAt": "2026-10-13T12:24:56.201935Z"
     },
     {
       "alert": null,
@@ -109,10 +113,10 @@
       "alert": null,
       "blocker": null,
       "currentMilestone": "Pre-protocol readiness",
-      "currentTask": "regenerate-plan-465",
+      "currentTask": "ctbone-manifest-unavailable-field-regression-20261013",
       "engineeringOutput": "Bounded task accepted",
       "id": "03",
-      "lastMeaningfulProgress": "2026-10-13T12:15:00.010439Z",
+      "lastMeaningfulProgress": "2026-10-13T12:20:28.522891Z",
       "name": "CTBone",
       "next": null,
       "nextMilestone": "Protocol authorization",
@@ -132,10 +136,10 @@
         "completed": 0,
         "total": 1
       },
-      "taskDescription": "Decompose the recorded failure into a small local repair plan for task 459. Preserve its objective and acceptance checks; write AUTONOMY_NEXT.json.",
-      "taskStartedAt": "2026-10-13T12:18:58.020908Z",
+      "taskDescription": "Add the next bounded regression for explicit unavailable cohort-manifest fields and denominator consistency; no model fitting or clinical claim.",
+      "taskStartedAt": "2026-10-13T12:20:40.930846Z",
       "transfer": null,
-      "updatedAt": "2026-10-13T12:18:58.020908Z"
+      "updatedAt": "2026-10-13T12:20:40.930846Z"
     },
     {
       "alert": null,
@@ -165,41 +169,43 @@
         "total": 1
       },
       "taskDescription": "Implement the next bounded input-contract validation from the accepted preprocessing objective; no training or performance claims.",
-      "taskStartedAt": "2026-10-13T12:15:15.115279Z",
+      "taskStartedAt": "2026-10-13T12:24:35.997502Z",
       "transfer": null,
-      "updatedAt": "2026-10-13T12:15:15.115279Z"
+      "updatedAt": "2026-10-13T12:24:35.997502Z"
     },
     {
-      "alert": "ORPHANED ROADMAP",
+      "alert": null,
       "blocker": null,
       "currentMilestone": "Lineage safeguards",
-      "currentTask": "ditto-provenance-conflict-negative-case-20261013",
+      "currentTask": "local-repair-468-1",
       "engineeringOutput": "Bounded task accepted",
       "id": "05",
       "lastMeaningfulProgress": "2026-10-13T12:14:32.779136Z",
       "name": "Ditto",
-      "next": null,
+      "next": "local-repair-468-1",
       "nextMilestone": "State/serialization contract",
       "projectGoal": "Build provenance-aware digital-twin quantity and lineage safeguards.",
-      "queueDepth": 0,
+      "queueDepth": 1,
       "readyForHuman": false,
       "scientificOutput": "No scientific milestone recorded",
-      "sinceHourlyCheckpoint": [],
-      "stage": "Done",
+      "sinceHourlyCheckpoint": [
+        "A new bounded task was queued."
+      ],
+      "stage": "Queued",
       "stageProgress": {
         "completed": 1,
         "total": 3
       },
-      "status": "Ready",
+      "status": "Queued",
       "summary": "Provenance-aware medical digital-twin infrastructure.",
       "taskChecklist": {
-        "completed": 1,
+        "completed": 0,
         "total": 1
       },
-      "taskDescription": "Add the next bounded provenance conflict negative-case after accepted transition validation; preserve uncertainty semantics.",
-      "taskStartedAt": "2026-10-13T12:14:32.778878Z",
+      "taskDescription": "Decompose the recorded failure into a small local repair plan for task 468. Preserve its objective and acceptance checks; write AUTONOMY_NEXT.json.",
+      "taskStartedAt": "2026-10-13T12:24:48.836199Z",
       "transfer": null,
-      "updatedAt": "2026-10-13T12:14:32.778878Z"
+      "updatedAt": "2026-10-13T12:24:48.836199Z"
     },
     {
       "alert": null,
@@ -210,28 +216,28 @@
       "id": "06",
       "lastMeaningfulProgress": "2026-10-13T02:44:07.268419Z",
       "name": "Trace",
-      "next": null,
+      "next": "trace-malformed-fingerprint-recovery-20261013",
       "nextMilestone": "Ingestion-boundary validation",
       "projectGoal": "Persist rights-aware ingestion provenance and audit evidence.",
       "queueDepth": 1,
       "readyForHuman": false,
       "scientificOutput": "No scientific milestone recorded",
       "sinceHourlyCheckpoint": [],
-      "stage": "Active",
+      "stage": "Queued",
       "stageProgress": {
         "completed": 1,
         "total": 3
       },
-      "status": "Active",
+      "status": "Queued",
       "summary": "Rights-aware document ingestion and fingerprinting.",
       "taskChecklist": {
         "completed": 0,
         "total": 1
       },
       "taskDescription": "Implement the next bounded malformed-input fingerprint persistence regression from the accepted durability objective.",
-      "taskStartedAt": "2026-10-13T12:13:26.237474Z",
+      "taskStartedAt": "2026-10-13T12:23:03.839755Z",
       "transfer": null,
-      "updatedAt": "2026-10-13T12:13:26.237474Z"
+      "updatedAt": "2026-10-13T12:23:03.839755Z"
     },
     {
       "alert": null,
@@ -261,9 +267,9 @@
         "total": 1
       },
       "taskDescription": "Implement the next bounded coordinate/QC regression from the accepted synthetic/preclinical benchmark objective; no clinical-performance claims.",
-      "taskStartedAt": "2026-10-13T12:10:47.194631Z",
+      "taskStartedAt": "2026-10-13T12:23:46.356378Z",
       "transfer": null,
-      "updatedAt": "2026-10-13T12:10:47.194631Z"
+      "updatedAt": "2026-10-13T12:23:46.356378Z"
     },
     {
       "alert": null,
@@ -299,17 +305,14 @@
     }
   ],
   "queueHealth": {
-    "orphanedCount": 2,
-    "orphanedRoadmaps": [
-      "AortaPlan",
-      "Ditto"
-    ]
+    "orphanedCount": 0,
+    "orphanedRoadmaps": []
   },
   "system": {
-    "activeJobs": 1,
+    "activeJobs": 0,
     "autonomy": "DEGRADED",
     "controllerMode": "continuous local",
-    "cpuJobs": 1,
+    "cpuJobs": 0,
     "gpuJobs": 0,
     "integrity": "Evidence-gated",
     "legacyScheduledPrompts": 0,
@@ -317,11 +320,25 @@
     "status": "Operational"
   },
   "vision": {
-    "active_jobs": 1,
+    "active_jobs": 0,
+    "active_transfers": 1,
     "completed_jobs": 3,
-    "cpu_active": 1,
+    "cpu_active": 0,
     "gpu_active": 0,
     "results_consumed": 3,
-    "results_validated": 3
+    "results_validated": 3,
+    "slurm": {
+      "completed": 3,
+      "failed": 2,
+      "queued": 0,
+      "running": 0
+    },
+    "transfers": [
+      {
+        "external_id": "mac-vision-datazip-20261013",
+        "id": 9,
+        "state": "RUNNING"
+      }
+    ]
   }
 }

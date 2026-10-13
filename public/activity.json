@@ -1,6 +1,31 @@
 [
   {
     "message": "A new bounded task was queued.",
+    "project": "Ditto",
+    "timestamp": "2026-10-13T12:24:48.836217Z"
+  },
+  {
+    "message": "A new bounded task was queued.",
+    "project": "AortaPlan",
+    "timestamp": "2026-10-13T12:24:48.836058Z"
+  },
+  {
+    "message": "A new bounded task was queued.",
+    "project": "Ditto",
+    "timestamp": "2026-10-13T12:21:57.367025Z"
+  },
+  {
+    "message": "A new bounded task was queued.",
+    "project": "AortaPlan",
+    "timestamp": "2026-10-13T12:21:57.366718Z"
+  },
+  {
+    "message": "A bounded task passed deterministic acceptance.",
+    "project": "CTBone",
+    "timestamp": "2026-10-13T12:20:28.522891Z"
+  },
+  {
+    "message": "A new bounded task was queued.",
     "project": "CTBone",
     "timestamp": "2026-10-13T12:15:05.768564Z"
   },
@@ -33,30 +58,5 @@
     "message": "A new bounded task was queued.",
     "project": "AortaPlan",
     "timestamp": "2026-10-13T11:57:57.786447Z"
-  },
-  {
-    "message": "A new bounded task was queued.",
-    "project": "Papers",
-    "timestamp": "2026-10-13T11:55:04.297499Z"
-  },
-  {
-    "message": "A new bounded task was queued.",
-    "project": "Papers",
-    "timestamp": "2026-10-13T11:55:04.296024Z"
-  },
-  {
-    "message": "A new bounded task was queued.",
-    "project": "Papers",
-    "timestamp": "2026-10-13T11:55:04.294559Z"
-  },
-  {
-    "message": "A bounded task passed deterministic acceptance.",
-    "project": "Ditto",
-    "timestamp": "2026-10-13T11:49:17.100617Z"
-  },
-  {
-    "message": "A bounded task passed deterministic acceptance.",
-    "project": "AortaPlan",
-    "timestamp": "2026-10-13T11:44:10.221835Z"
   }
 ]

@@ -1,10 +1,10 @@
 {
-  "at": 1791894023.6956239,
+  "at": 1791894325.34586,
   "projects": {
     "AortaPlan": {
       "progress": "2026-10-13T12:13:05.937528Z",
-      "status": "Ready",
-      "task": "aortaplan-measurement-receipt-regression-20261013"
+      "status": "Active",
+      "task": "local-repair-467-1"
     },
     "BCM-Neuromodulation": {
       "progress": "2026-10-13T01:16:42.440935Z",
@@ -12,14 +12,14 @@
       "task": "bcm-real-vision-auth-preflight-20261013"
     },
     "CTBone": {
-      "progress": "2026-10-13T12:15:00.010439Z",
+      "progress": "2026-10-13T12:20:28.522891Z",
       "status": "Active",
-      "task": "regenerate-plan-465"
+      "task": "ctbone-manifest-unavailable-field-regression-20261013"
     },
     "Ditto": {
       "progress": "2026-10-13T12:14:32.779136Z",
-      "status": "Ready",
-      "task": "ditto-provenance-conflict-negative-case-20261013"
+      "status": "Queued",
+      "task": "local-repair-468-1"
     },
     "EchoNext": {
       "progress": "2026-10-13T02:52:19.029428Z",
@@ -38,7 +38,7 @@
     },
     "Trace": {
       "progress": "2026-10-13T02:44:07.268419Z",
-      "status": "Active",
+      "status": "Queued",
       "task": "trace-malformed-fingerprint-recovery-20261013"
     }
   }
