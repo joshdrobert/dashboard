@@ -1,46 +1,46 @@
 {
-  "at": 1791848427.4390569,
-  "hour": "20261012T23",
+  "at": 1791889440.009794,
+  "hour": "20261013T11",
   "projects": {
     "AortaPlan": {
-      "progress": "2026-10-12T23:24:23.498946Z",
-      "status": "Blocked",
-      "task": "aortaplan-public-dataset-decision-20261011"
+      "progress": "2026-10-13T01:38:03.750118Z",
+      "status": "Ready",
+      "task": "aortaplan-repeatability-receipt-20261013"
     },
     "BCM-Neuromodulation": {
-      "progress": "2026-10-12T23:26:45.812969Z",
-      "status": "Blocked",
-      "task": "vision-dryad-v4-full-stage"
+      "progress": "2026-10-13T01:16:42.440935Z",
+      "status": "Active",
+      "task": "bcm-real-vision-auth-preflight-20261013"
     },
     "CTBone": {
-      "progress": "2026-10-12T23:29:30.442880Z",
-      "status": "Blocked",
-      "task": "regenerate-plan-392"
+      "progress": "2026-10-13T01:40:32.763097Z",
+      "status": "Ready",
+      "task": "ctbone-extraction-manifest-records-20261013"
     },
     "Ditto": {
-      "progress": "2026-10-12T23:32:44.184766Z",
-      "status": "Active",
-      "task": "local-repair-404-2"
+      "progress": "2026-10-13T01:40:18.407953Z",
+      "status": "Ready",
+      "task": "ditto-provenance-transition-audit-20261013"
     },
     "EchoNext": {
-      "progress": "2026-10-12T23:28:04.381033Z",
-      "status": "Blocked",
-      "task": "regenerate-plan-382"
+      "progress": "2026-10-13T02:52:19.029428Z",
+      "status": "Ready",
+      "task": "local-repair-439-2"
     },
     "Papers": {
-      "progress": "2026-10-12T23:24:14.115991Z",
+      "progress": "2026-10-13T02:08:10.869406Z",
       "status": "Ready",
-      "task": "papers-derm001-evidence-screen-recovery-20261012"
+      "task": "local-repair-442-1"
     },
     "TEER": {
-      "progress": "2026-10-12T23:16:50.422774Z",
-      "status": "Blocked",
-      "task": "regenerate-plan-393"
+      "progress": "2026-10-13T02:11:47.522831Z",
+      "status": "Ready",
+      "task": "local-repair-440-1"
     },
     "Trace": {
-      "progress": "2026-10-12T23:28:43.920013Z",
-      "status": "Blocked",
-      "task": "1.1.5-audit-persistence"
+      "progress": "2026-10-13T02:44:07.268419Z",
+      "status": "Ready",
+      "task": "local-repair-441-2"
     }
   }
 }

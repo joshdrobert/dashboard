@@ -1,45 +1,45 @@
 {
-  "at": 1791849070.1314602,
+  "at": 1791892515.982089,
   "projects": {
     "AortaPlan": {
-      "progress": "2026-10-12T23:24:23.498946Z",
-      "status": "Active",
-      "task": "aortaplan-topology-qc-recovery-20261012"
+      "progress": "2026-10-13T11:44:10.221835Z",
+      "status": "Ready",
+      "task": "aortaplan-abstention-boundary-20261013"
     },
     "BCM-Neuromodulation": {
-      "progress": "2026-10-12T23:26:45.812969Z",
-      "status": "Queued",
-      "task": "bcm-mac-vision-bridge-preflight-20261012"
+      "progress": "2026-10-13T01:16:42.440935Z",
+      "status": "Ready",
+      "task": "bcm-actual-bridge-preflight-20261013"
     },
     "CTBone": {
-      "progress": "2026-10-12T23:29:30.442880Z",
+      "progress": "2026-10-13T11:42:02.448871Z",
       "status": "Queued",
-      "task": "ctbone-repeatability-recovery-20261012"
+      "task": "ctbone-manifest-unavailable-field-regression-20261013"
     },
     "Ditto": {
-      "progress": "2026-10-12T23:32:44.184766Z",
-      "status": "Queued",
-      "task": "local-repair-404-2"
+      "progress": "2026-10-13T11:49:17.100617Z",
+      "status": "Ready",
+      "task": "ditto-transition-negative-case-20261013"
     },
     "EchoNext": {
-      "progress": "2026-10-12T23:28:04.381033Z",
+      "progress": "2026-10-13T02:52:19.029428Z",
       "status": "Queued",
-      "task": "echonext-clinical-labels-recovery-20261012"
+      "task": "echonext-input-contract-recovery-20261013"
     },
     "Papers": {
-      "progress": "2026-10-12T23:24:14.115991Z",
+      "progress": "2026-10-13T11:43:58.171037Z",
       "status": "Queued",
-      "task": "deep-investigation-cts-001-20261012"
+      "task": "deep-investigation-cts-001-receipts-20261013"
     },
     "TEER": {
-      "progress": "2026-10-12T23:16:50.422774Z",
-      "status": "Active",
-      "task": "teer-geometry-qc-recovery-20261012"
+      "progress": "2026-10-13T02:11:47.522831Z",
+      "status": "Queued",
+      "task": "teer-benchmark-coordinate-regression-20261013"
     },
     "Trace": {
-      "progress": "2026-10-12T23:28:43.920013Z",
-      "status": "Active",
-      "task": "trace-roundtrip-recovery-20261012"
+      "progress": "2026-10-13T02:44:07.268419Z",
+      "status": "Queued",
+      "task": "trace-malformed-fingerprint-recovery-20261013"
     }
   }
 }

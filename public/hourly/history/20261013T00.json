@@ -1,0 +1,46 @@
+{
+  "at": 1791849633.474284,
+  "hour": "20261013T00",
+  "projects": {
+    "AortaPlan": {
+      "progress": "2026-10-12T23:58:59.682989Z",
+      "status": "Ready",
+      "task": "aortaplan-topology-qc-recovery-20261012"
+    },
+    "BCM-Neuromodulation": {
+      "progress": "2026-10-12T23:59:13.907579Z",
+      "status": "Active",
+      "task": "bcm-mac-vision-bridge-preflight-20261012"
+    },
+    "CTBone": {
+      "progress": "2026-10-12T23:29:30.442880Z",
+      "status": "Active",
+      "task": "ctbone-repeatability-recovery-20261012"
+    },
+    "Ditto": {
+      "progress": "2026-10-12T23:32:44.184766Z",
+      "status": "Active",
+      "task": "local-repair-404-2"
+    },
+    "EchoNext": {
+      "progress": "2026-10-12T23:59:44.651766Z",
+      "status": "Ready",
+      "task": "echonext-clinical-labels-recovery-20261012"
+    },
+    "Papers": {
+      "progress": "2026-10-12T23:24:14.115991Z",
+      "status": "Queued",
+      "task": "deep-investigation-cts-001-20261012"
+    },
+    "TEER": {
+      "progress": "2026-10-12T23:58:48.680129Z",
+      "status": "Ready",
+      "task": "teer-geometry-qc-recovery-20261012"
+    },
+    "Trace": {
+      "progress": "2026-10-12T23:28:43.920013Z",
+      "status": "Active",
+      "task": "trace-roundtrip-recovery-20261012"
+    }
+  }
+}
