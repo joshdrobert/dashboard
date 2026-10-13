@@ -1,5 +1,5 @@
 {
-  "at": 1791909801.300627,
+  "at": 1791909818.323421,
   "projects": {
     "AortaPlan": {
       "progress": "2026-10-13T14:28:54.927597Z",
@@ -7,9 +7,9 @@
       "task": "local-repair-486-1"
     },
     "BCM-Neuromodulation": {
-      "progress": "2026-10-13T01:16:42.440935Z",
-      "status": "Active",
-      "task": "Local Data.zip integrity verification + cohort reconciliation"
+      "progress": "2026-10-13T12:35:01.902162Z",
+      "status": "TRANSFER",
+      "task": "Authenticated Mac acquisition + resumable VISION scratch sync"
     },
     "CTBone": {
       "progress": "2026-10-13T13:09:45.518199Z",
