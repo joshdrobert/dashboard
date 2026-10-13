@@ -1,17 +1,12 @@
 {
-  "actionRequired": [
-    {
-      "instruction": "VISION requires an authorized non-interactive connection before remote staging can continue.",
-      "project": "BCM-Neuromodulation"
-    }
-  ],
+  "actionRequired": [],
   "autonomyPolicy": {
     "human": "Only essential external/user actions",
     "localResolution": "Evidence lookup",
     "strategicEscalation": "Strategic AI review",
     "technicalEscalation": "Codex"
   },
-  "generatedAt": "2026-10-13T12:00:17.360463Z",
+  "generatedAt": "2026-10-13T12:05:08.515418Z",
   "hourlyCheckpoint": {
     "at": "2026-10-13T12:00:17.382403Z",
     "changes": 0
@@ -84,19 +79,19 @@
       "readyForHuman": false,
       "scientificOutput": "No scientific milestone recorded",
       "sinceHourlyCheckpoint": [],
-      "stage": "Waiting User",
+      "stage": "Staging",
       "stageProgress": {
         "completed": 0,
         "total": 4
       },
-      "status": "Attention",
+      "status": "Active",
       "summary": "Neuromodulation imaging data and cohort reconciliation.",
       "taskChecklist": {
         "completed": 0,
         "total": 1
       },
       "taskDescription": "Complete the actual authenticated Mac-to-VISION small-artifact preflight after VISION authentication: verify remote scratch existence/writability/quota, resumable transfer, remote byte count, checksum, and cleanup. Do not acquire Data.zip unless every check passes.",
-      "taskStartedAt": "2026-10-13T11:58:23.044542Z",
+      "taskStartedAt": "2026-10-13T12:02:05.477981Z",
       "transfer": {
         "active": false,
         "bytes_expected": 60049983649,
@@ -108,7 +103,7 @@
         "state": "STAGING_BLOCKED",
         "vision_bytes": 9839
       },
-      "updatedAt": "2026-10-13T11:58:23.044542Z"
+      "updatedAt": "2026-10-13T12:02:05.477981Z"
     },
     {
       "alert": null,
@@ -170,9 +165,9 @@
         "total": 1
       },
       "taskDescription": "Implement the next bounded input-contract validation from the accepted preprocessing objective; no training or performance claims.",
-      "taskStartedAt": "2026-10-13T11:55:43.649174Z",
+      "taskStartedAt": "2026-10-13T12:04:15.278791Z",
       "transfer": null,
-      "updatedAt": "2026-10-13T11:55:43.649174Z"
+      "updatedAt": "2026-10-13T12:04:15.278791Z"
     },
     {
       "alert": null,
@@ -183,28 +178,28 @@
       "id": "05",
       "lastMeaningfulProgress": "2026-10-13T11:49:17.100617Z",
       "name": "Ditto",
-      "next": "ditto-provenance-conflict-negative-case-20261013",
+      "next": null,
       "nextMilestone": "State/serialization contract",
       "projectGoal": "Build provenance-aware digital-twin quantity and lineage safeguards.",
       "queueDepth": 1,
       "readyForHuman": false,
       "scientificOutput": "No scientific milestone recorded",
       "sinceHourlyCheckpoint": [],
-      "stage": "Queued",
+      "stage": "Active",
       "stageProgress": {
         "completed": 1,
         "total": 3
       },
-      "status": "Queued",
+      "status": "Active",
       "summary": "Provenance-aware medical digital-twin infrastructure.",
       "taskChecklist": {
         "completed": 0,
         "total": 1
       },
       "taskDescription": "Add the next bounded provenance conflict negative-case after accepted transition validation; preserve uncertainty semantics.",
-      "taskStartedAt": "2026-10-13T11:57:57.787543Z",
+      "taskStartedAt": "2026-10-13T12:02:12.741708Z",
       "transfer": null,
-      "updatedAt": "2026-10-13T11:57:57.787543Z"
+      "updatedAt": "2026-10-13T12:02:12.741708Z"
     },
     {
       "alert": null,
@@ -234,9 +229,9 @@
         "total": 1
       },
       "taskDescription": "Implement the next bounded malformed-input fingerprint persistence regression from the accepted durability objective.",
-      "taskStartedAt": "2026-10-13T11:55:26.750263Z",
+      "taskStartedAt": "2026-10-13T12:03:14.905637Z",
       "transfer": null,
-      "updatedAt": "2026-10-13T11:55:26.750263Z"
+      "updatedAt": "2026-10-13T12:03:14.905637Z"
     },
     {
       "alert": null,
@@ -247,28 +242,28 @@
       "id": "07",
       "lastMeaningfulProgress": "2026-10-13T02:11:47.522831Z",
       "name": "TEER",
-      "next": null,
+      "next": "teer-benchmark-coordinate-regression-20261013",
       "nextMilestone": "Geometry/QC benchmark",
       "projectGoal": "Build preclinical geometry and QC foundations without clinical-performance claims.",
       "queueDepth": 1,
       "readyForHuman": false,
       "scientificOutput": "No scientific milestone recorded",
       "sinceHourlyCheckpoint": [],
-      "stage": "Active",
+      "stage": "Queued",
       "stageProgress": {
         "completed": 1,
         "total": 3
       },
-      "status": "Active",
+      "status": "Queued",
       "summary": "Research-grade valve geometry and decision-support foundations.",
       "taskChecklist": {
         "completed": 0,
         "total": 1
       },
       "taskDescription": "Implement the next bounded coordinate/QC regression from the accepted synthetic/preclinical benchmark objective; no clinical-performance claims.",
-      "taskStartedAt": "2026-10-13T11:56:09.978687Z",
+      "taskStartedAt": "2026-10-13T12:02:57.197482Z",
       "transfer": null,
-      "updatedAt": "2026-10-13T11:56:09.978687Z"
+      "updatedAt": "2026-10-13T12:02:57.197482Z"
     },
     {
       "alert": null,
@@ -308,10 +303,10 @@
     "orphanedRoadmaps": []
   },
   "system": {
-    "activeJobs": 0,
+    "activeJobs": 1,
     "autonomy": "DEGRADED",
     "controllerMode": "continuous local",
-    "cpuJobs": 0,
+    "cpuJobs": 1,
     "gpuJobs": 0,
     "integrity": "Evidence-gated",
     "legacyScheduledPrompts": 0,
@@ -319,9 +314,9 @@
     "status": "Operational"
   },
   "vision": {
-    "active_jobs": 0,
+    "active_jobs": 1,
     "completed_jobs": 3,
-    "cpu_active": 0,
+    "cpu_active": 1,
     "gpu_active": 0,
     "results_consumed": 3,
     "results_validated": 3

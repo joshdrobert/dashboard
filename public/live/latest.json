@@ -1,5 +1,5 @@
 {
-  "at": 1791892817.435016,
+  "at": 1791893118.401005,
   "projects": {
     "AortaPlan": {
       "progress": "2026-10-13T11:44:10.221835Z",
@@ -8,7 +8,7 @@
     },
     "BCM-Neuromodulation": {
       "progress": "2026-10-13T01:16:42.440935Z",
-      "status": "Attention",
+      "status": "Active",
       "task": "bcm-real-vision-auth-preflight-20261013"
     },
     "CTBone": {
@@ -18,7 +18,7 @@
     },
     "Ditto": {
       "progress": "2026-10-13T11:49:17.100617Z",
-      "status": "Queued",
+      "status": "Active",
       "task": "ditto-provenance-conflict-negative-case-20261013"
     },
     "EchoNext": {
@@ -33,7 +33,7 @@
     },
     "TEER": {
       "progress": "2026-10-13T02:11:47.522831Z",
-      "status": "Active",
+      "status": "Queued",
       "task": "teer-benchmark-coordinate-regression-20261013"
     },
     "Trace": {
