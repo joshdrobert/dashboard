@@ -1,10 +1,10 @@
 {
-  "at": 1791896736.9411662,
+  "at": 1791897040.5118809,
   "projects": {
     "AortaPlan": {
       "progress": "2026-10-13T12:40:25.895200Z",
       "status": "Queued",
-      "task": "aortaplan-geometry-receipt-crosscheck-20261013"
+      "task": "local-repair-467-2"
     },
     "BCM-Neuromodulation": {
       "progress": "2026-10-13T12:35:01.902162Z",
@@ -12,13 +12,13 @@
       "task": "Authenticated Mac acquisition + resumable VISION scratch sync"
     },
     "CTBone": {
-      "progress": "2026-10-13T12:20:28.522891Z",
-      "status": "Active",
-      "task": "ctbone-manifest-unavailable-field-regression-20261013"
+      "progress": "2026-10-13T13:09:45.518199Z",
+      "status": "Ready",
+      "task": "regenerate-plan-465"
     },
     "Ditto": {
       "progress": "2026-10-13T12:14:32.779136Z",
-      "status": "Queued",
+      "status": "Active",
       "task": "local-repair-468-1"
     },
     "EchoNext": {
@@ -32,7 +32,7 @@
       "task": "local-repair-460-1"
     },
     "TEER": {
-      "progress": "2026-10-13T02:11:47.522831Z",
+      "progress": "2026-10-13T13:10:23.733772Z",
       "status": "Active",
       "task": "teer-benchmark-coordinate-regression-20261013"
     },
