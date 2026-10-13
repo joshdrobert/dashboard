@@ -6,10 +6,10 @@
     "strategicEscalation": "Strategic AI review",
     "technicalEscalation": "Codex"
   },
-  "generatedAt": "2026-10-13T15:23:35.899856Z",
+  "generatedAt": "2026-10-13T15:28:43.946152Z",
   "hourlyCheckpoint": {
     "at": "2026-10-13T15:03:43.222916Z",
-    "changes": 0
+    "changes": 1
   },
   "papers": {
     "analysis": 0,
@@ -119,12 +119,12 @@
         "file_state": "PARTIAL",
         "files_expected": 3,
         "files_verified": 1,
-        "lag_bytes": 41515220992,
+        "lag_bytes": 42521853952,
         "last_byte_growth": "2026-10-13T12:35:01.902162Z",
-        "last_checked_at": 1791905015.904984,
+        "last_checked_at": 1791905323.950801,
         "last_growth_at": 1791894901.9021618,
-        "local_bytes": 56153341952,
-        "local_percent": 93.5155,
+        "local_bytes": 57159974912,
+        "local_percent": 95.1919,
         "retry_count": 41,
         "selected_route": "Authenticated Mac acquisition \u2192 resumable VISION transfer",
         "state": "DATA_TRANSFER",
@@ -382,7 +382,7 @@
       "currentTask": "local-repair-462-2",
       "engineeringOutput": "Bounded task accepted",
       "id": "08",
-      "lastMeaningfulProgress": "2026-10-13T14:42:47.514879Z",
+      "lastMeaningfulProgress": "2026-10-13T15:25:57.811766Z",
       "name": "Papers",
       "next": null,
       "nextMilestone": "Protocol authorization",
@@ -390,7 +390,9 @@
       "queueDepth": 0,
       "readyForHuman": false,
       "scientificOutput": "No scientific milestone recorded",
-      "sinceHourlyCheckpoint": [],
+      "sinceHourlyCheckpoint": [
+        "A bounded task passed deterministic acceptance."
+      ],
       "stage": "Done",
       "stageProgress": {
         "completed": 1,
