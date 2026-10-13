@@ -6,7 +6,7 @@
     "strategicEscalation": "Strategic AI review",
     "technicalEscalation": "Codex"
   },
-  "generatedAt": "2026-10-13T16:38:20.035641Z",
+  "generatedAt": "2026-10-13T16:43:16.393725Z",
   "goodScience": {
     "duplicateStudiesKilled": 2,
     "scientificGatesBypassed": 0,
@@ -165,18 +165,20 @@
         "file_state": "LOCAL_COMPLETE",
         "files_expected": 3,
         "files_verified": 0,
-        "last_checked_at": 1791909490.196169,
+        "last_checked_at": 1791909796.400893,
         "last_growth_at": 1791894901.9021618,
         "local_bytes": 60047113996,
         "local_percent": 100.0,
+        "primary_compute": "MAC",
         "retry_count": 41,
         "selected_route": "Mac-first local execution; optional resumable VISION copy",
         "state": "LOCAL_DATA_VERIFY",
         "sync_health": "PAUSED_MAINTENANCE",
         "sync_pid": null,
-        "verification_state": "PENDING",
+        "verification_state": "LOCAL_ARCHIVE_READY",
         "vision_bytes": 14638120960,
-        "vision_percent": 24.3777
+        "vision_percent": 24.3777,
+        "vision_required": false
       },
       "updatedAt": "2026-10-13T12:02:05.477981Z",
       "v1Convergence": {
