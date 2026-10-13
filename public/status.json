@@ -6,7 +6,7 @@
     "strategicEscalation": "Strategic AI review",
     "technicalEscalation": "Codex"
   },
-  "generatedAt": "2026-10-13T12:50:28.562413Z",
+  "generatedAt": "2026-10-13T12:55:31.220875Z",
   "hourlyCheckpoint": {
     "at": "2026-10-13T12:00:17.382403Z",
     "changes": 0
@@ -118,10 +118,10 @@
         "files_expected": 3,
         "files_verified": 1,
         "last_byte_growth": "2026-10-13T12:35:01.902162Z",
-        "last_checked_at": 1791895826.332455,
+        "last_checked_at": 1791896122.37259,
         "last_growth_at": 1791894901.9021618,
-        "local_bytes": 19134414848,
-        "local_percent": 31.8657,
+        "local_bytes": 20443037696,
+        "local_percent": 34.045,
         "retry_count": 41,
         "selected_route": "Authenticated Mac acquisition \u2192 resumable VISION transfer",
         "state": "DATA_TRANSFER",
@@ -154,28 +154,28 @@
       "id": "03",
       "lastMeaningfulProgress": "2026-10-13T12:20:28.522891Z",
       "name": "CTBone",
-      "next": null,
+      "next": "ctbone-manifest-unavailable-field-regression-20261013",
       "nextMilestone": "Protocol authorization",
       "projectGoal": "Establish a leakage-safe, provenance-complete CT bone study protocol.",
       "queueDepth": 1,
       "readyForHuman": false,
       "scientificOutput": "No scientific milestone recorded",
       "sinceHourlyCheckpoint": [],
-      "stage": "Active",
+      "stage": "Queued",
       "stageProgress": {
         "completed": 1,
         "total": 3
       },
-      "status": "Active",
+      "status": "Queued",
       "summary": "CT bone biomarker reproducibility and validation.",
       "taskChecklist": {
         "completed": 0,
         "total": 1
       },
       "taskDescription": "Add the next bounded regression for explicit unavailable cohort-manifest fields and denominator consistency; no model fitting or clinical claim.",
-      "taskStartedAt": "2026-10-13T12:48:57.391645Z",
+      "taskStartedAt": "2026-10-13T12:50:36.760783Z",
       "transfer": null,
-      "updatedAt": "2026-10-13T12:48:57.391645Z",
+      "updatedAt": "2026-10-13T12:50:36.760783Z",
       "v1Convergence": {
         "currentMilestone": "Pre-protocol readiness",
         "endState": "CTBone/END_STATE.md",
@@ -242,28 +242,28 @@
       "id": "05",
       "lastMeaningfulProgress": "2026-10-13T12:14:32.779136Z",
       "name": "Ditto",
-      "next": "local-repair-468-1",
+      "next": null,
       "nextMilestone": "State/serialization contract",
       "projectGoal": "Build provenance-aware digital-twin quantity and lineage safeguards.",
       "queueDepth": 1,
       "readyForHuman": false,
       "scientificOutput": "No scientific milestone recorded",
       "sinceHourlyCheckpoint": [],
-      "stage": "Queued",
+      "stage": "Active",
       "stageProgress": {
         "completed": 1,
         "total": 3
       },
-      "status": "Queued",
+      "status": "Active",
       "summary": "Provenance-aware medical digital-twin infrastructure.",
       "taskChecklist": {
         "completed": 0,
         "total": 1
       },
       "taskDescription": "Decompose the recorded failure into a small local repair plan for task 468. Preserve its objective and acceptance checks; write AUTONOMY_NEXT.json.",
-      "taskStartedAt": "2026-10-13T12:48:17.455690Z",
+      "taskStartedAt": "2026-10-13T12:50:47.773607Z",
       "transfer": null,
-      "updatedAt": "2026-10-13T12:48:17.455690Z",
+      "updatedAt": "2026-10-13T12:50:47.773607Z",
       "v1Convergence": {
         "currentMilestone": "Lineage safeguards",
         "endState": "Ditto/END_STATE.md",
@@ -305,9 +305,9 @@
         "total": 1
       },
       "taskDescription": "Implement the next bounded malformed-input fingerprint persistence regression from the accepted durability objective.",
-      "taskStartedAt": "2026-10-13T12:45:59.952157Z",
+      "taskStartedAt": "2026-10-13T12:53:37.163476Z",
       "transfer": null,
-      "updatedAt": "2026-10-13T12:45:59.952157Z",
+      "updatedAt": "2026-10-13T12:53:37.163476Z",
       "v1Convergence": {
         "currentMilestone": "Audit persistence",
         "endState": "Trace/END_STATE.md",
