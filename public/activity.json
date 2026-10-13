@@ -1,5 +1,10 @@
 [
   {
+    "message": "A bounded task passed deterministic acceptance.",
+    "project": "Ditto",
+    "timestamp": "2026-10-13T15:06:22.005912Z"
+  },
+  {
     "message": "A new bounded task was queued.",
     "project": "Ditto",
     "timestamp": "2026-10-13T14:58:29.861324Z"
@@ -53,10 +58,5 @@
     "message": "A bounded task passed deterministic acceptance.",
     "project": "AortaPlan",
     "timestamp": "2026-10-13T14:28:54.927597Z"
-  },
-  {
-    "message": "A bounded task passed deterministic acceptance.",
-    "project": "Trace",
-    "timestamp": "2026-10-13T14:27:00.621282Z"
   }
 ]
