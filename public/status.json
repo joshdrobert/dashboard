@@ -6,7 +6,7 @@
     "strategicEscalation": "Strategic AI review",
     "technicalEscalation": "Codex"
   },
-  "generatedAt": "2026-10-13T21:09:52.312174Z",
+  "generatedAt": "2026-10-13T21:14:54.000988Z",
   "goodScience": {
     "duplicateStudiesKilled": 2,
     "scientificGatesBypassed": 0,
@@ -125,20 +125,20 @@
       "name": "BCM-Neuromodulation",
       "next": null,
       "nextMilestone": "Cohort reconciliation",
-      "nextV1Gate": "Validate one participant end-to-end, benchmark the Mac, and launch the full analysis.",
+      "nextV1Gate": "Complete the released-input manifest, run HS002 end-to-end, then launch the seven-participant analysis.",
       "operationalState": "LOCAL_RSA_EXECUTION",
       "plainLanguage": {
         "goal": "Understand how neuromodulation changes how brain networks represent visual information.",
-        "next": "Validate one participant end-to-end, benchmark the Mac, and launch the full analysis.",
-        "now": "Validating the real imaging pipeline on the Mac before launching the seven-participant analysis.",
-        "recentWin": "The exact 26.6 GB input set required by the frozen analysis was extracted and all frozen study artifacts still match their hashes.",
-        "whyItMatters": "The scientific plan is locked; the remaining issue is activating the AFNI software needed for the frozen GLM."
+        "next": "Complete the released-input manifest, run HS002 end-to-end, then launch the seven-participant analysis.",
+        "now": "Running the frozen real-imaging validation on the Mac.",
+        "recentWin": "AFNI 26.3.03 is installed and the AFNI\u2194NiBabel geometry crosscheck passed against the HS002 real dataset.",
+        "whyItMatters": "The frozen plan and compute environment are ready; HS002 still requires the selectively extracted released timing and nuisance regressors for the AFNI GLM gate."
       },
       "projectGoal": "Stage and reproduce neuromodulation imaging analysis only after verified data access.",
       "queueDepth": 0,
       "readyForHuman": false,
       "recentAccomplishments": [],
-      "recentWin": "The exact 26.6 GB input set required by the frozen analysis was extracted and all frozen study artifacts still match their hashes.",
+      "recentWin": "AFNI 26.3.03 is installed and the AFNI\u2194NiBabel geometry crosscheck passed against the HS002 real dataset.",
       "scientificOutput": "No scientific milestone recorded",
       "sinceHourlyCheckpoint": [],
       "stage": "Staging",
@@ -170,7 +170,7 @@
         "files_expected": 3,
         "files_verified": 0,
         "hs003_handling_rule": "NESTED_SESSION_VARIANTS_ONE_PARTICIPANT",
-        "last_checked_at": 1791925792.320197,
+        "last_checked_at": 1791926094.009682,
         "last_growth_at": 1791894901.9021618,
         "local_bytes": 60047113996,
         "local_percent": 100.0,
@@ -216,7 +216,7 @@
       },
       "v1Goal": "Stage and reproduce neuromodulation imaging analysis only after verified data access.",
       "waitingReason": "Optional VISION copy paused during planned maintenance; local BCM work is continuing.",
-      "whyItMatters": "The scientific plan is locked; the remaining issue is activating the AFNI software needed for the frozen GLM."
+      "whyItMatters": "The frozen plan and compute environment are ready; HS002 still requires the selectively extracted released timing and nuisance regressors for the AFNI GLM gate."
     },
     {
       "actionRequired": null,
