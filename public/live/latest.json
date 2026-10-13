@@ -1,5 +1,5 @@
 {
-  "at": 1791903221.722307,
+  "at": 1791903522.2237551,
   "projects": {
     "AortaPlan": {
       "progress": "2026-10-13T14:28:54.927597Z",
@@ -17,9 +17,9 @@
       "task": "ctbone-v1-m1-cohort-denominator-freeze-20261013"
     },
     "Ditto": {
-      "progress": "2026-10-13T14:36:47.562589Z",
+      "progress": "2026-10-13T14:58:27.715833Z",
       "status": "Active",
-      "task": "local-repair-488-2"
+      "task": "regenerate-plan-501"
     },
     "EchoNext": {
       "progress": "2026-10-13T14:30:12.349247Z",

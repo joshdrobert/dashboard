@@ -6,10 +6,10 @@
     "strategicEscalation": "Strategic AI review",
     "technicalEscalation": "Codex"
   },
-  "generatedAt": "2026-10-13T14:53:39.853742Z",
+  "generatedAt": "2026-10-13T14:58:38.646302Z",
   "hourlyCheckpoint": {
     "at": "2026-10-13T14:01:56.248565Z",
-    "changes": 0
+    "changes": 2
   },
   "papers": {
     "analysis": 0,
@@ -119,12 +119,12 @@
         "file_state": "PARTIAL",
         "files_expected": 3,
         "files_verified": 1,
-        "lag_bytes": 34821111808,
+        "lag_bytes": 36087791616,
         "last_byte_growth": "2026-10-13T12:35:01.902162Z",
-        "last_checked_at": 1791903218.82471,
+        "last_checked_at": 1791903514.455356,
         "last_growth_at": 1791894901.9021618,
-        "local_bytes": 49459232768,
-        "local_percent": 82.3674,
+        "local_bytes": 50725912576,
+        "local_percent": 84.4769,
         "retry_count": 41,
         "selected_route": "Authenticated Mac acquisition \u2192 resumable VISION transfer",
         "state": "DATA_TRANSFER",
@@ -244,10 +244,10 @@
       "alert": null,
       "blocker": null,
       "currentMilestone": "Lineage safeguards",
-      "currentTask": "local-repair-488-2",
+      "currentTask": "regenerate-plan-501",
       "engineeringOutput": "Bounded task accepted",
       "id": "05",
-      "lastMeaningfulProgress": "2026-10-13T14:36:47.562589Z",
+      "lastMeaningfulProgress": "2026-10-13T14:58:27.715833Z",
       "name": "Ditto",
       "next": null,
       "nextMilestone": "State/serialization contract",
@@ -255,7 +255,10 @@
       "queueDepth": 1,
       "readyForHuman": false,
       "scientificOutput": "No scientific milestone recorded",
-      "sinceHourlyCheckpoint": [],
+      "sinceHourlyCheckpoint": [
+        "A new bounded task was queued.",
+        "A bounded task passed deterministic acceptance."
+      ],
       "stage": "Active",
       "stageProgress": {
         "completed": 1,
@@ -268,9 +271,9 @@
         "total": 1
       },
       "taskDescription": "Decompose the recorded failure into a small local repair plan for task 488. Preserve its objective and acceptance checks; write AUTONOMY_NEXT.json.",
-      "taskStartedAt": "2026-10-13T14:52:10.317577Z",
+      "taskStartedAt": "2026-10-13T14:58:38.604046Z",
       "transfer": null,
-      "updatedAt": "2026-10-13T14:52:10.317577Z",
+      "updatedAt": "2026-10-13T14:58:38.604046Z",
       "v1Convergence": {
         "endState": "Ditto/END_STATE.md",
         "nextGate": "State/serialization contract",
