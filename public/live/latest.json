@@ -1,5 +1,5 @@
 {
-  "at": 1791904125.1846788,
+  "at": 1791904425.77878,
   "projects": {
     "AortaPlan": {
       "progress": "2026-10-13T14:28:54.927597Z",
@@ -18,8 +18,8 @@
     },
     "Ditto": {
       "progress": "2026-10-13T15:06:22.005912Z",
-      "status": "Queued",
-      "task": "ditto-h1-input-domain-freeze-20261013"
+      "status": "Ready",
+      "task": "regenerate-plan-501"
     },
     "EchoNext": {
       "progress": "2026-10-13T14:30:12.349247Z",
@@ -28,7 +28,7 @@
     },
     "Papers": {
       "progress": "2026-10-13T14:42:47.514879Z",
-      "status": "Queued",
+      "status": "Active",
       "task": "local-repair-460-2"
     },
     "TEER": {
