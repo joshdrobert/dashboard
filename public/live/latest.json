@@ -1,5 +1,5 @@
 {
-  "at": 1791901414.806079,
+  "at": 1791901716.54745,
   "projects": {
     "AortaPlan": {
       "progress": "2026-10-13T12:40:25.895200Z",
@@ -23,7 +23,7 @@
     },
     "EchoNext": {
       "progress": "2026-10-13T12:45:37.356940Z",
-      "status": "Queued",
+      "status": "Active",
       "task": "local-repair-487-1"
     },
     "Papers": {
@@ -37,9 +37,9 @@
       "task": "local-repair-455-2"
     },
     "Trace": {
-      "progress": "2026-10-13T12:45:27.995542Z",
-      "status": "Active",
-      "task": "local-repair-489-1"
+      "progress": "2026-10-13T14:27:00.621282Z",
+      "status": "Queued",
+      "task": "trace-real-study-plumbing-audit-20261013"
     }
   }
 }
