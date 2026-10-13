@@ -6,7 +6,7 @@
     "strategicEscalation": "Strategic AI review",
     "technicalEscalation": "Codex"
   },
-  "generatedAt": "2026-10-13T13:54:22.577368Z",
+  "generatedAt": "2026-10-13T13:59:23.094610Z",
   "hourlyCheckpoint": {
     "at": "2026-10-13T13:00:35.039428Z",
     "changes": 0
@@ -18,14 +18,14 @@
     "batchScreening": 0,
     "candidateBank": 400,
     "declined": 10,
-    "deepExecuting": 1,
-    "deepInvestigations": 1,
+    "deepExecuting": 0,
+    "deepInvestigations": 0,
     "deepQueued": 0,
     "deepToAuthorized": 0,
     "deepToDeclined": 0,
     "externalSubmission": "JOSHUA APPROVAL REQUIRED",
     "manuscripts": 0,
-    "rankedToDeep": 1,
+    "rankedToDeep": 0,
     "rankedViableQueue": 6,
     "readyForHuman": 0,
     "researchPipeline": "AUTONOMOUS",
@@ -119,10 +119,10 @@
         "files_expected": 3,
         "files_verified": 1,
         "last_byte_growth": "2026-10-13T12:35:01.902162Z",
-        "last_checked_at": 1791899662.582122,
+        "last_checked_at": 1791899958.63804,
         "last_growth_at": 1791894901.9021618,
-        "local_bytes": 35450257408,
-        "local_percent": 59.0374,
+        "local_bytes": 36482056192,
+        "local_percent": 60.7557,
         "retry_count": 41,
         "selected_route": "Authenticated Mac acquisition \u2192 resumable VISION transfer",
         "state": "DATA_TRANSFER",
@@ -220,9 +220,9 @@
         "total": 1
       },
       "taskDescription": "Implement the next bounded input-contract validation from the accepted preprocessing objective; no training or performance claims.",
-      "taskStartedAt": "2026-10-13T13:53:51.493032Z",
+      "taskStartedAt": "2026-10-13T13:58:38.340055Z",
       "transfer": null,
-      "updatedAt": "2026-10-13T13:53:51.493032Z",
+      "updatedAt": "2026-10-13T13:58:38.340055Z",
       "v1Convergence": {
         "endState": "EchoNext/END_STATE.md",
         "nextGate": "Patient-level split readiness",
@@ -283,10 +283,10 @@
       }
     },
     {
-      "alert": null,
+      "alert": "ORPHANED ROADMAP",
       "blocker": null,
       "currentMilestone": "Audit persistence",
-      "currentTask": "local-repair-456-2",
+      "currentTask": "local-repair-456-1",
       "engineeringOutput": "Bounded task accepted",
       "id": "06",
       "lastMeaningfulProgress": "2026-10-13T12:45:27.995542Z",
@@ -294,25 +294,25 @@
       "next": null,
       "nextMilestone": "Ingestion-boundary validation",
       "projectGoal": "Persist rights-aware ingestion provenance and audit evidence.",
-      "queueDepth": 1,
+      "queueDepth": 0,
       "readyForHuman": false,
       "scientificOutput": "No scientific milestone recorded",
       "sinceHourlyCheckpoint": [],
-      "stage": "Active",
+      "stage": "Done",
       "stageProgress": {
         "completed": 1,
         "total": 3
       },
-      "status": "Active",
+      "status": "Ready",
       "summary": "Rights-aware document ingestion and fingerprinting.",
       "taskChecklist": {
-        "completed": 0,
+        "completed": 1,
         "total": 1
       },
       "taskDescription": "Decompose the recorded failure into a small local repair plan for task 456. Preserve its objective and acceptance checks; write AUTONOMY_NEXT.json.",
-      "taskStartedAt": "2026-10-13T13:54:19.261754Z",
+      "taskStartedAt": "2026-10-13T12:45:27.995141Z",
       "transfer": null,
-      "updatedAt": "2026-10-13T13:54:19.261754Z",
+      "updatedAt": "2026-10-13T12:45:27.995141Z",
       "v1Convergence": {
         "endState": "Trace/END_STATE.md",
         "nextGate": "Ingestion-boundary validation",
@@ -321,7 +321,7 @@
         "projectState": "Trace/PROJECT_STATE.md",
         "roadmap": "Trace/ROADMAP_V1.md",
         "taskProgress": {
-          "completed": 0,
+          "completed": 1,
           "total": 1
         },
         "whyThisMatters": "Advances the frozen V1 milestone."
@@ -376,12 +376,12 @@
       "alert": null,
       "blocker": null,
       "currentMilestone": "Evidence screening",
-      "currentTask": "local-repair-461-1",
+      "currentTask": "local-repair-462-1",
       "engineeringOutput": "Bounded task accepted",
       "id": "08",
       "lastMeaningfulProgress": "2026-10-13T11:43:58.171037Z",
       "name": "Papers",
-      "next": "local-repair-461-1",
+      "next": "local-repair-462-1",
       "nextMilestone": "Protocol authorization",
       "projectGoal": "Advance a source-backed, outcome-blind evidence pipeline.",
       "queueDepth": 3,
@@ -399,10 +399,10 @@
         "completed": 0,
         "total": 1
       },
-      "taskDescription": "Decompose the recorded failure into a small local repair plan for task 461. Preserve its objective and acceptance checks; write AUTONOMY_NEXT.json.",
-      "taskStartedAt": "2026-10-13T13:28:33.838253Z",
+      "taskDescription": "Decompose the recorded failure into a small local repair plan for task 462. Preserve its objective and acceptance checks; write AUTONOMY_NEXT.json.",
+      "taskStartedAt": "2026-10-13T13:56:22.490766Z",
       "transfer": null,
-      "updatedAt": "2026-10-13T13:28:33.838253Z",
+      "updatedAt": "2026-10-13T13:56:22.490766Z",
       "v1Convergence": {
         "endState": "Papers/END_STATE.md",
         "nextGate": "Protocol authorization",
@@ -419,10 +419,11 @@
     }
   ],
   "queueHealth": {
-    "orphanedCount": 2,
+    "orphanedCount": 3,
     "orphanedRoadmaps": [
       "AortaPlan",
-      "Ditto"
+      "Ditto",
+      "Trace"
     ]
   },
   "system": {
