@@ -6,7 +6,7 @@
     "strategicEscalation": "Strategic AI review",
     "technicalEscalation": "Codex"
   },
-  "generatedAt": "2026-10-13T12:05:08.515418Z",
+  "generatedAt": "2026-10-13T12:10:19.096432Z",
   "hourlyCheckpoint": {
     "at": "2026-10-13T12:00:17.382403Z",
     "changes": 0
@@ -40,28 +40,28 @@
       "id": "01",
       "lastMeaningfulProgress": "2026-10-13T11:44:10.221835Z",
       "name": "AortaPlan",
-      "next": null,
+      "next": "aortaplan-measurement-receipt-regression-20261013",
       "nextMilestone": "Public/authorized real-data decision",
       "projectGoal": "Validate legally accessible aortic geometry measurement foundations.",
       "queueDepth": 1,
       "readyForHuman": false,
       "scientificOutput": "No scientific milestone recorded",
       "sinceHourlyCheckpoint": [],
-      "stage": "Active",
+      "stage": "Queued",
       "stageProgress": {
         "completed": 1,
         "total": 3
       },
-      "status": "Active",
+      "status": "Queued",
       "summary": "Public CTA planning and geometry validation.",
       "taskChecklist": {
         "completed": 0,
         "total": 1
       },
       "taskDescription": "Add the next bounded regression for accepted measurement/abstention receipt integrity; no clinical claim.",
-      "taskStartedAt": "2026-10-13T12:00:13.915505Z",
+      "taskStartedAt": "2026-10-13T12:10:01.681811Z",
       "transfer": null,
-      "updatedAt": "2026-10-13T12:00:13.915505Z"
+      "updatedAt": "2026-10-13T12:10:01.681811Z"
     },
     {
       "alert": null,
@@ -242,28 +242,28 @@
       "id": "07",
       "lastMeaningfulProgress": "2026-10-13T02:11:47.522831Z",
       "name": "TEER",
-      "next": "teer-benchmark-coordinate-regression-20261013",
+      "next": null,
       "nextMilestone": "Geometry/QC benchmark",
       "projectGoal": "Build preclinical geometry and QC foundations without clinical-performance claims.",
       "queueDepth": 1,
       "readyForHuman": false,
       "scientificOutput": "No scientific milestone recorded",
       "sinceHourlyCheckpoint": [],
-      "stage": "Queued",
+      "stage": "Verifying",
       "stageProgress": {
         "completed": 1,
         "total": 3
       },
-      "status": "Queued",
+      "status": "Active",
       "summary": "Research-grade valve geometry and decision-support foundations.",
       "taskChecklist": {
         "completed": 0,
         "total": 1
       },
       "taskDescription": "Implement the next bounded coordinate/QC regression from the accepted synthetic/preclinical benchmark objective; no clinical-performance claims.",
-      "taskStartedAt": "2026-10-13T12:02:57.197482Z",
+      "taskStartedAt": "2026-10-13T12:10:15.966349Z",
       "transfer": null,
-      "updatedAt": "2026-10-13T12:02:57.197482Z"
+      "updatedAt": "2026-10-13T12:10:15.966349Z"
     },
     {
       "alert": null,
