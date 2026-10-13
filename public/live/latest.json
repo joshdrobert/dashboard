@@ -1,15 +1,15 @@
 {
-  "at": 1791894325.34586,
+  "at": 1791894627.072725,
   "projects": {
     "AortaPlan": {
-      "progress": "2026-10-13T12:13:05.937528Z",
-      "status": "Active",
-      "task": "local-repair-467-1"
+      "progress": "2026-10-13T12:29:11.824099Z",
+      "status": "Queued",
+      "task": "regenerate-plan-469"
     },
     "BCM-Neuromodulation": {
-      "progress": "2026-10-13T01:16:42.440935Z",
-      "status": "Active",
-      "task": "bcm-real-vision-auth-preflight-20261013"
+      "progress": "2026-10-13T12:30:17.096869Z",
+      "status": "TRANSFER",
+      "task": "Authenticated Mac acquisition + resumable VISION scratch sync"
     },
     "CTBone": {
       "progress": "2026-10-13T12:20:28.522891Z",
@@ -38,7 +38,7 @@
     },
     "Trace": {
       "progress": "2026-10-13T02:44:07.268419Z",
-      "status": "Queued",
+      "status": "Active",
       "task": "trace-malformed-fingerprint-recovery-20261013"
     }
   }

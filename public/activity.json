@@ -1,6 +1,16 @@
 [
   {
     "message": "A new bounded task was queued.",
+    "project": "AortaPlan",
+    "timestamp": "2026-10-13T12:29:11.937403Z"
+  },
+  {
+    "message": "A bounded task passed deterministic acceptance.",
+    "project": "AortaPlan",
+    "timestamp": "2026-10-13T12:29:11.824099Z"
+  },
+  {
+    "message": "A new bounded task was queued.",
     "project": "Ditto",
     "timestamp": "2026-10-13T12:24:48.836217Z"
   },
@@ -48,15 +58,5 @@
     "message": "A new bounded task was queued.",
     "project": "CTBone",
     "timestamp": "2026-10-13T12:00:03.683905Z"
-  },
-  {
-    "message": "A new bounded task was queued.",
-    "project": "Ditto",
-    "timestamp": "2026-10-13T11:57:57.788095Z"
-  },
-  {
-    "message": "A new bounded task was queued.",
-    "project": "AortaPlan",
-    "timestamp": "2026-10-13T11:57:57.786447Z"
   }
 ]
