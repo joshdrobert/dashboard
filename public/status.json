@@ -6,7 +6,7 @@
     "strategicEscalation": "Strategic AI review",
     "technicalEscalation": "Codex"
   },
-  "generatedAt": "2026-10-13T18:57:56.246601Z",
+  "generatedAt": "2026-10-13T19:02:36.346775Z",
   "goodScience": {
     "duplicateStudiesKilled": 2,
     "scientificGatesBypassed": 0,
@@ -14,7 +14,7 @@
     "unsupportedCausalClaimsPromoted": 0
   },
   "hourlyCheckpoint": {
-    "at": "2026-10-13T18:04:05.145562Z",
+    "at": "2026-10-13T19:02:36.660350Z",
     "changes": 0
   },
   "papers": {
@@ -125,20 +125,20 @@
       "name": "BCM-Neuromodulation",
       "next": null,
       "nextMilestone": "Cohort reconciliation",
-      "nextV1Gate": "Determine exactly which participants, runs, and networks are present, freeze the cohort, and lock the RSA plan.",
+      "nextV1Gate": "Selectively extract the frozen RSA inputs and run the Mac smoke test.",
       "operationalState": "SAP_FREEZE",
       "plainLanguage": {
         "goal": "Understand how neuromodulation changes how brain networks represent visual information.",
-        "next": "Determine exactly which participants, runs, and networks are present, freeze the cohort, and lock the RSA plan.",
-        "now": "Reconciling the verified public dataset with the eight-participant source study.",
-        "recentWin": "The complete source archive passed both ZIP integrity and SHA-256 verification.",
-        "whyItMatters": "The intact official release can now be analyzed entirely on the Mac without waiting for VISION."
+        "next": "Selectively extract the frozen RSA inputs and run the Mac smoke test.",
+        "now": "The public cohort and released-data gray-matter analysis mask are frozen; the RSA plan is locked before outcomes.",
+        "recentWin": "The complete source archive passed both ZIP integrity and SHA-256 verification, and all seven public participants met the technical inclusion rules.",
+        "whyItMatters": "The primary analysis can proceed locally without waiting for VISION; source-defined network labels remain a deferred secondary limitation."
       },
       "projectGoal": "Stage and reproduce neuromodulation imaging analysis only after verified data access.",
       "queueDepth": 0,
       "readyForHuman": false,
       "recentAccomplishments": [],
-      "recentWin": "The complete source archive passed both ZIP integrity and SHA-256 verification.",
+      "recentWin": "The complete source archive passed both ZIP integrity and SHA-256 verification, and all seven public participants met the technical inclusion rules.",
       "scientificOutput": "No scientific milestone recorded",
       "sinceHourlyCheckpoint": [],
       "stage": "Staging",
@@ -169,7 +169,7 @@
         "files_expected": 3,
         "files_verified": 0,
         "hs003_handling_rule": "NESTED_SESSION_VARIANTS_ONE_PARTICIPANT",
-        "last_checked_at": 1791917876.2540202,
+        "last_checked_at": 1791918148.692808,
         "last_growth_at": 1791894901.9021618,
         "local_bytes": 60047113996,
         "local_percent": 100.0,
@@ -214,7 +214,7 @@
       },
       "v1Goal": "Stage and reproduce neuromodulation imaging analysis only after verified data access.",
       "waitingReason": "Optional VISION copy paused during planned maintenance; local BCM work is continuing.",
-      "whyItMatters": "The intact official release can now be analyzed entirely on the Mac without waiting for VISION."
+      "whyItMatters": "The primary analysis can proceed locally without waiting for VISION; source-defined network labels remain a deferred secondary limitation."
     },
     {
       "actionRequired": null,
