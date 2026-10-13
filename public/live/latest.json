@@ -1,5 +1,5 @@
 {
-  "at": 1791897040.5118809,
+  "at": 1791897253.256466,
   "projects": {
     "AortaPlan": {
       "progress": "2026-10-13T12:40:25.895200Z",
@@ -13,17 +13,17 @@
     },
     "CTBone": {
       "progress": "2026-10-13T13:09:45.518199Z",
-      "status": "Ready",
-      "task": "regenerate-plan-465"
+      "status": "Queued",
+      "task": "ctbone-v1-m1-cohort-denominator-freeze-20261013"
     },
     "Ditto": {
       "progress": "2026-10-13T12:14:32.779136Z",
-      "status": "Active",
+      "status": "Queued",
       "task": "local-repair-468-1"
     },
     "EchoNext": {
       "progress": "2026-10-13T12:45:37.356940Z",
-      "status": "Active",
+      "status": "Queued",
       "task": "echonext-input-contract-recovery-20261013"
     },
     "Papers": {
@@ -33,12 +33,12 @@
     },
     "TEER": {
       "progress": "2026-10-13T13:10:23.733772Z",
-      "status": "Active",
+      "status": "Queued",
       "task": "teer-benchmark-coordinate-regression-20261013"
     },
     "Trace": {
       "progress": "2026-10-13T12:45:27.995542Z",
-      "status": "Active",
+      "status": "Queued",
       "task": "trace-malformed-fingerprint-recovery-20261013"
     }
   }

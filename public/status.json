@@ -6,10 +6,10 @@
     "strategicEscalation": "Strategic AI review",
     "technicalEscalation": "Codex"
   },
-  "generatedAt": "2026-10-13T13:10:39.664999Z",
+  "generatedAt": "2026-10-13T13:14:12.927513Z",
   "hourlyCheckpoint": {
     "at": "2026-10-13T13:00:35.039428Z",
-    "changes": 3
+    "changes": 1
   },
   "papers": {
     "analysis": 0,
@@ -18,9 +18,9 @@
     "batchScreening": 0,
     "candidateBank": 400,
     "declined": 10,
-    "deepExecuting": 1,
+    "deepExecuting": 0,
     "deepInvestigations": 2,
-    "deepQueued": 1,
+    "deepQueued": 2,
     "deepToAuthorized": 0,
     "deepToDeclined": 0,
     "externalSubmission": "JOSHUA APPROVAL REQUIRED",
@@ -48,9 +48,7 @@
       "queueDepth": 1,
       "readyForHuman": false,
       "scientificOutput": "No scientific milestone recorded",
-      "sinceHourlyCheckpoint": [
-        "A new bounded task was queued."
-      ],
+      "sinceHourlyCheckpoint": [],
       "stage": "Queued",
       "stageProgress": {
         "completed": 1,
@@ -67,9 +65,10 @@
       "transfer": null,
       "updatedAt": "2026-10-13T13:10:06.958449Z",
       "v1Convergence": {
-        "currentMilestone": "Engineering benchmark",
         "endState": "AortaPlan/END_STATE.md",
         "nextGate": "Public/authorized real-data decision",
+        "nextMilestonePreparation": "Public/authorized real-data decision",
+        "officialCurrentMilestone": "AORTA-V1-M3",
         "projectState": "AortaPlan/PROJECT_STATE.md",
         "roadmap": "AortaPlan/ROADMAP_V1.md",
         "taskProgress": {
@@ -120,10 +119,10 @@
         "files_expected": 3,
         "files_verified": 1,
         "last_byte_growth": "2026-10-13T12:35:01.902162Z",
-        "last_checked_at": 1791897029.0180109,
+        "last_checked_at": 1791897248.850691,
         "last_growth_at": 1791894901.9021618,
-        "local_bytes": 24125636608,
-        "local_percent": 40.1778,
+        "local_bytes": 24956108800,
+        "local_percent": 41.5609,
         "retry_count": 41,
         "selected_route": "Authenticated Mac acquisition \u2192 resumable VISION transfer",
         "state": "DATA_TRANSFER",
@@ -135,9 +134,10 @@
       },
       "updatedAt": "2026-10-13T12:02:05.477981Z",
       "v1Convergence": {
-        "currentMilestone": "BCM-V1-M1",
         "endState": "BCM-Neuromodulation/END_STATE.md",
         "nextGate": "BCM-V1-M2",
+        "nextMilestonePreparation": "BCM-V1-M2",
+        "officialCurrentMilestone": "BCM-V1-M1",
         "projectState": "BCM-Neuromodulation/PROJECT_STATE.md",
         "roadmap": "BCM-Neuromodulation/ROADMAP_V1.md",
         "taskProgress": {
@@ -148,47 +148,48 @@
       }
     },
     {
-      "alert": "ORPHANED ROADMAP",
+      "alert": null,
       "blocker": null,
       "currentMilestone": "Pre-protocol readiness",
-      "currentTask": "regenerate-plan-465",
+      "currentTask": "ctbone-v1-m1-cohort-denominator-freeze-20261013",
       "engineeringOutput": "Bounded task accepted",
       "id": "03",
       "lastMeaningfulProgress": "2026-10-13T13:09:45.518199Z",
       "name": "CTBone",
-      "next": null,
+      "next": "ctbone-v1-m1-cohort-denominator-freeze-20261013",
       "nextMilestone": "Protocol authorization",
       "projectGoal": "Establish a leakage-safe, provenance-complete CT bone study protocol.",
-      "queueDepth": 0,
+      "queueDepth": 1,
       "readyForHuman": false,
       "scientificOutput": "No scientific milestone recorded",
       "sinceHourlyCheckpoint": [
-        "A bounded task passed deterministic acceptance."
+        "A new bounded task was queued."
       ],
-      "stage": "Done",
+      "stage": "Queued",
       "stageProgress": {
         "completed": 1,
         "total": 3
       },
-      "status": "Ready",
+      "status": "Queued",
       "summary": "CT bone biomarker reproducibility and validation.",
       "taskChecklist": {
-        "completed": 1,
-        "total": 1
+        "completed": 0,
+        "total": 4
       },
-      "taskDescription": "Decompose the recorded failure into a small local repair plan for task 459. Preserve its objective and acceptance checks; write AUTONOMY_NEXT.json.",
-      "taskStartedAt": "2026-10-13T12:20:28.522750Z",
+      "taskDescription": "Close CTB-V1-M1 with cohort membership, patient/region denominator, endpoint mapping, and frozen manifest/hash.",
+      "taskStartedAt": "2026-10-13T13:12:56.621925Z",
       "transfer": null,
-      "updatedAt": "2026-10-13T12:20:28.522750Z",
+      "updatedAt": "2026-10-13T13:12:56.621925Z",
       "v1Convergence": {
-        "currentMilestone": "Pre-protocol readiness",
         "endState": "CTBone/END_STATE.md",
         "nextGate": "Protocol authorization",
+        "nextMilestonePreparation": "Protocol authorization",
+        "officialCurrentMilestone": "CTB-V1-M1",
         "projectState": "CTBone/PROJECT_STATE.md",
         "roadmap": "CTBone/ROADMAP_V1.md",
         "taskProgress": {
-          "completed": 1,
-          "total": 1
+          "completed": 0,
+          "total": 4
         },
         "whyThisMatters": "Advances the frozen V1 milestone."
       }
@@ -202,32 +203,33 @@
       "id": "04",
       "lastMeaningfulProgress": "2026-10-13T12:45:37.356940Z",
       "name": "EchoNext",
-      "next": null,
+      "next": "echonext-input-contract-recovery-20261013",
       "nextMilestone": "Patient-level split readiness",
       "projectGoal": "Establish reproducible, patient-linked ECG/echo input contracts before modelling.",
       "queueDepth": 1,
       "readyForHuman": false,
       "scientificOutput": "No scientific milestone recorded",
       "sinceHourlyCheckpoint": [],
-      "stage": "Active",
+      "stage": "Queued",
       "stageProgress": {
         "completed": 1,
         "total": 3
       },
-      "status": "Active",
+      "status": "Queued",
       "summary": "ECG and echocardiography pipeline validation.",
       "taskChecklist": {
         "completed": 0,
         "total": 1
       },
       "taskDescription": "Implement the next bounded input-contract validation from the accepted preprocessing objective; no training or performance claims.",
-      "taskStartedAt": "2026-10-13T13:05:04.826747Z",
+      "taskStartedAt": "2026-10-13T13:14:12.217716Z",
       "transfer": null,
-      "updatedAt": "2026-10-13T13:05:04.826747Z",
+      "updatedAt": "2026-10-13T13:14:12.217716Z",
       "v1Convergence": {
-        "currentMilestone": "Input contracts",
         "endState": "EchoNext/END_STATE.md",
         "nextGate": "Patient-level split readiness",
+        "nextMilestonePreparation": "Patient-level split readiness",
+        "officialCurrentMilestone": "ECHO-V1-M1",
         "projectState": "EchoNext/PROJECT_STATE.md",
         "roadmap": "EchoNext/ROADMAP_V1.md",
         "taskProgress": {
@@ -246,32 +248,33 @@
       "id": "05",
       "lastMeaningfulProgress": "2026-10-13T12:14:32.779136Z",
       "name": "Ditto",
-      "next": null,
+      "next": "local-repair-468-1",
       "nextMilestone": "State/serialization contract",
       "projectGoal": "Build provenance-aware digital-twin quantity and lineage safeguards.",
       "queueDepth": 1,
       "readyForHuman": false,
       "scientificOutput": "No scientific milestone recorded",
       "sinceHourlyCheckpoint": [],
-      "stage": "Active",
+      "stage": "Queued",
       "stageProgress": {
         "completed": 1,
         "total": 3
       },
-      "status": "Active",
+      "status": "Queued",
       "summary": "Provenance-aware medical digital-twin infrastructure.",
       "taskChecklist": {
         "completed": 0,
         "total": 1
       },
       "taskDescription": "Decompose the recorded failure into a small local repair plan for task 468. Preserve its objective and acceptance checks; write AUTONOMY_NEXT.json.",
-      "taskStartedAt": "2026-10-13T13:06:12.564103Z",
+      "taskStartedAt": "2026-10-13T13:14:12.235052Z",
       "transfer": null,
-      "updatedAt": "2026-10-13T13:06:12.564103Z",
+      "updatedAt": "2026-10-13T13:14:12.235052Z",
       "v1Convergence": {
-        "currentMilestone": "Lineage safeguards",
         "endState": "Ditto/END_STATE.md",
         "nextGate": "State/serialization contract",
+        "nextMilestonePreparation": "State/serialization contract",
+        "officialCurrentMilestone": "DITTO-V1-M2",
         "projectState": "Ditto/PROJECT_STATE.md",
         "roadmap": "Ditto/ROADMAP_V1.md",
         "taskProgress": {
@@ -290,32 +293,33 @@
       "id": "06",
       "lastMeaningfulProgress": "2026-10-13T12:45:27.995542Z",
       "name": "Trace",
-      "next": null,
+      "next": "trace-malformed-fingerprint-recovery-20261013",
       "nextMilestone": "Ingestion-boundary validation",
       "projectGoal": "Persist rights-aware ingestion provenance and audit evidence.",
       "queueDepth": 1,
       "readyForHuman": false,
       "scientificOutput": "No scientific milestone recorded",
       "sinceHourlyCheckpoint": [],
-      "stage": "Active",
+      "stage": "Queued",
       "stageProgress": {
         "completed": 1,
         "total": 3
       },
-      "status": "Active",
+      "status": "Queued",
       "summary": "Rights-aware document ingestion and fingerprinting.",
       "taskChecklist": {
         "completed": 0,
         "total": 1
       },
       "taskDescription": "Implement the next bounded malformed-input fingerprint persistence regression from the accepted durability objective.",
-      "taskStartedAt": "2026-10-13T13:00:10.028554Z",
+      "taskStartedAt": "2026-10-13T13:14:12.315004Z",
       "transfer": null,
-      "updatedAt": "2026-10-13T13:00:10.028554Z",
+      "updatedAt": "2026-10-13T13:14:12.315004Z",
       "v1Convergence": {
-        "currentMilestone": "Audit persistence",
         "endState": "Trace/END_STATE.md",
         "nextGate": "Ingestion-boundary validation",
+        "nextMilestonePreparation": "Ingestion-boundary validation",
+        "officialCurrentMilestone": "TRACE-V1-M1",
         "projectState": "Trace/PROJECT_STATE.md",
         "roadmap": "Trace/ROADMAP_V1.md",
         "taskProgress": {
@@ -334,34 +338,33 @@
       "id": "07",
       "lastMeaningfulProgress": "2026-10-13T13:10:23.733772Z",
       "name": "TEER",
-      "next": null,
+      "next": "teer-benchmark-coordinate-regression-20261013",
       "nextMilestone": "Geometry/QC benchmark",
       "projectGoal": "Build preclinical geometry and QC foundations without clinical-performance claims.",
       "queueDepth": 1,
       "readyForHuman": false,
       "scientificOutput": "No scientific milestone recorded",
-      "sinceHourlyCheckpoint": [
-        "A bounded task passed deterministic acceptance."
-      ],
-      "stage": "Leased",
+      "sinceHourlyCheckpoint": [],
+      "stage": "Queued",
       "stageProgress": {
         "completed": 1,
         "total": 3
       },
-      "status": "Active",
+      "status": "Queued",
       "summary": "Research-grade valve geometry and decision-support foundations.",
       "taskChecklist": {
         "completed": 0,
         "total": 1
       },
       "taskDescription": "Implement the next bounded coordinate/QC regression from the accepted synthetic/preclinical benchmark objective; no clinical-performance claims.",
-      "taskStartedAt": "2026-10-13T13:10:38.236927Z",
+      "taskStartedAt": "2026-10-13T13:14:12.266902Z",
       "transfer": null,
-      "updatedAt": "2026-10-13T13:10:38.236927Z",
+      "updatedAt": "2026-10-13T13:14:12.266902Z",
       "v1Convergence": {
-        "currentMilestone": "Preclinical readiness",
         "endState": "TEER/END_STATE.md",
         "nextGate": "Geometry/QC benchmark",
+        "nextMilestonePreparation": "Geometry/QC benchmark",
+        "officialCurrentMilestone": "TEER-V1-M1",
         "projectState": "TEER/PROJECT_STATE.md",
         "roadmap": "TEER/ROADMAP_V1.md",
         "taskProgress": {
@@ -403,9 +406,10 @@
       "transfer": null,
       "updatedAt": "2026-10-13T12:57:36.012518Z",
       "v1Convergence": {
-        "currentMilestone": "Evidence screening",
         "endState": "Papers/END_STATE.md",
         "nextGate": "Protocol authorization",
+        "nextMilestonePreparation": "Protocol authorization",
+        "officialCurrentMilestone": "PAP-V1-M1",
         "projectState": "Papers/PROJECT_STATE.md",
         "roadmap": "Papers/ROADMAP_V1.md",
         "taskProgress": {
@@ -417,10 +421,8 @@
     }
   ],
   "queueHealth": {
-    "orphanedCount": 1,
-    "orphanedRoadmaps": [
-      "CTBone"
-    ]
+    "orphanedCount": 0,
+    "orphanedRoadmaps": []
   },
   "system": {
     "activeJobs": 0,
