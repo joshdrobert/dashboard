@@ -6,10 +6,10 @@
     "strategicEscalation": "Strategic AI review",
     "technicalEscalation": "Codex"
   },
-  "generatedAt": "2026-10-13T12:30:24.246618Z",
+  "generatedAt": "2026-10-13T12:35:27.795814Z",
   "hourlyCheckpoint": {
     "at": "2026-10-13T12:00:17.382403Z",
-    "changes": 2
+    "changes": 1
   },
   "papers": {
     "analysis": 0,
@@ -18,9 +18,9 @@
     "batchScreening": 1,
     "candidateBank": 400,
     "declined": 10,
-    "deepExecuting": 1,
+    "deepExecuting": 0,
     "deepInvestigations": 2,
-    "deepQueued": 1,
+    "deepQueued": 2,
     "deepToAuthorized": 0,
     "deepToDeclined": 0,
     "externalSubmission": "JOSHUA APPROVAL REQUIRED",
@@ -48,10 +48,7 @@
       "queueDepth": 1,
       "readyForHuman": false,
       "scientificOutput": "No scientific milestone recorded",
-      "sinceHourlyCheckpoint": [
-        "A new bounded task was queued.",
-        "A bounded task passed deterministic acceptance."
-      ],
+      "sinceHourlyCheckpoint": [],
       "stage": "Queued",
       "stageProgress": {
         "completed": 1,
@@ -71,11 +68,11 @@
     {
       "alert": null,
       "blocker": null,
-      "currentMilestone": "DATA_TRANSFER",
-      "currentTask": "Authenticated Mac acquisition + resumable VISION scratch sync",
+      "currentMilestone": "Verified staging",
+      "currentTask": "bcm-real-vision-auth-preflight-20261013",
       "engineeringOutput": "Bounded task accepted",
       "id": "02",
-      "lastMeaningfulProgress": "2026-10-13T12:30:17.096869Z",
+      "lastMeaningfulProgress": "2026-10-13T01:16:42.440935Z",
       "name": "BCM-Neuromodulation",
       "next": null,
       "nextMilestone": "Cohort reconciliation",
@@ -84,43 +81,29 @@
       "readyForHuman": false,
       "scientificOutput": "No scientific milestone recorded",
       "sinceHourlyCheckpoint": [],
-      "stage": "DATA_TRANSFER",
+      "stage": "Staging",
       "stageProgress": {
         "completed": 0,
         "total": 4
       },
-      "status": "TRANSFER",
+      "status": "Active",
       "summary": "Neuromodulation imaging data and cohort reconciliation.",
       "taskChecklist": {
         "completed": 0,
         "total": 1
       },
-      "taskDescription": "Acquiring Data.zip locally and synchronizing to VISION scratch.",
+      "taskDescription": "Complete the actual authenticated Mac-to-VISION small-artifact preflight after VISION authentication: verify remote scratch existence/writability/quota, resumable transfer, remote byte count, checksum, and cleanup. Do not acquire Data.zip unless every check passes.",
       "taskStartedAt": "2026-10-13T12:02:05.477981Z",
       "transfer": {
-        "acquisition_alive": true,
-        "acquisition_pid": 24274,
-        "active": true,
-        "bytes_expected": 60047113996,
+        "active": false,
+        "bytes_expected": 60049983649,
         "bytes_verified": 9839,
-        "expected_bytes": 60047113996,
-        "failure": "VISION_AUTH_REQUIRED",
-        "file_state": "PARTIAL",
         "files_expected": 3,
         "files_verified": 1,
-        "last_byte_growth": "2026-10-13T12:30:17.096869Z",
-        "last_checked_at": 1791894617.0968692,
-        "last_growth_at": 1791894617.0968692,
-        "local_bytes": 13555990528,
-        "local_percent": 22.5756,
-        "retry_count": 37,
+        "local_bytes": 0,
         "selected_route": "Authenticated Mac acquisition \u2192 resumable VISION transfer",
-        "state": "DATA_TRANSFER",
-        "sync_alive": true,
-        "sync_pid": 32823,
-        "verification_state": "PENDING",
-        "vision_bytes": 13379567616,
-        "vision_percent": 22.2818
+        "state": "STAGING_BLOCKED",
+        "vision_bytes": 9839
       },
       "updatedAt": "2026-10-13T12:02:05.477981Z"
     },
@@ -152,41 +135,43 @@
         "total": 1
       },
       "taskDescription": "Add the next bounded regression for explicit unavailable cohort-manifest fields and denominator consistency; no model fitting or clinical claim.",
-      "taskStartedAt": "2026-10-13T12:20:40.930846Z",
+      "taskStartedAt": "2026-10-13T12:30:42.030039Z",
       "transfer": null,
-      "updatedAt": "2026-10-13T12:20:40.930846Z"
+      "updatedAt": "2026-10-13T12:30:42.030039Z"
     },
     {
-      "alert": null,
+      "alert": "ORPHANED ROADMAP",
       "blocker": null,
       "currentMilestone": "Input contracts",
-      "currentTask": "echonext-input-contract-recovery-20261013",
+      "currentTask": "local-repair-454-1",
       "engineeringOutput": "Bounded task accepted",
       "id": "04",
-      "lastMeaningfulProgress": "2026-10-13T02:52:19.029428Z",
+      "lastMeaningfulProgress": "2026-10-13T12:35:27.497411Z",
       "name": "EchoNext",
       "next": null,
       "nextMilestone": "Patient-level split readiness",
       "projectGoal": "Establish reproducible, patient-linked ECG/echo input contracts before modelling.",
-      "queueDepth": 1,
+      "queueDepth": 0,
       "readyForHuman": false,
       "scientificOutput": "No scientific milestone recorded",
-      "sinceHourlyCheckpoint": [],
-      "stage": "Active",
+      "sinceHourlyCheckpoint": [
+        "A bounded task passed deterministic acceptance."
+      ],
+      "stage": "Done",
       "stageProgress": {
         "completed": 1,
         "total": 3
       },
-      "status": "Active",
+      "status": "Ready",
       "summary": "ECG and echocardiography pipeline validation.",
       "taskChecklist": {
-        "completed": 0,
+        "completed": 1,
         "total": 1
       },
-      "taskDescription": "Implement the next bounded input-contract validation from the accepted preprocessing objective; no training or performance claims.",
-      "taskStartedAt": "2026-10-13T12:24:35.997502Z",
+      "taskDescription": "Decompose the recorded failure into a small local repair plan for task 454. Preserve its objective and acceptance checks; write AUTONOMY_NEXT.json.",
+      "taskStartedAt": "2026-10-13T12:35:27.497268Z",
       "transfer": null,
-      "updatedAt": "2026-10-13T12:24:35.997502Z"
+      "updatedAt": "2026-10-13T12:35:27.497268Z"
     },
     {
       "alert": null,
@@ -280,9 +265,9 @@
         "total": 1
       },
       "taskDescription": "Implement the next bounded coordinate/QC regression from the accepted synthetic/preclinical benchmark objective; no clinical-performance claims.",
-      "taskStartedAt": "2026-10-13T12:23:46.356378Z",
+      "taskStartedAt": "2026-10-13T12:32:48.712345Z",
       "transfer": null,
-      "updatedAt": "2026-10-13T12:23:46.356378Z"
+      "updatedAt": "2026-10-13T12:32:48.712345Z"
     },
     {
       "alert": null,
@@ -318,8 +303,10 @@
     }
   ],
   "queueHealth": {
-    "orphanedCount": 0,
-    "orphanedRoadmaps": []
+    "orphanedCount": 1,
+    "orphanedRoadmaps": [
+      "EchoNext"
+    ]
   },
   "system": {
     "activeJobs": 0,

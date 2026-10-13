@@ -1,5 +1,5 @@
 {
-  "at": 1791894627.072725,
+  "at": 1791894930.065193,
   "projects": {
     "AortaPlan": {
       "progress": "2026-10-13T12:29:11.824099Z",
@@ -7,9 +7,9 @@
       "task": "regenerate-plan-469"
     },
     "BCM-Neuromodulation": {
-      "progress": "2026-10-13T12:30:17.096869Z",
-      "status": "TRANSFER",
-      "task": "Authenticated Mac acquisition + resumable VISION scratch sync"
+      "progress": "2026-10-13T01:16:42.440935Z",
+      "status": "Active",
+      "task": "bcm-real-vision-auth-preflight-20261013"
     },
     "CTBone": {
       "progress": "2026-10-13T12:20:28.522891Z",
@@ -22,9 +22,9 @@
       "task": "local-repair-468-1"
     },
     "EchoNext": {
-      "progress": "2026-10-13T02:52:19.029428Z",
-      "status": "Active",
-      "task": "echonext-input-contract-recovery-20261013"
+      "progress": "2026-10-13T12:35:27.497411Z",
+      "status": "Ready",
+      "task": "local-repair-454-1"
     },
     "Papers": {
       "progress": "2026-10-13T11:43:58.171037Z",
