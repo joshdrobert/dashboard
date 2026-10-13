@@ -6,7 +6,7 @@
     "strategicEscalation": "Strategic AI review",
     "technicalEscalation": "Codex"
   },
-  "generatedAt": "2026-10-13T13:19:11.809148Z",
+  "generatedAt": "2026-10-13T13:24:14.356258Z",
   "hourlyCheckpoint": {
     "at": "2026-10-13T13:00:35.039428Z",
     "changes": 0
@@ -119,10 +119,10 @@
         "files_expected": 3,
         "files_verified": 1,
         "last_byte_growth": "2026-10-13T12:35:01.902162Z",
-        "last_checked_at": 1791897547.749378,
+        "last_checked_at": 1791897853.484434,
         "last_growth_at": 1791894901.9021618,
-        "local_bytes": 26239565824,
-        "local_percent": 43.6983,
+        "local_bytes": 27699183616,
+        "local_percent": 46.1291,
         "retry_count": 41,
         "selected_route": "Authenticated Mac acquisition \u2192 resumable VISION transfer",
         "state": "DATA_TRANSFER",
