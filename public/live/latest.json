@@ -1,5 +1,5 @@
 {
-  "at": 1791899060.461101,
+  "at": 1791899362.6248991,
   "projects": {
     "AortaPlan": {
       "progress": "2026-10-13T12:40:25.895200Z",
@@ -39,7 +39,7 @@
     "Trace": {
       "progress": "2026-10-13T12:45:27.995542Z",
       "status": "Active",
-      "task": "trace-malformed-fingerprint-recovery-20261013"
+      "task": "local-repair-456-2"
     }
   }
 }
