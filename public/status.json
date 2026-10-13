@@ -6,7 +6,13 @@
     "strategicEscalation": "Strategic AI review",
     "technicalEscalation": "Codex"
   },
-  "generatedAt": "2026-10-13T16:23:55.080286Z",
+  "generatedAt": "2026-10-13T16:29:02.984799Z",
+  "goodScience": {
+    "duplicateStudiesKilled": 2,
+    "scientificGatesBypassed": 0,
+    "studyPlansFrozenBeforeTesting": 2,
+    "unsupportedCausalClaimsPromoted": 0
+  },
   "hourlyCheckpoint": {
     "at": "2026-10-13T16:03:59.708287Z",
     "changes": 0
@@ -44,6 +50,13 @@
       "name": "AortaPlan",
       "next": null,
       "nextMilestone": "Public/authorized real-data decision",
+      "plainLanguage": {
+        "goal": "Make EVAR measurements from CT scans reproducible and clinician-reviewable.",
+        "next": "Run the real-data benchmark.",
+        "now": "Moving toward a legal public CT benchmark.",
+        "recentWin": "The measurement engine passed known-geometry and coordinate checks.",
+        "whyItMatters": "This reduces the chance that basic geometry bugs drive future measurements."
+      },
       "projectGoal": "Validate legally accessible aortic geometry measurement foundations.",
       "queueDepth": 0,
       "readyForHuman": false,
@@ -89,6 +102,13 @@
       "name": "BCM-Neuromodulation",
       "next": null,
       "nextMilestone": "Cohort reconciliation",
+      "plainLanguage": {
+        "goal": "Reproduce the real neuromodulation/RSA findings.",
+        "next": "Resume VISION sync, then reconcile participants and runs.",
+        "now": "Mac acquisition is preserved while VISION is under maintenance.",
+        "recentWin": "The large download remains resumable instead of restarting from zero.",
+        "whyItMatters": "The dataset can resume safely when VISION returns."
+      },
       "projectGoal": "Stage and reproduce neuromodulation imaging analysis only after verified data access.",
       "queueDepth": 0,
       "readyForHuman": false,
@@ -121,7 +141,7 @@
         "files_verified": 1,
         "lag_bytes": 45408993036,
         "last_byte_growth": "2026-10-13T12:35:01.902162Z",
-        "last_checked_at": 1791908635.085355,
+        "last_checked_at": 1791908942.990699,
         "last_growth_at": 1791894901.9021618,
         "local_bytes": 60047113996,
         "local_percent": 100.0,
@@ -161,6 +181,13 @@
       "name": "CTBone",
       "next": "ctbone-v1-m1-cohort-denominator-freeze-20261013",
       "nextMilestone": "Protocol authorization",
+      "plainLanguage": {
+        "goal": "Build a reproducible CT bone biomarker research package.",
+        "next": "Freeze cohort membership and denominator.",
+        "now": "Closing the cohort denominator and endpoint freeze.",
+        "recentWin": "Existing protocol and manifest work was inherited rather than repeated.",
+        "whyItMatters": "The study population can be fixed before technical validation."
+      },
       "projectGoal": "Establish a leakage-safe, provenance-complete CT bone study protocol.",
       "queueDepth": 1,
       "readyForHuman": false,
@@ -206,6 +233,13 @@
       "name": "EchoNext",
       "next": null,
       "nextMilestone": "Patient-level split readiness",
+      "plainLanguage": {
+        "goal": "Validate a leakage-safe ECG abnormality classifier.",
+        "next": "Produce the executable split and label receipt.",
+        "now": "Auditing patient identity, labels, and splits.",
+        "recentWin": "The PTB-XL cohort and split work are retained.",
+        "whyItMatters": "Performance will be evaluated on patients the model did not see during training."
+      },
       "projectGoal": "Establish reproducible, patient-linked ECG/echo input contracts before modelling.",
       "queueDepth": 0,
       "readyForHuman": false,
@@ -251,6 +285,13 @@
       "name": "Ditto",
       "next": null,
       "nextMilestone": "State/serialization contract",
+      "plainLanguage": {
+        "goal": "Validate one cardiovascular device workflow.",
+        "next": "Freeze quantities, thresholds, and the truth-path comparison.",
+        "now": "Freezing the infrarenal AAA stent-graft use case and applicability domain.",
+        "recentWin": "The first product was narrowed to one concrete device question.",
+        "whyItMatters": "The team can prove one complete workflow instead of expanding endlessly."
+      },
       "projectGoal": "Build provenance-aware digital-twin quantity and lineage safeguards.",
       "queueDepth": 0,
       "readyForHuman": false,
@@ -296,6 +337,13 @@
       "name": "Trace",
       "next": null,
       "nextMilestone": "Ingestion-boundary validation",
+      "plainLanguage": {
+        "goal": "Carry a real study from protocol to an auditable submission package.",
+        "next": "Exercise protocol, evidence, results, and export flow.",
+        "now": "Preparing real-study integration plumbing.",
+        "recentWin": "The evidence/provenance foundation is preserved for a real study.",
+        "whyItMatters": "Claims and results can remain traceable when manuscript work begins."
+      },
       "projectGoal": "Persist rights-aware ingestion provenance and audit evidence.",
       "queueDepth": 0,
       "readyForHuman": false,
@@ -341,6 +389,13 @@
       "name": "TEER",
       "next": null,
       "nextMilestone": "Geometry/QC benchmark",
+      "plainLanguage": {
+        "goal": "Build a preclinical TEER planning workflow.",
+        "next": "Validate real MVSeg2023 geometry.",
+        "now": "Freezing anatomy, coordinates, clip geometry, and QC contracts.",
+        "recentWin": "Geometry and ROM validation infrastructure is available.",
+        "whyItMatters": "Placement results can be compared in one consistent physical coordinate system."
+      },
       "projectGoal": "Build preclinical geometry and QC foundations without clinical-performance claims.",
       "queueDepth": 0,
       "readyForHuman": false,
@@ -386,6 +441,13 @@
       "name": "Papers",
       "next": null,
       "nextMilestone": "Protocol authorization",
+      "plainLanguage": {
+        "goal": "Turn defensible datasets into finished studies.",
+        "next": "Acquire verified data, then run the first frozen analysis.",
+        "now": "Two study plans are frozen while official data ingress is blocked.",
+        "recentWin": "Two SAPs were frozen before outcome testing, and duplicate ideas were declined.",
+        "whyItMatters": "The system avoids changing hypotheses after seeing results."
+      },
       "projectGoal": "Advance a source-backed, outcome-blind evidence pipeline.",
       "queueDepth": 0,
       "readyForHuman": false,
@@ -432,6 +494,28 @@
       "Papers"
     ]
   },
+  "recentlyWe": [
+    {
+      "text": "AortaPlan passed known-geometry and coordinate checks before moving toward real CT data.",
+      "why": "Future errors can be investigated in anatomy and segmentation instead of basic measurement math."
+    },
+    {
+      "text": "Papers froze two study plans before testing outcomes and declined duplicate questions.",
+      "why": "The research stays protected against post-hoc hypothesis changes and wasted analysis."
+    },
+    {
+      "text": "Ditto narrowed V1 to an infrarenal AAA stent-graft validation question.",
+      "why": "One complete device workflow can be validated before broader platform expansion."
+    },
+    {
+      "text": "CTS-001 was declined because routine timestamps could not support a preventability claim.",
+      "why": "The system avoided turning incomplete data into a causal clinical conclusion."
+    },
+    {
+      "text": "VISION entered planned maintenance state without prompting for Duo.",
+      "why": "Expected downtime is not misreported as broken authentication, and recovery remains automatic."
+    }
+  ],
   "system": {
     "activeJobs": 0,
     "autonomy": "DEGRADED",
