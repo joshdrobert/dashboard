@@ -6,7 +6,7 @@
     "strategicEscalation": "Strategic AI review",
     "technicalEscalation": "Codex"
   },
-  "generatedAt": "2026-10-13T13:00:34.747704Z",
+  "generatedAt": "2026-10-13T13:05:36.394183Z",
   "hourlyCheckpoint": {
     "at": "2026-10-13T13:00:35.039428Z",
     "changes": 0
@@ -118,10 +118,10 @@
         "files_expected": 3,
         "files_verified": 1,
         "last_byte_growth": "2026-10-13T12:35:01.902162Z",
-        "last_checked_at": 1791896428.89769,
+        "last_checked_at": 1791896726.064576,
         "last_growth_at": 1791894901.9021618,
-        "local_bytes": 21298675712,
-        "local_percent": 35.4699,
+        "local_bytes": 22926065664,
+        "local_percent": 38.1801,
         "retry_count": 41,
         "selected_route": "Authenticated Mac acquisition \u2192 resumable VISION transfer",
         "state": "DATA_TRANSFER",
@@ -173,9 +173,9 @@
         "total": 1
       },
       "taskDescription": "Add the next bounded regression for explicit unavailable cohort-manifest fields and denominator consistency; no model fitting or clinical claim.",
-      "taskStartedAt": "2026-10-13T12:56:18.148707Z",
+      "taskStartedAt": "2026-10-13T13:04:36.415848Z",
       "transfer": null,
-      "updatedAt": "2026-10-13T12:56:18.148707Z",
+      "updatedAt": "2026-10-13T13:04:36.415848Z",
       "v1Convergence": {
         "currentMilestone": "Pre-protocol readiness",
         "endState": "CTBone/END_STATE.md",
@@ -198,28 +198,28 @@
       "id": "04",
       "lastMeaningfulProgress": "2026-10-13T12:45:37.356940Z",
       "name": "EchoNext",
-      "next": "echonext-input-contract-recovery-20261013",
+      "next": null,
       "nextMilestone": "Patient-level split readiness",
       "projectGoal": "Establish reproducible, patient-linked ECG/echo input contracts before modelling.",
       "queueDepth": 1,
       "readyForHuman": false,
       "scientificOutput": "No scientific milestone recorded",
       "sinceHourlyCheckpoint": [],
-      "stage": "Queued",
+      "stage": "Active",
       "stageProgress": {
         "completed": 1,
         "total": 3
       },
-      "status": "Queued",
+      "status": "Active",
       "summary": "ECG and echocardiography pipeline validation.",
       "taskChecklist": {
         "completed": 0,
         "total": 1
       },
       "taskDescription": "Implement the next bounded input-contract validation from the accepted preprocessing objective; no training or performance claims.",
-      "taskStartedAt": "2026-10-13T12:59:57.252480Z",
+      "taskStartedAt": "2026-10-13T13:05:04.826747Z",
       "transfer": null,
-      "updatedAt": "2026-10-13T12:59:57.252480Z",
+      "updatedAt": "2026-10-13T13:05:04.826747Z",
       "v1Convergence": {
         "currentMilestone": "Input contracts",
         "endState": "EchoNext/END_STATE.md",
@@ -242,28 +242,28 @@
       "id": "05",
       "lastMeaningfulProgress": "2026-10-13T12:14:32.779136Z",
       "name": "Ditto",
-      "next": null,
+      "next": "local-repair-468-1",
       "nextMilestone": "State/serialization contract",
       "projectGoal": "Build provenance-aware digital-twin quantity and lineage safeguards.",
       "queueDepth": 1,
       "readyForHuman": false,
       "scientificOutput": "No scientific milestone recorded",
       "sinceHourlyCheckpoint": [],
-      "stage": "Active",
+      "stage": "Queued",
       "stageProgress": {
         "completed": 1,
         "total": 3
       },
-      "status": "Active",
+      "status": "Queued",
       "summary": "Provenance-aware medical digital-twin infrastructure.",
       "taskChecklist": {
         "completed": 0,
         "total": 1
       },
       "taskDescription": "Decompose the recorded failure into a small local repair plan for task 468. Preserve its objective and acceptance checks; write AUTONOMY_NEXT.json.",
-      "taskStartedAt": "2026-10-13T12:50:47.773607Z",
+      "taskStartedAt": "2026-10-13T13:04:15.120440Z",
       "transfer": null,
-      "updatedAt": "2026-10-13T12:50:47.773607Z",
+      "updatedAt": "2026-10-13T13:04:15.120440Z",
       "v1Convergence": {
         "currentMilestone": "Lineage safeguards",
         "endState": "Ditto/END_STATE.md",
