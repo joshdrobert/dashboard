@@ -1,5 +1,5 @@
 {
-  "at": 1791902919.7923641,
+  "at": 1791903221.722307,
   "projects": {
     "AortaPlan": {
       "progress": "2026-10-13T14:28:54.927597Z",
@@ -23,8 +23,8 @@
     },
     "EchoNext": {
       "progress": "2026-10-13T14:30:12.349247Z",
-      "status": "Active",
-      "task": "local-repair-487-2"
+      "status": "Ready",
+      "task": "local-repair-487-1"
     },
     "Papers": {
       "progress": "2026-10-13T14:42:47.514879Z",
