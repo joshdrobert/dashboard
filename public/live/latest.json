@@ -1,5 +1,5 @@
 {
-  "at": 1791897856.611243,
+  "at": 1791898157.19661,
   "projects": {
     "AortaPlan": {
       "progress": "2026-10-13T12:40:25.895200Z",
@@ -17,9 +17,9 @@
       "task": "ctbone-v1-m1-cohort-denominator-freeze-20261013"
     },
     "Ditto": {
-      "progress": "2026-10-13T12:14:32.779136Z",
-      "status": "Active",
-      "task": "local-repair-468-2"
+      "progress": "2026-10-13T13:28:08.555681Z",
+      "status": "Queued",
+      "task": "ditto-lineage-roundtrip-receipt-20261013"
     },
     "EchoNext": {
       "progress": "2026-10-13T12:45:37.356940Z",
@@ -29,7 +29,7 @@
     "Papers": {
       "progress": "2026-10-13T11:43:58.171037Z",
       "status": "Queued",
-      "task": "local-repair-460-1"
+      "task": "local-repair-461-1"
     },
     "TEER": {
       "progress": "2026-10-13T13:10:23.733772Z",
