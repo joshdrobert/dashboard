@@ -1,10 +1,10 @@
 {
-  "at": 1791901114.521914,
+  "at": 1791901414.806079,
   "projects": {
     "AortaPlan": {
       "progress": "2026-10-13T12:40:25.895200Z",
-      "status": "Queued",
-      "task": "aortaplan-public-benchmark-discovery-20261013"
+      "status": "Active",
+      "task": "local-repair-486-1"
     },
     "BCM-Neuromodulation": {
       "progress": "2026-10-13T12:35:01.902162Z",
@@ -17,19 +17,19 @@
       "task": "ctbone-v1-m1-cohort-denominator-freeze-20261013"
     },
     "Ditto": {
-      "progress": "2026-10-13T13:28:08.555681Z",
-      "status": "Queued",
-      "task": "ditto-h1-input-domain-freeze-20261013"
+      "progress": "2026-10-13T14:22:00.154148Z",
+      "status": "Active",
+      "task": "regenerate-plan-493"
     },
     "EchoNext": {
       "progress": "2026-10-13T12:45:37.356940Z",
       "status": "Queued",
-      "task": "echonext-ptbxl-m1-executable-receipt-20261013"
+      "task": "local-repair-487-1"
     },
     "Papers": {
       "progress": "2026-10-13T14:00:48.474935Z",
       "status": "Queued",
-      "task": "local-repair-461-2"
+      "task": "local-repair-462-2"
     },
     "TEER": {
       "progress": "2026-10-13T13:10:23.733772Z",
@@ -38,8 +38,8 @@
     },
     "Trace": {
       "progress": "2026-10-13T12:45:27.995542Z",
-      "status": "Queued",
-      "task": "trace-real-study-plumbing-audit-20261013"
+      "status": "Active",
+      "task": "local-repair-489-1"
     }
   }
 }
