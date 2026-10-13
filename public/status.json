@@ -6,10 +6,10 @@
     "strategicEscalation": "Strategic AI review",
     "technicalEscalation": "Codex"
   },
-  "generatedAt": "2026-10-13T13:29:15.413524Z",
+  "generatedAt": "2026-10-13T13:34:15.321198Z",
   "hourlyCheckpoint": {
     "at": "2026-10-13T13:00:35.039428Z",
-    "changes": 1
+    "changes": 0
   },
   "papers": {
     "analysis": 0,
@@ -34,36 +34,36 @@
   },
   "projects": [
     {
-      "alert": null,
+      "alert": "ORPHANED ROADMAP",
       "blocker": null,
       "currentMilestone": "Engineering benchmark",
-      "currentTask": "local-repair-467-2",
+      "currentTask": "regenerate-plan-469",
       "engineeringOutput": "Bounded task accepted",
       "id": "01",
       "lastMeaningfulProgress": "2026-10-13T12:40:25.895200Z",
       "name": "AortaPlan",
-      "next": "local-repair-467-2",
+      "next": null,
       "nextMilestone": "Public/authorized real-data decision",
       "projectGoal": "Validate legally accessible aortic geometry measurement foundations.",
-      "queueDepth": 1,
+      "queueDepth": 0,
       "readyForHuman": false,
       "scientificOutput": "No scientific milestone recorded",
       "sinceHourlyCheckpoint": [],
-      "stage": "Queued",
+      "stage": "Done",
       "stageProgress": {
         "completed": 1,
         "total": 3
       },
-      "status": "Queued",
+      "status": "Ready",
       "summary": "Public CTA planning and geometry validation.",
       "taskChecklist": {
-        "completed": 0,
+        "completed": 1,
         "total": 1
       },
       "taskDescription": "Decompose the recorded failure into a small local repair plan for task 467. Preserve its objective and acceptance checks; write AUTONOMY_NEXT.json.",
-      "taskStartedAt": "2026-10-13T13:28:25.168506Z",
+      "taskStartedAt": "2026-10-13T12:40:25.894998Z",
       "transfer": null,
-      "updatedAt": "2026-10-13T13:28:25.168506Z",
+      "updatedAt": "2026-10-13T12:40:25.894998Z",
       "v1Convergence": {
         "endState": "AortaPlan/END_STATE.md",
         "nextGate": "Public/authorized real-data decision",
@@ -72,7 +72,7 @@
         "projectState": "AortaPlan/PROJECT_STATE.md",
         "roadmap": "AortaPlan/ROADMAP_V1.md",
         "taskProgress": {
-          "completed": 0,
+          "completed": 1,
           "total": 1
         },
         "whyThisMatters": "Advances the frozen V1 milestone."
@@ -119,10 +119,10 @@
         "files_expected": 3,
         "files_verified": 1,
         "last_byte_growth": "2026-10-13T12:35:01.902162Z",
-        "last_checked_at": 1791898146.915127,
+        "last_checked_at": 1791898452.588157,
         "last_growth_at": 1791894901.9021618,
-        "local_bytes": 29242687488,
-        "local_percent": 48.6996,
+        "local_bytes": 30584864768,
+        "local_percent": 50.9348,
         "retry_count": 41,
         "selected_route": "Authenticated Mac acquisition \u2192 resumable VISION transfer",
         "state": "DATA_TRANSFER",
@@ -220,9 +220,9 @@
         "total": 1
       },
       "taskDescription": "Implement the next bounded input-contract validation from the accepted preprocessing objective; no training or performance claims.",
-      "taskStartedAt": "2026-10-13T13:14:39.015436Z",
+      "taskStartedAt": "2026-10-13T13:30:11.211284Z",
       "transfer": null,
-      "updatedAt": "2026-10-13T13:14:39.015436Z",
+      "updatedAt": "2026-10-13T13:30:11.211284Z",
       "v1Convergence": {
         "endState": "EchoNext/END_STATE.md",
         "nextGate": "Patient-level split readiness",
@@ -238,36 +238,36 @@
       }
     },
     {
-      "alert": null,
+      "alert": "ORPHANED ROADMAP",
       "blocker": null,
       "currentMilestone": "Lineage safeguards",
-      "currentTask": "ditto-lineage-roundtrip-receipt-20261013",
+      "currentTask": "local-repair-468-2",
       "engineeringOutput": "Bounded task accepted",
       "id": "05",
       "lastMeaningfulProgress": "2026-10-13T13:28:08.555681Z",
       "name": "Ditto",
-      "next": "ditto-lineage-roundtrip-receipt-20261013",
+      "next": null,
       "nextMilestone": "State/serialization contract",
       "projectGoal": "Build provenance-aware digital-twin quantity and lineage safeguards.",
-      "queueDepth": 1,
+      "queueDepth": 0,
       "readyForHuman": false,
       "scientificOutput": "No scientific milestone recorded",
       "sinceHourlyCheckpoint": [],
-      "stage": "Queued",
+      "stage": "Done",
       "stageProgress": {
         "completed": 1,
         "total": 3
       },
-      "status": "Queued",
+      "status": "Ready",
       "summary": "Provenance-aware medical digital-twin infrastructure.",
       "taskChecklist": {
-        "completed": 0,
-        "total": 3
+        "completed": 1,
+        "total": 1
       },
-      "taskDescription": "Validate provenance lineage round-trip serialization against the accepted negative-case boundary.",
-      "taskStartedAt": "2026-10-13T13:28:36.159961Z",
+      "taskDescription": "Decompose the recorded failure into a small local repair plan for task 468. Preserve its objective and acceptance checks; write AUTONOMY_NEXT.json.",
+      "taskStartedAt": "2026-10-13T13:28:08.555541Z",
       "transfer": null,
-      "updatedAt": "2026-10-13T13:28:36.159961Z",
+      "updatedAt": "2026-10-13T13:28:08.555541Z",
       "v1Convergence": {
         "endState": "Ditto/END_STATE.md",
         "nextGate": "State/serialization contract",
@@ -276,8 +276,8 @@
         "projectState": "Ditto/PROJECT_STATE.md",
         "roadmap": "Ditto/ROADMAP_V1.md",
         "taskProgress": {
-          "completed": 0,
-          "total": 3
+          "completed": 1,
+          "total": 1
         },
         "whyThisMatters": "Advances the frozen V1 milestone."
       }
@@ -387,9 +387,7 @@
       "queueDepth": 3,
       "readyForHuman": false,
       "scientificOutput": "No scientific milestone recorded",
-      "sinceHourlyCheckpoint": [
-        "A new bounded task was queued."
-      ],
+      "sinceHourlyCheckpoint": [],
       "stage": "Queued",
       "stageProgress": {
         "completed": 1,
@@ -421,8 +419,11 @@
     }
   ],
   "queueHealth": {
-    "orphanedCount": 0,
-    "orphanedRoadmaps": []
+    "orphanedCount": 2,
+    "orphanedRoadmaps": [
+      "AortaPlan",
+      "Ditto"
+    ]
   },
   "system": {
     "activeJobs": 0,

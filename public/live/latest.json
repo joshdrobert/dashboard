@@ -1,10 +1,10 @@
 {
-  "at": 1791898157.19661,
+  "at": 1791898457.7950258,
   "projects": {
     "AortaPlan": {
       "progress": "2026-10-13T12:40:25.895200Z",
-      "status": "Queued",
-      "task": "local-repair-467-2"
+      "status": "Ready",
+      "task": "regenerate-plan-469"
     },
     "BCM-Neuromodulation": {
       "progress": "2026-10-13T12:35:01.902162Z",
@@ -18,8 +18,8 @@
     },
     "Ditto": {
       "progress": "2026-10-13T13:28:08.555681Z",
-      "status": "Queued",
-      "task": "ditto-lineage-roundtrip-receipt-20261013"
+      "status": "Ready",
+      "task": "local-repair-468-2"
     },
     "EchoNext": {
       "progress": "2026-10-13T12:45:37.356940Z",
