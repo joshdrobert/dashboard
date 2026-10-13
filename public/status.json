@@ -6,7 +6,7 @@
     "strategicEscalation": "Strategic AI review",
     "technicalEscalation": "Codex"
   },
-  "generatedAt": "2026-10-13T14:08:31.678146Z",
+  "generatedAt": "2026-10-13T14:13:30.941622Z",
   "hourlyCheckpoint": {
     "at": "2026-10-13T14:01:56.248565Z",
     "changes": 0
@@ -119,12 +119,12 @@
         "file_state": "PARTIAL",
         "files_expected": 3,
         "files_verified": 1,
-        "lag_bytes": 23932698624,
+        "lag_bytes": 24897388544,
         "last_byte_growth": "2026-10-13T12:35:01.902162Z",
-        "last_checked_at": 1791900508.694485,
+        "last_checked_at": 1791900810.945279,
         "last_growth_at": 1791894901.9021618,
-        "local_bytes": 38570819584,
-        "local_percent": 64.2343,
+        "local_bytes": 39535509504,
+        "local_percent": 65.8408,
         "retry_count": 41,
         "selected_route": "Authenticated Mac acquisition \u2192 resumable VISION transfer",
         "state": "DATA_TRANSFER",
@@ -403,9 +403,9 @@
         "total": 1
       },
       "taskDescription": "Decompose the recorded failure into a small local repair plan for task 460. Preserve its objective and acceptance checks; write AUTONOMY_NEXT.json.",
-      "taskStartedAt": "2026-10-13T14:00:52.663141Z",
+      "taskStartedAt": "2026-10-13T14:12:30.721798Z",
       "transfer": null,
-      "updatedAt": "2026-10-13T14:00:52.663141Z",
+      "updatedAt": "2026-10-13T14:12:30.721798Z",
       "v1Convergence": {
         "endState": "Papers/END_STATE.md",
         "nextGate": "Protocol authorization",
