@@ -1,0 +1,46 @@
+{
+  "at": 1791903823.2229161,
+  "hour": "20261013T15",
+  "projects": {
+    "AortaPlan": {
+      "progress": "2026-10-13T14:28:54.927597Z",
+      "status": "Ready",
+      "task": "local-repair-486-1"
+    },
+    "BCM-Neuromodulation": {
+      "progress": "2026-10-13T12:35:01.902162Z",
+      "status": "TRANSFER",
+      "task": "Authenticated Mac acquisition + resumable VISION scratch sync"
+    },
+    "CTBone": {
+      "progress": "2026-10-13T13:09:45.518199Z",
+      "status": "Queued",
+      "task": "ctbone-v1-m1-cohort-denominator-freeze-20261013"
+    },
+    "Ditto": {
+      "progress": "2026-10-13T14:58:27.715833Z",
+      "status": "Queued",
+      "task": "regenerate-plan-501"
+    },
+    "EchoNext": {
+      "progress": "2026-10-13T14:30:12.349247Z",
+      "status": "Ready",
+      "task": "local-repair-487-1"
+    },
+    "Papers": {
+      "progress": "2026-10-13T14:42:47.514879Z",
+      "status": "Queued",
+      "task": "local-repair-460-2"
+    },
+    "TEER": {
+      "progress": "2026-10-13T13:10:23.733772Z",
+      "status": "Ready",
+      "task": "local-repair-455-1"
+    },
+    "Trace": {
+      "progress": "2026-10-13T14:27:00.621282Z",
+      "status": "Ready",
+      "task": "local-repair-489-1"
+    }
+  }
+}

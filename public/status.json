@@ -6,10 +6,10 @@
     "strategicEscalation": "Strategic AI review",
     "technicalEscalation": "Codex"
   },
-  "generatedAt": "2026-10-13T14:58:38.646302Z",
+  "generatedAt": "2026-10-13T15:03:37.485301Z",
   "hourlyCheckpoint": {
-    "at": "2026-10-13T14:01:56.248565Z",
-    "changes": 2
+    "at": "2026-10-13T15:03:43.222916Z",
+    "changes": 0
   },
   "papers": {
     "analysis": 0,
@@ -119,12 +119,12 @@
         "file_state": "PARTIAL",
         "files_expected": 3,
         "files_verified": 1,
-        "lag_bytes": 36087791616,
+        "lag_bytes": 37404803072,
         "last_byte_growth": "2026-10-13T12:35:01.902162Z",
-        "last_checked_at": 1791903514.455356,
+        "last_checked_at": 1791903815.584554,
         "last_growth_at": 1791894901.9021618,
-        "local_bytes": 50725912576,
-        "local_percent": 84.4769,
+        "local_bytes": 52042924032,
+        "local_percent": 86.6702,
         "retry_count": 41,
         "selected_route": "Authenticated Mac acquisition \u2192 resumable VISION transfer",
         "state": "DATA_TRANSFER",
@@ -249,31 +249,28 @@
       "id": "05",
       "lastMeaningfulProgress": "2026-10-13T14:58:27.715833Z",
       "name": "Ditto",
-      "next": null,
+      "next": "regenerate-plan-501",
       "nextMilestone": "State/serialization contract",
       "projectGoal": "Build provenance-aware digital-twin quantity and lineage safeguards.",
       "queueDepth": 1,
       "readyForHuman": false,
       "scientificOutput": "No scientific milestone recorded",
-      "sinceHourlyCheckpoint": [
-        "A new bounded task was queued.",
-        "A bounded task passed deterministic acceptance."
-      ],
-      "stage": "Active",
+      "sinceHourlyCheckpoint": [],
+      "stage": "Queued",
       "stageProgress": {
         "completed": 1,
         "total": 3
       },
-      "status": "Active",
+      "status": "Queued",
       "summary": "Provenance-aware medical digital-twin infrastructure.",
       "taskChecklist": {
         "completed": 0,
         "total": 1
       },
       "taskDescription": "Decompose the recorded failure into a small local repair plan for task 488. Preserve its objective and acceptance checks; write AUTONOMY_NEXT.json.",
-      "taskStartedAt": "2026-10-13T14:58:38.604046Z",
+      "taskStartedAt": "2026-10-13T15:03:29.502516Z",
       "transfer": null,
-      "updatedAt": "2026-10-13T14:58:38.604046Z",
+      "updatedAt": "2026-10-13T15:03:29.502516Z",
       "v1Convergence": {
         "endState": "Ditto/END_STATE.md",
         "nextGate": "State/serialization contract",

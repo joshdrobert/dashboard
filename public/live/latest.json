@@ -1,5 +1,5 @@
 {
-  "at": 1791903522.2237551,
+  "at": 1791903823.2519622,
   "projects": {
     "AortaPlan": {
       "progress": "2026-10-13T14:28:54.927597Z",
@@ -18,7 +18,7 @@
     },
     "Ditto": {
       "progress": "2026-10-13T14:58:27.715833Z",
-      "status": "Active",
+      "status": "Queued",
       "task": "regenerate-plan-501"
     },
     "EchoNext": {
