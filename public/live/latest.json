@@ -1,29 +1,29 @@
 {
-  "at": 1791892515.982089,
+  "at": 1791892817.435016,
   "projects": {
     "AortaPlan": {
       "progress": "2026-10-13T11:44:10.221835Z",
-      "status": "Ready",
-      "task": "aortaplan-abstention-boundary-20261013"
+      "status": "Active",
+      "task": "aortaplan-measurement-receipt-regression-20261013"
     },
     "BCM-Neuromodulation": {
       "progress": "2026-10-13T01:16:42.440935Z",
-      "status": "Ready",
-      "task": "bcm-actual-bridge-preflight-20261013"
+      "status": "Attention",
+      "task": "bcm-real-vision-auth-preflight-20261013"
     },
     "CTBone": {
       "progress": "2026-10-13T11:42:02.448871Z",
       "status": "Queued",
-      "task": "ctbone-manifest-unavailable-field-regression-20261013"
+      "task": "local-repair-459-1"
     },
     "Ditto": {
       "progress": "2026-10-13T11:49:17.100617Z",
-      "status": "Ready",
-      "task": "ditto-transition-negative-case-20261013"
+      "status": "Queued",
+      "task": "ditto-provenance-conflict-negative-case-20261013"
     },
     "EchoNext": {
       "progress": "2026-10-13T02:52:19.029428Z",
-      "status": "Queued",
+      "status": "Active",
       "task": "echonext-input-contract-recovery-20261013"
     },
     "Papers": {
@@ -33,12 +33,12 @@
     },
     "TEER": {
       "progress": "2026-10-13T02:11:47.522831Z",
-      "status": "Queued",
+      "status": "Active",
       "task": "teer-benchmark-coordinate-regression-20261013"
     },
     "Trace": {
       "progress": "2026-10-13T02:44:07.268419Z",
-      "status": "Queued",
+      "status": "Active",
       "task": "trace-malformed-fingerprint-recovery-20261013"
     }
   }

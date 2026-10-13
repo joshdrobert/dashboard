@@ -1,15 +1,20 @@
 {
-  "actionRequired": [],
+  "actionRequired": [
+    {
+      "instruction": "VISION requires an authorized non-interactive connection before remote staging can continue.",
+      "project": "BCM-Neuromodulation"
+    }
+  ],
   "autonomyPolicy": {
     "human": "Only essential external/user actions",
     "localResolution": "Evidence lookup",
     "strategicEscalation": "Strategic AI review",
     "technicalEscalation": "Codex"
   },
-  "generatedAt": "2026-10-13T11:55:15.683840Z",
+  "generatedAt": "2026-10-13T12:00:17.360463Z",
   "hourlyCheckpoint": {
-    "at": "2026-10-13T11:04:00.009794Z",
-    "changes": 1
+    "at": "2026-10-13T12:00:17.382403Z",
+    "changes": 0
   },
   "papers": {
     "analysis": 0,
@@ -32,10 +37,10 @@
   },
   "projects": [
     {
-      "alert": "ORPHANED ROADMAP",
+      "alert": null,
       "blocker": null,
       "currentMilestone": "Engineering benchmark",
-      "currentTask": "aortaplan-abstention-boundary-20261013",
+      "currentTask": "aortaplan-measurement-receipt-regression-20261013",
       "engineeringOutput": "Bounded task accepted",
       "id": "01",
       "lastMeaningfulProgress": "2026-10-13T11:44:10.221835Z",
@@ -43,31 +48,31 @@
       "next": null,
       "nextMilestone": "Public/authorized real-data decision",
       "projectGoal": "Validate legally accessible aortic geometry measurement foundations.",
-      "queueDepth": 0,
+      "queueDepth": 1,
       "readyForHuman": false,
       "scientificOutput": "No scientific milestone recorded",
       "sinceHourlyCheckpoint": [],
-      "stage": "Done",
+      "stage": "Active",
       "stageProgress": {
         "completed": 1,
         "total": 3
       },
-      "status": "Ready",
+      "status": "Active",
       "summary": "Public CTA planning and geometry validation.",
       "taskChecklist": {
-        "completed": 1,
+        "completed": 0,
         "total": 1
       },
-      "taskDescription": "Extend the accepted synthetic repeatability receipt with a bounded abstention-boundary regression test; preserve the no-clinical-validation gate.",
-      "taskStartedAt": "2026-10-13T11:44:10.221689Z",
+      "taskDescription": "Add the next bounded regression for accepted measurement/abstention receipt integrity; no clinical claim.",
+      "taskStartedAt": "2026-10-13T12:00:13.915505Z",
       "transfer": null,
-      "updatedAt": "2026-10-13T11:44:10.221689Z"
+      "updatedAt": "2026-10-13T12:00:13.915505Z"
     },
     {
-      "alert": "ORPHANED ROADMAP",
+      "alert": null,
       "blocker": null,
       "currentMilestone": "Verified staging",
-      "currentTask": "bcm-actual-bridge-preflight-20261013",
+      "currentTask": "bcm-real-vision-auth-preflight-20261013",
       "engineeringOutput": "Bounded task accepted",
       "id": "02",
       "lastMeaningfulProgress": "2026-10-13T01:16:42.440935Z",
@@ -79,19 +84,19 @@
       "readyForHuman": false,
       "scientificOutput": "No scientific milestone recorded",
       "sinceHourlyCheckpoint": [],
-      "stage": "Done",
+      "stage": "Waiting User",
       "stageProgress": {
         "completed": 0,
         "total": 4
       },
-      "status": "Ready",
+      "status": "Attention",
       "summary": "Neuromodulation imaging data and cohort reconciliation.",
       "taskChecklist": {
-        "completed": 2,
-        "total": 2
+        "completed": 0,
+        "total": 1
       },
-      "taskDescription": "Perform an actual nonsecret Mac-to-VISION bridge preflight: inspect local free disk, authenticated remote scratch quota/path, and resumable transfer capability; emit a receipt that distinguishes verified values from unavailable access. Do not acquire Data.zip unless every required check passes.",
-      "taskStartedAt": "2026-10-13T01:16:42.440793Z",
+      "taskDescription": "Complete the actual authenticated Mac-to-VISION small-artifact preflight after VISION authentication: verify remote scratch existence/writability/quota, resumable transfer, remote byte count, checksum, and cleanup. Do not acquire Data.zip unless every check passes.",
+      "taskStartedAt": "2026-10-13T11:58:23.044542Z",
       "transfer": {
         "active": false,
         "bytes_expected": 60049983649,
@@ -103,18 +108,18 @@
         "state": "STAGING_BLOCKED",
         "vision_bytes": 9839
       },
-      "updatedAt": "2026-10-13T01:16:42.440793Z"
+      "updatedAt": "2026-10-13T11:58:23.044542Z"
     },
     {
       "alert": null,
       "blocker": null,
       "currentMilestone": "Pre-protocol readiness",
-      "currentTask": "ctbone-manifest-unavailable-field-regression-20261013",
+      "currentTask": "local-repair-459-1",
       "engineeringOutput": "Bounded task accepted",
       "id": "03",
       "lastMeaningfulProgress": "2026-10-13T11:42:02.448871Z",
       "name": "CTBone",
-      "next": "ctbone-manifest-unavailable-field-regression-20261013",
+      "next": "local-repair-459-1",
       "nextMilestone": "Protocol authorization",
       "projectGoal": "Establish a leakage-safe, provenance-complete CT bone study protocol.",
       "queueDepth": 1,
@@ -132,10 +137,10 @@
         "completed": 0,
         "total": 1
       },
-      "taskDescription": "Add the next bounded regression for explicit unavailable cohort-manifest fields and denominator consistency; no model fitting or clinical claim.",
-      "taskStartedAt": "2026-10-13T11:53:37.067633Z",
+      "taskDescription": "Decompose the recorded failure into a small local repair plan for task 459. Preserve its objective and acceptance checks; write AUTONOMY_NEXT.json.",
+      "taskStartedAt": "2026-10-13T12:00:03.683861Z",
       "transfer": null,
-      "updatedAt": "2026-10-13T11:53:37.067633Z"
+      "updatedAt": "2026-10-13T12:00:03.683861Z"
     },
     {
       "alert": null,
@@ -146,9 +151,41 @@
       "id": "04",
       "lastMeaningfulProgress": "2026-10-13T02:52:19.029428Z",
       "name": "EchoNext",
-      "next": "echonext-input-contract-recovery-20261013",
+      "next": null,
       "nextMilestone": "Patient-level split readiness",
       "projectGoal": "Establish reproducible, patient-linked ECG/echo input contracts before modelling.",
+      "queueDepth": 1,
+      "readyForHuman": false,
+      "scientificOutput": "No scientific milestone recorded",
+      "sinceHourlyCheckpoint": [],
+      "stage": "Active",
+      "stageProgress": {
+        "completed": 1,
+        "total": 3
+      },
+      "status": "Active",
+      "summary": "ECG and echocardiography pipeline validation.",
+      "taskChecklist": {
+        "completed": 0,
+        "total": 1
+      },
+      "taskDescription": "Implement the next bounded input-contract validation from the accepted preprocessing objective; no training or performance claims.",
+      "taskStartedAt": "2026-10-13T11:55:43.649174Z",
+      "transfer": null,
+      "updatedAt": "2026-10-13T11:55:43.649174Z"
+    },
+    {
+      "alert": null,
+      "blocker": null,
+      "currentMilestone": "Lineage safeguards",
+      "currentTask": "ditto-provenance-conflict-negative-case-20261013",
+      "engineeringOutput": "Bounded task accepted",
+      "id": "05",
+      "lastMeaningfulProgress": "2026-10-13T11:49:17.100617Z",
+      "name": "Ditto",
+      "next": "ditto-provenance-conflict-negative-case-20261013",
+      "nextMilestone": "State/serialization contract",
+      "projectGoal": "Build provenance-aware digital-twin quantity and lineage safeguards.",
       "queueDepth": 1,
       "readyForHuman": false,
       "scientificOutput": "No scientific milestone recorded",
@@ -159,47 +196,15 @@
         "total": 3
       },
       "status": "Queued",
-      "summary": "ECG and echocardiography pipeline validation.",
+      "summary": "Provenance-aware medical digital-twin infrastructure.",
       "taskChecklist": {
         "completed": 0,
         "total": 1
       },
-      "taskDescription": "Implement the next bounded input-contract validation from the accepted preprocessing objective; no training or performance claims.",
-      "taskStartedAt": "2026-10-13T11:54:23.912761Z",
+      "taskDescription": "Add the next bounded provenance conflict negative-case after accepted transition validation; preserve uncertainty semantics.",
+      "taskStartedAt": "2026-10-13T11:57:57.787543Z",
       "transfer": null,
-      "updatedAt": "2026-10-13T11:54:23.912761Z"
-    },
-    {
-      "alert": "ORPHANED ROADMAP",
-      "blocker": null,
-      "currentMilestone": "Lineage safeguards",
-      "currentTask": "ditto-transition-negative-case-20261013",
-      "engineeringOutput": "Bounded task accepted",
-      "id": "05",
-      "lastMeaningfulProgress": "2026-10-13T11:49:17.100617Z",
-      "name": "Ditto",
-      "next": null,
-      "nextMilestone": "State/serialization contract",
-      "projectGoal": "Build provenance-aware digital-twin quantity and lineage safeguards.",
-      "queueDepth": 0,
-      "readyForHuman": false,
-      "scientificOutput": "No scientific milestone recorded",
-      "sinceHourlyCheckpoint": [],
-      "stage": "Done",
-      "stageProgress": {
-        "completed": 1,
-        "total": 3
-      },
-      "status": "Ready",
-      "summary": "Provenance-aware medical digital-twin infrastructure.",
-      "taskChecklist": {
-        "completed": 1,
-        "total": 1
-      },
-      "taskDescription": "Add the next bounded negative-case provenance transition assertion after the accepted migration fixture; preserve quantity and uncertainty semantics.",
-      "taskStartedAt": "2026-10-13T11:49:17.100490Z",
-      "transfer": null,
-      "updatedAt": "2026-10-13T11:49:17.100490Z"
+      "updatedAt": "2026-10-13T11:57:57.787543Z"
     },
     {
       "alert": null,
@@ -210,28 +215,28 @@
       "id": "06",
       "lastMeaningfulProgress": "2026-10-13T02:44:07.268419Z",
       "name": "Trace",
-      "next": "trace-malformed-fingerprint-recovery-20261013",
+      "next": null,
       "nextMilestone": "Ingestion-boundary validation",
       "projectGoal": "Persist rights-aware ingestion provenance and audit evidence.",
       "queueDepth": 1,
       "readyForHuman": false,
       "scientificOutput": "No scientific milestone recorded",
       "sinceHourlyCheckpoint": [],
-      "stage": "Queued",
+      "stage": "Active",
       "stageProgress": {
         "completed": 1,
         "total": 3
       },
-      "status": "Queued",
+      "status": "Active",
       "summary": "Rights-aware document ingestion and fingerprinting.",
       "taskChecklist": {
         "completed": 0,
         "total": 1
       },
       "taskDescription": "Implement the next bounded malformed-input fingerprint persistence regression from the accepted durability objective.",
-      "taskStartedAt": "2026-10-13T11:53:28.500509Z",
+      "taskStartedAt": "2026-10-13T11:55:26.750263Z",
       "transfer": null,
-      "updatedAt": "2026-10-13T11:53:28.500509Z"
+      "updatedAt": "2026-10-13T11:55:26.750263Z"
     },
     {
       "alert": null,
@@ -242,28 +247,28 @@
       "id": "07",
       "lastMeaningfulProgress": "2026-10-13T02:11:47.522831Z",
       "name": "TEER",
-      "next": "teer-benchmark-coordinate-regression-20261013",
+      "next": null,
       "nextMilestone": "Geometry/QC benchmark",
       "projectGoal": "Build preclinical geometry and QC foundations without clinical-performance claims.",
       "queueDepth": 1,
       "readyForHuman": false,
       "scientificOutput": "No scientific milestone recorded",
       "sinceHourlyCheckpoint": [],
-      "stage": "Queued",
+      "stage": "Active",
       "stageProgress": {
         "completed": 1,
         "total": 3
       },
-      "status": "Queued",
+      "status": "Active",
       "summary": "Research-grade valve geometry and decision-support foundations.",
       "taskChecklist": {
         "completed": 0,
         "total": 1
       },
       "taskDescription": "Implement the next bounded coordinate/QC regression from the accepted synthetic/preclinical benchmark objective; no clinical-performance claims.",
-      "taskStartedAt": "2026-10-13T11:55:15.069898Z",
+      "taskStartedAt": "2026-10-13T11:56:09.978687Z",
       "transfer": null,
-      "updatedAt": "2026-10-13T11:55:15.069898Z"
+      "updatedAt": "2026-10-13T11:56:09.978687Z"
     },
     {
       "alert": null,
@@ -280,9 +285,7 @@
       "queueDepth": 3,
       "readyForHuman": false,
       "scientificOutput": "No scientific milestone recorded",
-      "sinceHourlyCheckpoint": [
-        "A new bounded task was queued."
-      ],
+      "sinceHourlyCheckpoint": [],
       "stage": "Queued",
       "stageProgress": {
         "completed": 1,
@@ -301,16 +304,12 @@
     }
   ],
   "queueHealth": {
-    "orphanedCount": 3,
-    "orphanedRoadmaps": [
-      "AortaPlan",
-      "BCM-Neuromodulation",
-      "Ditto"
-    ]
+    "orphanedCount": 0,
+    "orphanedRoadmaps": []
   },
   "system": {
     "activeJobs": 0,
-    "autonomy": "PASS",
+    "autonomy": "DEGRADED",
     "controllerMode": "continuous local",
     "cpuJobs": 0,
     "gpuJobs": 0,

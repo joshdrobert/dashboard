@@ -1,46 +1,46 @@
 {
-  "at": 1791889440.009794,
-  "hour": "20261013T11",
+  "at": 1791892817.3824031,
+  "hour": "20261013T12",
   "projects": {
     "AortaPlan": {
-      "progress": "2026-10-13T01:38:03.750118Z",
-      "status": "Ready",
-      "task": "aortaplan-repeatability-receipt-20261013"
+      "progress": "2026-10-13T11:44:10.221835Z",
+      "status": "Active",
+      "task": "aortaplan-measurement-receipt-regression-20261013"
     },
     "BCM-Neuromodulation": {
       "progress": "2026-10-13T01:16:42.440935Z",
-      "status": "Active",
+      "status": "Attention",
       "task": "bcm-real-vision-auth-preflight-20261013"
     },
     "CTBone": {
-      "progress": "2026-10-13T01:40:32.763097Z",
-      "status": "Ready",
-      "task": "ctbone-extraction-manifest-records-20261013"
+      "progress": "2026-10-13T11:42:02.448871Z",
+      "status": "Queued",
+      "task": "local-repair-459-1"
     },
     "Ditto": {
-      "progress": "2026-10-13T01:40:18.407953Z",
-      "status": "Ready",
-      "task": "ditto-provenance-transition-audit-20261013"
+      "progress": "2026-10-13T11:49:17.100617Z",
+      "status": "Queued",
+      "task": "ditto-provenance-conflict-negative-case-20261013"
     },
     "EchoNext": {
       "progress": "2026-10-13T02:52:19.029428Z",
-      "status": "Ready",
-      "task": "local-repair-439-2"
+      "status": "Active",
+      "task": "echonext-input-contract-recovery-20261013"
     },
     "Papers": {
-      "progress": "2026-10-13T02:08:10.869406Z",
-      "status": "Ready",
-      "task": "local-repair-442-1"
+      "progress": "2026-10-13T11:43:58.171037Z",
+      "status": "Queued",
+      "task": "deep-investigation-cts-001-receipts-20261013"
     },
     "TEER": {
       "progress": "2026-10-13T02:11:47.522831Z",
-      "status": "Ready",
-      "task": "local-repair-440-1"
+      "status": "Active",
+      "task": "teer-benchmark-coordinate-regression-20261013"
     },
     "Trace": {
       "progress": "2026-10-13T02:44:07.268419Z",
-      "status": "Ready",
-      "task": "local-repair-441-2"
+      "status": "Active",
+      "task": "trace-malformed-fingerprint-recovery-20261013"
     }
   }
 }
