@@ -1,5 +1,5 @@
 {
-  "at": 1791899966.423869,
+  "at": 1791900212.128198,
   "projects": {
     "AortaPlan": {
       "progress": "2026-10-13T12:40:25.895200Z",
@@ -23,17 +23,17 @@
     },
     "EchoNext": {
       "progress": "2026-10-13T12:45:37.356940Z",
-      "status": "Active",
+      "status": "Queued",
       "task": "echonext-input-contract-recovery-20261013"
     },
     "Papers": {
-      "progress": "2026-10-13T11:43:58.171037Z",
+      "progress": "2026-10-13T14:00:48.474935Z",
       "status": "Queued",
-      "task": "local-repair-462-1"
+      "task": "regenerate-plan-476"
     },
     "TEER": {
       "progress": "2026-10-13T13:10:23.733772Z",
-      "status": "Active",
+      "status": "Queued",
       "task": "teer-benchmark-coordinate-regression-20261013"
     },
     "Trace": {
