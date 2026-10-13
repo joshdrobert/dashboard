@@ -30,6 +30,7 @@ export interface Project {
   stageProgress?: { completed: number; total: number } | null
   sinceHourlyCheckpoint?: string[]
   transfer?: Record<string, unknown> | null
+  plainLanguage?: { goal?: string; now?: string; recentWin?: string; whyItMatters?: string; next?: string }
 }
 
 export interface SystemStatus {
@@ -42,6 +43,9 @@ export interface SystemStatus {
   queueHealth?: { orphanedRoadmaps?: string[]; orphanedCount?: number }
   actionRequired?: Array<{ project: string; instruction: string }>
   hourlyCheckpoint?: { at?: string | null; changes?: number }
+  recentlyWe?: Array<{text: string; why: string}>
+  goodScience?: Record<string, number>
+  visionSession?: Record<string, unknown>
 }
 
 export interface Activity { timestamp?: string; project?: string; message: string; level?: string }
