@@ -1,16 +1,16 @@
 {
-  "at": 1791982802.6253738,
-  "hour": "20261014T13",
+  "at": 1791986686.1440241,
+  "hour": "20261014T14",
   "projects": {
     "AortaPlan": {
-      "progress": "2026-10-13T14:28:54.927597Z",
+      "progress": "2026-10-14T13:27:08.571818Z",
       "status": "Ready",
-      "task": "local-repair-486-1"
+      "task": "aortaplan-receipt-benchmark-486-part3"
     },
     "BCM-Neuromodulation": {
       "progress": "2026-10-13T01:16:42.440935Z",
       "status": "Active",
-      "task": "Local Data.zip integrity verification + cohort reconciliation"
+      "task": "publication-and-replication-program"
     },
     "CTBone": {
       "progress": "2026-10-13T13:09:45.518199Z",
@@ -23,9 +23,9 @@
       "task": "regenerate-plan-501"
     },
     "EchoNext": {
-      "progress": "2026-10-13T14:30:12.349247Z",
+      "progress": "2026-10-14T13:36:43.353279Z",
       "status": "Ready",
-      "task": "local-repair-487-1"
+      "task": "local-repair-487-milestone-map"
     },
     "Papers": {
       "progress": "2026-10-13T15:25:57.811766Z",
@@ -38,9 +38,9 @@
       "task": "local-repair-455-1"
     },
     "Trace": {
-      "progress": "2026-10-13T14:27:00.621282Z",
+      "progress": "2026-10-14T13:29:11.906579Z",
       "status": "Ready",
-      "task": "local-repair-489-1"
+      "task": "489-milestone-artifact-check"
     }
   }
 }
