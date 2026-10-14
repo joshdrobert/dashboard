@@ -1,10 +1,10 @@
 {
-  "at": 1792015908.870883,
+  "at": 1792016208.9220579,
   "projects": {
     "AortaPlan": {
-      "progress": "2026-10-14T13:27:08.571818Z",
+      "progress": "2026-10-14T22:16:02.654551Z",
       "status": "Active",
-      "task": "plan-after-508"
+      "task": "regenerate-plan-520"
     },
     "BCM-Neuromodulation": {
       "progress": "2026-10-13T01:16:42.440935Z",
@@ -37,9 +37,9 @@
       "task": "local-repair-455-1"
     },
     "Trace": {
-      "progress": "2026-10-14T22:09:35.071989Z",
-      "status": "Queued",
-      "task": "regenerate-plan-517"
+      "progress": "2026-10-14T22:14:38.323474Z",
+      "status": "Active",
+      "task": "regenerate-plan-519"
     }
   }
 }

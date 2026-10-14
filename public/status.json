@@ -6,7 +6,7 @@
     "strategicEscalation": "Strategic AI review",
     "technicalEscalation": "Codex"
   },
-  "generatedAt": "2026-10-14T22:11:48.662168Z",
+  "generatedAt": "2026-10-14T22:16:44.973691Z",
   "goodScience": {
     "duplicateStudiesKilled": 2,
     "scientificGatesBypassed": 0,
@@ -15,7 +15,7 @@
   },
   "hourlyCheckpoint": {
     "at": "2026-10-14T22:01:55.532035Z",
-    "changes": 0
+    "changes": 2
   },
   "papers": {
     "analysis": 0,
@@ -48,11 +48,11 @@
       "currentMilestone": "Engineering benchmark",
       "currentMilestoneId": "AORTA-V1-M3",
       "currentMilestoneName": "Engineering benchmark",
-      "currentTask": "plan-after-508",
+      "currentTask": "regenerate-plan-520",
       "currentWork": "A bounded local task is queued.",
       "engineeringOutput": "Bounded task accepted",
       "id": "01",
-      "lastMeaningfulProgress": "2026-10-14T13:27:08.571818Z",
+      "lastMeaningfulProgress": "2026-10-14T22:16:02.654551Z",
       "milestoneIndex": 1,
       "milestoneTotal": 3,
       "name": "AortaPlan",
@@ -73,7 +73,10 @@
       "recentAccomplishments": [],
       "recentWin": "The measurement engine passed known-geometry and coordinate checks.",
       "scientificOutput": "No scientific milestone recorded",
-      "sinceHourlyCheckpoint": [],
+      "sinceHourlyCheckpoint": [
+        "A new bounded task was queued.",
+        "A bounded task passed deterministic acceptance."
+      ],
       "stage": "Active",
       "stageProgress": {
         "completed": 1,
@@ -86,9 +89,9 @@
         "total": 1
       },
       "taskDescription": "A bounded local task is queued.",
-      "taskStartedAt": "2026-10-14T22:11:07.111846Z",
+      "taskStartedAt": "2026-10-14T22:16:08.612179Z",
       "transfer": null,
-      "updatedAt": "2026-10-14T22:11:07.111846Z",
+      "updatedAt": "2026-10-14T22:16:08.612179Z",
       "v1Convergence": {
         "endState": "AortaPlan/END_STATE.md",
         "nextGate": "Public/authorized real-data decision",
@@ -224,9 +227,9 @@
         "total": 1
       },
       "taskDescription": "A bounded local task is queued.",
-      "taskStartedAt": "2026-10-14T22:11:48.659232Z",
+      "taskStartedAt": "2026-10-14T22:13:26.031874Z",
       "transfer": null,
-      "updatedAt": "2026-10-14T22:11:48.659232Z",
+      "updatedAt": "2026-10-14T22:13:26.031874Z",
       "v1Convergence": {
         "endState": "CTBone/END_STATE.md",
         "nextGate": "Protocol authorization",
@@ -291,9 +294,9 @@
         "total": 1
       },
       "taskDescription": "A bounded local task is queued.",
-      "taskStartedAt": "2026-10-14T22:11:18.255546Z",
+      "taskStartedAt": "2026-10-14T22:13:20.103773Z",
       "transfer": null,
-      "updatedAt": "2026-10-14T22:11:18.255546Z",
+      "updatedAt": "2026-10-14T22:13:20.103773Z",
       "v1Convergence": {
         "endState": "EchoNext/END_STATE.md",
         "nextGate": "Patient-level split readiness",
@@ -387,18 +390,18 @@
       "currentMilestone": "Audit persistence",
       "currentMilestoneId": "TRACE-V1-M1",
       "currentMilestoneName": "Audit persistence",
-      "currentTask": "regenerate-plan-517",
+      "currentTask": "regenerate-plan-519",
       "currentWork": "A bounded local task is queued.",
       "engineeringOutput": "Bounded task accepted",
       "id": "06",
-      "lastMeaningfulProgress": "2026-10-14T22:09:35.071989Z",
+      "lastMeaningfulProgress": "2026-10-14T22:14:38.323474Z",
       "milestoneIndex": 1,
       "milestoneTotal": 3,
       "name": "Trace",
-      "next": "regenerate-plan-517",
+      "next": null,
       "nextMilestone": "Ingestion-boundary validation",
       "nextV1Gate": "Exercise protocol, evidence, results, and export flow.",
-      "operationalState": "Queued",
+      "operationalState": "Active",
       "plainLanguage": {
         "goal": "Carry a real study from protocol to an auditable submission package.",
         "next": "Exercise protocol, evidence, results, and export flow.",
@@ -413,21 +416,21 @@
       "recentWin": "The evidence/provenance foundation is preserved for a real study.",
       "scientificOutput": "No scientific milestone recorded",
       "sinceHourlyCheckpoint": [],
-      "stage": "Queued",
+      "stage": "Active",
       "stageProgress": {
         "completed": 1,
         "total": 3
       },
-      "status": "Queued",
+      "status": "Active",
       "summary": "Rights-aware document ingestion and fingerprinting.",
       "taskChecklist": {
         "completed": 0,
         "total": 1
       },
       "taskDescription": "A bounded local task is queued.",
-      "taskStartedAt": "2026-10-14T22:11:18.862057Z",
+      "taskStartedAt": "2026-10-14T22:14:42.451469Z",
       "transfer": null,
-      "updatedAt": "2026-10-14T22:11:18.862057Z",
+      "updatedAt": "2026-10-14T22:14:42.451469Z",
       "v1Convergence": {
         "endState": "Trace/END_STATE.md",
         "nextGate": "Ingestion-boundary validation",
@@ -616,20 +619,20 @@
     }
   ],
   "system": {
-    "activeJobs": 3,
+    "activeJobs": 4,
     "autonomy": "DEGRADED",
     "controllerMode": "continuous local",
     "cpuJobs": 0,
-    "deterministicComputeActive": 1,
+    "deterministicComputeActive": 2,
     "externalJobsActive": 0,
     "gpuJobs": 0,
     "integrity": "Evidence-gated",
     "legacyScheduledPrompts": 0,
     "localInferenceActive": 2,
-    "localTaskWorkersActive": 3,
+    "localTaskWorkersActive": 4,
     "portfolioProjects": 8,
     "status": "Operational",
-    "totalActiveResearchExecutions": 3,
+    "totalActiveResearchExecutions": 4,
     "visionJobsActive": 0
   },
   "v1Convergence": {
@@ -638,10 +641,10 @@
     "sourceOfTruth": "repo-native END_STATE.md, ROADMAP_V1.md, PROJECT_STATE.md"
   },
   "vision": {
-    "active_jobs": 3,
+    "active_jobs": 4,
     "active_transfers": 0,
     "completed_jobs": 3,
-    "cpu_active": 3,
+    "cpu_active": 4,
     "gpu_active": 0,
     "results_consumed": 3,
     "results_validated": 3,
@@ -649,7 +652,7 @@
       "completed": 3,
       "failed": 2,
       "queued": 0,
-      "running": 3
+      "running": 4
     },
     "transfers": [
       {
