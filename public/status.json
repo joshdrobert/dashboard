@@ -6,7 +6,7 @@
     "strategicEscalation": "Strategic AI review",
     "technicalEscalation": "Codex"
   },
-  "generatedAt": "2026-10-14T14:54:57.860215Z",
+  "generatedAt": "2026-10-14T14:59:57.404311Z",
   "goodScience": {
     "duplicateStudiesKilled": 2,
     "scientificGatesBypassed": 0,
@@ -14,7 +14,7 @@
     "unsupportedCausalClaimsPromoted": 0
   },
   "hourlyCheckpoint": {
-    "at": "2026-10-14T14:04:46.144024Z",
+    "at": "2026-10-14T15:00:05.312602Z",
     "changes": 0
   },
   "papers": {
