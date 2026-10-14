@@ -1,5 +1,5 @@
 {
-  "at": 1792016510.7817569,
+  "at": 1792016810.8193438,
   "projects": {
     "AortaPlan": {
       "progress": "2026-10-14T22:19:50.370940Z",
@@ -13,8 +13,8 @@
     },
     "CTBone": {
       "progress": "2026-10-14T22:19:06.144431Z",
-      "status": "Active",
-      "task": "regenerate-plan-515"
+      "status": "Ready",
+      "task": "regenerate-plan-465"
     },
     "Ditto": {
       "progress": "2026-10-13T15:06:22.005912Z",
