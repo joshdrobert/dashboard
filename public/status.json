@@ -6,7 +6,7 @@
     "strategicEscalation": "Strategic AI review",
     "technicalEscalation": "Codex"
   },
-  "generatedAt": "2026-10-14T13:18:19.055426Z",
+  "generatedAt": "2026-10-14T13:19:33.190452Z",
   "goodScience": {
     "duplicateStudiesKilled": 2,
     "scientificGatesBypassed": 0,
@@ -15,7 +15,7 @@
   },
   "hourlyCheckpoint": {
     "at": "2026-10-14T13:00:02.625374Z",
-    "changes": 0
+    "changes": 3
   },
   "papers": {
     "analysis": 0,
@@ -43,12 +43,12 @@
       "actionRequired": null,
       "alert": null,
       "blocker": null,
-      "criteriaCompleted": 1,
+      "criteriaCompleted": 0,
       "criteriaTotal": 1,
       "currentMilestone": "Engineering benchmark",
       "currentMilestoneId": "AORTA-V1-M3",
       "currentMilestoneName": "Engineering benchmark",
-      "currentTask": "local-repair-486-1",
+      "currentTask": "aortaplan-receipt-benchmark-486-part3",
       "currentWork": "A bounded local task is queued.",
       "engineeringOutput": "Bounded task accepted",
       "id": "01",
@@ -56,10 +56,10 @@
       "milestoneIndex": 1,
       "milestoneTotal": 3,
       "name": "AortaPlan",
-      "next": null,
+      "next": "aortaplan-receipt-benchmark-486-part3",
       "nextMilestone": "Public/authorized real-data decision",
       "nextV1Gate": "Run the real-data benchmark.",
-      "operationalState": "Ready",
+      "operationalState": "Queued",
       "plainLanguage": {
         "goal": "Make EVAR measurements from CT scans reproducible and clinician-reviewable.",
         "next": "Run the real-data benchmark.",
@@ -68,27 +68,29 @@
         "whyItMatters": "This reduces the chance that basic geometry bugs drive future measurements."
       },
       "projectGoal": "Validate legally accessible aortic geometry measurement foundations.",
-      "queueDepth": 0,
+      "queueDepth": 3,
       "readyForHuman": false,
       "recentAccomplishments": [],
       "recentWin": "The measurement engine passed known-geometry and coordinate checks.",
       "scientificOutput": "No scientific milestone recorded",
-      "sinceHourlyCheckpoint": [],
-      "stage": "Done",
+      "sinceHourlyCheckpoint": [
+        "A new bounded task was queued."
+      ],
+      "stage": "Queued",
       "stageProgress": {
         "completed": 1,
         "total": 3
       },
-      "status": "Ready",
+      "status": "Queued",
       "summary": "Public CTA planning and geometry validation.",
       "taskChecklist": {
-        "completed": 1,
+        "completed": 0,
         "total": 1
       },
       "taskDescription": "A bounded local task is queued.",
-      "taskStartedAt": "2026-10-13T14:28:54.927462Z",
+      "taskStartedAt": "2026-10-14T13:19:00.472025Z",
       "transfer": null,
-      "updatedAt": "2026-10-13T14:28:54.927462Z",
+      "updatedAt": "2026-10-14T13:19:00.472025Z",
       "v1Convergence": {
         "endState": "AortaPlan/END_STATE.md",
         "nextGate": "Public/authorized real-data decision",
@@ -97,7 +99,7 @@
         "projectState": "AortaPlan/PROJECT_STATE.md",
         "roadmap": "AortaPlan/ROADMAP_V1.md",
         "taskProgress": {
-          "completed": 1,
+          "completed": 0,
           "total": 1
         },
         "whyThisMatters": "Advances the frozen V1 milestone."
@@ -248,12 +250,12 @@
       "actionRequired": null,
       "alert": null,
       "blocker": null,
-      "criteriaCompleted": 1,
+      "criteriaCompleted": 0,
       "criteriaTotal": 1,
       "currentMilestone": "Input contracts",
       "currentMilestoneId": "ECHO-V1-M1",
       "currentMilestoneName": "Input contracts",
-      "currentTask": "local-repair-487-1",
+      "currentTask": "local-repair-487-milestone-map",
       "currentWork": "A bounded local task is queued.",
       "engineeringOutput": "Bounded task accepted",
       "id": "04",
@@ -261,10 +263,10 @@
       "milestoneIndex": 1,
       "milestoneTotal": 3,
       "name": "EchoNext",
-      "next": null,
+      "next": "local-repair-487-milestone-map",
       "nextMilestone": "Patient-level split readiness",
       "nextV1Gate": "Produce the executable split and label receipt.",
-      "operationalState": "Ready",
+      "operationalState": "Queued",
       "plainLanguage": {
         "goal": "Validate a leakage-safe ECG abnormality classifier.",
         "next": "Produce the executable split and label receipt.",
@@ -273,27 +275,29 @@
         "whyItMatters": "Performance will be evaluated on patients the model did not see during training."
       },
       "projectGoal": "Establish reproducible, patient-linked ECG/echo input contracts before modelling.",
-      "queueDepth": 0,
+      "queueDepth": 3,
       "readyForHuman": false,
       "recentAccomplishments": [],
       "recentWin": "The PTB-XL cohort and split work are retained.",
       "scientificOutput": "No scientific milestone recorded",
-      "sinceHourlyCheckpoint": [],
-      "stage": "Done",
+      "sinceHourlyCheckpoint": [
+        "A new bounded task was queued."
+      ],
+      "stage": "Queued",
       "stageProgress": {
         "completed": 1,
         "total": 3
       },
-      "status": "Ready",
+      "status": "Queued",
       "summary": "ECG and echocardiography pipeline validation.",
       "taskChecklist": {
-        "completed": 1,
+        "completed": 0,
         "total": 1
       },
       "taskDescription": "A bounded local task is queued.",
-      "taskStartedAt": "2026-10-13T14:30:12.348962Z",
+      "taskStartedAt": "2026-10-14T13:19:00.510391Z",
       "transfer": null,
-      "updatedAt": "2026-10-13T14:30:12.348962Z",
+      "updatedAt": "2026-10-14T13:19:00.510391Z",
       "v1Convergence": {
         "endState": "EchoNext/END_STATE.md",
         "nextGate": "Patient-level split readiness",
@@ -302,7 +306,7 @@
         "projectState": "EchoNext/PROJECT_STATE.md",
         "roadmap": "EchoNext/ROADMAP_V1.md",
         "taskProgress": {
-          "completed": 1,
+          "completed": 0,
           "total": 1
         },
         "whyThisMatters": "Advances the frozen V1 milestone."
@@ -382,12 +386,12 @@
       "actionRequired": null,
       "alert": null,
       "blocker": null,
-      "criteriaCompleted": 1,
+      "criteriaCompleted": 0,
       "criteriaTotal": 1,
       "currentMilestone": "Audit persistence",
       "currentMilestoneId": "TRACE-V1-M1",
       "currentMilestoneName": "Audit persistence",
-      "currentTask": "local-repair-489-1",
+      "currentTask": "489-milestone-artifact-check",
       "currentWork": "A bounded local task is queued.",
       "engineeringOutput": "Bounded task accepted",
       "id": "06",
@@ -395,10 +399,10 @@
       "milestoneIndex": 1,
       "milestoneTotal": 3,
       "name": "Trace",
-      "next": null,
+      "next": "489-milestone-artifact-check",
       "nextMilestone": "Ingestion-boundary validation",
       "nextV1Gate": "Exercise protocol, evidence, results, and export flow.",
-      "operationalState": "Ready",
+      "operationalState": "Queued",
       "plainLanguage": {
         "goal": "Carry a real study from protocol to an auditable submission package.",
         "next": "Exercise protocol, evidence, results, and export flow.",
@@ -407,27 +411,29 @@
         "whyItMatters": "Claims and results can remain traceable when manuscript work begins."
       },
       "projectGoal": "Persist rights-aware ingestion provenance and audit evidence.",
-      "queueDepth": 0,
+      "queueDepth": 3,
       "readyForHuman": false,
       "recentAccomplishments": [],
       "recentWin": "The evidence/provenance foundation is preserved for a real study.",
       "scientificOutput": "No scientific milestone recorded",
-      "sinceHourlyCheckpoint": [],
-      "stage": "Done",
+      "sinceHourlyCheckpoint": [
+        "A new bounded task was queued."
+      ],
+      "stage": "Queued",
       "stageProgress": {
         "completed": 1,
         "total": 3
       },
-      "status": "Ready",
+      "status": "Queued",
       "summary": "Rights-aware document ingestion and fingerprinting.",
       "taskChecklist": {
-        "completed": 1,
+        "completed": 0,
         "total": 1
       },
       "taskDescription": "A bounded local task is queued.",
-      "taskStartedAt": "2026-10-13T14:27:00.621042Z",
+      "taskStartedAt": "2026-10-14T13:19:00.481374Z",
       "transfer": null,
-      "updatedAt": "2026-10-13T14:27:00.621042Z",
+      "updatedAt": "2026-10-14T13:19:00.481374Z",
       "v1Convergence": {
         "endState": "Trace/END_STATE.md",
         "nextGate": "Ingestion-boundary validation",
@@ -436,7 +442,7 @@
         "projectState": "Trace/PROJECT_STATE.md",
         "roadmap": "Trace/ROADMAP_V1.md",
         "taskProgress": {
-          "completed": 1,
+          "completed": 0,
           "total": 1
         },
         "whyThisMatters": "Advances the frozen V1 milestone."
@@ -582,14 +588,11 @@
   ],
   "queueHealth": {
     "autonomyStarvation": [
-      "AortaPlan",
-      "EchoNext",
       "Ditto",
-      "Trace",
       "TEER",
       "Papers"
     ],
-    "autonomyStarvationCount": 6,
+    "autonomyStarvationCount": 3,
     "blockedProjects": true,
     "controlHeartbeatsHealthy": true,
     "orphanedCount": 0,
