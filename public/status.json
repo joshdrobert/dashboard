@@ -6,7 +6,7 @@
     "strategicEscalation": "Strategic AI review",
     "technicalEscalation": "Codex"
   },
-  "generatedAt": "2026-10-14T13:44:28.565739Z",
+  "generatedAt": "2026-10-14T13:49:33.653454Z",
   "goodScience": {
     "duplicateStudiesKilled": 2,
     "scientificGatesBypassed": 0,
@@ -124,9 +124,9 @@
       "milestoneTotal": 4,
       "name": "BCM-Neuromodulation",
       "next": null,
-      "nextMilestone": "Replication-oriented follow-up",
+      "nextMilestone": "Current-data follow-up and manuscript",
       "nextV1Gate": "Define outcome-blind follow-up analyses where scientifically justified and identify an independent replication path.",
-      "operationalState": "REPLICATION_REQUIRED",
+      "operationalState": "FOLLOWUP_ANALYSIS",
       "plainLanguage": {
         "goal": "Understand how individualized neuromodulation changes visuospatial representational geometry.",
         "next": "Define outcome-blind follow-up analyses where scientifically justified and identify an independent replication path.",
@@ -139,9 +139,9 @@
       "readyForHuman": false,
       "recentAccomplishments": [],
       "recentWin": "The full seven-participant AFNI/RSA primary analysis completed with frozen provenance, exact participant-level inference, and sensitivity checks.",
-      "scientificOutput": "PRIMARY_COMPLETE / REPLICATION_REQUIRED",
+      "scientificOutput": "PRIMARY_ANALYSIS_COMPLETE / FOLLOWUP_ANALYSIS",
       "sinceHourlyCheckpoint": [],
-      "stage": "PRIMARY_COMPLETE / REPLICATION_REQUIRED",
+      "stage": "PRIMARY_ANALYSIS_COMPLETE / FOLLOWUP_ANALYSIS",
       "stageProgress": {
         "completed": 3,
         "total": 4
@@ -162,8 +162,8 @@
       "updatedAt": "2026-10-13T12:02:05.477981Z",
       "v1Convergence": {
         "endState": "BCM-Neuromodulation/END_STATE.md",
-        "nextGate": "Replication-oriented follow-up",
-        "nextMilestonePreparation": "Replication-oriented follow-up",
+        "nextGate": "Current-data follow-up and manuscript",
+        "nextMilestonePreparation": "Current-data follow-up and manuscript",
         "officialCurrentMilestone": "BCM-V1-M1",
         "projectState": "BCM-Neuromodulation/PROJECT_STATE.md",
         "roadmap": "BCM-Neuromodulation/ROADMAP_V1.md",
