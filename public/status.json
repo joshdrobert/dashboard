@@ -6,7 +6,7 @@
     "strategicEscalation": "Strategic AI review",
     "technicalEscalation": "Codex"
   },
-  "generatedAt": "2026-10-14T13:29:31.802727Z",
+  "generatedAt": "2026-10-14T13:34:31.909345Z",
   "goodScience": {
     "duplicateStudiesKilled": 2,
     "scientificGatesBypassed": 0,
@@ -257,14 +257,14 @@
       "currentWork": "A bounded local task is queued.",
       "engineeringOutput": "Bounded task accepted",
       "id": "04",
-      "lastMeaningfulProgress": "2026-10-13T14:30:12.349247Z",
+      "lastMeaningfulProgress": "2026-10-14T13:33:57.448774Z",
       "milestoneIndex": 1,
       "milestoneTotal": 3,
       "name": "EchoNext",
-      "next": "local-repair-487-milestone-map",
+      "next": null,
       "nextMilestone": "Patient-level split readiness",
       "nextV1Gate": "Produce the executable split and label receipt.",
-      "operationalState": "Queued",
+      "operationalState": "Active",
       "plainLanguage": {
         "goal": "Validate a leakage-safe ECG abnormality classifier.",
         "next": "Produce the executable split and label receipt.",
@@ -273,27 +273,29 @@
         "whyItMatters": "Performance will be evaluated on patients the model did not see during training."
       },
       "projectGoal": "Establish reproducible, patient-linked ECG/echo input contracts before modelling.",
-      "queueDepth": 3,
+      "queueDepth": 2,
       "readyForHuman": false,
       "recentAccomplishments": [],
       "recentWin": "The PTB-XL cohort and split work are retained.",
       "scientificOutput": "No scientific milestone recorded",
-      "sinceHourlyCheckpoint": [],
-      "stage": "Queued",
+      "sinceHourlyCheckpoint": [
+        "A bounded task passed deterministic acceptance."
+      ],
+      "stage": "Active",
       "stageProgress": {
         "completed": 1,
         "total": 3
       },
-      "status": "Queued",
+      "status": "Active",
       "summary": "ECG and echocardiography pipeline validation.",
       "taskChecklist": {
         "completed": 0,
         "total": 1
       },
       "taskDescription": "A bounded local task is queued.",
-      "taskStartedAt": "2026-10-14T13:19:00.510391Z",
+      "taskStartedAt": "2026-10-14T13:34:10.960532Z",
       "transfer": null,
-      "updatedAt": "2026-10-14T13:19:00.510391Z",
+      "updatedAt": "2026-10-14T13:34:10.960532Z",
       "v1Convergence": {
         "endState": "EchoNext/END_STATE.md",
         "nextGate": "Patient-level split readiness",
@@ -412,9 +414,7 @@
       "recentAccomplishments": [],
       "recentWin": "The evidence/provenance foundation is preserved for a real study.",
       "scientificOutput": "No scientific milestone recorded",
-      "sinceHourlyCheckpoint": [
-        "A bounded task passed deterministic acceptance."
-      ],
+      "sinceHourlyCheckpoint": [],
       "stage": "Done",
       "stageProgress": {
         "completed": 1,
