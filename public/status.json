@@ -6,7 +6,7 @@
     "strategicEscalation": "Strategic AI review",
     "technicalEscalation": "Codex"
   },
-  "generatedAt": "2026-10-14T22:26:50.132212Z",
+  "generatedAt": "2026-10-14T22:31:40.873801Z",
   "goodScience": {
     "duplicateStudiesKilled": 2,
     "scientificGatesBypassed": 0,
@@ -15,7 +15,7 @@
   },
   "hourlyCheckpoint": {
     "at": "2026-10-14T22:01:55.532035Z",
-    "changes": 0
+    "changes": 1
   },
   "papers": {
     "analysis": 0,
@@ -48,18 +48,18 @@
       "currentMilestone": "Engineering benchmark",
       "currentMilestoneId": "AORTA-V1-M3",
       "currentMilestoneName": "Engineering benchmark",
-      "currentTask": "a1-physical-space-regression-bounds",
+      "currentTask": "a1-physical-space-contract-tests-complete",
       "currentWork": "A bounded local task is queued.",
       "engineeringOutput": "Bounded task accepted",
       "id": "01",
-      "lastMeaningfulProgress": "2026-10-14T22:19:50.370940Z",
+      "lastMeaningfulProgress": "2026-10-14T22:30:45.702384Z",
       "milestoneIndex": 1,
       "milestoneTotal": 3,
       "name": "AortaPlan",
-      "next": "a1-physical-space-regression-bounds",
+      "next": null,
       "nextMilestone": "Public/authorized real-data decision",
       "nextV1Gate": "Run the real-data benchmark.",
-      "operationalState": "Queued",
+      "operationalState": "Active",
       "plainLanguage": {
         "goal": "Make EVAR measurements from CT scans reproducible and clinician-reviewable.",
         "next": "Run the real-data benchmark.",
@@ -68,27 +68,29 @@
         "whyItMatters": "This reduces the chance that basic geometry bugs drive future measurements."
       },
       "projectGoal": "Validate legally accessible aortic geometry measurement foundations.",
-      "queueDepth": 3,
+      "queueDepth": 1,
       "readyForHuman": false,
       "recentAccomplishments": [],
       "recentWin": "The measurement engine passed known-geometry and coordinate checks.",
       "scientificOutput": "No scientific milestone recorded",
-      "sinceHourlyCheckpoint": [],
-      "stage": "Queued",
+      "sinceHourlyCheckpoint": [
+        "A bounded task passed deterministic acceptance."
+      ],
+      "stage": "Active",
       "stageProgress": {
         "completed": 1,
         "total": 3
       },
-      "status": "Queued",
+      "status": "Active",
       "summary": "Public CTA planning and geometry validation.",
       "taskChecklist": {
         "completed": 0,
         "total": 1
       },
       "taskDescription": "A bounded local task is queued.",
-      "taskStartedAt": "2026-10-14T22:19:50.413930Z",
+      "taskStartedAt": "2026-10-14T22:31:09.682765Z",
       "transfer": null,
-      "updatedAt": "2026-10-14T22:19:50.413930Z",
+      "updatedAt": "2026-10-14T22:31:09.682765Z",
       "v1Convergence": {
         "endState": "AortaPlan/END_STATE.md",
         "nextGate": "Public/authorized real-data decision",
