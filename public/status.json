@@ -6,7 +6,7 @@
     "strategicEscalation": "Strategic AI review",
     "technicalEscalation": "Codex"
   },
-  "generatedAt": "2026-10-14T00:51:02.542019Z",
+  "generatedAt": "2026-10-14T00:56:02.605716Z",
   "goodScience": {
     "duplicateStudiesKilled": 2,
     "scientificGatesBypassed": 0,
@@ -170,7 +170,7 @@
         "files_expected": 3,
         "files_verified": 0,
         "hs003_handling_rule": "NESTED_SESSION_VARIANTS_ONE_PARTICIPANT",
-        "last_checked_at": 1791939062.5506282,
+        "last_checked_at": 1791939362.612842,
         "last_growth_at": 1791894901.9021618,
         "local_bytes": 60047113996,
         "local_percent": 100.0,
