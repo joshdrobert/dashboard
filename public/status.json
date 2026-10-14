@@ -6,7 +6,7 @@
     "strategicEscalation": "Strategic AI review",
     "technicalEscalation": "Codex"
   },
-  "generatedAt": "2026-10-14T22:05:01.430334Z",
+  "generatedAt": "2026-10-14T22:06:47.702272Z",
   "goodScience": {
     "duplicateStudiesKilled": 2,
     "scientificGatesBypassed": 0,
@@ -181,12 +181,12 @@
       "actionRequired": null,
       "alert": null,
       "blocker": null,
-      "criteriaCompleted": 0,
-      "criteriaTotal": 4,
+      "criteriaCompleted": 1,
+      "criteriaTotal": 1,
       "currentMilestone": "Pre-protocol readiness",
       "currentMilestoneId": "CTB-V1-M1",
       "currentMilestoneName": "Pre-protocol readiness",
-      "currentTask": "ctbone-v1-m1-cohort-denominator-freeze-20261013",
+      "currentTask": "regenerate-plan-465",
       "currentWork": "A bounded local task is queued.",
       "engineeringOutput": "Bounded task accepted",
       "id": "03",
@@ -194,10 +194,10 @@
       "milestoneIndex": 1,
       "milestoneTotal": 3,
       "name": "CTBone",
-      "next": "ctbone-v1-m1-cohort-denominator-freeze-20261013",
+      "next": null,
       "nextMilestone": "Protocol authorization",
       "nextV1Gate": "Freeze cohort membership and denominator.",
-      "operationalState": "Queued",
+      "operationalState": "Ready",
       "plainLanguage": {
         "goal": "Build a reproducible CT bone biomarker research package.",
         "next": "Freeze cohort membership and denominator.",
@@ -206,27 +206,27 @@
         "whyItMatters": "The study population can be fixed before technical validation."
       },
       "projectGoal": "Establish a leakage-safe, provenance-complete CT bone study protocol.",
-      "queueDepth": 1,
+      "queueDepth": 0,
       "readyForHuman": false,
       "recentAccomplishments": [],
       "recentWin": "Existing protocol and manifest work was inherited rather than repeated.",
       "scientificOutput": "No scientific milestone recorded",
       "sinceHourlyCheckpoint": [],
-      "stage": "Queued",
+      "stage": "Done",
       "stageProgress": {
         "completed": 1,
         "total": 3
       },
-      "status": "Queued",
+      "status": "Ready",
       "summary": "CT bone biomarker reproducibility and validation.",
       "taskChecklist": {
-        "completed": 0,
-        "total": 4
+        "completed": 1,
+        "total": 1
       },
       "taskDescription": "A bounded local task is queued.",
-      "taskStartedAt": "2026-10-13T13:12:56.621925Z",
+      "taskStartedAt": "2026-10-13T12:20:28.522750Z",
       "transfer": null,
-      "updatedAt": "2026-10-13T13:12:56.621925Z",
+      "updatedAt": "2026-10-13T12:20:28.522750Z",
       "v1Convergence": {
         "endState": "CTBone/END_STATE.md",
         "nextGate": "Protocol authorization",
@@ -235,8 +235,8 @@
         "projectState": "CTBone/PROJECT_STATE.md",
         "roadmap": "CTBone/ROADMAP_V1.md",
         "taskProgress": {
-          "completed": 0,
-          "total": 4
+          "completed": 1,
+          "total": 1
         },
         "whyThisMatters": "Advances the frozen V1 milestone."
       },
@@ -583,13 +583,14 @@
   "queueHealth": {
     "autonomyStarvation": [
       "AortaPlan",
+      "CTBone",
       "EchoNext",
       "Ditto",
       "Trace",
       "TEER",
       "Papers"
     ],
-    "autonomyStarvationCount": 6,
+    "autonomyStarvationCount": 7,
     "blockedProjects": true,
     "controlHeartbeatsHealthy": true,
     "orphanedCount": 0,
