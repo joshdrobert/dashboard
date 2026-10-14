@@ -6,7 +6,7 @@
     "strategicEscalation": "Strategic AI review",
     "technicalEscalation": "Codex"
   },
-  "generatedAt": "2026-10-14T13:04:59.882804Z",
+  "generatedAt": "2026-10-14T13:13:51.475181Z",
   "goodScience": {
     "duplicateStudiesKilled": 2,
     "scientificGatesBypassed": 0,
@@ -112,38 +112,38 @@
       "blocker": null,
       "criteriaCompleted": 0,
       "criteriaTotal": 1,
-      "currentMilestone": "LOCAL_RSA_EXECUTION",
+      "currentMilestone": "PRIMARY_COMPLETE",
       "currentMilestoneId": "BCM-V1-M1",
       "currentMilestoneName": "LOCAL_RSA_EXECUTION",
-      "currentTask": "Local Data.zip integrity verification + cohort reconciliation",
-      "currentWork": "Reconcile source-study N=8 against the seven-ID public release and freeze the canonical cohort",
+      "currentTask": "publication-and-replication-program",
+      "currentWork": "Define outcome-blind follow-up and identify an independent replication path.",
       "engineeringOutput": "Bounded task accepted",
       "id": "02",
       "lastMeaningfulProgress": "2026-10-13T01:16:42.440935Z",
-      "milestoneIndex": 0,
+      "milestoneIndex": 3,
       "milestoneTotal": 4,
       "name": "BCM-Neuromodulation",
       "next": null,
-      "nextMilestone": "Cohort reconciliation",
-      "nextV1Gate": "Complete the released-input manifest, run HS002 end-to-end, then launch the seven-participant analysis.",
-      "operationalState": "LOCAL_RSA_EXECUTION",
+      "nextMilestone": "Replication-oriented follow-up",
+      "nextV1Gate": "Define outcome-blind follow-up analyses where scientifically justified and identify an independent replication path.",
+      "operationalState": "REPLICATION_REQUIRED",
       "plainLanguage": {
-        "goal": "Understand how neuromodulation changes how brain networks represent visual information.",
-        "next": "Complete the released-input manifest, run HS002 end-to-end, then launch the seven-participant analysis.",
-        "now": "Running the frozen real-imaging validation on the Mac.",
-        "recentWin": "AFNI 26.3.03 is installed and the AFNI\u2194NiBabel geometry crosscheck passed against the HS002 real dataset.",
-        "whyItMatters": "The frozen plan and compute environment are ready; HS002 still requires the selectively extracted released timing and nuisance regressors for the AFNI GLM gate."
+        "goal": "Understand how individualized neuromodulation changes visuospatial representational geometry.",
+        "next": "Define outcome-blind follow-up analyses where scientifically justified and identify an independent replication path.",
+        "now": "Evaluating the completed prespecified seven-participant reanalysis and planning replication-oriented follow-up.",
+        "recentWin": "The full seven-participant AFNI/RSA primary analysis completed with frozen provenance, exact participant-level inference, and sensitivity checks.",
+        "whyItMatters": "The primary result is technically reproducible and was evaluated without changing the analysis after seeing outcomes."
       },
-      "projectGoal": "Stage and reproduce neuromodulation imaging analysis only after verified data access.",
+      "projectGoal": "Evaluate a frozen, reproducible neuromodulation reanalysis and pursue independent replication without changing the primary endpoint.",
       "queueDepth": 0,
       "readyForHuman": false,
       "recentAccomplishments": [],
-      "recentWin": "AFNI 26.3.03 is installed and the AFNI\u2194NiBabel geometry crosscheck passed against the HS002 real dataset.",
-      "scientificOutput": "No scientific milestone recorded",
+      "recentWin": "The full seven-participant AFNI/RSA primary analysis completed with frozen provenance, exact participant-level inference, and sensitivity checks.",
+      "scientificOutput": "PRIMARY_COMPLETE / REPLICATION_REQUIRED",
       "sinceHourlyCheckpoint": [],
-      "stage": "Staging",
+      "stage": "PRIMARY_COMPLETE / REPLICATION_REQUIRED",
       "stageProgress": {
-        "completed": 0,
+        "completed": 3,
         "total": 4
       },
       "status": "Active",
@@ -152,59 +152,18 @@
         "completed": 0,
         "total": 1
       },
-      "taskDescription": "Verify the complete local archive, build the canonical manifest, and reconcile participants/runs.",
+      "taskDescription": "Outcome-blind follow-up design, literature audit, and independent-replication discovery; the frozen primary remains unchanged.",
       "taskStartedAt": "2026-10-13T12:02:05.477981Z",
       "transfer": {
-        "acquisition_health": "COMPLETE",
-        "acquisition_pid": null,
-        "active": true,
-        "afni_status": "BLOCKED_ENVIRONMENT",
-        "archive_integrity": "PASS",
-        "archive_verified_at": "2026-10-13T11:40:00Z",
-        "bcm_state": "M1_FROZEN_SAP_FROZEN",
-        "bytes_expected": 60047113996,
-        "bytes_verified": 9839,
-        "expected_bytes": 60047113996,
-        "failure": "VISION_CONTROL_UNREACHABLE",
-        "file_state": "LOCAL_COMPLETE",
-        "files_expected": 3,
-        "files_verified": 0,
-        "hs003_handling_rule": "NESTED_SESSION_VARIANTS_ONE_PARTICIPANT",
-        "last_checked_at": 1791983099.890387,
-        "last_growth_at": 1791894901.9021618,
-        "local_bytes": 60047113996,
-        "local_percent": 100.0,
-        "m1_blocker": "EXACT_SOURCE_NETWORK_SUPPLEMENT_MAPPING",
-        "m1_event": "BCM_DATA_COHORT_FROZEN",
-        "m1_status": "FROZEN",
-        "n6_status": "UNRESOLVED_NONBLOCKING",
-        "network_limitation": "VP_VI_MP_SEIA_DEFERRED_SECONDARY_PENDING_AUTHORITATIVE_MAPPING",
-        "primary_analysis_status": "GLM_EXECUTION_WAITING_AFNI",
-        "primary_cohort_n": 7,
-        "primary_compute": "MAC",
-        "primary_mask_id": "GM_RESAM_TLRC",
-        "primary_mask_status": "FROZEN",
-        "real_smoke_status": "PASS_NIBABEL_TECHNICAL_PATH",
-        "retry_count": 41,
-        "sap_status": "FROZEN",
-        "selected_route": "Mac-first local execution; optional resumable VISION copy",
-        "source_checksum_algorithm": "SHA-256",
-        "source_checksum_expected": "c3c914f09abe0bbb07424b92f388b3e85de4fe540a3c6d75f1b4a39198d080c8",
-        "source_checksum_local": "c3c914f09abe0bbb07424b92f388b3e85de4fe540a3c6d75f1b4a39198d080c8",
-        "source_checksum_status": "PASS",
-        "state": "LOCAL_DATA_VERIFY",
-        "sync_health": "PAUSED_MAINTENANCE",
-        "sync_pid": null,
-        "verification_state": "LOCAL_ARCHIVE_READY",
-        "vision_bytes": 14638120960,
-        "vision_percent": 24.3777,
-        "vision_required": false
+        "active": false,
+        "reason": "BCM primary analysis is complete; VISION is not required for current BCM work.",
+        "state": "OPTIONAL_ARCHIVED"
       },
       "updatedAt": "2026-10-13T12:02:05.477981Z",
       "v1Convergence": {
         "endState": "BCM-Neuromodulation/END_STATE.md",
-        "nextGate": "Cohort reconciliation",
-        "nextMilestonePreparation": "Cohort reconciliation",
+        "nextGate": "Replication-oriented follow-up",
+        "nextMilestonePreparation": "Replication-oriented follow-up",
         "officialCurrentMilestone": "BCM-V1-M1",
         "projectState": "BCM-Neuromodulation/PROJECT_STATE.md",
         "roadmap": "BCM-Neuromodulation/ROADMAP_V1.md",
@@ -214,9 +173,9 @@
         },
         "whyThisMatters": "Advances the frozen V1 milestone."
       },
-      "v1Goal": "Stage and reproduce neuromodulation imaging analysis only after verified data access.",
+      "v1Goal": "Evaluate a frozen, reproducible neuromodulation reanalysis and pursue independent replication without changing the primary endpoint.",
       "waitingReason": "Optional VISION copy paused during planned maintenance; local BCM work is continuing.",
-      "whyItMatters": "The frozen plan and compute environment are ready; HS002 still requires the selectively extracted released timing and nuisance regressors for the AFNI GLM gate."
+      "whyItMatters": "The primary result is technically reproducible and was evaluated without changing the analysis after seeing outcomes."
     },
     {
       "actionRequired": null,
@@ -622,8 +581,20 @@
     }
   ],
   "queueHealth": {
+    "autonomyStarvation": [
+      "AortaPlan",
+      "EchoNext",
+      "Ditto",
+      "Trace",
+      "TEER",
+      "Papers"
+    ],
+    "autonomyStarvationCount": 6,
+    "blockedProjects": true,
+    "controlHeartbeatsHealthy": true,
     "orphanedCount": 0,
-    "orphanedRoadmaps": []
+    "orphanedRoadmaps": [],
+    "staleLeases": 0
   },
   "recentlyWe": [
     {
@@ -652,11 +623,17 @@
     "autonomy": "DEGRADED",
     "controllerMode": "continuous local",
     "cpuJobs": 0,
+    "deterministicComputeActive": 0,
+    "externalJobsActive": 0,
     "gpuJobs": 0,
     "integrity": "Evidence-gated",
     "legacyScheduledPrompts": 0,
+    "localInferenceActive": 0,
+    "localTaskWorkersActive": 0,
     "portfolioProjects": 8,
-    "status": "Operational"
+    "status": "Operational",
+    "totalActiveResearchExecutions": 0,
+    "visionJobsActive": 0
   },
   "v1Convergence": {
     "enabled": true,
@@ -665,7 +642,7 @@
   },
   "vision": {
     "active_jobs": 0,
-    "active_transfers": 1,
+    "active_transfers": 0,
     "completed_jobs": 3,
     "cpu_active": 0,
     "gpu_active": 0,
@@ -681,7 +658,7 @@
       {
         "external_id": "mac-vision-datazip-20261013",
         "id": 9,
-        "state": "RUNNING"
+        "state": "OPTIONAL_ARCHIVED"
       }
     ]
   },

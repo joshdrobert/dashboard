@@ -1,5 +1,5 @@
 {
-  "at": 1791983102.7628028,
+  "at": 1791983633.932807,
   "projects": {
     "AortaPlan": {
       "progress": "2026-10-13T14:28:54.927597Z",
@@ -9,7 +9,7 @@
     "BCM-Neuromodulation": {
       "progress": "2026-10-13T01:16:42.440935Z",
       "status": "Active",
-      "task": "Local Data.zip integrity verification + cohort reconciliation"
+      "task": "publication-and-replication-program"
     },
     "CTBone": {
       "progress": "2026-10-13T13:09:45.518199Z",
