@@ -6,7 +6,7 @@
     "strategicEscalation": "Strategic AI review",
     "technicalEscalation": "Codex"
   },
-  "generatedAt": "2026-10-14T13:19:33.190452Z",
+  "generatedAt": "2026-10-14T13:24:29.415586Z",
   "goodScience": {
     "duplicateStudiesKilled": 2,
     "scientificGatesBypassed": 0,
@@ -15,7 +15,7 @@
   },
   "hourlyCheckpoint": {
     "at": "2026-10-14T13:00:02.625374Z",
-    "changes": 3
+    "changes": 1
   },
   "papers": {
     "analysis": 0,
@@ -52,14 +52,14 @@
       "currentWork": "A bounded local task is queued.",
       "engineeringOutput": "Bounded task accepted",
       "id": "01",
-      "lastMeaningfulProgress": "2026-10-13T14:28:54.927597Z",
+      "lastMeaningfulProgress": "2026-10-14T13:24:03.106168Z",
       "milestoneIndex": 1,
       "milestoneTotal": 3,
       "name": "AortaPlan",
-      "next": "aortaplan-receipt-benchmark-486-part3",
+      "next": null,
       "nextMilestone": "Public/authorized real-data decision",
       "nextV1Gate": "Run the real-data benchmark.",
-      "operationalState": "Queued",
+      "operationalState": "Active",
       "plainLanguage": {
         "goal": "Make EVAR measurements from CT scans reproducible and clinician-reviewable.",
         "next": "Run the real-data benchmark.",
@@ -68,29 +68,29 @@
         "whyItMatters": "This reduces the chance that basic geometry bugs drive future measurements."
       },
       "projectGoal": "Validate legally accessible aortic geometry measurement foundations.",
-      "queueDepth": 3,
+      "queueDepth": 2,
       "readyForHuman": false,
       "recentAccomplishments": [],
       "recentWin": "The measurement engine passed known-geometry and coordinate checks.",
       "scientificOutput": "No scientific milestone recorded",
       "sinceHourlyCheckpoint": [
-        "A new bounded task was queued."
+        "A bounded task passed deterministic acceptance."
       ],
-      "stage": "Queued",
+      "stage": "Active",
       "stageProgress": {
         "completed": 1,
         "total": 3
       },
-      "status": "Queued",
+      "status": "Active",
       "summary": "Public CTA planning and geometry validation.",
       "taskChecklist": {
         "completed": 0,
         "total": 1
       },
       "taskDescription": "A bounded local task is queued.",
-      "taskStartedAt": "2026-10-14T13:19:00.472025Z",
+      "taskStartedAt": "2026-10-14T13:24:07.736922Z",
       "transfer": null,
-      "updatedAt": "2026-10-14T13:19:00.472025Z",
+      "updatedAt": "2026-10-14T13:24:07.736922Z",
       "v1Convergence": {
         "endState": "AortaPlan/END_STATE.md",
         "nextGate": "Public/authorized real-data decision",
@@ -280,9 +280,7 @@
       "recentAccomplishments": [],
       "recentWin": "The PTB-XL cohort and split work are retained.",
       "scientificOutput": "No scientific milestone recorded",
-      "sinceHourlyCheckpoint": [
-        "A new bounded task was queued."
-      ],
+      "sinceHourlyCheckpoint": [],
       "stage": "Queued",
       "stageProgress": {
         "completed": 1,
@@ -416,9 +414,7 @@
       "recentAccomplishments": [],
       "recentWin": "The evidence/provenance foundation is preserved for a real study.",
       "scientificOutput": "No scientific milestone recorded",
-      "sinceHourlyCheckpoint": [
-        "A new bounded task was queued."
-      ],
+      "sinceHourlyCheckpoint": [],
       "stage": "Queued",
       "stageProgress": {
         "completed": 1,
@@ -622,20 +618,20 @@
     }
   ],
   "system": {
-    "activeJobs": 0,
+    "activeJobs": 3,
     "autonomy": "DEGRADED",
     "controllerMode": "continuous local",
     "cpuJobs": 0,
-    "deterministicComputeActive": 0,
+    "deterministicComputeActive": 2,
     "externalJobsActive": 0,
     "gpuJobs": 0,
     "integrity": "Evidence-gated",
     "legacyScheduledPrompts": 0,
-    "localInferenceActive": 0,
-    "localTaskWorkersActive": 0,
+    "localInferenceActive": 1,
+    "localTaskWorkersActive": 3,
     "portfolioProjects": 8,
     "status": "Operational",
-    "totalActiveResearchExecutions": 0,
+    "totalActiveResearchExecutions": 3,
     "visionJobsActive": 0
   },
   "v1Convergence": {
@@ -644,10 +640,10 @@
     "sourceOfTruth": "repo-native END_STATE.md, ROADMAP_V1.md, PROJECT_STATE.md"
   },
   "vision": {
-    "active_jobs": 0,
+    "active_jobs": 3,
     "active_transfers": 0,
     "completed_jobs": 3,
-    "cpu_active": 0,
+    "cpu_active": 3,
     "gpu_active": 0,
     "results_consumed": 3,
     "results_validated": 3,
@@ -655,7 +651,7 @@
       "completed": 3,
       "failed": 2,
       "queued": 0,
-      "running": 0
+      "running": 3
     },
     "transfers": [
       {
