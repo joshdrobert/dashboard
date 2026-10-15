@@ -107,15 +107,15 @@
     },
     {
       "backend": "Local",
-      "heartbeatAt": "2026-10-15T14:43:31.504796Z",
-      "id": "553",
-      "parent": "552",
+      "heartbeatAt": null,
+      "id": "537",
+      "parent": "536",
       "project": "Trace",
       "resource": "Local agent",
-      "startedAt": "2026-10-15T14:41:09.328203Z",
-      "state": "Running",
-      "title": "551 object storage adapter failure repair \u00b7 coder",
-      "updatedAt": "2026-10-15T14:42:41.638045Z",
+      "startedAt": "2026-10-15T12:35:33.007726Z",
+      "state": "Queued",
+      "title": "trace browser e2e \u00b7 coder",
+      "updatedAt": "2026-10-15T12:35:33.007726Z",
       "workerType": "coder"
     }
   ],
@@ -154,8 +154,28 @@
     "state": "COMPLETE",
     "summary": "The latest two-phase portfolio review is reflected in the controller ledger."
   },
-  "generatedAt": "2026-10-15T14:41:12.194918Z",
+  "generatedAt": "2026-10-15T14:43:58.923632Z",
   "meaningfulEvents": [
+    {
+      "id": "125746",
+      "message": "Accepted task completed: 551 object storage adapter failure repair \u00b7 coder.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-15T14:43:58.923632Z",
+      "type": "task_exit_accepted",
+      "verification": "Verified",
+      "whyItMatters": "The controller recorded the completion."
+    },
+    {
+      "id": "125741",
+      "message": "Verification passed for 551 object storage adapter failure repair \u00b7 coder.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-15T14:43:53.918883Z",
+      "type": "accepted",
+      "verification": "Verified",
+      "whyItMatters": "Dependent work may advance."
+    },
     {
       "id": "125573",
       "message": "Accepted task completed: local repair 551 1 \u00b7 planner.",
@@ -935,37 +955,17 @@
       "type": "task_queued",
       "verification": "Recorded",
       "whyItMatters": "The next unit of work is durable."
-    },
-    {
-      "id": "116126",
-      "message": "Verification passed for regenerate plan 528 \u00b7 planner.",
-      "next": "Continue through the next controller gate.",
-      "project": "AortaPlan",
-      "timestamp": "2026-10-14T22:57:18.812960Z",
-      "type": "accepted",
-      "verification": "Verified",
-      "whyItMatters": "Dependent work may advance."
-    },
-    {
-      "id": "116088",
-      "message": "Controller recovery restored an interrupted task boundary.",
-      "next": "Continue through the next controller gate.",
-      "project": "AortaPlan",
-      "timestamp": "2026-10-14T22:56:06.407897Z",
-      "type": "recovery",
-      "verification": "Recorded",
-      "whyItMatters": "Safe autonomous execution can resume."
     }
   ],
   "portfolioSummary": {
     "actionsRequiringUser": 0,
-    "activeLocalAgents": 1,
+    "activeLocalAgents": 0,
     "activeVisionJobs": 0,
-    "executingProjects": 1,
+    "executingProjects": 0,
     "projectsNeedingTechnicalAttention": 4,
     "registeredProjects": 9,
     "state": "Needs attention",
-    "verifiedCompletions24h": 36
+    "verifiedCompletions24h": 38
   },
   "projects": [
     {
@@ -1113,22 +1113,22 @@
       "status": "Failed / retrying"
     },
     {
-      "agentsNow": "Running",
+      "agentsNow": "No agent currently executing",
       "blocker": null,
-      "currentObjective": "551 object storage adapter failure repair \u00b7 coder",
+      "currentObjective": "trace browser e2e \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "trace",
-      "lastAccomplishment": "Verified local repair 551 1 \u00b7 planner.",
+      "lastAccomplishment": "Verified 551 object storage adapter failure repair \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-15T14:42:41.638045Z",
+      "lastMeaningfulActivity": "2026-10-15T14:43:53.918750Z",
       "name": "Trace",
       "nextTask": "trace browser e2e \u00b7 coder",
       "operationalState": "RUNNABLE",
-      "queueDepth": 4,
+      "queueDepth": 3,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Running"
+      "status": "Queued"
     }
   ],
   "publicationHealth": {
@@ -1136,7 +1136,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-15T14:43:35.489104Z",
+  "publishedAt": "2026-10-15T14:45:35.928050Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1149,9 +1149,9 @@
     "resultsValidated": 0
   },
   "snapshotVersion": "2.0",
-  "sourceEventAt": "2026-10-15T14:41:12.194918Z",
+  "sourceEventAt": "2026-10-15T14:43:58.923632Z",
   "system": {
-    "activeJobs": 1,
+    "activeJobs": 0,
     "autonomy": "DEGRADED",
     "status": "Needs attention"
   },
