@@ -155,7 +155,7 @@
     "state": "FAILED",
     "summary": "The latest two-phase portfolio review is reflected in the controller ledger."
   },
-  "generatedAt": "2026-10-15T17:10:51.862446Z",
+  "generatedAt": "2026-10-15T17:12:52.397680Z",
   "meaningfulEvents": [
     {
       "id": "125746",
@@ -1122,7 +1122,7 @@
       "id": "trace",
       "lastAccomplishment": "Verified 551 object storage adapter failure repair \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-15T17:09:07.718238Z",
+      "lastMeaningfulActivity": "2026-10-15T17:10:53.857209Z",
       "name": "Trace",
       "nextTask": "trace browser e2e \u00b7 coder",
       "operationalState": "RUNNABLE",
@@ -1137,7 +1137,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-15T17:10:52.071683Z",
+  "publishedAt": "2026-10-15T17:12:52.669922Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1251,7 +1251,7 @@
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0
   },
-  "semanticHash": "4f7b72d88189097d7c0bee31d09c011281611ce2f8e6b35b984536d2f0a823f6",
+  "semanticHash": "a73dce9ae11d95c890a8195c72553a30794a5a4a6cfa82d45ac37925c4fc2f10",
   "snapshotVersion": "2.1",
   "sourceEventAt": "2026-10-15T14:43:58.923632Z",
   "system": {
