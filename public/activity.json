@@ -1,15 +1,21 @@
 [
   {
     "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
+    "message": "Queued local repair 549 1 \u00b7 planner.",
     "project": "Trace",
-    "timestamp": "2026-10-15T14:13:08.980743Z"
+    "timestamp": "2026-10-15T14:18:26.671293Z"
   },
   {
     "level": "Attention",
     "message": "A bounded task failed and entered recovery.",
     "project": "Trace",
-    "timestamp": "2026-10-15T14:13:08.980717Z"
+    "timestamp": "2026-10-15T14:18:23.326920Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "Trace",
+    "timestamp": "2026-10-15T14:13:08.980743Z"
   },
   {
     "level": "Verified",
@@ -472,11 +478,5 @@
     "message": "Queued local repair 524 1 \u00b7 planner.",
     "project": "AortaPlan",
     "timestamp": "2026-10-14T22:48:20.982551Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Accepted task completed: a1 physical space regression bounds \u00b7 coder.",
-    "project": "AortaPlan",
-    "timestamp": "2026-10-14T22:30:51.381183Z"
   }
 ]

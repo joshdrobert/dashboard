@@ -107,16 +107,16 @@
     },
     {
       "backend": "Local",
-      "heartbeatAt": "2026-10-15T14:18:15.111651Z",
-      "id": "549",
-      "parent": "548",
+      "heartbeatAt": "2026-10-15T14:19:10.561911Z",
+      "id": "550",
+      "parent": null,
       "project": "Trace",
       "resource": "Local agent",
-      "startedAt": "2026-10-15T14:07:11.678784Z",
-      "state": "Verifying",
-      "title": "544 object store hash rights regression \u00b7 coder",
-      "updatedAt": "2026-10-15T14:18:22.635488Z",
-      "workerType": "coder"
+      "startedAt": "2026-10-15T14:18:26.671160Z",
+      "state": "Running",
+      "title": "local repair 549 1 \u00b7 planner",
+      "updatedAt": "2026-10-15T14:18:30.296620Z",
+      "workerType": "planner"
     }
   ],
   "attentionRequired": [
@@ -154,8 +154,28 @@
     "state": "COMPLETE",
     "summary": "The latest two-phase portfolio review is reflected in the controller ledger."
   },
-  "generatedAt": "2026-10-15T14:13:08.980743Z",
+  "generatedAt": "2026-10-15T14:18:26.671293Z",
   "meaningfulEvents": [
+    {
+      "id": "124625",
+      "message": "Queued local repair 549 1 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-15T14:18:26.671293Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "124622",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-15T14:18:23.326920Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
     {
       "id": "124488",
       "message": "Controller recovery restored an interrupted task boundary.",
@@ -165,16 +185,6 @@
       "type": "recovery",
       "verification": "Recorded",
       "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "124487",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "Trace",
-      "timestamp": "2026-10-15T14:13:08.980717Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
     },
     {
       "id": "124291",
@@ -945,16 +955,6 @@
       "type": "task_queued",
       "verification": "Recorded",
       "whyItMatters": "The next unit of work is durable."
-    },
-    {
-      "id": "115245",
-      "message": "Accepted task completed: a1 physical space regression bounds \u00b7 coder.",
-      "next": "Continue through the next controller gate.",
-      "project": "AortaPlan",
-      "timestamp": "2026-10-14T22:30:51.381183Z",
-      "type": "task_exit_accepted",
-      "verification": "Verified",
-      "whyItMatters": "The controller recorded the completion."
     }
   ],
   "portfolioSummary": {
@@ -1113,22 +1113,22 @@
       "status": "Failed / retrying"
     },
     {
-      "agentsNow": "Verifying",
+      "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "544 object store hash rights regression \u00b7 coder",
+      "currentObjective": "local repair 549 1 \u00b7 planner",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "trace",
       "lastAccomplishment": "Verified local repair 544 1 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-15T14:18:22.635488Z",
+      "lastMeaningfulActivity": "2026-10-15T14:18:30.296620Z",
       "name": "Trace",
       "nextTask": "trace browser e2e \u00b7 coder",
       "operationalState": "RUNNABLE",
       "queueDepth": 4,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Verifying"
+      "status": "Running"
     }
   ],
   "publicationHealth": {
@@ -1136,7 +1136,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-15T14:18:23.214524Z",
+  "publishedAt": "2026-10-15T14:19:18.451714Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1149,7 +1149,7 @@
     "resultsValidated": 0
   },
   "snapshotVersion": "2.0",
-  "sourceEventAt": "2026-10-15T14:13:08.980743Z",
+  "sourceEventAt": "2026-10-15T14:18:26.671293Z",
   "system": {
     "activeJobs": 1,
     "autonomy": "DEGRADED",
