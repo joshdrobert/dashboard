@@ -6,7 +6,7 @@
     "strategicEscalation": "Strategic AI review",
     "technicalEscalation": "Codex"
   },
-  "generatedAt": "2026-10-15T13:23:12.178440Z",
+  "generatedAt": "2026-10-15T13:25:11.684783Z",
   "goodScience": {
     "duplicateStudiesKilled": 2,
     "scientificGatesBypassed": 0,
@@ -395,10 +395,10 @@
       "milestoneIndex": 1,
       "milestoneTotal": 3,
       "name": "Trace",
-      "next": null,
+      "next": "541-deterministic-object-store-regression",
       "nextMilestone": "Ingestion-boundary validation",
       "nextV1Gate": "Exercise protocol, evidence, results, and export flow.",
-      "operationalState": "Active",
+      "operationalState": "Queued",
       "plainLanguage": {
         "goal": "Carry a real study from protocol to an auditable submission package.",
         "next": "Exercise protocol, evidence, results, and export flow.",
@@ -413,21 +413,21 @@
       "recentWin": "The evidence/provenance foundation is preserved for a real study.",
       "scientificOutput": "No scientific milestone recorded",
       "sinceHourlyCheckpoint": [],
-      "stage": "Active",
+      "stage": "Queued",
       "stageProgress": {
         "completed": 1,
         "total": 3
       },
-      "status": "Active",
+      "status": "Queued",
       "summary": "Rights-aware document ingestion and fingerprinting.",
       "taskChecklist": {
         "completed": 0,
         "total": 1
       },
       "taskDescription": "A bounded local task is queued.",
-      "taskStartedAt": "2026-10-15T13:22:15.962902Z",
+      "taskStartedAt": "2026-10-15T13:25:11.183731Z",
       "transfer": null,
-      "updatedAt": "2026-10-15T13:22:15.962902Z",
+      "updatedAt": "2026-10-15T13:25:11.183731Z",
       "v1Convergence": {
         "endState": "Trace/END_STATE.md",
         "nextGate": "Ingestion-boundary validation",
@@ -619,7 +619,7 @@
     }
   ],
   "system": {
-    "activeJobs": 1,
+    "activeJobs": 0,
     "autonomy": "DEGRADED",
     "controllerMode": "continuous local",
     "cpuJobs": 0,
@@ -628,11 +628,11 @@
     "gpuJobs": 0,
     "integrity": "Evidence-gated",
     "legacyScheduledPrompts": 0,
-    "localInferenceActive": 1,
-    "localTaskWorkersActive": 1,
+    "localInferenceActive": 0,
+    "localTaskWorkersActive": 0,
     "portfolioProjects": 8,
     "status": "Operational",
-    "totalActiveResearchExecutions": 1,
+    "totalActiveResearchExecutions": 0,
     "visionJobsActive": 0
   },
   "v1Convergence": {
@@ -641,10 +641,10 @@
     "sourceOfTruth": "repo-native END_STATE.md, ROADMAP_V1.md, PROJECT_STATE.md"
   },
   "vision": {
-    "active_jobs": 1,
+    "active_jobs": 0,
     "active_transfers": 0,
     "completed_jobs": 3,
-    "cpu_active": 1,
+    "cpu_active": 0,
     "gpu_active": 0,
     "results_consumed": 3,
     "results_validated": 3,
@@ -652,7 +652,7 @@
       "completed": 3,
       "failed": 2,
       "queued": 0,
-      "running": 1
+      "running": 0
     },
     "transfers": [
       {
