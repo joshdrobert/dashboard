@@ -1,670 +1,1095 @@
 {
   "actionRequired": [],
-  "autonomyPolicy": {
-    "human": "Only essential external/user actions",
-    "localResolution": "Evidence lookup",
-    "strategicEscalation": "Strategic AI review",
-    "technicalEscalation": "Codex"
+  "activeWork": [
+    {
+      "backend": "Local",
+      "heartbeatAt": "2026-10-15T14:07:47.794151Z",
+      "id": "547",
+      "parent": "546",
+      "project": "AI-Server",
+      "resource": "Local agent",
+      "startedAt": "2026-10-15T14:03:52.205503Z",
+      "state": "Running",
+      "title": "task 545 vision gateway probe \u00b7 coder",
+      "updatedAt": "2026-10-15T14:07:37.802167Z",
+      "workerType": "coder"
+    },
+    {
+      "backend": "Local",
+      "heartbeatAt": null,
+      "id": "435",
+      "parent": "427",
+      "project": "BCM-Neuromodulation",
+      "resource": "Local agent",
+      "startedAt": "2026-10-13T01:27:59.998118Z",
+      "state": "External dependency",
+      "title": "bcm real vision auth preflight 20261013 \u00b7 research",
+      "updatedAt": "2026-10-13T12:02:05.477981Z",
+      "workerType": "research"
+    },
+    {
+      "backend": "Local",
+      "heartbeatAt": "2026-10-15T14:07:45.003899Z",
+      "id": "549",
+      "parent": "548",
+      "project": "Trace",
+      "resource": "Local agent",
+      "startedAt": "2026-10-15T14:07:11.678784Z",
+      "state": "Running",
+      "title": "544 object store hash rights regression \u00b7 coder",
+      "updatedAt": "2026-10-15T14:07:15.008369Z",
+      "workerType": "coder"
+    }
+  ],
+  "attentionRequired": [
+    {
+      "category": "Agents debugging",
+      "message": "145 task(s) are in repair or retry states.",
+      "project": "Portfolio"
+    }
+  ],
+  "decisionSummary": {
+    "approvedDecisions": 0,
+    "lastPhase1": "2026-10-15T13:31:04.823301Z",
+    "lastPhase2": "2026-10-15T13:36:58.823692Z",
+    "model": "Codex",
+    "modifiedOrReversed": 0,
+    "nextReview": null,
+    "orientationAcknowledgments": 9,
+    "pendingDecisions": 0,
+    "projectsReviewed": 9,
+    "reasoningEffort": "medium",
+    "state": "COMPLETE",
+    "summary": "The latest two-phase portfolio review is reflected in the controller ledger."
   },
-  "generatedAt": "2026-10-15T14:02:21.317752Z",
-  "goodScience": {
-    "duplicateStudiesKilled": 2,
-    "scientificGatesBypassed": 0,
-    "studyPlansFrozenBeforeTesting": 2,
-    "unsupportedCausalClaimsPromoted": 0
+  "director": {
+    "approvedDecisions": 0,
+    "lastPhase1": "2026-10-15T13:31:04.823301Z",
+    "lastPhase2": "2026-10-15T13:36:58.823692Z",
+    "model": "Codex",
+    "modifiedOrReversed": 0,
+    "nextReview": null,
+    "orientationAcknowledgments": 9,
+    "pendingDecisions": 0,
+    "projectsReviewed": 9,
+    "reasoningEffort": "medium",
+    "state": "COMPLETE",
+    "summary": "The latest two-phase portfolio review is reflected in the controller ledger."
   },
-  "hourlyCheckpoint": {
-    "at": "2026-10-15T14:02:26.681774Z",
-    "changes": 0
-  },
-  "papers": {
-    "analysis": 0,
-    "archivedExternalDependency": 0,
-    "authorizedProtocols": 0,
-    "batchScreening": 0,
-    "candidateBank": 400,
-    "declined": 10,
-    "deepExecuting": 0,
-    "deepInvestigations": 0,
-    "deepQueued": 0,
-    "deepToAuthorized": 0,
-    "deepToDeclined": 0,
-    "externalSubmission": "JOSHUA APPROVAL REQUIRED",
-    "manuscripts": 0,
-    "rankedToDeep": 0,
-    "rankedViableQueue": 6,
-    "readyForHuman": 0,
-    "researchPipeline": "AUTONOMOUS",
-    "screened": 16,
-    "traceEditorialReview": 0
+  "generatedAt": "2026-10-15T14:07:46.484242Z",
+  "meaningfulEvents": [
+    {
+      "id": "124069",
+      "message": "Accepted task completed: local repair 544 1 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-15T14:07:14.591462Z",
+      "type": "task_exit_accepted",
+      "verification": "Verified",
+      "whyItMatters": "The controller recorded the completion."
+    },
+    {
+      "id": "124060",
+      "message": "Queued 544 object store hash rights regression \u00b7 coder.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-15T14:07:11.678825Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "124059",
+      "message": "Verification passed for local repair 544 1 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-15T14:07:10.610504Z",
+      "type": "accepted",
+      "verification": "Verified",
+      "whyItMatters": "Dependent work may advance."
+    },
+    {
+      "id": "123961",
+      "message": "Queued local repair 544 1 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-15T14:05:09.369856Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "123958",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-15T14:05:04.663559Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
+    {
+      "id": "123913",
+      "message": "Accepted task completed: local repair 545 1 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "AI-Server",
+      "timestamp": "2026-10-15T14:03:54.944359Z",
+      "type": "task_exit_accepted",
+      "verification": "Verified",
+      "whyItMatters": "The controller recorded the completion."
+    },
+    {
+      "id": "123905",
+      "message": "Queued task 545 vision gateway probe \u00b7 coder.",
+      "next": "Continue through the next controller gate.",
+      "project": "AI-Server",
+      "timestamp": "2026-10-15T14:03:52.205568Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "123904",
+      "message": "Verification passed for local repair 545 1 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "AI-Server",
+      "timestamp": "2026-10-15T14:03:50.575144Z",
+      "type": "accepted",
+      "verification": "Verified",
+      "whyItMatters": "Dependent work may advance."
+    },
+    {
+      "id": "123876",
+      "message": "Queued local repair 545 1 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "AI-Server",
+      "timestamp": "2026-10-15T14:03:25.520728Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "123871",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "AI-Server",
+      "timestamp": "2026-10-15T14:03:22.573200Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
+    {
+      "id": "123753",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "AI-Server",
+      "timestamp": "2026-10-15T14:00:41.693308Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "123593",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-15T13:55:54.590671Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "123076",
+      "message": "A Codex orientation was delivered.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-15T13:36:58.824715Z",
+      "type": "orientation_delivered",
+      "verification": "Recorded",
+      "whyItMatters": "Supervisory direction was updated."
+    },
+    {
+      "id": "123074",
+      "message": "A Codex orientation was delivered.",
+      "next": "Continue through the next controller gate.",
+      "project": "EchoNext",
+      "timestamp": "2026-10-15T13:36:58.824700Z",
+      "type": "orientation_delivered",
+      "verification": "Recorded",
+      "whyItMatters": "Supervisory direction was updated."
+    },
+    {
+      "id": "123072",
+      "message": "A Codex orientation was delivered.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-15T13:36:58.824685Z",
+      "type": "orientation_delivered",
+      "verification": "Recorded",
+      "whyItMatters": "Supervisory direction was updated."
+    },
+    {
+      "id": "123070",
+      "message": "A Codex orientation was delivered.",
+      "next": "Continue through the next controller gate.",
+      "project": "CTBone",
+      "timestamp": "2026-10-15T13:36:58.824672Z",
+      "type": "orientation_delivered",
+      "verification": "Recorded",
+      "whyItMatters": "Supervisory direction was updated."
+    },
+    {
+      "id": "123068",
+      "message": "A Codex orientation was delivered.",
+      "next": "Continue through the next controller gate.",
+      "project": "BCM-Neuromodulation",
+      "timestamp": "2026-10-15T13:36:58.824385Z",
+      "type": "orientation_delivered",
+      "verification": "Recorded",
+      "whyItMatters": "Supervisory direction was updated."
+    },
+    {
+      "id": "123066",
+      "message": "A Codex orientation was delivered.",
+      "next": "Continue through the next controller gate.",
+      "project": "Papers",
+      "timestamp": "2026-10-15T13:36:58.824369Z",
+      "type": "orientation_delivered",
+      "verification": "Recorded",
+      "whyItMatters": "Supervisory direction was updated."
+    },
+    {
+      "id": "123064",
+      "message": "A Codex orientation was delivered.",
+      "next": "Continue through the next controller gate.",
+      "project": "AortaPlan",
+      "timestamp": "2026-10-15T13:36:58.824355Z",
+      "type": "orientation_delivered",
+      "verification": "Recorded",
+      "whyItMatters": "Supervisory direction was updated."
+    },
+    {
+      "id": "123062",
+      "message": "A Codex orientation was delivered.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-15T13:36:58.824338Z",
+      "type": "orientation_delivered",
+      "verification": "Recorded",
+      "whyItMatters": "Supervisory direction was updated."
+    },
+    {
+      "id": "123060",
+      "message": "A Codex orientation was delivered.",
+      "next": "Continue through the next controller gate.",
+      "project": "AI-Server",
+      "timestamp": "2026-10-15T13:36:58.824287Z",
+      "type": "orientation_delivered",
+      "verification": "Recorded",
+      "whyItMatters": "Supervisory direction was updated."
+    },
+    {
+      "id": "122882",
+      "message": "A VISION compute job was submitted.",
+      "next": "Continue through the next controller gate.",
+      "project": "AI-Server",
+      "timestamp": "2026-10-15T13:25:50.324314Z",
+      "type": "external_submitted",
+      "verification": "Recorded",
+      "whyItMatters": "External compute is in progress."
+    },
+    {
+      "id": "122853",
+      "message": "Queued vision shared gateway smoke 20261015 \u00b7 coder.",
+      "next": "Continue through the next controller gate.",
+      "project": "AI-Server",
+      "timestamp": "2026-10-15T13:25:10.420004Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "122699",
+      "message": "Accepted task completed: regenerate plan 542 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-15T13:21:23.173301Z",
+      "type": "task_exit_accepted",
+      "verification": "Verified",
+      "whyItMatters": "The controller recorded the completion."
+    },
+    {
+      "id": "122690",
+      "message": "Queued 541 deterministic object store regression \u00b7 coder.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-15T13:21:20.305830Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "122689",
+      "message": "Verification passed for regenerate plan 542 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-15T13:21:19.717258Z",
+      "type": "accepted",
+      "verification": "Verified",
+      "whyItMatters": "Dependent work may advance."
+    },
+    {
+      "id": "122655",
+      "message": "Queued regenerate plan 542 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-15T13:20:53.614557Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "122654",
+      "message": "Verification passed for local repair 541 1 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-15T13:20:53.563048Z",
+      "type": "accepted",
+      "verification": "Verified",
+      "whyItMatters": "Dependent work may advance."
+    },
+    {
+      "id": "122586",
+      "message": "Queued local repair 541 1 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-15T13:19:23.257468Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "122583",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-15T13:19:17.997796Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
+    {
+      "id": "122448",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-15T13:07:12.418996Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "122291",
+      "message": "Accepted task completed: 534 rights metadata store \u00b7 coder.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-15T13:04:28.029063Z",
+      "type": "task_exit_accepted",
+      "verification": "Verified",
+      "whyItMatters": "The controller recorded the completion."
+    },
+    {
+      "id": "122283",
+      "message": "Verification passed for 534 rights metadata store \u00b7 coder.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-15T13:04:24.405619Z",
+      "type": "accepted",
+      "verification": "Verified",
+      "whyItMatters": "Dependent work may advance."
+    },
+    {
+      "id": "122212",
+      "message": "Accepted task completed: 534 content hash persist \u00b7 coder.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-15T13:03:15.234536Z",
+      "type": "task_exit_accepted",
+      "verification": "Verified",
+      "whyItMatters": "The controller recorded the completion."
+    },
+    {
+      "id": "122209",
+      "message": "Verification passed for 534 content hash persist \u00b7 coder.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-15T13:03:10.399818Z",
+      "type": "accepted",
+      "verification": "Verified",
+      "whyItMatters": "Dependent work may advance."
+    },
+    {
+      "id": "122166",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-15T13:02:40.182075Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "122165",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-15T13:02:40.182053Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
+    {
+      "id": "122077",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-15T13:00:53.610650Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "122076",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-15T13:00:53.610627Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
+    {
+      "id": "122001",
+      "message": "Accepted task completed: local repair 534 1 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-15T12:58:46.029953Z",
+      "type": "task_exit_accepted",
+      "verification": "Verified",
+      "whyItMatters": "The controller recorded the completion."
+    },
+    {
+      "id": "121993",
+      "message": "Queued 534 object store determinism test \u00b7 coder.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-15T12:58:43.102443Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "121992",
+      "message": "Queued 534 rights metadata store \u00b7 coder.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-15T12:58:43.102427Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "121991",
+      "message": "Queued 534 content hash persist \u00b7 coder.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-15T12:58:43.102380Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "121990",
+      "message": "Verification passed for local repair 534 1 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-15T12:58:41.399254Z",
+      "type": "accepted",
+      "verification": "Verified",
+      "whyItMatters": "Dependent work may advance."
+    },
+    {
+      "id": "121947",
+      "message": "Queued local repair 534 1 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-15T12:57:44.365539Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "121541",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-15T12:39:45.745895Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "121540",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-15T12:39:45.745868Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
+    {
+      "id": "121290",
+      "message": "Queued trace browser e2e \u00b7 coder.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-15T12:35:33.008068Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "121289",
+      "message": "Queued trace reader editor export \u00b7 coder.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-15T12:35:33.006365Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "121288",
+      "message": "Queued trace manuscript persistence \u00b7 coder.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-15T12:35:33.004578Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "121287",
+      "message": "Queued trace object store source \u00b7 coder.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-15T12:35:33.002652Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "118616",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "AortaPlan",
+      "timestamp": "2026-10-15T04:38:59.940925Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
+    {
+      "id": "118575",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "AortaPlan",
+      "timestamp": "2026-10-15T04:37:41.649783Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "118421",
+      "message": "Queued regenerate plan 532 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "AortaPlan",
+      "timestamp": "2026-10-15T04:34:08.964530Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "118418",
+      "message": "Verification passed for regenerate plan 531 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "AortaPlan",
+      "timestamp": "2026-10-15T04:34:06.618910Z",
+      "type": "accepted",
+      "verification": "Verified",
+      "whyItMatters": "Dependent work may advance."
+    },
+    {
+      "id": "118363",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "AortaPlan",
+      "timestamp": "2026-10-15T04:31:44.222446Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "118362",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "AortaPlan",
+      "timestamp": "2026-10-15T04:31:44.222408Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
+    {
+      "id": "118057",
+      "message": "Queued regenerate plan 531 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "AortaPlan",
+      "timestamp": "2026-10-15T04:23:48.643035Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "118055",
+      "message": "Verification passed for plan after 526 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "AortaPlan",
+      "timestamp": "2026-10-15T04:23:47.777573Z",
+      "type": "accepted",
+      "verification": "Verified",
+      "whyItMatters": "Dependent work may advance."
+    },
+    {
+      "id": "118000",
+      "message": "Queued plan after 526 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "AortaPlan",
+      "timestamp": "2026-10-15T04:22:31.940622Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "116186",
+      "message": "Verification passed for regenerate plan 529 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "AortaPlan",
+      "timestamp": "2026-10-14T22:58:27.633497Z",
+      "type": "accepted",
+      "verification": "Verified",
+      "whyItMatters": "Dependent work may advance."
+    },
+    {
+      "id": "116128",
+      "message": "Queued regenerate plan 529 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "AortaPlan",
+      "timestamp": "2026-10-14T22:57:21.088859Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "116126",
+      "message": "Verification passed for regenerate plan 528 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "AortaPlan",
+      "timestamp": "2026-10-14T22:57:18.812960Z",
+      "type": "accepted",
+      "verification": "Verified",
+      "whyItMatters": "Dependent work may advance."
+    },
+    {
+      "id": "116088",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "AortaPlan",
+      "timestamp": "2026-10-14T22:56:06.407897Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "116087",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "AortaPlan",
+      "timestamp": "2026-10-14T22:56:06.407840Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
+    {
+      "id": "116056",
+      "message": "Queued regenerate plan 528 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "AortaPlan",
+      "timestamp": "2026-10-14T22:55:47.064769Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "116055",
+      "message": "Verification passed for local repair 524 2 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "AortaPlan",
+      "timestamp": "2026-10-14T22:55:47.010824Z",
+      "type": "accepted",
+      "verification": "Verified",
+      "whyItMatters": "Dependent work may advance."
+    },
+    {
+      "id": "116004",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "AortaPlan",
+      "timestamp": "2026-10-14T22:54:01.927445Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "116003",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "AortaPlan",
+      "timestamp": "2026-10-14T22:54:01.927394Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
+    {
+      "id": "115974",
+      "message": "Queued local repair 524 2 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "AortaPlan",
+      "timestamp": "2026-10-14T22:53:48.994022Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "115972",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "AortaPlan",
+      "timestamp": "2026-10-14T22:53:48.686401Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
+    {
+      "id": "115929",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "AortaPlan",
+      "timestamp": "2026-10-14T22:52:16.528009Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "115788",
+      "message": "Queued local repair 524 1 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "AortaPlan",
+      "timestamp": "2026-10-14T22:48:20.982551Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "115245",
+      "message": "Accepted task completed: a1 physical space regression bounds \u00b7 coder.",
+      "next": "Continue through the next controller gate.",
+      "project": "AortaPlan",
+      "timestamp": "2026-10-14T22:30:51.381183Z",
+      "type": "task_exit_accepted",
+      "verification": "Verified",
+      "whyItMatters": "The controller recorded the completion."
+    },
+    {
+      "id": "115241",
+      "message": "Verification passed for a1 physical space regression bounds \u00b7 coder.",
+      "next": "Continue through the next controller gate.",
+      "project": "AortaPlan",
+      "timestamp": "2026-10-14T22:30:45.702384Z",
+      "type": "accepted",
+      "verification": "Verified",
+      "whyItMatters": "Dependent work may advance."
+    },
+    {
+      "id": "115210",
+      "message": "Accepted task completed: a1 physical space receivers validate \u00b7 coder.",
+      "next": "Continue through the next controller gate.",
+      "project": "AortaPlan",
+      "timestamp": "2026-10-14T22:30:14.196557Z",
+      "type": "task_exit_accepted",
+      "verification": "Verified",
+      "whyItMatters": "The controller recorded the completion."
+    },
+    {
+      "id": "115198",
+      "message": "Verification passed for a1 physical space receivers validate \u00b7 coder.",
+      "next": "Continue through the next controller gate.",
+      "project": "AortaPlan",
+      "timestamp": "2026-10-14T22:30:09.771208Z",
+      "type": "accepted",
+      "verification": "Verified",
+      "whyItMatters": "Dependent work may advance."
+    },
+    {
+      "id": "115187",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "AortaPlan",
+      "timestamp": "2026-10-14T22:30:04.791225Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "115186",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "AortaPlan",
+      "timestamp": "2026-10-14T22:30:04.791153Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
+    {
+      "id": "115086",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "CTBone",
+      "timestamp": "2026-10-14T22:25:40.210949Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    }
+  ],
+  "portfolioSummary": {
+    "actionsRequiringUser": 0,
+    "activeLocalAgents": 2,
+    "activeVisionJobs": 0,
+    "executingProjects": 2,
+    "projectsNeedingTechnicalAttention": 145,
+    "registeredProjects": 9,
+    "state": "Needs attention",
+    "verifiedCompletions24h": 30
   },
   "projects": [
     {
-      "actionRequired": null,
-      "alert": null,
+      "agentsNow": "Running",
       "blocker": null,
-      "criteriaCompleted": 1,
-      "criteriaTotal": 1,
-      "currentMilestone": "Engineering benchmark",
-      "currentMilestoneId": "AORTA-V1-M3",
-      "currentMilestoneName": "Engineering benchmark",
-      "currentTask": "a1-physical-space-regression-bounds",
-      "currentWork": "A bounded local task is queued.",
-      "engineeringOutput": "Bounded task accepted",
-      "id": "01",
-      "lastMeaningfulProgress": "2026-10-15T04:34:06.618910Z",
-      "milestoneIndex": 1,
-      "milestoneTotal": 3,
+      "currentObjective": "task 545 vision gateway probe \u00b7 coder",
+      "deliverable": "A verified bounded project artifact.",
+      "goal": "Operate and improve the autonomous research platform.",
+      "id": "ai-server",
+      "lastAccomplishment": "Verified local repair 545 1 \u00b7 planner.",
+      "lastCodexReview": null,
+      "lastMeaningfulActivity": "2026-10-15T14:07:37.802167Z",
+      "name": "AI-Server",
+      "nextTask": null,
+      "operationalState": "RUNNABLE",
+      "queueDepth": 1,
+      "readyForHuman": false,
+      "researchStage": "Research infrastructure",
+      "status": "Running"
+    },
+    {
+      "agentsNow": "No agent currently executing",
+      "blocker": null,
+      "currentObjective": "No admitted bounded task",
+      "deliverable": "A verified bounded project artifact.",
+      "goal": "Advance the next verified research milestone.",
+      "id": "aortaplan",
+      "lastAccomplishment": "Verified a1 physical space regression bounds \u00b7 coder.",
+      "lastCodexReview": null,
+      "lastMeaningfulActivity": "2026-10-15T04:38:59.940909Z",
       "name": "AortaPlan",
-      "next": null,
-      "nextMilestone": "Public/authorized real-data decision",
-      "nextV1Gate": "Run the real-data benchmark.",
-      "operationalState": "Ready",
-      "plainLanguage": {
-        "goal": "Make EVAR measurements from CT scans reproducible and clinician-reviewable.",
-        "next": "Run the real-data benchmark.",
-        "now": "Moving toward a legal public CT benchmark.",
-        "recentWin": "The measurement engine passed known-geometry and coordinate checks.",
-        "whyItMatters": "This reduces the chance that basic geometry bugs drive future measurements."
-      },
-      "projectGoal": "Validate legally accessible aortic geometry measurement foundations.",
+      "nextTask": null,
+      "operationalState": "RUNNABLE",
       "queueDepth": 0,
       "readyForHuman": false,
-      "recentAccomplishments": [],
-      "recentWin": "The measurement engine passed known-geometry and coordinate checks.",
-      "scientificOutput": "No scientific milestone recorded",
-      "sinceHourlyCheckpoint": [],
-      "stage": "Done",
-      "stageProgress": {
-        "completed": 1,
-        "total": 3
-      },
-      "status": "Ready",
-      "summary": "Public CTA planning and geometry validation.",
-      "taskChecklist": {
-        "completed": 1,
-        "total": 1
-      },
-      "taskDescription": "A bounded local task is queued.",
-      "taskStartedAt": "2026-10-14T22:30:45.702271Z",
-      "transfer": null,
-      "updatedAt": "2026-10-14T22:30:45.702271Z",
-      "v1Convergence": {
-        "endState": "AortaPlan/END_STATE.md",
-        "nextGate": "Public/authorized real-data decision",
-        "nextMilestonePreparation": "Public/authorized real-data decision",
-        "officialCurrentMilestone": "AORTA-V1-M3",
-        "projectState": "AortaPlan/PROJECT_STATE.md",
-        "roadmap": "AortaPlan/ROADMAP_V1.md",
-        "taskProgress": {
-          "completed": 1,
-          "total": 1
-        },
-        "whyThisMatters": "Advances the frozen V1 milestone."
-      },
-      "v1Goal": "Validate legally accessible aortic geometry measurement foundations.",
-      "waitingReason": null,
-      "whyItMatters": "This reduces the chance that basic geometry bugs drive future measurements."
+      "researchStage": "Active research program",
+      "status": "Ready"
     },
     {
-      "actionRequired": null,
-      "alert": null,
-      "blocker": null,
-      "criteriaCompleted": 0,
-      "criteriaTotal": 1,
-      "currentMilestone": "PRIMARY_COMPLETE",
-      "currentMilestoneId": "BCM-V1-M1",
-      "currentMilestoneName": "LOCAL_RSA_EXECUTION",
-      "currentTask": "publication-and-replication-program",
-      "currentWork": "Define outcome-blind follow-up and identify an independent replication path.",
-      "engineeringOutput": "Bounded task accepted",
-      "id": "02",
-      "lastMeaningfulProgress": "2026-10-13T01:16:42.440935Z",
-      "milestoneIndex": 3,
-      "milestoneTotal": 4,
+      "agentsNow": "No agent currently executing",
+      "blocker": "Public-safe blocker recorded",
+      "currentObjective": "bcm real vision auth preflight 20261013 \u00b7 research",
+      "deliverable": "A verified bounded project artifact.",
+      "goal": "Advance the next verified research milestone.",
+      "id": "bcm-neuromodulation",
+      "lastAccomplishment": "Verified bcm actual bridge preflight 20261013 \u00b7 research.",
+      "lastCodexReview": null,
+      "lastMeaningfulActivity": "2026-10-15T10:40:35.665419Z",
       "name": "BCM-Neuromodulation",
-      "next": null,
-      "nextMilestone": "Current-data follow-up and manuscript",
-      "nextV1Gate": "Define outcome-blind follow-up analyses where scientifically justified and identify an independent replication path.",
-      "operationalState": "FOLLOWUP_ANALYSIS",
-      "plainLanguage": {
-        "goal": "Understand how individualized neuromodulation changes visuospatial representational geometry.",
-        "next": "Define outcome-blind follow-up analyses where scientifically justified and identify an independent replication path.",
-        "now": "Evaluating the completed prespecified seven-participant reanalysis and planning replication-oriented follow-up.",
-        "recentWin": "The full seven-participant AFNI/RSA primary analysis completed with frozen provenance, exact participant-level inference, and sensitivity checks.",
-        "whyItMatters": "The primary result is technically reproducible and was evaluated without changing the analysis after seeing outcomes."
-      },
-      "projectGoal": "Evaluate a frozen, reproducible neuromodulation reanalysis and pursue independent replication without changing the primary endpoint.",
-      "queueDepth": 0,
+      "nextTask": "bcm real vision auth preflight 20261013 \u00b7 research",
+      "operationalState": "RUNNABLE",
+      "queueDepth": 1,
       "readyForHuman": false,
-      "recentAccomplishments": [],
-      "recentWin": "The full seven-participant AFNI/RSA primary analysis completed with frozen provenance, exact participant-level inference, and sensitivity checks.",
-      "scientificOutput": "PRIMARY_ANALYSIS_COMPLETE / FOLLOWUP_ANALYSIS",
-      "sinceHourlyCheckpoint": [],
-      "stage": "PRIMARY_ANALYSIS_COMPLETE / FOLLOWUP_ANALYSIS",
-      "stageProgress": {
-        "completed": 3,
-        "total": 4
-      },
-      "status": "Active",
-      "summary": "Neuromodulation imaging data and cohort reconciliation.",
-      "taskChecklist": {
-        "completed": 0,
-        "total": 1
-      },
-      "taskDescription": "Outcome-blind follow-up design, literature audit, and independent-replication discovery; the frozen primary remains unchanged.",
-      "taskStartedAt": "2026-10-13T12:02:05.477981Z",
-      "transfer": {
-        "active": false,
-        "reason": "BCM primary analysis is complete; VISION is not required for current BCM work.",
-        "state": "OPTIONAL_ARCHIVED"
-      },
-      "updatedAt": "2026-10-13T12:02:05.477981Z",
-      "v1Convergence": {
-        "endState": "BCM-Neuromodulation/END_STATE.md",
-        "nextGate": "Current-data follow-up and manuscript",
-        "nextMilestonePreparation": "Current-data follow-up and manuscript",
-        "officialCurrentMilestone": "BCM-V1-M1",
-        "projectState": "BCM-Neuromodulation/PROJECT_STATE.md",
-        "roadmap": "BCM-Neuromodulation/ROADMAP_V1.md",
-        "taskProgress": {
-          "completed": 0,
-          "total": 1
-        },
-        "whyThisMatters": "Advances the frozen V1 milestone."
-      },
-      "v1Goal": "Evaluate a frozen, reproducible neuromodulation reanalysis and pursue independent replication without changing the primary endpoint.",
-      "waitingReason": null,
-      "whyItMatters": "The primary result is technically reproducible and was evaluated without changing the analysis after seeing outcomes."
+      "researchStage": "Active research program",
+      "status": "External dependency"
     },
     {
-      "actionRequired": null,
-      "alert": null,
+      "agentsNow": "No agent currently executing",
       "blocker": null,
-      "criteriaCompleted": 1,
-      "criteriaTotal": 1,
-      "currentMilestone": "Pre-protocol readiness",
-      "currentMilestoneId": "CTB-V1-M1",
-      "currentMilestoneName": "Pre-protocol readiness",
-      "currentTask": "regenerate-plan-465",
-      "currentWork": "A bounded local task is queued.",
-      "engineeringOutput": "Bounded task accepted",
-      "id": "03",
-      "lastMeaningfulProgress": "2026-10-14T22:19:06.144431Z",
-      "milestoneIndex": 1,
-      "milestoneTotal": 3,
+      "currentObjective": "No admitted bounded task",
+      "deliverable": "A verified bounded project artifact.",
+      "goal": "Advance the next verified research milestone.",
+      "id": "ctbone",
+      "lastAccomplishment": "Verified regenerate plan 465 \u00b7 planner.",
+      "lastCodexReview": null,
+      "lastMeaningfulActivity": "2026-10-14T22:25:40.210909Z",
       "name": "CTBone",
-      "next": null,
-      "nextMilestone": "Protocol authorization",
-      "nextV1Gate": "Freeze cohort membership and denominator.",
-      "operationalState": "Ready",
-      "plainLanguage": {
-        "goal": "Build a reproducible CT bone biomarker research package.",
-        "next": "Freeze cohort membership and denominator.",
-        "now": "Closing the cohort denominator and endpoint freeze.",
-        "recentWin": "Existing protocol and manifest work was inherited rather than repeated.",
-        "whyItMatters": "The study population can be fixed before technical validation."
-      },
-      "projectGoal": "Establish a leakage-safe, provenance-complete CT bone study protocol.",
+      "nextTask": null,
+      "operationalState": "RUNNABLE",
       "queueDepth": 0,
       "readyForHuman": false,
-      "recentAccomplishments": [],
-      "recentWin": "Existing protocol and manifest work was inherited rather than repeated.",
-      "scientificOutput": "No scientific milestone recorded",
-      "sinceHourlyCheckpoint": [],
-      "stage": "Done",
-      "stageProgress": {
-        "completed": 1,
-        "total": 3
-      },
-      "status": "Ready",
-      "summary": "CT bone biomarker reproducibility and validation.",
-      "taskChecklist": {
-        "completed": 1,
-        "total": 1
-      },
-      "taskDescription": "A bounded local task is queued.",
-      "taskStartedAt": "2026-10-13T12:20:28.522750Z",
-      "transfer": null,
-      "updatedAt": "2026-10-13T12:20:28.522750Z",
-      "v1Convergence": {
-        "endState": "CTBone/END_STATE.md",
-        "nextGate": "Protocol authorization",
-        "nextMilestonePreparation": "Protocol authorization",
-        "officialCurrentMilestone": "CTB-V1-M1",
-        "projectState": "CTBone/PROJECT_STATE.md",
-        "roadmap": "CTBone/ROADMAP_V1.md",
-        "taskProgress": {
-          "completed": 1,
-          "total": 1
-        },
-        "whyThisMatters": "Advances the frozen V1 milestone."
-      },
-      "v1Goal": "Establish a leakage-safe, provenance-complete CT bone study protocol.",
-      "waitingReason": null,
-      "whyItMatters": "The study population can be fixed before technical validation."
+      "researchStage": "Active research program",
+      "status": "Ready"
     },
     {
-      "actionRequired": null,
-      "alert": null,
-      "blocker": null,
-      "criteriaCompleted": 1,
-      "criteriaTotal": 1,
-      "currentMilestone": "Input contracts",
-      "currentMilestoneId": "ECHO-V1-M1",
-      "currentMilestoneName": "Input contracts",
-      "currentTask": "local-repair-487-milestone-map",
-      "currentWork": "A bounded local task is queued.",
-      "engineeringOutput": "Bounded task accepted",
-      "id": "04",
-      "lastMeaningfulProgress": "2026-10-14T13:36:43.353279Z",
-      "milestoneIndex": 1,
-      "milestoneTotal": 3,
-      "name": "EchoNext",
-      "next": null,
-      "nextMilestone": "Patient-level split readiness",
-      "nextV1Gate": "Produce the executable split and label receipt.",
-      "operationalState": "Ready",
-      "plainLanguage": {
-        "goal": "Validate a leakage-safe ECG abnormality classifier.",
-        "next": "Produce the executable split and label receipt.",
-        "now": "Auditing patient identity, labels, and splits.",
-        "recentWin": "The PTB-XL cohort and split work are retained.",
-        "whyItMatters": "Performance will be evaluated on patients the model did not see during training."
-      },
-      "projectGoal": "Establish reproducible, patient-linked ECG/echo input contracts before modelling.",
-      "queueDepth": 0,
-      "readyForHuman": false,
-      "recentAccomplishments": [],
-      "recentWin": "The PTB-XL cohort and split work are retained.",
-      "scientificOutput": "No scientific milestone recorded",
-      "sinceHourlyCheckpoint": [],
-      "stage": "Done",
-      "stageProgress": {
-        "completed": 1,
-        "total": 3
-      },
-      "status": "Ready",
-      "summary": "ECG and echocardiography pipeline validation.",
-      "taskChecklist": {
-        "completed": 1,
-        "total": 1
-      },
-      "taskDescription": "A bounded local task is queued.",
-      "taskStartedAt": "2026-10-14T13:36:43.353131Z",
-      "transfer": null,
-      "updatedAt": "2026-10-14T13:36:43.353131Z",
-      "v1Convergence": {
-        "endState": "EchoNext/END_STATE.md",
-        "nextGate": "Patient-level split readiness",
-        "nextMilestonePreparation": "Patient-level split readiness",
-        "officialCurrentMilestone": "ECHO-V1-M1",
-        "projectState": "EchoNext/PROJECT_STATE.md",
-        "roadmap": "EchoNext/ROADMAP_V1.md",
-        "taskProgress": {
-          "completed": 1,
-          "total": 1
-        },
-        "whyThisMatters": "Advances the frozen V1 milestone."
-      },
-      "v1Goal": "Establish reproducible, patient-linked ECG/echo input contracts before modelling.",
-      "waitingReason": null,
-      "whyItMatters": "Performance will be evaluated on patients the model did not see during training."
-    },
-    {
-      "actionRequired": null,
-      "alert": null,
-      "blocker": null,
-      "criteriaCompleted": 1,
-      "criteriaTotal": 1,
-      "currentMilestone": "Lineage safeguards",
-      "currentMilestoneId": "DITTO-V1-M2",
-      "currentMilestoneName": "Lineage safeguards",
-      "currentTask": "regenerate-plan-501",
-      "currentWork": "A bounded local task is queued.",
-      "engineeringOutput": "Bounded task accepted",
-      "id": "05",
-      "lastMeaningfulProgress": "2026-10-13T15:06:22.005912Z",
-      "milestoneIndex": 1,
-      "milestoneTotal": 3,
+      "agentsNow": "No agent currently executing",
+      "blocker": "Public-safe blocker recorded",
+      "currentObjective": "No admitted bounded task",
+      "deliverable": "A verified bounded project artifact.",
+      "goal": "Advance the next verified research milestone.",
+      "id": "ditto",
+      "lastAccomplishment": "Verified regenerate plan 501 \u00b7 planner.",
+      "lastCodexReview": null,
+      "lastMeaningfulActivity": "2026-10-15T10:40:35.668153Z",
       "name": "Ditto",
-      "next": null,
-      "nextMilestone": "State/serialization contract",
-      "nextV1Gate": "Freeze quantities, thresholds, and the truth-path comparison.",
-      "operationalState": "Ready",
-      "plainLanguage": {
-        "goal": "Validate one cardiovascular device workflow.",
-        "next": "Freeze quantities, thresholds, and the truth-path comparison.",
-        "now": "Freezing the infrarenal AAA stent-graft use case and applicability domain.",
-        "recentWin": "The first product was narrowed to one concrete device question.",
-        "whyItMatters": "The team can prove one complete workflow instead of expanding endlessly."
-      },
-      "projectGoal": "Build provenance-aware digital-twin quantity and lineage safeguards.",
+      "nextTask": null,
+      "operationalState": "RUNNABLE",
       "queueDepth": 0,
       "readyForHuman": false,
-      "recentAccomplishments": [],
-      "recentWin": "The first product was narrowed to one concrete device question.",
-      "scientificOutput": "No scientific milestone recorded",
-      "sinceHourlyCheckpoint": [],
-      "stage": "Done",
-      "stageProgress": {
-        "completed": 1,
-        "total": 3
-      },
-      "status": "Ready",
-      "summary": "Provenance-aware medical digital-twin infrastructure.",
-      "taskChecklist": {
-        "completed": 1,
-        "total": 1
-      },
-      "taskDescription": "A bounded local task is queued.",
-      "taskStartedAt": "2026-10-13T15:06:22.005792Z",
-      "transfer": null,
-      "updatedAt": "2026-10-13T15:06:22.005792Z",
-      "v1Convergence": {
-        "endState": "Ditto/END_STATE.md",
-        "nextGate": "State/serialization contract",
-        "nextMilestonePreparation": "State/serialization contract",
-        "officialCurrentMilestone": "DITTO-V1-M2",
-        "projectState": "Ditto/PROJECT_STATE.md",
-        "roadmap": "Ditto/ROADMAP_V1.md",
-        "taskProgress": {
-          "completed": 1,
-          "total": 1
-        },
-        "whyThisMatters": "Advances the frozen V1 milestone."
-      },
-      "v1Goal": "Build provenance-aware digital-twin quantity and lineage safeguards.",
-      "waitingReason": null,
-      "whyItMatters": "The team can prove one complete workflow instead of expanding endlessly."
+      "researchStage": "Active research program",
+      "status": "Ready"
     },
     {
-      "actionRequired": null,
-      "alert": null,
+      "agentsNow": "No agent currently executing",
       "blocker": null,
-      "criteriaCompleted": 0,
-      "criteriaTotal": 1,
-      "currentMilestone": "Audit persistence",
-      "currentMilestoneId": "TRACE-V1-M1",
-      "currentMilestoneName": "Audit persistence",
-      "currentTask": "541-deterministic-object-store-regression",
-      "currentWork": "A bounded local task is queued.",
-      "engineeringOutput": "Bounded task accepted",
-      "id": "06",
-      "lastMeaningfulProgress": "2026-10-15T13:21:19.717258Z",
-      "milestoneIndex": 1,
-      "milestoneTotal": 3,
+      "currentObjective": "No admitted bounded task",
+      "deliverable": "A verified bounded project artifact.",
+      "goal": "Advance the next verified research milestone.",
+      "id": "echonext",
+      "lastAccomplishment": "Verified local repair 487 milestone map \u00b7 coder.",
+      "lastCodexReview": null,
+      "lastMeaningfulActivity": "2026-10-14T22:19:10.922097Z",
+      "name": "EchoNext",
+      "nextTask": null,
+      "operationalState": "RUNNABLE",
+      "queueDepth": 0,
+      "readyForHuman": false,
+      "researchStage": "Active research program",
+      "status": "Ready"
+    },
+    {
+      "agentsNow": "No agent currently executing",
+      "blocker": null,
+      "currentObjective": "No admitted bounded task",
+      "deliverable": "A verified bounded project artifact.",
+      "goal": "Advance the next verified research milestone.",
+      "id": "papers",
+      "lastAccomplishment": "Verified local repair 462 2 \u00b7 planner.",
+      "lastCodexReview": null,
+      "lastMeaningfulActivity": "2026-10-13T15:16:11.461892Z",
+      "name": "Papers",
+      "nextTask": null,
+      "operationalState": "RUNNABLE",
+      "queueDepth": 0,
+      "readyForHuman": false,
+      "researchStage": "Active research program",
+      "status": "Ready"
+    },
+    {
+      "agentsNow": "No agent currently executing",
+      "blocker": null,
+      "currentObjective": "No admitted bounded task",
+      "deliverable": "A verified bounded project artifact.",
+      "goal": "Advance the next verified research milestone.",
+      "id": "teer",
+      "lastAccomplishment": "Verified local repair 455 1 \u00b7 planner.",
+      "lastCodexReview": null,
+      "lastMeaningfulActivity": "2026-10-13T14:31:57.769333Z",
+      "name": "TEER",
+      "nextTask": null,
+      "operationalState": "RUNNABLE",
+      "queueDepth": 0,
+      "readyForHuman": false,
+      "researchStage": "Active research program",
+      "status": "Ready"
+    },
+    {
+      "agentsNow": "Running",
+      "blocker": null,
+      "currentObjective": "544 object store hash rights regression \u00b7 coder",
+      "deliverable": "A verified bounded project artifact.",
+      "goal": "Advance the next verified research milestone.",
+      "id": "trace",
+      "lastAccomplishment": "Verified local repair 544 1 \u00b7 planner.",
+      "lastCodexReview": null,
+      "lastMeaningfulActivity": "2026-10-15T14:07:15.008369Z",
       "name": "Trace",
-      "next": null,
-      "nextMilestone": "Ingestion-boundary validation",
-      "nextV1Gate": "Exercise protocol, evidence, results, and export flow.",
-      "operationalState": "Active",
-      "plainLanguage": {
-        "goal": "Carry a real study from protocol to an auditable submission package.",
-        "next": "Exercise protocol, evidence, results, and export flow.",
-        "now": "Preparing real-study integration plumbing.",
-        "recentWin": "The evidence/provenance foundation is preserved for a real study.",
-        "whyItMatters": "Claims and results can remain traceable when manuscript work begins."
-      },
-      "projectGoal": "Persist rights-aware ingestion provenance and audit evidence.",
+      "nextTask": "trace browser e2e \u00b7 coder",
+      "operationalState": "RUNNABLE",
       "queueDepth": 4,
       "readyForHuman": false,
-      "recentAccomplishments": [],
-      "recentWin": "The evidence/provenance foundation is preserved for a real study.",
-      "scientificOutput": "No scientific milestone recorded",
-      "sinceHourlyCheckpoint": [],
-      "stage": "Active",
-      "stageProgress": {
-        "completed": 1,
-        "total": 3
-      },
-      "status": "Active",
-      "summary": "Rights-aware document ingestion and fingerprinting.",
-      "taskChecklist": {
-        "completed": 0,
-        "total": 1
-      },
-      "taskDescription": "A bounded local task is queued.",
-      "taskStartedAt": "2026-10-15T13:57:59.597206Z",
-      "transfer": null,
-      "updatedAt": "2026-10-15T13:57:59.597206Z",
-      "v1Convergence": {
-        "endState": "Trace/END_STATE.md",
-        "nextGate": "Ingestion-boundary validation",
-        "nextMilestonePreparation": "Ingestion-boundary validation",
-        "officialCurrentMilestone": "TRACE-V1-M1",
-        "projectState": "Trace/PROJECT_STATE.md",
-        "roadmap": "Trace/ROADMAP_V1.md",
-        "taskProgress": {
-          "completed": 0,
-          "total": 1
-        },
-        "whyThisMatters": "Advances the frozen V1 milestone."
-      },
-      "v1Goal": "Persist rights-aware ingestion provenance and audit evidence.",
-      "waitingReason": null,
-      "whyItMatters": "Claims and results can remain traceable when manuscript work begins."
-    },
-    {
-      "actionRequired": null,
-      "alert": null,
-      "blocker": null,
-      "criteriaCompleted": 1,
-      "criteriaTotal": 1,
-      "currentMilestone": "Preclinical readiness",
-      "currentMilestoneId": "TEER-V1-M1",
-      "currentMilestoneName": "Preclinical readiness",
-      "currentTask": "local-repair-455-1",
-      "currentWork": "A bounded local task is queued.",
-      "engineeringOutput": "Bounded task accepted",
-      "id": "07",
-      "lastMeaningfulProgress": "2026-10-13T13:10:23.733772Z",
-      "milestoneIndex": 1,
-      "milestoneTotal": 3,
-      "name": "TEER",
-      "next": null,
-      "nextMilestone": "Geometry/QC benchmark",
-      "nextV1Gate": "Validate real MVSeg2023 geometry.",
-      "operationalState": "Ready",
-      "plainLanguage": {
-        "goal": "Build a preclinical TEER planning workflow.",
-        "next": "Validate real MVSeg2023 geometry.",
-        "now": "Freezing anatomy, coordinates, clip geometry, and QC contracts.",
-        "recentWin": "Geometry and ROM validation infrastructure is available.",
-        "whyItMatters": "Placement results can be compared in one consistent physical coordinate system."
-      },
-      "projectGoal": "Build preclinical geometry and QC foundations without clinical-performance claims.",
-      "queueDepth": 0,
-      "readyForHuman": false,
-      "recentAccomplishments": [],
-      "recentWin": "Geometry and ROM validation infrastructure is available.",
-      "scientificOutput": "No scientific milestone recorded",
-      "sinceHourlyCheckpoint": [],
-      "stage": "Done",
-      "stageProgress": {
-        "completed": 1,
-        "total": 3
-      },
-      "status": "Ready",
-      "summary": "Research-grade valve geometry and decision-support foundations.",
-      "taskChecklist": {
-        "completed": 1,
-        "total": 1
-      },
-      "taskDescription": "A bounded local task is queued.",
-      "taskStartedAt": "2026-10-13T13:10:23.733607Z",
-      "transfer": null,
-      "updatedAt": "2026-10-13T13:10:23.733607Z",
-      "v1Convergence": {
-        "endState": "TEER/END_STATE.md",
-        "nextGate": "Geometry/QC benchmark",
-        "nextMilestonePreparation": "Geometry/QC benchmark",
-        "officialCurrentMilestone": "TEER-V1-M1",
-        "projectState": "TEER/PROJECT_STATE.md",
-        "roadmap": "TEER/ROADMAP_V1.md",
-        "taskProgress": {
-          "completed": 1,
-          "total": 1
-        },
-        "whyThisMatters": "Advances the frozen V1 milestone."
-      },
-      "v1Goal": "Build preclinical geometry and QC foundations without clinical-performance claims.",
-      "waitingReason": null,
-      "whyItMatters": "Placement results can be compared in one consistent physical coordinate system."
-    },
-    {
-      "actionRequired": null,
-      "alert": null,
-      "blocker": null,
-      "criteriaCompleted": 1,
-      "criteriaTotal": 1,
-      "currentMilestone": "Evidence screening",
-      "currentMilestoneId": "PAP-V1-M1",
-      "currentMilestoneName": "Evidence screening",
-      "currentTask": "local-repair-462-2",
-      "currentWork": "A bounded local task is queued.",
-      "engineeringOutput": "Bounded task accepted",
-      "id": "08",
-      "lastMeaningfulProgress": "2026-10-13T15:25:57.811766Z",
-      "milestoneIndex": 1,
-      "milestoneTotal": 6,
-      "name": "Papers",
-      "next": null,
-      "nextMilestone": "Protocol authorization",
-      "nextV1Gate": "Acquire verified data, then run the first frozen analysis.",
-      "operationalState": "Ready",
-      "plainLanguage": {
-        "goal": "Turn defensible datasets into finished studies.",
-        "next": "Acquire verified data, then run the first frozen analysis.",
-        "now": "Two study plans are frozen while official data ingress is blocked.",
-        "recentWin": "Two SAPs were frozen before outcome testing, and duplicate ideas were declined.",
-        "whyItMatters": "The system avoids changing hypotheses after seeing results."
-      },
-      "projectGoal": "Advance a source-backed, outcome-blind evidence pipeline.",
-      "queueDepth": 0,
-      "readyForHuman": false,
-      "recentAccomplishments": [],
-      "recentWin": "Two SAPs were frozen before outcome testing, and duplicate ideas were declined.",
-      "scientificOutput": "No scientific milestone recorded",
-      "sinceHourlyCheckpoint": [],
-      "stage": "Done",
-      "stageProgress": {
-        "completed": 1,
-        "total": 6
-      },
-      "status": "Ready",
-      "summary": "Evidence mapping and outcome-blind study design.",
-      "taskChecklist": {
-        "completed": 1,
-        "total": 1
-      },
-      "taskDescription": "A bounded local task is queued.",
-      "taskStartedAt": "2026-10-13T14:42:47.514612Z",
-      "transfer": null,
-      "updatedAt": "2026-10-13T14:42:47.514612Z",
-      "v1Convergence": {
-        "endState": "Papers/END_STATE.md",
-        "nextGate": "Protocol authorization",
-        "nextMilestonePreparation": "Protocol authorization",
-        "officialCurrentMilestone": "PAP-V1-M1",
-        "projectState": "Papers/PROJECT_STATE.md",
-        "roadmap": "Papers/ROADMAP_V1.md",
-        "taskProgress": {
-          "completed": 1,
-          "total": 1
-        },
-        "whyThisMatters": "Advances the frozen V1 milestone."
-      },
-      "v1Goal": "Advance a source-backed, outcome-blind evidence pipeline.",
-      "waitingReason": null,
-      "whyItMatters": "The system avoids changing hypotheses after seeing results."
+      "researchStage": "Active research program",
+      "status": "Running"
     }
   ],
+  "publicationHealth": {
+    "deployment": "Pending repository publication",
+    "lastPublishedCommit": null,
+    "state": "Snapshot generated"
+  },
+  "publishedAt": null,
   "queueHealth": {
-    "autonomyStarvation": [
-      "AortaPlan",
-      "CTBone",
-      "EchoNext",
-      "Ditto",
-      "TEER",
-      "Papers"
-    ],
-    "autonomyStarvationCount": 6,
-    "blockedProjects": true,
-    "controlHeartbeatsHealthy": true,
     "orphanedCount": 0,
-    "orphanedRoadmaps": [],
-    "staleLeases": 0
+    "orphanedRoadmaps": []
   },
-  "recentlyWe": [
-    {
-      "text": "AortaPlan passed known-geometry and coordinate checks before moving toward real CT data.",
-      "why": "Future errors can be investigated in anatomy and segmentation instead of basic measurement math."
-    },
-    {
-      "text": "Papers froze two study plans before testing outcomes and declined duplicate questions.",
-      "why": "The research stays protected against post-hoc hypothesis changes and wasted analysis."
-    },
-    {
-      "text": "Ditto narrowed V1 to an infrarenal AAA stent-graft validation question.",
-      "why": "One complete device workflow can be validated before broader platform expansion."
-    },
-    {
-      "text": "CTS-001 was declined because routine timestamps could not support a preventability claim.",
-      "why": "The system avoided turning incomplete data into a causal clinical conclusion."
-    },
-    {
-      "text": "VISION entered planned maintenance state without prompting for Duo.",
-      "why": "Expected downtime is not misreported as broken authentication, and recovery remains automatic."
-    }
-  ],
+  "scientificProgress": {
+    "analysesCompleted": 0,
+    "datasetsVerified": 0,
+    "manuscriptMilestones": 0,
+    "note": "Task completion is not counted as scientific completion.",
+    "resultsValidated": 0
+  },
+  "snapshotVersion": "2.0",
+  "sourceEventAt": "2026-10-15T14:07:46.484242Z",
   "system": {
-    "activeJobs": 1,
+    "activeJobs": 2,
     "autonomy": "DEGRADED",
-    "controllerMode": "continuous local",
-    "cpuJobs": 0,
-    "deterministicComputeActive": 0,
-    "externalJobsActive": 0,
-    "gpuJobs": 0,
-    "integrity": "Evidence-gated",
-    "legacyScheduledPrompts": 0,
-    "localInferenceActive": 1,
-    "localTaskWorkersActive": 1,
-    "portfolioProjects": 8,
-    "status": "Operational",
-    "totalActiveResearchExecutions": 1,
-    "visionJobsActive": 0
+    "status": "Needs attention"
   },
-  "v1Convergence": {
-    "enabled": true,
-    "primaryMetric": "frozen milestone acceptance, not task/commit count",
-    "sourceOfTruth": "repo-native END_STATE.md, ROADMAP_V1.md, PROJECT_STATE.md"
+  "systemHealth": {
+    "autonomy": "Degraded",
+    "controller": "Operational",
+    "state": "Needs attention"
   },
-  "vision": {
-    "active_jobs": 1,
-    "active_transfers": 0,
-    "completed_jobs": 4,
-    "cpu_active": 1,
-    "gpu_active": 0,
-    "results_consumed": 4,
-    "results_validated": 4,
-    "slurm": {
-      "completed": 4,
-      "failed": 2,
-      "queued": 0,
-      "running": 1
-    },
-    "transfers": [
-      {
-        "external_id": "mac-vision-datazip-20261013",
-        "id": 9,
-        "state": "OPTIONAL_ARCHIVED"
-      }
-    ]
-  },
-  "visionSession": {
-    "actionRequired": null,
-    "duoRequired": false,
-    "state": "VISION_SESSION_ACTIVE"
+  "visionSummary": {
+    "active": 0,
+    "completed": 4,
+    "connection": "Available",
+    "consumed": 0,
+    "failed": 2,
+    "queued": 0,
+    "scheduler": "Reachable",
+    "validated": 0
   }
 }
