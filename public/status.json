@@ -107,15 +107,15 @@
     },
     {
       "backend": "Local",
-      "heartbeatAt": "2026-10-15T14:17:14.278743Z",
+      "heartbeatAt": "2026-10-15T14:18:15.111651Z",
       "id": "549",
       "parent": "548",
       "project": "Trace",
       "resource": "Local agent",
       "startedAt": "2026-10-15T14:07:11.678784Z",
-      "state": "Running",
+      "state": "Verifying",
       "title": "544 object store hash rights regression \u00b7 coder",
-      "updatedAt": "2026-10-15T14:15:13.820899Z",
+      "updatedAt": "2026-10-15T14:18:22.635488Z",
       "workerType": "coder"
     }
   ],
@@ -154,7 +154,7 @@
     "state": "COMPLETE",
     "summary": "The latest two-phase portfolio review is reflected in the controller ledger."
   },
-  "generatedAt": "2026-10-15T14:17:16.418711Z",
+  "generatedAt": "2026-10-15T14:13:08.980743Z",
   "meaningfulEvents": [
     {
       "id": "124488",
@@ -1113,7 +1113,7 @@
       "status": "Failed / retrying"
     },
     {
-      "agentsNow": "Running",
+      "agentsNow": "Verifying",
       "blocker": null,
       "currentObjective": "544 object store hash rights regression \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
@@ -1121,14 +1121,14 @@
       "id": "trace",
       "lastAccomplishment": "Verified local repair 544 1 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-15T14:15:13.820899Z",
+      "lastMeaningfulActivity": "2026-10-15T14:18:22.635488Z",
       "name": "Trace",
       "nextTask": "trace browser e2e \u00b7 coder",
       "operationalState": "RUNNABLE",
       "queueDepth": 4,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Running"
+      "status": "Verifying"
     }
   ],
   "publicationHealth": {
@@ -1136,7 +1136,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-15T14:17:16.592059Z",
+  "publishedAt": "2026-10-15T14:18:23.214524Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1149,7 +1149,7 @@
     "resultsValidated": 0
   },
   "snapshotVersion": "2.0",
-  "sourceEventAt": "2026-10-15T14:17:16.418711Z",
+  "sourceEventAt": "2026-10-15T14:13:08.980743Z",
   "system": {
     "activeJobs": 1,
     "autonomy": "DEGRADED",
