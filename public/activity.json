@@ -3,7 +3,13 @@
     "level": "Recorded",
     "message": "Controller recovery restored an interrupted task boundary.",
     "project": "Trace",
-    "timestamp": "2026-10-15T17:15:41.605053Z"
+    "timestamp": "2026-10-15T17:22:02.727289Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "Trace",
+    "timestamp": "2026-10-15T17:22:02.727266Z"
   },
   {
     "level": "Verified",
@@ -472,11 +478,5 @@
     "message": "Queued plan after 526 \u00b7 planner.",
     "project": "AortaPlan",
     "timestamp": "2026-10-15T04:22:31.940622Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Verification passed for regenerate plan 529 \u00b7 planner.",
-    "project": "AortaPlan",
-    "timestamp": "2026-10-14T22:58:27.633497Z"
   }
 ]
