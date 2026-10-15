@@ -107,7 +107,7 @@
     },
     {
       "backend": "Local",
-      "heartbeatAt": "2026-10-15T14:15:53.427269Z",
+      "heartbeatAt": "2026-10-15T14:17:14.278743Z",
       "id": "549",
       "parent": "548",
       "project": "Trace",
@@ -154,7 +154,7 @@
     "state": "COMPLETE",
     "summary": "The latest two-phase portfolio review is reflected in the controller ledger."
   },
-  "generatedAt": "2026-10-15T14:16:01.116302Z",
+  "generatedAt": "2026-10-15T14:17:16.418711Z",
   "meaningfulEvents": [
     {
       "id": "124488",
@@ -1136,7 +1136,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-15T14:16:01.667985Z",
+  "publishedAt": "2026-10-15T14:17:16.592059Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1149,7 +1149,7 @@
     "resultsValidated": 0
   },
   "snapshotVersion": "2.0",
-  "sourceEventAt": "2026-10-15T14:16:01.116302Z",
+  "sourceEventAt": "2026-10-15T14:17:16.418711Z",
   "system": {
     "activeJobs": 1,
     "autonomy": "DEGRADED",
