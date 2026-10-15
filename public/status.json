@@ -137,7 +137,7 @@
     "pendingDecisions": 0,
     "projectsReviewed": 0,
     "reasoningEffort": "medium",
-    "state": "PHASE1_RUNNING",
+    "state": "PHASE2_RUNNING",
     "summary": "The latest two-phase portfolio review is reflected in the controller ledger."
   },
   "director": {
@@ -151,7 +151,7 @@
     "pendingDecisions": 0,
     "projectsReviewed": 0,
     "reasoningEffort": "medium",
-    "state": "PHASE1_RUNNING",
+    "state": "PHASE2_RUNNING",
     "summary": "The latest two-phase portfolio review is reflected in the controller ledger."
   },
   "generatedAt": "2026-10-15T14:43:58.923632Z",
@@ -1136,7 +1136,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-15T15:38:07.031404Z",
+  "publishedAt": "2026-10-15T15:40:08.163134Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
