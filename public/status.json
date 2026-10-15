@@ -6,7 +6,7 @@
     "strategicEscalation": "Strategic AI review",
     "technicalEscalation": "Codex"
   },
-  "generatedAt": "2026-10-15T13:25:11.684783Z",
+  "generatedAt": "2026-10-15T13:26:57.375063Z",
   "goodScience": {
     "duplicateStudiesKilled": 2,
     "scientificGatesBypassed": 0,
@@ -425,9 +425,9 @@
         "total": 1
       },
       "taskDescription": "A bounded local task is queued.",
-      "taskStartedAt": "2026-10-15T13:25:11.183731Z",
+      "taskStartedAt": "2026-10-15T13:26:57.242979Z",
       "transfer": null,
-      "updatedAt": "2026-10-15T13:25:11.183731Z",
+      "updatedAt": "2026-10-15T13:26:57.242979Z",
       "v1Convergence": {
         "endState": "Trace/END_STATE.md",
         "nextGate": "Ingestion-boundary validation",
@@ -643,13 +643,13 @@
   "vision": {
     "active_jobs": 0,
     "active_transfers": 0,
-    "completed_jobs": 3,
+    "completed_jobs": 4,
     "cpu_active": 0,
     "gpu_active": 0,
-    "results_consumed": 3,
-    "results_validated": 3,
+    "results_consumed": 4,
+    "results_validated": 4,
     "slurm": {
-      "completed": 3,
+      "completed": 4,
       "failed": 2,
       "queued": 0,
       "running": 0
@@ -665,6 +665,6 @@
   "visionSession": {
     "actionRequired": null,
     "duoRequired": false,
-    "state": "VISION_AUTH_EXHAUSTED"
+    "state": "VISION_SESSION_ACTIVE"
   }
 }

@@ -1,5 +1,10 @@
 [
   {
+    "message": "A bounded external compute job was submitted.",
+    "project": "AI-Server",
+    "timestamp": "2026-10-15T13:25:50.324314Z"
+  },
+  {
     "message": "A new bounded task was queued.",
     "project": "AI-Server",
     "timestamp": "2026-10-15T13:25:10.420004Z"
@@ -53,10 +58,5 @@
     "message": "A new bounded task was queued.",
     "project": "Trace",
     "timestamp": "2026-10-15T12:58:43.102380Z"
-  },
-  {
-    "message": "A bounded task passed deterministic acceptance.",
-    "project": "Trace",
-    "timestamp": "2026-10-15T12:58:41.399254Z"
   }
 ]
