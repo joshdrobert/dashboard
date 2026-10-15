@@ -11,16 +11,16 @@
   "blockedWork": [
     {
       "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "556",
-      "parent": "555",
+      "heartbeatFresh": false,
+      "id": "554",
+      "parent": null,
       "project": "Trace",
       "resource": "Local agent",
-      "startedAt": "2026-10-15T17:55:09.494573Z",
-      "state": "STALE_UNKNOWN",
-      "title": "536 reader editor export authorization \u00b7 coder",
-      "updatedAt": "2026-10-15T17:57:10.708596Z",
-      "workerType": "coder"
+      "startedAt": "2026-10-15T17:52:26.463579Z",
+      "state": "FAILED",
+      "title": "local repair 536 1 \u00b7 planner",
+      "updatedAt": "2026-10-15T17:54:21.418912Z",
+      "workerType": "planner"
     },
     {
       "backend": "Local",
@@ -155,8 +155,28 @@
     "state": "FAILED",
     "summary": "The latest two-phase portfolio review is reflected in the controller ledger."
   },
-  "generatedAt": "2026-10-15T17:58:07.488085Z",
+  "generatedAt": "2026-10-15T18:02:09.419550Z",
   "meaningfulEvents": [
+    {
+      "id": "128045",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-15T18:01:12.841988Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "128044",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-15T18:01:12.841965Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
     {
       "id": "127876",
       "message": "Accepted task completed: regenerate plan 554 \u00b7 planner.",
@@ -936,26 +956,6 @@
       "type": "task_queued",
       "verification": "Recorded",
       "whyItMatters": "The next unit of work is durable."
-    },
-    {
-      "id": "121289",
-      "message": "Queued trace reader editor export \u00b7 coder.",
-      "next": "Continue through the next controller gate.",
-      "project": "Trace",
-      "timestamp": "2026-10-15T12:35:33.006365Z",
-      "type": "task_queued",
-      "verification": "Recorded",
-      "whyItMatters": "The next unit of work is durable."
-    },
-    {
-      "id": "121288",
-      "message": "Queued trace manuscript persistence \u00b7 coder.",
-      "next": "Continue through the next controller gate.",
-      "project": "Trace",
-      "timestamp": "2026-10-15T12:35:33.004578Z",
-      "type": "task_queued",
-      "verification": "Recorded",
-      "whyItMatters": "The next unit of work is durable."
     }
   ],
   "portfolioSummary": {
@@ -1114,7 +1114,7 @@
       "status": "Failed / retrying"
     },
     {
-      "agentsNow": "Running",
+      "agentsNow": "No agent currently executing",
       "blocker": null,
       "currentObjective": "536 reader editor export authorization \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
@@ -1122,14 +1122,14 @@
       "id": "trace",
       "lastAccomplishment": "Verified regenerate plan 554 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-15T17:57:10.708596Z",
+      "lastMeaningfulActivity": "2026-10-15T18:01:12.841948Z",
       "name": "Trace",
-      "nextTask": "trace browser e2e \u00b7 coder",
+      "nextTask": "536 reader editor export authorization \u00b7 coder",
       "operationalState": "RUNNABLE",
       "queueDepth": 2,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Running"
+      "status": "Queued"
     }
   ],
   "publicationHealth": {
@@ -1137,7 +1137,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-15T17:58:07.698089Z",
+  "publishedAt": "2026-10-15T18:02:09.729131Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1145,15 +1145,15 @@
   "queuedWork": [
     {
       "backend": "Local",
-      "heartbeatFresh": false,
-      "id": "537",
-      "parent": "536",
+      "heartbeatFresh": true,
+      "id": "556",
+      "parent": "555",
       "project": "Trace",
       "resource": "Local agent",
-      "startedAt": "2026-10-15T12:35:33.007726Z",
-      "state": "WAITING_DEPENDENCY",
-      "title": "trace browser e2e \u00b7 coder",
-      "updatedAt": "2026-10-15T17:18:55.377404Z",
+      "startedAt": "2026-10-15T17:55:09.494573Z",
+      "state": "QUEUED",
+      "title": "536 reader editor export authorization \u00b7 coder",
+      "updatedAt": "2026-10-15T18:01:12.841948Z",
       "workerType": "coder"
     }
   ],
@@ -1251,11 +1251,11 @@
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0
   },
-  "semanticHash": "cd118a7d2e3a5b5939e1e7c413c8b8ba20f71a04b054a08e50cddf43cecc7ec4",
+  "semanticHash": "4c1ceebdfdbad98de4ec44ac145862bdda025051fc1b3bfb179fa45ddf539402",
   "snapshotVersion": "2.1",
-  "sourceEventAt": "2026-10-15T17:55:12.352989Z",
+  "sourceEventAt": "2026-10-15T18:01:12.841988Z",
   "system": {
-    "activeJobs": 1,
+    "activeJobs": 0,
     "autonomy": "DEGRADED",
     "status": "Needs attention"
   },

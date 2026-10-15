@@ -1,5 +1,17 @@
 [
   {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "Trace",
+    "timestamp": "2026-10-15T18:01:12.841988Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "Trace",
+    "timestamp": "2026-10-15T18:01:12.841965Z"
+  },
+  {
     "level": "Verified",
     "message": "Accepted task completed: regenerate plan 554 \u00b7 planner.",
     "project": "Trace",
@@ -466,17 +478,5 @@
     "message": "Queued trace browser e2e \u00b7 coder.",
     "project": "Trace",
     "timestamp": "2026-10-15T12:35:33.008068Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued trace reader editor export \u00b7 coder.",
-    "project": "Trace",
-    "timestamp": "2026-10-15T12:35:33.006365Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued trace manuscript persistence \u00b7 coder.",
-    "project": "Trace",
-    "timestamp": "2026-10-15T12:35:33.004578Z"
   }
 ]
