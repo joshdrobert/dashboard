@@ -107,15 +107,15 @@
     },
     {
       "backend": "Local",
-      "heartbeatAt": "2026-10-15T14:15:10.558523Z",
+      "heartbeatAt": "2026-10-15T14:15:53.427269Z",
       "id": "549",
       "parent": "548",
       "project": "Trace",
       "resource": "Local agent",
       "startedAt": "2026-10-15T14:07:11.678784Z",
-      "state": "Verifying",
+      "state": "Running",
       "title": "544 object store hash rights regression \u00b7 coder",
-      "updatedAt": "2026-10-15T14:15:13.165196Z",
+      "updatedAt": "2026-10-15T14:15:13.820899Z",
       "workerType": "coder"
     }
   ],
@@ -154,7 +154,7 @@
     "state": "COMPLETE",
     "summary": "The latest two-phase portfolio review is reflected in the controller ledger."
   },
-  "generatedAt": "2026-10-15T14:15:13.166235Z",
+  "generatedAt": "2026-10-15T14:16:01.116302Z",
   "meaningfulEvents": [
     {
       "id": "124488",
@@ -1113,7 +1113,7 @@
       "status": "Failed / retrying"
     },
     {
-      "agentsNow": "Verifying",
+      "agentsNow": "Running",
       "blocker": null,
       "currentObjective": "544 object store hash rights regression \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
@@ -1121,22 +1121,22 @@
       "id": "trace",
       "lastAccomplishment": "Verified local repair 544 1 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-15T14:15:13.165196Z",
+      "lastMeaningfulActivity": "2026-10-15T14:15:13.820899Z",
       "name": "Trace",
       "nextTask": "trace browser e2e \u00b7 coder",
       "operationalState": "RUNNABLE",
       "queueDepth": 4,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Verifying"
+      "status": "Running"
     }
   ],
   "publicationHealth": {
     "deployment": "Pending repository publication",
     "lastPublishedCommit": null,
-    "state": "Snapshot generated"
+    "state": "Publishing"
   },
-  "publishedAt": null,
+  "publishedAt": "2026-10-15T14:16:01.667985Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1149,7 +1149,7 @@
     "resultsValidated": 0
   },
   "snapshotVersion": "2.0",
-  "sourceEventAt": "2026-10-15T14:15:13.166235Z",
+  "sourceEventAt": "2026-10-15T14:16:01.116302Z",
   "system": {
     "activeJobs": 1,
     "autonomy": "DEGRADED",
