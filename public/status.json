@@ -107,15 +107,15 @@
     },
     {
       "backend": "Local",
-      "heartbeatAt": "2026-10-15T14:13:08.592454Z",
+      "heartbeatAt": "2026-10-15T14:15:10.558523Z",
       "id": "549",
       "parent": "548",
       "project": "Trace",
       "resource": "Local agent",
       "startedAt": "2026-10-15T14:07:11.678784Z",
-      "state": "Queued",
+      "state": "Verifying",
       "title": "544 object store hash rights regression \u00b7 coder",
-      "updatedAt": "2026-10-15T14:13:08.980701Z",
+      "updatedAt": "2026-10-15T14:15:13.165196Z",
       "workerType": "coder"
     }
   ],
@@ -154,7 +154,7 @@
     "state": "COMPLETE",
     "summary": "The latest two-phase portfolio review is reflected in the controller ledger."
   },
-  "generatedAt": "2026-10-15T14:13:09.932871Z",
+  "generatedAt": "2026-10-15T14:15:13.166235Z",
   "meaningfulEvents": [
     {
       "id": "124488",
@@ -959,9 +959,9 @@
   ],
   "portfolioSummary": {
     "actionsRequiringUser": 0,
-    "activeLocalAgents": 0,
+    "activeLocalAgents": 1,
     "activeVisionJobs": 0,
-    "executingProjects": 0,
+    "executingProjects": 1,
     "projectsNeedingTechnicalAttention": 4,
     "registeredProjects": 9,
     "state": "Needs attention",
@@ -1113,7 +1113,7 @@
       "status": "Failed / retrying"
     },
     {
-      "agentsNow": "No agent currently executing",
+      "agentsNow": "Verifying",
       "blocker": null,
       "currentObjective": "544 object store hash rights regression \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
@@ -1121,14 +1121,14 @@
       "id": "trace",
       "lastAccomplishment": "Verified local repair 544 1 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-15T14:13:08.980701Z",
+      "lastMeaningfulActivity": "2026-10-15T14:15:13.165196Z",
       "name": "Trace",
-      "nextTask": "544 object store hash rights regression \u00b7 coder",
+      "nextTask": "trace browser e2e \u00b7 coder",
       "operationalState": "RUNNABLE",
       "queueDepth": 4,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Queued"
+      "status": "Verifying"
     }
   ],
   "publicationHealth": {
@@ -1149,9 +1149,9 @@
     "resultsValidated": 0
   },
   "snapshotVersion": "2.0",
-  "sourceEventAt": "2026-10-15T14:13:09.932871Z",
+  "sourceEventAt": "2026-10-15T14:15:13.166235Z",
   "system": {
-    "activeJobs": 0,
+    "activeJobs": 1,
     "autonomy": "DEGRADED",
     "status": "Needs attention"
   },
