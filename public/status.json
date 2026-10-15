@@ -107,7 +107,7 @@
     },
     {
       "backend": "Local",
-      "heartbeatAt": "2026-10-15T14:23:19.425361Z",
+      "heartbeatAt": "2026-10-15T14:25:15.537157Z",
       "id": "551",
       "parent": "550",
       "project": "Trace",
@@ -115,7 +115,7 @@
       "startedAt": "2026-10-15T14:21:56.192925Z",
       "state": "Running",
       "title": "549 object storage adapter failure repair \u00b7 coder",
-      "updatedAt": "2026-10-15T14:21:58.941748Z",
+      "updatedAt": "2026-10-15T14:24:05.326011Z",
       "workerType": "coder"
     }
   ],
@@ -1121,7 +1121,7 @@
       "id": "trace",
       "lastAccomplishment": "Verified local repair 549 1 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-15T14:21:58.941748Z",
+      "lastMeaningfulActivity": "2026-10-15T14:24:05.326011Z",
       "name": "Trace",
       "nextTask": "trace browser e2e \u00b7 coder",
       "operationalState": "RUNNABLE",
@@ -1136,7 +1136,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-15T14:23:21.379651Z",
+  "publishedAt": "2026-10-15T14:25:21.552076Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
