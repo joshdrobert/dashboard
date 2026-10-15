@@ -130,7 +130,7 @@
   "decisionSummary": {
     "approvedDecisions": 0,
     "lastPhase1": "2026-10-15T17:26:03.530753Z",
-    "lastPhase2": null,
+    "lastPhase2": "2026-10-15T17:31:56.736437Z",
     "model": "Codex",
     "modifiedOrReversed": 0,
     "nextReview": null,
@@ -138,13 +138,13 @@
     "pendingDecisions": 0,
     "projectsReviewed": 0,
     "reasoningEffort": "medium",
-    "state": "PHASE1_RUNNING",
+    "state": "FAILED",
     "summary": "The latest two-phase portfolio review is reflected in the controller ledger."
   },
   "director": {
     "approvedDecisions": 0,
     "lastPhase1": "2026-10-15T17:26:03.530753Z",
-    "lastPhase2": null,
+    "lastPhase2": "2026-10-15T17:31:56.736437Z",
     "model": "Codex",
     "modifiedOrReversed": 0,
     "nextReview": null,
@@ -152,10 +152,10 @@
     "pendingDecisions": 0,
     "projectsReviewed": 0,
     "reasoningEffort": "medium",
-    "state": "PHASE1_RUNNING",
+    "state": "FAILED",
     "summary": "The latest two-phase portfolio review is reflected in the controller ledger."
   },
-  "generatedAt": "2026-10-15T17:27:51.437963Z",
+  "generatedAt": "2026-10-15T17:33:54.676223Z",
   "meaningfulEvents": [
     {
       "id": "127159",
@@ -1137,7 +1137,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-15T17:27:51.685516Z",
+  "publishedAt": "2026-10-15T17:33:54.827755Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1251,7 +1251,7 @@
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0
   },
-  "semanticHash": "c3971a994e07e5cba487aaf789e4a869c2780b0a9fc714193076efd275dafbaa",
+  "semanticHash": "9f3d3056c0a22da966330cc9c3dff9f0a4c8384795c02025e39ae7a80c98f9e7",
   "snapshotVersion": "2.1",
   "sourceEventAt": "2026-10-15T17:24:12.936016Z",
   "system": {
