@@ -107,15 +107,15 @@
     },
     {
       "backend": "Local",
-      "heartbeatAt": "2026-10-15T14:30:00.850454Z",
+      "heartbeatAt": "2026-10-15T14:33:26.508632Z",
       "id": "551",
       "parent": "550",
       "project": "Trace",
       "resource": "Local agent",
       "startedAt": "2026-10-15T14:21:56.192925Z",
-      "state": "Queued",
+      "state": "Running",
       "title": "549 object storage adapter failure repair \u00b7 coder",
-      "updatedAt": "2026-10-15T14:30:03.276773Z",
+      "updatedAt": "2026-10-15T14:32:06.480370Z",
       "workerType": "coder"
     }
   ],
@@ -959,9 +959,9 @@
   ],
   "portfolioSummary": {
     "actionsRequiringUser": 0,
-    "activeLocalAgents": 0,
+    "activeLocalAgents": 1,
     "activeVisionJobs": 0,
-    "executingProjects": 0,
+    "executingProjects": 1,
     "projectsNeedingTechnicalAttention": 4,
     "registeredProjects": 9,
     "state": "Needs attention",
@@ -1113,7 +1113,7 @@
       "status": "Failed / retrying"
     },
     {
-      "agentsNow": "No agent currently executing",
+      "agentsNow": "Running",
       "blocker": null,
       "currentObjective": "549 object storage adapter failure repair \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
@@ -1121,14 +1121,14 @@
       "id": "trace",
       "lastAccomplishment": "Verified local repair 549 1 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-15T14:30:03.276773Z",
+      "lastMeaningfulActivity": "2026-10-15T14:32:06.480370Z",
       "name": "Trace",
-      "nextTask": "549 object storage adapter failure repair \u00b7 coder",
+      "nextTask": "trace browser e2e \u00b7 coder",
       "operationalState": "RUNNABLE",
       "queueDepth": 4,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Queued"
+      "status": "Running"
     }
   ],
   "publicationHealth": {
@@ -1136,7 +1136,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-15T14:31:25.805201Z",
+  "publishedAt": "2026-10-15T14:33:27.770162Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1151,7 +1151,7 @@
   "snapshotVersion": "2.0",
   "sourceEventAt": "2026-10-15T14:30:03.276811Z",
   "system": {
-    "activeJobs": 0,
+    "activeJobs": 1,
     "autonomy": "DEGRADED",
     "status": "Needs attention"
   },
