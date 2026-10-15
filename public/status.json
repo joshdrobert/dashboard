@@ -6,7 +6,7 @@
     "strategicEscalation": "Strategic AI review",
     "technicalEscalation": "Codex"
   },
-  "generatedAt": "2026-10-15T12:50:28.119040Z",
+  "generatedAt": "2026-10-15T12:55:21.057625Z",
   "goodScience": {
     "duplicateStudiesKilled": 2,
     "scientificGatesBypassed": 0,
@@ -617,12 +617,12 @@
     "autonomy": "DEGRADED",
     "controllerMode": "continuous local",
     "cpuJobs": 0,
-    "deterministicComputeActive": 0,
+    "deterministicComputeActive": 1,
     "externalJobsActive": 0,
     "gpuJobs": 0,
     "integrity": "Evidence-gated",
     "legacyScheduledPrompts": 0,
-    "localInferenceActive": 1,
+    "localInferenceActive": 0,
     "localTaskWorkersActive": 1,
     "portfolioProjects": 8,
     "status": "Operational",
