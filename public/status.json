@@ -1,129 +1,130 @@
 {
   "actionRequired": [],
-  "activeWork": [
+  "activeWork": [],
+  "attentionRequired": [
+    {
+      "category": "Agents debugging",
+      "message": "4 task(s) are in repair or retry states.",
+      "project": "Portfolio"
+    }
+  ],
+  "blockedWork": [
     {
       "backend": "Local",
-      "heartbeatAt": "2026-10-15T14:03:17.608084Z",
+      "heartbeatFresh": false,
+      "id": "551",
+      "parent": "550",
+      "project": "Trace",
+      "resource": "Local agent",
+      "startedAt": "2026-10-15T14:21:56.192925Z",
+      "state": "FAILED",
+      "title": "549 object storage adapter failure repair \u00b7 coder",
+      "updatedAt": "2026-10-15T14:40:24.224290Z",
+      "workerType": "coder"
+    },
+    {
+      "backend": "Local",
+      "heartbeatFresh": false,
       "id": "545",
       "parent": null,
       "project": "AI-Server",
       "resource": "Local agent",
       "startedAt": "2026-10-15T13:25:10.419467Z",
-      "state": "Failed / retrying",
+      "state": "FAILED",
       "title": "vision shared gateway smoke 20261015 \u00b7 coder",
       "updatedAt": "2026-10-15T14:03:22.573182Z",
       "workerType": "coder"
     },
     {
       "backend": "Local",
-      "heartbeatAt": "2026-10-15T04:38:55.245663Z",
+      "heartbeatFresh": false,
       "id": "533",
       "parent": "526",
       "project": "AortaPlan",
       "resource": "Local agent",
       "startedAt": "2026-10-15T04:34:08.964494Z",
-      "state": "Ready",
+      "state": "FAILED",
       "title": "regenerate plan 532 \u00b7 planner",
       "updatedAt": "2026-10-15T04:38:59.940909Z",
       "workerType": "planner"
     },
     {
       "backend": "Local",
-      "heartbeatAt": null,
-      "id": "435",
-      "parent": "427",
-      "project": "BCM-Neuromodulation",
-      "resource": "Local agent",
-      "startedAt": "2026-10-13T01:27:59.998118Z",
-      "state": "External dependency",
-      "title": "bcm real vision auth preflight 20261013 \u00b7 research",
-      "updatedAt": "2026-10-13T12:02:05.477981Z",
-      "workerType": "research"
-    },
-    {
-      "backend": "Local",
-      "heartbeatAt": "2026-10-14T22:25:39.494425Z",
+      "heartbeatFresh": false,
       "id": "523",
       "parent": "466",
       "project": "CTBone",
       "resource": "Local agent",
       "startedAt": "2026-10-14T22:19:07.590049Z",
-      "state": "Ready",
+      "state": "FAILED",
       "title": "regenerate plan 515 \u00b7 planner",
       "updatedAt": "2026-10-14T22:25:40.210909Z",
       "workerType": "planner"
     },
     {
       "backend": "Local",
-      "heartbeatAt": "2026-10-13T14:58:17.585110Z",
-      "id": "501",
-      "parent": null,
-      "project": "Ditto",
-      "resource": "Local agent",
-      "startedAt": "2026-10-13T14:41:01.520344Z",
-      "state": "Failed / retrying",
-      "title": "local repair 488 2 \u00b7 planner",
-      "updatedAt": "2026-10-13T14:58:27.715688Z",
-      "workerType": "planner"
-    },
-    {
-      "backend": "Local",
-      "heartbeatAt": "2026-10-14T22:19:02.868932Z",
+      "heartbeatFresh": false,
       "id": "516",
       "parent": "514",
       "project": "EchoNext",
       "resource": "Local agent",
       "startedAt": "2026-10-14T22:06:50.746265Z",
-      "state": "Ready",
+      "state": "FAILED",
       "title": "plan after 514 \u00b7 planner",
       "updatedAt": "2026-10-14T22:19:10.922097Z",
       "workerType": "planner"
     },
     {
       "backend": "Local",
-      "heartbeatAt": "2026-10-13T15:16:05.348513Z",
+      "heartbeatFresh": false,
+      "id": "501",
+      "parent": null,
+      "project": "Ditto",
+      "resource": "Local agent",
+      "startedAt": "2026-10-13T14:41:01.520344Z",
+      "state": "FAILED",
+      "title": "local repair 488 2 \u00b7 planner",
+      "updatedAt": "2026-10-13T14:58:27.715688Z",
+      "workerType": "planner"
+    },
+    {
+      "backend": "Local",
+      "heartbeatFresh": false,
       "id": "500",
       "parent": null,
       "project": "Papers",
       "resource": "Local agent",
       "startedAt": "2026-10-13T14:36:57.097333Z",
-      "state": "Failed / retrying",
+      "state": "FAILED",
       "title": "local repair 460 2 \u00b7 planner",
       "updatedAt": "2026-10-13T15:16:11.461892Z",
       "workerType": "planner"
     },
     {
       "backend": "Local",
-      "heartbeatAt": "2026-10-13T14:31:50.917501Z",
+      "heartbeatFresh": false,
       "id": "490",
       "parent": null,
       "project": "TEER",
       "resource": "Local agent",
       "startedAt": "2026-10-13T14:18:26.667514Z",
-      "state": "Failed / retrying",
+      "state": "FAILED",
       "title": "local repair 455 2 \u00b7 planner",
       "updatedAt": "2026-10-13T14:31:57.769333Z",
       "workerType": "planner"
     },
     {
       "backend": "Local",
-      "heartbeatAt": null,
-      "id": "537",
-      "parent": "536",
-      "project": "Trace",
+      "heartbeatFresh": false,
+      "id": "435",
+      "parent": "427",
+      "project": "BCM-Neuromodulation",
       "resource": "Local agent",
-      "startedAt": "2026-10-15T12:35:33.007726Z",
-      "state": "Queued",
-      "title": "trace browser e2e \u00b7 coder",
-      "updatedAt": "2026-10-15T12:35:33.007726Z",
-      "workerType": "coder"
-    }
-  ],
-  "attentionRequired": [
-    {
-      "category": "Agents debugging",
-      "message": "4 task(s) are in repair or retry states.",
-      "project": "Portfolio"
+      "startedAt": "2026-10-13T01:27:59.998118Z",
+      "state": "BLOCKED_EXTERNAL",
+      "title": "bcm real vision auth preflight 20261013 \u00b7 research",
+      "updatedAt": "2026-10-13T12:02:05.477981Z",
+      "workerType": "research"
     }
   ],
   "decisionSummary": {
@@ -1136,11 +1137,113 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-15T15:40:08.163134Z",
+  "publishedAt": "2026-10-15T16:46:43.245051Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
   },
+  "queuedWork": [
+    {
+      "backend": "Local",
+      "heartbeatFresh": false,
+      "id": "537",
+      "parent": "536",
+      "project": "Trace",
+      "resource": "Local agent",
+      "startedAt": "2026-10-15T12:35:33.007726Z",
+      "state": "WAITING_DEPENDENCY",
+      "title": "trace browser e2e \u00b7 coder",
+      "updatedAt": "2026-10-15T12:35:33.007726Z",
+      "workerType": "coder"
+    }
+  ],
+  "recentlyCompleted": [
+    {
+      "id": "553",
+      "project": "Trace",
+      "state": "COMPLETED",
+      "title": "551 object storage adapter failure repair \u00b7 coder",
+      "updatedAt": "2026-10-15T14:43:53.918750Z"
+    },
+    {
+      "id": "552",
+      "project": "Trace",
+      "state": "COMPLETED",
+      "title": "local repair 551 1 \u00b7 planner",
+      "updatedAt": "2026-10-15T14:41:08.592730Z"
+    },
+    {
+      "id": "550",
+      "project": "Trace",
+      "state": "COMPLETED",
+      "title": "local repair 549 1 \u00b7 planner",
+      "updatedAt": "2026-10-15T14:21:54.014888Z"
+    },
+    {
+      "id": "547",
+      "project": "AI-Server",
+      "state": "COMPLETED",
+      "title": "task 545 vision gateway probe \u00b7 coder",
+      "updatedAt": "2026-10-15T14:10:03.674940Z"
+    },
+    {
+      "id": "548",
+      "project": "Trace",
+      "state": "COMPLETED",
+      "title": "local repair 544 1 \u00b7 planner",
+      "updatedAt": "2026-10-15T14:07:10.610366Z"
+    },
+    {
+      "id": "546",
+      "project": "AI-Server",
+      "state": "COMPLETED",
+      "title": "local repair 545 1 \u00b7 planner",
+      "updatedAt": "2026-10-15T14:03:50.574981Z"
+    },
+    {
+      "id": "543",
+      "project": "Trace",
+      "state": "COMPLETED",
+      "title": "regenerate plan 542 \u00b7 planner",
+      "updatedAt": "2026-10-15T13:21:19.717138Z"
+    },
+    {
+      "id": "540",
+      "project": "Trace",
+      "state": "COMPLETED",
+      "title": "534 rights metadata store \u00b7 coder",
+      "updatedAt": "2026-10-15T13:04:24.405490Z"
+    },
+    {
+      "id": "539",
+      "project": "Trace",
+      "state": "COMPLETED",
+      "title": "534 content hash persist \u00b7 coder",
+      "updatedAt": "2026-10-15T13:03:10.399699Z"
+    },
+    {
+      "id": "538",
+      "project": "Trace",
+      "state": "COMPLETED",
+      "title": "local repair 534 1 \u00b7 planner",
+      "updatedAt": "2026-10-15T12:58:41.399135Z"
+    },
+    {
+      "id": "526",
+      "project": "AortaPlan",
+      "state": "COMPLETED",
+      "title": "a1 physical space regression bounds \u00b7 coder",
+      "updatedAt": "2026-10-14T22:30:45.702271Z"
+    },
+    {
+      "id": "525",
+      "project": "AortaPlan",
+      "state": "COMPLETED",
+      "title": "a1 physical space receivers validate \u00b7 coder",
+      "updatedAt": "2026-10-14T22:30:09.771093Z"
+    }
+  ],
+  "recoveryWork": [],
   "scientificProgress": {
     "analysesCompleted": 0,
     "datasetsVerified": 0,
@@ -1148,7 +1251,8 @@
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0
   },
-  "snapshotVersion": "2.0",
+  "semanticHash": "4601aa71b0216d12a0bd575ff944431d0a0fb6179cf113e8f01f868ed5efcd95",
+  "snapshotVersion": "2.1",
   "sourceEventAt": "2026-10-15T14:43:58.923632Z",
   "system": {
     "activeJobs": 0,
