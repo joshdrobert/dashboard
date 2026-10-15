@@ -1,5 +1,17 @@
 [
   {
+    "level": "Verified",
+    "message": "Accepted task completed: local repair 556 1 \u00b7 planner.",
+    "project": "Trace",
+    "timestamp": "2026-10-15T18:09:18.390628Z"
+  },
+  {
+    "level": "Verified",
+    "message": "Verification passed for local repair 556 1 \u00b7 planner.",
+    "project": "Trace",
+    "timestamp": "2026-10-15T18:09:15.124242Z"
+  },
+  {
     "level": "Recorded",
     "message": "Queued local repair 556 1 \u00b7 planner.",
     "project": "Trace",
@@ -466,17 +478,5 @@
     "message": "Queued local repair 534 1 \u00b7 planner.",
     "project": "Trace",
     "timestamp": "2026-10-15T12:57:44.365539Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "Trace",
-    "timestamp": "2026-10-15T12:39:45.745895Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "Trace",
-    "timestamp": "2026-10-15T12:39:45.745868Z"
   }
 ]

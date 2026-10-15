@@ -11,16 +11,16 @@
   "blockedWork": [
     {
       "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "557",
-      "parent": null,
+      "heartbeatFresh": false,
+      "id": "556",
+      "parent": "555",
       "project": "Trace",
       "resource": "Local agent",
-      "startedAt": "2026-10-15T18:07:15.550453Z",
-      "state": "STALE_UNKNOWN",
-      "title": "local repair 556 1 \u00b7 planner",
-      "updatedAt": "2026-10-15T18:07:19.092089Z",
-      "workerType": "planner"
+      "startedAt": "2026-10-15T17:55:09.494573Z",
+      "state": "FAILED",
+      "title": "536 reader editor export authorization \u00b7 coder",
+      "updatedAt": "2026-10-15T18:07:08.598704Z",
+      "workerType": "coder"
     },
     {
       "backend": "Local",
@@ -155,8 +155,28 @@
     "state": "FAILED",
     "summary": "The latest two-phase portfolio review is reflected in the controller ledger."
   },
-  "generatedAt": "2026-10-15T18:08:14.324875Z",
+  "generatedAt": "2026-10-15T18:10:15.921633Z",
   "meaningfulEvents": [
+    {
+      "id": "128278",
+      "message": "Accepted task completed: local repair 556 1 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-15T18:09:18.390628Z",
+      "type": "task_exit_accepted",
+      "verification": "Verified",
+      "whyItMatters": "The controller recorded the completion."
+    },
+    {
+      "id": "128274",
+      "message": "Verification passed for local repair 556 1 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-15T18:09:15.124242Z",
+      "type": "accepted",
+      "verification": "Verified",
+      "whyItMatters": "Dependent work may advance."
+    },
     {
       "id": "128205",
       "message": "Queued local repair 556 1 \u00b7 planner.",
@@ -936,26 +956,6 @@
       "type": "task_queued",
       "verification": "Recorded",
       "whyItMatters": "The next unit of work is durable."
-    },
-    {
-      "id": "121541",
-      "message": "Controller recovery restored an interrupted task boundary.",
-      "next": "Continue through the next controller gate.",
-      "project": "Trace",
-      "timestamp": "2026-10-15T12:39:45.745895Z",
-      "type": "recovery",
-      "verification": "Recorded",
-      "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "121540",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "Trace",
-      "timestamp": "2026-10-15T12:39:45.745868Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
     }
   ],
   "portfolioSummary": {
@@ -966,7 +966,7 @@
     "projectsNeedingTechnicalAttention": 4,
     "registeredProjects": 9,
     "state": "Needs attention",
-    "verifiedCompletions24h": 43
+    "verifiedCompletions24h": 45
   },
   "projects": [
     {
@@ -1114,22 +1114,22 @@
       "status": "Failed / retrying"
     },
     {
-      "agentsNow": "Running",
+      "agentsNow": "No agent currently executing",
       "blocker": null,
-      "currentObjective": "local repair 556 1 \u00b7 planner",
+      "currentObjective": "trace browser e2e \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "trace",
-      "lastAccomplishment": "Verified regenerate plan 554 \u00b7 planner.",
+      "lastAccomplishment": "Verified local repair 556 1 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-15T18:07:19.092089Z",
+      "lastMeaningfulActivity": "2026-10-15T18:09:15.124116Z",
       "name": "Trace",
       "nextTask": "trace browser e2e \u00b7 coder",
       "operationalState": "RUNNABLE",
-      "queueDepth": 2,
+      "queueDepth": 1,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Running"
+      "status": "Queued"
     }
   ],
   "publicationHealth": {
@@ -1137,7 +1137,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-15T18:08:14.514158Z",
+  "publishedAt": "2026-10-15T18:10:16.092117Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1158,6 +1158,13 @@
     }
   ],
   "recentlyCompleted": [
+    {
+      "id": "557",
+      "project": "Trace",
+      "state": "COMPLETED",
+      "title": "local repair 556 1 \u00b7 planner",
+      "updatedAt": "2026-10-15T18:09:15.124116Z"
+    },
     {
       "id": "555",
       "project": "Trace",
@@ -1234,13 +1241,6 @@
       "state": "COMPLETED",
       "title": "534 content hash persist \u00b7 coder",
       "updatedAt": "2026-10-15T13:03:10.399699Z"
-    },
-    {
-      "id": "538",
-      "project": "Trace",
-      "state": "COMPLETED",
-      "title": "local repair 534 1 \u00b7 planner",
-      "updatedAt": "2026-10-15T12:58:41.399135Z"
     }
   ],
   "recoveryWork": [],
@@ -1251,11 +1251,11 @@
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0
   },
-  "semanticHash": "2d4455b03015c96423d8622848947523060cec65d52b461422ff5a482e1ce52e",
+  "semanticHash": "bb3089a1351d17d5d8c72db45748b0b036608ae52fc80d16a194a83003041941",
   "snapshotVersion": "2.1",
-  "sourceEventAt": "2026-10-15T18:07:15.550556Z",
+  "sourceEventAt": "2026-10-15T18:09:18.390628Z",
   "system": {
-    "activeJobs": 1,
+    "activeJobs": 0,
     "autonomy": "DEGRADED",
     "status": "Needs attention"
   },
