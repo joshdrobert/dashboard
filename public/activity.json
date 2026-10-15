@@ -1,5 +1,35 @@
 [
   {
+    "level": "Verified",
+    "message": "Accepted task completed: regenerate plan 554 \u00b7 planner.",
+    "project": "Trace",
+    "timestamp": "2026-10-15T17:55:12.352989Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Queued 536 reader editor export authorization \u00b7 coder.",
+    "project": "Trace",
+    "timestamp": "2026-10-15T17:55:09.494631Z"
+  },
+  {
+    "level": "Verified",
+    "message": "Verification passed for regenerate plan 554 \u00b7 planner.",
+    "project": "Trace",
+    "timestamp": "2026-10-15T17:55:09.219993Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Queued regenerate plan 554 \u00b7 planner.",
+    "project": "Trace",
+    "timestamp": "2026-10-15T17:54:21.969760Z"
+  },
+  {
+    "level": "Verified",
+    "message": "Verification passed for local repair 536 1 \u00b7 planner.",
+    "project": "Trace",
+    "timestamp": "2026-10-15T17:54:21.419032Z"
+  },
+  {
     "level": "Recorded",
     "message": "Queued local repair 536 1 \u00b7 planner.",
     "project": "Trace",
@@ -448,35 +478,5 @@
     "message": "Queued trace manuscript persistence \u00b7 coder.",
     "project": "Trace",
     "timestamp": "2026-10-15T12:35:33.004578Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued trace object store source \u00b7 coder.",
-    "project": "Trace",
-    "timestamp": "2026-10-15T12:35:33.002652Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "AortaPlan",
-    "timestamp": "2026-10-15T04:38:59.940925Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "AortaPlan",
-    "timestamp": "2026-10-15T04:37:41.649783Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued regenerate plan 532 \u00b7 planner.",
-    "project": "AortaPlan",
-    "timestamp": "2026-10-15T04:34:08.964530Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Verification passed for regenerate plan 531 \u00b7 planner.",
-    "project": "AortaPlan",
-    "timestamp": "2026-10-15T04:34:06.618910Z"
   }
 ]

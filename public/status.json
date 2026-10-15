@@ -12,15 +12,15 @@
     {
       "backend": "Local",
       "heartbeatFresh": true,
-      "id": "554",
-      "parent": null,
+      "id": "556",
+      "parent": "555",
       "project": "Trace",
       "resource": "Local agent",
-      "startedAt": "2026-10-15T17:52:26.463579Z",
+      "startedAt": "2026-10-15T17:55:09.494573Z",
       "state": "STALE_UNKNOWN",
-      "title": "local repair 536 1 \u00b7 planner",
-      "updatedAt": "2026-10-15T17:52:30.157689Z",
-      "workerType": "planner"
+      "title": "536 reader editor export authorization \u00b7 coder",
+      "updatedAt": "2026-10-15T17:55:12.361933Z",
+      "workerType": "coder"
     },
     {
       "backend": "Local",
@@ -155,8 +155,58 @@
     "state": "FAILED",
     "summary": "The latest two-phase portfolio review is reflected in the controller ledger."
   },
-  "generatedAt": "2026-10-15T17:54:04.864798Z",
+  "generatedAt": "2026-10-15T17:56:05.262708Z",
   "meaningfulEvents": [
+    {
+      "id": "127876",
+      "message": "Accepted task completed: regenerate plan 554 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-15T17:55:12.352989Z",
+      "type": "task_exit_accepted",
+      "verification": "Verified",
+      "whyItMatters": "The controller recorded the completion."
+    },
+    {
+      "id": "127867",
+      "message": "Queued 536 reader editor export authorization \u00b7 coder.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-15T17:55:09.494631Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "127866",
+      "message": "Verification passed for regenerate plan 554 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-15T17:55:09.219993Z",
+      "type": "accepted",
+      "verification": "Verified",
+      "whyItMatters": "Dependent work may advance."
+    },
+    {
+      "id": "127826",
+      "message": "Queued regenerate plan 554 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-15T17:54:21.969760Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "127825",
+      "message": "Verification passed for local repair 536 1 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-15T17:54:21.419032Z",
+      "type": "accepted",
+      "verification": "Verified",
+      "whyItMatters": "Dependent work may advance."
+    },
     {
       "id": "127770",
       "message": "Queued local repair 536 1 \u00b7 planner.",
@@ -906,56 +956,6 @@
       "type": "task_queued",
       "verification": "Recorded",
       "whyItMatters": "The next unit of work is durable."
-    },
-    {
-      "id": "121287",
-      "message": "Queued trace object store source \u00b7 coder.",
-      "next": "Continue through the next controller gate.",
-      "project": "Trace",
-      "timestamp": "2026-10-15T12:35:33.002652Z",
-      "type": "task_queued",
-      "verification": "Recorded",
-      "whyItMatters": "The next unit of work is durable."
-    },
-    {
-      "id": "118616",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "AortaPlan",
-      "timestamp": "2026-10-15T04:38:59.940925Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
-    },
-    {
-      "id": "118575",
-      "message": "Controller recovery restored an interrupted task boundary.",
-      "next": "Continue through the next controller gate.",
-      "project": "AortaPlan",
-      "timestamp": "2026-10-15T04:37:41.649783Z",
-      "type": "recovery",
-      "verification": "Recorded",
-      "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "118421",
-      "message": "Queued regenerate plan 532 \u00b7 planner.",
-      "next": "Continue through the next controller gate.",
-      "project": "AortaPlan",
-      "timestamp": "2026-10-15T04:34:08.964530Z",
-      "type": "task_queued",
-      "verification": "Recorded",
-      "whyItMatters": "The next unit of work is durable."
-    },
-    {
-      "id": "118418",
-      "message": "Verification passed for regenerate plan 531 \u00b7 planner.",
-      "next": "Continue through the next controller gate.",
-      "project": "AortaPlan",
-      "timestamp": "2026-10-15T04:34:06.618910Z",
-      "type": "accepted",
-      "verification": "Verified",
-      "whyItMatters": "Dependent work may advance."
     }
   ],
   "portfolioSummary": {
@@ -966,7 +966,7 @@
     "projectsNeedingTechnicalAttention": 4,
     "registeredProjects": 9,
     "state": "Needs attention",
-    "verifiedCompletions24h": 40
+    "verifiedCompletions24h": 43
   },
   "projects": [
     {
@@ -1116,13 +1116,13 @@
     {
       "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "local repair 536 1 \u00b7 planner",
+      "currentObjective": "536 reader editor export authorization \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "trace",
-      "lastAccomplishment": "Verified 551 object storage adapter failure repair \u00b7 coder.",
+      "lastAccomplishment": "Verified regenerate plan 554 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-15T17:52:30.157689Z",
+      "lastMeaningfulActivity": "2026-10-15T17:55:12.361933Z",
       "name": "Trace",
       "nextTask": "trace browser e2e \u00b7 coder",
       "operationalState": "RUNNABLE",
@@ -1137,7 +1137,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-15T17:54:05.108310Z",
+  "publishedAt": "2026-10-15T17:56:05.428597Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1158,6 +1158,13 @@
     }
   ],
   "recentlyCompleted": [
+    {
+      "id": "555",
+      "project": "Trace",
+      "state": "COMPLETED",
+      "title": "regenerate plan 554 \u00b7 planner",
+      "updatedAt": "2026-10-15T17:55:09.219871Z"
+    },
     {
       "id": "535",
       "project": "Trace",
@@ -1234,13 +1241,6 @@
       "state": "COMPLETED",
       "title": "local repair 534 1 \u00b7 planner",
       "updatedAt": "2026-10-15T12:58:41.399135Z"
-    },
-    {
-      "id": "526",
-      "project": "AortaPlan",
-      "state": "COMPLETED",
-      "title": "a1 physical space regression bounds \u00b7 coder",
-      "updatedAt": "2026-10-14T22:30:45.702271Z"
     }
   ],
   "recoveryWork": [],
@@ -1251,9 +1251,9 @@
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0
   },
-  "semanticHash": "7478ad0fc48124df1eaa36c450ddaa8ee25621e013253bc0b417c147cc0e2a67",
+  "semanticHash": "fafdc06986935ae454918c969edf4048bbb489e8ae6ddb734a39dd298e7a4a06",
   "snapshotVersion": "2.1",
-  "sourceEventAt": "2026-10-15T17:52:26.463674Z",
+  "sourceEventAt": "2026-10-15T17:55:12.352989Z",
   "system": {
     "activeJobs": 1,
     "autonomy": "DEGRADED",
