@@ -1,5 +1,17 @@
 [
   {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "Trace",
+    "timestamp": "2026-10-15T14:13:08.980743Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "Trace",
+    "timestamp": "2026-10-15T14:13:08.980717Z"
+  },
+  {
     "level": "Verified",
     "message": "Accepted task completed: task 545 vision gateway probe \u00b7 coder.",
     "project": "AI-Server",
@@ -10,18 +22,6 @@
     "message": "Verification passed for task 545 vision gateway probe \u00b7 coder.",
     "project": "AI-Server",
     "timestamp": "2026-10-15T14:10:03.675090Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "Trace",
-    "timestamp": "2026-10-15T14:08:55.137601Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "Trace",
-    "timestamp": "2026-10-15T14:08:55.137577Z"
   },
   {
     "level": "Recorded",
