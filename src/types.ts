@@ -1,51 +1,8 @@
-export type Progress =
-  | { kind: 'determinate'; value: number }
-  | { kind: 'stage'; label: string }
-  | { kind: 'indeterminate' }
-
-export interface Project {
-  id: string
-  name: string
-  status: string
-  summary?: string
-  stage?: string
-  progress?: number | null
-  updatedAt?: string
-  next?: string
-  job?: string | number | null
-  readyForHuman?: boolean
-  alert?: string
-  currentTask?: string | null
-  queueDepth?: number
-  lastMeaningfulProgress?: string | null
-  blocker?: string | null
-  engineeringOutput?: string
-  scientificOutput?: string
-  projectGoal?: string
-  currentMilestone?: string
-  nextMilestone?: string
-  taskDescription?: string | null
-  taskStartedAt?: string | null
-  taskChecklist?: { completed: number; total: number } | null
-  stageProgress?: { completed: number; total: number } | null
-  sinceHourlyCheckpoint?: string[]
-  transfer?: Record<string, unknown> | null
-  plainLanguage?: { goal?: string; now?: string; recentWin?: string; whyItMatters?: string; next?: string }
-}
-
-export interface SystemStatus {
-  generatedAt?: string
-  system?: { status?: string; autonomy?: string; activeJobs?: number; gpuJobs?: number; cpuJobs?: number; integrity?: string }
-  projects?: Project[]
-  vision?: Record<string, unknown>
-  papers?: Record<string, unknown>
-  autonomyPolicy?: Record<string, unknown>
-  queueHealth?: { orphanedRoadmaps?: string[]; orphanedCount?: number }
-  actionRequired?: Array<{ project: string; instruction: string }>
-  hourlyCheckpoint?: { at?: string | null; changes?: number }
-  recentlyWe?: Array<{text: string; why: string}>
-  goodScience?: Record<string, number>
-  visionSession?: Record<string, unknown>
-}
-
-export interface Activity { timestamp?: string; project?: string; message: string; level?: string }
+export interface PortfolioSummary { state:string; registeredProjects:number; executingProjects:number; activeLocalAgents:number; activeVisionJobs:number; verifiedCompletions24h:number; projectsNeedingTechnicalAttention:number; actionsRequiringUser:number }
+export interface Project { id:string; name:string; status:string; operationalState?:string; researchStage?:string; goal?:string; currentObjective?:string; agentsNow?:string; lastAccomplishment?:string; lastMeaningfulActivity?:string|null; blocker?:string|null; nextTask?:string|null; queueDepth?:number; lastCodexReview?:string|null; deliverable?:string; readyForHuman?:boolean; progress?:number|null; stage?:string }
+export interface Work { id:string; project:string; workerType:string; title:string; state:string; startedAt?:string|null; updatedAt?:string|null; resource:string; backend:string; heartbeatAt?:string|null; parent?:string|null }
+export interface Event { id:string; timestamp:string; project:string; type:string; message:string; verification:string; whyItMatters:string; next:string }
+export interface Attention { category:string; project:string; message:string }
+export interface Director { state:string; model:string; reasoningEffort:string; lastPhase1?:string|null; lastPhase2?:string|null; nextReview?:string|null; projectsReviewed:number; orientationAcknowledgments:number; pendingDecisions:number; approvedDecisions:number; modifiedOrReversed:number; summary:string }
+export interface Snapshot { snapshotVersion:string; generatedAt?:string|null; sourceEventAt?:string|null; publishedAt?:string|null; systemHealth:{state:string;controller:string;autonomy:string}; portfolioSummary:PortfolioSummary; projects:Project[]; activeWork:Work[]; meaningfulEvents:Event[]; director:Director; visionSummary:Record<string,string|number>; scientificProgress:Record<string,string|number>; attentionRequired:Attention[]; publicationHealth:Record<string,string|null> }
+export type Progress={kind:'determinate';value:number}|{kind:'stage';label:string}|{kind:'indeterminate'}

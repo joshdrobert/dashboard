@@ -154,7 +154,7 @@
     "state": "COMPLETE",
     "summary": "The latest two-phase portfolio review is reflected in the controller ledger."
   },
-  "generatedAt": "2026-10-15T14:12:45.419856Z",
+  "generatedAt": "2026-10-15T14:12:53.131378Z",
   "meaningfulEvents": [
     {
       "id": "124291",
@@ -1149,7 +1149,7 @@
     "resultsValidated": 0
   },
   "snapshotVersion": "2.0",
-  "sourceEventAt": "2026-10-15T14:12:45.419856Z",
+  "sourceEventAt": "2026-10-15T14:12:53.131378Z",
   "system": {
     "activeJobs": 1,
     "autonomy": "DEGRADED",
