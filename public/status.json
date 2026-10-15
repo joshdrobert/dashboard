@@ -19,7 +19,7 @@
       "startedAt": "2026-10-15T17:55:09.494573Z",
       "state": "STALE_UNKNOWN",
       "title": "536 reader editor export authorization \u00b7 coder",
-      "updatedAt": "2026-10-15T18:04:02.509443Z",
+      "updatedAt": "2026-10-15T18:06:01.998965Z",
       "workerType": "coder"
     },
     {
@@ -155,24 +155,24 @@
     "state": "FAILED",
     "summary": "The latest two-phase portfolio review is reflected in the controller ledger."
   },
-  "generatedAt": "2026-10-15T18:04:11.452189Z",
+  "generatedAt": "2026-10-15T18:06:12.830699Z",
   "meaningfulEvents": [
     {
-      "id": "128045",
+      "id": "128140",
       "message": "Controller recovery restored an interrupted task boundary.",
       "next": "Continue through the next controller gate.",
       "project": "Trace",
-      "timestamp": "2026-10-15T18:01:12.841988Z",
+      "timestamp": "2026-10-15T18:04:26.556238Z",
       "type": "recovery",
       "verification": "Recorded",
       "whyItMatters": "Safe autonomous execution can resume."
     },
     {
-      "id": "128044",
+      "id": "128139",
       "message": "A bounded task failed and entered recovery.",
       "next": "Continue through the next controller gate.",
       "project": "Trace",
-      "timestamp": "2026-10-15T18:01:12.841965Z",
+      "timestamp": "2026-10-15T18:04:26.556215Z",
       "type": "failure",
       "verification": "Attention",
       "whyItMatters": "The failure remains visible until repaired."
@@ -1122,7 +1122,7 @@
       "id": "trace",
       "lastAccomplishment": "Verified regenerate plan 554 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-15T18:04:02.509443Z",
+      "lastMeaningfulActivity": "2026-10-15T18:06:01.998965Z",
       "name": "Trace",
       "nextTask": "trace browser e2e \u00b7 coder",
       "operationalState": "RUNNABLE",
@@ -1137,7 +1137,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-15T18:04:11.603749Z",
+  "publishedAt": "2026-10-15T18:06:13.036709Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1251,9 +1251,9 @@
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0
   },
-  "semanticHash": "b7f43d2a808446a0aade253b487eb712aa3409c344ce92c9466cad11c1b7636a",
+  "semanticHash": "d03e2e98765490a60018378bf0f215567e23ffc857f433594455e7eaa0d61d12",
   "snapshotVersion": "2.1",
-  "sourceEventAt": "2026-10-15T18:01:12.841988Z",
+  "sourceEventAt": "2026-10-15T18:04:26.556238Z",
   "system": {
     "activeJobs": 1,
     "autonomy": "DEGRADED",
