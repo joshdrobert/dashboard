@@ -107,15 +107,15 @@
     },
     {
       "backend": "Local",
-      "heartbeatAt": "2026-10-15T14:39:30.001104Z",
-      "id": "551",
-      "parent": "550",
+      "heartbeatAt": "2026-10-15T14:41:32.192601Z",
+      "id": "553",
+      "parent": "552",
       "project": "Trace",
       "resource": "Local agent",
-      "startedAt": "2026-10-15T14:21:56.192925Z",
+      "startedAt": "2026-10-15T14:41:09.328203Z",
       "state": "Running",
-      "title": "549 object storage adapter failure repair \u00b7 coder",
-      "updatedAt": "2026-10-15T14:38:29.923059Z",
+      "title": "551 object storage adapter failure repair \u00b7 coder",
+      "updatedAt": "2026-10-15T14:41:12.193079Z",
       "workerType": "coder"
     }
   ],
@@ -154,8 +154,58 @@
     "state": "COMPLETE",
     "summary": "The latest two-phase portfolio review is reflected in the controller ledger."
   },
-  "generatedAt": "2026-10-15T14:35:00.147506Z",
+  "generatedAt": "2026-10-15T14:41:12.194918Z",
   "meaningfulEvents": [
+    {
+      "id": "125573",
+      "message": "Accepted task completed: local repair 551 1 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-15T14:41:12.194918Z",
+      "type": "task_exit_accepted",
+      "verification": "Verified",
+      "whyItMatters": "The controller recorded the completion."
+    },
+    {
+      "id": "125563",
+      "message": "Queued 551 object storage adapter failure repair \u00b7 coder.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-15T14:41:09.328275Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "125562",
+      "message": "Verification passed for local repair 551 1 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-15T14:41:08.592844Z",
+      "type": "accepted",
+      "verification": "Verified",
+      "whyItMatters": "Dependent work may advance."
+    },
+    {
+      "id": "125519",
+      "message": "Queued local repair 551 1 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-15T14:40:34.855599Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "125516",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-15T14:40:24.224306Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
     {
       "id": "125306",
       "message": "Controller recovery restored an interrupted task boundary.",
@@ -165,16 +215,6 @@
       "type": "recovery",
       "verification": "Recorded",
       "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "125305",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "Trace",
-      "timestamp": "2026-10-15T14:35:00.147477Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
     },
     {
       "id": "124731",
@@ -915,46 +955,6 @@
       "type": "recovery",
       "verification": "Recorded",
       "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "116087",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "AortaPlan",
-      "timestamp": "2026-10-14T22:56:06.407840Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
-    },
-    {
-      "id": "116056",
-      "message": "Queued regenerate plan 528 \u00b7 planner.",
-      "next": "Continue through the next controller gate.",
-      "project": "AortaPlan",
-      "timestamp": "2026-10-14T22:55:47.064769Z",
-      "type": "task_queued",
-      "verification": "Recorded",
-      "whyItMatters": "The next unit of work is durable."
-    },
-    {
-      "id": "116055",
-      "message": "Verification passed for local repair 524 2 \u00b7 planner.",
-      "next": "Continue through the next controller gate.",
-      "project": "AortaPlan",
-      "timestamp": "2026-10-14T22:55:47.010824Z",
-      "type": "accepted",
-      "verification": "Verified",
-      "whyItMatters": "Dependent work may advance."
-    },
-    {
-      "id": "116004",
-      "message": "Controller recovery restored an interrupted task boundary.",
-      "next": "Continue through the next controller gate.",
-      "project": "AortaPlan",
-      "timestamp": "2026-10-14T22:54:01.927445Z",
-      "type": "recovery",
-      "verification": "Recorded",
-      "whyItMatters": "Safe autonomous execution can resume."
     }
   ],
   "portfolioSummary": {
@@ -965,7 +965,7 @@
     "projectsNeedingTechnicalAttention": 4,
     "registeredProjects": 9,
     "state": "Needs attention",
-    "verifiedCompletions24h": 34
+    "verifiedCompletions24h": 36
   },
   "projects": [
     {
@@ -1115,13 +1115,13 @@
     {
       "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "549 object storage adapter failure repair \u00b7 coder",
+      "currentObjective": "551 object storage adapter failure repair \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "trace",
-      "lastAccomplishment": "Verified local repair 549 1 \u00b7 planner.",
+      "lastAccomplishment": "Verified local repair 551 1 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-15T14:38:29.923059Z",
+      "lastMeaningfulActivity": "2026-10-15T14:41:12.193079Z",
       "name": "Trace",
       "nextTask": "trace browser e2e \u00b7 coder",
       "operationalState": "RUNNABLE",
@@ -1136,7 +1136,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-15T14:39:33.888779Z",
+  "publishedAt": "2026-10-15T14:41:35.388100Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1149,7 +1149,7 @@
     "resultsValidated": 0
   },
   "snapshotVersion": "2.0",
-  "sourceEventAt": "2026-10-15T14:35:00.147506Z",
+  "sourceEventAt": "2026-10-15T14:41:12.194918Z",
   "system": {
     "activeJobs": 1,
     "autonomy": "DEGRADED",
