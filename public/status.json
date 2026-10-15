@@ -6,7 +6,7 @@
     "strategicEscalation": "Strategic AI review",
     "technicalEscalation": "Codex"
   },
-  "generatedAt": "2026-10-15T12:45:18.864492Z",
+  "generatedAt": "2026-10-15T12:50:28.119040Z",
   "goodScience": {
     "duplicateStudiesKilled": 2,
     "scientificGatesBypassed": 0,
@@ -174,7 +174,7 @@
         "whyThisMatters": "Advances the frozen V1 milestone."
       },
       "v1Goal": "Evaluate a frozen, reproducible neuromodulation reanalysis and pursue independent replication without changing the primary endpoint.",
-      "waitingReason": "Optional VISION copy paused during planned maintenance; local BCM work is continuing.",
+      "waitingReason": null,
       "whyItMatters": "The primary result is technically reproducible and was evaluated without changing the analysis after seeing outcomes."
     },
     {
@@ -617,12 +617,12 @@
     "autonomy": "DEGRADED",
     "controllerMode": "continuous local",
     "cpuJobs": 0,
-    "deterministicComputeActive": 1,
+    "deterministicComputeActive": 0,
     "externalJobsActive": 0,
     "gpuJobs": 0,
     "integrity": "Evidence-gated",
     "legacyScheduledPrompts": 0,
-    "localInferenceActive": 0,
+    "localInferenceActive": 1,
     "localTaskWorkersActive": 1,
     "portfolioProjects": 8,
     "status": "Operational",
@@ -657,8 +657,8 @@
     ]
   },
   "visionSession": {
-    "actionRequired": "NONE",
-    "duoRequired": false,
-    "state": "VISION_MAINTENANCE"
+    "actionRequired": null,
+    "duoRequired": true,
+    "state": "VISION_AUTH_REQUIRED"
   }
 }
