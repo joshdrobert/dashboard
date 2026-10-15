@@ -4,7 +4,7 @@
   "attentionRequired": [
     {
       "category": "Agents debugging",
-      "message": "3 task(s) are in repair or retry states.",
+      "message": "4 task(s) are in repair or retry states.",
       "project": "Portfolio"
     }
   ],
@@ -155,8 +155,18 @@
     "state": "FAILED",
     "summary": "The latest two-phase portfolio review is reflected in the controller ledger."
   },
-  "generatedAt": "2026-10-15T20:00:28.174362Z",
+  "generatedAt": "2026-10-15T20:04:32.429271Z",
   "meaningfulEvents": [
+    {
+      "id": "128529",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "Papers",
+      "timestamp": "2026-10-15T20:04:09.081229Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
     {
       "id": "128422",
       "message": "Controller recovery restored an interrupted task boundary.",
@@ -946,16 +956,6 @@
       "type": "task_queued",
       "verification": "Recorded",
       "whyItMatters": "The next unit of work is durable."
-    },
-    {
-      "id": "121992",
-      "message": "Queued 534 rights metadata store \u00b7 coder.",
-      "next": "Continue through the next controller gate.",
-      "project": "Trace",
-      "timestamp": "2026-10-15T12:58:43.102427Z",
-      "type": "task_queued",
-      "verification": "Recorded",
-      "whyItMatters": "The next unit of work is durable."
     }
   ],
   "portfolioSummary": {
@@ -963,7 +963,7 @@
     "activeLocalAgents": 0,
     "activeVisionJobs": 0,
     "executingProjects": 0,
-    "projectsNeedingTechnicalAttention": 3,
+    "projectsNeedingTechnicalAttention": 4,
     "registeredProjects": 9,
     "state": "Needs attention",
     "verifiedCompletions24h": 47
@@ -1078,9 +1078,9 @@
       "status": "Ready"
     },
     {
-      "agentsNow": "Running",
+      "agentsNow": "No agent currently executing",
       "blocker": null,
-      "currentObjective": "papers batch screen 017 032 20261013 \u00b7 research",
+      "currentObjective": "local repair 460 2 \u00b7 planner",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "papers",
@@ -1090,10 +1090,10 @@
       "name": "Papers",
       "nextTask": null,
       "operationalState": "RUNNABLE",
-      "queueDepth": 1,
+      "queueDepth": 0,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Running"
+      "status": "Failed / retrying"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1137,7 +1137,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-15T20:00:28.338240Z",
+  "publishedAt": "2026-10-15T20:04:32.751246Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1251,11 +1251,11 @@
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0
   },
-  "semanticHash": "ee0c7a8d20549315537a9bc76ee188757fdccfb5ad30dc14f7d5659ec057c735",
+  "semanticHash": "bb32806e8315292aaa7667d798573caaca698e90e15a64f932eb626ee3ae0cfe",
   "snapshotVersion": "2.1",
-  "sourceEventAt": "2026-10-15T19:52:23.140051Z",
+  "sourceEventAt": "2026-10-15T20:04:09.081229Z",
   "system": {
-    "activeJobs": 1,
+    "activeJobs": 0,
     "autonomy": "DEGRADED",
     "status": "Needs attention"
   },

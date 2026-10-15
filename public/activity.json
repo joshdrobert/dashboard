@@ -1,5 +1,11 @@
 [
   {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "Papers",
+    "timestamp": "2026-10-15T20:04:09.081229Z"
+  },
+  {
     "level": "Recorded",
     "message": "Controller recovery restored an interrupted task boundary.",
     "project": "Papers",
@@ -472,11 +478,5 @@
     "message": "Queued 534 object store determinism test \u00b7 coder.",
     "project": "Trace",
     "timestamp": "2026-10-15T12:58:43.102443Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued 534 rights metadata store \u00b7 coder.",
-    "project": "Trace",
-    "timestamp": "2026-10-15T12:58:43.102427Z"
   }
 ]
