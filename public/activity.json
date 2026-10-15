@@ -2,6 +2,11 @@
   {
     "message": "A bounded task passed deterministic acceptance.",
     "project": "Trace",
+    "timestamp": "2026-10-15T13:04:24.405619Z"
+  },
+  {
+    "message": "A bounded task passed deterministic acceptance.",
+    "project": "Trace",
     "timestamp": "2026-10-15T13:03:10.399818Z"
   },
   {
@@ -53,10 +58,5 @@
     "message": "A new bounded task was queued.",
     "project": "AortaPlan",
     "timestamp": "2026-10-15T04:34:08.964530Z"
-  },
-  {
-    "message": "A bounded task passed deterministic acceptance.",
-    "project": "AortaPlan",
-    "timestamp": "2026-10-15T04:34:06.618910Z"
   }
 ]
