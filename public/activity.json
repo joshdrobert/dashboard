@@ -1,5 +1,23 @@
 [
   {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "Papers",
+    "timestamp": "2026-10-15T19:48:15.589309Z"
+  },
+  {
+    "level": "Verified",
+    "message": "Accepted task completed: deep investigation plast 003 receipts 20261013 \u00b7 research.",
+    "project": "Papers",
+    "timestamp": "2026-10-15T19:46:45.208841Z"
+  },
+  {
+    "level": "Verified",
+    "message": "Verification passed for deep investigation plast 003 receipts 20261013 \u00b7 research.",
+    "project": "Papers",
+    "timestamp": "2026-10-15T19:46:41.389130Z"
+  },
+  {
     "level": "Verified",
     "message": "Accepted task completed: local repair 556 1 \u00b7 planner.",
     "project": "Trace",
@@ -460,23 +478,5 @@
     "message": "Queued 534 rights metadata store \u00b7 coder.",
     "project": "Trace",
     "timestamp": "2026-10-15T12:58:43.102427Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued 534 content hash persist \u00b7 coder.",
-    "project": "Trace",
-    "timestamp": "2026-10-15T12:58:43.102380Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Verification passed for local repair 534 1 \u00b7 planner.",
-    "project": "Trace",
-    "timestamp": "2026-10-15T12:58:41.399254Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued local repair 534 1 \u00b7 planner.",
-    "project": "Trace",
-    "timestamp": "2026-10-15T12:57:44.365539Z"
   }
 ]

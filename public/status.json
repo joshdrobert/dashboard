@@ -4,7 +4,7 @@
   "attentionRequired": [
     {
       "category": "Agents debugging",
-      "message": "4 task(s) are in repair or retry states.",
+      "message": "3 task(s) are in repair or retry states.",
       "project": "Portfolio"
     }
   ],
@@ -155,8 +155,38 @@
     "state": "PHASE2_RUNNING",
     "summary": "The latest two-phase portfolio review is reflected in the controller ledger."
   },
-  "generatedAt": "2026-10-15T19:46:29.797844Z",
+  "generatedAt": "2026-10-15T19:48:16.130094Z",
   "meaningfulEvents": [
+    {
+      "id": "128385",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "Papers",
+      "timestamp": "2026-10-15T19:48:15.589309Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "128375",
+      "message": "Accepted task completed: deep investigation plast 003 receipts 20261013 \u00b7 research.",
+      "next": "Continue through the next controller gate.",
+      "project": "Papers",
+      "timestamp": "2026-10-15T19:46:45.208841Z",
+      "type": "task_exit_accepted",
+      "verification": "Verified",
+      "whyItMatters": "The controller recorded the completion."
+    },
+    {
+      "id": "128366",
+      "message": "Verification passed for deep investigation plast 003 receipts 20261013 \u00b7 research.",
+      "next": "Continue through the next controller gate.",
+      "project": "Papers",
+      "timestamp": "2026-10-15T19:46:41.389130Z",
+      "type": "accepted",
+      "verification": "Verified",
+      "whyItMatters": "Dependent work may advance."
+    },
     {
       "id": "128278",
       "message": "Accepted task completed: local repair 556 1 \u00b7 planner.",
@@ -926,36 +956,6 @@
       "type": "task_queued",
       "verification": "Recorded",
       "whyItMatters": "The next unit of work is durable."
-    },
-    {
-      "id": "121991",
-      "message": "Queued 534 content hash persist \u00b7 coder.",
-      "next": "Continue through the next controller gate.",
-      "project": "Trace",
-      "timestamp": "2026-10-15T12:58:43.102380Z",
-      "type": "task_queued",
-      "verification": "Recorded",
-      "whyItMatters": "The next unit of work is durable."
-    },
-    {
-      "id": "121990",
-      "message": "Verification passed for local repair 534 1 \u00b7 planner.",
-      "next": "Continue through the next controller gate.",
-      "project": "Trace",
-      "timestamp": "2026-10-15T12:58:41.399254Z",
-      "type": "accepted",
-      "verification": "Verified",
-      "whyItMatters": "Dependent work may advance."
-    },
-    {
-      "id": "121947",
-      "message": "Queued local repair 534 1 \u00b7 planner.",
-      "next": "Continue through the next controller gate.",
-      "project": "Trace",
-      "timestamp": "2026-10-15T12:57:44.365539Z",
-      "type": "task_queued",
-      "verification": "Recorded",
-      "whyItMatters": "The next unit of work is durable."
     }
   ],
   "portfolioSummary": {
@@ -963,10 +963,10 @@
     "activeLocalAgents": 0,
     "activeVisionJobs": 0,
     "executingProjects": 0,
-    "projectsNeedingTechnicalAttention": 4,
+    "projectsNeedingTechnicalAttention": 3,
     "registeredProjects": 9,
     "state": "Needs attention",
-    "verifiedCompletions24h": 45
+    "verifiedCompletions24h": 47
   },
   "projects": [
     {
@@ -1080,20 +1080,20 @@
     {
       "agentsNow": "No agent currently executing",
       "blocker": null,
-      "currentObjective": "local repair 460 2 \u00b7 planner",
+      "currentObjective": "papers batch screen 017 032 20261013 \u00b7 research",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "papers",
       "lastAccomplishment": "Verified local repair 462 2 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-13T15:16:11.461892Z",
+      "lastMeaningfulActivity": "2026-10-15T19:46:42.179733Z",
       "name": "Papers",
-      "nextTask": null,
+      "nextTask": "papers batch screen 017 032 20261013 \u00b7 research",
       "operationalState": "RUNNABLE",
-      "queueDepth": 0,
+      "queueDepth": 1,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Failed / retrying"
+      "status": "Queued"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1137,7 +1137,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-15T19:46:29.986011Z",
+  "publishedAt": "2026-10-15T19:48:16.278554Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1155,9 +1155,29 @@
       "title": "trace browser e2e \u00b7 coder",
       "updatedAt": "2026-10-15T17:18:55.377404Z",
       "workerType": "coder"
+    },
+    {
+      "backend": "Local",
+      "heartbeatFresh": true,
+      "id": "460",
+      "parent": "457",
+      "project": "Papers",
+      "resource": "Local agent",
+      "startedAt": "2026-10-13T11:55:04.294022Z",
+      "state": "QUEUED",
+      "title": "papers batch screen 017 032 20261013 \u00b7 research",
+      "updatedAt": "2026-10-15T19:48:15.583051Z",
+      "workerType": "research"
     }
   ],
   "recentlyCompleted": [
+    {
+      "id": "461",
+      "project": "Papers",
+      "state": "COMPLETED",
+      "title": "deep investigation plast 003 receipts 20261013 \u00b7 research",
+      "updatedAt": "2026-10-15T19:46:41.388972Z"
+    },
     {
       "id": "557",
       "project": "Trace",
@@ -1234,13 +1254,6 @@
       "state": "COMPLETED",
       "title": "534 rights metadata store \u00b7 coder",
       "updatedAt": "2026-10-15T13:04:24.405490Z"
-    },
-    {
-      "id": "539",
-      "project": "Trace",
-      "state": "COMPLETED",
-      "title": "534 content hash persist \u00b7 coder",
-      "updatedAt": "2026-10-15T13:03:10.399699Z"
     }
   ],
   "recoveryWork": [],
@@ -1251,9 +1264,9 @@
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0
   },
-  "semanticHash": "9dadcd551f58f8e3ae4fa45e444610b50c871728481cbff775a449c54e088f8a",
+  "semanticHash": "ad10ec87378d6cf040511e9050ab048ee22c909f1dc815e8f7f47436615add38",
   "snapshotVersion": "2.1",
-  "sourceEventAt": "2026-10-15T18:09:18.390628Z",
+  "sourceEventAt": "2026-10-15T19:48:15.589309Z",
   "system": {
     "activeJobs": 0,
     "autonomy": "DEGRADED",
