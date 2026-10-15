@@ -19,7 +19,7 @@
       "startedAt": "2026-10-15T17:55:09.494573Z",
       "state": "STALE_UNKNOWN",
       "title": "536 reader editor export authorization \u00b7 coder",
-      "updatedAt": "2026-10-15T17:55:12.361933Z",
+      "updatedAt": "2026-10-15T17:57:10.708596Z",
       "workerType": "coder"
     },
     {
@@ -155,7 +155,7 @@
     "state": "FAILED",
     "summary": "The latest two-phase portfolio review is reflected in the controller ledger."
   },
-  "generatedAt": "2026-10-15T17:56:05.262708Z",
+  "generatedAt": "2026-10-15T17:58:07.488085Z",
   "meaningfulEvents": [
     {
       "id": "127876",
@@ -1122,7 +1122,7 @@
       "id": "trace",
       "lastAccomplishment": "Verified regenerate plan 554 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-15T17:55:12.361933Z",
+      "lastMeaningfulActivity": "2026-10-15T17:57:10.708596Z",
       "name": "Trace",
       "nextTask": "trace browser e2e \u00b7 coder",
       "operationalState": "RUNNABLE",
@@ -1137,7 +1137,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-15T17:56:05.428597Z",
+  "publishedAt": "2026-10-15T17:58:07.698089Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1251,7 +1251,7 @@
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0
   },
-  "semanticHash": "fafdc06986935ae454918c969edf4048bbb489e8ae6ddb734a39dd298e7a4a06",
+  "semanticHash": "cd118a7d2e3a5b5939e1e7c413c8b8ba20f71a04b054a08e50cddf43cecc7ec4",
   "snapshotVersion": "2.1",
   "sourceEventAt": "2026-10-15T17:55:12.352989Z",
   "system": {
