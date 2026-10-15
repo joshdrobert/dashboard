@@ -1,6 +1,26 @@
 [
   {
     "message": "A new bounded task was queued.",
+    "project": "Trace",
+    "timestamp": "2026-10-15T12:35:33.008068Z"
+  },
+  {
+    "message": "A new bounded task was queued.",
+    "project": "Trace",
+    "timestamp": "2026-10-15T12:35:33.006365Z"
+  },
+  {
+    "message": "A new bounded task was queued.",
+    "project": "Trace",
+    "timestamp": "2026-10-15T12:35:33.004578Z"
+  },
+  {
+    "message": "A new bounded task was queued.",
+    "project": "Trace",
+    "timestamp": "2026-10-15T12:35:33.002652Z"
+  },
+  {
+    "message": "A new bounded task was queued.",
     "project": "AortaPlan",
     "timestamp": "2026-10-15T04:34:08.964530Z"
   },
@@ -38,25 +58,5 @@
     "message": "A bounded task passed deterministic acceptance.",
     "project": "AortaPlan",
     "timestamp": "2026-10-14T22:57:18.812960Z"
-  },
-  {
-    "message": "A new bounded task was queued.",
-    "project": "AortaPlan",
-    "timestamp": "2026-10-14T22:55:47.064769Z"
-  },
-  {
-    "message": "A bounded task passed deterministic acceptance.",
-    "project": "AortaPlan",
-    "timestamp": "2026-10-14T22:55:47.010824Z"
-  },
-  {
-    "message": "A new bounded task was queued.",
-    "project": "AortaPlan",
-    "timestamp": "2026-10-14T22:53:48.994022Z"
-  },
-  {
-    "message": "A new bounded task was queued.",
-    "project": "AortaPlan",
-    "timestamp": "2026-10-14T22:48:20.982551Z"
   }
 ]

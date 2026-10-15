@@ -6,7 +6,7 @@
     "strategicEscalation": "Strategic AI review",
     "technicalEscalation": "Codex"
   },
-  "generatedAt": "2026-10-15T12:35:24.982481Z",
+  "generatedAt": "2026-10-15T12:40:21.797672Z",
   "goodScience": {
     "duplicateStudiesKilled": 2,
     "scientificGatesBypassed": 0,
@@ -382,12 +382,12 @@
       "actionRequired": null,
       "alert": null,
       "blocker": null,
-      "criteriaCompleted": 1,
-      "criteriaTotal": 1,
+      "criteriaCompleted": 0,
+      "criteriaTotal": 0,
       "currentMilestone": "Audit persistence",
       "currentMilestoneId": "TRACE-V1-M1",
       "currentMilestoneName": "Audit persistence",
-      "currentTask": "489-milestone-artifact-check",
+      "currentTask": "trace-browser-e2e",
       "currentWork": "A bounded local task is queued.",
       "engineeringOutput": "Bounded task accepted",
       "id": "06",
@@ -395,10 +395,10 @@
       "milestoneIndex": 1,
       "milestoneTotal": 3,
       "name": "Trace",
-      "next": null,
+      "next": "trace-browser-e2e",
       "nextMilestone": "Ingestion-boundary validation",
       "nextV1Gate": "Exercise protocol, evidence, results, and export flow.",
-      "operationalState": "Ready",
+      "operationalState": "Queued",
       "plainLanguage": {
         "goal": "Carry a real study from protocol to an auditable submission package.",
         "next": "Exercise protocol, evidence, results, and export flow.",
@@ -407,27 +407,24 @@
         "whyItMatters": "Claims and results can remain traceable when manuscript work begins."
       },
       "projectGoal": "Persist rights-aware ingestion provenance and audit evidence.",
-      "queueDepth": 0,
+      "queueDepth": 4,
       "readyForHuman": false,
       "recentAccomplishments": [],
       "recentWin": "The evidence/provenance foundation is preserved for a real study.",
       "scientificOutput": "No scientific milestone recorded",
       "sinceHourlyCheckpoint": [],
-      "stage": "Done",
+      "stage": "Queued",
       "stageProgress": {
         "completed": 1,
         "total": 3
       },
-      "status": "Ready",
+      "status": "Queued",
       "summary": "Rights-aware document ingestion and fingerprinting.",
-      "taskChecklist": {
-        "completed": 1,
-        "total": 1
-      },
+      "taskChecklist": null,
       "taskDescription": "A bounded local task is queued.",
-      "taskStartedAt": "2026-10-14T13:29:11.906417Z",
+      "taskStartedAt": "2026-10-15T12:35:33.007726Z",
       "transfer": null,
-      "updatedAt": "2026-10-14T13:29:11.906417Z",
+      "updatedAt": "2026-10-15T12:35:33.007726Z",
       "v1Convergence": {
         "endState": "Trace/END_STATE.md",
         "nextGate": "Ingestion-boundary validation",
@@ -435,10 +432,7 @@
         "officialCurrentMilestone": "TRACE-V1-M1",
         "projectState": "Trace/PROJECT_STATE.md",
         "roadmap": "Trace/ROADMAP_V1.md",
-        "taskProgress": {
-          "completed": 1,
-          "total": 1
-        },
+        "taskProgress": null,
         "whyThisMatters": "Advances the frozen V1 milestone."
       },
       "v1Goal": "Persist rights-aware ingestion provenance and audit evidence.",
@@ -586,11 +580,10 @@
       "CTBone",
       "EchoNext",
       "Ditto",
-      "Trace",
       "TEER",
       "Papers"
     ],
-    "autonomyStarvationCount": 7,
+    "autonomyStarvationCount": 6,
     "blockedProjects": true,
     "controlHeartbeatsHealthy": true,
     "orphanedCount": 0,
