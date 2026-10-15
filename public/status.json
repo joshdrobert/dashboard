@@ -6,7 +6,7 @@
     "strategicEscalation": "Strategic AI review",
     "technicalEscalation": "Codex"
   },
-  "generatedAt": "2026-10-15T13:57:19.308841Z",
+  "generatedAt": "2026-10-15T14:02:21.317752Z",
   "goodScience": {
     "duplicateStudiesKilled": 2,
     "scientificGatesBypassed": 0,
@@ -14,7 +14,7 @@
     "unsupportedCausalClaimsPromoted": 0
   },
   "hourlyCheckpoint": {
-    "at": "2026-10-15T13:00:33.500179Z",
+    "at": "2026-10-15T14:02:26.681774Z",
     "changes": 0
   },
   "papers": {
@@ -395,10 +395,10 @@
       "milestoneIndex": 1,
       "milestoneTotal": 3,
       "name": "Trace",
-      "next": "541-deterministic-object-store-regression",
+      "next": null,
       "nextMilestone": "Ingestion-boundary validation",
       "nextV1Gate": "Exercise protocol, evidence, results, and export flow.",
-      "operationalState": "Queued",
+      "operationalState": "Active",
       "plainLanguage": {
         "goal": "Carry a real study from protocol to an auditable submission package.",
         "next": "Exercise protocol, evidence, results, and export flow.",
@@ -413,21 +413,21 @@
       "recentWin": "The evidence/provenance foundation is preserved for a real study.",
       "scientificOutput": "No scientific milestone recorded",
       "sinceHourlyCheckpoint": [],
-      "stage": "Queued",
+      "stage": "Active",
       "stageProgress": {
         "completed": 1,
         "total": 3
       },
-      "status": "Queued",
+      "status": "Active",
       "summary": "Rights-aware document ingestion and fingerprinting.",
       "taskChecklist": {
         "completed": 0,
         "total": 1
       },
       "taskDescription": "A bounded local task is queued.",
-      "taskStartedAt": "2026-10-15T13:55:54.590631Z",
+      "taskStartedAt": "2026-10-15T13:57:59.597206Z",
       "transfer": null,
-      "updatedAt": "2026-10-15T13:55:54.590631Z",
+      "updatedAt": "2026-10-15T13:57:59.597206Z",
       "v1Convergence": {
         "endState": "Trace/END_STATE.md",
         "nextGate": "Ingestion-boundary validation",

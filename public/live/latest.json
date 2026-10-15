@@ -1,5 +1,5 @@
 {
-  "at": 1792072644.883801,
+  "at": 1792072946.892971,
   "projects": {
     "AortaPlan": {
       "progress": "2026-10-15T04:34:06.618910Z",
@@ -38,7 +38,7 @@
     },
     "Trace": {
       "progress": "2026-10-15T13:21:19.717258Z",
-      "status": "Queued",
+      "status": "Active",
       "task": "541-deterministic-object-store-regression"
     }
   }

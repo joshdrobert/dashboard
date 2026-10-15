@@ -1,6 +1,6 @@
 {
-  "at": 1792069233.500179,
-  "hour": "20261015T13",
+  "at": 1792072946.6817741,
+  "hour": "20261015T14",
   "projects": {
     "AortaPlan": {
       "progress": "2026-10-15T04:34:06.618910Z",
@@ -38,9 +38,9 @@
       "task": "local-repair-455-1"
     },
     "Trace": {
-      "progress": "2026-10-15T12:58:41.399254Z",
-      "status": "Queued",
-      "task": "534-object-store-determinism-test"
+      "progress": "2026-10-15T13:21:19.717258Z",
+      "status": "Active",
+      "task": "541-deterministic-object-store-regression"
     }
   }
 }
