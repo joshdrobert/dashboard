@@ -1,5 +1,5 @@
 {
-  "at": 1792068931.812483,
+  "at": 1792069233.597847,
   "projects": {
     "AortaPlan": {
       "progress": "2026-10-15T04:34:06.618910Z",
@@ -37,9 +37,9 @@
       "task": "local-repair-455-1"
     },
     "Trace": {
-      "progress": "2026-10-14T22:20:57.802898Z",
+      "progress": "2026-10-15T12:58:41.399254Z",
       "status": "Queued",
-      "task": "trace-browser-e2e"
+      "task": "534-object-store-determinism-test"
     }
   }
 }

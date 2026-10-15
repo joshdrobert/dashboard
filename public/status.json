@@ -6,7 +6,7 @@
     "strategicEscalation": "Strategic AI review",
     "technicalEscalation": "Codex"
   },
-  "generatedAt": "2026-10-15T12:55:21.057625Z",
+  "generatedAt": "2026-10-15T13:00:28.006066Z",
   "goodScience": {
     "duplicateStudiesKilled": 2,
     "scientificGatesBypassed": 0,
@@ -14,7 +14,7 @@
     "unsupportedCausalClaimsPromoted": 0
   },
   "hourlyCheckpoint": {
-    "at": "2026-10-15T12:01:35.178749Z",
+    "at": "2026-10-15T13:00:33.500179Z",
     "changes": 0
   },
   "papers": {
@@ -383,19 +383,19 @@
       "alert": null,
       "blocker": null,
       "criteriaCompleted": 0,
-      "criteriaTotal": 0,
+      "criteriaTotal": 1,
       "currentMilestone": "Audit persistence",
       "currentMilestoneId": "TRACE-V1-M1",
       "currentMilestoneName": "Audit persistence",
-      "currentTask": "trace-browser-e2e",
+      "currentTask": "534-object-store-determinism-test",
       "currentWork": "A bounded local task is queued.",
       "engineeringOutput": "Bounded task accepted",
       "id": "06",
-      "lastMeaningfulProgress": "2026-10-14T22:20:57.802898Z",
+      "lastMeaningfulProgress": "2026-10-15T12:58:41.399254Z",
       "milestoneIndex": 1,
       "milestoneTotal": 3,
       "name": "Trace",
-      "next": "trace-browser-e2e",
+      "next": "534-object-store-determinism-test",
       "nextMilestone": "Ingestion-boundary validation",
       "nextV1Gate": "Exercise protocol, evidence, results, and export flow.",
       "operationalState": "Queued",
@@ -407,7 +407,7 @@
         "whyItMatters": "Claims and results can remain traceable when manuscript work begins."
       },
       "projectGoal": "Persist rights-aware ingestion provenance and audit evidence.",
-      "queueDepth": 4,
+      "queueDepth": 6,
       "readyForHuman": false,
       "recentAccomplishments": [],
       "recentWin": "The evidence/provenance foundation is preserved for a real study.",
@@ -420,11 +420,14 @@
       },
       "status": "Queued",
       "summary": "Rights-aware document ingestion and fingerprinting.",
-      "taskChecklist": null,
+      "taskChecklist": {
+        "completed": 0,
+        "total": 1
+      },
       "taskDescription": "A bounded local task is queued.",
-      "taskStartedAt": "2026-10-15T12:35:33.007726Z",
+      "taskStartedAt": "2026-10-15T12:58:43.102436Z",
       "transfer": null,
-      "updatedAt": "2026-10-15T12:35:33.007726Z",
+      "updatedAt": "2026-10-15T12:58:43.102436Z",
       "v1Convergence": {
         "endState": "Trace/END_STATE.md",
         "nextGate": "Ingestion-boundary validation",
@@ -432,7 +435,10 @@
         "officialCurrentMilestone": "TRACE-V1-M1",
         "projectState": "Trace/PROJECT_STATE.md",
         "roadmap": "Trace/ROADMAP_V1.md",
-        "taskProgress": null,
+        "taskProgress": {
+          "completed": 0,
+          "total": 1
+        },
         "whyThisMatters": "Advances the frozen V1 milestone."
       },
       "v1Goal": "Persist rights-aware ingestion provenance and audit evidence.",
@@ -617,12 +623,12 @@
     "autonomy": "DEGRADED",
     "controllerMode": "continuous local",
     "cpuJobs": 0,
-    "deterministicComputeActive": 1,
+    "deterministicComputeActive": 0,
     "externalJobsActive": 0,
     "gpuJobs": 0,
     "integrity": "Evidence-gated",
     "legacyScheduledPrompts": 0,
-    "localInferenceActive": 0,
+    "localInferenceActive": 1,
     "localTaskWorkersActive": 1,
     "portfolioProjects": 8,
     "status": "Operational",
