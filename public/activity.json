@@ -1,5 +1,17 @@
 [
   {
+    "level": "Verified",
+    "message": "Accepted task completed: trace manuscript persistence \u00b7 coder.",
+    "project": "Trace",
+    "timestamp": "2026-10-15T17:24:12.936016Z"
+  },
+  {
+    "level": "Verified",
+    "message": "Verification passed for trace manuscript persistence \u00b7 coder.",
+    "project": "Trace",
+    "timestamp": "2026-10-15T17:24:08.725555Z"
+  },
+  {
     "level": "Recorded",
     "message": "Controller recovery restored an interrupted task boundary.",
     "project": "Trace",
@@ -466,17 +478,5 @@
     "message": "Queued regenerate plan 531 \u00b7 planner.",
     "project": "AortaPlan",
     "timestamp": "2026-10-15T04:23:48.643035Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Verification passed for plan after 526 \u00b7 planner.",
-    "project": "AortaPlan",
-    "timestamp": "2026-10-15T04:23:47.777573Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued plan after 526 \u00b7 planner.",
-    "project": "AortaPlan",
-    "timestamp": "2026-10-15T04:22:31.940622Z"
   }
 ]

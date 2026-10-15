@@ -130,7 +130,7 @@
   "decisionSummary": {
     "approvedDecisions": 0,
     "lastPhase1": "2026-10-15T17:22:23.501982Z",
-    "lastPhase2": null,
+    "lastPhase2": "2026-10-15T17:24:01.819696Z",
     "model": "Codex",
     "modifiedOrReversed": 0,
     "nextReview": null,
@@ -138,13 +138,13 @@
     "pendingDecisions": 0,
     "projectsReviewed": 0,
     "reasoningEffort": "medium",
-    "state": "PHASE1_RUNNING",
+    "state": "FAILED",
     "summary": "The latest two-phase portfolio review is reflected in the controller ledger."
   },
   "director": {
     "approvedDecisions": 0,
     "lastPhase1": "2026-10-15T17:22:23.501982Z",
-    "lastPhase2": null,
+    "lastPhase2": "2026-10-15T17:24:01.819696Z",
     "model": "Codex",
     "modifiedOrReversed": 0,
     "nextReview": null,
@@ -152,11 +152,31 @@
     "pendingDecisions": 0,
     "projectsReviewed": 0,
     "reasoningEffort": "medium",
-    "state": "PHASE1_RUNNING",
+    "state": "FAILED",
     "summary": "The latest two-phase portfolio review is reflected in the controller ledger."
   },
-  "generatedAt": "2026-10-15T17:23:46.894172Z",
+  "generatedAt": "2026-10-15T17:25:49.041230Z",
   "meaningfulEvents": [
+    {
+      "id": "127159",
+      "message": "Accepted task completed: trace manuscript persistence \u00b7 coder.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-15T17:24:12.936016Z",
+      "type": "task_exit_accepted",
+      "verification": "Verified",
+      "whyItMatters": "The controller recorded the completion."
+    },
+    {
+      "id": "127149",
+      "message": "Verification passed for trace manuscript persistence \u00b7 coder.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-15T17:24:08.725555Z",
+      "type": "accepted",
+      "verification": "Verified",
+      "whyItMatters": "Dependent work may advance."
+    },
     {
       "id": "127119",
       "message": "Controller recovery restored an interrupted task boundary.",
@@ -936,26 +956,6 @@
       "type": "task_queued",
       "verification": "Recorded",
       "whyItMatters": "The next unit of work is durable."
-    },
-    {
-      "id": "118055",
-      "message": "Verification passed for plan after 526 \u00b7 planner.",
-      "next": "Continue through the next controller gate.",
-      "project": "AortaPlan",
-      "timestamp": "2026-10-15T04:23:47.777573Z",
-      "type": "accepted",
-      "verification": "Verified",
-      "whyItMatters": "Dependent work may advance."
-    },
-    {
-      "id": "118000",
-      "message": "Queued plan after 526 \u00b7 planner.",
-      "next": "Continue through the next controller gate.",
-      "project": "AortaPlan",
-      "timestamp": "2026-10-15T04:22:31.940622Z",
-      "type": "task_queued",
-      "verification": "Recorded",
-      "whyItMatters": "The next unit of work is durable."
     }
   ],
   "portfolioSummary": {
@@ -966,7 +966,7 @@
     "projectsNeedingTechnicalAttention": 4,
     "registeredProjects": 9,
     "state": "Needs attention",
-    "verifiedCompletions24h": 38
+    "verifiedCompletions24h": 40
   },
   "projects": [
     {
@@ -1114,22 +1114,22 @@
       "status": "Failed / retrying"
     },
     {
-      "agentsNow": "No agent currently executing",
+      "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "trace browser e2e \u00b7 coder",
+      "currentObjective": "trace reader editor export \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "trace",
       "lastAccomplishment": "Verified 551 object storage adapter failure repair \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-15T17:20:11.107572Z",
+      "lastMeaningfulActivity": "2026-10-15T17:24:10.339853Z",
       "name": "Trace",
       "nextTask": "trace browser e2e \u00b7 coder",
       "operationalState": "RUNNABLE",
-      "queueDepth": 3,
+      "queueDepth": 2,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Queued"
+      "status": "Running"
     }
   ],
   "publicationHealth": {
@@ -1137,7 +1137,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-15T17:23:47.159848Z",
+  "publishedAt": "2026-10-15T17:25:49.347378Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1158,6 +1158,13 @@
     }
   ],
   "recentlyCompleted": [
+    {
+      "id": "535",
+      "project": "Trace",
+      "state": "COMPLETED",
+      "title": "trace manuscript persistence \u00b7 coder",
+      "updatedAt": "2026-10-15T17:24:08.725393Z"
+    },
     {
       "id": "553",
       "project": "Trace",
@@ -1234,13 +1241,6 @@
       "state": "COMPLETED",
       "title": "a1 physical space regression bounds \u00b7 coder",
       "updatedAt": "2026-10-14T22:30:45.702271Z"
-    },
-    {
-      "id": "525",
-      "project": "AortaPlan",
-      "state": "COMPLETED",
-      "title": "a1 physical space receivers validate \u00b7 coder",
-      "updatedAt": "2026-10-14T22:30:09.771093Z"
     }
   ],
   "recoveryWork": [],
@@ -1251,11 +1251,11 @@
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0
   },
-  "semanticHash": "579377223abb093531413688b6b9828b11a5969b60747097e3c1158e681076b1",
+  "semanticHash": "f2ec421ce5cb4f0cc771b10003efdbd4a9462dadd0ab0d4a00413c8c74028cb2",
   "snapshotVersion": "2.1",
-  "sourceEventAt": "2026-10-15T17:22:02.727289Z",
+  "sourceEventAt": "2026-10-15T17:24:12.936016Z",
   "system": {
-    "activeJobs": 0,
+    "activeJobs": 1,
     "autonomy": "DEGRADED",
     "status": "Needs attention"
   },
