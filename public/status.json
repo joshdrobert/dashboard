@@ -6,7 +6,7 @@
     "strategicEscalation": "Strategic AI review",
     "technicalEscalation": "Codex"
   },
-  "generatedAt": "2026-10-15T13:08:16.881469Z",
+  "generatedAt": "2026-10-15T13:13:06.548507Z",
   "goodScience": {
     "duplicateStudiesKilled": 2,
     "scientificGatesBypassed": 0,
@@ -413,7 +413,7 @@
       "recentWin": "The evidence/provenance foundation is preserved for a real study.",
       "scientificOutput": "No scientific milestone recorded",
       "sinceHourlyCheckpoint": [],
-      "stage": "Verifying",
+      "stage": "Active",
       "stageProgress": {
         "completed": 1,
         "total": 3
@@ -425,9 +425,9 @@
         "total": 1
       },
       "taskDescription": "A bounded local task is queued.",
-      "taskStartedAt": "2026-10-15T13:08:16.880417Z",
+      "taskStartedAt": "2026-10-15T13:08:17.363977Z",
       "transfer": null,
-      "updatedAt": "2026-10-15T13:08:16.880417Z",
+      "updatedAt": "2026-10-15T13:08:17.363977Z",
       "v1Convergence": {
         "endState": "Trace/END_STATE.md",
         "nextGate": "Ingestion-boundary validation",
@@ -664,7 +664,7 @@
   },
   "visionSession": {
     "actionRequired": null,
-    "duoRequired": true,
-    "state": "VISION_AUTH_REQUIRED"
+    "duoRequired": false,
+    "state": "VISION_AUTH_EXHAUSTED"
   }
 }
