@@ -155,8 +155,18 @@
     "state": "FAILED",
     "summary": "The latest two-phase portfolio review is reflected in the controller ledger."
   },
-  "generatedAt": "2026-10-15T17:14:52.424317Z",
+  "generatedAt": "2026-10-15T17:15:42.514982Z",
   "meaningfulEvents": [
+    {
+      "id": "126858",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-15T17:15:41.605053Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
     {
       "id": "125746",
       "message": "Accepted task completed: 551 object storage adapter failure repair \u00b7 coder.",
@@ -946,16 +956,6 @@
       "type": "accepted",
       "verification": "Verified",
       "whyItMatters": "Dependent work may advance."
-    },
-    {
-      "id": "116128",
-      "message": "Queued regenerate plan 529 \u00b7 planner.",
-      "next": "Continue through the next controller gate.",
-      "project": "AortaPlan",
-      "timestamp": "2026-10-14T22:57:21.088859Z",
-      "type": "task_queued",
-      "verification": "Recorded",
-      "whyItMatters": "The next unit of work is durable."
     }
   ],
   "portfolioSummary": {
@@ -1114,9 +1114,9 @@
       "status": "Failed / retrying"
     },
     {
-      "agentsNow": "Running",
+      "agentsNow": "No agent currently executing",
       "blocker": null,
-      "currentObjective": "trace manuscript persistence \u00b7 coder",
+      "currentObjective": "trace browser e2e \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "trace",
@@ -1129,7 +1129,7 @@
       "queueDepth": 3,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Running"
+      "status": "Queued"
     }
   ],
   "publicationHealth": {
@@ -1137,7 +1137,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-15T17:14:52.641190Z",
+  "publishedAt": "2026-10-15T17:15:42.719218Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1251,11 +1251,11 @@
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0
   },
-  "semanticHash": "f144f4804a4c1e622dfb4d07ecaf28a2c7e893f331d213f524d64ddebc76c5ad",
+  "semanticHash": "a119a9a74bf50a2c8c12a72715991e6d10afd67d690418abe789aabb8c04735b",
   "snapshotVersion": "2.1",
-  "sourceEventAt": "2026-10-15T14:43:58.923632Z",
+  "sourceEventAt": "2026-10-15T17:15:41.605053Z",
   "system": {
-    "activeJobs": 1,
+    "activeJobs": 0,
     "autonomy": "DEGRADED",
     "status": "Needs attention"
   },
