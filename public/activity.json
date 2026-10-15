@@ -1,5 +1,17 @@
 [
   {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "Trace",
+    "timestamp": "2026-10-15T14:30:03.276811Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "Trace",
+    "timestamp": "2026-10-15T14:30:03.276788Z"
+  },
+  {
     "level": "Verified",
     "message": "Accepted task completed: local repair 549 1 \u00b7 planner.",
     "project": "Trace",
@@ -466,17 +478,5 @@
     "message": "Controller recovery restored an interrupted task boundary.",
     "project": "AortaPlan",
     "timestamp": "2026-10-14T22:54:01.927445Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "AortaPlan",
-    "timestamp": "2026-10-14T22:54:01.927394Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued local repair 524 2 \u00b7 planner.",
-    "project": "AortaPlan",
-    "timestamp": "2026-10-14T22:53:48.994022Z"
   }
 ]
