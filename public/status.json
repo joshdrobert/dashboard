@@ -155,14 +155,14 @@
     "state": "PHASE1_RUNNING",
     "summary": "The latest two-phase portfolio review is reflected in the controller ledger."
   },
-  "generatedAt": "2026-10-15T19:52:19.189857Z",
+  "generatedAt": "2026-10-15T19:52:24.124369Z",
   "meaningfulEvents": [
     {
-      "id": "128385",
+      "id": "128422",
       "message": "Controller recovery restored an interrupted task boundary.",
       "next": "Continue through the next controller gate.",
       "project": "Papers",
-      "timestamp": "2026-10-15T19:48:15.589309Z",
+      "timestamp": "2026-10-15T19:52:23.140051Z",
       "type": "recovery",
       "verification": "Recorded",
       "whyItMatters": "Safe autonomous execution can resume."
@@ -1078,7 +1078,7 @@
       "status": "Ready"
     },
     {
-      "agentsNow": "Running",
+      "agentsNow": "No agent currently executing",
       "blocker": null,
       "currentObjective": "papers batch screen 017 032 20261013 \u00b7 research",
       "deliverable": "A verified bounded project artifact.",
@@ -1088,12 +1088,12 @@
       "lastCodexReview": null,
       "lastMeaningfulActivity": "2026-10-15T19:48:18.689931Z",
       "name": "Papers",
-      "nextTask": null,
+      "nextTask": "papers batch screen 017 032 20261013 \u00b7 research",
       "operationalState": "RUNNABLE",
       "queueDepth": 1,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Running"
+      "status": "Queued"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1137,7 +1137,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-15T19:52:19.423946Z",
+  "publishedAt": "2026-10-15T19:52:24.406632Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1155,6 +1155,19 @@
       "title": "trace browser e2e \u00b7 coder",
       "updatedAt": "2026-10-15T17:18:55.377404Z",
       "workerType": "coder"
+    },
+    {
+      "backend": "Local",
+      "heartbeatFresh": true,
+      "id": "460",
+      "parent": "457",
+      "project": "Papers",
+      "resource": "Local agent",
+      "startedAt": "2026-10-13T11:55:04.294022Z",
+      "state": "QUEUED",
+      "title": "papers batch screen 017 032 20261013 \u00b7 research",
+      "updatedAt": "2026-10-15T19:52:23.133607Z",
+      "workerType": "research"
     }
   ],
   "recentlyCompleted": [
@@ -1251,11 +1264,11 @@
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0
   },
-  "semanticHash": "e4c318e7b07777170f028683bfc780fa50972a6b32992f7ec1f7fff6a500c6a2",
+  "semanticHash": "f276ac8cfd15d5798f3329253ac5f7bf4bb3277ecaacb01dae9799f55cdda878",
   "snapshotVersion": "2.1",
-  "sourceEventAt": "2026-10-15T19:48:15.589309Z",
+  "sourceEventAt": "2026-10-15T19:52:23.140051Z",
   "system": {
-    "activeJobs": 1,
+    "activeJobs": 0,
     "autonomy": "DEGRADED",
     "status": "Needs attention"
   },
