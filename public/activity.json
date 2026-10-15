@@ -1,6 +1,42 @@
 [
   {
     "level": "Verified",
+    "message": "Accepted task completed: task 545 vision gateway probe \u00b7 coder.",
+    "project": "AI-Server",
+    "timestamp": "2026-10-15T14:10:10.012941Z"
+  },
+  {
+    "level": "Verified",
+    "message": "Verification passed for task 545 vision gateway probe \u00b7 coder.",
+    "project": "AI-Server",
+    "timestamp": "2026-10-15T14:10:03.675090Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "Trace",
+    "timestamp": "2026-10-15T14:08:55.137601Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "Trace",
+    "timestamp": "2026-10-15T14:08:55.137577Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "AI-Server",
+    "timestamp": "2026-10-15T14:08:39.969171Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "AI-Server",
+    "timestamp": "2026-10-15T14:08:39.969140Z"
+  },
+  {
+    "level": "Verified",
     "message": "Accepted task completed: local repair 544 1 \u00b7 planner.",
     "project": "Trace",
     "timestamp": "2026-10-15T14:07:14.591462Z"
@@ -442,41 +478,5 @@
     "message": "Accepted task completed: a1 physical space regression bounds \u00b7 coder.",
     "project": "AortaPlan",
     "timestamp": "2026-10-14T22:30:51.381183Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Verification passed for a1 physical space regression bounds \u00b7 coder.",
-    "project": "AortaPlan",
-    "timestamp": "2026-10-14T22:30:45.702384Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Accepted task completed: a1 physical space receivers validate \u00b7 coder.",
-    "project": "AortaPlan",
-    "timestamp": "2026-10-14T22:30:14.196557Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Verification passed for a1 physical space receivers validate \u00b7 coder.",
-    "project": "AortaPlan",
-    "timestamp": "2026-10-14T22:30:09.771208Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "AortaPlan",
-    "timestamp": "2026-10-14T22:30:04.791225Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "AortaPlan",
-    "timestamp": "2026-10-14T22:30:04.791153Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "CTBone",
-    "timestamp": "2026-10-14T22:25:40.210949Z"
   }
 ]

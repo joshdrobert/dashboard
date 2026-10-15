@@ -3,16 +3,29 @@
   "activeWork": [
     {
       "backend": "Local",
-      "heartbeatAt": "2026-10-15T14:07:47.794151Z",
-      "id": "547",
-      "parent": "546",
+      "heartbeatAt": "2026-10-15T14:03:17.608084Z",
+      "id": "545",
+      "parent": null,
       "project": "AI-Server",
       "resource": "Local agent",
-      "startedAt": "2026-10-15T14:03:52.205503Z",
-      "state": "Running",
-      "title": "task 545 vision gateway probe \u00b7 coder",
-      "updatedAt": "2026-10-15T14:07:37.802167Z",
+      "startedAt": "2026-10-15T13:25:10.419467Z",
+      "state": "Failed / retrying",
+      "title": "vision shared gateway smoke 20261015 \u00b7 coder",
+      "updatedAt": "2026-10-15T14:03:22.573182Z",
       "workerType": "coder"
+    },
+    {
+      "backend": "Local",
+      "heartbeatAt": "2026-10-15T04:38:55.245663Z",
+      "id": "533",
+      "parent": "526",
+      "project": "AortaPlan",
+      "resource": "Local agent",
+      "startedAt": "2026-10-15T04:34:08.964494Z",
+      "state": "Ready",
+      "title": "regenerate plan 532 \u00b7 planner",
+      "updatedAt": "2026-10-15T04:38:59.940909Z",
+      "workerType": "planner"
     },
     {
       "backend": "Local",
@@ -29,7 +42,72 @@
     },
     {
       "backend": "Local",
-      "heartbeatAt": "2026-10-15T14:07:45.003899Z",
+      "heartbeatAt": "2026-10-14T22:25:39.494425Z",
+      "id": "523",
+      "parent": "466",
+      "project": "CTBone",
+      "resource": "Local agent",
+      "startedAt": "2026-10-14T22:19:07.590049Z",
+      "state": "Ready",
+      "title": "regenerate plan 515 \u00b7 planner",
+      "updatedAt": "2026-10-14T22:25:40.210909Z",
+      "workerType": "planner"
+    },
+    {
+      "backend": "Local",
+      "heartbeatAt": "2026-10-13T14:58:17.585110Z",
+      "id": "501",
+      "parent": null,
+      "project": "Ditto",
+      "resource": "Local agent",
+      "startedAt": "2026-10-13T14:41:01.520344Z",
+      "state": "Failed / retrying",
+      "title": "local repair 488 2 \u00b7 planner",
+      "updatedAt": "2026-10-13T14:58:27.715688Z",
+      "workerType": "planner"
+    },
+    {
+      "backend": "Local",
+      "heartbeatAt": "2026-10-14T22:19:02.868932Z",
+      "id": "516",
+      "parent": "514",
+      "project": "EchoNext",
+      "resource": "Local agent",
+      "startedAt": "2026-10-14T22:06:50.746265Z",
+      "state": "Ready",
+      "title": "plan after 514 \u00b7 planner",
+      "updatedAt": "2026-10-14T22:19:10.922097Z",
+      "workerType": "planner"
+    },
+    {
+      "backend": "Local",
+      "heartbeatAt": "2026-10-13T15:16:05.348513Z",
+      "id": "500",
+      "parent": null,
+      "project": "Papers",
+      "resource": "Local agent",
+      "startedAt": "2026-10-13T14:36:57.097333Z",
+      "state": "Failed / retrying",
+      "title": "local repair 460 2 \u00b7 planner",
+      "updatedAt": "2026-10-13T15:16:11.461892Z",
+      "workerType": "planner"
+    },
+    {
+      "backend": "Local",
+      "heartbeatAt": "2026-10-13T14:31:50.917501Z",
+      "id": "490",
+      "parent": null,
+      "project": "TEER",
+      "resource": "Local agent",
+      "startedAt": "2026-10-13T14:18:26.667514Z",
+      "state": "Failed / retrying",
+      "title": "local repair 455 2 \u00b7 planner",
+      "updatedAt": "2026-10-13T14:31:57.769333Z",
+      "workerType": "planner"
+    },
+    {
+      "backend": "Local",
+      "heartbeatAt": "2026-10-15T14:12:48.423473Z",
       "id": "549",
       "parent": "548",
       "project": "Trace",
@@ -37,14 +115,14 @@
       "startedAt": "2026-10-15T14:07:11.678784Z",
       "state": "Running",
       "title": "544 object store hash rights regression \u00b7 coder",
-      "updatedAt": "2026-10-15T14:07:15.008369Z",
+      "updatedAt": "2026-10-15T14:12:23.424250Z",
       "workerType": "coder"
     }
   ],
   "attentionRequired": [
     {
       "category": "Agents debugging",
-      "message": "145 task(s) are in repair or retry states.",
+      "message": "4 task(s) are in repair or retry states.",
       "project": "Portfolio"
     }
   ],
@@ -76,8 +154,68 @@
     "state": "COMPLETE",
     "summary": "The latest two-phase portfolio review is reflected in the controller ledger."
   },
-  "generatedAt": "2026-10-15T14:07:46.484242Z",
+  "generatedAt": "2026-10-15T14:12:45.419856Z",
   "meaningfulEvents": [
+    {
+      "id": "124291",
+      "message": "Accepted task completed: task 545 vision gateway probe \u00b7 coder.",
+      "next": "Continue through the next controller gate.",
+      "project": "AI-Server",
+      "timestamp": "2026-10-15T14:10:10.012941Z",
+      "type": "task_exit_accepted",
+      "verification": "Verified",
+      "whyItMatters": "The controller recorded the completion."
+    },
+    {
+      "id": "124277",
+      "message": "Verification passed for task 545 vision gateway probe \u00b7 coder.",
+      "next": "Continue through the next controller gate.",
+      "project": "AI-Server",
+      "timestamp": "2026-10-15T14:10:03.675090Z",
+      "type": "accepted",
+      "verification": "Verified",
+      "whyItMatters": "Dependent work may advance."
+    },
+    {
+      "id": "124180",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-15T14:08:55.137601Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "124179",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-15T14:08:55.137577Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
+    {
+      "id": "124167",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "AI-Server",
+      "timestamp": "2026-10-15T14:08:39.969171Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "124166",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "AI-Server",
+      "timestamp": "2026-10-15T14:08:39.969140Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
     {
       "id": "124069",
       "message": "Accepted task completed: local repair 544 1 \u00b7 planner.",
@@ -817,101 +955,41 @@
       "type": "task_exit_accepted",
       "verification": "Verified",
       "whyItMatters": "The controller recorded the completion."
-    },
-    {
-      "id": "115241",
-      "message": "Verification passed for a1 physical space regression bounds \u00b7 coder.",
-      "next": "Continue through the next controller gate.",
-      "project": "AortaPlan",
-      "timestamp": "2026-10-14T22:30:45.702384Z",
-      "type": "accepted",
-      "verification": "Verified",
-      "whyItMatters": "Dependent work may advance."
-    },
-    {
-      "id": "115210",
-      "message": "Accepted task completed: a1 physical space receivers validate \u00b7 coder.",
-      "next": "Continue through the next controller gate.",
-      "project": "AortaPlan",
-      "timestamp": "2026-10-14T22:30:14.196557Z",
-      "type": "task_exit_accepted",
-      "verification": "Verified",
-      "whyItMatters": "The controller recorded the completion."
-    },
-    {
-      "id": "115198",
-      "message": "Verification passed for a1 physical space receivers validate \u00b7 coder.",
-      "next": "Continue through the next controller gate.",
-      "project": "AortaPlan",
-      "timestamp": "2026-10-14T22:30:09.771208Z",
-      "type": "accepted",
-      "verification": "Verified",
-      "whyItMatters": "Dependent work may advance."
-    },
-    {
-      "id": "115187",
-      "message": "Controller recovery restored an interrupted task boundary.",
-      "next": "Continue through the next controller gate.",
-      "project": "AortaPlan",
-      "timestamp": "2026-10-14T22:30:04.791225Z",
-      "type": "recovery",
-      "verification": "Recorded",
-      "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "115186",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "AortaPlan",
-      "timestamp": "2026-10-14T22:30:04.791153Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
-    },
-    {
-      "id": "115086",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "CTBone",
-      "timestamp": "2026-10-14T22:25:40.210949Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
     }
   ],
   "portfolioSummary": {
     "actionsRequiringUser": 0,
-    "activeLocalAgents": 2,
+    "activeLocalAgents": 1,
     "activeVisionJobs": 0,
-    "executingProjects": 2,
-    "projectsNeedingTechnicalAttention": 145,
+    "executingProjects": 1,
+    "projectsNeedingTechnicalAttention": 4,
     "registeredProjects": 9,
     "state": "Needs attention",
-    "verifiedCompletions24h": 30
+    "verifiedCompletions24h": 32
   },
   "projects": [
     {
-      "agentsNow": "Running",
+      "agentsNow": "No agent currently executing",
       "blocker": null,
-      "currentObjective": "task 545 vision gateway probe \u00b7 coder",
+      "currentObjective": "vision shared gateway smoke 20261015 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Operate and improve the autonomous research platform.",
       "id": "ai-server",
-      "lastAccomplishment": "Verified local repair 545 1 \u00b7 planner.",
+      "lastAccomplishment": "Verified task 545 vision gateway probe \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-15T14:07:37.802167Z",
+      "lastMeaningfulActivity": "2026-10-15T14:10:03.674940Z",
       "name": "AI-Server",
       "nextTask": null,
       "operationalState": "RUNNABLE",
-      "queueDepth": 1,
+      "queueDepth": 0,
       "readyForHuman": false,
       "researchStage": "Research infrastructure",
-      "status": "Running"
+      "status": "Failed / retrying"
     },
     {
       "agentsNow": "No agent currently executing",
       "blocker": null,
-      "currentObjective": "No admitted bounded task",
+      "currentObjective": "regenerate plan 532 \u00b7 planner",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "aortaplan",
@@ -947,7 +1025,7 @@
     {
       "agentsNow": "No agent currently executing",
       "blocker": null,
-      "currentObjective": "No admitted bounded task",
+      "currentObjective": "regenerate plan 515 \u00b7 planner",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "ctbone",
@@ -965,7 +1043,7 @@
     {
       "agentsNow": "No agent currently executing",
       "blocker": "Public-safe blocker recorded",
-      "currentObjective": "No admitted bounded task",
+      "currentObjective": "local repair 488 2 \u00b7 planner",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "ditto",
@@ -978,12 +1056,12 @@
       "queueDepth": 0,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Ready"
+      "status": "Failed / retrying"
     },
     {
       "agentsNow": "No agent currently executing",
       "blocker": null,
-      "currentObjective": "No admitted bounded task",
+      "currentObjective": "plan after 514 \u00b7 planner",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "echonext",
@@ -1001,7 +1079,7 @@
     {
       "agentsNow": "No agent currently executing",
       "blocker": null,
-      "currentObjective": "No admitted bounded task",
+      "currentObjective": "local repair 460 2 \u00b7 planner",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "papers",
@@ -1014,12 +1092,12 @@
       "queueDepth": 0,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Ready"
+      "status": "Failed / retrying"
     },
     {
       "agentsNow": "No agent currently executing",
       "blocker": null,
-      "currentObjective": "No admitted bounded task",
+      "currentObjective": "local repair 455 2 \u00b7 planner",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "teer",
@@ -1032,7 +1110,7 @@
       "queueDepth": 0,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Ready"
+      "status": "Failed / retrying"
     },
     {
       "agentsNow": "Running",
@@ -1043,7 +1121,7 @@
       "id": "trace",
       "lastAccomplishment": "Verified local repair 544 1 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-15T14:07:15.008369Z",
+      "lastMeaningfulActivity": "2026-10-15T14:12:23.424250Z",
       "name": "Trace",
       "nextTask": "trace browser e2e \u00b7 coder",
       "operationalState": "RUNNABLE",
@@ -1071,9 +1149,9 @@
     "resultsValidated": 0
   },
   "snapshotVersion": "2.0",
-  "sourceEventAt": "2026-10-15T14:07:46.484242Z",
+  "sourceEventAt": "2026-10-15T14:12:45.419856Z",
   "system": {
-    "activeJobs": 2,
+    "activeJobs": 1,
     "autonomy": "DEGRADED",
     "status": "Needs attention"
   },
