@@ -107,15 +107,15 @@
     },
     {
       "backend": "Local",
-      "heartbeatAt": "2026-10-15T14:33:26.508632Z",
+      "heartbeatAt": "2026-10-15T14:34:57.366278Z",
       "id": "551",
       "parent": "550",
       "project": "Trace",
       "resource": "Local agent",
       "startedAt": "2026-10-15T14:21:56.192925Z",
-      "state": "Running",
+      "state": "Queued",
       "title": "549 object storage adapter failure repair \u00b7 coder",
-      "updatedAt": "2026-10-15T14:32:06.480370Z",
+      "updatedAt": "2026-10-15T14:35:00.147464Z",
       "workerType": "coder"
     }
   ],
@@ -154,24 +154,24 @@
     "state": "COMPLETE",
     "summary": "The latest two-phase portfolio review is reflected in the controller ledger."
   },
-  "generatedAt": "2026-10-15T14:30:03.276811Z",
+  "generatedAt": "2026-10-15T14:35:00.147506Z",
   "meaningfulEvents": [
     {
-      "id": "125175",
+      "id": "125306",
       "message": "Controller recovery restored an interrupted task boundary.",
       "next": "Continue through the next controller gate.",
       "project": "Trace",
-      "timestamp": "2026-10-15T14:30:03.276811Z",
+      "timestamp": "2026-10-15T14:35:00.147506Z",
       "type": "recovery",
       "verification": "Recorded",
       "whyItMatters": "Safe autonomous execution can resume."
     },
     {
-      "id": "125174",
+      "id": "125305",
       "message": "A bounded task failed and entered recovery.",
       "next": "Continue through the next controller gate.",
       "project": "Trace",
-      "timestamp": "2026-10-15T14:30:03.276788Z",
+      "timestamp": "2026-10-15T14:35:00.147477Z",
       "type": "failure",
       "verification": "Attention",
       "whyItMatters": "The failure remains visible until repaired."
@@ -959,9 +959,9 @@
   ],
   "portfolioSummary": {
     "actionsRequiringUser": 0,
-    "activeLocalAgents": 1,
+    "activeLocalAgents": 0,
     "activeVisionJobs": 0,
-    "executingProjects": 1,
+    "executingProjects": 0,
     "projectsNeedingTechnicalAttention": 4,
     "registeredProjects": 9,
     "state": "Needs attention",
@@ -1113,7 +1113,7 @@
       "status": "Failed / retrying"
     },
     {
-      "agentsNow": "Running",
+      "agentsNow": "No agent currently executing",
       "blocker": null,
       "currentObjective": "549 object storage adapter failure repair \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
@@ -1121,14 +1121,14 @@
       "id": "trace",
       "lastAccomplishment": "Verified local repair 549 1 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-15T14:32:06.480370Z",
+      "lastMeaningfulActivity": "2026-10-15T14:35:00.147464Z",
       "name": "Trace",
-      "nextTask": "trace browser e2e \u00b7 coder",
+      "nextTask": "549 object storage adapter failure repair \u00b7 coder",
       "operationalState": "RUNNABLE",
       "queueDepth": 4,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Running"
+      "status": "Queued"
     }
   ],
   "publicationHealth": {
@@ -1136,7 +1136,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-15T14:33:27.770162Z",
+  "publishedAt": "2026-10-15T14:35:29.332356Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1149,9 +1149,9 @@
     "resultsValidated": 0
   },
   "snapshotVersion": "2.0",
-  "sourceEventAt": "2026-10-15T14:30:03.276811Z",
+  "sourceEventAt": "2026-10-15T14:35:00.147506Z",
   "system": {
-    "activeJobs": 1,
+    "activeJobs": 0,
     "autonomy": "DEGRADED",
     "status": "Needs attention"
   },

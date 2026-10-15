@@ -3,13 +3,13 @@
     "level": "Recorded",
     "message": "Controller recovery restored an interrupted task boundary.",
     "project": "Trace",
-    "timestamp": "2026-10-15T14:30:03.276811Z"
+    "timestamp": "2026-10-15T14:35:00.147506Z"
   },
   {
     "level": "Attention",
     "message": "A bounded task failed and entered recovery.",
     "project": "Trace",
-    "timestamp": "2026-10-15T14:30:03.276788Z"
+    "timestamp": "2026-10-15T14:35:00.147477Z"
   },
   {
     "level": "Verified",
