@@ -1,0 +1,46 @@
+{
+  "at": 1792029774.684714,
+  "hour": "20261015T02",
+  "projects": {
+    "AortaPlan": {
+      "progress": "2026-10-14T22:58:27.633497Z",
+      "status": "Ready",
+      "task": "a1-physical-space-regression-bounds"
+    },
+    "BCM-Neuromodulation": {
+      "progress": "2026-10-13T01:16:42.440935Z",
+      "status": "Active",
+      "task": "publication-and-replication-program"
+    },
+    "CTBone": {
+      "progress": "2026-10-14T22:19:06.144431Z",
+      "status": "Ready",
+      "task": "regenerate-plan-465"
+    },
+    "Ditto": {
+      "progress": "2026-10-13T15:06:22.005912Z",
+      "status": "Ready",
+      "task": "regenerate-plan-501"
+    },
+    "EchoNext": {
+      "progress": "2026-10-14T13:36:43.353279Z",
+      "status": "Ready",
+      "task": "local-repair-487-milestone-map"
+    },
+    "Papers": {
+      "progress": "2026-10-13T15:25:57.811766Z",
+      "status": "Ready",
+      "task": "local-repair-462-2"
+    },
+    "TEER": {
+      "progress": "2026-10-13T13:10:23.733772Z",
+      "status": "Ready",
+      "task": "local-repair-455-1"
+    },
+    "Trace": {
+      "progress": "2026-10-14T22:20:57.802898Z",
+      "status": "Ready",
+      "task": "489-milestone-artifact-check"
+    }
+  }
+}
