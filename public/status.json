@@ -155,7 +155,7 @@
     "state": "FAILED",
     "summary": "The latest two-phase portfolio review is reflected in the controller ledger."
   },
-  "generatedAt": "2026-10-15T22:30:09.903402Z",
+  "generatedAt": "2026-10-15T22:32:12.792779Z",
   "meaningfulEvents": [
     {
       "id": "128529",
@@ -966,7 +966,7 @@
     "projectsNeedingTechnicalAttention": 4,
     "registeredProjects": 9,
     "state": "Needs attention",
-    "verifiedCompletions24h": 38
+    "verifiedCompletions24h": 35
   },
   "projects": [
     {
@@ -1137,7 +1137,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-15T22:30:10.084545Z",
+  "publishedAt": "2026-10-15T22:32:12.942756Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1251,7 +1251,7 @@
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0
   },
-  "semanticHash": "c9f3636ae4032e199424b269a6aca0fa588103f49a9fff59f736879c08765bbc",
+  "semanticHash": "3a3a37c9988115d7e3a8d199928a0491ccd5776331f0ca3c7ab8e7a82ae96f02",
   "snapshotVersion": "2.1",
   "sourceEventAt": "2026-10-15T20:04:09.081229Z",
   "system": {
