@@ -121,7 +121,7 @@
       "project": "BCM-Neuromodulation",
       "resource": "Local agent",
       "startedAt": "2026-10-13T01:27:59.998118Z",
-      "state": "BLOCKED_EXTERNAL",
+      "state": "FAILED",
       "title": "bcm real vision auth preflight 20261013 \u00b7 research",
       "updatedAt": "2026-10-13T12:02:05.477981Z",
       "workerType": "research"
@@ -130,7 +130,7 @@
   "decisionSummary": {
     "approvedDecisions": 0,
     "lastPhase1": "2026-10-15T15:36:18.618022Z",
-    "lastPhase2": null,
+    "lastPhase2": "2026-10-15T17:08:18.132872Z",
     "model": "Codex",
     "modifiedOrReversed": 0,
     "nextReview": null,
@@ -138,13 +138,13 @@
     "pendingDecisions": 0,
     "projectsReviewed": 0,
     "reasoningEffort": "medium",
-    "state": "PHASE2_RUNNING",
+    "state": "FAILED",
     "summary": "The latest two-phase portfolio review is reflected in the controller ledger."
   },
   "director": {
     "approvedDecisions": 0,
     "lastPhase1": "2026-10-15T15:36:18.618022Z",
-    "lastPhase2": null,
+    "lastPhase2": "2026-10-15T17:08:18.132872Z",
     "model": "Codex",
     "modifiedOrReversed": 0,
     "nextReview": null,
@@ -152,10 +152,10 @@
     "pendingDecisions": 0,
     "projectsReviewed": 0,
     "reasoningEffort": "medium",
-    "state": "PHASE2_RUNNING",
+    "state": "FAILED",
     "summary": "The latest two-phase portfolio review is reflected in the controller ledger."
   },
-  "generatedAt": "2026-10-15T14:43:58.923632Z",
+  "generatedAt": "2026-10-15T17:08:50.212494Z",
   "meaningfulEvents": [
     {
       "id": "125746",
@@ -1016,12 +1016,12 @@
       "lastCodexReview": null,
       "lastMeaningfulActivity": "2026-10-15T10:40:35.665419Z",
       "name": "BCM-Neuromodulation",
-      "nextTask": "bcm real vision auth preflight 20261013 \u00b7 research",
+      "nextTask": null,
       "operationalState": "RUNNABLE",
-      "queueDepth": 1,
+      "queueDepth": 0,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "External dependency"
+      "status": "Ready"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1137,7 +1137,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-15T16:46:43.245051Z",
+  "publishedAt": "2026-10-15T17:08:50.323048Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1251,7 +1251,7 @@
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0
   },
-  "semanticHash": "4601aa71b0216d12a0bd575ff944431d0a0fb6179cf113e8f01f868ed5efcd95",
+  "semanticHash": "a3c98c866c7f5545dbe00063eba633a6651ec086e1bbd990b7560a38a9f052cd",
   "snapshotVersion": "2.1",
   "sourceEventAt": "2026-10-15T14:43:58.923632Z",
   "system": {
@@ -1269,7 +1269,7 @@
     "completed": 4,
     "connection": "Available",
     "consumed": 0,
-    "failed": 2,
+    "failed": 3,
     "queued": 0,
     "scheduler": "Reachable",
     "validated": 0
