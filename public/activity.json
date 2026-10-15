@@ -1,15 +1,21 @@
 [
   {
     "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
+    "message": "Queued local repair 556 1 \u00b7 planner.",
     "project": "Trace",
-    "timestamp": "2026-10-15T18:04:26.556238Z"
+    "timestamp": "2026-10-15T18:07:15.550556Z"
   },
   {
     "level": "Attention",
     "message": "A bounded task failed and entered recovery.",
     "project": "Trace",
-    "timestamp": "2026-10-15T18:04:26.556215Z"
+    "timestamp": "2026-10-15T18:07:08.598717Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "Trace",
+    "timestamp": "2026-10-15T18:04:26.556238Z"
   },
   {
     "level": "Verified",
@@ -472,11 +478,5 @@
     "message": "A bounded task failed and entered recovery.",
     "project": "Trace",
     "timestamp": "2026-10-15T12:39:45.745868Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued trace browser e2e \u00b7 coder.",
-    "project": "Trace",
-    "timestamp": "2026-10-15T12:35:33.008068Z"
   }
 ]
