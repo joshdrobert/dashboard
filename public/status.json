@@ -19,7 +19,7 @@
       "startedAt": "2026-10-15T17:55:09.494573Z",
       "state": "STALE_UNKNOWN",
       "title": "536 reader editor export authorization \u00b7 coder",
-      "updatedAt": "2026-10-16T00:16:12.559119Z",
+      "updatedAt": "2026-10-16T00:18:54.013119Z",
       "workerType": "coder"
     },
     {
@@ -155,7 +155,7 @@
     "state": "COMPLETE",
     "summary": "The latest two-phase portfolio review is reflected in the controller ledger."
   },
-  "generatedAt": "2026-10-16T00:16:14.275767Z",
+  "generatedAt": "2026-10-16T00:20:16.779494Z",
   "meaningfulEvents": [
     {
       "id": "128742",
@@ -1122,7 +1122,7 @@
       "id": "trace",
       "lastAccomplishment": "Verified local repair 556 1 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T00:16:08.313523Z",
+      "lastMeaningfulActivity": "2026-10-16T00:18:49.892101Z",
       "name": "Trace",
       "nextTask": "trace browser e2e \u00b7 coder",
       "operationalState": "RUNNABLE",
@@ -1137,7 +1137,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T00:16:14.547827Z",
+  "publishedAt": "2026-10-16T00:20:17.064841Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1251,7 +1251,7 @@
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0
   },
-  "semanticHash": "dafcaf2b46120e872081ac62ad6548192d25fc3632f29b04436faed894052e77",
+  "semanticHash": "8bbd93a57f3e3c71d7ca9edf7b259474798eee5386bbde25dc99cef6449e2357",
   "snapshotVersion": "2.1",
   "sourceEventAt": "2026-10-16T00:05:24.777695Z",
   "system": {
