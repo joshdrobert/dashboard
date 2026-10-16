@@ -11,7 +11,7 @@
   "blockedWork": [
     {
       "backend": "Local",
-      "heartbeatFresh": true,
+      "heartbeatFresh": false,
       "id": "611",
       "parent": null,
       "project": "CTBone",
@@ -24,16 +24,29 @@
     },
     {
       "backend": "Local",
-      "heartbeatFresh": false,
-      "id": "606",
-      "parent": "526",
+      "heartbeatFresh": true,
+      "id": "609",
+      "parent": null,
+      "project": "TEER",
+      "resource": "Local agent",
+      "startedAt": "2026-10-16T18:59:58.816869Z",
+      "state": "STALE_UNKNOWN",
+      "title": "local repair 595 1 \u00b7 planner",
+      "updatedAt": "2026-10-16T19:47:44.718564Z",
+      "workerType": "planner"
+    },
+    {
+      "backend": "Local",
+      "heartbeatFresh": true,
+      "id": "608",
+      "parent": "607",
       "project": "AortaPlan",
       "resource": "Local agent",
-      "startedAt": "2026-10-16T18:37:47.074875Z",
-      "state": "FAILED",
-      "title": "regenerate plan 602 \u00b7 planner",
-      "updatedAt": "2026-10-16T18:39:48.103386Z",
-      "workerType": "planner"
+      "startedAt": "2026-10-16T18:47:56.720200Z",
+      "state": "STALE_UNKNOWN",
+      "title": "task 576 repair coordinate invariants \u00b7 coder",
+      "updatedAt": "2026-10-16T19:45:55.971567Z",
+      "workerType": "coder"
     },
     {
       "backend": "Local",
@@ -73,19 +86,6 @@
       "title": "regenerate plan 593 \u00b7 planner",
       "updatedAt": "2026-10-16T18:04:48.772726Z",
       "workerType": "planner"
-    },
-    {
-      "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "597",
-      "parent": "588",
-      "project": "TEER",
-      "resource": "Local agent",
-      "startedAt": "2026-10-16T18:03:57.159743Z",
-      "state": "STALE_UNKNOWN",
-      "title": "task 580 integration check \u00b7 research",
-      "updatedAt": "2026-10-16T19:44:30.032432Z",
-      "workerType": "research"
     },
     {
       "backend": "Local",
@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-16T19:45:44.409703Z",
+  "generatedAt": "2026-10-16T19:47:46.921752Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -400,6 +400,26 @@
     "verifiedPending": 0
   },
   "meaningfulEvents": [
+    {
+      "id": "141104",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-16T19:47:30.221545Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "141103",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-16T19:47:30.221494Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
     {
       "id": "141029",
       "message": "A bounded task failed and entered recovery.",
@@ -556,26 +576,6 @@
       "next": "Continue through the next controller gate.",
       "project": "TEER",
       "timestamp": "2026-10-16T19:27:26.912397Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
-    },
-    {
-      "id": "139959",
-      "message": "Controller recovery restored an interrupted task boundary.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-16T19:26:11.945074Z",
-      "type": "recovery",
-      "verification": "Recorded",
-      "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "139958",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-16T19:26:11.945032Z",
       "type": "failure",
       "verification": "Attention",
       "whyItMatters": "The failure remains visible until repaired."
@@ -1209,7 +1209,7 @@
     "projectsNeedingTechnicalAttention": 4,
     "registeredProjects": 9,
     "state": "Needs attention",
-    "verifiedCompletions24h": 47
+    "verifiedCompletions24h": 45
   },
   "projects": [
     {
@@ -1231,7 +1231,7 @@
       "status": "Failed / retrying"
     },
     {
-      "agentsNow": "No agent currently executing",
+      "agentsNow": "Running",
       "blocker": null,
       "currentObjective": "task 576 repair coordinate invariants \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
@@ -1239,14 +1239,14 @@
       "id": "aortaplan",
       "lastAccomplishment": "Verified regenerate plan 606 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T19:43:43.393412Z",
+      "lastMeaningfulActivity": "2026-10-16T19:45:55.971567Z",
       "name": "AortaPlan",
-      "nextTask": "task 576 repair coordinate invariants \u00b7 coder",
+      "nextTask": null,
       "operationalState": "RUNNABLE",
       "queueDepth": 1,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Queued"
+      "status": "Running"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1341,13 +1341,13 @@
     {
       "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "task 580 integration check \u00b7 research",
+      "currentObjective": "local repair 595 1 \u00b7 planner",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "teer",
       "lastAccomplishment": "Verified local repair 580 1 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T19:44:15.860097Z",
+      "lastMeaningfulActivity": "2026-10-16T19:47:31.802726Z",
       "name": "TEER",
       "nextTask": "local repair 596 1 \u00b7 planner",
       "operationalState": "RUNNABLE",
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T19:45:44.731703Z",
+  "publishedAt": "2026-10-16T19:47:47.170168Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1398,19 +1398,6 @@
       "title": "local repair 596 1 \u00b7 planner",
       "updatedAt": "2026-10-16T19:31:20.184247Z",
       "workerType": "planner"
-    },
-    {
-      "backend": "Local",
-      "heartbeatFresh": false,
-      "id": "608",
-      "parent": "607",
-      "project": "AortaPlan",
-      "resource": "Local agent",
-      "startedAt": "2026-10-16T18:47:56.720200Z",
-      "state": "QUEUED",
-      "title": "task 576 repair coordinate invariants \u00b7 coder",
-      "updatedAt": "2026-10-16T19:43:43.393412Z",
-      "workerType": "coder"
     }
   ],
   "recentlyCompleted": [
@@ -1507,14 +1494,14 @@
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0,
     "verifiedMilestones12h": 32,
-    "verifiedMilestones24h": 47,
-    "verifiedMilestones2h": 24
+    "verifiedMilestones24h": 45,
+    "verifiedMilestones2h": 22
   },
-  "semanticHash": "c6ba8cc757ded538d3566c27a2c8eecc058a52cb5da559d42010e012846ba09c",
+  "semanticHash": "a9eeda32a1d9259086852a8538092641e0b26c4ae13854b49f1b88dd6905f3b2",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-16T19:45:30.840020Z",
+  "sourceEventAt": "2026-10-16T19:47:30.221545Z",
   "system": {
-    "activeJobs": 1,
+    "activeJobs": 2,
     "autonomy": "DEGRADED",
     "status": "Needs attention"
   },
