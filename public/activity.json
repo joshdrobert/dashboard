@@ -3,7 +3,13 @@
     "level": "Recorded",
     "message": "Controller recovery restored an interrupted task boundary.",
     "project": "Trace",
-    "timestamp": "2026-10-16T10:41:18.298410Z"
+    "timestamp": "2026-10-16T10:43:52.792353Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "Trace",
+    "timestamp": "2026-10-16T10:43:52.792325Z"
   },
   {
     "level": "Recorded",
@@ -472,11 +478,5 @@
     "message": "Accepted task completed: local repair 549 1 \u00b7 planner.",
     "project": "Trace",
     "timestamp": "2026-10-15T14:21:59.028244Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued 549 object storage adapter failure repair \u00b7 coder.",
-    "project": "Trace",
-    "timestamp": "2026-10-15T14:21:56.192960Z"
   }
 ]

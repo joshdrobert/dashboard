@@ -129,43 +129,53 @@
   ],
   "decisionSummary": {
     "approvedDecisions": 0,
-    "lastPhase1": "2026-10-16T08:35:48.652650Z",
-    "lastPhase2": "2026-10-16T08:43:52.684062Z",
+    "lastPhase1": "2026-10-16T10:43:53.285724Z",
+    "lastPhase2": null,
     "model": "Codex",
     "modifiedOrReversed": 0,
     "nextReview": null,
-    "orientationAcknowledgments": 9,
+    "orientationAcknowledgments": null,
     "pendingDecisions": 0,
-    "projectsReviewed": 9,
+    "projectsReviewed": 0,
     "reasoningEffort": "medium",
-    "state": "COMPLETE",
+    "state": "PHASE1_RUNNING",
     "summary": "The latest two-phase portfolio review is reflected in the controller ledger."
   },
   "director": {
     "approvedDecisions": 0,
-    "lastPhase1": "2026-10-16T08:35:48.652650Z",
-    "lastPhase2": "2026-10-16T08:43:52.684062Z",
+    "lastPhase1": "2026-10-16T10:43:53.285724Z",
+    "lastPhase2": null,
     "model": "Codex",
     "modifiedOrReversed": 0,
     "nextReview": null,
-    "orientationAcknowledgments": 9,
+    "orientationAcknowledgments": null,
     "pendingDecisions": 0,
-    "projectsReviewed": 9,
+    "projectsReviewed": 0,
     "reasoningEffort": "medium",
-    "state": "COMPLETE",
+    "state": "PHASE1_RUNNING",
     "summary": "The latest two-phase portfolio review is reflected in the controller ledger."
   },
-  "generatedAt": "2026-10-16T10:43:21.082534Z",
+  "generatedAt": "2026-10-16T10:45:22.520266Z",
   "meaningfulEvents": [
     {
-      "id": "132393",
+      "id": "132600",
       "message": "Controller recovery restored an interrupted task boundary.",
       "next": "Continue through the next controller gate.",
       "project": "Trace",
-      "timestamp": "2026-10-16T10:41:18.298410Z",
+      "timestamp": "2026-10-16T10:43:52.792353Z",
       "type": "recovery",
       "verification": "Recorded",
       "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "132599",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-16T10:43:52.792325Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
     },
     {
       "id": "132392",
@@ -946,16 +956,6 @@
       "type": "task_exit_accepted",
       "verification": "Verified",
       "whyItMatters": "The controller recorded the completion."
-    },
-    {
-      "id": "124719",
-      "message": "Queued 549 object storage adapter failure repair \u00b7 coder.",
-      "next": "Continue through the next controller gate.",
-      "project": "Trace",
-      "timestamp": "2026-10-15T14:21:56.192960Z",
-      "type": "task_queued",
-      "verification": "Recorded",
-      "whyItMatters": "The next unit of work is durable."
     }
   ],
   "portfolioSummary": {
@@ -1114,7 +1114,7 @@
       "status": "Failed / retrying"
     },
     {
-      "agentsNow": "Running",
+      "agentsNow": "No agent currently executing",
       "blocker": null,
       "currentObjective": "trace browser e2e \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
@@ -1124,12 +1124,12 @@
       "lastCodexReview": null,
       "lastMeaningfulActivity": "2026-10-16T10:42:35.320703Z",
       "name": "Trace",
-      "nextTask": null,
+      "nextTask": "trace browser e2e \u00b7 coder",
       "operationalState": "RUNNABLE",
       "queueDepth": 1,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Running"
+      "status": "Queued"
     }
   ],
   "publicationHealth": {
@@ -1137,12 +1137,25 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T10:43:21.250721Z",
+  "publishedAt": "2026-10-16T10:45:22.723955Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
   },
   "queuedWork": [
+    {
+      "backend": "Local",
+      "heartbeatFresh": false,
+      "id": "537",
+      "parent": "569",
+      "project": "Trace",
+      "resource": "Local agent",
+      "startedAt": "2026-10-15T12:35:33.007726Z",
+      "state": "QUEUED",
+      "title": "trace browser e2e \u00b7 coder",
+      "updatedAt": "2026-10-16T10:43:52.792308Z",
+      "workerType": "coder"
+    },
     {
       "backend": "Local",
       "heartbeatFresh": false,
@@ -1251,11 +1264,11 @@
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0
   },
-  "semanticHash": "23a796292b91e10971d3659b9bed30afb20465b087552e2b721fb9f74db3d78e",
+  "semanticHash": "145a2e551385f05952dbe4d21126880ce1b151e66c13c1f9fd6a482e038e4b0c",
   "snapshotVersion": "2.1",
-  "sourceEventAt": "2026-10-16T10:41:18.298410Z",
+  "sourceEventAt": "2026-10-16T10:43:52.792353Z",
   "system": {
-    "activeJobs": 2,
+    "activeJobs": 1,
     "autonomy": "DEGRADED",
     "status": "Needs attention"
   },
