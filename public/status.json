@@ -19,7 +19,7 @@
       "startedAt": "2026-10-16T20:20:24.888878Z",
       "state": "STALE_UNKNOWN",
       "title": "plan after 624 \u00b7 planner",
-      "updatedAt": "2026-10-16T20:23:47.376784Z",
+      "updatedAt": "2026-10-16T20:25:10.797507Z",
       "workerType": "planner"
     },
     {
@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-16T20:24:09.112147Z",
+  "generatedAt": "2026-10-16T20:26:12.073335Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -1239,7 +1239,7 @@
       "id": "aortaplan",
       "lastAccomplishment": "Verified local repair 608 invariant preserve \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T20:23:47.376784Z",
+      "lastMeaningfulActivity": "2026-10-16T20:25:10.797507Z",
       "name": "AortaPlan",
       "nextTask": null,
       "operationalState": "RUNNABLE",
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T20:24:09.509354Z",
+  "publishedAt": "2026-10-16T20:26:12.388887Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1497,7 +1497,7 @@
     "verifiedMilestones24h": 60,
     "verifiedMilestones2h": 25
   },
-  "semanticHash": "eb20ebdfaacde943641723f9dbe7e8163a59e3b938441ff66fcffed2f4b60383",
+  "semanticHash": "7d7dd8ceb0f22328cc92c59c6689fc0176b411e0101ad0e4d1d2cea646745cab",
   "snapshotVersion": "2.3",
   "sourceEventAt": "2026-10-16T20:22:42.169785Z",
   "system": {
