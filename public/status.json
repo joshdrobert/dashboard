@@ -130,7 +130,7 @@
   "decisionSummary": {
     "approvedDecisions": 0,
     "lastPhase1": "2026-10-16T21:21:25.131208Z",
-    "lastPhase2": null,
+    "lastPhase2": "2026-10-16T21:24:59.095463Z",
     "model": "Codex",
     "modifiedOrReversed": 0,
     "nextReview": null,
@@ -252,13 +252,13 @@
         "verified": 0
       }
     ],
-    "state": "PHASE1_RUNNING",
+    "state": "FAILED",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
   "director": {
     "approvedDecisions": 0,
     "lastPhase1": "2026-10-16T21:21:25.131208Z",
-    "lastPhase2": null,
+    "lastPhase2": "2026-10-16T21:24:59.095463Z",
     "model": "Codex",
     "modifiedOrReversed": 0,
     "nextReview": null,
@@ -380,10 +380,10 @@
         "verified": 0
       }
     ],
-    "state": "PHASE1_RUNNING",
+    "state": "FAILED",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-16T21:22:49.093753Z",
+  "generatedAt": "2026-10-16T21:26:52.398395Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T21:22:49.284482Z",
+  "publishedAt": "2026-10-16T21:26:52.671437Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1497,7 +1497,7 @@
     "verifiedMilestones24h": 58,
     "verifiedMilestones2h": 27
   },
-  "semanticHash": "27b5234780c416c8004602b0627c055479d125a698045339448ff1accd20d4d4",
+  "semanticHash": "ac009993ecadd30664f1d9fd1a809e4e8321a61028aa4d9e9610a59b312e3911",
   "snapshotVersion": "2.3",
   "sourceEventAt": "2026-10-16T21:16:40.935766Z",
   "system": {
