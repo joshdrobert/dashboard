@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-16T20:50:24.599258Z",
+  "generatedAt": "2026-10-16T20:52:25.310552Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -1339,22 +1339,22 @@
       "status": "Failed / retrying"
     },
     {
-      "agentsNow": "No agent currently executing",
+      "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "task 597 exclusion \u00b7 coder",
+      "currentObjective": "task 596 cache cleanup \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "teer",
       "lastAccomplishment": "Verified local repair 597 1 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T20:48:11.078419Z",
+      "lastMeaningfulActivity": "2026-10-16T20:50:26.713381Z",
       "name": "TEER",
       "nextTask": "task 597 exclusion \u00b7 coder",
       "operationalState": "RUNNABLE",
       "queueDepth": 3,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Queued"
+      "status": "Running"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T20:50:24.955542Z",
+  "publishedAt": "2026-10-16T20:52:25.598730Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1497,11 +1497,11 @@
     "verifiedMilestones24h": 56,
     "verifiedMilestones2h": 22
   },
-  "semanticHash": "7de2b15f5a9b10ac583e8c8d5a7667f79294ea03b7d9c56c463bebff473f4154",
+  "semanticHash": "e8b44e690dab4a89bfd0e7fcecab3c1ec09d568483b455779e5fd3bed3fe4184",
   "snapshotVersion": "2.3",
   "sourceEventAt": "2026-10-16T20:46:15.765678Z",
   "system": {
-    "activeJobs": 0,
+    "activeJobs": 1,
     "autonomy": "DEGRADED",
     "status": "Needs attention"
   },
