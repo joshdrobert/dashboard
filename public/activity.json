@@ -1,6 +1,36 @@
 [
   {
     "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "Ditto",
+    "timestamp": "2026-10-16T17:17:59.144353Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "EchoNext",
+    "timestamp": "2026-10-16T17:17:59.130286Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "AortaPlan",
+    "timestamp": "2026-10-16T17:17:59.115510Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "CTBone",
+    "timestamp": "2026-10-16T17:17:59.100535Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "TEER",
+    "timestamp": "2026-10-16T17:17:59.083990Z"
+  },
+  {
+    "level": "Recorded",
     "message": "Queued integration repair pnpm build policy 20261016 \u00b7 coder.",
     "project": "Trace",
     "timestamp": "2026-10-16T17:16:08.775163Z"
@@ -448,35 +478,5 @@
     "message": "Controller recovery restored an interrupted task boundary.",
     "project": "Trace",
     "timestamp": "2026-10-16T01:10:12.862901Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Accepted task completed: local repair 559 2 \u00b7 planner.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T00:53:57.853157Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued 559 reader editor export authorization \u00b7 coder.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T00:53:55.063137Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Verification passed for local repair 559 2 \u00b7 planner.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T00:53:54.977667Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued local repair 559 2 \u00b7 planner.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T00:53:26.489039Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued regenerate plan 560 \u00b7 planner.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T00:53:16.590719Z"
   }
 ]
