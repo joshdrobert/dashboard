@@ -155,7 +155,7 @@
     "state": "COMPLETE",
     "summary": "The latest two-phase portfolio review is reflected in the controller ledger."
   },
-  "generatedAt": "2026-10-16T11:05:33.761661Z",
+  "generatedAt": "2026-10-16T11:07:35.644356Z",
   "meaningfulEvents": [
     {
       "id": "132674",
@@ -1122,7 +1122,7 @@
       "id": "trace",
       "lastAccomplishment": "Verified 567 timeout recovery \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T11:04:49.737751Z",
+      "lastMeaningfulActivity": "2026-10-16T11:06:36.753558Z",
       "name": "Trace",
       "nextTask": null,
       "operationalState": "RUNNABLE",
@@ -1137,7 +1137,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T11:05:34.033375Z",
+  "publishedAt": "2026-10-16T11:07:35.818348Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1237,7 +1237,7 @@
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0
   },
-  "semanticHash": "13ba093ff86454857f077224724020f33129c3b05f584ea777fbb0bc3722bca4",
+  "semanticHash": "41e20c6f8ac8a4c1b087facbf1b0f7f44b2de28fd00754b9f0e19f75f49b2ba4",
   "snapshotVersion": "2.1",
   "sourceEventAt": "2026-10-16T10:58:43.451034Z",
   "system": {
