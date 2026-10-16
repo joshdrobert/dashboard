@@ -129,33 +129,33 @@
   ],
   "decisionSummary": {
     "approvedDecisions": 0,
-    "lastPhase1": "2026-10-16T03:49:18.060268Z",
-    "lastPhase2": "2026-10-16T03:52:11.728879Z",
+    "lastPhase1": "2026-10-16T05:52:12.555990Z",
+    "lastPhase2": null,
     "model": "Codex",
     "modifiedOrReversed": 0,
     "nextReview": null,
-    "orientationAcknowledgments": 9,
+    "orientationAcknowledgments": null,
     "pendingDecisions": 0,
-    "projectsReviewed": 9,
+    "projectsReviewed": 0,
     "reasoningEffort": "medium",
-    "state": "COMPLETE",
+    "state": "PHASE1_RUNNING",
     "summary": "The latest two-phase portfolio review is reflected in the controller ledger."
   },
   "director": {
     "approvedDecisions": 0,
-    "lastPhase1": "2026-10-16T03:49:18.060268Z",
-    "lastPhase2": "2026-10-16T03:52:11.728879Z",
+    "lastPhase1": "2026-10-16T05:52:12.555990Z",
+    "lastPhase2": null,
     "model": "Codex",
     "modifiedOrReversed": 0,
     "nextReview": null,
-    "orientationAcknowledgments": 9,
+    "orientationAcknowledgments": null,
     "pendingDecisions": 0,
-    "projectsReviewed": 9,
+    "projectsReviewed": 0,
     "reasoningEffort": "medium",
-    "state": "COMPLETE",
+    "state": "PHASE1_RUNNING",
     "summary": "The latest two-phase portfolio review is reflected in the controller ledger."
   },
-  "generatedAt": "2026-10-16T04:34:50.591530Z",
+  "generatedAt": "2026-10-16T05:53:43.235608Z",
   "meaningfulEvents": [
     {
       "id": "131779",
@@ -1137,7 +1137,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T04:34:50.850538Z",
+  "publishedAt": "2026-10-16T05:53:43.466008Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1251,7 +1251,7 @@
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0
   },
-  "semanticHash": "00cb724fc440b9ed9c17ae073be1161a25b642ac8a231e3567a37cc776b555f0",
+  "semanticHash": "c53181311ae54c78e28fde4297a0ab397aca8b92cc22ab85fab7eab7a4eda153",
   "snapshotVersion": "2.1",
   "sourceEventAt": "2026-10-16T03:52:11.732098Z",
   "system": {
