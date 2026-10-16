@@ -19,7 +19,7 @@
       "startedAt": "2026-10-16T20:58:24.152669Z",
       "state": "STALE_UNKNOWN",
       "title": "task 621 cache cleanup \u00b7 coder",
-      "updatedAt": "2026-10-16T21:36:50.634346Z",
+      "updatedAt": "2026-10-16T21:38:59.797198Z",
       "workerType": "coder"
     },
     {
@@ -383,7 +383,7 @@
     "state": "FAILED",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-16T21:36:59.978954Z",
+  "generatedAt": "2026-10-16T21:39:01.550491Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -1347,7 +1347,7 @@
       "id": "teer",
       "lastAccomplishment": "Verified local repair 615 2 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T21:36:43.955523Z",
+      "lastMeaningfulActivity": "2026-10-16T21:38:52.743772Z",
       "name": "TEER",
       "nextTask": "local repair 632 1 \u00b7 planner",
       "operationalState": "RUNNABLE",
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T21:37:00.302165Z",
+  "publishedAt": "2026-10-16T21:39:01.707188Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1497,7 +1497,7 @@
     "verifiedMilestones24h": 57,
     "verifiedMilestones2h": 25
   },
-  "semanticHash": "8bf6526b1fed89749011446ec4581e739c5e47ab7fef0a9c78d57fddd1d5d59c",
+  "semanticHash": "2067e0d030a397af174b866f628126848fb256d81b9b4b992ce1e219167e879a",
   "snapshotVersion": "2.3",
   "sourceEventAt": "2026-10-16T21:33:47.931310Z",
   "system": {
