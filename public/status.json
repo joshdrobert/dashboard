@@ -12,14 +12,14 @@
     {
       "backend": "Local",
       "heartbeatFresh": true,
-      "id": "641",
-      "parent": null,
+      "id": "642",
+      "parent": "640",
       "project": "TEER",
       "resource": "Local agent",
-      "startedAt": "2026-10-16T21:53:09.328524Z",
+      "startedAt": "2026-10-16T21:57:27.958730Z",
       "state": "STALE_UNKNOWN",
-      "title": "local repair 634 1 \u00b7 planner",
-      "updatedAt": "2026-10-16T21:56:57.747158Z",
+      "title": "regenerate plan 641 \u00b7 planner",
+      "updatedAt": "2026-10-16T21:58:56.800954Z",
       "workerType": "planner"
     },
     {
@@ -383,7 +383,7 @@
     "state": "FAILED",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-16T21:57:15.571305Z",
+  "generatedAt": "2026-10-16T21:59:17.389121Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -400,6 +400,46 @@
     "verifiedPending": 0
   },
   "meaningfulEvents": [
+    {
+      "id": "146957",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-16T21:58:21.618141Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "146956",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-16T21:58:21.618121Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
+    {
+      "id": "146896",
+      "message": "Queued regenerate plan 641 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-16T21:57:27.958767Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "146894",
+      "message": "Verification passed for local repair 634 1 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-16T21:57:25.707543Z",
+      "type": "accepted",
+      "verification": "Verified",
+      "whyItMatters": "Dependent work may advance."
+    },
     {
       "id": "146848",
       "message": "Controller recovery restored an interrupted task boundary.",
@@ -1159,46 +1199,6 @@
       "type": "accepted",
       "verification": "Verified",
       "whyItMatters": "Dependent work may advance."
-    },
-    {
-      "id": "141905",
-      "message": "Controller recovery restored an interrupted task boundary.",
-      "next": "Continue through the next controller gate.",
-      "project": "AortaPlan",
-      "timestamp": "2026-10-16T20:01:37.098601Z",
-      "type": "recovery",
-      "verification": "Recorded",
-      "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "141904",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "AortaPlan",
-      "timestamp": "2026-10-16T20:01:37.098499Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
-    },
-    {
-      "id": "141879",
-      "message": "Accepted task completed: local repair 596 2 \u00b7 planner.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-16T20:01:04.704325Z",
-      "type": "task_exit_accepted",
-      "verification": "Verified",
-      "whyItMatters": "The controller recorded the completion."
-    },
-    {
-      "id": "141867",
-      "message": "Queued task 596 cache cleanup \u00b7 coder.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-16T20:00:54.973916Z",
-      "type": "task_queued",
-      "verification": "Recorded",
-      "whyItMatters": "The next unit of work is durable."
     }
   ],
   "portfolioSummary": {
@@ -1209,7 +1209,7 @@
     "projectsNeedingTechnicalAttention": 4,
     "registeredProjects": 9,
     "state": "Needs attention",
-    "verifiedCompletions24h": 66
+    "verifiedCompletions24h": 67
   },
   "projects": [
     {
@@ -1341,13 +1341,13 @@
     {
       "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "local repair 634 1 \u00b7 planner",
+      "currentObjective": "regenerate plan 641 \u00b7 planner",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "teer",
       "lastAccomplishment": "Verified regenerate plan 637 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T21:56:57.747158Z",
+      "lastMeaningfulActivity": "2026-10-16T21:58:56.800954Z",
       "name": "TEER",
       "nextTask": null,
       "operationalState": "RUNNABLE",
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T21:57:15.804704Z",
+  "publishedAt": "2026-10-16T21:59:17.573757Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1479,13 +1479,13 @@
     "manuscriptMilestones": 0,
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0,
-    "verifiedMilestones12h": 66,
-    "verifiedMilestones24h": 66,
-    "verifiedMilestones2h": 29
+    "verifiedMilestones12h": 67,
+    "verifiedMilestones24h": 67,
+    "verifiedMilestones2h": 30
   },
-  "semanticHash": "d749999271dfd16d490c5b706ca0dc46ff1bc9cd79d172bc32d0547d6fa475d9",
+  "semanticHash": "9856c6cfaf57b63e91fb7af5d150068f14e15268748125f6aff74e280c11ff3e",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-16T21:55:52.503814Z",
+  "sourceEventAt": "2026-10-16T21:58:21.618141Z",
   "system": {
     "activeJobs": 1,
     "autonomy": "DEGRADED",
