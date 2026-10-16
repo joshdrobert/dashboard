@@ -4,7 +4,7 @@
   "attentionRequired": [
     {
       "category": "Agents debugging",
-      "message": "3 task(s) are in repair or retry states.",
+      "message": "4 task(s) are in repair or retry states.",
       "project": "Portfolio"
     }
   ],
@@ -19,7 +19,7 @@
       "startedAt": "2026-10-16T18:16:53.819891Z",
       "state": "STALE_UNKNOWN",
       "title": "local repair 586 1 \u00b7 planner",
-      "updatedAt": "2026-10-16T18:19:28.145660Z",
+      "updatedAt": "2026-10-16T18:25:23.311079Z",
       "workerType": "planner"
     },
     {
@@ -30,9 +30,9 @@
       "project": "EchoNext",
       "resource": "Local agent",
       "startedAt": "2026-10-16T18:11:08.586899Z",
-      "state": "STALE_UNKNOWN",
+      "state": "FAILED",
       "title": "local repair 579 2 \u00b7 planner",
-      "updatedAt": "2026-10-16T18:23:57.580044Z",
+      "updatedAt": "2026-10-16T18:25:47.051255Z",
       "workerType": "planner"
     },
     {
@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-16T18:24:37.333917Z",
+  "generatedAt": "2026-10-16T18:26:38.318470Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -401,6 +401,16 @@
   },
   "meaningfulEvents": [
     {
+      "id": "137901",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "EchoNext",
+      "timestamp": "2026-10-16T18:25:47.051303Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
+    {
       "id": "137764",
       "message": "Controller recovery restored an interrupted task boundary.",
       "next": "Continue through the next controller gate.",
@@ -409,16 +419,6 @@
       "type": "recovery",
       "verification": "Recorded",
       "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "137763",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "EchoNext",
-      "timestamp": "2026-10-16T18:22:25.252775Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
     },
     {
       "id": "137596",
@@ -1206,7 +1206,7 @@
     "activeLocalAgents": 0,
     "activeVisionJobs": 0,
     "executingProjects": 0,
-    "projectsNeedingTechnicalAttention": 3,
+    "projectsNeedingTechnicalAttention": 4,
     "registeredProjects": 9,
     "state": "Needs attention",
     "verifiedCompletions24h": 39
@@ -1275,7 +1275,7 @@
       "id": "ctbone",
       "lastAccomplishment": "Verified ctbone extraction provenance root check \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T18:19:28.145660Z",
+      "lastMeaningfulActivity": "2026-10-16T18:25:23.311079Z",
       "name": "CTBone",
       "nextTask": null,
       "operationalState": "RUNNABLE",
@@ -1303,7 +1303,7 @@
       "status": "Failed / retrying"
     },
     {
-      "agentsNow": "Running",
+      "agentsNow": "No agent currently executing",
       "blocker": null,
       "currentObjective": "local repair 579 2 \u00b7 planner",
       "deliverable": "A verified bounded project artifact.",
@@ -1311,14 +1311,14 @@
       "id": "echonext",
       "lastAccomplishment": "Verified local repair 487 milestone map \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T18:23:57.580044Z",
+      "lastMeaningfulActivity": "2026-10-16T18:25:47.051255Z",
       "name": "EchoNext",
       "nextTask": null,
       "operationalState": "RUNNABLE",
-      "queueDepth": 1,
+      "queueDepth": 0,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Running"
+      "status": "Failed / retrying"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T18:24:37.748335Z",
+  "publishedAt": "2026-10-16T18:26:38.773591Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1497,11 +1497,11 @@
     "verifiedMilestones24h": 39,
     "verifiedMilestones2h": 16
   },
-  "semanticHash": "a39dd88a6ee57d4ba5ec696f80142c20dfae1789e1dafb84c9200b5f67cfa4f2",
+  "semanticHash": "1987e2f32a0c9d1c93f6077dd6c48c11438abf53119403debad177ebf4107e66",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-16T18:22:25.252827Z",
+  "sourceEventAt": "2026-10-16T18:25:47.051303Z",
   "system": {
-    "activeJobs": 4,
+    "activeJobs": 3,
     "autonomy": "DEGRADED",
     "status": "Needs attention"
   },
