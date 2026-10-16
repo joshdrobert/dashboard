@@ -1,5 +1,17 @@
 [
   {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "TEER",
+    "timestamp": "2026-10-16T20:29:31.941230Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "TEER",
+    "timestamp": "2026-10-16T20:29:31.941196Z"
+  },
+  {
     "level": "Attention",
     "message": "A bounded task failed and entered recovery.",
     "project": "AortaPlan",
@@ -64,18 +76,6 @@
     "message": "Verification passed for local repair 608 synthetic validation \u00b7 coder.",
     "project": "AortaPlan",
     "timestamp": "2026-10-16T20:17:01.095039Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "TEER",
-    "timestamp": "2026-10-16T20:15:13.446256Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "TEER",
-    "timestamp": "2026-10-16T20:15:13.446200Z"
   },
   {
     "level": "Verified",

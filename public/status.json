@@ -25,15 +25,15 @@
     {
       "backend": "Local",
       "heartbeatFresh": true,
-      "id": "615",
-      "parent": "609",
+      "id": "617",
+      "parent": null,
       "project": "TEER",
       "resource": "Local agent",
-      "startedAt": "2026-10-16T19:51:07.019663Z",
+      "startedAt": "2026-10-16T19:53:13.795703Z",
       "state": "STALE_UNKNOWN",
-      "title": "task 595 duplicate test file \u00b7 coder",
-      "updatedAt": "2026-10-16T20:27:36.993807Z",
-      "workerType": "coder"
+      "title": "local repair 595 2 \u00b7 planner",
+      "updatedAt": "2026-10-16T20:29:54.094486Z",
+      "workerType": "planner"
     },
     {
       "backend": "Local",
@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-16T20:28:13.793572Z",
+  "generatedAt": "2026-10-16T20:30:14.482121Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -400,6 +400,26 @@
     "verifiedPending": 0
   },
   "meaningfulEvents": [
+    {
+      "id": "143028",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-16T20:29:31.941230Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "143027",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-16T20:29:31.941196Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
     {
       "id": "142929",
       "message": "A bounded task failed and entered recovery.",
@@ -509,26 +529,6 @@
       "type": "accepted",
       "verification": "Verified",
       "whyItMatters": "Dependent work may advance."
-    },
-    {
-      "id": "142413",
-      "message": "Controller recovery restored an interrupted task boundary.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-16T20:15:13.446256Z",
-      "type": "recovery",
-      "verification": "Recorded",
-      "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "142412",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-16T20:15:13.446200Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
     },
     {
       "id": "142359",
@@ -1341,13 +1341,13 @@
     {
       "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "task 595 duplicate test file \u00b7 coder",
+      "currentObjective": "local repair 595 2 \u00b7 planner",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "teer",
       "lastAccomplishment": "Verified local repair 596 2 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T20:27:29.864343Z",
+      "lastMeaningfulActivity": "2026-10-16T20:29:32.858053Z",
       "name": "TEER",
       "nextTask": "task 596 cache cleanup \u00b7 coder",
       "operationalState": "RUNNABLE",
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T20:28:14.103563Z",
+  "publishedAt": "2026-10-16T20:30:14.807691Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1497,9 +1497,9 @@
     "verifiedMilestones24h": 60,
     "verifiedMilestones2h": 25
   },
-  "semanticHash": "66cf94bee3f6302172729865628a7d69e970b899694135e70a5c7b056072b552",
+  "semanticHash": "c4ac39c11e547cc0c4ff173e7151257061c1bbed6b550d55532fc042e9d8964a",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-16T20:26:22.956912Z",
+  "sourceEventAt": "2026-10-16T20:29:31.941230Z",
   "system": {
     "activeJobs": 1,
     "autonomy": "DEGRADED",
