@@ -1,5 +1,23 @@
 [
   {
+    "level": "Verified",
+    "message": "Accepted task completed: local repair 563 1 \u00b7 planner.",
+    "project": "Trace",
+    "timestamp": "2026-10-16T01:19:21.828798Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Queued 563 reader editor export authorization \u00b7 coder.",
+    "project": "Trace",
+    "timestamp": "2026-10-16T01:19:19.014772Z"
+  },
+  {
+    "level": "Verified",
+    "message": "Verification passed for local repair 563 1 \u00b7 planner.",
+    "project": "Trace",
+    "timestamp": "2026-10-16T01:19:17.604248Z"
+  },
+  {
     "level": "Recorded",
     "message": "Queued local repair 563 1 \u00b7 planner.",
     "project": "Trace",
@@ -460,23 +478,5 @@
     "message": "Controller recovery restored an interrupted task boundary.",
     "project": "AI-Server",
     "timestamp": "2026-10-15T14:00:41.693308Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "Trace",
-    "timestamp": "2026-10-15T13:55:54.590671Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "A VISION compute job was submitted.",
-    "project": "AI-Server",
-    "timestamp": "2026-10-15T13:25:50.324314Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued vision shared gateway smoke 20261015 \u00b7 coder.",
-    "project": "AI-Server",
-    "timestamp": "2026-10-15T13:25:10.420004Z"
   }
 ]
