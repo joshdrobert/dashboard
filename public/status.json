@@ -12,14 +12,14 @@
     {
       "backend": "Local",
       "heartbeatFresh": true,
-      "id": "632",
+      "id": "633",
       "parent": "629",
       "project": "TEER",
       "resource": "Local agent",
-      "startedAt": "2026-10-16T20:58:24.152588Z",
+      "startedAt": "2026-10-16T20:58:24.152669Z",
       "state": "STALE_UNKNOWN",
-      "title": "task 621 import isolation \u00b7 coder",
-      "updatedAt": "2026-10-16T21:14:29.973358Z",
+      "title": "task 621 cache cleanup \u00b7 coder",
+      "updatedAt": "2026-10-16T21:16:41.209895Z",
       "workerType": "coder"
     },
     {
@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-16T21:14:41.945064Z",
+  "generatedAt": "2026-10-16T21:16:44.101465Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -401,6 +401,26 @@
   },
   "meaningfulEvents": [
     {
+      "id": "145341",
+      "message": "Queued local repair 632 1 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-16T21:16:40.935766Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "145330",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-16T21:16:30.936644Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
+    {
       "id": "145156",
       "message": "Controller recovery restored an interrupted task boundary.",
       "next": "Continue through the next controller gate.",
@@ -409,16 +429,6 @@
       "type": "recovery",
       "verification": "Recorded",
       "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "145155",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-16T21:12:23.919048Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
     },
     {
       "id": "144768",
@@ -1189,16 +1199,6 @@
       "type": "recovery",
       "verification": "Recorded",
       "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "141131",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-16T19:47:55.455737Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
     }
   ],
   "portfolioSummary": {
@@ -1209,7 +1209,7 @@
     "projectsNeedingTechnicalAttention": 4,
     "registeredProjects": 9,
     "state": "Needs attention",
-    "verifiedCompletions24h": 59
+    "verifiedCompletions24h": 58
   },
   "projects": [
     {
@@ -1341,15 +1341,15 @@
     {
       "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "task 621 import isolation \u00b7 coder",
+      "currentObjective": "task 621 cache cleanup \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "teer",
       "lastAccomplishment": "Verified local repair 615 2 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T21:14:24.088441Z",
+      "lastMeaningfulActivity": "2026-10-16T21:16:40.935739Z",
       "name": "TEER",
-      "nextTask": "local repair 628 1 \u00b7 planner",
+      "nextTask": "local repair 632 1 \u00b7 planner",
       "operationalState": "RUNNABLE",
       "queueDepth": 4,
       "readyForHuman": false,
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T21:14:42.164285Z",
+  "publishedAt": "2026-10-16T21:16:44.277178Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1389,14 +1389,14 @@
     {
       "backend": "Local",
       "heartbeatFresh": false,
-      "id": "635",
+      "id": "636",
       "parent": null,
       "project": "TEER",
       "resource": "Local agent",
-      "startedAt": "2026-10-16T21:05:50.508751Z",
+      "startedAt": "2026-10-16T21:16:40.935739Z",
       "state": "QUEUED",
-      "title": "local repair 628 1 \u00b7 planner",
-      "updatedAt": "2026-10-16T21:05:50.508751Z",
+      "title": "local repair 632 1 \u00b7 planner",
+      "updatedAt": "2026-10-16T21:16:40.935739Z",
       "workerType": "planner"
     }
   ],
@@ -1494,12 +1494,12 @@
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0,
     "verifiedMilestones12h": 57,
-    "verifiedMilestones24h": 59,
+    "verifiedMilestones24h": 58,
     "verifiedMilestones2h": 27
   },
-  "semanticHash": "dd0034e811e01e179a5fadfec9d0bfbd38a9afd200c75a418d2a36c29dacacfd",
+  "semanticHash": "7c00d3b8a8e2d240b4d75db3ffd59398459d9b9f4a50609350e3a3ebcfa46082",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-16T21:12:23.919072Z",
+  "sourceEventAt": "2026-10-16T21:16:40.935766Z",
   "system": {
     "activeJobs": 1,
     "autonomy": "DEGRADED",
