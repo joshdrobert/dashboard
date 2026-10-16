@@ -12,15 +12,15 @@
     {
       "backend": "Local",
       "heartbeatFresh": true,
-      "id": "563",
-      "parent": "562",
+      "id": "564",
+      "parent": null,
       "project": "Trace",
       "resource": "Local agent",
-      "startedAt": "2026-10-16T00:53:55.063109Z",
+      "startedAt": "2026-10-16T01:18:15.336683Z",
       "state": "STALE_UNKNOWN",
-      "title": "559 reader editor export authorization \u00b7 coder",
-      "updatedAt": "2026-10-16T01:16:02.181244Z",
-      "workerType": "coder"
+      "title": "local repair 563 1 \u00b7 planner",
+      "updatedAt": "2026-10-16T01:18:18.824999Z",
+      "workerType": "planner"
     },
     {
       "backend": "Local",
@@ -155,8 +155,28 @@
     "state": "COMPLETE",
     "summary": "The latest two-phase portfolio review is reflected in the controller ledger."
   },
-  "generatedAt": "2026-10-16T01:16:47.959742Z",
+  "generatedAt": "2026-10-16T01:18:49.272004Z",
   "meaningfulEvents": [
+    {
+      "id": "130654",
+      "message": "Queued local repair 563 1 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-16T01:18:15.336721Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "130652",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-16T01:18:15.243976Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
     {
       "id": "130403",
       "message": "Controller recovery restored an interrupted task boundary.",
@@ -166,16 +186,6 @@
       "type": "recovery",
       "verification": "Recorded",
       "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "130402",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "Trace",
-      "timestamp": "2026-10-16T01:10:12.862875Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
     },
     {
       "id": "129980",
@@ -946,16 +956,6 @@
       "type": "task_queued",
       "verification": "Recorded",
       "whyItMatters": "The next unit of work is durable."
-    },
-    {
-      "id": "122699",
-      "message": "Accepted task completed: regenerate plan 542 \u00b7 planner.",
-      "next": "Continue through the next controller gate.",
-      "project": "Trace",
-      "timestamp": "2026-10-15T13:21:23.173301Z",
-      "type": "task_exit_accepted",
-      "verification": "Verified",
-      "whyItMatters": "The controller recorded the completion."
     }
   ],
   "portfolioSummary": {
@@ -1116,13 +1116,13 @@
     {
       "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "559 reader editor export authorization \u00b7 coder",
+      "currentObjective": "local repair 563 1 \u00b7 planner",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "trace",
       "lastAccomplishment": "Verified local repair 559 2 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T01:16:02.181244Z",
+      "lastMeaningfulActivity": "2026-10-16T01:18:18.824999Z",
       "name": "Trace",
       "nextTask": "trace browser e2e \u00b7 coder",
       "operationalState": "RUNNABLE",
@@ -1137,7 +1137,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T01:16:48.236018Z",
+  "publishedAt": "2026-10-16T01:18:49.434620Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1251,9 +1251,9 @@
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0
   },
-  "semanticHash": "5171ac2c75c7c6078d371ba8f2f48d59b010fc0332754d2891d821068f394702",
+  "semanticHash": "3322b82eef6f537340eb2c8d9349a3e7bde7456ad6791080b08fbf4e72cf328b",
   "snapshotVersion": "2.1",
-  "sourceEventAt": "2026-10-16T01:10:12.862901Z",
+  "sourceEventAt": "2026-10-16T01:18:15.336721Z",
   "system": {
     "activeJobs": 1,
     "autonomy": "DEGRADED",

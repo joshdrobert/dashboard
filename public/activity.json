@@ -1,15 +1,21 @@
 [
   {
     "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
+    "message": "Queued local repair 563 1 \u00b7 planner.",
     "project": "Trace",
-    "timestamp": "2026-10-16T01:10:12.862901Z"
+    "timestamp": "2026-10-16T01:18:15.336721Z"
   },
   {
     "level": "Attention",
     "message": "A bounded task failed and entered recovery.",
     "project": "Trace",
-    "timestamp": "2026-10-16T01:10:12.862875Z"
+    "timestamp": "2026-10-16T01:18:15.243976Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "Trace",
+    "timestamp": "2026-10-16T01:10:12.862901Z"
   },
   {
     "level": "Verified",
@@ -472,11 +478,5 @@
     "message": "Queued vision shared gateway smoke 20261015 \u00b7 coder.",
     "project": "AI-Server",
     "timestamp": "2026-10-15T13:25:10.420004Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Accepted task completed: regenerate plan 542 \u00b7 planner.",
-    "project": "Trace",
-    "timestamp": "2026-10-15T13:21:23.173301Z"
   }
 ]
