@@ -12,6 +12,19 @@
     {
       "backend": "Local",
       "heartbeatFresh": true,
+      "id": "625",
+      "parent": "624",
+      "project": "AortaPlan",
+      "resource": "Local agent",
+      "startedAt": "2026-10-16T20:20:24.888878Z",
+      "state": "STALE_UNKNOWN",
+      "title": "plan after 624 \u00b7 planner",
+      "updatedAt": "2026-10-16T20:23:47.376784Z",
+      "workerType": "planner"
+    },
+    {
+      "backend": "Local",
+      "heartbeatFresh": true,
       "id": "615",
       "parent": "609",
       "project": "TEER",
@@ -19,7 +32,7 @@
       "startedAt": "2026-10-16T19:51:07.019663Z",
       "state": "STALE_UNKNOWN",
       "title": "task 595 duplicate test file \u00b7 coder",
-      "updatedAt": "2026-10-16T20:20:44.139606Z",
+      "updatedAt": "2026-10-16T20:23:42.897043Z",
       "workerType": "coder"
     },
     {
@@ -34,19 +47,6 @@
       "title": "local repair 604 1 \u00b7 planner",
       "updatedAt": "2026-10-16T19:45:30.839989Z",
       "workerType": "planner"
-    },
-    {
-      "backend": "Local",
-      "heartbeatFresh": false,
-      "id": "608",
-      "parent": "616",
-      "project": "AortaPlan",
-      "resource": "Local agent",
-      "startedAt": "2026-10-16T18:47:56.720200Z",
-      "state": "FAILED",
-      "title": "task 576 repair coordinate invariants \u00b7 coder",
-      "updatedAt": "2026-10-16T19:57:51.871410Z",
-      "workerType": "coder"
     },
     {
       "backend": "Local",
@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-16T20:22:08.199640Z",
+  "generatedAt": "2026-10-16T20:24:09.112147Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -401,21 +401,21 @@
   },
   "meaningfulEvents": [
     {
-      "id": "142760",
+      "id": "142793",
       "message": "Controller recovery restored an interrupted task boundary.",
       "next": "Continue through the next controller gate.",
       "project": "AortaPlan",
-      "timestamp": "2026-10-16T20:21:37.657188Z",
+      "timestamp": "2026-10-16T20:22:42.169785Z",
       "type": "recovery",
       "verification": "Recorded",
       "whyItMatters": "Safe autonomous execution can resume."
     },
     {
-      "id": "142759",
+      "id": "142792",
       "message": "A bounded task failed and entered recovery.",
       "next": "Continue through the next controller gate.",
       "project": "AortaPlan",
-      "timestamp": "2026-10-16T20:21:37.657128Z",
+      "timestamp": "2026-10-16T20:22:42.169707Z",
       "type": "failure",
       "verification": "Attention",
       "whyItMatters": "The failure remains visible until repaired."
@@ -1231,7 +1231,7 @@
       "status": "Failed / retrying"
     },
     {
-      "agentsNow": "No agent currently executing",
+      "agentsNow": "Running",
       "blocker": null,
       "currentObjective": "plan after 624 \u00b7 planner",
       "deliverable": "A verified bounded project artifact.",
@@ -1239,14 +1239,14 @@
       "id": "aortaplan",
       "lastAccomplishment": "Verified local repair 608 invariant preserve \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T20:21:37.657083Z",
+      "lastMeaningfulActivity": "2026-10-16T20:23:47.376784Z",
       "name": "AortaPlan",
-      "nextTask": "plan after 624 \u00b7 planner",
+      "nextTask": null,
       "operationalState": "RUNNABLE",
       "queueDepth": 1,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Queued"
+      "status": "Running"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1347,7 +1347,7 @@
       "id": "teer",
       "lastAccomplishment": "Verified local repair 596 2 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T20:20:31.211311Z",
+      "lastMeaningfulActivity": "2026-10-16T20:23:36.112186Z",
       "name": "TEER",
       "nextTask": "task 596 cache cleanup \u00b7 coder",
       "operationalState": "RUNNABLE",
@@ -1380,25 +1380,12 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T20:22:08.542096Z",
+  "publishedAt": "2026-10-16T20:24:09.509354Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
   },
   "queuedWork": [
-    {
-      "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "625",
-      "parent": "624",
-      "project": "AortaPlan",
-      "resource": "Local agent",
-      "startedAt": "2026-10-16T20:20:24.888878Z",
-      "state": "QUEUED",
-      "title": "plan after 624 \u00b7 planner",
-      "updatedAt": "2026-10-16T20:21:37.657083Z",
-      "workerType": "planner"
-    },
     {
       "backend": "Local",
       "heartbeatFresh": false,
@@ -1510,11 +1497,11 @@
     "verifiedMilestones24h": 60,
     "verifiedMilestones2h": 25
   },
-  "semanticHash": "6b80a083de4af8bba23a9312ef742a83fa008644bdf27886c3eba27f03e693cb",
+  "semanticHash": "eb20ebdfaacde943641723f9dbe7e8163a59e3b938441ff66fcffed2f4b60383",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-16T20:21:37.657188Z",
+  "sourceEventAt": "2026-10-16T20:22:42.169785Z",
   "system": {
-    "activeJobs": 1,
+    "activeJobs": 2,
     "autonomy": "DEGRADED",
     "status": "Needs attention"
   },
