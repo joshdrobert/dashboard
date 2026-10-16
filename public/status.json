@@ -4,7 +4,7 @@
   "attentionRequired": [
     {
       "category": "Agents debugging",
-      "message": "3 task(s) are in repair or retry states.",
+      "message": "4 task(s) are in repair or retry states.",
       "project": "Portfolio"
     }
   ],
@@ -155,8 +155,18 @@
     "state": "COMPLETE",
     "summary": "The latest two-phase portfolio review is reflected in the controller ledger."
   },
-  "generatedAt": "2026-10-16T11:09:36.370757Z",
+  "generatedAt": "2026-10-16T11:11:39.149437Z",
   "meaningfulEvents": [
+    {
+      "id": "133032",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-16T11:10:41.723844Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
     {
       "id": "132952",
       "message": "Controller recovery restored an interrupted task boundary.",
@@ -946,16 +956,6 @@
       "type": "task_exit_accepted",
       "verification": "Verified",
       "whyItMatters": "The controller recorded the completion."
-    },
-    {
-      "id": "125563",
-      "message": "Queued 551 object storage adapter failure repair \u00b7 coder.",
-      "next": "Continue through the next controller gate.",
-      "project": "Trace",
-      "timestamp": "2026-10-15T14:41:09.328275Z",
-      "type": "task_queued",
-      "verification": "Recorded",
-      "whyItMatters": "The next unit of work is durable."
     }
   ],
   "portfolioSummary": {
@@ -963,7 +963,7 @@
     "activeLocalAgents": 0,
     "activeVisionJobs": 0,
     "executingProjects": 0,
-    "projectsNeedingTechnicalAttention": 3,
+    "projectsNeedingTechnicalAttention": 4,
     "registeredProjects": 9,
     "state": "Needs attention",
     "verifiedCompletions24h": 43
@@ -1042,9 +1042,9 @@
       "status": "Ready"
     },
     {
-      "agentsNow": "Running",
+      "agentsNow": "No agent currently executing",
       "blocker": "Public-safe blocker recorded",
-      "currentObjective": "ditto h1 input domain freeze 20261013 \u00b7 V1 milestone closure",
+      "currentObjective": "local repair 488 2 \u00b7 planner",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "ditto",
@@ -1054,10 +1054,10 @@
       "name": "Ditto",
       "nextTask": null,
       "operationalState": "RUNNABLE",
-      "queueDepth": 1,
+      "queueDepth": 0,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Running"
+      "status": "Failed / retrying"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1114,7 +1114,7 @@
       "status": "Failed / retrying"
     },
     {
-      "agentsNow": "No agent currently executing",
+      "agentsNow": "Running",
       "blocker": null,
       "currentObjective": "trace browser e2e \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
@@ -1122,14 +1122,14 @@
       "id": "trace",
       "lastAccomplishment": "Verified 567 timeout recovery \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T11:06:36.753558Z",
+      "lastMeaningfulActivity": "2026-10-16T11:11:05.533909Z",
       "name": "Trace",
-      "nextTask": "trace browser e2e \u00b7 coder",
+      "nextTask": null,
       "operationalState": "RUNNABLE",
       "queueDepth": 1,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Queued"
+      "status": "Running"
     }
   ],
   "publicationHealth": {
@@ -1137,26 +1137,12 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T11:09:36.549956Z",
+  "publishedAt": "2026-10-16T11:11:39.350390Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
   },
-  "queuedWork": [
-    {
-      "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "537",
-      "parent": "569",
-      "project": "Trace",
-      "resource": "Local agent",
-      "startedAt": "2026-10-15T12:35:33.007726Z",
-      "state": "QUEUED",
-      "title": "trace browser e2e \u00b7 coder",
-      "updatedAt": "2026-10-16T11:09:03.055063Z",
-      "workerType": "coder"
-    }
-  ],
+  "queuedWork": [],
   "recentlyCompleted": [
     {
       "id": "569",
@@ -1251,9 +1237,9 @@
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0
   },
-  "semanticHash": "b31f7638cc22d186f0487512ebe578d27cf284eca603e044b4cf0068071abd41",
+  "semanticHash": "ec470dde53d3d24865d1c21ec3cb930ee5bf5406d37b7698420b9f62e6d25a0d",
   "snapshotVersion": "2.1",
-  "sourceEventAt": "2026-10-16T11:09:03.055104Z",
+  "sourceEventAt": "2026-10-16T11:10:41.723844Z",
   "system": {
     "activeJobs": 1,
     "autonomy": "DEGRADED",
