@@ -1,6 +1,60 @@
 [
   {
     "level": "Recorded",
+    "message": "Queued regenerate plan 594 \u00b7 planner.",
+    "project": "Trace",
+    "timestamp": "2026-10-16T18:05:48.875974Z"
+  },
+  {
+    "level": "Verified",
+    "message": "Verification passed for regenerate plan 590 \u00b7 planner.",
+    "project": "Trace",
+    "timestamp": "2026-10-16T18:05:47.168646Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Queued regenerate plan 593 \u00b7 planner.",
+    "project": "Ditto",
+    "timestamp": "2026-10-16T18:04:48.772756Z"
+  },
+  {
+    "level": "Verified",
+    "message": "Verification passed for local repair 578 2 \u00b7 planner.",
+    "project": "Ditto",
+    "timestamp": "2026-10-16T18:04:48.631035Z"
+  },
+  {
+    "level": "Verified",
+    "message": "Accepted task completed: local repair 580 1 \u00b7 planner.",
+    "project": "TEER",
+    "timestamp": "2026-10-16T18:04:03.790387Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Queued task 580 integration check \u00b7 research.",
+    "project": "TEER",
+    "timestamp": "2026-10-16T18:03:57.159760Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Queued task 580 cache cleanup \u00b7 coder.",
+    "project": "TEER",
+    "timestamp": "2026-10-16T18:03:57.159724Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Queued task 580 test isolation \u00b7 coder.",
+    "project": "TEER",
+    "timestamp": "2026-10-16T18:03:57.159622Z"
+  },
+  {
+    "level": "Verified",
+    "message": "Verification passed for local repair 580 1 \u00b7 planner.",
+    "project": "TEER",
+    "timestamp": "2026-10-16T18:03:56.916458Z"
+  },
+  {
+    "level": "Recorded",
     "message": "Queued regenerate plan 590 \u00b7 planner.",
     "project": "Trace",
     "timestamp": "2026-10-16T18:02:52.616094Z"
@@ -424,59 +478,5 @@
     "message": "A Codex orientation was delivered.",
     "project": "AortaPlan",
     "timestamp": "2026-10-16T15:10:04.114003Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "A Codex orientation was delivered.",
-    "project": "AI-Server",
-    "timestamp": "2026-10-16T15:10:04.112465Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Verification passed for regenerate plan 574 \u00b7 planner.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T11:28:52.311962Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T11:26:43.555949Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T11:26:43.555908Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued regenerate plan 574 \u00b7 planner.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T11:26:28.326952Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Verification passed for regenerate plan 573 \u00b7 planner.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T11:26:26.851749Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T11:24:41.639910Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T11:24:41.639875Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued regenerate plan 573 \u00b7 planner.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T11:21:52.071453Z"
   }
 ]
