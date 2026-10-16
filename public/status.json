@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-16T21:00:34.953459Z",
+  "generatedAt": "2026-10-16T21:02:35.835555Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -1339,22 +1339,22 @@
       "status": "Failed / retrying"
     },
     {
-      "agentsNow": "No agent currently executing",
+      "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "task 621 integration check \u00b7 coder",
+      "currentObjective": "task 597 exclusion \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "teer",
       "lastAccomplishment": "Verified local repair 615 2 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T20:59:15.403842Z",
+      "lastMeaningfulActivity": "2026-10-16T21:01:56.261614Z",
       "name": "TEER",
       "nextTask": "task 621 integration check \u00b7 coder",
       "operationalState": "RUNNABLE",
       "queueDepth": 4,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Queued"
+      "status": "Running"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T21:00:35.161342Z",
+  "publishedAt": "2026-10-16T21:02:36.026462Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1497,11 +1497,11 @@
     "verifiedMilestones24h": 60,
     "verifiedMilestones2h": 27
   },
-  "semanticHash": "e663484ab15241f1c69cc2f091f4e14b8fd0dac37a174c6984676aeb6f92b539",
+  "semanticHash": "840c5482138be099f22855ab243ba9c6da2153fcb6a96fff47edfc0d41eee682",
   "snapshotVersion": "2.3",
   "sourceEventAt": "2026-10-16T21:00:34.444225Z",
   "system": {
-    "activeJobs": 0,
+    "activeJobs": 1,
     "autonomy": "DEGRADED",
     "status": "Needs attention"
   },
