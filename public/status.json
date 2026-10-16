@@ -4,14 +4,14 @@
     {
       "backend": "Local",
       "heartbeatFresh": true,
-      "id": "579",
-      "parent": "514",
-      "project": "EchoNext",
+      "id": "581",
+      "parent": "572",
+      "project": "Trace",
       "resource": "Local agent",
-      "startedAt": "2026-10-16T17:16:08.771322Z",
+      "startedAt": "2026-10-16T17:16:08.774680Z",
       "state": "VERIFYING",
-      "title": "integration repair pytest collision 20261016 \u00b7 coder",
-      "updatedAt": "2026-10-16T17:28:15.867676Z",
+      "title": "integration repair pnpm build policy 20261016 \u00b7 coder",
+      "updatedAt": "2026-10-16T17:30:05.776715Z",
       "workerType": "coder"
     }
   ],
@@ -26,15 +26,15 @@
     {
       "backend": "Local",
       "heartbeatFresh": true,
-      "id": "582",
-      "parent": null,
-      "project": "Trace",
+      "id": "580",
+      "parent": "477",
+      "project": "TEER",
       "resource": "Local agent",
-      "startedAt": "2026-10-16T17:27:07.241992Z",
+      "startedAt": "2026-10-16T17:16:08.773222Z",
       "state": "STALE_UNKNOWN",
-      "title": "local repair 581 1 \u00b7 planner",
-      "updatedAt": "2026-10-16T17:28:01.325777Z",
-      "workerType": "planner"
+      "title": "integration repair pytest collision 20261016 \u00b7 coder",
+      "updatedAt": "2026-10-16T17:30:01.791537Z",
+      "workerType": "coder"
     },
     {
       "backend": "Local",
@@ -78,6 +78,19 @@
     {
       "backend": "Local",
       "heartbeatFresh": false,
+      "id": "575",
+      "parent": "572",
+      "project": "Trace",
+      "resource": "Local agent",
+      "startedAt": "2026-10-16T11:26:28.326911Z",
+      "state": "FAILED",
+      "title": "regenerate plan 574 \u00b7 planner",
+      "updatedAt": "2026-10-16T11:28:52.311839Z",
+      "workerType": "planner"
+    },
+    {
+      "backend": "Local",
+      "heartbeatFresh": false,
       "id": "545",
       "parent": null,
       "project": "AI-Server",
@@ -112,19 +125,6 @@
       "state": "FAILED",
       "title": "local repair 460 2 \u00b7 planner",
       "updatedAt": "2026-10-13T15:16:11.461892Z",
-      "workerType": "planner"
-    },
-    {
-      "backend": "Local",
-      "heartbeatFresh": false,
-      "id": "490",
-      "parent": null,
-      "project": "TEER",
-      "resource": "Local agent",
-      "startedAt": "2026-10-13T14:18:26.667514Z",
-      "state": "FAILED",
-      "title": "local repair 455 2 \u00b7 planner",
-      "updatedAt": "2026-10-13T14:31:57.769333Z",
       "workerType": "planner"
     },
     {
@@ -397,7 +397,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-16T17:28:18.831299Z",
+  "generatedAt": "2026-10-16T17:30:19.823912Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -414,6 +414,56 @@
     "verifiedPending": 3
   },
   "meaningfulEvents": [
+    {
+      "id": "135057",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-16T17:29:57.563303Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "135056",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-16T17:29:57.563258Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
+    {
+      "id": "135055",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-16T17:29:57.521207Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "135048",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "EchoNext",
+      "timestamp": "2026-10-16T17:29:50.259456Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "135047",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "EchoNext",
+      "timestamp": "2026-10-16T17:29:50.259406Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
     {
       "id": "134941",
       "message": "Controller recovery restored an interrupted task boundary.",
@@ -465,16 +515,6 @@
       "whyItMatters": "Safe autonomous execution can resume."
     },
     {
-      "id": "134617",
-      "message": "Controller recovery restored an interrupted task boundary.",
-      "next": "Continue through the next controller gate.",
-      "project": "EchoNext",
-      "timestamp": "2026-10-16T17:24:16.301706Z",
-      "type": "recovery",
-      "verification": "Recorded",
-      "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
       "id": "134616",
       "message": "Controller recovery restored an interrupted task boundary.",
       "next": "Continue through the next controller gate.",
@@ -503,16 +543,6 @@
       "type": "git_integration_complete",
       "verification": "Recorded",
       "whyItMatters": "The authoritative event log changed."
-    },
-    {
-      "id": "134418",
-      "message": "Controller recovery restored an interrupted task boundary.",
-      "next": "Continue through the next controller gate.",
-      "project": "Trace",
-      "timestamp": "2026-10-16T17:22:14.134183Z",
-      "type": "recovery",
-      "verification": "Recorded",
-      "whyItMatters": "Safe autonomous execution can resume."
     },
     {
       "id": "134097",
@@ -1183,36 +1213,6 @@
       "type": "accepted",
       "verification": "Verified",
       "whyItMatters": "Dependent work may advance."
-    },
-    {
-      "id": "131158",
-      "message": "Queued local repair 565 1 \u00b7 planner.",
-      "next": "Continue through the next controller gate.",
-      "project": "Trace",
-      "timestamp": "2026-10-16T01:34:02.384514Z",
-      "type": "task_queued",
-      "verification": "Recorded",
-      "whyItMatters": "The next unit of work is durable."
-    },
-    {
-      "id": "130708",
-      "message": "Accepted task completed: local repair 563 1 \u00b7 planner.",
-      "next": "Continue through the next controller gate.",
-      "project": "Trace",
-      "timestamp": "2026-10-16T01:19:21.828798Z",
-      "type": "task_exit_accepted",
-      "verification": "Verified",
-      "whyItMatters": "The controller recorded the completion."
-    },
-    {
-      "id": "130699",
-      "message": "Queued 563 reader editor export authorization \u00b7 coder.",
-      "next": "Continue through the next controller gate.",
-      "project": "Trace",
-      "timestamp": "2026-10-16T01:19:19.014772Z",
-      "type": "task_queued",
-      "verification": "Recorded",
-      "whyItMatters": "The next unit of work is durable."
     }
   ],
   "portfolioSummary": {
@@ -1317,7 +1317,7 @@
       "status": "Running"
     },
     {
-      "agentsNow": "Verifying",
+      "agentsNow": "No agent currently executing",
       "blocker": null,
       "currentObjective": "integration repair pytest collision 20261016 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
@@ -1325,14 +1325,14 @@
       "id": "echonext",
       "lastAccomplishment": "Verified local repair 487 milestone map \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T17:28:15.867676Z",
+      "lastMeaningfulActivity": "2026-10-16T17:29:50.259370Z",
       "name": "EchoNext",
-      "nextTask": null,
+      "nextTask": "integration repair pytest collision 20261016 \u00b7 coder",
       "operationalState": "RUNNABLE",
       "queueDepth": 1,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Verifying"
+      "status": "Queued"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1353,7 +1353,7 @@
       "status": "Failed / retrying"
     },
     {
-      "agentsNow": "No agent currently executing",
+      "agentsNow": "Running",
       "blocker": null,
       "currentObjective": "integration repair pytest collision 20261016 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
@@ -1361,32 +1361,32 @@
       "id": "teer",
       "lastAccomplishment": "Verified local repair 455 1 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T17:27:55.448919Z",
+      "lastMeaningfulActivity": "2026-10-16T17:30:01.791537Z",
       "name": "TEER",
-      "nextTask": "integration repair pytest collision 20261016 \u00b7 coder",
-      "operationalState": "RUNNABLE",
-      "queueDepth": 1,
-      "readyForHuman": false,
-      "researchStage": "Active research program",
-      "status": "Queued"
-    },
-    {
-      "agentsNow": "Running",
-      "blocker": null,
-      "currentObjective": "local repair 581 1 \u00b7 planner",
-      "deliverable": "A verified bounded project artifact.",
-      "goal": "Advance the next verified research milestone.",
-      "id": "trace",
-      "lastAccomplishment": "Verified 537 upload manuscript export \u00b7 coder.",
-      "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T17:28:01.325777Z",
-      "name": "Trace",
       "nextTask": null,
       "operationalState": "RUNNABLE",
       "queueDepth": 1,
       "readyForHuman": false,
       "researchStage": "Active research program",
       "status": "Running"
+    },
+    {
+      "agentsNow": "Verifying",
+      "blocker": null,
+      "currentObjective": "integration repair pnpm build policy 20261016 \u00b7 coder",
+      "deliverable": "A verified bounded project artifact.",
+      "goal": "Advance the next verified research milestone.",
+      "id": "trace",
+      "lastAccomplishment": "Verified 537 upload manuscript export \u00b7 coder.",
+      "lastCodexReview": null,
+      "lastMeaningfulActivity": "2026-10-16T17:30:02.057890Z",
+      "name": "Trace",
+      "nextTask": "local repair 581 1 \u00b7 planner",
+      "operationalState": "RUNNABLE",
+      "queueDepth": 2,
+      "readyForHuman": false,
+      "researchStage": "Active research program",
+      "status": "Verifying"
     }
   ],
   "publicationHealth": {
@@ -1394,7 +1394,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T17:28:19.298140Z",
+  "publishedAt": "2026-10-16T17:30:20.162805Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1403,14 +1403,27 @@
     {
       "backend": "Local",
       "heartbeatFresh": true,
-      "id": "580",
-      "parent": "477",
-      "project": "TEER",
+      "id": "582",
+      "parent": null,
+      "project": "Trace",
       "resource": "Local agent",
-      "startedAt": "2026-10-16T17:16:08.773222Z",
+      "startedAt": "2026-10-16T17:27:07.241992Z",
+      "state": "QUEUED",
+      "title": "local repair 581 1 \u00b7 planner",
+      "updatedAt": "2026-10-16T17:29:57.563231Z",
+      "workerType": "planner"
+    },
+    {
+      "backend": "Local",
+      "heartbeatFresh": true,
+      "id": "579",
+      "parent": "514",
+      "project": "EchoNext",
+      "resource": "Local agent",
+      "startedAt": "2026-10-16T17:16:08.771322Z",
       "state": "QUEUED",
       "title": "integration repair pytest collision 20261016 \u00b7 coder",
-      "updatedAt": "2026-10-16T17:27:55.448919Z",
+      "updatedAt": "2026-10-16T17:29:50.259370Z",
       "workerType": "coder"
     }
   ],
@@ -1511,9 +1524,9 @@
     "verifiedMilestones24h": 28,
     "verifiedMilestones2h": 0
   },
-  "semanticHash": "fc072ac7bb09d908ecad4109d01c726d67881a0736eeb7b2f87f70bf22db35eb",
+  "semanticHash": "d677563eeb050ba4a714c4f81aee992317d4de2c04b7288cfef618fac805234e",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-16T17:27:55.449001Z",
+  "sourceEventAt": "2026-10-16T17:29:57.563303Z",
   "system": {
     "activeJobs": 5,
     "autonomy": "DEGRADED",
