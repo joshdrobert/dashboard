@@ -19,7 +19,7 @@
       "startedAt": "2026-10-16T18:05:48.875920Z",
       "state": "STALE_UNKNOWN",
       "title": "regenerate plan 594 \u00b7 planner",
-      "updatedAt": "2026-10-16T18:06:48.131247Z",
+      "updatedAt": "2026-10-16T18:09:33.887716Z",
       "workerType": "planner"
     },
     {
@@ -58,7 +58,7 @@
       "startedAt": "2026-10-16T17:54:56.093558Z",
       "state": "STALE_UNKNOWN",
       "title": "local repair 579 1 \u00b7 planner",
-      "updatedAt": "2026-10-16T18:08:21.322877Z",
+      "updatedAt": "2026-10-16T18:09:16.945721Z",
       "workerType": "planner"
     },
     {
@@ -71,7 +71,7 @@
       "startedAt": "2026-10-16T17:48:30.712050Z",
       "state": "STALE_UNKNOWN",
       "title": "ctbone continuation boundary check \u00b7 coder",
-      "updatedAt": "2026-10-16T18:07:46.200945Z",
+      "updatedAt": "2026-10-16T18:08:59.460156Z",
       "workerType": "coder"
     },
     {
@@ -84,7 +84,7 @@
       "startedAt": "2026-10-16T17:16:08.766328Z",
       "state": "STALE_UNKNOWN",
       "title": "integration repair physical coordinate invariants 20261016 \u00b7 coder",
-      "updatedAt": "2026-10-16T17:58:10.997236Z",
+      "updatedAt": "2026-10-16T18:10:21.858816Z",
       "workerType": "coder"
     },
     {
@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-16T18:08:23.757129Z",
+  "generatedAt": "2026-10-16T18:10:26.191715Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -400,6 +400,26 @@
     "verifiedPending": 0
   },
   "meaningfulEvents": [
+    {
+      "id": "137129",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-16T18:08:54.517983Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "137128",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-16T18:08:54.517907Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
     {
       "id": "137047",
       "message": "Controller recovery restored an interrupted task boundary.",
@@ -1179,26 +1199,6 @@
       "type": "orientation_delivered",
       "verification": "Recorded",
       "whyItMatters": "Supervisory direction was updated."
-    },
-    {
-      "id": "133949",
-      "message": "A Codex orientation was delivered.",
-      "next": "Continue through the next controller gate.",
-      "project": "BCM-Neuromodulation",
-      "timestamp": "2026-10-16T15:10:04.115062Z",
-      "type": "orientation_delivered",
-      "verification": "Recorded",
-      "whyItMatters": "Supervisory direction was updated."
-    },
-    {
-      "id": "133947",
-      "message": "A Codex orientation was delivered.",
-      "next": "Continue through the next controller gate.",
-      "project": "AortaPlan",
-      "timestamp": "2026-10-16T15:10:04.114003Z",
-      "type": "orientation_delivered",
-      "verification": "Recorded",
-      "whyItMatters": "Supervisory direction was updated."
     }
   ],
   "portfolioSummary": {
@@ -1209,7 +1209,7 @@
     "projectsNeedingTechnicalAttention": 3,
     "registeredProjects": 9,
     "state": "Needs attention",
-    "verifiedCompletions24h": 39
+    "verifiedCompletions24h": 37
   },
   "projects": [
     {
@@ -1239,7 +1239,7 @@
       "id": "aortaplan",
       "lastAccomplishment": "Verified a1 physical space regression bounds \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T17:58:10.997236Z",
+      "lastMeaningfulActivity": "2026-10-16T18:10:21.858816Z",
       "name": "AortaPlan",
       "nextTask": null,
       "operationalState": "RUNNABLE",
@@ -1311,7 +1311,7 @@
       "id": "echonext",
       "lastAccomplishment": "Verified local repair 487 milestone map \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T18:08:21.322877Z",
+      "lastMeaningfulActivity": "2026-10-16T18:09:16.945721Z",
       "name": "EchoNext",
       "nextTask": null,
       "operationalState": "RUNNABLE",
@@ -1365,7 +1365,7 @@
       "id": "trace",
       "lastAccomplishment": "Verified 581 pnpm supply chain gate repair \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T18:06:48.131247Z",
+      "lastMeaningfulActivity": "2026-10-16T18:09:33.887716Z",
       "name": "Trace",
       "nextTask": null,
       "operationalState": "RUNNABLE",
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T18:08:24.297995Z",
+  "publishedAt": "2026-10-16T18:10:26.622766Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1401,7 +1401,7 @@
     },
     {
       "backend": "Local",
-      "heartbeatFresh": true,
+      "heartbeatFresh": false,
       "id": "587",
       "parent": "583",
       "project": "CTBone",
@@ -1507,12 +1507,12 @@
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0,
     "verifiedMilestones12h": 22,
-    "verifiedMilestones24h": 39,
+    "verifiedMilestones24h": 37,
     "verifiedMilestones2h": 14
   },
-  "semanticHash": "043573d2d8b40530d9cc0208f6ec637a7b40f5ba3161909fb4cd139204a36fd1",
+  "semanticHash": "b7165c401837e583a03511bc9ccfe080a5b858174a99ff75144b8ad0c3094e5a",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-16T18:06:55.696275Z",
+  "sourceEventAt": "2026-10-16T18:08:54.517983Z",
   "system": {
     "activeJobs": 5,
     "autonomy": "DEGRADED",
