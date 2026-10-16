@@ -1,5 +1,35 @@
 [
   {
+    "level": "Verified",
+    "message": "Accepted task completed: local repair 577 1 \u00b7 planner.",
+    "project": "CTBone",
+    "timestamp": "2026-10-16T17:48:36.823170Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Queued ctbone extraction provenance root check \u00b7 coder.",
+    "project": "CTBone",
+    "timestamp": "2026-10-16T17:48:30.712100Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Queued ctbone continuation boundary check \u00b7 coder.",
+    "project": "CTBone",
+    "timestamp": "2026-10-16T17:48:30.712065Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Queued ctbone denominator consistency check 20261014 \u00b7 coder.",
+    "project": "CTBone",
+    "timestamp": "2026-10-16T17:48:30.711983Z"
+  },
+  {
+    "level": "Verified",
+    "message": "Verification passed for local repair 577 1 \u00b7 planner.",
+    "project": "CTBone",
+    "timestamp": "2026-10-16T17:48:30.071574Z"
+  },
+  {
     "level": "Recorded",
     "message": "Controller recovery restored an interrupted task boundary.",
     "project": "Ditto",
@@ -448,35 +478,5 @@
     "message": "Verification passed for 567 timeout recovery \u00b7 coder.",
     "project": "Trace",
     "timestamp": "2026-10-16T01:57:57.231278Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T01:56:53.048394Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T01:56:53.048364Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Accepted task completed: local repair 567 1 \u00b7 planner.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T01:54:12.825416Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued 567 timeout recovery \u00b7 coder.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T01:54:09.901689Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Verification passed for local repair 567 1 \u00b7 planner.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T01:54:08.085005Z"
   }
 ]
