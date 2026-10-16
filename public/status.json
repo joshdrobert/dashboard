@@ -19,7 +19,7 @@
       "startedAt": "2026-10-16T00:53:55.063109Z",
       "state": "STALE_UNKNOWN",
       "title": "559 reader editor export authorization \u00b7 coder",
-      "updatedAt": "2026-10-16T01:00:16.266494Z",
+      "updatedAt": "2026-10-16T01:02:17.009079Z",
       "workerType": "coder"
     },
     {
@@ -155,8 +155,28 @@
     "state": "COMPLETE",
     "summary": "The latest two-phase portfolio review is reflected in the controller ledger."
   },
-  "generatedAt": "2026-10-16T01:00:40.796445Z",
+  "generatedAt": "2026-10-16T01:02:41.579702Z",
   "meaningfulEvents": [
+    {
+      "id": "130150",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-16T01:01:13.295331Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "130149",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-16T01:01:13.295308Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
     {
       "id": "129980",
       "message": "Accepted task completed: local repair 559 2 \u00b7 planner.",
@@ -936,26 +956,6 @@
       "type": "task_exit_accepted",
       "verification": "Verified",
       "whyItMatters": "The controller recorded the completion."
-    },
-    {
-      "id": "122690",
-      "message": "Queued 541 deterministic object store regression \u00b7 coder.",
-      "next": "Continue through the next controller gate.",
-      "project": "Trace",
-      "timestamp": "2026-10-15T13:21:20.305830Z",
-      "type": "task_queued",
-      "verification": "Recorded",
-      "whyItMatters": "The next unit of work is durable."
-    },
-    {
-      "id": "122689",
-      "message": "Verification passed for regenerate plan 542 \u00b7 planner.",
-      "next": "Continue through the next controller gate.",
-      "project": "Trace",
-      "timestamp": "2026-10-15T13:21:19.717258Z",
-      "type": "accepted",
-      "verification": "Verified",
-      "whyItMatters": "Dependent work may advance."
     }
   ],
   "portfolioSummary": {
@@ -1122,7 +1122,7 @@
       "id": "trace",
       "lastAccomplishment": "Verified local repair 559 2 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T01:00:16.266494Z",
+      "lastMeaningfulActivity": "2026-10-16T01:02:17.009079Z",
       "name": "Trace",
       "nextTask": "trace browser e2e \u00b7 coder",
       "operationalState": "RUNNABLE",
@@ -1137,7 +1137,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T01:00:40.952536Z",
+  "publishedAt": "2026-10-16T01:02:41.773738Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1251,9 +1251,9 @@
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0
   },
-  "semanticHash": "056f041ec1a92206a896064842aeaa1da4a559e316449cab45bd5e71d59ef8e0",
+  "semanticHash": "81cc4119733fe608d9b4bc76fe57e6bea928639781d535e6107689f51c31decb",
   "snapshotVersion": "2.1",
-  "sourceEventAt": "2026-10-16T00:53:57.853157Z",
+  "sourceEventAt": "2026-10-16T01:01:13.295331Z",
   "system": {
     "activeJobs": 1,
     "autonomy": "DEGRADED",
