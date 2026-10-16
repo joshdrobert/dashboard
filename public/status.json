@@ -137,9 +137,102 @@
     "orientationAcknowledgments": 9,
     "pendingDecisions": 0,
     "projectsReviewed": 9,
-    "reasoningEffort": "medium",
+    "reasoningEffort": "configured",
+    "reviewHistory": [
+      {
+        "blocked": 0,
+        "completedAt": "2026-10-16T10:58:43.447835Z",
+        "cycle": "a0dbf59b05c4",
+        "decided": 9,
+        "dispatched": 5,
+        "executed": 5,
+        "failed": 0,
+        "rejected": 4,
+        "reviewed": 9,
+        "startedAt": "2026-10-16T10:43:53.285724Z",
+        "verified": 5
+      },
+      {
+        "blocked": 0,
+        "completedAt": "2026-10-16T08:43:52.684062Z",
+        "cycle": "7291d6d69061",
+        "decided": 9,
+        "dispatched": 1,
+        "executed": 1,
+        "failed": 0,
+        "rejected": 8,
+        "reviewed": 9,
+        "startedAt": "2026-10-16T08:35:48.652650Z",
+        "verified": 1
+      },
+      {
+        "blocked": 0,
+        "completedAt": "2026-10-16T06:35:47.881583Z",
+        "cycle": "6e831699895f",
+        "decided": 9,
+        "dispatched": 0,
+        "executed": 0,
+        "failed": 0,
+        "rejected": 9,
+        "reviewed": 9,
+        "startedAt": "2026-10-16T05:52:12.555990Z",
+        "verified": 0
+      },
+      {
+        "blocked": 0,
+        "completedAt": "2026-10-16T03:52:11.728879Z",
+        "cycle": "ac573e64dec2",
+        "decided": 9,
+        "dispatched": 0,
+        "executed": 0,
+        "failed": 0,
+        "rejected": 9,
+        "reviewed": 9,
+        "startedAt": "2026-10-16T03:49:18.060268Z",
+        "verified": 0
+      },
+      {
+        "blocked": 0,
+        "completedAt": "2026-10-16T01:49:17.446193Z",
+        "cycle": "4e3f0596b942",
+        "decided": 9,
+        "dispatched": 0,
+        "executed": 0,
+        "failed": 0,
+        "rejected": 9,
+        "reviewed": 9,
+        "startedAt": "2026-10-16T01:43:03.910350Z",
+        "verified": 0
+      },
+      {
+        "blocked": 0,
+        "completedAt": "2026-10-16T00:05:24.776875Z",
+        "cycle": "48ac29fd44a8",
+        "decided": 9,
+        "dispatched": 0,
+        "executed": 0,
+        "failed": 0,
+        "rejected": 9,
+        "reviewed": 9,
+        "startedAt": "2026-10-16T00:00:31.362991Z",
+        "verified": 0
+      },
+      {
+        "blocked": 0,
+        "completedAt": "2026-10-15T13:36:58.823692Z",
+        "cycle": "d168312812c3",
+        "decided": 9,
+        "dispatched": 0,
+        "executed": 0,
+        "failed": 0,
+        "rejected": 9,
+        "reviewed": 9,
+        "startedAt": "2026-10-15T13:31:04.823301Z",
+        "verified": 0
+      }
+    ],
     "state": "COMPLETE",
-    "summary": "The latest two-phase portfolio review is reflected in the controller ledger."
+    "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
   "director": {
     "approvedDecisions": 0,
@@ -151,11 +244,104 @@
     "orientationAcknowledgments": 9,
     "pendingDecisions": 0,
     "projectsReviewed": 9,
-    "reasoningEffort": "medium",
+    "reasoningEffort": "configured",
+    "reviewHistory": [
+      {
+        "blocked": 0,
+        "completedAt": "2026-10-16T10:58:43.447835Z",
+        "cycle": "a0dbf59b05c4",
+        "decided": 9,
+        "dispatched": 5,
+        "executed": 5,
+        "failed": 0,
+        "rejected": 4,
+        "reviewed": 9,
+        "startedAt": "2026-10-16T10:43:53.285724Z",
+        "verified": 5
+      },
+      {
+        "blocked": 0,
+        "completedAt": "2026-10-16T08:43:52.684062Z",
+        "cycle": "7291d6d69061",
+        "decided": 9,
+        "dispatched": 1,
+        "executed": 1,
+        "failed": 0,
+        "rejected": 8,
+        "reviewed": 9,
+        "startedAt": "2026-10-16T08:35:48.652650Z",
+        "verified": 1
+      },
+      {
+        "blocked": 0,
+        "completedAt": "2026-10-16T06:35:47.881583Z",
+        "cycle": "6e831699895f",
+        "decided": 9,
+        "dispatched": 0,
+        "executed": 0,
+        "failed": 0,
+        "rejected": 9,
+        "reviewed": 9,
+        "startedAt": "2026-10-16T05:52:12.555990Z",
+        "verified": 0
+      },
+      {
+        "blocked": 0,
+        "completedAt": "2026-10-16T03:52:11.728879Z",
+        "cycle": "ac573e64dec2",
+        "decided": 9,
+        "dispatched": 0,
+        "executed": 0,
+        "failed": 0,
+        "rejected": 9,
+        "reviewed": 9,
+        "startedAt": "2026-10-16T03:49:18.060268Z",
+        "verified": 0
+      },
+      {
+        "blocked": 0,
+        "completedAt": "2026-10-16T01:49:17.446193Z",
+        "cycle": "4e3f0596b942",
+        "decided": 9,
+        "dispatched": 0,
+        "executed": 0,
+        "failed": 0,
+        "rejected": 9,
+        "reviewed": 9,
+        "startedAt": "2026-10-16T01:43:03.910350Z",
+        "verified": 0
+      },
+      {
+        "blocked": 0,
+        "completedAt": "2026-10-16T00:05:24.776875Z",
+        "cycle": "48ac29fd44a8",
+        "decided": 9,
+        "dispatched": 0,
+        "executed": 0,
+        "failed": 0,
+        "rejected": 9,
+        "reviewed": 9,
+        "startedAt": "2026-10-16T00:00:31.362991Z",
+        "verified": 0
+      },
+      {
+        "blocked": 0,
+        "completedAt": "2026-10-15T13:36:58.823692Z",
+        "cycle": "d168312812c3",
+        "decided": 9,
+        "dispatched": 0,
+        "executed": 0,
+        "failed": 0,
+        "rejected": 9,
+        "reviewed": 9,
+        "startedAt": "2026-10-15T13:31:04.823301Z",
+        "verified": 0
+      }
+    ],
     "state": "COMPLETE",
-    "summary": "The latest two-phase portfolio review is reflected in the controller ledger."
+    "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-16T11:31:50.267888Z",
+  "generatedAt": "2026-10-16T11:49:14.323776Z",
   "meaningfulEvents": [
     {
       "id": "133646",
@@ -1137,7 +1323,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T11:31:50.433252Z",
+  "publishedAt": "2026-10-16T11:49:14.508909Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1235,10 +1421,13 @@
     "datasetsVerified": 0,
     "manuscriptMilestones": 0,
     "note": "Task completion is not counted as scientific completion.",
-    "resultsValidated": 0
+    "resultsValidated": 0,
+    "verifiedMilestones12h": 21,
+    "verifiedMilestones24h": 51,
+    "verifiedMilestones2h": 8
   },
-  "semanticHash": "7ad3e3f0e063bf8df08370285a0a69a16639e03ef74c06be6d66c41c830d658d",
-  "snapshotVersion": "2.1",
+  "semanticHash": "ad3e9af544cc346c1ab5369a7b626074fd351deff1f6e1f65007a76d8bde9ea9",
+  "snapshotVersion": "2.2",
   "sourceEventAt": "2026-10-16T11:28:52.311962Z",
   "system": {
     "activeJobs": 0,
