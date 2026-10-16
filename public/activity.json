@@ -1,5 +1,41 @@
 [
   {
+    "level": "Verified",
+    "message": "Accepted task completed: ctbone determinism recovery 586 \u00b7 coder.",
+    "project": "CTBone",
+    "timestamp": "2026-10-16T19:33:31.545000Z"
+  },
+  {
+    "level": "Verified",
+    "message": "Verification passed for ctbone determinism recovery 586 \u00b7 coder.",
+    "project": "CTBone",
+    "timestamp": "2026-10-16T19:33:25.941304Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "CTBone",
+    "timestamp": "2026-10-16T19:33:18.882489Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "CTBone",
+    "timestamp": "2026-10-16T19:33:18.882374Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "CTBone",
+    "timestamp": "2026-10-16T19:32:17.780234Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "CTBone",
+    "timestamp": "2026-10-16T19:32:17.780204Z"
+  },
+  {
     "level": "Recorded",
     "message": "Queued local repair 596 1 \u00b7 planner.",
     "project": "TEER",
@@ -442,41 +478,5 @@
     "message": "A bounded task failed and entered recovery.",
     "project": "TEER",
     "timestamp": "2026-10-16T17:56:37.393078Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Accepted task completed: ctbone denominator consistency check 20261014 \u00b7 coder.",
-    "project": "CTBone",
-    "timestamp": "2026-10-16T17:55:52.752374Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Verification passed for ctbone denominator consistency check 20261014 \u00b7 coder.",
-    "project": "CTBone",
-    "timestamp": "2026-10-16T17:55:45.053569Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "AortaPlan",
-    "timestamp": "2026-10-16T17:55:36.356344Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "AortaPlan",
-    "timestamp": "2026-10-16T17:55:36.356306Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "CTBone",
-    "timestamp": "2026-10-16T17:55:00.589426Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "CTBone",
-    "timestamp": "2026-10-16T17:55:00.589364Z"
   }
 ]

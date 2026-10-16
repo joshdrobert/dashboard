@@ -12,6 +12,19 @@
     {
       "backend": "Local",
       "heartbeatFresh": true,
+      "id": "611",
+      "parent": null,
+      "project": "CTBone",
+      "resource": "Local agent",
+      "startedAt": "2026-10-16T19:29:16.759744Z",
+      "state": "STALE_UNKNOWN",
+      "title": "local repair 604 1 \u00b7 planner",
+      "updatedAt": "2026-10-16T19:33:29.129466Z",
+      "workerType": "planner"
+    },
+    {
+      "backend": "Local",
+      "heartbeatFresh": true,
       "id": "608",
       "parent": "607",
       "project": "AortaPlan",
@@ -19,20 +32,7 @@
       "startedAt": "2026-10-16T18:47:56.720200Z",
       "state": "STALE_UNKNOWN",
       "title": "task 576 repair coordinate invariants \u00b7 coder",
-      "updatedAt": "2026-10-16T19:29:50.587080Z",
-      "workerType": "coder"
-    },
-    {
-      "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "605",
-      "parent": "601",
-      "project": "CTBone",
-      "resource": "Local agent",
-      "startedAt": "2026-10-16T18:30:35.604043Z",
-      "state": "STALE_UNKNOWN",
-      "title": "ctbone determinism recovery 586 \u00b7 coder",
-      "updatedAt": "2026-10-16T19:31:29.322104Z",
+      "updatedAt": "2026-10-16T19:33:30.994758Z",
       "workerType": "coder"
     },
     {
@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-16T19:31:30.223973Z",
+  "generatedAt": "2026-10-16T19:33:31.639804Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -400,6 +400,66 @@
     "verifiedPending": 0
   },
   "meaningfulEvents": [
+    {
+      "id": "140456",
+      "message": "Accepted task completed: ctbone determinism recovery 586 \u00b7 coder.",
+      "next": "Continue through the next controller gate.",
+      "project": "CTBone",
+      "timestamp": "2026-10-16T19:33:31.545000Z",
+      "type": "task_exit_accepted",
+      "verification": "Verified",
+      "whyItMatters": "The controller recorded the completion."
+    },
+    {
+      "id": "140439",
+      "message": "Verification passed for ctbone determinism recovery 586 \u00b7 coder.",
+      "next": "Continue through the next controller gate.",
+      "project": "CTBone",
+      "timestamp": "2026-10-16T19:33:25.941304Z",
+      "type": "accepted",
+      "verification": "Verified",
+      "whyItMatters": "Dependent work may advance."
+    },
+    {
+      "id": "140419",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "CTBone",
+      "timestamp": "2026-10-16T19:33:18.882489Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "140418",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "CTBone",
+      "timestamp": "2026-10-16T19:33:18.882374Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
+    {
+      "id": "140359",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "CTBone",
+      "timestamp": "2026-10-16T19:32:17.780234Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "140358",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "CTBone",
+      "timestamp": "2026-10-16T19:32:17.780204Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
     {
       "id": "140285",
       "message": "Queued local repair 596 1 \u00b7 planner.",
@@ -1139,66 +1199,6 @@
       "type": "failure",
       "verification": "Attention",
       "whyItMatters": "The failure remains visible until repaired."
-    },
-    {
-      "id": "136549",
-      "message": "Accepted task completed: ctbone denominator consistency check 20261014 \u00b7 coder.",
-      "next": "Continue through the next controller gate.",
-      "project": "CTBone",
-      "timestamp": "2026-10-16T17:55:52.752374Z",
-      "type": "task_exit_accepted",
-      "verification": "Verified",
-      "whyItMatters": "The controller recorded the completion."
-    },
-    {
-      "id": "136535",
-      "message": "Verification passed for ctbone denominator consistency check 20261014 \u00b7 coder.",
-      "next": "Continue through the next controller gate.",
-      "project": "CTBone",
-      "timestamp": "2026-10-16T17:55:45.053569Z",
-      "type": "accepted",
-      "verification": "Verified",
-      "whyItMatters": "Dependent work may advance."
-    },
-    {
-      "id": "136521",
-      "message": "Controller recovery restored an interrupted task boundary.",
-      "next": "Continue through the next controller gate.",
-      "project": "AortaPlan",
-      "timestamp": "2026-10-16T17:55:36.356344Z",
-      "type": "recovery",
-      "verification": "Recorded",
-      "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "136520",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "AortaPlan",
-      "timestamp": "2026-10-16T17:55:36.356306Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
-    },
-    {
-      "id": "136487",
-      "message": "Controller recovery restored an interrupted task boundary.",
-      "next": "Continue through the next controller gate.",
-      "project": "CTBone",
-      "timestamp": "2026-10-16T17:55:00.589426Z",
-      "type": "recovery",
-      "verification": "Recorded",
-      "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "136486",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "CTBone",
-      "timestamp": "2026-10-16T17:55:00.589364Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
     }
   ],
   "portfolioSummary": {
@@ -1209,7 +1209,7 @@
     "projectsNeedingTechnicalAttention": 4,
     "registeredProjects": 9,
     "state": "Needs attention",
-    "verifiedCompletions24h": 45
+    "verifiedCompletions24h": 47
   },
   "projects": [
     {
@@ -1239,7 +1239,7 @@
       "id": "aortaplan",
       "lastAccomplishment": "Verified regenerate plan 606 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T19:29:50.587080Z",
+      "lastMeaningfulActivity": "2026-10-16T19:33:30.994758Z",
       "name": "AortaPlan",
       "nextTask": null,
       "operationalState": "RUNNABLE",
@@ -1269,17 +1269,17 @@
     {
       "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "ctbone determinism recovery 586 \u00b7 coder",
+      "currentObjective": "local repair 604 1 \u00b7 planner",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "ctbone",
-      "lastAccomplishment": "Verified local repair 586 1 \u00b7 planner.",
+      "lastAccomplishment": "Verified ctbone determinism recovery 586 \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T19:29:16.759744Z",
+      "lastMeaningfulActivity": "2026-10-16T19:33:29.129466Z",
       "name": "CTBone",
-      "nextTask": "local repair 604 1 \u00b7 planner",
+      "nextTask": "local repair 603 1 \u00b7 planner",
       "operationalState": "RUNNABLE",
-      "queueDepth": 3,
+      "queueDepth": 2,
       "readyForHuman": false,
       "researchStage": "Active research program",
       "status": "Running"
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T19:31:30.407888Z",
+  "publishedAt": "2026-10-16T19:33:31.852447Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1401,19 +1401,26 @@
     },
     {
       "backend": "Local",
-      "heartbeatFresh": false,
-      "id": "611",
+      "heartbeatFresh": true,
+      "id": "610",
       "parent": null,
       "project": "CTBone",
       "resource": "Local agent",
-      "startedAt": "2026-10-16T19:29:16.759744Z",
+      "startedAt": "2026-10-16T19:25:31.717947Z",
       "state": "QUEUED",
-      "title": "local repair 604 1 \u00b7 planner",
-      "updatedAt": "2026-10-16T19:29:16.759744Z",
+      "title": "local repair 603 1 \u00b7 planner",
+      "updatedAt": "2026-10-16T19:33:18.882326Z",
       "workerType": "planner"
     }
   ],
   "recentlyCompleted": [
+    {
+      "id": "605",
+      "project": "CTBone",
+      "state": "COMPLETED",
+      "title": "ctbone determinism recovery 586 \u00b7 coder",
+      "updatedAt": "2026-10-16T19:33:25.940967Z"
+    },
     {
       "id": "607",
       "project": "AortaPlan",
@@ -1490,13 +1497,6 @@
       "state": "COMPLETED",
       "title": "567 timeout recovery \u00b7 coder",
       "updatedAt": "2026-10-16T01:57:57.231139Z"
-    },
-    {
-      "id": "568",
-      "project": "Trace",
-      "state": "COMPLETED",
-      "title": "local repair 567 1 \u00b7 planner",
-      "updatedAt": "2026-10-16T01:54:08.084893Z"
     }
   ],
   "recoveryWork": [],
@@ -1506,13 +1506,13 @@
     "manuscriptMilestones": 0,
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0,
-    "verifiedMilestones12h": 30,
-    "verifiedMilestones24h": 45,
-    "verifiedMilestones2h": 22
+    "verifiedMilestones12h": 32,
+    "verifiedMilestones24h": 47,
+    "verifiedMilestones2h": 24
   },
-  "semanticHash": "95fc2a0acf10c4ba0909162cbce3817111532b21db5281a75741b6b018b7fbea",
+  "semanticHash": "05d7ec648b8792218d13f34c5746845b61fb188a8de848698a8880194373b73e",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-16T19:31:20.184280Z",
+  "sourceEventAt": "2026-10-16T19:33:31.545000Z",
   "system": {
     "activeJobs": 3,
     "autonomy": "DEGRADED",
