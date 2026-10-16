@@ -144,28 +144,28 @@
         "completedAt": "2026-10-16T10:58:43.447835Z",
         "cycle": "a0dbf59b05c4",
         "decided": 9,
-        "dispatched": 5,
-        "executed": 5,
+        "dispatched": 0,
+        "executed": 0,
         "failed": 0,
-        "matched": 0,
+        "matched": 5,
         "rejected": 4,
         "reviewed": 9,
         "startedAt": "2026-10-16T10:43:53.285724Z",
-        "verified": 5
+        "verified": 0
       },
       {
         "blocked": 0,
         "completedAt": "2026-10-16T08:43:52.684062Z",
         "cycle": "7291d6d69061",
         "decided": 9,
-        "dispatched": 1,
-        "executed": 1,
+        "dispatched": 0,
+        "executed": 0,
         "failed": 0,
-        "matched": 0,
+        "matched": 1,
         "rejected": 8,
         "reviewed": 9,
         "startedAt": "2026-10-16T08:35:48.652650Z",
-        "verified": 1
+        "verified": 0
       },
       {
         "blocked": 0,
@@ -258,28 +258,28 @@
         "completedAt": "2026-10-16T10:58:43.447835Z",
         "cycle": "a0dbf59b05c4",
         "decided": 9,
-        "dispatched": 5,
-        "executed": 5,
+        "dispatched": 0,
+        "executed": 0,
         "failed": 0,
-        "matched": 0,
+        "matched": 5,
         "rejected": 4,
         "reviewed": 9,
         "startedAt": "2026-10-16T10:43:53.285724Z",
-        "verified": 5
+        "verified": 0
       },
       {
         "blocked": 0,
         "completedAt": "2026-10-16T08:43:52.684062Z",
         "cycle": "7291d6d69061",
         "decided": 9,
-        "dispatched": 1,
-        "executed": 1,
+        "dispatched": 0,
+        "executed": 0,
         "failed": 0,
-        "matched": 0,
+        "matched": 1,
         "rejected": 8,
         "reviewed": 9,
         "startedAt": "2026-10-16T08:35:48.652650Z",
-        "verified": 1
+        "verified": 0
       },
       {
         "blocked": 0,
@@ -355,7 +355,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-16T11:50:04.308023Z",
+  "generatedAt": "2026-10-16T11:50:41.451023Z",
   "meaningfulEvents": [
     {
       "id": "133646",
@@ -1440,7 +1440,7 @@
     "verifiedMilestones24h": 51,
     "verifiedMilestones2h": 8
   },
-  "semanticHash": "44da683aefe4a527bcd1b023cb466c05534025480e42d21510e80888d0b4937a",
+  "semanticHash": "3f0315db464ee4656905ea4286257edd06f0a253fa8cbfac6b722d39cf9bca96",
   "snapshotVersion": "2.2",
   "sourceEventAt": "2026-10-16T11:28:52.311962Z",
   "system": {
