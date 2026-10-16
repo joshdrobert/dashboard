@@ -4,7 +4,7 @@
   "attentionRequired": [
     {
       "category": "Agents debugging",
-      "message": "4 task(s) are in repair or retry states.",
+      "message": "5 task(s) are in repair or retry states.",
       "project": "Portfolio"
     }
   ],
@@ -17,9 +17,9 @@
       "project": "Trace",
       "resource": "Local agent",
       "startedAt": "2026-10-16T11:26:28.326911Z",
-      "state": "STALE_UNKNOWN",
+      "state": "FAILED",
       "title": "regenerate plan 574 \u00b7 planner",
-      "updatedAt": "2026-10-16T11:27:17.851885Z",
+      "updatedAt": "2026-10-16T11:28:52.311839Z",
       "workerType": "planner"
     },
     {
@@ -155,8 +155,18 @@
     "state": "COMPLETE",
     "summary": "The latest two-phase portfolio review is reflected in the controller ledger."
   },
-  "generatedAt": "2026-10-16T11:27:48.862472Z",
+  "generatedAt": "2026-10-16T11:29:49.897615Z",
   "meaningfulEvents": [
+    {
+      "id": "133646",
+      "message": "Verification passed for regenerate plan 574 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-16T11:28:52.311962Z",
+      "type": "accepted",
+      "verification": "Verified",
+      "whyItMatters": "Dependent work may advance."
+    },
     {
       "id": "133582",
       "message": "Controller recovery restored an interrupted task boundary.",
@@ -946,16 +956,6 @@
       "type": "accepted",
       "verification": "Verified",
       "whyItMatters": "Dependent work may advance."
-    },
-    {
-      "id": "128205",
-      "message": "Queued local repair 556 1 \u00b7 planner.",
-      "next": "Continue through the next controller gate.",
-      "project": "Trace",
-      "timestamp": "2026-10-15T18:07:15.550556Z",
-      "type": "task_queued",
-      "verification": "Recorded",
-      "whyItMatters": "The next unit of work is durable."
     }
   ],
   "portfolioSummary": {
@@ -963,10 +963,10 @@
     "activeLocalAgents": 0,
     "activeVisionJobs": 0,
     "executingProjects": 0,
-    "projectsNeedingTechnicalAttention": 4,
+    "projectsNeedingTechnicalAttention": 5,
     "registeredProjects": 9,
     "state": "Needs attention",
-    "verifiedCompletions24h": 50
+    "verifiedCompletions24h": 51
   },
   "projects": [
     {
@@ -1114,7 +1114,7 @@
       "status": "Failed / retrying"
     },
     {
-      "agentsNow": "Running",
+      "agentsNow": "No agent currently executing",
       "blocker": null,
       "currentObjective": "regenerate plan 574 \u00b7 planner",
       "deliverable": "A verified bounded project artifact.",
@@ -1122,14 +1122,14 @@
       "id": "trace",
       "lastAccomplishment": "Verified 537 upload manuscript export \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T11:27:17.851885Z",
+      "lastMeaningfulActivity": "2026-10-16T11:28:52.311839Z",
       "name": "Trace",
       "nextTask": null,
       "operationalState": "RUNNABLE",
-      "queueDepth": 1,
+      "queueDepth": 0,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Running"
+      "status": "Failed / retrying"
     }
   ],
   "publicationHealth": {
@@ -1137,7 +1137,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T11:27:49.078339Z",
+  "publishedAt": "2026-10-16T11:29:50.206100Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1237,11 +1237,11 @@
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0
   },
-  "semanticHash": "7ed222be0679885b784713e1b2d46c8257b415ef086f79b7eea65406e21f3b78",
+  "semanticHash": "7537656da8394f67355268a63b9a4d9d4dd4db1b7c6f35b0a8526338c1db6b5d",
   "snapshotVersion": "2.1",
-  "sourceEventAt": "2026-10-16T11:26:43.555949Z",
+  "sourceEventAt": "2026-10-16T11:28:52.311962Z",
   "system": {
-    "activeJobs": 1,
+    "activeJobs": 0,
     "autonomy": "DEGRADED",
     "status": "Needs attention"
   },

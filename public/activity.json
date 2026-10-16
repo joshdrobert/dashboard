@@ -1,5 +1,11 @@
 [
   {
+    "level": "Verified",
+    "message": "Verification passed for regenerate plan 574 \u00b7 planner.",
+    "project": "Trace",
+    "timestamp": "2026-10-16T11:28:52.311962Z"
+  },
+  {
     "level": "Recorded",
     "message": "Controller recovery restored an interrupted task boundary.",
     "project": "Trace",
@@ -472,11 +478,5 @@
     "message": "Verification passed for local repair 556 1 \u00b7 planner.",
     "project": "Trace",
     "timestamp": "2026-10-15T18:09:15.124242Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued local repair 556 1 \u00b7 planner.",
-    "project": "Trace",
-    "timestamp": "2026-10-15T18:07:15.550556Z"
   }
 ]
