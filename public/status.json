@@ -12,14 +12,14 @@
     {
       "backend": "Local",
       "heartbeatFresh": true,
-      "id": "611",
+      "id": "610",
       "parent": null,
       "project": "CTBone",
       "resource": "Local agent",
-      "startedAt": "2026-10-16T19:29:16.759744Z",
+      "startedAt": "2026-10-16T19:25:31.717947Z",
       "state": "STALE_UNKNOWN",
-      "title": "local repair 604 1 \u00b7 planner",
-      "updatedAt": "2026-10-16T19:33:29.129466Z",
+      "title": "local repair 603 1 \u00b7 planner",
+      "updatedAt": "2026-10-16T19:34:48.427428Z",
       "workerType": "planner"
     },
     {
@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-16T19:33:31.639804Z",
+  "generatedAt": "2026-10-16T19:35:33.401462Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -400,6 +400,26 @@
     "verifiedPending": 0
   },
   "meaningfulEvents": [
+    {
+      "id": "140512",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "CTBone",
+      "timestamp": "2026-10-16T19:34:41.099712Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "140511",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "CTBone",
+      "timestamp": "2026-10-16T19:34:41.099672Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
     {
       "id": "140456",
       "message": "Accepted task completed: ctbone determinism recovery 586 \u00b7 coder.",
@@ -1179,26 +1199,6 @@
       "type": "accepted",
       "verification": "Verified",
       "whyItMatters": "Dependent work may advance."
-    },
-    {
-      "id": "136592",
-      "message": "Controller recovery restored an interrupted task boundary.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-16T17:56:37.393118Z",
-      "type": "recovery",
-      "verification": "Recorded",
-      "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "136591",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-16T17:56:37.393078Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
     }
   ],
   "portfolioSummary": {
@@ -1269,15 +1269,15 @@
     {
       "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "local repair 604 1 \u00b7 planner",
+      "currentObjective": "local repair 603 1 \u00b7 planner",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "ctbone",
       "lastAccomplishment": "Verified ctbone determinism recovery 586 \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T19:33:29.129466Z",
+      "lastMeaningfulActivity": "2026-10-16T19:34:43.466385Z",
       "name": "CTBone",
-      "nextTask": "local repair 603 1 \u00b7 planner",
+      "nextTask": "local repair 604 1 \u00b7 planner",
       "operationalState": "RUNNABLE",
       "queueDepth": 2,
       "readyForHuman": false,
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T19:33:31.852447Z",
+  "publishedAt": "2026-10-16T19:35:33.688413Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1402,14 +1402,14 @@
     {
       "backend": "Local",
       "heartbeatFresh": true,
-      "id": "610",
+      "id": "611",
       "parent": null,
       "project": "CTBone",
       "resource": "Local agent",
-      "startedAt": "2026-10-16T19:25:31.717947Z",
+      "startedAt": "2026-10-16T19:29:16.759744Z",
       "state": "QUEUED",
-      "title": "local repair 603 1 \u00b7 planner",
-      "updatedAt": "2026-10-16T19:33:18.882326Z",
+      "title": "local repair 604 1 \u00b7 planner",
+      "updatedAt": "2026-10-16T19:34:41.099654Z",
       "workerType": "planner"
     }
   ],
@@ -1510,9 +1510,9 @@
     "verifiedMilestones24h": 47,
     "verifiedMilestones2h": 24
   },
-  "semanticHash": "05d7ec648b8792218d13f34c5746845b61fb188a8de848698a8880194373b73e",
+  "semanticHash": "dbf32bc1a48a582cbbe58e503aefc65e6c9412b0d192d2b8b144b5edf8685f41",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-16T19:33:31.545000Z",
+  "sourceEventAt": "2026-10-16T19:34:41.099712Z",
   "system": {
     "activeJobs": 3,
     "autonomy": "DEGRADED",

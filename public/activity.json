@@ -1,5 +1,17 @@
 [
   {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "CTBone",
+    "timestamp": "2026-10-16T19:34:41.099712Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "CTBone",
+    "timestamp": "2026-10-16T19:34:41.099672Z"
+  },
+  {
     "level": "Verified",
     "message": "Accepted task completed: ctbone determinism recovery 586 \u00b7 coder.",
     "project": "CTBone",
@@ -466,17 +478,5 @@
     "message": "Verification passed for local repair 578 1 \u00b7 planner.",
     "project": "Ditto",
     "timestamp": "2026-10-16T17:57:54.981377Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "TEER",
-    "timestamp": "2026-10-16T17:56:37.393118Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "TEER",
-    "timestamp": "2026-10-16T17:56:37.393078Z"
   }
 ]
