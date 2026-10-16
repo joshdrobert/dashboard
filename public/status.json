@@ -63,6 +63,19 @@
     },
     {
       "backend": "Local",
+      "heartbeatFresh": true,
+      "id": "516",
+      "parent": "514",
+      "project": "EchoNext",
+      "resource": "Local agent",
+      "startedAt": "2026-10-14T22:06:50.746265Z",
+      "state": "STALE_UNKNOWN",
+      "title": "plan after 514 \u00b7 planner",
+      "updatedAt": "2026-10-16T10:39:50.374473Z",
+      "workerType": "planner"
+    },
+    {
+      "backend": "Local",
       "heartbeatFresh": false,
       "id": "501",
       "parent": null,
@@ -85,19 +98,6 @@
       "state": "FAILED",
       "title": "local repair 460 2 \u00b7 planner",
       "updatedAt": "2026-10-13T15:16:11.461892Z",
-      "workerType": "planner"
-    },
-    {
-      "backend": "Local",
-      "heartbeatFresh": false,
-      "id": "499",
-      "parent": null,
-      "project": "EchoNext",
-      "resource": "Local agent",
-      "startedAt": "2026-10-13T14:35:17.779769Z",
-      "state": "FAILED",
-      "title": "local repair 487 2 \u00b7 planner",
-      "updatedAt": "2026-10-13T14:49:03.961944Z",
       "workerType": "planner"
     },
     {
@@ -155,7 +155,7 @@
     "state": "COMPLETE",
     "summary": "The latest two-phase portfolio review is reflected in the controller ledger."
   },
-  "generatedAt": "2026-10-16T10:38:18.379917Z",
+  "generatedAt": "2026-10-16T10:40:19.566036Z",
   "meaningfulEvents": [
     {
       "id": "132183",
@@ -1042,25 +1042,25 @@
       "status": "Ready"
     },
     {
-      "agentsNow": "No agent currently executing",
+      "agentsNow": "Running",
       "blocker": "Public-safe blocker recorded",
-      "currentObjective": "ditto h1 input domain freeze 20261013 \u00b7 V1 milestone closure",
+      "currentObjective": "ditto lineage roundtrip receipt 20261013 \u00b7 provenance validation",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "ditto",
       "lastAccomplishment": "Verified regenerate plan 501 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T10:36:38.377123Z",
+      "lastMeaningfulActivity": "2026-10-16T10:38:28.233099Z",
       "name": "Ditto",
       "nextTask": "ditto h1 input domain freeze 20261013 \u00b7 V1 milestone closure",
       "operationalState": "RUNNABLE",
       "queueDepth": 2,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Queued"
+      "status": "Running"
     },
     {
-      "agentsNow": "No agent currently executing",
+      "agentsNow": "Running",
       "blocker": null,
       "currentObjective": "plan after 514 \u00b7 planner",
       "deliverable": "A verified bounded project artifact.",
@@ -1068,14 +1068,14 @@
       "id": "echonext",
       "lastAccomplishment": "Verified local repair 487 milestone map \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T10:38:17.744687Z",
+      "lastMeaningfulActivity": "2026-10-16T10:39:50.374473Z",
       "name": "EchoNext",
-      "nextTask": "plan after 514 \u00b7 planner",
+      "nextTask": null,
       "operationalState": "RUNNABLE",
       "queueDepth": 1,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Queued"
+      "status": "Running"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1114,7 +1114,7 @@
       "status": "Failed / retrying"
     },
     {
-      "agentsNow": "No agent currently executing",
+      "agentsNow": "Running",
       "blocker": null,
       "currentObjective": "trace browser e2e \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
@@ -1122,14 +1122,14 @@
       "id": "trace",
       "lastAccomplishment": "Verified 567 timeout recovery \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T10:36:39.607171Z",
+      "lastMeaningfulActivity": "2026-10-16T10:38:29.872731Z",
       "name": "Trace",
-      "nextTask": "trace browser e2e \u00b7 coder",
+      "nextTask": null,
       "operationalState": "RUNNABLE",
       "queueDepth": 1,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Queued"
+      "status": "Running"
     }
   ],
   "publicationHealth": {
@@ -1137,38 +1137,12 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T10:38:18.587735Z",
+  "publishedAt": "2026-10-16T10:40:19.797931Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
   },
   "queuedWork": [
-    {
-      "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "537",
-      "parent": "569",
-      "project": "Trace",
-      "resource": "Local agent",
-      "startedAt": "2026-10-15T12:35:33.007726Z",
-      "state": "QUEUED",
-      "title": "trace browser e2e \u00b7 coder",
-      "updatedAt": "2026-10-16T10:38:17.810465Z",
-      "workerType": "coder"
-    },
-    {
-      "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "516",
-      "parent": "514",
-      "project": "EchoNext",
-      "resource": "Local agent",
-      "startedAt": "2026-10-14T22:06:50.746265Z",
-      "state": "QUEUED",
-      "title": "plan after 514 \u00b7 planner",
-      "updatedAt": "2026-10-16T10:38:17.744687Z",
-      "workerType": "planner"
-    },
     {
       "backend": "Local",
       "heartbeatFresh": false,
@@ -1277,11 +1251,11 @@
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0
   },
-  "semanticHash": "ae8aa0c1313d5b24e87a37effb8429781dbd578050eaaf8e97b6bc6e1d98b036",
+  "semanticHash": "73770707f111a56afafee792a6e91596ceb2ec5aa80e376ddadefc5ce059f2cc",
   "snapshotVersion": "2.1",
   "sourceEventAt": "2026-10-16T10:38:17.818553Z",
   "system": {
-    "activeJobs": 0,
+    "activeJobs": 3,
     "autonomy": "DEGRADED",
     "status": "Needs attention"
   },
