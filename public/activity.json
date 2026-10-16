@@ -1,6 +1,36 @@
 [
   {
     "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "Ditto",
+    "timestamp": "2026-10-16T17:46:13.950449Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "Ditto",
+    "timestamp": "2026-10-16T17:46:13.950365Z"
+  },
+  {
+    "level": "Verified",
+    "message": "Accepted task completed: local repair 581 1 \u00b7 planner.",
+    "project": "Trace",
+    "timestamp": "2026-10-16T17:45:51.127538Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Queued 581 pnpm supply chain gate repair \u00b7 coder.",
+    "project": "Trace",
+    "timestamp": "2026-10-16T17:45:44.903204Z"
+  },
+  {
+    "level": "Verified",
+    "message": "Verification passed for local repair 581 1 \u00b7 planner.",
+    "project": "Trace",
+    "timestamp": "2026-10-16T17:45:44.866097Z"
+  },
+  {
+    "level": "Recorded",
     "message": "Queued local repair 577 1 \u00b7 planner.",
     "project": "CTBone",
     "timestamp": "2026-10-16T17:43:53.374690Z"
@@ -22,18 +52,6 @@
     "message": "A bounded task failed and entered recovery.",
     "project": "TEER",
     "timestamp": "2026-10-16T17:42:39.347529Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "Ditto",
-    "timestamp": "2026-10-16T17:42:02.877569Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "Ditto",
-    "timestamp": "2026-10-16T17:42:02.877513Z"
   },
   {
     "level": "Recorded",
@@ -460,23 +478,5 @@
     "message": "Verification passed for local repair 567 1 \u00b7 planner.",
     "project": "Trace",
     "timestamp": "2026-10-16T01:54:08.085005Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued local repair 567 1 \u00b7 planner.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T01:53:10.390826Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T01:53:07.758455Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T01:41:28.101340Z"
   }
 ]
