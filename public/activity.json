@@ -1,5 +1,23 @@
 [
   {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "EchoNext",
+    "timestamp": "2026-10-16T18:13:06.183391Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "EchoNext",
+    "timestamp": "2026-10-16T18:13:06.183326Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "Trace",
+    "timestamp": "2026-10-16T18:12:32.880919Z"
+  },
+  {
     "level": "Verified",
     "message": "Accepted task completed: ctbone extraction provenance root check \u00b7 coder.",
     "project": "CTBone",
@@ -28,12 +46,6 @@
     "message": "Controller recovery restored an interrupted task boundary.",
     "project": "Trace",
     "timestamp": "2026-10-16T18:11:14.135401Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T18:11:14.135325Z"
   },
   {
     "level": "Recorded",
@@ -466,17 +478,5 @@
     "message": "A Codex orientation was delivered.",
     "project": "Trace",
     "timestamp": "2026-10-16T15:10:04.121035Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "A Codex orientation was delivered.",
-    "project": "TEER",
-    "timestamp": "2026-10-16T15:10:04.120106Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "A Codex orientation was delivered.",
-    "project": "Papers",
-    "timestamp": "2026-10-16T15:10:04.119270Z"
   }
 ]
