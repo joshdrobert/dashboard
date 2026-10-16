@@ -2,6 +2,48 @@
   {
     "level": "Recorded",
     "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "EchoNext",
+    "timestamp": "2026-10-16T17:58:59.526946Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "EchoNext",
+    "timestamp": "2026-10-16T17:58:59.526889Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "CTBone",
+    "timestamp": "2026-10-16T17:58:39.337173Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "CTBone",
+    "timestamp": "2026-10-16T17:58:39.337092Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Queued local repair 578 2 \u00b7 planner.",
+    "project": "Ditto",
+    "timestamp": "2026-10-16T17:58:07.253302Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Queued regenerate plan 589 \u00b7 planner.",
+    "project": "Ditto",
+    "timestamp": "2026-10-16T17:57:55.929073Z"
+  },
+  {
+    "level": "Verified",
+    "message": "Verification passed for local repair 578 1 \u00b7 planner.",
+    "project": "Ditto",
+    "timestamp": "2026-10-16T17:57:54.981377Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
     "project": "TEER",
     "timestamp": "2026-10-16T17:56:37.393118Z"
   },
@@ -436,47 +478,5 @@
     "message": "Accepted task completed: 537 upload manuscript export \u00b7 coder.",
     "project": "Trace",
     "timestamp": "2026-10-16T11:20:32.168717Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued plan after 572 \u00b7 planner.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T11:20:29.545730Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Verification passed for 537 upload manuscript export \u00b7 coder.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T11:20:27.779323Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Accepted task completed: regenerate plan 570 \u00b7 planner.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T11:16:05.923189Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued 537 upload manuscript export \u00b7 coder.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T11:16:03.017778Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Verification passed for regenerate plan 570 \u00b7 planner.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T11:16:02.305331Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued regenerate plan 570 \u00b7 planner.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T11:14:42.433222Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Verification passed for local repair 537 1 \u00b7 planner.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T11:14:40.693090Z"
   }
 ]
