@@ -3,6 +3,36 @@
     "level": "Recorded",
     "message": "Controller recovery restored an interrupted task boundary.",
     "project": "AortaPlan",
+    "timestamp": "2026-10-16T20:21:37.657188Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "AortaPlan",
+    "timestamp": "2026-10-16T20:21:37.657128Z"
+  },
+  {
+    "level": "Verified",
+    "message": "Accepted task completed: local repair 608 invariant preserve \u00b7 coder.",
+    "project": "AortaPlan",
+    "timestamp": "2026-10-16T20:20:27.746527Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Queued plan after 624 \u00b7 planner.",
+    "project": "AortaPlan",
+    "timestamp": "2026-10-16T20:20:24.889783Z"
+  },
+  {
+    "level": "Verified",
+    "message": "Verification passed for local repair 608 invariant preserve \u00b7 coder.",
+    "project": "AortaPlan",
+    "timestamp": "2026-10-16T20:20:22.778304Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "AortaPlan",
     "timestamp": "2026-10-16T20:18:57.422285Z"
   },
   {
@@ -448,35 +478,5 @@
     "message": "Controller recovery restored an interrupted task boundary.",
     "project": "CTBone",
     "timestamp": "2026-10-16T19:02:00.721288Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued local repair 595 1 \u00b7 planner.",
-    "project": "TEER",
-    "timestamp": "2026-10-16T18:59:58.816934Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "CTBone",
-    "timestamp": "2026-10-16T18:58:43.906442Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Accepted task completed: regenerate plan 606 \u00b7 planner.",
-    "project": "AortaPlan",
-    "timestamp": "2026-10-16T18:48:00.374553Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued task 576 repair coordinate invariants \u00b7 coder.",
-    "project": "AortaPlan",
-    "timestamp": "2026-10-16T18:47:56.720306Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Verification passed for regenerate plan 606 \u00b7 planner.",
-    "project": "AortaPlan",
-    "timestamp": "2026-10-16T18:47:53.678784Z"
   }
 ]

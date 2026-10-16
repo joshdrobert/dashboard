@@ -12,19 +12,6 @@
     {
       "backend": "Local",
       "heartbeatFresh": true,
-      "id": "624",
-      "parent": "619",
-      "project": "AortaPlan",
-      "resource": "Local agent",
-      "startedAt": "2026-10-16T20:05:35.819491Z",
-      "state": "STALE_UNKNOWN",
-      "title": "local repair 608 invariant preserve \u00b7 coder",
-      "updatedAt": "2026-10-16T20:19:34.823978Z",
-      "workerType": "coder"
-    },
-    {
-      "backend": "Local",
-      "heartbeatFresh": true,
       "id": "615",
       "parent": "609",
       "project": "TEER",
@@ -32,7 +19,7 @@
       "startedAt": "2026-10-16T19:51:07.019663Z",
       "state": "STALE_UNKNOWN",
       "title": "task 595 duplicate test file \u00b7 coder",
-      "updatedAt": "2026-10-16T20:17:27.790058Z",
+      "updatedAt": "2026-10-16T20:20:44.139606Z",
       "workerType": "coder"
     },
     {
@@ -47,6 +34,19 @@
       "title": "local repair 604 1 \u00b7 planner",
       "updatedAt": "2026-10-16T19:45:30.839989Z",
       "workerType": "planner"
+    },
+    {
+      "backend": "Local",
+      "heartbeatFresh": false,
+      "id": "608",
+      "parent": "616",
+      "project": "AortaPlan",
+      "resource": "Local agent",
+      "startedAt": "2026-10-16T18:47:56.720200Z",
+      "state": "FAILED",
+      "title": "task 576 repair coordinate invariants \u00b7 coder",
+      "updatedAt": "2026-10-16T19:57:51.871410Z",
+      "workerType": "coder"
     },
     {
       "backend": "Local",
@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-16T20:20:05.907048Z",
+  "generatedAt": "2026-10-16T20:22:08.199640Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -400,6 +400,56 @@
     "verifiedPending": 0
   },
   "meaningfulEvents": [
+    {
+      "id": "142760",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "AortaPlan",
+      "timestamp": "2026-10-16T20:21:37.657188Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "142759",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "AortaPlan",
+      "timestamp": "2026-10-16T20:21:37.657128Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
+    {
+      "id": "142671",
+      "message": "Accepted task completed: local repair 608 invariant preserve \u00b7 coder.",
+      "next": "Continue through the next controller gate.",
+      "project": "AortaPlan",
+      "timestamp": "2026-10-16T20:20:27.746527Z",
+      "type": "task_exit_accepted",
+      "verification": "Verified",
+      "whyItMatters": "The controller recorded the completion."
+    },
+    {
+      "id": "142664",
+      "message": "Queued plan after 624 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "AortaPlan",
+      "timestamp": "2026-10-16T20:20:24.889783Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "142663",
+      "message": "Verification passed for local repair 608 invariant preserve \u00b7 coder.",
+      "next": "Continue through the next controller gate.",
+      "project": "AortaPlan",
+      "timestamp": "2026-10-16T20:20:22.778304Z",
+      "type": "accepted",
+      "verification": "Verified",
+      "whyItMatters": "Dependent work may advance."
+    },
     {
       "id": "142611",
       "message": "Controller recovery restored an interrupted task boundary.",
@@ -1149,56 +1199,6 @@
       "type": "recovery",
       "verification": "Recorded",
       "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "139412",
-      "message": "Queued local repair 595 1 \u00b7 planner.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-16T18:59:58.816934Z",
-      "type": "task_queued",
-      "verification": "Recorded",
-      "whyItMatters": "The next unit of work is durable."
-    },
-    {
-      "id": "139342",
-      "message": "Controller recovery restored an interrupted task boundary.",
-      "next": "Continue through the next controller gate.",
-      "project": "CTBone",
-      "timestamp": "2026-10-16T18:58:43.906442Z",
-      "type": "recovery",
-      "verification": "Recorded",
-      "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "138886",
-      "message": "Accepted task completed: regenerate plan 606 \u00b7 planner.",
-      "next": "Continue through the next controller gate.",
-      "project": "AortaPlan",
-      "timestamp": "2026-10-16T18:48:00.374553Z",
-      "type": "task_exit_accepted",
-      "verification": "Verified",
-      "whyItMatters": "The controller recorded the completion."
-    },
-    {
-      "id": "138879",
-      "message": "Queued task 576 repair coordinate invariants \u00b7 coder.",
-      "next": "Continue through the next controller gate.",
-      "project": "AortaPlan",
-      "timestamp": "2026-10-16T18:47:56.720306Z",
-      "type": "task_queued",
-      "verification": "Recorded",
-      "whyItMatters": "The next unit of work is durable."
-    },
-    {
-      "id": "138874",
-      "message": "Verification passed for regenerate plan 606 \u00b7 planner.",
-      "next": "Continue through the next controller gate.",
-      "project": "AortaPlan",
-      "timestamp": "2026-10-16T18:47:53.678784Z",
-      "type": "accepted",
-      "verification": "Verified",
-      "whyItMatters": "Dependent work may advance."
     }
   ],
   "portfolioSummary": {
@@ -1209,7 +1209,7 @@
     "projectsNeedingTechnicalAttention": 4,
     "registeredProjects": 9,
     "state": "Needs attention",
-    "verifiedCompletions24h": 59
+    "verifiedCompletions24h": 60
   },
   "projects": [
     {
@@ -1231,22 +1231,22 @@
       "status": "Failed / retrying"
     },
     {
-      "agentsNow": "Running",
+      "agentsNow": "No agent currently executing",
       "blocker": null,
-      "currentObjective": "local repair 608 invariant preserve \u00b7 coder",
+      "currentObjective": "plan after 624 \u00b7 planner",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "aortaplan",
-      "lastAccomplishment": "Verified local repair 608 synthetic validation \u00b7 coder.",
+      "lastAccomplishment": "Verified local repair 608 invariant preserve \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T20:19:34.823978Z",
+      "lastMeaningfulActivity": "2026-10-16T20:21:37.657083Z",
       "name": "AortaPlan",
-      "nextTask": null,
+      "nextTask": "plan after 624 \u00b7 planner",
       "operationalState": "RUNNABLE",
       "queueDepth": 1,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Running"
+      "status": "Queued"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1347,7 +1347,7 @@
       "id": "teer",
       "lastAccomplishment": "Verified local repair 596 2 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T20:17:10.715552Z",
+      "lastMeaningfulActivity": "2026-10-16T20:20:31.211311Z",
       "name": "TEER",
       "nextTask": "task 596 cache cleanup \u00b7 coder",
       "operationalState": "RUNNABLE",
@@ -1380,12 +1380,25 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T20:20:06.230289Z",
+  "publishedAt": "2026-10-16T20:22:08.542096Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
   },
   "queuedWork": [
+    {
+      "backend": "Local",
+      "heartbeatFresh": true,
+      "id": "625",
+      "parent": "624",
+      "project": "AortaPlan",
+      "resource": "Local agent",
+      "startedAt": "2026-10-16T20:20:24.888878Z",
+      "state": "QUEUED",
+      "title": "plan after 624 \u00b7 planner",
+      "updatedAt": "2026-10-16T20:21:37.657083Z",
+      "workerType": "planner"
+    },
     {
       "backend": "Local",
       "heartbeatFresh": false,
@@ -1401,6 +1414,13 @@
     }
   ],
   "recentlyCompleted": [
+    {
+      "id": "624",
+      "project": "AortaPlan",
+      "state": "COMPLETED",
+      "title": "local repair 608 invariant preserve \u00b7 coder",
+      "updatedAt": "2026-10-16T20:20:22.778005Z"
+    },
     {
       "id": "623",
       "project": "AortaPlan",
@@ -1477,13 +1497,6 @@
       "state": "COMPLETED",
       "title": "ctbone extraction provenance root check \u00b7 coder",
       "updatedAt": "2026-10-16T18:11:57.544974Z"
-    },
-    {
-      "id": "588",
-      "project": "TEER",
-      "state": "COMPLETED",
-      "title": "local repair 580 1 \u00b7 planner",
-      "updatedAt": "2026-10-16T18:03:56.916076Z"
     }
   ],
   "recoveryWork": [],
@@ -1493,15 +1506,15 @@
     "manuscriptMilestones": 0,
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0,
-    "verifiedMilestones12h": 47,
-    "verifiedMilestones24h": 59,
-    "verifiedMilestones2h": 23
+    "verifiedMilestones12h": 49,
+    "verifiedMilestones24h": 60,
+    "verifiedMilestones2h": 25
   },
-  "semanticHash": "601e7ee9ca6123d817142ab95e79291c9d6d2dc6158c0969d85a7abd15816817",
+  "semanticHash": "6b80a083de4af8bba23a9312ef742a83fa008644bdf27886c3eba27f03e693cb",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-16T20:18:57.422285Z",
+  "sourceEventAt": "2026-10-16T20:21:37.657188Z",
   "system": {
-    "activeJobs": 2,
+    "activeJobs": 1,
     "autonomy": "DEGRADED",
     "status": "Needs attention"
   },
