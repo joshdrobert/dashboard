@@ -1,5 +1,23 @@
 [
   {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "Trace",
+    "timestamp": "2026-10-16T18:17:07.221508Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Queued local repair 586 1 \u00b7 planner.",
+    "project": "CTBone",
+    "timestamp": "2026-10-16T18:16:53.819969Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "CTBone",
+    "timestamp": "2026-10-16T18:16:48.353243Z"
+  },
+  {
     "level": "Recorded",
     "message": "Controller recovery restored an interrupted task boundary.",
     "project": "EchoNext",
@@ -10,12 +28,6 @@
     "message": "A bounded task failed and entered recovery.",
     "project": "EchoNext",
     "timestamp": "2026-10-16T18:13:06.183326Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T18:12:32.880919Z"
   },
   {
     "level": "Verified",
@@ -34,12 +46,6 @@
     "message": "Controller recovery restored an interrupted task boundary.",
     "project": "CTBone",
     "timestamp": "2026-10-16T18:11:16.068148Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "CTBone",
-    "timestamp": "2026-10-16T18:11:16.068006Z"
   },
   {
     "level": "Recorded",
@@ -472,11 +478,5 @@
     "message": "A Codex orientation was delivered.",
     "project": "AI-Server",
     "timestamp": "2026-10-16T17:14:29.985311Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "A Codex orientation was delivered.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T15:10:04.121035Z"
   }
 ]

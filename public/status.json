@@ -12,6 +12,19 @@
     {
       "backend": "Local",
       "heartbeatFresh": true,
+      "id": "601",
+      "parent": null,
+      "project": "CTBone",
+      "resource": "Local agent",
+      "startedAt": "2026-10-16T18:16:53.819891Z",
+      "state": "STALE_UNKNOWN",
+      "title": "local repair 586 1 \u00b7 planner",
+      "updatedAt": "2026-10-16T18:17:00.910366Z",
+      "workerType": "planner"
+    },
+    {
+      "backend": "Local",
+      "heartbeatFresh": true,
       "id": "600",
       "parent": null,
       "project": "EchoNext",
@@ -30,9 +43,9 @@
       "project": "Trace",
       "resource": "Local agent",
       "startedAt": "2026-10-16T18:05:48.875920Z",
-      "state": "STALE_UNKNOWN",
+      "state": "FAILED",
       "title": "regenerate plan 594 \u00b7 planner",
-      "updatedAt": "2026-10-16T18:14:05.924159Z",
+      "updatedAt": "2026-10-16T18:17:07.221482Z",
       "workerType": "planner"
     },
     {
@@ -59,19 +72,6 @@
       "state": "STALE_UNKNOWN",
       "title": "task 580 test isolation \u00b7 coder",
       "updatedAt": "2026-10-16T18:11:51.158041Z",
-      "workerType": "coder"
-    },
-    {
-      "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "586",
-      "parent": "583",
-      "project": "CTBone",
-      "resource": "Local agent",
-      "startedAt": "2026-10-16T17:48:30.712050Z",
-      "state": "STALE_UNKNOWN",
-      "title": "ctbone continuation boundary check \u00b7 coder",
-      "updatedAt": "2026-10-16T18:13:15.336199Z",
       "workerType": "coder"
     },
     {
@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-16T18:14:27.186017Z",
+  "generatedAt": "2026-10-16T18:18:30.780673Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -401,6 +401,36 @@
   },
   "meaningfulEvents": [
     {
+      "id": "137535",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-16T18:17:07.221508Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
+    {
+      "id": "137513",
+      "message": "Queued local repair 586 1 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "CTBone",
+      "timestamp": "2026-10-16T18:16:53.819969Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "137506",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "CTBone",
+      "timestamp": "2026-10-16T18:16:48.353243Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
+    {
       "id": "137408",
       "message": "Controller recovery restored an interrupted task boundary.",
       "next": "Continue through the next controller gate.",
@@ -416,16 +446,6 @@
       "next": "Continue through the next controller gate.",
       "project": "EchoNext",
       "timestamp": "2026-10-16T18:13:06.183326Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
-    },
-    {
-      "id": "137374",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "Trace",
-      "timestamp": "2026-10-16T18:12:32.880919Z",
       "type": "failure",
       "verification": "Attention",
       "whyItMatters": "The failure remains visible until repaired."
@@ -459,16 +479,6 @@
       "type": "recovery",
       "verification": "Recorded",
       "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "137268",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "CTBone",
-      "timestamp": "2026-10-16T18:11:16.068006Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
     },
     {
       "id": "137263",
@@ -1189,16 +1199,6 @@
       "type": "orientation_delivered",
       "verification": "Recorded",
       "whyItMatters": "Supervisory direction was updated."
-    },
-    {
-      "id": "133961",
-      "message": "A Codex orientation was delivered.",
-      "next": "Continue through the next controller gate.",
-      "project": "Trace",
-      "timestamp": "2026-10-16T15:10:04.121035Z",
-      "type": "orientation_delivered",
-      "verification": "Recorded",
-      "whyItMatters": "Supervisory direction was updated."
     }
   ],
   "portfolioSummary": {
@@ -1269,13 +1269,13 @@
     {
       "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "ctbone continuation boundary check \u00b7 coder",
+      "currentObjective": "local repair 586 1 \u00b7 planner",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "ctbone",
       "lastAccomplishment": "Verified ctbone extraction provenance root check \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T18:12:18.470631Z",
+      "lastMeaningfulActivity": "2026-10-16T18:17:00.910366Z",
       "name": "CTBone",
       "nextTask": null,
       "operationalState": "RUNNABLE",
@@ -1357,7 +1357,7 @@
       "status": "Running"
     },
     {
-      "agentsNow": "Running",
+      "agentsNow": "No agent currently executing",
       "blocker": null,
       "currentObjective": "regenerate plan 594 \u00b7 planner",
       "deliverable": "A verified bounded project artifact.",
@@ -1365,14 +1365,14 @@
       "id": "trace",
       "lastAccomplishment": "Verified 581 pnpm supply chain gate repair \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T18:14:05.924159Z",
+      "lastMeaningfulActivity": "2026-10-16T18:17:07.221482Z",
       "name": "Trace",
       "nextTask": null,
       "operationalState": "RUNNABLE",
-      "queueDepth": 1,
+      "queueDepth": 0,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Running"
+      "status": "Ready"
     }
   ],
   "publicationHealth": {
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T18:14:27.571936Z",
+  "publishedAt": "2026-10-16T18:18:31.089299Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1497,11 +1497,11 @@
     "verifiedMilestones24h": 39,
     "verifiedMilestones2h": 16
   },
-  "semanticHash": "54790b6949654d45d46912229136217c787f047c91e8dfe0119bce544e6622ff",
+  "semanticHash": "391720d1cb7b6001b26c9e04e01c5f5bfb40c6d53c7282d610208f4c92c7823f",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-16T18:13:06.183391Z",
+  "sourceEventAt": "2026-10-16T18:17:07.221508Z",
   "system": {
-    "activeJobs": 5,
+    "activeJobs": 4,
     "autonomy": "DEGRADED",
     "status": "Needs attention"
   },
