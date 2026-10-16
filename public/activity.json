@@ -1,5 +1,59 @@
 [
   {
+    "level": "Verified",
+    "message": "Accepted task completed: task 608 repair plan decompose \u00b7 coder.",
+    "project": "AortaPlan",
+    "timestamp": "2026-10-16T20:01:53.192624Z"
+  },
+  {
+    "level": "Verified",
+    "message": "Verification passed for task 608 repair plan decompose \u00b7 coder.",
+    "project": "AortaPlan",
+    "timestamp": "2026-10-16T20:01:47.192862Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "AortaPlan",
+    "timestamp": "2026-10-16T20:01:37.098601Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "AortaPlan",
+    "timestamp": "2026-10-16T20:01:37.098499Z"
+  },
+  {
+    "level": "Verified",
+    "message": "Accepted task completed: local repair 596 2 \u00b7 planner.",
+    "project": "TEER",
+    "timestamp": "2026-10-16T20:01:04.704325Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Queued task 596 cache cleanup \u00b7 coder.",
+    "project": "TEER",
+    "timestamp": "2026-10-16T20:00:54.973916Z"
+  },
+  {
+    "level": "Verified",
+    "message": "Verification passed for local repair 596 2 \u00b7 planner.",
+    "project": "TEER",
+    "timestamp": "2026-10-16T20:00:54.936949Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "AortaPlan",
+    "timestamp": "2026-10-16T20:00:01.914048Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "AortaPlan",
+    "timestamp": "2026-10-16T20:00:01.914013Z"
+  },
+  {
     "level": "Recorded",
     "message": "Queued local repair 597 1 \u00b7 planner.",
     "project": "TEER",
@@ -424,59 +478,5 @@
     "message": "Controller recovery restored an interrupted task boundary.",
     "project": "EchoNext",
     "timestamp": "2026-10-16T18:22:25.252827Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T18:17:07.221508Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued local repair 586 1 \u00b7 planner.",
-    "project": "CTBone",
-    "timestamp": "2026-10-16T18:16:53.819969Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "CTBone",
-    "timestamp": "2026-10-16T18:16:48.353243Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Accepted task completed: ctbone extraction provenance root check \u00b7 coder.",
-    "project": "CTBone",
-    "timestamp": "2026-10-16T18:12:03.422514Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Verification passed for ctbone extraction provenance root check \u00b7 coder.",
-    "project": "CTBone",
-    "timestamp": "2026-10-16T18:11:57.545255Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "CTBone",
-    "timestamp": "2026-10-16T18:11:16.068148Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T18:11:14.135401Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued local repair 579 2 \u00b7 planner.",
-    "project": "EchoNext",
-    "timestamp": "2026-10-16T18:11:08.586980Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "EchoNext",
-    "timestamp": "2026-10-16T18:10:58.109435Z"
   }
 ]
