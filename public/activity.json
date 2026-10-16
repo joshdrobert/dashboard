@@ -1,5 +1,29 @@
 [
   {
+    "level": "Recorded",
+    "message": "Queued local repair 580 1 \u00b7 planner.",
+    "project": "TEER",
+    "timestamp": "2026-10-16T17:53:25.183112Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "TEER",
+    "timestamp": "2026-10-16T17:53:23.682458Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "Trace",
+    "timestamp": "2026-10-16T17:51:56.627432Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "Trace",
+    "timestamp": "2026-10-16T17:51:56.627371Z"
+  },
+  {
     "level": "Verified",
     "message": "Accepted task completed: local repair 577 1 \u00b7 planner.",
     "project": "CTBone",
@@ -76,12 +100,6 @@
     "message": "Controller recovery restored an interrupted task boundary.",
     "project": "TEER",
     "timestamp": "2026-10-16T17:42:39.347587Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "TEER",
-    "timestamp": "2026-10-16T17:42:39.347529Z"
   },
   {
     "level": "Recorded",
@@ -460,23 +478,5 @@
     "message": "A bounded task failed and entered recovery.",
     "project": "EchoNext",
     "timestamp": "2026-10-16T10:41:02.932131Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "EchoNext",
-    "timestamp": "2026-10-16T10:38:17.754520Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Accepted task completed: 567 timeout recovery \u00b7 coder.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T01:58:01.179833Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Verification passed for 567 timeout recovery \u00b7 coder.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T01:57:57.231278Z"
   }
 ]
