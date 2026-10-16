@@ -1,5 +1,35 @@
 [
   {
+    "level": "Verified",
+    "message": "Accepted task completed: local repair 567 1 \u00b7 planner.",
+    "project": "Trace",
+    "timestamp": "2026-10-16T01:54:12.825416Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Queued 567 timeout recovery \u00b7 coder.",
+    "project": "Trace",
+    "timestamp": "2026-10-16T01:54:09.901689Z"
+  },
+  {
+    "level": "Verified",
+    "message": "Verification passed for local repair 567 1 \u00b7 planner.",
+    "project": "Trace",
+    "timestamp": "2026-10-16T01:54:08.085005Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Queued local repair 567 1 \u00b7 planner.",
+    "project": "Trace",
+    "timestamp": "2026-10-16T01:53:10.390826Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "Trace",
+    "timestamp": "2026-10-16T01:53:07.758455Z"
+  },
+  {
     "level": "Recorded",
     "message": "A Codex orientation was delivered.",
     "project": "Trace",
@@ -58,12 +88,6 @@
     "message": "Controller recovery restored an interrupted task boundary.",
     "project": "Trace",
     "timestamp": "2026-10-16T01:41:28.101340Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T01:41:28.101315Z"
   },
   {
     "level": "Verified",
@@ -454,29 +478,5 @@
     "message": "Accepted task completed: local repair 544 1 \u00b7 planner.",
     "project": "Trace",
     "timestamp": "2026-10-15T14:07:14.591462Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued 544 object store hash rights regression \u00b7 coder.",
-    "project": "Trace",
-    "timestamp": "2026-10-15T14:07:11.678825Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Verification passed for local repair 544 1 \u00b7 planner.",
-    "project": "Trace",
-    "timestamp": "2026-10-15T14:07:10.610504Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued local repair 544 1 \u00b7 planner.",
-    "project": "Trace",
-    "timestamp": "2026-10-15T14:05:09.369856Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "Trace",
-    "timestamp": "2026-10-15T14:05:04.663559Z"
   }
 ]
