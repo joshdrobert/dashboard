@@ -24,6 +24,19 @@
     },
     {
       "backend": "Local",
+      "heartbeatFresh": true,
+      "id": "600",
+      "parent": null,
+      "project": "EchoNext",
+      "resource": "Local agent",
+      "startedAt": "2026-10-16T18:11:08.586899Z",
+      "state": "STALE_UNKNOWN",
+      "title": "local repair 579 2 \u00b7 planner",
+      "updatedAt": "2026-10-16T18:23:57.580044Z",
+      "workerType": "planner"
+    },
+    {
+      "backend": "Local",
       "heartbeatFresh": false,
       "id": "599",
       "parent": "584",
@@ -60,19 +73,6 @@
       "title": "task 580 test isolation \u00b7 coder",
       "updatedAt": "2026-10-16T18:22:11.557861Z",
       "workerType": "coder"
-    },
-    {
-      "backend": "Local",
-      "heartbeatFresh": false,
-      "id": "591",
-      "parent": null,
-      "project": "EchoNext",
-      "resource": "Local agent",
-      "startedAt": "2026-10-16T17:54:56.093558Z",
-      "state": "FAILED",
-      "title": "local repair 579 1 \u00b7 planner",
-      "updatedAt": "2026-10-16T18:10:58.109378Z",
-      "workerType": "planner"
     },
     {
       "backend": "Local",
@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-16T18:22:35.544091Z",
+  "generatedAt": "2026-10-16T18:24:37.333917Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -1303,7 +1303,7 @@
       "status": "Failed / retrying"
     },
     {
-      "agentsNow": "No agent currently executing",
+      "agentsNow": "Running",
       "blocker": null,
       "currentObjective": "local repair 579 2 \u00b7 planner",
       "deliverable": "A verified bounded project artifact.",
@@ -1311,14 +1311,14 @@
       "id": "echonext",
       "lastAccomplishment": "Verified local repair 487 milestone map \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T18:22:25.252741Z",
+      "lastMeaningfulActivity": "2026-10-16T18:23:57.580044Z",
       "name": "EchoNext",
-      "nextTask": "local repair 579 2 \u00b7 planner",
+      "nextTask": null,
       "operationalState": "RUNNABLE",
       "queueDepth": 1,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Queued"
+      "status": "Running"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1380,25 +1380,12 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T18:22:35.782728Z",
+  "publishedAt": "2026-10-16T18:24:37.748335Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
   },
   "queuedWork": [
-    {
-      "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "600",
-      "parent": null,
-      "project": "EchoNext",
-      "resource": "Local agent",
-      "startedAt": "2026-10-16T18:11:08.586899Z",
-      "state": "QUEUED",
-      "title": "local repair 579 2 \u00b7 planner",
-      "updatedAt": "2026-10-16T18:22:25.252741Z",
-      "workerType": "planner"
-    },
     {
       "backend": "Local",
       "heartbeatFresh": false,
@@ -1510,11 +1497,11 @@
     "verifiedMilestones24h": 39,
     "verifiedMilestones2h": 16
   },
-  "semanticHash": "c2663db176d203f5feb1f5d9e5df649087aba99206b73fd6e69647414e97bf86",
+  "semanticHash": "a39dd88a6ee57d4ba5ec696f80142c20dfae1789e1dafb84c9200b5f67cfa4f2",
   "snapshotVersion": "2.3",
   "sourceEventAt": "2026-10-16T18:22:25.252827Z",
   "system": {
-    "activeJobs": 3,
+    "activeJobs": 4,
     "autonomy": "DEGRADED",
     "status": "Needs attention"
   },
