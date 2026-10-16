@@ -1,6 +1,36 @@
 [
   {
     "level": "Recorded",
+    "message": "Queued local repair 615 2 \u00b7 planner.",
+    "project": "TEER",
+    "timestamp": "2026-10-16T20:55:31.867937Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Queued regenerate plan 626 \u00b7 planner.",
+    "project": "TEER",
+    "timestamp": "2026-10-16T20:55:25.470471Z"
+  },
+  {
+    "level": "Verified",
+    "message": "Verification passed for local repair 615 1 \u00b7 planner.",
+    "project": "TEER",
+    "timestamp": "2026-10-16T20:55:25.044087Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Queued local repair 621 1 \u00b7 planner.",
+    "project": "TEER",
+    "timestamp": "2026-10-16T20:54:59.285875Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "TEER",
+    "timestamp": "2026-10-16T20:54:51.877224Z"
+  },
+  {
+    "level": "Recorded",
     "message": "Controller recovery restored an interrupted task boundary.",
     "project": "TEER",
     "timestamp": "2026-10-16T20:46:15.765678Z"
@@ -16,12 +46,6 @@
     "message": "Controller recovery restored an interrupted task boundary.",
     "project": "TEER",
     "timestamp": "2026-10-16T20:45:52.422511Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "TEER",
-    "timestamp": "2026-10-16T20:45:52.422476Z"
   },
   {
     "level": "Verified",
@@ -454,29 +478,5 @@
     "message": "A bounded task failed and entered recovery.",
     "project": "CTBone",
     "timestamp": "2026-10-16T19:32:17.780204Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued local repair 596 1 \u00b7 planner.",
-    "project": "TEER",
-    "timestamp": "2026-10-16T19:31:20.184280Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued local repair 604 1 \u00b7 planner.",
-    "project": "CTBone",
-    "timestamp": "2026-10-16T19:29:16.759783Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "CTBone",
-    "timestamp": "2026-10-16T19:29:07.014591Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued local repair 603 1 \u00b7 planner.",
-    "project": "CTBone",
-    "timestamp": "2026-10-16T19:25:31.717977Z"
   }
 ]
