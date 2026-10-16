@@ -19,7 +19,7 @@
       "startedAt": "2026-10-16T18:47:56.720200Z",
       "state": "STALE_UNKNOWN",
       "title": "task 576 repair coordinate invariants \u00b7 coder",
-      "updatedAt": "2026-10-16T19:16:30.601737Z",
+      "updatedAt": "2026-10-16T19:29:50.587080Z",
       "workerType": "coder"
     },
     {
@@ -32,7 +32,7 @@
       "startedAt": "2026-10-16T18:30:35.604043Z",
       "state": "STALE_UNKNOWN",
       "title": "ctbone determinism recovery 586 \u00b7 coder",
-      "updatedAt": "2026-10-16T19:29:12.409051Z",
+      "updatedAt": "2026-10-16T19:31:29.322104Z",
       "workerType": "coder"
     },
     {
@@ -77,15 +77,15 @@
     {
       "backend": "Local",
       "heartbeatFresh": true,
-      "id": "596",
+      "id": "597",
       "parent": "588",
       "project": "TEER",
       "resource": "Local agent",
-      "startedAt": "2026-10-16T18:03:57.159706Z",
+      "startedAt": "2026-10-16T18:03:57.159743Z",
       "state": "STALE_UNKNOWN",
-      "title": "task 580 cache cleanup \u00b7 coder",
-      "updatedAt": "2026-10-16T19:27:39.162646Z",
-      "workerType": "coder"
+      "title": "task 580 integration check \u00b7 research",
+      "updatedAt": "2026-10-16T19:31:20.698639Z",
+      "workerType": "research"
     },
     {
       "backend": "Local",
@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-16T19:29:29.907503Z",
+  "generatedAt": "2026-10-16T19:31:30.223973Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -400,6 +400,26 @@
     "verifiedPending": 0
   },
   "meaningfulEvents": [
+    {
+      "id": "140285",
+      "message": "Queued local repair 596 1 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-16T19:31:20.184280Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "140269",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-16T19:31:12.260534Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
     {
       "id": "140136",
       "message": "Queued local repair 604 1 \u00b7 planner.",
@@ -489,16 +509,6 @@
       "type": "recovery",
       "verification": "Recorded",
       "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "139878",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-16T19:25:14.069464Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
     },
     {
       "id": "139862",
@@ -1189,16 +1199,6 @@
       "type": "failure",
       "verification": "Attention",
       "whyItMatters": "The failure remains visible until repaired."
-    },
-    {
-      "id": "136478",
-      "message": "Queued local repair 579 1 \u00b7 planner.",
-      "next": "Continue through the next controller gate.",
-      "project": "EchoNext",
-      "timestamp": "2026-10-16T17:54:56.093621Z",
-      "type": "task_queued",
-      "verification": "Recorded",
-      "whyItMatters": "The next unit of work is durable."
     }
   ],
   "portfolioSummary": {
@@ -1239,7 +1239,7 @@
       "id": "aortaplan",
       "lastAccomplishment": "Verified regenerate plan 606 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T19:16:30.601737Z",
+      "lastMeaningfulActivity": "2026-10-16T19:29:50.587080Z",
       "name": "AortaPlan",
       "nextTask": null,
       "operationalState": "RUNNABLE",
@@ -1341,15 +1341,15 @@
     {
       "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "task 580 cache cleanup \u00b7 coder",
+      "currentObjective": "task 580 integration check \u00b7 research",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "teer",
       "lastAccomplishment": "Verified local repair 580 1 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T19:27:30.759960Z",
+      "lastMeaningfulActivity": "2026-10-16T19:31:20.184247Z",
       "name": "TEER",
-      "nextTask": "local repair 595 1 \u00b7 planner",
+      "nextTask": "local repair 596 1 \u00b7 planner",
       "operationalState": "RUNNABLE",
       "queueDepth": 3,
       "readyForHuman": false,
@@ -1380,12 +1380,25 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T19:29:30.095770Z",
+  "publishedAt": "2026-10-16T19:31:30.407888Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
   },
   "queuedWork": [
+    {
+      "backend": "Local",
+      "heartbeatFresh": false,
+      "id": "612",
+      "parent": null,
+      "project": "TEER",
+      "resource": "Local agent",
+      "startedAt": "2026-10-16T19:31:20.184247Z",
+      "state": "QUEUED",
+      "title": "local repair 596 1 \u00b7 planner",
+      "updatedAt": "2026-10-16T19:31:20.184247Z",
+      "workerType": "planner"
+    },
     {
       "backend": "Local",
       "heartbeatFresh": false,
@@ -1397,19 +1410,6 @@
       "state": "QUEUED",
       "title": "local repair 604 1 \u00b7 planner",
       "updatedAt": "2026-10-16T19:29:16.759744Z",
-      "workerType": "planner"
-    },
-    {
-      "backend": "Local",
-      "heartbeatFresh": false,
-      "id": "609",
-      "parent": null,
-      "project": "TEER",
-      "resource": "Local agent",
-      "startedAt": "2026-10-16T18:59:58.816869Z",
-      "state": "QUEUED",
-      "title": "local repair 595 1 \u00b7 planner",
-      "updatedAt": "2026-10-16T19:27:26.912366Z",
       "workerType": "planner"
     }
   ],
@@ -1510,9 +1510,9 @@
     "verifiedMilestones24h": 45,
     "verifiedMilestones2h": 22
   },
-  "semanticHash": "de7d0bf3102035dcbb4222008ffdb4d19757e7ef1459feaafc6eca41732c7d46",
+  "semanticHash": "95fc2a0acf10c4ba0909162cbce3817111532b21db5281a75741b6b018b7fbea",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-16T19:29:16.759783Z",
+  "sourceEventAt": "2026-10-16T19:31:20.184280Z",
   "system": {
     "activeJobs": 3,
     "autonomy": "DEGRADED",

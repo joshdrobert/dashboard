@@ -1,6 +1,18 @@
 [
   {
     "level": "Recorded",
+    "message": "Queued local repair 596 1 \u00b7 planner.",
+    "project": "TEER",
+    "timestamp": "2026-10-16T19:31:20.184280Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "TEER",
+    "timestamp": "2026-10-16T19:31:12.260534Z"
+  },
+  {
+    "level": "Recorded",
     "message": "Queued local repair 604 1 \u00b7 planner.",
     "project": "CTBone",
     "timestamp": "2026-10-16T19:29:16.759783Z"
@@ -52,12 +64,6 @@
     "message": "Controller recovery restored an interrupted task boundary.",
     "project": "TEER",
     "timestamp": "2026-10-16T19:25:14.069499Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "TEER",
-    "timestamp": "2026-10-16T19:25:14.069464Z"
   },
   {
     "level": "Recorded",
@@ -472,11 +478,5 @@
     "message": "A bounded task failed and entered recovery.",
     "project": "CTBone",
     "timestamp": "2026-10-16T17:55:00.589364Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued local repair 579 1 \u00b7 planner.",
-    "project": "EchoNext",
-    "timestamp": "2026-10-16T17:54:56.093621Z"
   }
 ]
