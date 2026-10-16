@@ -19,7 +19,7 @@
       "startedAt": "2026-10-16T11:21:52.071395Z",
       "state": "STALE_UNKNOWN",
       "title": "regenerate plan 573 \u00b7 planner",
-      "updatedAt": "2026-10-16T11:23:33.128684Z",
+      "updatedAt": "2026-10-16T11:25:44.213015Z",
       "workerType": "planner"
     },
     {
@@ -155,24 +155,24 @@
     "state": "COMPLETE",
     "summary": "The latest two-phase portfolio review is reflected in the controller ledger."
   },
-  "generatedAt": "2026-10-16T11:23:48.658315Z",
+  "generatedAt": "2026-10-16T11:25:48.787211Z",
   "meaningfulEvents": [
     {
-      "id": "133474",
+      "id": "133522",
       "message": "Controller recovery restored an interrupted task boundary.",
       "next": "Continue through the next controller gate.",
       "project": "Trace",
-      "timestamp": "2026-10-16T11:22:59.636770Z",
+      "timestamp": "2026-10-16T11:24:41.639910Z",
       "type": "recovery",
       "verification": "Recorded",
       "whyItMatters": "Safe autonomous execution can resume."
     },
     {
-      "id": "133473",
+      "id": "133521",
       "message": "A bounded task failed and entered recovery.",
       "next": "Continue through the next controller gate.",
       "project": "Trace",
-      "timestamp": "2026-10-16T11:22:59.636739Z",
+      "timestamp": "2026-10-16T11:24:41.639875Z",
       "type": "failure",
       "verification": "Attention",
       "whyItMatters": "The failure remains visible until repaired."
@@ -1122,7 +1122,7 @@
       "id": "trace",
       "lastAccomplishment": "Verified 537 upload manuscript export \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T11:23:33.128684Z",
+      "lastMeaningfulActivity": "2026-10-16T11:25:44.213015Z",
       "name": "Trace",
       "nextTask": null,
       "operationalState": "RUNNABLE",
@@ -1137,7 +1137,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T11:23:48.826828Z",
+  "publishedAt": "2026-10-16T11:25:49.090641Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1237,9 +1237,9 @@
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0
   },
-  "semanticHash": "d5ae5f7dc51a791d7bf755cfb24f54e415595f2c49680f45260ba84722bd8406",
+  "semanticHash": "2455b947804b9237701cce928ed3de4600534f60a0675ee97886ff8d673b16a9",
   "snapshotVersion": "2.1",
-  "sourceEventAt": "2026-10-16T11:22:59.636770Z",
+  "sourceEventAt": "2026-10-16T11:24:41.639910Z",
   "system": {
     "activeJobs": 1,
     "autonomy": "DEGRADED",
