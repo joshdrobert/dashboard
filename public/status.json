@@ -12,14 +12,14 @@
     {
       "backend": "Local",
       "heartbeatFresh": true,
-      "id": "622",
+      "id": "623",
       "parent": "619",
       "project": "AortaPlan",
       "resource": "Local agent",
-      "startedAt": "2026-10-16T20:05:35.819422Z",
+      "startedAt": "2026-10-16T20:05:35.819476Z",
       "state": "STALE_UNKNOWN",
-      "title": "local repair 608 bounded steps \u00b7 coder",
-      "updatedAt": "2026-10-16T20:05:42.053421Z",
+      "title": "local repair 608 synthetic validation \u00b7 coder",
+      "updatedAt": "2026-10-16T20:07:37.213233Z",
       "workerType": "coder"
     },
     {
@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-16T20:05:57.453480Z",
+  "generatedAt": "2026-10-16T20:07:57.863992Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -400,6 +400,26 @@
     "verifiedPending": 0
   },
   "meaningfulEvents": [
+    {
+      "id": "142133",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "AortaPlan",
+      "timestamp": "2026-10-16T20:07:29.665106Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "142132",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "AortaPlan",
+      "timestamp": "2026-10-16T20:07:29.665027Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
     {
       "id": "142062",
       "message": "Accepted task completed: local repair 608 2 \u00b7 planner.",
@@ -1179,26 +1199,6 @@
       "type": "task_queued",
       "verification": "Recorded",
       "whyItMatters": "The next unit of work is durable."
-    },
-    {
-      "id": "138073",
-      "message": "Queued ctbone continuation boundary 586 \u00b7 coder.",
-      "next": "Continue through the next controller gate.",
-      "project": "CTBone",
-      "timestamp": "2026-10-16T18:30:35.603924Z",
-      "type": "task_queued",
-      "verification": "Recorded",
-      "whyItMatters": "The next unit of work is durable."
-    },
-    {
-      "id": "138070",
-      "message": "Verification passed for local repair 586 1 \u00b7 planner.",
-      "next": "Continue through the next controller gate.",
-      "project": "CTBone",
-      "timestamp": "2026-10-16T18:30:34.476805Z",
-      "type": "accepted",
-      "verification": "Verified",
-      "whyItMatters": "Dependent work may advance."
     }
   ],
   "portfolioSummary": {
@@ -1233,13 +1233,13 @@
     {
       "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "local repair 608 bounded steps \u00b7 coder",
+      "currentObjective": "local repair 608 synthetic validation \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "aortaplan",
       "lastAccomplishment": "Verified local repair 608 2 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T20:05:36.690612Z",
+      "lastMeaningfulActivity": "2026-10-16T20:07:30.549847Z",
       "name": "AortaPlan",
       "nextTask": "local repair 608 invariant preserve \u00b7 coder",
       "operationalState": "RUNNABLE",
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T20:05:57.730111Z",
+  "publishedAt": "2026-10-16T20:07:58.120765Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1510,9 +1510,9 @@
     "verifiedMilestones24h": 56,
     "verifiedMilestones2h": 21
   },
-  "semanticHash": "15c36790bcdf316e09a8c09018601dbe9e7cd442b2b334b860854a218a6cc4ea",
+  "semanticHash": "f519e73b54a00d4df4eef1a4497395022e90d03eae85c83b37ae9f29b04d6910",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-16T20:05:35.820488Z",
+  "sourceEventAt": "2026-10-16T20:07:29.665106Z",
   "system": {
     "activeJobs": 2,
     "autonomy": "DEGRADED",
