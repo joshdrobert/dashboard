@@ -1,5 +1,23 @@
 [
   {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "Trace",
+    "timestamp": "2026-10-16T17:39:54.142146Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "CTBone",
+    "timestamp": "2026-10-16T17:39:36.524237Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "CTBone",
+    "timestamp": "2026-10-16T17:39:36.524197Z"
+  },
+  {
     "level": "Recorded",
     "message": "Controller recovery restored an interrupted task boundary.",
     "project": "EchoNext",
@@ -10,18 +28,6 @@
     "message": "A bounded task failed and entered recovery.",
     "project": "EchoNext",
     "timestamp": "2026-10-16T17:36:43.612810Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "CTBone",
-    "timestamp": "2026-10-16T17:35:29.008554Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "CTBone",
-    "timestamp": "2026-10-16T17:35:29.008497Z"
   },
   {
     "level": "Recorded",
@@ -76,12 +82,6 @@
     "message": "Queued local repair 581 1 \u00b7 planner.",
     "project": "Trace",
     "timestamp": "2026-10-16T17:27:07.242040Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T17:27:05.726879Z"
   },
   {
     "level": "Recorded",
