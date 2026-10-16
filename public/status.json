@@ -12,14 +12,14 @@
     {
       "backend": "Local",
       "heartbeatFresh": true,
-      "id": "570",
-      "parent": null,
+      "id": "571",
+      "parent": "569",
       "project": "Trace",
       "resource": "Local agent",
-      "startedAt": "2026-10-16T11:13:10.657691Z",
+      "startedAt": "2026-10-16T11:14:42.433178Z",
       "state": "STALE_UNKNOWN",
-      "title": "local repair 537 1 \u00b7 planner",
-      "updatedAt": "2026-10-16T11:13:14.193466Z",
+      "title": "regenerate plan 570 \u00b7 planner",
+      "updatedAt": "2026-10-16T11:15:20.492324Z",
       "workerType": "planner"
     },
     {
@@ -155,8 +155,28 @@
     "state": "COMPLETE",
     "summary": "The latest two-phase portfolio review is reflected in the controller ledger."
   },
-  "generatedAt": "2026-10-16T11:13:41.499120Z",
+  "generatedAt": "2026-10-16T11:15:42.727524Z",
   "meaningfulEvents": [
+    {
+      "id": "133172",
+      "message": "Queued regenerate plan 570 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-16T11:14:42.433222Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "133171",
+      "message": "Verification passed for local repair 537 1 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-16T11:14:40.693090Z",
+      "type": "accepted",
+      "verification": "Verified",
+      "whyItMatters": "Dependent work may advance."
+    },
     {
       "id": "133136",
       "message": "Queued local repair 537 1 \u00b7 planner.",
@@ -936,26 +956,6 @@
       "type": "failure",
       "verification": "Attention",
       "whyItMatters": "The failure remains visible until repaired."
-    },
-    {
-      "id": "125746",
-      "message": "Accepted task completed: 551 object storage adapter failure repair \u00b7 coder.",
-      "next": "Continue through the next controller gate.",
-      "project": "Trace",
-      "timestamp": "2026-10-15T14:43:58.923632Z",
-      "type": "task_exit_accepted",
-      "verification": "Verified",
-      "whyItMatters": "The controller recorded the completion."
-    },
-    {
-      "id": "125741",
-      "message": "Verification passed for 551 object storage adapter failure repair \u00b7 coder.",
-      "next": "Continue through the next controller gate.",
-      "project": "Trace",
-      "timestamp": "2026-10-15T14:43:53.918883Z",
-      "type": "accepted",
-      "verification": "Verified",
-      "whyItMatters": "Dependent work may advance."
     }
   ],
   "portfolioSummary": {
@@ -966,7 +966,7 @@
     "projectsNeedingTechnicalAttention": 4,
     "registeredProjects": 9,
     "state": "Needs attention",
-    "verifiedCompletions24h": 43
+    "verifiedCompletions24h": 44
   },
   "projects": [
     {
@@ -1116,13 +1116,13 @@
     {
       "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "local repair 537 1 \u00b7 planner",
+      "currentObjective": "regenerate plan 570 \u00b7 planner",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "trace",
       "lastAccomplishment": "Verified 567 timeout recovery \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T11:13:14.193466Z",
+      "lastMeaningfulActivity": "2026-10-16T11:15:20.492324Z",
       "name": "Trace",
       "nextTask": null,
       "operationalState": "RUNNABLE",
@@ -1137,7 +1137,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T11:13:41.683988Z",
+  "publishedAt": "2026-10-16T11:15:42.883194Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1237,9 +1237,9 @@
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0
   },
-  "semanticHash": "fcd6760b430553361b142667026d5f937fc405016b6f63520e66258692e78a6b",
+  "semanticHash": "49f51fae7700828b2db9901de82758f25174e1e208017c490ee0cdae24504eaf",
   "snapshotVersion": "2.1",
-  "sourceEventAt": "2026-10-16T11:13:10.657739Z",
+  "sourceEventAt": "2026-10-16T11:14:42.433222Z",
   "system": {
     "activeJobs": 1,
     "autonomy": "DEGRADED",
