@@ -24,15 +24,15 @@
     },
     {
       "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "620",
-      "parent": null,
+      "heartbeatFresh": false,
+      "id": "613",
+      "parent": "588",
       "project": "TEER",
       "resource": "Local agent",
-      "startedAt": "2026-10-16T19:59:43.804032Z",
-      "state": "STALE_UNKNOWN",
-      "title": "local repair 597 1 \u00b7 planner",
-      "updatedAt": "2026-10-16T20:31:37.738449Z",
+      "startedAt": "2026-10-16T19:49:03.936891Z",
+      "state": "FAILED",
+      "title": "regenerate plan 612 \u00b7 planner",
+      "updatedAt": "2026-10-16T19:49:03.936891Z",
       "workerType": "planner"
     },
     {
@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-16T20:32:16.459727Z",
+  "generatedAt": "2026-10-16T20:34:18.142597Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -400,6 +400,26 @@
     "verifiedPending": 0
   },
   "meaningfulEvents": [
+    {
+      "id": "143131",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-16T20:33:04.330805Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "143130",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-16T20:33:04.330730Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
     {
       "id": "143072",
       "message": "Controller recovery restored an interrupted task boundary.",
@@ -1179,26 +1199,6 @@
       "type": "orientation_delivered",
       "verification": "Recorded",
       "whyItMatters": "Supervisory direction was updated."
-    },
-    {
-      "id": "139846",
-      "message": "A Codex orientation was delivered.",
-      "next": "Continue through the next controller gate.",
-      "project": "AI-Server",
-      "timestamp": "2026-10-16T19:21:24.517935Z",
-      "type": "orientation_delivered",
-      "verification": "Recorded",
-      "whyItMatters": "Supervisory direction was updated."
-    },
-    {
-      "id": "139501",
-      "message": "Controller recovery restored an interrupted task boundary.",
-      "next": "Continue through the next controller gate.",
-      "project": "CTBone",
-      "timestamp": "2026-10-16T19:02:00.721288Z",
-      "type": "recovery",
-      "verification": "Recorded",
-      "whyItMatters": "Safe autonomous execution can resume."
     }
   ],
   "portfolioSummary": {
@@ -1209,7 +1209,7 @@
     "projectsNeedingTechnicalAttention": 4,
     "registeredProjects": 9,
     "state": "Needs attention",
-    "verifiedCompletions24h": 59
+    "verifiedCompletions24h": 58
   },
   "projects": [
     {
@@ -1339,22 +1339,22 @@
       "status": "Failed / retrying"
     },
     {
-      "agentsNow": "Running",
+      "agentsNow": "No agent currently executing",
       "blocker": null,
-      "currentObjective": "local repair 597 1 \u00b7 planner",
+      "currentObjective": "task 596 cache cleanup \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "teer",
       "lastAccomplishment": "Verified local repair 596 2 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T20:30:27.527548Z",
+      "lastMeaningfulActivity": "2026-10-16T20:33:06.056824Z",
       "name": "TEER",
       "nextTask": "task 596 cache cleanup \u00b7 coder",
       "operationalState": "RUNNABLE",
       "queueDepth": 4,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Running"
+      "status": "Queued"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T20:32:16.731804Z",
+  "publishedAt": "2026-10-16T20:34:18.341193Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1494,14 +1494,14 @@
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0,
     "verifiedMilestones12h": 49,
-    "verifiedMilestones24h": 59,
+    "verifiedMilestones24h": 58,
     "verifiedMilestones2h": 23
   },
-  "semanticHash": "3ef62f97cfed750c38f046cadd9039e7876cc9b58e4aac96b1ba70a45983b84a",
+  "semanticHash": "4bb24a6533c0fe4cdec2aad7e9b129ef2cb83363b8db83e9cee1db38e09041d1",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-16T20:30:26.823416Z",
+  "sourceEventAt": "2026-10-16T20:33:04.330805Z",
   "system": {
-    "activeJobs": 1,
+    "activeJobs": 0,
     "autonomy": "DEGRADED",
     "status": "Needs attention"
   },
