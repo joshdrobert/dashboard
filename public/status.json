@@ -11,15 +11,15 @@
   "blockedWork": [
     {
       "backend": "Local",
-      "heartbeatFresh": false,
-      "id": "637",
-      "parent": null,
+      "heartbeatFresh": true,
+      "id": "638",
+      "parent": "631",
       "project": "TEER",
       "resource": "Local agent",
-      "startedAt": "2026-10-16T21:40:55.410696Z",
-      "state": "FAILED",
-      "title": "local repair 633 1 \u00b7 planner",
-      "updatedAt": "2026-10-16T21:48:14.437027Z",
+      "startedAt": "2026-10-16T21:46:55.209461Z",
+      "state": "STALE_UNKNOWN",
+      "title": "regenerate plan 635 \u00b7 planner",
+      "updatedAt": "2026-10-16T21:53:09.490318Z",
       "workerType": "planner"
     },
     {
@@ -383,7 +383,7 @@
     "state": "FAILED",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-16T21:51:11.846108Z",
+  "generatedAt": "2026-10-16T21:53:12.590655Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -400,6 +400,16 @@
     "verifiedPending": 0
   },
   "meaningfulEvents": [
+    {
+      "id": "146680",
+      "message": "Queued local repair 634 1 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-16T21:53:09.328550Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
     {
       "id": "146519",
       "message": "Queued regenerate plan 637 \u00b7 planner.",
@@ -1189,16 +1199,6 @@
       "type": "accepted",
       "verification": "Verified",
       "whyItMatters": "Dependent work may advance."
-    },
-    {
-      "id": "141427",
-      "message": "Queued local repair 595 2 \u00b7 planner.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-16T19:53:13.795771Z",
-      "type": "task_queued",
-      "verification": "Recorded",
-      "whyItMatters": "The next unit of work is durable."
     }
   ],
   "portfolioSummary": {
@@ -1341,15 +1341,15 @@
     {
       "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "task 621 integration check \u00b7 coder",
+      "currentObjective": "regenerate plan 635 \u00b7 planner",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "teer",
       "lastAccomplishment": "Verified local repair 615 2 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T21:50:36.690199Z",
+      "lastMeaningfulActivity": "2026-10-16T21:53:09.328524Z",
       "name": "TEER",
-      "nextTask": "regenerate plan 637 \u00b7 planner",
+      "nextTask": "local repair 634 1 \u00b7 planner",
       "operationalState": "RUNNABLE",
       "queueDepth": 4,
       "readyForHuman": false,
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T21:51:12.199870Z",
+  "publishedAt": "2026-10-16T21:53:12.776502Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1389,14 +1389,14 @@
     {
       "backend": "Local",
       "heartbeatFresh": false,
-      "id": "640",
-      "parent": "631",
+      "id": "641",
+      "parent": null,
       "project": "TEER",
       "resource": "Local agent",
-      "startedAt": "2026-10-16T21:48:15.853954Z",
+      "startedAt": "2026-10-16T21:53:09.328524Z",
       "state": "QUEUED",
-      "title": "regenerate plan 637 \u00b7 planner",
-      "updatedAt": "2026-10-16T21:48:15.853954Z",
+      "title": "local repair 634 1 \u00b7 planner",
+      "updatedAt": "2026-10-16T21:53:09.328524Z",
       "workerType": "planner"
     }
   ],
@@ -1495,11 +1495,11 @@
     "resultsValidated": 0,
     "verifiedMilestones12h": 60,
     "verifiedMilestones24h": 60,
-    "verifiedMilestones2h": 26
+    "verifiedMilestones2h": 25
   },
-  "semanticHash": "e4b40f232adc904e16282d2113d2354cdae17777eedb8eed550b8ffec83b60d3",
+  "semanticHash": "66165e45315762610e663b0ef3a87fed007c95105d426d4fa015bb0e647cbb87",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-16T21:48:15.854028Z",
+  "sourceEventAt": "2026-10-16T21:53:09.328550Z",
   "system": {
     "activeJobs": 1,
     "autonomy": "DEGRADED",

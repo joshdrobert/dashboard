@@ -1,6 +1,12 @@
 [
   {
     "level": "Recorded",
+    "message": "Queued local repair 634 1 \u00b7 planner.",
+    "project": "TEER",
+    "timestamp": "2026-10-16T21:53:09.328550Z"
+  },
+  {
+    "level": "Recorded",
     "message": "Queued regenerate plan 637 \u00b7 planner.",
     "project": "TEER",
     "timestamp": "2026-10-16T21:48:15.854028Z"
@@ -472,11 +478,5 @@
     "message": "Verification passed for local repair 608 1 \u00b7 planner.",
     "project": "AortaPlan",
     "timestamp": "2026-10-16T19:53:26.912014Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued local repair 595 2 \u00b7 planner.",
-    "project": "TEER",
-    "timestamp": "2026-10-16T19:53:13.795771Z"
   }
 ]
