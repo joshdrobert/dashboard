@@ -12,14 +12,14 @@
     {
       "backend": "Local",
       "heartbeatFresh": true,
-      "id": "634",
+      "id": "633",
       "parent": "629",
       "project": "TEER",
       "resource": "Local agent",
-      "startedAt": "2026-10-16T20:58:24.152690Z",
+      "startedAt": "2026-10-16T20:58:24.152669Z",
       "state": "STALE_UNKNOWN",
-      "title": "task 621 integration check \u00b7 coder",
-      "updatedAt": "2026-10-16T21:30:32.882745Z",
+      "title": "task 621 cache cleanup \u00b7 coder",
+      "updatedAt": "2026-10-16T21:32:21.934139Z",
       "workerType": "coder"
     },
     {
@@ -383,7 +383,7 @@
     "state": "FAILED",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-16T21:30:55.035996Z",
+  "generatedAt": "2026-10-16T21:32:57.178758Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -400,6 +400,26 @@
     "verifiedPending": 0
   },
   "meaningfulEvents": [
+    {
+      "id": "145787",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-16T21:32:14.378624Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "145786",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-16T21:32:14.378600Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
     {
       "id": "145615",
       "message": "Controller recovery restored an interrupted task boundary.",
@@ -1179,26 +1199,6 @@
       "type": "accepted",
       "verification": "Verified",
       "whyItMatters": "Dependent work may advance."
-    },
-    {
-      "id": "141197",
-      "message": "Queued local repair 596 2 \u00b7 planner.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-16T19:49:12.726906Z",
-      "type": "task_queued",
-      "verification": "Recorded",
-      "whyItMatters": "The next unit of work is durable."
-    },
-    {
-      "id": "141182",
-      "message": "Queued regenerate plan 612 \u00b7 planner.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-16T19:49:03.936947Z",
-      "type": "task_queued",
-      "verification": "Recorded",
-      "whyItMatters": "The next unit of work is durable."
     }
   ],
   "portfolioSummary": {
@@ -1341,13 +1341,13 @@
     {
       "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "task 621 integration check \u00b7 coder",
+      "currentObjective": "task 621 cache cleanup \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "teer",
       "lastAccomplishment": "Verified local repair 615 2 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T21:30:25.317009Z",
+      "lastMeaningfulActivity": "2026-10-16T21:32:15.590357Z",
       "name": "TEER",
       "nextTask": "local repair 632 1 \u00b7 planner",
       "operationalState": "RUNNABLE",
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T21:30:55.303113Z",
+  "publishedAt": "2026-10-16T21:32:57.345219Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1497,9 +1497,9 @@
     "verifiedMilestones24h": 57,
     "verifiedMilestones2h": 27
   },
-  "semanticHash": "375068a4f09e3cc7dd6710f6b76e01db16804ff9b2c6aa5bb1a5336e00b6bbef",
+  "semanticHash": "e18688f80841986ae11a334a8ced67f82412105011da62403b1849f292c977be",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-16T21:29:22.330150Z",
+  "sourceEventAt": "2026-10-16T21:32:14.378624Z",
   "system": {
     "activeJobs": 1,
     "autonomy": "DEGRADED",
