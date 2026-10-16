@@ -155,8 +155,28 @@
     "state": "COMPLETE",
     "summary": "The latest two-phase portfolio review is reflected in the controller ledger."
   },
-  "generatedAt": "2026-10-16T11:07:35.644356Z",
+  "generatedAt": "2026-10-16T11:09:36.370757Z",
   "meaningfulEvents": [
+    {
+      "id": "132952",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-16T11:09:03.055104Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "132951",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-16T11:09:03.055078Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
     {
       "id": "132674",
       "message": "A Codex orientation was delivered.",
@@ -253,26 +273,6 @@
       "next": "Continue through the next controller gate.",
       "project": "Ditto",
       "timestamp": "2026-10-16T10:54:04.748195Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
-    },
-    {
-      "id": "132600",
-      "message": "Controller recovery restored an interrupted task boundary.",
-      "next": "Continue through the next controller gate.",
-      "project": "Trace",
-      "timestamp": "2026-10-16T10:43:52.792353Z",
-      "type": "recovery",
-      "verification": "Recorded",
-      "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "132599",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "Trace",
-      "timestamp": "2026-10-16T10:43:52.792325Z",
       "type": "failure",
       "verification": "Attention",
       "whyItMatters": "The failure remains visible until repaired."
@@ -1050,7 +1050,7 @@
       "id": "ditto",
       "lastAccomplishment": "Verified regenerate plan 501 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T10:54:07.082957Z",
+      "lastMeaningfulActivity": "2026-10-16T11:09:32.732844Z",
       "name": "Ditto",
       "nextTask": null,
       "operationalState": "RUNNABLE",
@@ -1114,7 +1114,7 @@
       "status": "Failed / retrying"
     },
     {
-      "agentsNow": "Running",
+      "agentsNow": "No agent currently executing",
       "blocker": null,
       "currentObjective": "trace browser e2e \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
@@ -1124,12 +1124,12 @@
       "lastCodexReview": null,
       "lastMeaningfulActivity": "2026-10-16T11:06:36.753558Z",
       "name": "Trace",
-      "nextTask": null,
+      "nextTask": "trace browser e2e \u00b7 coder",
       "operationalState": "RUNNABLE",
       "queueDepth": 1,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Running"
+      "status": "Queued"
     }
   ],
   "publicationHealth": {
@@ -1137,12 +1137,26 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T11:07:35.818348Z",
+  "publishedAt": "2026-10-16T11:09:36.549956Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
   },
-  "queuedWork": [],
+  "queuedWork": [
+    {
+      "backend": "Local",
+      "heartbeatFresh": true,
+      "id": "537",
+      "parent": "569",
+      "project": "Trace",
+      "resource": "Local agent",
+      "startedAt": "2026-10-15T12:35:33.007726Z",
+      "state": "QUEUED",
+      "title": "trace browser e2e \u00b7 coder",
+      "updatedAt": "2026-10-16T11:09:03.055063Z",
+      "workerType": "coder"
+    }
+  ],
   "recentlyCompleted": [
     {
       "id": "569",
@@ -1237,11 +1251,11 @@
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0
   },
-  "semanticHash": "41e20c6f8ac8a4c1b087facbf1b0f7f44b2de28fd00754b9f0e19f75f49b2ba4",
+  "semanticHash": "b31f7638cc22d186f0487512ebe578d27cf284eca603e044b4cf0068071abd41",
   "snapshotVersion": "2.1",
-  "sourceEventAt": "2026-10-16T10:58:43.451034Z",
+  "sourceEventAt": "2026-10-16T11:09:03.055104Z",
   "system": {
-    "activeJobs": 2,
+    "activeJobs": 1,
     "autonomy": "DEGRADED",
     "status": "Needs attention"
   },
