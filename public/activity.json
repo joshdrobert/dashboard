@@ -1,6 +1,24 @@
 [
   {
     "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "Trace",
+    "timestamp": "2026-10-16T10:38:17.818553Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "Ditto",
+    "timestamp": "2026-10-16T10:38:17.789675Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "EchoNext",
+    "timestamp": "2026-10-16T10:38:17.754520Z"
+  },
+  {
+    "level": "Recorded",
     "message": "A Codex orientation was delivered.",
     "project": "Trace",
     "timestamp": "2026-10-16T08:43:52.687415Z"
@@ -460,23 +478,5 @@
     "message": "Verification passed for local repair 549 1 \u00b7 planner.",
     "project": "Trace",
     "timestamp": "2026-10-15T14:21:54.015015Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued local repair 549 1 \u00b7 planner.",
-    "project": "Trace",
-    "timestamp": "2026-10-15T14:18:26.671293Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "Trace",
-    "timestamp": "2026-10-15T14:18:23.326920Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "Trace",
-    "timestamp": "2026-10-15T14:13:08.980743Z"
   }
 ]

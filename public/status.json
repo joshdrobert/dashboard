@@ -4,7 +4,7 @@
   "attentionRequired": [
     {
       "category": "Agents debugging",
-      "message": "4 task(s) are in repair or retry states.",
+      "message": "3 task(s) are in repair or retry states.",
       "project": "Portfolio"
     }
   ],
@@ -64,19 +64,6 @@
     {
       "backend": "Local",
       "heartbeatFresh": false,
-      "id": "516",
-      "parent": "514",
-      "project": "EchoNext",
-      "resource": "Local agent",
-      "startedAt": "2026-10-14T22:06:50.746265Z",
-      "state": "FAILED",
-      "title": "plan after 514 \u00b7 planner",
-      "updatedAt": "2026-10-14T22:19:10.922097Z",
-      "workerType": "planner"
-    },
-    {
-      "backend": "Local",
-      "heartbeatFresh": false,
       "id": "501",
       "parent": null,
       "project": "Ditto",
@@ -98,6 +85,19 @@
       "state": "FAILED",
       "title": "local repair 460 2 \u00b7 planner",
       "updatedAt": "2026-10-13T15:16:11.461892Z",
+      "workerType": "planner"
+    },
+    {
+      "backend": "Local",
+      "heartbeatFresh": false,
+      "id": "499",
+      "parent": null,
+      "project": "EchoNext",
+      "resource": "Local agent",
+      "startedAt": "2026-10-13T14:35:17.779769Z",
+      "state": "FAILED",
+      "title": "local repair 487 2 \u00b7 planner",
+      "updatedAt": "2026-10-13T14:49:03.961944Z",
       "workerType": "planner"
     },
     {
@@ -155,8 +155,38 @@
     "state": "COMPLETE",
     "summary": "The latest two-phase portfolio review is reflected in the controller ledger."
   },
-  "generatedAt": "2026-10-16T08:45:19.985415Z",
+  "generatedAt": "2026-10-16T10:38:18.379917Z",
   "meaningfulEvents": [
+    {
+      "id": "132183",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-16T10:38:17.818553Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "132182",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-16T10:38:17.789675Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "132181",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "EchoNext",
+      "timestamp": "2026-10-16T10:38:17.754520Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
     {
       "id": "132006",
       "message": "A Codex orientation was delivered.",
@@ -926,36 +956,6 @@
       "type": "accepted",
       "verification": "Verified",
       "whyItMatters": "Dependent work may advance."
-    },
-    {
-      "id": "124625",
-      "message": "Queued local repair 549 1 \u00b7 planner.",
-      "next": "Continue through the next controller gate.",
-      "project": "Trace",
-      "timestamp": "2026-10-15T14:18:26.671293Z",
-      "type": "task_queued",
-      "verification": "Recorded",
-      "whyItMatters": "The next unit of work is durable."
-    },
-    {
-      "id": "124622",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "Trace",
-      "timestamp": "2026-10-15T14:18:23.326920Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
-    },
-    {
-      "id": "124488",
-      "message": "Controller recovery restored an interrupted task boundary.",
-      "next": "Continue through the next controller gate.",
-      "project": "Trace",
-      "timestamp": "2026-10-15T14:13:08.980743Z",
-      "type": "recovery",
-      "verification": "Recorded",
-      "whyItMatters": "Safe autonomous execution can resume."
     }
   ],
   "portfolioSummary": {
@@ -963,7 +963,7 @@
     "activeLocalAgents": 0,
     "activeVisionJobs": 0,
     "executingProjects": 0,
-    "projectsNeedingTechnicalAttention": 4,
+    "projectsNeedingTechnicalAttention": 3,
     "registeredProjects": 9,
     "state": "Needs attention",
     "verifiedCompletions24h": 43
@@ -1044,20 +1044,20 @@
     {
       "agentsNow": "No agent currently executing",
       "blocker": "Public-safe blocker recorded",
-      "currentObjective": "local repair 488 2 \u00b7 planner",
+      "currentObjective": "ditto h1 input domain freeze 20261013 \u00b7 V1 milestone closure",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "ditto",
       "lastAccomplishment": "Verified regenerate plan 501 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-15T10:40:35.668153Z",
+      "lastMeaningfulActivity": "2026-10-16T10:36:38.377123Z",
       "name": "Ditto",
-      "nextTask": null,
+      "nextTask": "ditto h1 input domain freeze 20261013 \u00b7 V1 milestone closure",
       "operationalState": "RUNNABLE",
-      "queueDepth": 0,
+      "queueDepth": 2,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Failed / retrying"
+      "status": "Queued"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1068,14 +1068,14 @@
       "id": "echonext",
       "lastAccomplishment": "Verified local repair 487 milestone map \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-14T22:19:10.922097Z",
+      "lastMeaningfulActivity": "2026-10-16T10:38:17.744687Z",
       "name": "EchoNext",
-      "nextTask": null,
+      "nextTask": "plan after 514 \u00b7 planner",
       "operationalState": "RUNNABLE",
-      "queueDepth": 0,
+      "queueDepth": 1,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Ready"
+      "status": "Queued"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1122,7 +1122,7 @@
       "id": "trace",
       "lastAccomplishment": "Verified 567 timeout recovery \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T01:57:57.231139Z",
+      "lastMeaningfulActivity": "2026-10-16T10:36:39.607171Z",
       "name": "Trace",
       "nextTask": "trace browser e2e \u00b7 coder",
       "operationalState": "RUNNABLE",
@@ -1137,7 +1137,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T08:45:20.295496Z",
+  "publishedAt": "2026-10-16T10:38:18.587735Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1145,16 +1145,42 @@
   "queuedWork": [
     {
       "backend": "Local",
-      "heartbeatFresh": false,
+      "heartbeatFresh": true,
       "id": "537",
-      "parent": "536",
+      "parent": "569",
       "project": "Trace",
       "resource": "Local agent",
       "startedAt": "2026-10-15T12:35:33.007726Z",
-      "state": "WAITING_DEPENDENCY",
+      "state": "QUEUED",
       "title": "trace browser e2e \u00b7 coder",
-      "updatedAt": "2026-10-15T17:18:55.377404Z",
+      "updatedAt": "2026-10-16T10:38:17.810465Z",
       "workerType": "coder"
+    },
+    {
+      "backend": "Local",
+      "heartbeatFresh": true,
+      "id": "516",
+      "parent": "514",
+      "project": "EchoNext",
+      "resource": "Local agent",
+      "startedAt": "2026-10-14T22:06:50.746265Z",
+      "state": "QUEUED",
+      "title": "plan after 514 \u00b7 planner",
+      "updatedAt": "2026-10-16T10:38:17.744687Z",
+      "workerType": "planner"
+    },
+    {
+      "backend": "Local",
+      "heartbeatFresh": false,
+      "id": "488",
+      "parent": null,
+      "project": "Ditto",
+      "resource": "Local agent",
+      "startedAt": "2026-10-13T14:17:14.369709Z",
+      "state": "QUEUED",
+      "title": "ditto h1 input domain freeze 20261013 \u00b7 V1 milestone closure",
+      "updatedAt": "2026-10-16T10:36:28.577406Z",
+      "workerType": "V1 milestone closure"
     }
   ],
   "recentlyCompleted": [
@@ -1251,9 +1277,9 @@
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0
   },
-  "semanticHash": "65b387e8b1dfb4a3dc89a13c9af538ea88a905200877cb2d0458fbf17d4d13b3",
+  "semanticHash": "ae8aa0c1313d5b24e87a37effb8429781dbd578050eaaf8e97b6bc6e1d98b036",
   "snapshotVersion": "2.1",
-  "sourceEventAt": "2026-10-16T08:43:52.687415Z",
+  "sourceEventAt": "2026-10-16T10:38:17.818553Z",
   "system": {
     "activeJobs": 0,
     "autonomy": "DEGRADED",
