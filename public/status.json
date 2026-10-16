@@ -1,6 +1,20 @@
 {
   "actionRequired": [],
-  "activeWork": [],
+  "activeWork": [
+    {
+      "backend": "Local",
+      "heartbeatFresh": true,
+      "id": "577",
+      "parent": "466",
+      "project": "CTBone",
+      "resource": "Local agent",
+      "startedAt": "2026-10-16T17:16:08.768100Z",
+      "state": "VERIFYING",
+      "title": "integration repair dataset provenance 20261016 \u00b7 coder",
+      "updatedAt": "2026-10-16T17:37:36.270761Z",
+      "workerType": "coder"
+    }
+  ],
   "attentionRequired": [
     {
       "category": "Agents debugging",
@@ -19,7 +33,7 @@
       "startedAt": "2026-10-16T17:16:08.774680Z",
       "state": "STALE_UNKNOWN",
       "title": "integration repair pnpm build policy 20261016 \u00b7 coder",
-      "updatedAt": "2026-10-16T17:34:32.397837Z",
+      "updatedAt": "2026-10-16T17:38:18.115471Z",
       "workerType": "coder"
     },
     {
@@ -32,7 +46,7 @@
       "startedAt": "2026-10-16T17:16:08.773222Z",
       "state": "STALE_UNKNOWN",
       "title": "integration repair pytest collision 20261016 \u00b7 coder",
-      "updatedAt": "2026-10-16T17:37:26.106590Z",
+      "updatedAt": "2026-10-16T17:37:34.049885Z",
       "workerType": "coder"
     },
     {
@@ -383,7 +397,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-16T17:37:28.236781Z",
+  "generatedAt": "2026-10-16T17:39:30.147482Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -1203,9 +1217,9 @@
   ],
   "portfolioSummary": {
     "actionsRequiringUser": 0,
-    "activeLocalAgents": 0,
+    "activeLocalAgents": 1,
     "activeVisionJobs": 0,
-    "executingProjects": 0,
+    "executingProjects": 1,
     "projectsNeedingTechnicalAttention": 2,
     "registeredProjects": 9,
     "state": "Needs attention",
@@ -1267,7 +1281,7 @@
       "status": "Ready"
     },
     {
-      "agentsNow": "No agent currently executing",
+      "agentsNow": "Verifying",
       "blocker": null,
       "currentObjective": "integration repair dataset provenance 20261016 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
@@ -1275,14 +1289,14 @@
       "id": "ctbone",
       "lastAccomplishment": "Verified regenerate plan 465 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T17:35:29.008468Z",
+      "lastMeaningfulActivity": "2026-10-16T17:37:36.270761Z",
       "name": "CTBone",
-      "nextTask": "integration repair dataset provenance 20261016 \u00b7 coder",
+      "nextTask": null,
       "operationalState": "RUNNABLE",
       "queueDepth": 1,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Queued"
+      "status": "Verifying"
     },
     {
       "agentsNow": "Running",
@@ -1347,7 +1361,7 @@
       "id": "teer",
       "lastAccomplishment": "Verified local repair 455 1 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T17:37:26.106590Z",
+      "lastMeaningfulActivity": "2026-10-16T17:37:34.049885Z",
       "name": "TEER",
       "nextTask": null,
       "operationalState": "RUNNABLE",
@@ -1380,7 +1394,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T17:37:28.436560Z",
+  "publishedAt": "2026-10-16T17:39:30.533464Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1401,7 +1415,7 @@
     },
     {
       "backend": "Local",
-      "heartbeatFresh": true,
+      "heartbeatFresh": false,
       "id": "579",
       "parent": "514",
       "project": "EchoNext",
@@ -1410,19 +1424,6 @@
       "state": "QUEUED",
       "title": "integration repair pytest collision 20261016 \u00b7 coder",
       "updatedAt": "2026-10-16T17:36:43.612793Z",
-      "workerType": "coder"
-    },
-    {
-      "backend": "Local",
-      "heartbeatFresh": false,
-      "id": "577",
-      "parent": "466",
-      "project": "CTBone",
-      "resource": "Local agent",
-      "startedAt": "2026-10-16T17:16:08.768100Z",
-      "state": "QUEUED",
-      "title": "integration repair dataset provenance 20261016 \u00b7 coder",
-      "updatedAt": "2026-10-16T17:35:29.008468Z",
       "workerType": "coder"
     }
   ],
@@ -1523,11 +1524,11 @@
     "verifiedMilestones24h": 28,
     "verifiedMilestones2h": 0
   },
-  "semanticHash": "b4e492072b622587d2d47de397396fbedf37bc87f382ce06d8f4d917ec3df1bb",
+  "semanticHash": "fc739f19d0c7e62268d8ca8b0239fe8229dc74c8a5875692678012ebddb4340a",
   "snapshotVersion": "2.3",
   "sourceEventAt": "2026-10-16T17:36:43.612834Z",
   "system": {
-    "activeJobs": 4,
+    "activeJobs": 5,
     "autonomy": "DEGRADED",
     "status": "Needs attention"
   },
