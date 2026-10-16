@@ -1,20 +1,6 @@
 {
   "actionRequired": [],
-  "activeWork": [
-    {
-      "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "581",
-      "parent": "572",
-      "project": "Trace",
-      "resource": "Local agent",
-      "startedAt": "2026-10-16T17:16:08.774680Z",
-      "state": "VERIFYING",
-      "title": "integration repair pnpm build policy 20261016 \u00b7 coder",
-      "updatedAt": "2026-10-16T17:30:05.776715Z",
-      "workerType": "coder"
-    }
-  ],
+  "activeWork": [],
   "attentionRequired": [
     {
       "category": "Agents debugging",
@@ -23,6 +9,19 @@
     }
   ],
   "blockedWork": [
+    {
+      "backend": "Local",
+      "heartbeatFresh": true,
+      "id": "581",
+      "parent": "572",
+      "project": "Trace",
+      "resource": "Local agent",
+      "startedAt": "2026-10-16T17:16:08.774680Z",
+      "state": "STALE_UNKNOWN",
+      "title": "integration repair pnpm build policy 20261016 \u00b7 coder",
+      "updatedAt": "2026-10-16T17:30:38.671461Z",
+      "workerType": "coder"
+    },
     {
       "backend": "Local",
       "heartbeatFresh": true,
@@ -72,21 +71,8 @@
       "startedAt": "2026-10-16T17:16:08.766328Z",
       "state": "STALE_UNKNOWN",
       "title": "integration repair physical coordinate invariants 20261016 \u00b7 coder",
-      "updatedAt": "2026-10-16T17:24:39.067734Z",
+      "updatedAt": "2026-10-16T17:31:05.604076Z",
       "workerType": "coder"
-    },
-    {
-      "backend": "Local",
-      "heartbeatFresh": false,
-      "id": "575",
-      "parent": "572",
-      "project": "Trace",
-      "resource": "Local agent",
-      "startedAt": "2026-10-16T11:26:28.326911Z",
-      "state": "FAILED",
-      "title": "regenerate plan 574 \u00b7 planner",
-      "updatedAt": "2026-10-16T11:28:52.311839Z",
-      "workerType": "planner"
     },
     {
       "backend": "Local",
@@ -397,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-16T17:30:19.823912Z",
+  "generatedAt": "2026-10-16T17:32:22.350856Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -406,7 +392,7 @@
     "lastSuccessfulDailyRun": "2026-10-16T17:22:22.262406Z",
     "missingTaskProvenance": 11,
     "newlyIntegrated24h": 0,
-    "oldestEligibleAgeHours": 0.1,
+    "oldestEligibleAgeHours": 0.2,
     "repositoriesMonitored": 10,
     "scientificReviewBlockers": 2,
     "stableVerification": "No stable update in latest batch",
@@ -1217,9 +1203,9 @@
   ],
   "portfolioSummary": {
     "actionsRequiringUser": 0,
-    "activeLocalAgents": 1,
+    "activeLocalAgents": 0,
     "activeVisionJobs": 0,
-    "executingProjects": 1,
+    "executingProjects": 0,
     "projectsNeedingTechnicalAttention": 2,
     "registeredProjects": 9,
     "state": "Needs attention",
@@ -1253,7 +1239,7 @@
       "id": "aortaplan",
       "lastAccomplishment": "Verified a1 physical space regression bounds \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T17:24:39.067734Z",
+      "lastMeaningfulActivity": "2026-10-16T17:31:05.604076Z",
       "name": "AortaPlan",
       "nextTask": null,
       "operationalState": "RUNNABLE",
@@ -1371,7 +1357,7 @@
       "status": "Running"
     },
     {
-      "agentsNow": "Verifying",
+      "agentsNow": "Running",
       "blocker": null,
       "currentObjective": "integration repair pnpm build policy 20261016 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
@@ -1386,7 +1372,7 @@
       "queueDepth": 2,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Verifying"
+      "status": "Running"
     }
   ],
   "publicationHealth": {
@@ -1394,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T17:30:20.162805Z",
+  "publishedAt": "2026-10-16T17:32:22.510500Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1402,7 +1388,7 @@
   "queuedWork": [
     {
       "backend": "Local",
-      "heartbeatFresh": true,
+      "heartbeatFresh": false,
       "id": "582",
       "parent": null,
       "project": "Trace",
@@ -1415,7 +1401,7 @@
     },
     {
       "backend": "Local",
-      "heartbeatFresh": true,
+      "heartbeatFresh": false,
       "id": "579",
       "parent": "514",
       "project": "EchoNext",
@@ -1524,7 +1510,7 @@
     "verifiedMilestones24h": 28,
     "verifiedMilestones2h": 0
   },
-  "semanticHash": "d677563eeb050ba4a714c4f81aee992317d4de2c04b7288cfef618fac805234e",
+  "semanticHash": "22de554ca3122eea6f4750a7d1357d3364247f58d06263ed64bfc1e387527cac",
   "snapshotVersion": "2.3",
   "sourceEventAt": "2026-10-16T17:29:57.563303Z",
   "system": {
