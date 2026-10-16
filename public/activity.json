@@ -1,5 +1,59 @@
 [
   {
+    "level": "Recorded",
+    "message": "A Codex orientation was delivered.",
+    "project": "Trace",
+    "timestamp": "2026-10-16T10:58:43.451034Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "A Codex orientation was delivered.",
+    "project": "TEER",
+    "timestamp": "2026-10-16T10:58:43.450932Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "A Codex orientation was delivered.",
+    "project": "Papers",
+    "timestamp": "2026-10-16T10:58:43.450859Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "A Codex orientation was delivered.",
+    "project": "EchoNext",
+    "timestamp": "2026-10-16T10:58:43.450773Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "A Codex orientation was delivered.",
+    "project": "Ditto",
+    "timestamp": "2026-10-16T10:58:43.450694Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "A Codex orientation was delivered.",
+    "project": "CTBone",
+    "timestamp": "2026-10-16T10:58:43.450608Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "A Codex orientation was delivered.",
+    "project": "BCM-Neuromodulation",
+    "timestamp": "2026-10-16T10:58:43.450535Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "A Codex orientation was delivered.",
+    "project": "AortaPlan",
+    "timestamp": "2026-10-16T10:58:43.450440Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "A Codex orientation was delivered.",
+    "project": "AI-Server",
+    "timestamp": "2026-10-16T10:58:43.450200Z"
+  },
+  {
     "level": "Attention",
     "message": "A bounded task failed and entered recovery.",
     "project": "Ditto",
@@ -38,18 +92,6 @@
   {
     "level": "Recorded",
     "message": "A Codex orientation was delivered.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T08:43:52.687415Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "A Codex orientation was delivered.",
-    "project": "TEER",
-    "timestamp": "2026-10-16T08:43:52.687338Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "A Codex orientation was delivered.",
     "project": "Papers",
     "timestamp": "2026-10-16T08:43:52.687298Z"
   },
@@ -68,26 +110,8 @@
   {
     "level": "Recorded",
     "message": "A Codex orientation was delivered.",
-    "project": "CTBone",
-    "timestamp": "2026-10-16T08:43:52.687156Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "A Codex orientation was delivered.",
-    "project": "BCM-Neuromodulation",
-    "timestamp": "2026-10-16T08:43:52.687100Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "A Codex orientation was delivered.",
     "project": "AortaPlan",
     "timestamp": "2026-10-16T08:43:52.687035Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "A Codex orientation was delivered.",
-    "project": "AI-Server",
-    "timestamp": "2026-10-16T08:43:52.686855Z"
   },
   {
     "level": "Recorded",
@@ -454,29 +478,5 @@
     "message": "Queued 551 object storage adapter failure repair \u00b7 coder.",
     "project": "Trace",
     "timestamp": "2026-10-15T14:41:09.328275Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Verification passed for local repair 551 1 \u00b7 planner.",
-    "project": "Trace",
-    "timestamp": "2026-10-15T14:41:08.592844Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued local repair 551 1 \u00b7 planner.",
-    "project": "Trace",
-    "timestamp": "2026-10-15T14:40:34.855599Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "Trace",
-    "timestamp": "2026-10-15T14:40:24.224306Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "Trace",
-    "timestamp": "2026-10-15T14:35:00.147506Z"
   }
 ]
