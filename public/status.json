@@ -11,15 +11,15 @@
   "blockedWork": [
     {
       "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "633",
+      "heartbeatFresh": false,
+      "id": "632",
       "parent": "629",
       "project": "TEER",
       "resource": "Local agent",
-      "startedAt": "2026-10-16T20:58:24.152669Z",
-      "state": "STALE_UNKNOWN",
-      "title": "task 621 cache cleanup \u00b7 coder",
-      "updatedAt": "2026-10-16T21:16:41.209895Z",
+      "startedAt": "2026-10-16T20:58:24.152588Z",
+      "state": "FAILED",
+      "title": "task 621 import isolation \u00b7 coder",
+      "updatedAt": "2026-10-16T21:16:30.936630Z",
       "workerType": "coder"
     },
     {
@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-16T21:16:44.101465Z",
+  "generatedAt": "2026-10-16T21:18:46.241925Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -1339,9 +1339,9 @@
       "status": "Failed / retrying"
     },
     {
-      "agentsNow": "Running",
+      "agentsNow": "No agent currently executing",
       "blocker": null,
-      "currentObjective": "task 621 cache cleanup \u00b7 coder",
+      "currentObjective": "local repair 632 1 \u00b7 planner",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "teer",
@@ -1354,7 +1354,7 @@
       "queueDepth": 4,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Running"
+      "status": "Queued"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T21:16:44.277178Z",
+  "publishedAt": "2026-10-16T21:18:46.422765Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1497,11 +1497,11 @@
     "verifiedMilestones24h": 58,
     "verifiedMilestones2h": 27
   },
-  "semanticHash": "7c00d3b8a8e2d240b4d75db3ffd59398459d9b9f4a50609350e3a3ebcfa46082",
+  "semanticHash": "feba4e75164d18c9e213836c09e1c44ca90104f3218b9afb9837ba6dfca3b7c1",
   "snapshotVersion": "2.3",
   "sourceEventAt": "2026-10-16T21:16:40.935766Z",
   "system": {
-    "activeJobs": 1,
+    "activeJobs": 0,
     "autonomy": "DEGRADED",
     "status": "Needs attention"
   },
