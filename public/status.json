@@ -19,7 +19,7 @@
       "startedAt": "2026-10-16T18:47:56.720200Z",
       "state": "STALE_UNKNOWN",
       "title": "task 576 repair coordinate invariants \u00b7 coder",
-      "updatedAt": "2026-10-16T18:55:56.952360Z",
+      "updatedAt": "2026-10-16T19:00:13.792841Z",
       "workerType": "coder"
     },
     {
@@ -32,7 +32,7 @@
       "startedAt": "2026-10-16T18:30:35.604009Z",
       "state": "STALE_UNKNOWN",
       "title": "ctbone manifest integration verify \u00b7 coder",
-      "updatedAt": "2026-10-16T18:58:54.353083Z",
+      "updatedAt": "2026-10-16T19:01:03.427547Z",
       "workerType": "coder"
     },
     {
@@ -77,14 +77,14 @@
     {
       "backend": "Local",
       "heartbeatFresh": true,
-      "id": "595",
+      "id": "596",
       "parent": "588",
       "project": "TEER",
       "resource": "Local agent",
-      "startedAt": "2026-10-16T18:03:57.159540Z",
+      "startedAt": "2026-10-16T18:03:57.159706Z",
       "state": "STALE_UNKNOWN",
-      "title": "task 580 test isolation \u00b7 coder",
-      "updatedAt": "2026-10-16T18:58:34.041015Z",
+      "title": "task 580 cache cleanup \u00b7 coder",
+      "updatedAt": "2026-10-16T19:00:03.044824Z",
       "workerType": "coder"
     },
     {
@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-16T18:59:12.048447Z",
+  "generatedAt": "2026-10-16T19:01:12.317429Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -400,6 +400,26 @@
     "verifiedPending": 0
   },
   "meaningfulEvents": [
+    {
+      "id": "139412",
+      "message": "Queued local repair 595 1 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-16T18:59:58.816934Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "139398",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-16T18:59:47.670422Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
     {
       "id": "139342",
       "message": "Controller recovery restored an interrupted task boundary.",
@@ -499,16 +519,6 @@
       "type": "recovery",
       "verification": "Recorded",
       "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "138702",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-16T18:44:31.214636Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
     },
     {
       "id": "138535",
@@ -1189,16 +1199,6 @@
       "type": "task_exit_accepted",
       "verification": "Verified",
       "whyItMatters": "The controller recorded the completion."
-    },
-    {
-      "id": "135974",
-      "message": "Queued 581 pnpm supply chain gate repair \u00b7 coder.",
-      "next": "Continue through the next controller gate.",
-      "project": "Trace",
-      "timestamp": "2026-10-16T17:45:44.903204Z",
-      "type": "task_queued",
-      "verification": "Recorded",
-      "whyItMatters": "The next unit of work is durable."
     }
   ],
   "portfolioSummary": {
@@ -1239,7 +1239,7 @@
       "id": "aortaplan",
       "lastAccomplishment": "Verified regenerate plan 606 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T18:55:56.952360Z",
+      "lastMeaningfulActivity": "2026-10-16T19:00:13.792841Z",
       "name": "AortaPlan",
       "nextTask": null,
       "operationalState": "RUNNABLE",
@@ -1341,15 +1341,15 @@
     {
       "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "task 580 test isolation \u00b7 coder",
+      "currentObjective": "task 580 cache cleanup \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "teer",
       "lastAccomplishment": "Verified local repair 580 1 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T18:55:20.018402Z",
+      "lastMeaningfulActivity": "2026-10-16T18:59:58.816869Z",
       "name": "TEER",
-      "nextTask": "task 580 integration check \u00b7 research",
+      "nextTask": "local repair 595 1 \u00b7 planner",
       "operationalState": "RUNNABLE",
       "queueDepth": 3,
       "readyForHuman": false,
@@ -1380,12 +1380,25 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T18:59:12.356837Z",
+  "publishedAt": "2026-10-16T19:01:12.610509Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
   },
   "queuedWork": [
+    {
+      "backend": "Local",
+      "heartbeatFresh": false,
+      "id": "609",
+      "parent": null,
+      "project": "TEER",
+      "resource": "Local agent",
+      "startedAt": "2026-10-16T18:59:58.816869Z",
+      "state": "QUEUED",
+      "title": "local repair 595 1 \u00b7 planner",
+      "updatedAt": "2026-10-16T18:59:58.816869Z",
+      "workerType": "planner"
+    },
     {
       "backend": "Local",
       "heartbeatFresh": false,
@@ -1398,19 +1411,6 @@
       "title": "ctbone determinism recovery 586 \u00b7 coder",
       "updatedAt": "2026-10-16T18:30:35.604043Z",
       "workerType": "coder"
-    },
-    {
-      "backend": "Local",
-      "heartbeatFresh": false,
-      "id": "597",
-      "parent": "588",
-      "project": "TEER",
-      "resource": "Local agent",
-      "startedAt": "2026-10-16T18:03:57.159743Z",
-      "state": "QUEUED",
-      "title": "task 580 integration check \u00b7 research",
-      "updatedAt": "2026-10-16T18:03:57.159743Z",
-      "workerType": "research"
     }
   ],
   "recentlyCompleted": [
@@ -1510,9 +1510,9 @@
     "verifiedMilestones24h": 45,
     "verifiedMilestones2h": 22
   },
-  "semanticHash": "a04c20a2cf99d9bafdd397457865d714192d38f24fa8c9743ee09070fc25a063",
+  "semanticHash": "2b340aeea77ead1c5a7ba2684fbbd3c57e666633733987c41a74b51bf1d23764",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-16T18:58:43.906442Z",
+  "sourceEventAt": "2026-10-16T18:59:58.816934Z",
   "system": {
     "activeJobs": 3,
     "autonomy": "DEGRADED",
