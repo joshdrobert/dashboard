@@ -25,14 +25,14 @@
     {
       "backend": "Local",
       "heartbeatFresh": true,
-      "id": "604",
+      "id": "603",
       "parent": "601",
       "project": "CTBone",
       "resource": "Local agent",
-      "startedAt": "2026-10-16T18:30:35.604009Z",
+      "startedAt": "2026-10-16T18:30:35.603838Z",
       "state": "STALE_UNKNOWN",
-      "title": "ctbone manifest integration verify \u00b7 coder",
-      "updatedAt": "2026-10-16T19:01:03.427547Z",
+      "title": "ctbone continuation boundary 586 \u00b7 coder",
+      "updatedAt": "2026-10-16T19:02:11.285801Z",
       "workerType": "coder"
     },
     {
@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-16T19:01:12.317429Z",
+  "generatedAt": "2026-10-16T19:03:13.362238Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -400,6 +400,26 @@
     "verifiedPending": 0
   },
   "meaningfulEvents": [
+    {
+      "id": "139501",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "CTBone",
+      "timestamp": "2026-10-16T19:02:00.721288Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "139500",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "CTBone",
+      "timestamp": "2026-10-16T19:02:00.721214Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
     {
       "id": "139412",
       "message": "Queued local repair 595 1 \u00b7 planner.",
@@ -436,26 +456,6 @@
       "next": "Continue through the next controller gate.",
       "project": "CTBone",
       "timestamp": "2026-10-16T18:58:43.906402Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
-    },
-    {
-      "id": "139220",
-      "message": "Controller recovery restored an interrupted task boundary.",
-      "next": "Continue through the next controller gate.",
-      "project": "CTBone",
-      "timestamp": "2026-10-16T18:57:12.333152Z",
-      "type": "recovery",
-      "verification": "Recorded",
-      "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "139219",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "CTBone",
-      "timestamp": "2026-10-16T18:57:12.333103Z",
       "type": "failure",
       "verification": "Attention",
       "whyItMatters": "The failure remains visible until repaired."
@@ -1269,13 +1269,13 @@
     {
       "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "ctbone manifest integration verify \u00b7 coder",
+      "currentObjective": "ctbone continuation boundary 586 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "ctbone",
       "lastAccomplishment": "Verified local repair 586 1 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T18:58:46.088113Z",
+      "lastMeaningfulActivity": "2026-10-16T19:02:02.381496Z",
       "name": "CTBone",
       "nextTask": "ctbone determinism recovery 586 \u00b7 coder",
       "operationalState": "RUNNABLE",
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T19:01:12.610509Z",
+  "publishedAt": "2026-10-16T19:03:13.641049Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1510,9 +1510,9 @@
     "verifiedMilestones24h": 45,
     "verifiedMilestones2h": 22
   },
-  "semanticHash": "2b340aeea77ead1c5a7ba2684fbbd3c57e666633733987c41a74b51bf1d23764",
+  "semanticHash": "18f07787726f255bc6c0aeabc34d83fa121aa08ba7e83f7c85e2db86bbef8c02",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-16T18:59:58.816934Z",
+  "sourceEventAt": "2026-10-16T19:02:00.721288Z",
   "system": {
     "activeJobs": 3,
     "autonomy": "DEGRADED",

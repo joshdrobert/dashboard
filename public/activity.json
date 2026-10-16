@@ -1,6 +1,18 @@
 [
   {
     "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "CTBone",
+    "timestamp": "2026-10-16T19:02:00.721288Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "CTBone",
+    "timestamp": "2026-10-16T19:02:00.721214Z"
+  },
+  {
+    "level": "Recorded",
     "message": "Queued local repair 595 1 \u00b7 planner.",
     "project": "TEER",
     "timestamp": "2026-10-16T18:59:58.816934Z"
@@ -22,18 +34,6 @@
     "message": "A bounded task failed and entered recovery.",
     "project": "CTBone",
     "timestamp": "2026-10-16T18:58:43.906402Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "CTBone",
-    "timestamp": "2026-10-16T18:57:12.333152Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "CTBone",
-    "timestamp": "2026-10-16T18:57:12.333103Z"
   },
   {
     "level": "Recorded",
