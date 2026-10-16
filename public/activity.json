@@ -2,6 +2,18 @@
   {
     "level": "Recorded",
     "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "TEER",
+    "timestamp": "2026-10-16T18:32:56.312341Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "TEER",
+    "timestamp": "2026-10-16T18:32:56.312285Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
     "project": "AortaPlan",
     "timestamp": "2026-10-16T18:32:41.167728Z"
   },
@@ -466,17 +478,5 @@
     "message": "Queued integration repair pytest collision 20261016 \u00b7 coder.",
     "project": "EchoNext",
     "timestamp": "2026-10-16T17:16:08.772131Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued integration repair calibration validator 20261016 \u00b7 coder.",
-    "project": "Ditto",
-    "timestamp": "2026-10-16T17:16:08.770266Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued integration repair dataset provenance 20261016 \u00b7 coder.",
-    "project": "CTBone",
-    "timestamp": "2026-10-16T17:16:08.768752Z"
   }
 ]
