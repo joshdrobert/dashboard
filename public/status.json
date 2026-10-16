@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-16T13:55:05.036697Z",
+  "generatedAt": "2026-10-16T13:59:08.065328Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -1378,7 +1378,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T13:55:05.352084Z",
+  "publishedAt": "2026-10-16T13:59:08.197471Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1477,11 +1477,11 @@
     "manuscriptMilestones": 0,
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0,
-    "verifiedMilestones12h": 10,
+    "verifiedMilestones12h": 8,
     "verifiedMilestones24h": 42,
     "verifiedMilestones2h": 0
   },
-  "semanticHash": "e68c3cf77462351ce46c4189e2cb9f1b8b23cb6e5aec8879c6f9bcf3f41ee471",
+  "semanticHash": "847416b715627b7e170d462d08e1d023fe6c6544996991a288e34c8167502684",
   "snapshotVersion": "2.3",
   "sourceEventAt": "2026-10-16T13:01:57.761273Z",
   "system": {
