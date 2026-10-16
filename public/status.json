@@ -32,7 +32,7 @@
       "startedAt": "2026-10-16T18:30:35.604009Z",
       "state": "STALE_UNKNOWN",
       "title": "ctbone manifest integration verify \u00b7 coder",
-      "updatedAt": "2026-10-16T18:48:18.997269Z",
+      "updatedAt": "2026-10-16T18:55:05.084164Z",
       "workerType": "coder"
     },
     {
@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-16T18:49:03.841039Z",
+  "generatedAt": "2026-10-16T18:55:09.717393Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T18:49:04.156328Z",
+  "publishedAt": "2026-10-16T18:55:10.099022Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1510,7 +1510,7 @@
     "verifiedMilestones24h": 45,
     "verifiedMilestones2h": 22
   },
-  "semanticHash": "e340925ec20138ffc5342211896c3fa9a63a27361ac13c223f27489e3196fa71",
+  "semanticHash": "8cdb5d578cd30edd0ba0145c27329738cf7344bc0cf7169c509ac82d43546af0",
   "snapshotVersion": "2.3",
   "sourceEventAt": "2026-10-16T18:48:30.781632Z",
   "system": {
