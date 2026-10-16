@@ -1,5 +1,23 @@
 [
   {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "TEER",
+    "timestamp": "2026-10-16T17:56:37.393118Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "TEER",
+    "timestamp": "2026-10-16T17:56:37.393078Z"
+  },
+  {
+    "level": "Verified",
+    "message": "Accepted task completed: ctbone denominator consistency check 20261014 \u00b7 coder.",
+    "project": "CTBone",
+    "timestamp": "2026-10-16T17:55:52.752374Z"
+  },
+  {
     "level": "Verified",
     "message": "Verification passed for ctbone denominator consistency check 20261014 \u00b7 coder.",
     "project": "CTBone",
@@ -460,23 +478,5 @@
     "message": "Verification passed for local repair 537 1 \u00b7 planner.",
     "project": "Trace",
     "timestamp": "2026-10-16T11:14:40.693090Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued local repair 537 1 \u00b7 planner.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T11:13:10.657739Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T11:13:08.735583Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "Ditto",
-    "timestamp": "2026-10-16T11:10:41.723844Z"
   }
 ]
