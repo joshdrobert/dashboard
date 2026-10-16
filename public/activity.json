@@ -3,6 +3,18 @@
     "level": "Recorded",
     "message": "Controller recovery restored an interrupted task boundary.",
     "project": "CTBone",
+    "timestamp": "2026-10-16T19:36:23.502455Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "CTBone",
+    "timestamp": "2026-10-16T19:36:23.502401Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "CTBone",
     "timestamp": "2026-10-16T19:34:41.099712Z"
   },
   {
@@ -22,18 +34,6 @@
     "message": "Verification passed for ctbone determinism recovery 586 \u00b7 coder.",
     "project": "CTBone",
     "timestamp": "2026-10-16T19:33:25.941304Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "CTBone",
-    "timestamp": "2026-10-16T19:33:18.882489Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "CTBone",
-    "timestamp": "2026-10-16T19:33:18.882374Z"
   },
   {
     "level": "Recorded",
