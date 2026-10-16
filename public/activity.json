@@ -1,6 +1,18 @@
 [
   {
     "level": "Recorded",
+    "message": "Queued regenerate plan 606 \u00b7 planner.",
+    "project": "AortaPlan",
+    "timestamp": "2026-10-16T18:39:48.159078Z"
+  },
+  {
+    "level": "Verified",
+    "message": "Verification passed for regenerate plan 602 \u00b7 planner.",
+    "project": "AortaPlan",
+    "timestamp": "2026-10-16T18:39:48.103641Z"
+  },
+  {
+    "level": "Recorded",
     "message": "Queued regenerate plan 602 \u00b7 planner.",
     "project": "AortaPlan",
     "timestamp": "2026-10-16T18:37:47.074937Z"
@@ -466,17 +478,5 @@
     "message": "Controller recovery restored an interrupted task boundary.",
     "project": "Trace",
     "timestamp": "2026-10-16T17:33:21.903940Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued local repair 581 1 \u00b7 planner.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T17:27:07.242040Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued integration repair pnpm build policy 20261016 \u00b7 coder.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T17:16:08.775163Z"
   }
 ]
