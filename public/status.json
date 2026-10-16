@@ -19,7 +19,7 @@
       "startedAt": "2026-10-16T18:05:48.875920Z",
       "state": "STALE_UNKNOWN",
       "title": "regenerate plan 594 \u00b7 planner",
-      "updatedAt": "2026-10-16T18:05:55.928505Z",
+      "updatedAt": "2026-10-16T18:06:48.131247Z",
       "workerType": "planner"
     },
     {
@@ -58,20 +58,20 @@
       "startedAt": "2026-10-16T17:54:56.093558Z",
       "state": "STALE_UNKNOWN",
       "title": "local repair 579 1 \u00b7 planner",
-      "updatedAt": "2026-10-16T18:05:23.369486Z",
+      "updatedAt": "2026-10-16T18:08:21.322877Z",
       "workerType": "planner"
     },
     {
       "backend": "Local",
       "heartbeatFresh": true,
-      "id": "587",
+      "id": "586",
       "parent": "583",
       "project": "CTBone",
       "resource": "Local agent",
-      "startedAt": "2026-10-16T17:48:30.712084Z",
+      "startedAt": "2026-10-16T17:48:30.712050Z",
       "state": "STALE_UNKNOWN",
-      "title": "ctbone extraction provenance root check \u00b7 coder",
-      "updatedAt": "2026-10-16T17:59:09.582394Z",
+      "title": "ctbone continuation boundary check \u00b7 coder",
+      "updatedAt": "2026-10-16T18:07:46.200945Z",
       "workerType": "coder"
     },
     {
@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-16T18:05:58.261917Z",
+  "generatedAt": "2026-10-16T18:08:23.757129Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -400,6 +400,26 @@
     "verifiedPending": 0
   },
   "meaningfulEvents": [
+    {
+      "id": "137047",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "EchoNext",
+      "timestamp": "2026-10-16T18:06:55.696275Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "137046",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "EchoNext",
+      "timestamp": "2026-10-16T18:06:55.696194Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
     {
       "id": "136990",
       "message": "Queued regenerate plan 594 \u00b7 planner.",
@@ -509,26 +529,6 @@
       "type": "accepted",
       "verification": "Verified",
       "whyItMatters": "Dependent work may advance."
-    },
-    {
-      "id": "136716",
-      "message": "Controller recovery restored an interrupted task boundary.",
-      "next": "Continue through the next controller gate.",
-      "project": "EchoNext",
-      "timestamp": "2026-10-16T17:58:59.526946Z",
-      "type": "recovery",
-      "verification": "Recorded",
-      "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "136715",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "EchoNext",
-      "timestamp": "2026-10-16T17:58:59.526889Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
     },
     {
       "id": "136693",
@@ -1269,15 +1269,15 @@
     {
       "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "ctbone extraction provenance root check \u00b7 coder",
+      "currentObjective": "ctbone continuation boundary check \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "ctbone",
       "lastAccomplishment": "Verified ctbone denominator consistency check 20261014 \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T17:59:09.582394Z",
+      "lastMeaningfulActivity": "2026-10-16T18:07:33.785248Z",
       "name": "CTBone",
-      "nextTask": "ctbone continuation boundary check \u00b7 coder",
+      "nextTask": "ctbone extraction provenance root check \u00b7 coder",
       "operationalState": "RUNNABLE",
       "queueDepth": 2,
       "readyForHuman": false,
@@ -1311,7 +1311,7 @@
       "id": "echonext",
       "lastAccomplishment": "Verified local repair 487 milestone map \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T18:05:23.369486Z",
+      "lastMeaningfulActivity": "2026-10-16T18:08:21.322877Z",
       "name": "EchoNext",
       "nextTask": null,
       "operationalState": "RUNNABLE",
@@ -1365,7 +1365,7 @@
       "id": "trace",
       "lastAccomplishment": "Verified 581 pnpm supply chain gate repair \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T18:05:55.928505Z",
+      "lastMeaningfulActivity": "2026-10-16T18:06:48.131247Z",
       "name": "Trace",
       "nextTask": null,
       "operationalState": "RUNNABLE",
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T18:05:58.612532Z",
+  "publishedAt": "2026-10-16T18:08:24.297995Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1401,15 +1401,15 @@
     },
     {
       "backend": "Local",
-      "heartbeatFresh": false,
-      "id": "586",
+      "heartbeatFresh": true,
+      "id": "587",
       "parent": "583",
       "project": "CTBone",
       "resource": "Local agent",
-      "startedAt": "2026-10-16T17:48:30.712050Z",
+      "startedAt": "2026-10-16T17:48:30.712084Z",
       "state": "QUEUED",
-      "title": "ctbone continuation boundary check \u00b7 coder",
-      "updatedAt": "2026-10-16T17:58:39.337047Z",
+      "title": "ctbone extraction provenance root check \u00b7 coder",
+      "updatedAt": "2026-10-16T18:07:33.098190Z",
       "workerType": "coder"
     }
   ],
@@ -1510,9 +1510,9 @@
     "verifiedMilestones24h": 39,
     "verifiedMilestones2h": 14
   },
-  "semanticHash": "a912f1eed4500276f97b6c3c4ec7cac5dc26f9144a184bb53649c25027719936",
+  "semanticHash": "043573d2d8b40530d9cc0208f6ec637a7b40f5ba3161909fb4cd139204a36fd1",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-16T18:05:48.875974Z",
+  "sourceEventAt": "2026-10-16T18:06:55.696275Z",
   "system": {
     "activeJobs": 5,
     "autonomy": "DEGRADED",

@@ -1,6 +1,18 @@
 [
   {
     "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "EchoNext",
+    "timestamp": "2026-10-16T18:06:55.696275Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "EchoNext",
+    "timestamp": "2026-10-16T18:06:55.696194Z"
+  },
+  {
+    "level": "Recorded",
     "message": "Queued regenerate plan 594 \u00b7 planner.",
     "project": "Trace",
     "timestamp": "2026-10-16T18:05:48.875974Z"
@@ -64,18 +76,6 @@
     "message": "Verification passed for plan after 584 \u00b7 planner.",
     "project": "Trace",
     "timestamp": "2026-10-16T18:02:50.772069Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "EchoNext",
-    "timestamp": "2026-10-16T17:58:59.526946Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "EchoNext",
-    "timestamp": "2026-10-16T17:58:59.526889Z"
   },
   {
     "level": "Recorded",
