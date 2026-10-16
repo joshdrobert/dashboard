@@ -410,7 +410,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-16T17:34:39.058963Z",
+  "generatedAt": "2026-10-16T17:35:24.099086Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -1405,9 +1405,9 @@
   "publicationHealth": {
     "deployment": "Pending repository publication",
     "lastPublishedCommit": null,
-    "state": "Snapshot generated"
+    "state": "Publishing"
   },
-  "publishedAt": null,
+  "publishedAt": "2026-10-16T17:35:24.408645Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1428,7 +1428,7 @@
     },
     {
       "backend": "Local",
-      "heartbeatFresh": true,
+      "heartbeatFresh": false,
       "id": "576",
       "parent": "526",
       "project": "AortaPlan",
@@ -1537,7 +1537,7 @@
     "verifiedMilestones24h": 28,
     "verifiedMilestones2h": 0
   },
-  "semanticHash": "8d9b81de8f85c6b882d58bf6c613408f5f7af37df32a054a2320ebeb47c1bda8",
+  "semanticHash": "dec4bd8e390cecb1354a3380de07671cce7e106c819a634e3dcd4ecc97563c7e",
   "snapshotVersion": "2.3",
   "sourceEventAt": "2026-10-16T17:34:19.060724Z",
   "system": {

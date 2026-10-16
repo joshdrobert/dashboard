@@ -1,6 +1,12 @@
 [
   {
     "level": "Recorded",
+    "message": "Controller recorded git integration complete.",
+    "project": "AI-Server",
+    "timestamp": "2026-10-16T17:34:19.060724Z"
+  },
+  {
+    "level": "Recorded",
     "message": "Controller recovery restored an interrupted task boundary.",
     "project": "AortaPlan",
     "timestamp": "2026-10-16T17:33:21.920206Z"
@@ -70,12 +76,6 @@
     "message": "A bounded task failed and entered recovery.",
     "project": "Trace",
     "timestamp": "2026-10-16T17:27:05.726879Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recorded git integration complete.",
-    "project": "AI-Server",
-    "timestamp": "2026-10-16T17:22:22.262874Z"
   },
   {
     "level": "Recorded",
