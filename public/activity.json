@@ -2,6 +2,18 @@
   {
     "level": "Recorded",
     "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "Trace",
+    "timestamp": "2026-10-16T17:19:40.634074Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "Trace",
+    "timestamp": "2026-10-16T17:19:40.634047Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
     "project": "Ditto",
     "timestamp": "2026-10-16T17:17:59.144353Z"
   },
@@ -466,17 +478,5 @@
     "message": "Queued local repair 563 1 \u00b7 planner.",
     "project": "Trace",
     "timestamp": "2026-10-16T01:18:15.336721Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T01:18:15.243976Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T01:10:12.862901Z"
   }
 ]
