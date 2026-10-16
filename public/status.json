@@ -19,7 +19,7 @@
       "startedAt": "2026-10-16T18:47:56.720200Z",
       "state": "STALE_UNKNOWN",
       "title": "task 576 repair coordinate invariants \u00b7 coder",
-      "updatedAt": "2026-10-16T19:06:44.505521Z",
+      "updatedAt": "2026-10-16T19:12:43.634641Z",
       "workerType": "coder"
     },
     {
@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-16T19:11:19.583404Z",
+  "generatedAt": "2026-10-16T19:13:20.990626Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -1239,7 +1239,7 @@
       "id": "aortaplan",
       "lastAccomplishment": "Verified regenerate plan 606 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T19:06:44.505521Z",
+      "lastMeaningfulActivity": "2026-10-16T19:12:43.634641Z",
       "name": "AortaPlan",
       "nextTask": null,
       "operationalState": "RUNNABLE",
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T19:11:19.896653Z",
+  "publishedAt": "2026-10-16T19:13:21.313090Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1510,7 +1510,7 @@
     "verifiedMilestones24h": 45,
     "verifiedMilestones2h": 22
   },
-  "semanticHash": "9e327739933e586f858af98a0d1d35db56d251fc5f32060b2e9eb9484a794bf7",
+  "semanticHash": "7e2281ec0bf1c41ac98637b3df89038ca874ad0e45d8e772e5c4e437c955b4f5",
   "snapshotVersion": "2.3",
   "sourceEventAt": "2026-10-16T19:02:00.721288Z",
   "system": {
