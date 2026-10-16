@@ -129,14 +129,14 @@
   ],
   "decisionSummary": {
     "approvedDecisions": 0,
-    "lastPhase1": "2026-10-16T10:43:53.285724Z",
-    "lastPhase2": "2026-10-16T10:58:43.447835Z",
+    "lastPhase1": "2026-10-16T12:58:44.087611Z",
+    "lastPhase2": null,
     "model": "Codex",
     "modifiedOrReversed": 0,
     "nextReview": null,
-    "orientationAcknowledgments": 9,
+    "orientationAcknowledgments": null,
     "pendingDecisions": 0,
-    "projectsReviewed": 9,
+    "projectsReviewed": 0,
     "reasoningEffort": "configured",
     "reviewHistory": [
       {
@@ -238,19 +238,19 @@
         "verified": 0
       }
     ],
-    "state": "COMPLETE",
+    "state": "PHASE1_RUNNING",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
   "director": {
     "approvedDecisions": 0,
-    "lastPhase1": "2026-10-16T10:43:53.285724Z",
-    "lastPhase2": "2026-10-16T10:58:43.447835Z",
+    "lastPhase1": "2026-10-16T12:58:44.087611Z",
+    "lastPhase2": null,
     "model": "Codex",
     "modifiedOrReversed": 0,
     "nextReview": null,
-    "orientationAcknowledgments": 9,
+    "orientationAcknowledgments": null,
     "pendingDecisions": 0,
-    "projectsReviewed": 9,
+    "projectsReviewed": 0,
     "reasoningEffort": "configured",
     "reviewHistory": [
       {
@@ -352,10 +352,10 @@
         "verified": 0
       }
     ],
-    "state": "COMPLETE",
+    "state": "PHASE1_RUNNING",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-16T12:57:43.146341Z",
+  "generatedAt": "2026-10-16T13:00:39.944295Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -1179,7 +1179,7 @@
     "projectsNeedingTechnicalAttention": 5,
     "registeredProjects": 9,
     "state": "Needs attention",
-    "verifiedCompletions24h": 51
+    "verifiedCompletions24h": 49
   },
   "projects": [
     {
@@ -1350,7 +1350,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T12:57:43.257523Z",
+  "publishedAt": "2026-10-16T13:00:40.269448Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1450,10 +1450,10 @@
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0,
     "verifiedMilestones12h": 16,
-    "verifiedMilestones24h": 51,
+    "verifiedMilestones24h": 49,
     "verifiedMilestones2h": 8
   },
-  "semanticHash": "3d92326bed1508296d12a4a693fdc83c67f5e026fbc2c095e56cc1edd61db97d",
+  "semanticHash": "225973c13849bc09798097be2190031a863f469e7ed2a44337a0d5be2ee33f36",
   "snapshotVersion": "2.3",
   "sourceEventAt": "2026-10-16T12:56:46.173804Z",
   "system": {
