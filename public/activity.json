@@ -3,6 +3,30 @@
     "level": "Recorded",
     "message": "Controller recovery restored an interrupted task boundary.",
     "project": "Trace",
+    "timestamp": "2026-10-16T11:26:43.555949Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "Trace",
+    "timestamp": "2026-10-16T11:26:43.555908Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Queued regenerate plan 574 \u00b7 planner.",
+    "project": "Trace",
+    "timestamp": "2026-10-16T11:26:28.326952Z"
+  },
+  {
+    "level": "Verified",
+    "message": "Verification passed for regenerate plan 573 \u00b7 planner.",
+    "project": "Trace",
+    "timestamp": "2026-10-16T11:26:26.851749Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "Trace",
     "timestamp": "2026-10-16T11:24:41.639910Z"
   },
   {
@@ -454,29 +478,5 @@
     "message": "Queued local repair 556 1 \u00b7 planner.",
     "project": "Trace",
     "timestamp": "2026-10-15T18:07:15.550556Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "Trace",
-    "timestamp": "2026-10-15T18:07:08.598717Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "Trace",
-    "timestamp": "2026-10-15T18:04:26.556238Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Accepted task completed: regenerate plan 554 \u00b7 planner.",
-    "project": "Trace",
-    "timestamp": "2026-10-15T17:55:12.352989Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued 536 reader editor export authorization \u00b7 coder.",
-    "project": "Trace",
-    "timestamp": "2026-10-15T17:55:09.494631Z"
   }
 ]
