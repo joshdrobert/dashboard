@@ -3,6 +3,24 @@
     "level": "Recorded",
     "message": "Controller recovery restored an interrupted task boundary.",
     "project": "Trace",
+    "timestamp": "2026-10-16T00:50:18.495005Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "Trace",
+    "timestamp": "2026-10-16T00:50:18.494972Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Queued local repair 559 1 \u00b7 planner.",
+    "project": "Trace",
+    "timestamp": "2026-10-16T00:50:03.666730Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "Trace",
     "timestamp": "2026-10-16T00:43:17.265090Z"
   },
   {
@@ -460,23 +478,5 @@
     "message": "Accepted task completed: 534 rights metadata store \u00b7 coder.",
     "project": "Trace",
     "timestamp": "2026-10-15T13:04:28.029063Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Verification passed for 534 rights metadata store \u00b7 coder.",
-    "project": "Trace",
-    "timestamp": "2026-10-15T13:04:24.405619Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Accepted task completed: 534 content hash persist \u00b7 coder.",
-    "project": "Trace",
-    "timestamp": "2026-10-15T13:03:15.234536Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Verification passed for 534 content hash persist \u00b7 coder.",
-    "project": "Trace",
-    "timestamp": "2026-10-15T13:03:10.399818Z"
   }
 ]
