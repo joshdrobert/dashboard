@@ -3,6 +3,48 @@
     "level": "Recorded",
     "message": "Controller recovery restored an interrupted task boundary.",
     "project": "TEER",
+    "timestamp": "2026-10-16T18:48:30.781632Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "TEER",
+    "timestamp": "2026-10-16T18:48:30.781605Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "CTBone",
+    "timestamp": "2026-10-16T18:48:09.529288Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "CTBone",
+    "timestamp": "2026-10-16T18:48:09.529215Z"
+  },
+  {
+    "level": "Verified",
+    "message": "Accepted task completed: regenerate plan 606 \u00b7 planner.",
+    "project": "AortaPlan",
+    "timestamp": "2026-10-16T18:48:00.374553Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Queued task 576 repair coordinate invariants \u00b7 coder.",
+    "project": "AortaPlan",
+    "timestamp": "2026-10-16T18:47:56.720306Z"
+  },
+  {
+    "level": "Verified",
+    "message": "Verification passed for regenerate plan 606 \u00b7 planner.",
+    "project": "AortaPlan",
+    "timestamp": "2026-10-16T18:47:53.678784Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "TEER",
     "timestamp": "2026-10-16T18:44:31.214670Z"
   },
   {
@@ -436,47 +478,5 @@
     "message": "Queued local repair 577 1 \u00b7 planner.",
     "project": "CTBone",
     "timestamp": "2026-10-16T17:43:53.374690Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "CTBone",
-    "timestamp": "2026-10-16T17:43:44.045031Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "TEER",
-    "timestamp": "2026-10-16T17:42:39.347587Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T17:41:35.329184Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T17:41:35.329134Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T17:39:54.142146Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "CTBone",
-    "timestamp": "2026-10-16T17:39:36.524237Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "EchoNext",
-    "timestamp": "2026-10-16T17:36:43.612834Z"
   }
 ]
