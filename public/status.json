@@ -138,7 +138,7 @@
     "pendingDecisions": 0,
     "projectsReviewed": 0,
     "reasoningEffort": "medium",
-    "state": "PHASE1_RUNNING",
+    "state": "PHASE2_RUNNING",
     "summary": "The latest two-phase portfolio review is reflected in the controller ledger."
   },
   "director": {
@@ -152,10 +152,10 @@
     "pendingDecisions": 0,
     "projectsReviewed": 0,
     "reasoningEffort": "medium",
-    "state": "PHASE1_RUNNING",
+    "state": "PHASE2_RUNNING",
     "summary": "The latest two-phase portfolio review is reflected in the controller ledger."
   },
-  "generatedAt": "2026-10-16T10:47:23.350308Z",
+  "generatedAt": "2026-10-16T10:53:27.445541Z",
   "meaningfulEvents": [
     {
       "id": "132600",
@@ -1137,7 +1137,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T10:47:23.576771Z",
+  "publishedAt": "2026-10-16T10:53:27.711298Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1251,7 +1251,7 @@
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0
   },
-  "semanticHash": "20eff6312f552f6c61b27aeecc8a35c49ac5758227b2e7d1776bfb46370b26db",
+  "semanticHash": "1e8a249c6a75135dce9ceb9e92ae64db5a462497f03b430916fe9f11c66f9948",
   "snapshotVersion": "2.1",
   "sourceEventAt": "2026-10-16T10:43:52.792353Z",
   "system": {
