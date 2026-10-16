@@ -1,5 +1,17 @@
 [
   {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "Trace",
+    "timestamp": "2026-10-16T01:56:53.048394Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "Trace",
+    "timestamp": "2026-10-16T01:56:53.048364Z"
+  },
+  {
     "level": "Verified",
     "message": "Accepted task completed: local repair 567 1 \u00b7 planner.",
     "project": "Trace",
@@ -466,17 +478,5 @@
     "message": "Controller recovery restored an interrupted task boundary.",
     "project": "AI-Server",
     "timestamp": "2026-10-15T14:08:39.969171Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "AI-Server",
-    "timestamp": "2026-10-15T14:08:39.969140Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Accepted task completed: local repair 544 1 \u00b7 planner.",
-    "project": "Trace",
-    "timestamp": "2026-10-15T14:07:14.591462Z"
   }
 ]
