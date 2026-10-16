@@ -19,7 +19,7 @@
       "startedAt": "2026-10-16T18:16:53.819891Z",
       "state": "STALE_UNKNOWN",
       "title": "local repair 586 1 \u00b7 planner",
-      "updatedAt": "2026-10-16T18:17:00.910366Z",
+      "updatedAt": "2026-10-16T18:19:28.145660Z",
       "workerType": "planner"
     },
     {
@@ -37,7 +37,7 @@
     },
     {
       "backend": "Local",
-      "heartbeatFresh": true,
+      "heartbeatFresh": false,
       "id": "599",
       "parent": "584",
       "project": "Trace",
@@ -84,7 +84,7 @@
       "startedAt": "2026-10-16T17:16:08.766328Z",
       "state": "STALE_UNKNOWN",
       "title": "integration repair physical coordinate invariants 20261016 \u00b7 coder",
-      "updatedAt": "2026-10-16T18:10:21.858816Z",
+      "updatedAt": "2026-10-16T18:20:09.251844Z",
       "workerType": "coder"
     },
     {
@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-16T18:18:30.780673Z",
+  "generatedAt": "2026-10-16T18:20:33.251384Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -400,6 +400,26 @@
     "verifiedPending": 0
   },
   "meaningfulEvents": [
+    {
+      "id": "137596",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "CTBone",
+      "timestamp": "2026-10-16T18:18:47.412531Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "137595",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "CTBone",
+      "timestamp": "2026-10-16T18:18:47.412452Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
     {
       "id": "137535",
       "message": "A bounded task failed and entered recovery.",
@@ -1179,26 +1199,6 @@
       "type": "orientation_delivered",
       "verification": "Recorded",
       "whyItMatters": "Supervisory direction was updated."
-    },
-    {
-      "id": "134057",
-      "message": "A Codex orientation was delivered.",
-      "next": "Continue through the next controller gate.",
-      "project": "AortaPlan",
-      "timestamp": "2026-10-16T17:14:29.986388Z",
-      "type": "orientation_delivered",
-      "verification": "Recorded",
-      "whyItMatters": "Supervisory direction was updated."
-    },
-    {
-      "id": "134055",
-      "message": "A Codex orientation was delivered.",
-      "next": "Continue through the next controller gate.",
-      "project": "AI-Server",
-      "timestamp": "2026-10-16T17:14:29.985311Z",
-      "type": "orientation_delivered",
-      "verification": "Recorded",
-      "whyItMatters": "Supervisory direction was updated."
     }
   ],
   "portfolioSummary": {
@@ -1239,7 +1239,7 @@
       "id": "aortaplan",
       "lastAccomplishment": "Verified a1 physical space regression bounds \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T18:10:21.858816Z",
+      "lastMeaningfulActivity": "2026-10-16T18:20:09.251844Z",
       "name": "AortaPlan",
       "nextTask": null,
       "operationalState": "RUNNABLE",
@@ -1275,7 +1275,7 @@
       "id": "ctbone",
       "lastAccomplishment": "Verified ctbone extraction provenance root check \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T18:17:00.910366Z",
+      "lastMeaningfulActivity": "2026-10-16T18:19:28.145660Z",
       "name": "CTBone",
       "nextTask": null,
       "operationalState": "RUNNABLE",
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T18:18:31.089299Z",
+  "publishedAt": "2026-10-16T18:20:33.545613Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1497,9 +1497,9 @@
     "verifiedMilestones24h": 39,
     "verifiedMilestones2h": 16
   },
-  "semanticHash": "391720d1cb7b6001b26c9e04e01c5f5bfb40c6d53c7282d610208f4c92c7823f",
+  "semanticHash": "44a6d157a9da77f0b120eb7747808945bac380053d016bd9635c36e1ee2e969b",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-16T18:17:07.221508Z",
+  "sourceEventAt": "2026-10-16T18:18:47.412531Z",
   "system": {
     "activeJobs": 4,
     "autonomy": "DEGRADED",
