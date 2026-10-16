@@ -32,7 +32,7 @@
       "startedAt": "2026-10-16T18:30:35.603838Z",
       "state": "STALE_UNKNOWN",
       "title": "ctbone continuation boundary 586 \u00b7 coder",
-      "updatedAt": "2026-10-16T18:36:59.347475Z",
+      "updatedAt": "2026-10-16T18:43:28.502323Z",
       "workerType": "coder"
     },
     {
@@ -77,14 +77,14 @@
     {
       "backend": "Local",
       "heartbeatFresh": true,
-      "id": "595",
+      "id": "596",
       "parent": "588",
       "project": "TEER",
       "resource": "Local agent",
-      "startedAt": "2026-10-16T18:03:57.159540Z",
+      "startedAt": "2026-10-16T18:03:57.159706Z",
       "state": "STALE_UNKNOWN",
-      "title": "task 580 test isolation \u00b7 coder",
-      "updatedAt": "2026-10-16T18:40:23.700151Z",
+      "title": "task 580 cache cleanup \u00b7 coder",
+      "updatedAt": "2026-10-16T18:44:46.351828Z",
       "workerType": "coder"
     },
     {
@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-16T18:42:57.887057Z",
+  "generatedAt": "2026-10-16T18:44:59.895892Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -400,6 +400,26 @@
     "verifiedPending": 0
   },
   "meaningfulEvents": [
+    {
+      "id": "138703",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-16T18:44:31.214670Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "138702",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-16T18:44:31.214636Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
     {
       "id": "138535",
       "message": "Controller recovery restored an interrupted task boundary.",
@@ -476,26 +496,6 @@
       "next": "Continue through the next controller gate.",
       "project": "AortaPlan",
       "timestamp": "2026-10-16T18:35:10.502911Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
-    },
-    {
-      "id": "138219",
-      "message": "Controller recovery restored an interrupted task boundary.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-16T18:32:56.312341Z",
-      "type": "recovery",
-      "verification": "Recorded",
-      "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "138218",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-16T18:32:56.312285Z",
       "type": "failure",
       "verification": "Attention",
       "whyItMatters": "The failure remains visible until repaired."
@@ -1275,7 +1275,7 @@
       "id": "ctbone",
       "lastAccomplishment": "Verified local repair 586 1 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T18:36:47.539242Z",
+      "lastMeaningfulActivity": "2026-10-16T18:43:16.795062Z",
       "name": "CTBone",
       "nextTask": "ctbone determinism recovery 586 \u00b7 coder",
       "operationalState": "RUNNABLE",
@@ -1341,13 +1341,13 @@
     {
       "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "task 580 test isolation \u00b7 coder",
+      "currentObjective": "task 580 cache cleanup \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "teer",
       "lastAccomplishment": "Verified local repair 580 1 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T18:40:07.915628Z",
+      "lastMeaningfulActivity": "2026-10-16T18:44:31.902900Z",
       "name": "TEER",
       "nextTask": "task 580 integration check \u00b7 research",
       "operationalState": "RUNNABLE",
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T18:42:58.230369Z",
+  "publishedAt": "2026-10-16T18:45:00.230450Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1510,9 +1510,9 @@
     "verifiedMilestones24h": 43,
     "verifiedMilestones2h": 20
   },
-  "semanticHash": "5234c03d83495cd94ab559bf60eea60d76161eead3dbb33dcfc47ab2e8c97796",
+  "semanticHash": "c60fad36330807fc8b6b6898bee978271b7f44454cbd4413587c1fde00e73f34",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-16T18:41:13.521404Z",
+  "sourceEventAt": "2026-10-16T18:44:31.214670Z",
   "system": {
     "activeJobs": 3,
     "autonomy": "DEGRADED",
