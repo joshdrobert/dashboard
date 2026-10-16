@@ -19,7 +19,7 @@
       "startedAt": "2026-10-16T18:39:48.159029Z",
       "state": "STALE_UNKNOWN",
       "title": "regenerate plan 606 \u00b7 planner",
-      "updatedAt": "2026-10-16T18:41:50.937945Z",
+      "updatedAt": "2026-10-16T18:46:47.137751Z",
       "workerType": "planner"
     },
     {
@@ -84,7 +84,7 @@
       "startedAt": "2026-10-16T18:03:57.159706Z",
       "state": "STALE_UNKNOWN",
       "title": "task 580 cache cleanup \u00b7 coder",
-      "updatedAt": "2026-10-16T18:44:46.351828Z",
+      "updatedAt": "2026-10-16T18:46:33.245972Z",
       "workerType": "coder"
     },
     {
@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-16T18:44:59.895892Z",
+  "generatedAt": "2026-10-16T18:47:02.183714Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -1239,7 +1239,7 @@
       "id": "aortaplan",
       "lastAccomplishment": "Verified a1 physical space regression bounds \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T18:41:50.937945Z",
+      "lastMeaningfulActivity": "2026-10-16T18:46:47.137751Z",
       "name": "AortaPlan",
       "nextTask": null,
       "operationalState": "RUNNABLE",
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T18:45:00.230450Z",
+  "publishedAt": "2026-10-16T18:47:02.445355Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1510,7 +1510,7 @@
     "verifiedMilestones24h": 43,
     "verifiedMilestones2h": 20
   },
-  "semanticHash": "c60fad36330807fc8b6b6898bee978271b7f44454cbd4413587c1fde00e73f34",
+  "semanticHash": "0fbb1b31be3b19e198e3726ba75efdac5d4028dd8d0827e307df752e86ded910",
   "snapshotVersion": "2.3",
   "sourceEventAt": "2026-10-16T18:44:31.214670Z",
   "system": {
