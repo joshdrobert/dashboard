@@ -11,15 +11,15 @@
   "blockedWork": [
     {
       "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "567",
-      "parent": "566",
+      "heartbeatFresh": false,
+      "id": "565",
+      "parent": "564",
       "project": "Trace",
       "resource": "Local agent",
-      "startedAt": "2026-10-16T01:34:30.822830Z",
-      "state": "STALE_UNKNOWN",
-      "title": "565 reader editor export authorization \u00b7 coder",
-      "updatedAt": "2026-10-16T01:39:40.914332Z",
+      "startedAt": "2026-10-16T01:19:19.014726Z",
+      "state": "FAILED",
+      "title": "563 reader editor export authorization \u00b7 coder",
+      "updatedAt": "2026-10-16T01:34:01.322974Z",
       "workerType": "coder"
     },
     {
@@ -155,24 +155,24 @@
     "state": "COMPLETE",
     "summary": "The latest two-phase portfolio review is reflected in the controller ledger."
   },
-  "generatedAt": "2026-10-16T01:40:56.217784Z",
+  "generatedAt": "2026-10-16T01:42:57.862805Z",
   "meaningfulEvents": [
     {
-      "id": "131341",
+      "id": "131404",
       "message": "Controller recovery restored an interrupted task boundary.",
       "next": "Continue through the next controller gate.",
       "project": "Trace",
-      "timestamp": "2026-10-16T01:38:36.487290Z",
+      "timestamp": "2026-10-16T01:41:28.101340Z",
       "type": "recovery",
       "verification": "Recorded",
       "whyItMatters": "Safe autonomous execution can resume."
     },
     {
-      "id": "131340",
+      "id": "131403",
       "message": "A bounded task failed and entered recovery.",
       "next": "Continue through the next controller gate.",
       "project": "Trace",
-      "timestamp": "2026-10-16T01:38:36.487268Z",
+      "timestamp": "2026-10-16T01:41:28.101315Z",
       "type": "failure",
       "verification": "Attention",
       "whyItMatters": "The failure remains visible until repaired."
@@ -1114,7 +1114,7 @@
       "status": "Failed / retrying"
     },
     {
-      "agentsNow": "Running",
+      "agentsNow": "No agent currently executing",
       "blocker": null,
       "currentObjective": "565 reader editor export authorization \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
@@ -1122,14 +1122,14 @@
       "id": "trace",
       "lastAccomplishment": "Verified local repair 565 1 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T01:39:40.914332Z",
+      "lastMeaningfulActivity": "2026-10-16T01:41:28.101300Z",
       "name": "Trace",
-      "nextTask": "trace browser e2e \u00b7 coder",
+      "nextTask": "565 reader editor export authorization \u00b7 coder",
       "operationalState": "RUNNABLE",
       "queueDepth": 2,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Running"
+      "status": "Queued"
     }
   ],
   "publicationHealth": {
@@ -1137,7 +1137,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T01:40:56.466545Z",
+  "publishedAt": "2026-10-16T01:42:58.046488Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1146,14 +1146,14 @@
     {
       "backend": "Local",
       "heartbeatFresh": false,
-      "id": "537",
-      "parent": "536",
+      "id": "567",
+      "parent": "566",
       "project": "Trace",
       "resource": "Local agent",
-      "startedAt": "2026-10-15T12:35:33.007726Z",
-      "state": "WAITING_DEPENDENCY",
-      "title": "trace browser e2e \u00b7 coder",
-      "updatedAt": "2026-10-15T17:18:55.377404Z",
+      "startedAt": "2026-10-16T01:34:30.822830Z",
+      "state": "QUEUED",
+      "title": "565 reader editor export authorization \u00b7 coder",
+      "updatedAt": "2026-10-16T01:41:28.101300Z",
       "workerType": "coder"
     }
   ],
@@ -1251,11 +1251,11 @@
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0
   },
-  "semanticHash": "748bbf41c9dc0ee5ed9c2073dff2d93ab0586f4a254e4dfa7d15d2455423c987",
+  "semanticHash": "574204cc91c2b2d3d0952fad1c9c06909e47ca2bb76719b50872a49dce1d37a8",
   "snapshotVersion": "2.1",
-  "sourceEventAt": "2026-10-16T01:38:36.487290Z",
+  "sourceEventAt": "2026-10-16T01:41:28.101340Z",
   "system": {
-    "activeJobs": 1,
+    "activeJobs": 0,
     "autonomy": "DEGRADED",
     "status": "Needs attention"
   },
