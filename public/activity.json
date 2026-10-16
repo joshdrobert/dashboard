@@ -1,6 +1,30 @@
 [
   {
     "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "EchoNext",
+    "timestamp": "2026-10-16T17:36:43.612834Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "EchoNext",
+    "timestamp": "2026-10-16T17:36:43.612810Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "CTBone",
+    "timestamp": "2026-10-16T17:35:29.008554Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "CTBone",
+    "timestamp": "2026-10-16T17:35:29.008497Z"
+  },
+  {
+    "level": "Recorded",
     "message": "Controller recorded git integration complete.",
     "project": "AI-Server",
     "timestamp": "2026-10-16T17:34:19.060724Z"
@@ -32,12 +56,6 @@
   {
     "level": "Recorded",
     "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "CTBone",
-    "timestamp": "2026-10-16T17:33:21.801487Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
     "project": "Trace",
     "timestamp": "2026-10-16T17:29:57.563303Z"
   },
@@ -46,18 +64,6 @@
     "message": "A bounded task failed and entered recovery.",
     "project": "Trace",
     "timestamp": "2026-10-16T17:29:57.563258Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "EchoNext",
-    "timestamp": "2026-10-16T17:29:50.259456Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "EchoNext",
-    "timestamp": "2026-10-16T17:29:50.259406Z"
   },
   {
     "level": "Attention",
@@ -472,11 +478,5 @@
     "message": "Queued 565 reader editor export authorization \u00b7 coder.",
     "project": "Trace",
     "timestamp": "2026-10-16T01:34:30.822898Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Verification passed for local repair 565 1 \u00b7 planner.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T01:34:30.392637Z"
   }
 ]
