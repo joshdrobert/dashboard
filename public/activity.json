@@ -1,6 +1,30 @@
 [
   {
     "level": "Recorded",
+    "message": "Queued regenerate plan 617 \u00b7 planner.",
+    "project": "TEER",
+    "timestamp": "2026-10-16T20:37:56.080115Z"
+  },
+  {
+    "level": "Verified",
+    "message": "Verification passed for local repair 595 2 \u00b7 planner.",
+    "project": "TEER",
+    "timestamp": "2026-10-16T20:37:55.650418Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Queued local repair 615 1 \u00b7 planner.",
+    "project": "TEER",
+    "timestamp": "2026-10-16T20:36:59.028001Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "TEER",
+    "timestamp": "2026-10-16T20:36:50.558227Z"
+  },
+  {
+    "level": "Recorded",
     "message": "Controller recovery restored an interrupted task boundary.",
     "project": "TEER",
     "timestamp": "2026-10-16T20:33:04.330805Z"
@@ -28,12 +52,6 @@
     "message": "Controller recovery restored an interrupted task boundary.",
     "project": "TEER",
     "timestamp": "2026-10-16T20:29:31.941230Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "TEER",
-    "timestamp": "2026-10-16T20:29:31.941196Z"
   },
   {
     "level": "Attention",
@@ -460,23 +478,5 @@
     "message": "A Codex orientation was delivered.",
     "project": "Ditto",
     "timestamp": "2026-10-16T19:21:24.522314Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "A Codex orientation was delivered.",
-    "project": "CTBone",
-    "timestamp": "2026-10-16T19:21:24.521429Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "A Codex orientation was delivered.",
-    "project": "BCM-Neuromodulation",
-    "timestamp": "2026-10-16T19:21:24.520431Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "A Codex orientation was delivered.",
-    "project": "AortaPlan",
-    "timestamp": "2026-10-16T19:21:24.519357Z"
   }
 ]

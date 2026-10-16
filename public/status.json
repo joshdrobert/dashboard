@@ -12,6 +12,19 @@
     {
       "backend": "Local",
       "heartbeatFresh": false,
+      "id": "627",
+      "parent": "614",
+      "project": "TEER",
+      "resource": "Local agent",
+      "startedAt": "2026-10-16T20:37:56.080061Z",
+      "state": "FAILED",
+      "title": "regenerate plan 617 \u00b7 planner",
+      "updatedAt": "2026-10-16T20:37:56.080061Z",
+      "workerType": "planner"
+    },
+    {
+      "backend": "Local",
+      "heartbeatFresh": false,
       "id": "625",
       "parent": "624",
       "project": "AortaPlan",
@@ -21,19 +34,6 @@
       "title": "plan after 624 \u00b7 planner",
       "updatedAt": "2026-10-16T20:26:22.956892Z",
       "workerType": "planner"
-    },
-    {
-      "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "615",
-      "parent": "609",
-      "project": "TEER",
-      "resource": "Local agent",
-      "startedAt": "2026-10-16T19:51:07.019663Z",
-      "state": "STALE_UNKNOWN",
-      "title": "task 595 duplicate test file \u00b7 coder",
-      "updatedAt": "2026-10-16T20:35:42.743490Z",
-      "workerType": "coder"
     },
     {
       "backend": "Local",
@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-16T20:36:18.773504Z",
+  "generatedAt": "2026-10-16T20:38:19.883651Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -400,6 +400,46 @@
     "verifiedPending": 0
   },
   "meaningfulEvents": [
+    {
+      "id": "143443",
+      "message": "Queued regenerate plan 617 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-16T20:37:56.080115Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "143442",
+      "message": "Verification passed for local repair 595 2 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-16T20:37:55.650418Z",
+      "type": "accepted",
+      "verification": "Verified",
+      "whyItMatters": "Dependent work may advance."
+    },
+    {
+      "id": "143397",
+      "message": "Queued local repair 615 1 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-16T20:36:59.028001Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "143386",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-16T20:36:50.558227Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
     {
       "id": "143131",
       "message": "Controller recovery restored an interrupted task boundary.",
@@ -449,16 +489,6 @@
       "type": "recovery",
       "verification": "Recorded",
       "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "143027",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-16T20:29:31.941196Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
     },
     {
       "id": "142929",
@@ -1169,36 +1199,6 @@
       "type": "orientation_delivered",
       "verification": "Recorded",
       "whyItMatters": "Supervisory direction was updated."
-    },
-    {
-      "id": "139852",
-      "message": "A Codex orientation was delivered.",
-      "next": "Continue through the next controller gate.",
-      "project": "CTBone",
-      "timestamp": "2026-10-16T19:21:24.521429Z",
-      "type": "orientation_delivered",
-      "verification": "Recorded",
-      "whyItMatters": "Supervisory direction was updated."
-    },
-    {
-      "id": "139850",
-      "message": "A Codex orientation was delivered.",
-      "next": "Continue through the next controller gate.",
-      "project": "BCM-Neuromodulation",
-      "timestamp": "2026-10-16T19:21:24.520431Z",
-      "type": "orientation_delivered",
-      "verification": "Recorded",
-      "whyItMatters": "Supervisory direction was updated."
-    },
-    {
-      "id": "139848",
-      "message": "A Codex orientation was delivered.",
-      "next": "Continue through the next controller gate.",
-      "project": "AortaPlan",
-      "timestamp": "2026-10-16T19:21:24.519357Z",
-      "type": "orientation_delivered",
-      "verification": "Recorded",
-      "whyItMatters": "Supervisory direction was updated."
     }
   ],
   "portfolioSummary": {
@@ -1341,17 +1341,17 @@
     {
       "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "task 595 duplicate test file \u00b7 coder",
+      "currentObjective": "local repair 597 1 \u00b7 planner",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "teer",
       "lastAccomplishment": "Verified local repair 596 2 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T20:35:35.327895Z",
+      "lastMeaningfulActivity": "2026-10-16T20:37:56.297128Z",
       "name": "TEER",
-      "nextTask": "task 596 cache cleanup \u00b7 coder",
+      "nextTask": "local repair 615 1 \u00b7 planner",
       "operationalState": "RUNNABLE",
-      "queueDepth": 4,
+      "queueDepth": 3,
       "readyForHuman": false,
       "researchStage": "Active research program",
       "status": "Running"
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T20:36:18.967880Z",
+  "publishedAt": "2026-10-16T20:38:20.141014Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1389,15 +1389,15 @@
     {
       "backend": "Local",
       "heartbeatFresh": false,
-      "id": "621",
-      "parent": "614",
+      "id": "626",
+      "parent": null,
       "project": "TEER",
       "resource": "Local agent",
-      "startedAt": "2026-10-16T20:00:54.973894Z",
+      "startedAt": "2026-10-16T20:36:59.027962Z",
       "state": "QUEUED",
-      "title": "task 596 cache cleanup \u00b7 coder",
-      "updatedAt": "2026-10-16T20:00:54.973894Z",
-      "workerType": "coder"
+      "title": "local repair 615 1 \u00b7 planner",
+      "updatedAt": "2026-10-16T20:36:59.027962Z",
+      "workerType": "planner"
     }
   ],
   "recentlyCompleted": [
@@ -1493,13 +1493,13 @@
     "manuscriptMilestones": 0,
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0,
-    "verifiedMilestones12h": 49,
+    "verifiedMilestones12h": 50,
     "verifiedMilestones24h": 58,
     "verifiedMilestones2h": 23
   },
-  "semanticHash": "43e39cc66c0f4e484a98728ea7c6b4cb027bae14bf3347181ece6f8c86f43741",
+  "semanticHash": "af1fc6f48eb9543674a5b5e1063bd2f38cc087b99d02e641ca15b16cc59856c5",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-16T20:33:04.330805Z",
+  "sourceEventAt": "2026-10-16T20:37:56.080115Z",
   "system": {
     "activeJobs": 1,
     "autonomy": "DEGRADED",
