@@ -11,15 +11,15 @@
   "blockedWork": [
     {
       "backend": "Local",
-      "heartbeatFresh": false,
+      "heartbeatFresh": true,
       "id": "556",
-      "parent": "555",
+      "parent": "557",
       "project": "Trace",
       "resource": "Local agent",
       "startedAt": "2026-10-15T17:55:09.494573Z",
-      "state": "FAILED",
+      "state": "STALE_UNKNOWN",
       "title": "536 reader editor export authorization \u00b7 coder",
-      "updatedAt": "2026-10-15T18:07:08.598704Z",
+      "updatedAt": "2026-10-16T00:06:11.940093Z",
       "workerType": "coder"
     },
     {
@@ -155,7 +155,7 @@
     "state": "COMPLETE",
     "summary": "The latest two-phase portfolio review is reflected in the controller ledger."
   },
-  "generatedAt": "2026-10-16T00:05:59.603395Z",
+  "generatedAt": "2026-10-16T00:08:07.761092Z",
   "meaningfulEvents": [
     {
       "id": "128742",
@@ -1114,22 +1114,22 @@
       "status": "Failed / retrying"
     },
     {
-      "agentsNow": "No agent currently executing",
+      "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "trace browser e2e \u00b7 coder",
+      "currentObjective": "536 reader editor export authorization \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "trace",
       "lastAccomplishment": "Verified local repair 556 1 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-15T18:09:15.124116Z",
+      "lastMeaningfulActivity": "2026-10-16T00:06:08.059396Z",
       "name": "Trace",
       "nextTask": "trace browser e2e \u00b7 coder",
       "operationalState": "RUNNABLE",
-      "queueDepth": 1,
+      "queueDepth": 2,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Queued"
+      "status": "Running"
     }
   ],
   "publicationHealth": {
@@ -1137,7 +1137,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T00:05:59.712967Z",
+  "publishedAt": "2026-10-16T00:08:07.906236Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1251,11 +1251,11 @@
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0
   },
-  "semanticHash": "c94fe91333168559bcc23e016a75094f4131dd9a95e7f088fd17437d085f5e66",
+  "semanticHash": "bb27c64ade95c8dc12a737e24546a807cfa350921bcc020425a8037e7acc470e",
   "snapshotVersion": "2.1",
   "sourceEventAt": "2026-10-16T00:05:24.777695Z",
   "system": {
-    "activeJobs": 0,
+    "activeJobs": 1,
     "autonomy": "DEGRADED",
     "status": "Needs attention"
   },
