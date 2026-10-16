@@ -12,14 +12,14 @@
     {
       "backend": "Local",
       "heartbeatFresh": true,
-      "id": "573",
+      "id": "574",
       "parent": "572",
       "project": "Trace",
       "resource": "Local agent",
-      "startedAt": "2026-10-16T11:20:29.545254Z",
+      "startedAt": "2026-10-16T11:21:52.071395Z",
       "state": "STALE_UNKNOWN",
-      "title": "plan after 572 \u00b7 planner",
-      "updatedAt": "2026-10-16T11:20:45.766687Z",
+      "title": "regenerate plan 573 \u00b7 planner",
+      "updatedAt": "2026-10-16T11:23:33.128684Z",
       "workerType": "planner"
     },
     {
@@ -155,8 +155,48 @@
     "state": "COMPLETE",
     "summary": "The latest two-phase portfolio review is reflected in the controller ledger."
   },
-  "generatedAt": "2026-10-16T11:21:48.095177Z",
+  "generatedAt": "2026-10-16T11:23:48.658315Z",
   "meaningfulEvents": [
+    {
+      "id": "133474",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-16T11:22:59.636770Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "133473",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-16T11:22:59.636739Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
+    {
+      "id": "133431",
+      "message": "Queued regenerate plan 573 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-16T11:21:52.071453Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "133430",
+      "message": "Verification passed for plan after 572 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-16T11:21:51.041076Z",
+      "type": "accepted",
+      "verification": "Verified",
+      "whyItMatters": "Dependent work may advance."
+    },
     {
       "id": "133399",
       "message": "Accepted task completed: 537 upload manuscript export \u00b7 coder.",
@@ -916,46 +956,6 @@
       "type": "task_queued",
       "verification": "Recorded",
       "whyItMatters": "The next unit of work is durable."
-    },
-    {
-      "id": "127866",
-      "message": "Verification passed for regenerate plan 554 \u00b7 planner.",
-      "next": "Continue through the next controller gate.",
-      "project": "Trace",
-      "timestamp": "2026-10-15T17:55:09.219993Z",
-      "type": "accepted",
-      "verification": "Verified",
-      "whyItMatters": "Dependent work may advance."
-    },
-    {
-      "id": "127826",
-      "message": "Queued regenerate plan 554 \u00b7 planner.",
-      "next": "Continue through the next controller gate.",
-      "project": "Trace",
-      "timestamp": "2026-10-15T17:54:21.969760Z",
-      "type": "task_queued",
-      "verification": "Recorded",
-      "whyItMatters": "The next unit of work is durable."
-    },
-    {
-      "id": "127825",
-      "message": "Verification passed for local repair 536 1 \u00b7 planner.",
-      "next": "Continue through the next controller gate.",
-      "project": "Trace",
-      "timestamp": "2026-10-15T17:54:21.419032Z",
-      "type": "accepted",
-      "verification": "Verified",
-      "whyItMatters": "Dependent work may advance."
-    },
-    {
-      "id": "127770",
-      "message": "Queued local repair 536 1 \u00b7 planner.",
-      "next": "Continue through the next controller gate.",
-      "project": "Trace",
-      "timestamp": "2026-10-15T17:52:26.463674Z",
-      "type": "task_queued",
-      "verification": "Recorded",
-      "whyItMatters": "The next unit of work is durable."
     }
   ],
   "portfolioSummary": {
@@ -966,7 +966,7 @@
     "projectsNeedingTechnicalAttention": 4,
     "registeredProjects": 9,
     "state": "Needs attention",
-    "verifiedCompletions24h": 48
+    "verifiedCompletions24h": 49
   },
   "projects": [
     {
@@ -1116,13 +1116,13 @@
     {
       "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "plan after 572 \u00b7 planner",
+      "currentObjective": "regenerate plan 573 \u00b7 planner",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "trace",
       "lastAccomplishment": "Verified 537 upload manuscript export \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T11:20:45.766687Z",
+      "lastMeaningfulActivity": "2026-10-16T11:23:33.128684Z",
       "name": "Trace",
       "nextTask": null,
       "operationalState": "RUNNABLE",
@@ -1137,7 +1137,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T11:21:48.249729Z",
+  "publishedAt": "2026-10-16T11:23:48.826828Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1237,9 +1237,9 @@
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0
   },
-  "semanticHash": "7fa6fcee1745cf437279547b303291570246d076c4bb22f0dc2585d5d17ae1c2",
+  "semanticHash": "d5ae5f7dc51a791d7bf755cfb24f54e415595f2c49680f45260ba84722bd8406",
   "snapshotVersion": "2.1",
-  "sourceEventAt": "2026-10-16T11:20:32.168717Z",
+  "sourceEventAt": "2026-10-16T11:22:59.636770Z",
   "system": {
     "activeJobs": 1,
     "autonomy": "DEGRADED",
