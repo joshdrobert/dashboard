@@ -1,5 +1,23 @@
 [
   {
+    "level": "Verified",
+    "message": "Accepted task completed: regenerate plan 570 \u00b7 planner.",
+    "project": "Trace",
+    "timestamp": "2026-10-16T11:16:05.923189Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Queued 537 upload manuscript export \u00b7 coder.",
+    "project": "Trace",
+    "timestamp": "2026-10-16T11:16:03.017778Z"
+  },
+  {
+    "level": "Verified",
+    "message": "Verification passed for regenerate plan 570 \u00b7 planner.",
+    "project": "Trace",
+    "timestamp": "2026-10-16T11:16:02.305331Z"
+  },
+  {
     "level": "Recorded",
     "message": "Queued regenerate plan 570 \u00b7 planner.",
     "project": "Trace",
@@ -460,23 +478,5 @@
     "message": "Accepted task completed: trace manuscript persistence \u00b7 coder.",
     "project": "Trace",
     "timestamp": "2026-10-15T17:24:12.936016Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Verification passed for trace manuscript persistence \u00b7 coder.",
-    "project": "Trace",
-    "timestamp": "2026-10-15T17:24:08.725555Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "Trace",
-    "timestamp": "2026-10-15T17:22:02.727289Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "Trace",
-    "timestamp": "2026-10-15T17:22:02.727266Z"
   }
 ]
