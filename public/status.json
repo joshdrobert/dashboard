@@ -25,14 +25,14 @@
     {
       "backend": "Local",
       "heartbeatFresh": true,
-      "id": "617",
+      "id": "620",
       "parent": null,
       "project": "TEER",
       "resource": "Local agent",
-      "startedAt": "2026-10-16T19:53:13.795703Z",
+      "startedAt": "2026-10-16T19:59:43.804032Z",
       "state": "STALE_UNKNOWN",
-      "title": "local repair 595 2 \u00b7 planner",
-      "updatedAt": "2026-10-16T20:29:54.094486Z",
+      "title": "local repair 597 1 \u00b7 planner",
+      "updatedAt": "2026-10-16T20:31:37.738449Z",
       "workerType": "planner"
     },
     {
@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-16T20:30:14.482121Z",
+  "generatedAt": "2026-10-16T20:32:16.459727Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -400,6 +400,26 @@
     "verifiedPending": 0
   },
   "meaningfulEvents": [
+    {
+      "id": "143072",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-16T20:30:26.823416Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "143071",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-16T20:30:26.823332Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
     {
       "id": "143028",
       "message": "Controller recovery restored an interrupted task boundary.",
@@ -486,26 +506,6 @@
       "next": "Continue through the next controller gate.",
       "project": "AortaPlan",
       "timestamp": "2026-10-16T20:18:57.422203Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
-    },
-    {
-      "id": "142515",
-      "message": "Controller recovery restored an interrupted task boundary.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-16T20:17:09.410887Z",
-      "type": "recovery",
-      "verification": "Recorded",
-      "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "142514",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-16T20:17:09.410834Z",
       "type": "failure",
       "verification": "Attention",
       "whyItMatters": "The failure remains visible until repaired."
@@ -1209,7 +1209,7 @@
     "projectsNeedingTechnicalAttention": 4,
     "registeredProjects": 9,
     "state": "Needs attention",
-    "verifiedCompletions24h": 60
+    "verifiedCompletions24h": 59
   },
   "projects": [
     {
@@ -1341,13 +1341,13 @@
     {
       "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "local repair 595 2 \u00b7 planner",
+      "currentObjective": "local repair 597 1 \u00b7 planner",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "teer",
       "lastAccomplishment": "Verified local repair 596 2 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T20:29:32.858053Z",
+      "lastMeaningfulActivity": "2026-10-16T20:30:27.527548Z",
       "name": "TEER",
       "nextTask": "task 596 cache cleanup \u00b7 coder",
       "operationalState": "RUNNABLE",
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T20:30:14.807691Z",
+  "publishedAt": "2026-10-16T20:32:16.731804Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1494,12 +1494,12 @@
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0,
     "verifiedMilestones12h": 49,
-    "verifiedMilestones24h": 60,
-    "verifiedMilestones2h": 25
+    "verifiedMilestones24h": 59,
+    "verifiedMilestones2h": 23
   },
-  "semanticHash": "c4ac39c11e547cc0c4ff173e7151257061c1bbed6b550d55532fc042e9d8964a",
+  "semanticHash": "3ef62f97cfed750c38f046cadd9039e7876cc9b58e4aac96b1ba70a45983b84a",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-16T20:29:31.941230Z",
+  "sourceEventAt": "2026-10-16T20:30:26.823416Z",
   "system": {
     "activeJobs": 1,
     "autonomy": "DEGRADED",

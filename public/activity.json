@@ -3,6 +3,18 @@
     "level": "Recorded",
     "message": "Controller recovery restored an interrupted task boundary.",
     "project": "TEER",
+    "timestamp": "2026-10-16T20:30:26.823416Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "TEER",
+    "timestamp": "2026-10-16T20:30:26.823332Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "TEER",
     "timestamp": "2026-10-16T20:29:31.941230Z"
   },
   {
@@ -52,18 +64,6 @@
     "message": "A bounded task failed and entered recovery.",
     "project": "AortaPlan",
     "timestamp": "2026-10-16T20:18:57.422203Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "TEER",
-    "timestamp": "2026-10-16T20:17:09.410887Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "TEER",
-    "timestamp": "2026-10-16T20:17:09.410834Z"
   },
   {
     "level": "Verified",
