@@ -1,6 +1,20 @@
 {
   "actionRequired": [],
-  "activeWork": [],
+  "activeWork": [
+    {
+      "backend": "Local",
+      "heartbeatFresh": true,
+      "id": "579",
+      "parent": "514",
+      "project": "EchoNext",
+      "resource": "Local agent",
+      "startedAt": "2026-10-16T17:16:08.771322Z",
+      "state": "VERIFYING",
+      "title": "integration repair pytest collision 20261016 \u00b7 coder",
+      "updatedAt": "2026-10-16T17:28:15.867676Z",
+      "workerType": "coder"
+    }
+  ],
   "attentionRequired": [
     {
       "category": "Agents debugging",
@@ -12,40 +26,27 @@
     {
       "backend": "Local",
       "heartbeatFresh": true,
-      "id": "581",
-      "parent": "572",
+      "id": "582",
+      "parent": null,
       "project": "Trace",
       "resource": "Local agent",
-      "startedAt": "2026-10-16T17:16:08.774680Z",
+      "startedAt": "2026-10-16T17:27:07.241992Z",
       "state": "STALE_UNKNOWN",
-      "title": "integration repair pnpm build policy 20261016 \u00b7 coder",
-      "updatedAt": "2026-10-16T17:25:52.485034Z",
-      "workerType": "coder"
+      "title": "local repair 581 1 \u00b7 planner",
+      "updatedAt": "2026-10-16T17:28:01.325777Z",
+      "workerType": "planner"
     },
     {
       "backend": "Local",
       "heartbeatFresh": true,
-      "id": "580",
-      "parent": "477",
-      "project": "TEER",
+      "id": "578",
+      "parent": "502",
+      "project": "Ditto",
       "resource": "Local agent",
-      "startedAt": "2026-10-16T17:16:08.773222Z",
+      "startedAt": "2026-10-16T17:16:08.769708Z",
       "state": "STALE_UNKNOWN",
-      "title": "integration repair pytest collision 20261016 \u00b7 coder",
-      "updatedAt": "2026-10-16T17:24:31.695000Z",
-      "workerType": "coder"
-    },
-    {
-      "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "579",
-      "parent": "514",
-      "project": "EchoNext",
-      "resource": "Local agent",
-      "startedAt": "2026-10-16T17:16:08.771322Z",
-      "state": "STALE_UNKNOWN",
-      "title": "integration repair pytest collision 20261016 \u00b7 coder",
-      "updatedAt": "2026-10-16T17:24:54.850924Z",
+      "title": "integration repair calibration validator 20261016 \u00b7 coder",
+      "updatedAt": "2026-10-16T17:28:16.751134Z",
       "workerType": "coder"
     },
     {
@@ -90,14 +91,14 @@
     {
       "backend": "Local",
       "heartbeatFresh": false,
-      "id": "501",
-      "parent": null,
-      "project": "Ditto",
+      "id": "516",
+      "parent": "514",
+      "project": "EchoNext",
       "resource": "Local agent",
-      "startedAt": "2026-10-13T14:41:01.520344Z",
+      "startedAt": "2026-10-14T22:06:50.746265Z",
       "state": "FAILED",
-      "title": "local repair 488 2 \u00b7 planner",
-      "updatedAt": "2026-10-13T14:58:27.715688Z",
+      "title": "plan after 514 \u00b7 planner",
+      "updatedAt": "2026-10-16T10:41:02.932117Z",
       "workerType": "planner"
     },
     {
@@ -111,6 +112,19 @@
       "state": "FAILED",
       "title": "local repair 460 2 \u00b7 planner",
       "updatedAt": "2026-10-13T15:16:11.461892Z",
+      "workerType": "planner"
+    },
+    {
+      "backend": "Local",
+      "heartbeatFresh": false,
+      "id": "490",
+      "parent": null,
+      "project": "TEER",
+      "resource": "Local agent",
+      "startedAt": "2026-10-13T14:18:26.667514Z",
+      "state": "FAILED",
+      "title": "local repair 455 2 \u00b7 planner",
+      "updatedAt": "2026-10-13T14:31:57.769333Z",
       "workerType": "planner"
     },
     {
@@ -383,7 +397,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-16T17:26:18.130331Z",
+  "generatedAt": "2026-10-16T17:28:18.831299Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -400,6 +414,46 @@
     "verifiedPending": 3
   },
   "meaningfulEvents": [
+    {
+      "id": "134941",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-16T17:27:55.449001Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "134940",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-16T17:27:55.448946Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
+    {
+      "id": "134866",
+      "message": "Queued local repair 581 1 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-16T17:27:07.242040Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "134864",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-16T17:27:05.726879Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
     {
       "id": "134618",
       "message": "Controller recovery restored an interrupted task boundary.",
@@ -441,16 +495,6 @@
       "whyItMatters": "Safe autonomous execution can resume."
     },
     {
-      "id": "134614",
-      "message": "Controller recovery restored an interrupted task boundary.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-16T17:24:16.244332Z",
-      "type": "recovery",
-      "verification": "Recorded",
-      "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
       "id": "134455",
       "message": "Controller recorded git integration complete.",
       "next": "Continue through the next controller gate.",
@@ -469,16 +513,6 @@
       "type": "recovery",
       "verification": "Recorded",
       "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "134417",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "Trace",
-      "timestamp": "2026-10-16T17:22:14.134153Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
     },
     {
       "id": "134097",
@@ -1179,33 +1213,13 @@
       "type": "task_queued",
       "verification": "Recorded",
       "whyItMatters": "The next unit of work is durable."
-    },
-    {
-      "id": "130698",
-      "message": "Verification passed for local repair 563 1 \u00b7 planner.",
-      "next": "Continue through the next controller gate.",
-      "project": "Trace",
-      "timestamp": "2026-10-16T01:19:17.604248Z",
-      "type": "accepted",
-      "verification": "Verified",
-      "whyItMatters": "Dependent work may advance."
-    },
-    {
-      "id": "130654",
-      "message": "Queued local repair 563 1 \u00b7 planner.",
-      "next": "Continue through the next controller gate.",
-      "project": "Trace",
-      "timestamp": "2026-10-16T01:18:15.336721Z",
-      "type": "task_queued",
-      "verification": "Recorded",
-      "whyItMatters": "The next unit of work is durable."
     }
   ],
   "portfolioSummary": {
     "actionsRequiringUser": 0,
-    "activeLocalAgents": 0,
+    "activeLocalAgents": 1,
     "activeVisionJobs": 0,
-    "executingProjects": 0,
+    "executingProjects": 1,
     "projectsNeedingTechnicalAttention": 2,
     "registeredProjects": 9,
     "state": "Needs attention",
@@ -1285,7 +1299,7 @@
       "status": "Running"
     },
     {
-      "agentsNow": "No agent currently executing",
+      "agentsNow": "Running",
       "blocker": "Public-safe blocker recorded",
       "currentObjective": "integration repair calibration validator 20261016 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
@@ -1293,17 +1307,17 @@
       "id": "ditto",
       "lastAccomplishment": "Verified regenerate plan 501 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T17:24:16.323582Z",
+      "lastMeaningfulActivity": "2026-10-16T17:28:16.751134Z",
       "name": "Ditto",
-      "nextTask": "integration repair calibration validator 20261016 \u00b7 coder",
+      "nextTask": null,
       "operationalState": "RUNNABLE",
       "queueDepth": 1,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Queued"
+      "status": "Running"
     },
     {
-      "agentsNow": "Running",
+      "agentsNow": "Verifying",
       "blocker": null,
       "currentObjective": "integration repair pytest collision 20261016 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
@@ -1311,14 +1325,14 @@
       "id": "echonext",
       "lastAccomplishment": "Verified local repair 487 milestone map \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T17:24:54.850924Z",
+      "lastMeaningfulActivity": "2026-10-16T17:28:15.867676Z",
       "name": "EchoNext",
       "nextTask": null,
       "operationalState": "RUNNABLE",
       "queueDepth": 1,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Running"
+      "status": "Verifying"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1339,7 +1353,7 @@
       "status": "Failed / retrying"
     },
     {
-      "agentsNow": "Running",
+      "agentsNow": "No agent currently executing",
       "blocker": null,
       "currentObjective": "integration repair pytest collision 20261016 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
@@ -1347,25 +1361,25 @@
       "id": "teer",
       "lastAccomplishment": "Verified local repair 455 1 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T17:24:31.695000Z",
+      "lastMeaningfulActivity": "2026-10-16T17:27:55.448919Z",
       "name": "TEER",
-      "nextTask": null,
+      "nextTask": "integration repair pytest collision 20261016 \u00b7 coder",
       "operationalState": "RUNNABLE",
       "queueDepth": 1,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Running"
+      "status": "Queued"
     },
     {
       "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "integration repair pnpm build policy 20261016 \u00b7 coder",
+      "currentObjective": "local repair 581 1 \u00b7 planner",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "trace",
       "lastAccomplishment": "Verified 537 upload manuscript export \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T17:25:52.485034Z",
+      "lastMeaningfulActivity": "2026-10-16T17:28:01.325777Z",
       "name": "Trace",
       "nextTask": null,
       "operationalState": "RUNNABLE",
@@ -1380,7 +1394,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T17:26:18.398548Z",
+  "publishedAt": "2026-10-16T17:28:19.298140Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1388,15 +1402,15 @@
   "queuedWork": [
     {
       "backend": "Local",
-      "heartbeatFresh": false,
-      "id": "578",
-      "parent": "502",
-      "project": "Ditto",
+      "heartbeatFresh": true,
+      "id": "580",
+      "parent": "477",
+      "project": "TEER",
       "resource": "Local agent",
-      "startedAt": "2026-10-16T17:16:08.769708Z",
+      "startedAt": "2026-10-16T17:16:08.773222Z",
       "state": "QUEUED",
-      "title": "integration repair calibration validator 20261016 \u00b7 coder",
-      "updatedAt": "2026-10-16T17:24:16.323582Z",
+      "title": "integration repair pytest collision 20261016 \u00b7 coder",
+      "updatedAt": "2026-10-16T17:27:55.448919Z",
       "workerType": "coder"
     }
   ],
@@ -1497,9 +1511,9 @@
     "verifiedMilestones24h": 28,
     "verifiedMilestones2h": 0
   },
-  "semanticHash": "2a4bcb068eb86f4362c538c7df471b2386a2e2f73a0236af78addbb2812c363b",
+  "semanticHash": "fc072ac7bb09d908ecad4109d01c726d67881a0736eeb7b2f87f70bf22db35eb",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-16T17:24:16.328045Z",
+  "sourceEventAt": "2026-10-16T17:27:55.449001Z",
   "system": {
     "activeJobs": 5,
     "autonomy": "DEGRADED",

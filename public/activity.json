@@ -2,6 +2,30 @@
   {
     "level": "Recorded",
     "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "TEER",
+    "timestamp": "2026-10-16T17:27:55.449001Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "TEER",
+    "timestamp": "2026-10-16T17:27:55.448946Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Queued local repair 581 1 \u00b7 planner.",
+    "project": "Trace",
+    "timestamp": "2026-10-16T17:27:07.242040Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "Trace",
+    "timestamp": "2026-10-16T17:27:05.726879Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
     "project": "Ditto",
     "timestamp": "2026-10-16T17:24:16.328045Z"
   },
@@ -25,12 +49,6 @@
   },
   {
     "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "TEER",
-    "timestamp": "2026-10-16T17:24:16.244332Z"
-  },
-  {
-    "level": "Recorded",
     "message": "Controller recorded git integration complete.",
     "project": "AI-Server",
     "timestamp": "2026-10-16T17:22:22.262874Z"
@@ -40,12 +58,6 @@
     "message": "Controller recovery restored an interrupted task boundary.",
     "project": "Trace",
     "timestamp": "2026-10-16T17:22:14.134183Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T17:22:14.134153Z"
   },
   {
     "level": "Recorded",
@@ -466,17 +478,5 @@
     "message": "Queued 563 reader editor export authorization \u00b7 coder.",
     "project": "Trace",
     "timestamp": "2026-10-16T01:19:19.014772Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Verification passed for local repair 563 1 \u00b7 planner.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T01:19:17.604248Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued local repair 563 1 \u00b7 planner.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T01:18:15.336721Z"
   }
 ]
