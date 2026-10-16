@@ -1,5 +1,35 @@
 [
   {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "TEER",
+    "timestamp": "2026-10-16T19:27:26.912464Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "TEER",
+    "timestamp": "2026-10-16T19:27:26.912397Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "TEER",
+    "timestamp": "2026-10-16T19:26:11.945074Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "TEER",
+    "timestamp": "2026-10-16T19:26:11.945032Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Queued local repair 603 1 \u00b7 planner.",
+    "project": "CTBone",
+    "timestamp": "2026-10-16T19:25:31.717977Z"
+  },
+  {
     "level": "Attention",
     "message": "A bounded task failed and entered recovery.",
     "project": "CTBone",
@@ -448,35 +478,5 @@
     "message": "A bounded task failed and entered recovery.",
     "project": "EchoNext",
     "timestamp": "2026-10-16T17:54:45.891102Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Accepted task completed: 581 pnpm supply chain gate repair \u00b7 coder.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T17:54:28.299317Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued plan after 584 \u00b7 planner.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T17:54:26.000252Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Verification passed for 581 pnpm supply chain gate repair \u00b7 coder.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T17:54:23.231030Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued local repair 578 1 \u00b7 planner.",
-    "project": "Ditto",
-    "timestamp": "2026-10-16T17:54:08.791046Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "Ditto",
-    "timestamp": "2026-10-16T17:54:07.504234Z"
   }
 ]

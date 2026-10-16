@@ -25,14 +25,14 @@
     {
       "backend": "Local",
       "heartbeatFresh": true,
-      "id": "603",
+      "id": "604",
       "parent": "601",
       "project": "CTBone",
       "resource": "Local agent",
-      "startedAt": "2026-10-16T18:30:35.603838Z",
-      "state": "FAILED",
-      "title": "ctbone continuation boundary 586 \u00b7 coder",
-      "updatedAt": "2026-10-16T19:25:26.319424Z",
+      "startedAt": "2026-10-16T18:30:35.604009Z",
+      "state": "STALE_UNKNOWN",
+      "title": "ctbone manifest integration verify \u00b7 coder",
+      "updatedAt": "2026-10-16T19:27:23.859368Z",
       "workerType": "coder"
     },
     {
@@ -76,16 +76,16 @@
     },
     {
       "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "597",
+      "heartbeatFresh": false,
+      "id": "595",
       "parent": "588",
       "project": "TEER",
       "resource": "Local agent",
-      "startedAt": "2026-10-16T18:03:57.159743Z",
-      "state": "STALE_UNKNOWN",
-      "title": "task 580 integration check \u00b7 research",
-      "updatedAt": "2026-10-16T19:25:21.584919Z",
-      "workerType": "research"
+      "startedAt": "2026-10-16T18:03:57.159540Z",
+      "state": "FAILED",
+      "title": "task 580 test isolation \u00b7 coder",
+      "updatedAt": "2026-10-16T18:59:47.670400Z",
+      "workerType": "coder"
     },
     {
       "backend": "Local",
@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-16T19:25:26.518893Z",
+  "generatedAt": "2026-10-16T19:27:28.895972Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -400,6 +400,56 @@
     "verifiedPending": 0
   },
   "meaningfulEvents": [
+    {
+      "id": "140054",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-16T19:27:26.912464Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "140053",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-16T19:27:26.912397Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
+    {
+      "id": "139959",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-16T19:26:11.945074Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "139958",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-16T19:26:11.945032Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
+    {
+      "id": "139907",
+      "message": "Queued local repair 603 1 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "CTBone",
+      "timestamp": "2026-10-16T19:25:31.717977Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
     {
       "id": "139891",
       "message": "A bounded task failed and entered recovery.",
@@ -1149,56 +1199,6 @@
       "type": "failure",
       "verification": "Attention",
       "whyItMatters": "The failure remains visible until repaired."
-    },
-    {
-      "id": "136442",
-      "message": "Accepted task completed: 581 pnpm supply chain gate repair \u00b7 coder.",
-      "next": "Continue through the next controller gate.",
-      "project": "Trace",
-      "timestamp": "2026-10-16T17:54:28.299317Z",
-      "type": "task_exit_accepted",
-      "verification": "Verified",
-      "whyItMatters": "The controller recorded the completion."
-    },
-    {
-      "id": "136439",
-      "message": "Queued plan after 584 \u00b7 planner.",
-      "next": "Continue through the next controller gate.",
-      "project": "Trace",
-      "timestamp": "2026-10-16T17:54:26.000252Z",
-      "type": "task_queued",
-      "verification": "Recorded",
-      "whyItMatters": "The next unit of work is durable."
-    },
-    {
-      "id": "136436",
-      "message": "Verification passed for 581 pnpm supply chain gate repair \u00b7 coder.",
-      "next": "Continue through the next controller gate.",
-      "project": "Trace",
-      "timestamp": "2026-10-16T17:54:23.231030Z",
-      "type": "accepted",
-      "verification": "Verified",
-      "whyItMatters": "Dependent work may advance."
-    },
-    {
-      "id": "136419",
-      "message": "Queued local repair 578 1 \u00b7 planner.",
-      "next": "Continue through the next controller gate.",
-      "project": "Ditto",
-      "timestamp": "2026-10-16T17:54:08.791046Z",
-      "type": "task_queued",
-      "verification": "Recorded",
-      "whyItMatters": "The next unit of work is durable."
-    },
-    {
-      "id": "136417",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "Ditto",
-      "timestamp": "2026-10-16T17:54:07.504234Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
     }
   ],
   "portfolioSummary": {
@@ -1267,22 +1267,22 @@
       "status": "Ready"
     },
     {
-      "agentsNow": "No agent currently executing",
+      "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "ctbone determinism recovery 586 \u00b7 coder",
+      "currentObjective": "ctbone manifest integration verify \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "ctbone",
       "lastAccomplishment": "Verified local repair 586 1 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T19:02:02.381496Z",
+      "lastMeaningfulActivity": "2026-10-16T19:25:31.717947Z",
       "name": "CTBone",
-      "nextTask": "ctbone determinism recovery 586 \u00b7 coder",
+      "nextTask": "local repair 603 1 \u00b7 planner",
       "operationalState": "RUNNABLE",
-      "queueDepth": 2,
+      "queueDepth": 3,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Queued"
+      "status": "Running"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1339,22 +1339,22 @@
       "status": "Failed / retrying"
     },
     {
-      "agentsNow": "Running",
+      "agentsNow": "No agent currently executing",
       "blocker": null,
-      "currentObjective": "task 580 integration check \u00b7 research",
+      "currentObjective": "local repair 595 1 \u00b7 planner",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "teer",
       "lastAccomplishment": "Verified local repair 580 1 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T19:25:14.626760Z",
+      "lastMeaningfulActivity": "2026-10-16T19:27:26.912366Z",
       "name": "TEER",
       "nextTask": "local repair 595 1 \u00b7 planner",
       "operationalState": "RUNNABLE",
       "queueDepth": 3,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Running"
+      "status": "Queued"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T19:25:26.664235Z",
+  "publishedAt": "2026-10-16T19:27:29.073626Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1389,6 +1389,19 @@
     {
       "backend": "Local",
       "heartbeatFresh": false,
+      "id": "610",
+      "parent": null,
+      "project": "CTBone",
+      "resource": "Local agent",
+      "startedAt": "2026-10-16T19:25:31.717947Z",
+      "state": "QUEUED",
+      "title": "local repair 603 1 \u00b7 planner",
+      "updatedAt": "2026-10-16T19:25:31.717947Z",
+      "workerType": "planner"
+    },
+    {
+      "backend": "Local",
+      "heartbeatFresh": true,
       "id": "609",
       "parent": null,
       "project": "TEER",
@@ -1396,21 +1409,8 @@
       "startedAt": "2026-10-16T18:59:58.816869Z",
       "state": "QUEUED",
       "title": "local repair 595 1 \u00b7 planner",
-      "updatedAt": "2026-10-16T18:59:58.816869Z",
+      "updatedAt": "2026-10-16T19:27:26.912366Z",
       "workerType": "planner"
-    },
-    {
-      "backend": "Local",
-      "heartbeatFresh": false,
-      "id": "605",
-      "parent": "601",
-      "project": "CTBone",
-      "resource": "Local agent",
-      "startedAt": "2026-10-16T18:30:35.604043Z",
-      "state": "QUEUED",
-      "title": "ctbone determinism recovery 586 \u00b7 coder",
-      "updatedAt": "2026-10-16T18:30:35.604043Z",
-      "workerType": "coder"
     }
   ],
   "recentlyCompleted": [
@@ -1510,9 +1510,9 @@
     "verifiedMilestones24h": 45,
     "verifiedMilestones2h": 22
   },
-  "semanticHash": "612db299fa13aecaeb3c221851fb4bbe7a7bce000e032583819bae48520a47c8",
+  "semanticHash": "ad6993d1143ff048ebbcd6a135ead703bccc60fc920f0b208ff35d1e9c98b592",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-16T19:25:26.319442Z",
+  "sourceEventAt": "2026-10-16T19:27:26.912464Z",
   "system": {
     "activeJobs": 2,
     "autonomy": "DEGRADED",
