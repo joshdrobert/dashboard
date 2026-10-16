@@ -1,6 +1,24 @@
 [
   {
     "level": "Recorded",
+    "message": "Controller recorded git integration complete.",
+    "project": "AI-Server",
+    "timestamp": "2026-10-16T17:22:22.262874Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "Trace",
+    "timestamp": "2026-10-16T17:22:14.134183Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "Trace",
+    "timestamp": "2026-10-16T17:22:14.134153Z"
+  },
+  {
+    "level": "Recorded",
     "message": "Controller recovery restored an interrupted task boundary.",
     "project": "Ditto",
     "timestamp": "2026-10-16T17:22:07.328302Z"
@@ -28,18 +46,6 @@
     "message": "Controller recovery restored an interrupted task boundary.",
     "project": "TEER",
     "timestamp": "2026-10-16T17:22:07.239924Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T17:19:40.634074Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T17:19:40.634047Z"
   },
   {
     "level": "Recorded",
@@ -184,12 +190,6 @@
     "message": "A Codex orientation was delivered.",
     "project": "AI-Server",
     "timestamp": "2026-10-16T15:10:04.112465Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recorded git integration complete.",
-    "project": "AI-Server",
-    "timestamp": "2026-10-16T14:41:25.813818Z"
   },
   {
     "level": "Verified",
