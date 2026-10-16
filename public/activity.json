@@ -1,6 +1,60 @@
 [
   {
     "level": "Recorded",
+    "message": "A Codex orientation was delivered.",
+    "project": "BCM-Neuromodulation",
+    "timestamp": "2026-10-16T13:01:57.761273Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "A Codex orientation was delivered.",
+    "project": "Papers",
+    "timestamp": "2026-10-16T13:01:57.760420Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "A Codex orientation was delivered.",
+    "project": "TEER",
+    "timestamp": "2026-10-16T13:01:57.759126Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "A Codex orientation was delivered.",
+    "project": "Trace",
+    "timestamp": "2026-10-16T13:01:57.758240Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "A Codex orientation was delivered.",
+    "project": "Ditto",
+    "timestamp": "2026-10-16T13:01:57.757425Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "A Codex orientation was delivered.",
+    "project": "EchoNext",
+    "timestamp": "2026-10-16T13:01:57.756302Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "A Codex orientation was delivered.",
+    "project": "CTBone",
+    "timestamp": "2026-10-16T13:01:57.754892Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "A Codex orientation was delivered.",
+    "project": "AortaPlan",
+    "timestamp": "2026-10-16T13:01:57.753252Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "A Codex orientation was delivered.",
+    "project": "AI-Server",
+    "timestamp": "2026-10-16T13:01:57.751942Z"
+  },
+  {
+    "level": "Recorded",
     "message": "Controller recorded git integration complete.",
     "project": "AI-Server",
     "timestamp": "2026-10-16T12:56:46.173804Z"
@@ -134,18 +188,6 @@
   {
     "level": "Recorded",
     "message": "A Codex orientation was delivered.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T10:58:43.451034Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "A Codex orientation was delivered.",
-    "project": "TEER",
-    "timestamp": "2026-10-16T10:58:43.450932Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "A Codex orientation was delivered.",
     "project": "Papers",
     "timestamp": "2026-10-16T10:58:43.450859Z"
   },
@@ -160,18 +202,6 @@
     "message": "A Codex orientation was delivered.",
     "project": "Ditto",
     "timestamp": "2026-10-16T10:58:43.450694Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "A Codex orientation was delivered.",
-    "project": "CTBone",
-    "timestamp": "2026-10-16T10:58:43.450608Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "A Codex orientation was delivered.",
-    "project": "BCM-Neuromodulation",
-    "timestamp": "2026-10-16T10:58:43.450535Z"
   },
   {
     "level": "Recorded",
@@ -208,36 +238,6 @@
     "message": "Controller recovery restored an interrupted task boundary.",
     "project": "EchoNext",
     "timestamp": "2026-10-16T10:38:17.754520Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "A Codex orientation was delivered.",
-    "project": "Papers",
-    "timestamp": "2026-10-16T08:43:52.687298Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "A Codex orientation was delivered.",
-    "project": "EchoNext",
-    "timestamp": "2026-10-16T08:43:52.687258Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "A Codex orientation was delivered.",
-    "project": "Ditto",
-    "timestamp": "2026-10-16T08:43:52.687217Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "A Codex orientation was delivered.",
-    "project": "AortaPlan",
-    "timestamp": "2026-10-16T08:43:52.687035Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "A Codex orientation was delivered.",
-    "project": "AI-Server",
-    "timestamp": "2026-10-16T06:35:47.883746Z"
   },
   {
     "level": "Verified",
