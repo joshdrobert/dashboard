@@ -1,20 +1,6 @@
 {
   "actionRequired": [],
-  "activeWork": [
-    {
-      "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "577",
-      "parent": "466",
-      "project": "CTBone",
-      "resource": "Local agent",
-      "startedAt": "2026-10-16T17:16:08.768100Z",
-      "state": "VERIFYING",
-      "title": "integration repair dataset provenance 20261016 \u00b7 coder",
-      "updatedAt": "2026-10-16T17:24:35.458488Z",
-      "workerType": "coder"
-    }
-  ],
+  "activeWork": [],
   "attentionRequired": [
     {
       "category": "Agents debugging",
@@ -33,7 +19,7 @@
       "startedAt": "2026-10-16T17:16:08.774680Z",
       "state": "STALE_UNKNOWN",
       "title": "integration repair pnpm build policy 20261016 \u00b7 coder",
-      "updatedAt": "2026-10-16T17:24:39.239569Z",
+      "updatedAt": "2026-10-16T17:25:52.485034Z",
       "workerType": "coder"
     },
     {
@@ -65,6 +51,19 @@
     {
       "backend": "Local",
       "heartbeatFresh": true,
+      "id": "577",
+      "parent": "466",
+      "project": "CTBone",
+      "resource": "Local agent",
+      "startedAt": "2026-10-16T17:16:08.768100Z",
+      "state": "STALE_UNKNOWN",
+      "title": "integration repair dataset provenance 20261016 \u00b7 coder",
+      "updatedAt": "2026-10-16T17:26:00.908850Z",
+      "workerType": "coder"
+    },
+    {
+      "backend": "Local",
+      "heartbeatFresh": true,
       "id": "576",
       "parent": "526",
       "project": "AortaPlan",
@@ -87,19 +86,6 @@
       "title": "vision shared gateway smoke 20261015 \u00b7 coder",
       "updatedAt": "2026-10-15T14:03:22.573182Z",
       "workerType": "coder"
-    },
-    {
-      "backend": "Local",
-      "heartbeatFresh": false,
-      "id": "523",
-      "parent": "466",
-      "project": "CTBone",
-      "resource": "Local agent",
-      "startedAt": "2026-10-14T22:19:07.590049Z",
-      "state": "FAILED",
-      "title": "regenerate plan 515 \u00b7 planner",
-      "updatedAt": "2026-10-14T22:25:40.210909Z",
-      "workerType": "planner"
     },
     {
       "backend": "Local",
@@ -397,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-16T17:25:10.210999Z",
+  "generatedAt": "2026-10-16T17:26:18.130331Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -1217,9 +1203,9 @@
   ],
   "portfolioSummary": {
     "actionsRequiringUser": 0,
-    "activeLocalAgents": 1,
+    "activeLocalAgents": 0,
     "activeVisionJobs": 0,
-    "executingProjects": 1,
+    "executingProjects": 0,
     "projectsNeedingTechnicalAttention": 2,
     "registeredProjects": 9,
     "state": "Needs attention",
@@ -1281,7 +1267,7 @@
       "status": "Ready"
     },
     {
-      "agentsNow": "Verifying",
+      "agentsNow": "Running",
       "blocker": null,
       "currentObjective": "integration repair dataset provenance 20261016 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
@@ -1289,14 +1275,14 @@
       "id": "ctbone",
       "lastAccomplishment": "Verified regenerate plan 465 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T17:24:35.458488Z",
+      "lastMeaningfulActivity": "2026-10-16T17:26:00.908850Z",
       "name": "CTBone",
       "nextTask": null,
       "operationalState": "RUNNABLE",
       "queueDepth": 1,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Verifying"
+      "status": "Running"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1379,7 +1365,7 @@
       "id": "trace",
       "lastAccomplishment": "Verified 537 upload manuscript export \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T17:24:39.239569Z",
+      "lastMeaningfulActivity": "2026-10-16T17:25:52.485034Z",
       "name": "Trace",
       "nextTask": null,
       "operationalState": "RUNNABLE",
@@ -1394,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T17:24:17.082552Z",
+  "publishedAt": "2026-10-16T17:26:18.398548Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1402,7 +1388,7 @@
   "queuedWork": [
     {
       "backend": "Local",
-      "heartbeatFresh": true,
+      "heartbeatFresh": false,
       "id": "578",
       "parent": "502",
       "project": "Ditto",
@@ -1511,7 +1497,7 @@
     "verifiedMilestones24h": 28,
     "verifiedMilestones2h": 0
   },
-  "semanticHash": "fa38dc5e6987b0b474960b43f6ef3021c8b045fbc355e9a4d490961c83806827",
+  "semanticHash": "2a4bcb068eb86f4362c538c7df471b2386a2e2f73a0236af78addbb2812c363b",
   "snapshotVersion": "2.3",
   "sourceEventAt": "2026-10-16T17:24:16.328045Z",
   "system": {
