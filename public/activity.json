@@ -1,5 +1,23 @@
 [
   {
+    "level": "Verified",
+    "message": "Accepted task completed: local repair 556 2 \u00b7 planner.",
+    "project": "Trace",
+    "timestamp": "2026-10-16T00:22:23.387373Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Queued 556 reader editor export authorization \u00b7 coder.",
+    "project": "Trace",
+    "timestamp": "2026-10-16T00:22:20.585577Z"
+  },
+  {
+    "level": "Verified",
+    "message": "Verification passed for local repair 556 2 \u00b7 planner.",
+    "project": "Trace",
+    "timestamp": "2026-10-16T00:22:19.649947Z"
+  },
+  {
     "level": "Recorded",
     "message": "Queued local repair 556 2 \u00b7 planner.",
     "project": "Trace",
@@ -460,23 +478,5 @@
     "message": "A bounded task failed and entered recovery.",
     "project": "Trace",
     "timestamp": "2026-10-15T13:02:40.182053Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "Trace",
-    "timestamp": "2026-10-15T13:00:53.610650Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "Trace",
-    "timestamp": "2026-10-15T13:00:53.610627Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Accepted task completed: local repair 534 1 \u00b7 planner.",
-    "project": "Trace",
-    "timestamp": "2026-10-15T12:58:46.029953Z"
   }
 ]

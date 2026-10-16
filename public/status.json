@@ -12,15 +12,15 @@
     {
       "backend": "Local",
       "heartbeatFresh": true,
-      "id": "558",
-      "parent": null,
+      "id": "559",
+      "parent": "558",
       "project": "Trace",
       "resource": "Local agent",
-      "startedAt": "2026-10-16T00:21:53.055620Z",
+      "startedAt": "2026-10-16T00:22:20.585513Z",
       "state": "STALE_UNKNOWN",
-      "title": "local repair 556 2 \u00b7 planner",
-      "updatedAt": "2026-10-16T00:21:56.561951Z",
-      "workerType": "planner"
+      "title": "556 reader editor export authorization \u00b7 coder",
+      "updatedAt": "2026-10-16T00:22:23.425506Z",
+      "workerType": "coder"
     },
     {
       "backend": "Local",
@@ -155,8 +155,38 @@
     "state": "COMPLETE",
     "summary": "The latest two-phase portfolio review is reflected in the controller ledger."
   },
-  "generatedAt": "2026-10-16T00:22:19.068000Z",
+  "generatedAt": "2026-10-16T00:24:20.312898Z",
   "meaningfulEvents": [
+    {
+      "id": "129176",
+      "message": "Accepted task completed: local repair 556 2 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-16T00:22:23.387373Z",
+      "type": "task_exit_accepted",
+      "verification": "Verified",
+      "whyItMatters": "The controller recorded the completion."
+    },
+    {
+      "id": "129167",
+      "message": "Queued 556 reader editor export authorization \u00b7 coder.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-16T00:22:20.585577Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "129165",
+      "message": "Verification passed for local repair 556 2 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-16T00:22:19.649947Z",
+      "type": "accepted",
+      "verification": "Verified",
+      "whyItMatters": "Dependent work may advance."
+    },
     {
       "id": "129138",
       "message": "Queued local repair 556 2 \u00b7 planner.",
@@ -926,36 +956,6 @@
       "type": "failure",
       "verification": "Attention",
       "whyItMatters": "The failure remains visible until repaired."
-    },
-    {
-      "id": "122077",
-      "message": "Controller recovery restored an interrupted task boundary.",
-      "next": "Continue through the next controller gate.",
-      "project": "Trace",
-      "timestamp": "2026-10-15T13:00:53.610650Z",
-      "type": "recovery",
-      "verification": "Recorded",
-      "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "122076",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "Trace",
-      "timestamp": "2026-10-15T13:00:53.610627Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
-    },
-    {
-      "id": "122001",
-      "message": "Accepted task completed: local repair 534 1 \u00b7 planner.",
-      "next": "Continue through the next controller gate.",
-      "project": "Trace",
-      "timestamp": "2026-10-15T12:58:46.029953Z",
-      "type": "task_exit_accepted",
-      "verification": "Verified",
-      "whyItMatters": "The controller recorded the completion."
     }
   ],
   "portfolioSummary": {
@@ -966,7 +966,7 @@
     "projectsNeedingTechnicalAttention": 4,
     "registeredProjects": 9,
     "state": "Needs attention",
-    "verifiedCompletions24h": 32
+    "verifiedCompletions24h": 34
   },
   "projects": [
     {
@@ -1116,13 +1116,13 @@
     {
       "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "local repair 556 2 \u00b7 planner",
+      "currentObjective": "556 reader editor export authorization \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "trace",
-      "lastAccomplishment": "Verified local repair 556 1 \u00b7 planner.",
+      "lastAccomplishment": "Verified local repair 556 2 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T00:21:56.561951Z",
+      "lastMeaningfulActivity": "2026-10-16T00:22:23.425506Z",
       "name": "Trace",
       "nextTask": "trace browser e2e \u00b7 coder",
       "operationalState": "RUNNABLE",
@@ -1137,7 +1137,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T00:22:19.288140Z",
+  "publishedAt": "2026-10-16T00:24:20.539232Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1158,6 +1158,13 @@
     }
   ],
   "recentlyCompleted": [
+    {
+      "id": "558",
+      "project": "Trace",
+      "state": "COMPLETED",
+      "title": "local repair 556 2 \u00b7 planner",
+      "updatedAt": "2026-10-16T00:22:19.649829Z"
+    },
     {
       "id": "461",
       "project": "Papers",
@@ -1234,13 +1241,6 @@
       "state": "COMPLETED",
       "title": "regenerate plan 542 \u00b7 planner",
       "updatedAt": "2026-10-15T13:21:19.717138Z"
-    },
-    {
-      "id": "540",
-      "project": "Trace",
-      "state": "COMPLETED",
-      "title": "534 rights metadata store \u00b7 coder",
-      "updatedAt": "2026-10-15T13:04:24.405490Z"
     }
   ],
   "recoveryWork": [],
@@ -1251,9 +1251,9 @@
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0
   },
-  "semanticHash": "6c707b5a3f5f405100b3170a11a51e1a69a35e17989ca1a4589c24b8c5a1fd50",
+  "semanticHash": "a5a53a737504b41676791c3a27d4ae29a84191c4091476e6c7128c355674e42c",
   "snapshotVersion": "2.1",
-  "sourceEventAt": "2026-10-16T00:21:53.055672Z",
+  "sourceEventAt": "2026-10-16T00:22:23.387373Z",
   "system": {
     "activeJobs": 1,
     "autonomy": "DEGRADED",
