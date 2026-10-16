@@ -1,5 +1,17 @@
 [
   {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "TEER",
+    "timestamp": "2026-10-16T20:15:13.446256Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "TEER",
+    "timestamp": "2026-10-16T20:15:13.446200Z"
+  },
+  {
     "level": "Verified",
     "message": "Accepted task completed: local repair 608 bounded steps \u00b7 coder.",
     "project": "AortaPlan",
@@ -466,17 +478,5 @@
     "message": "Queued regenerate plan 602 \u00b7 planner.",
     "project": "AortaPlan",
     "timestamp": "2026-10-16T18:37:47.074937Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Verification passed for local repair 576 1 \u00b7 planner.",
-    "project": "AortaPlan",
-    "timestamp": "2026-10-16T18:37:45.830309Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "AortaPlan",
-    "timestamp": "2026-10-16T18:35:10.503023Z"
   }
 ]
