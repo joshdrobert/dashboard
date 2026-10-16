@@ -1,5 +1,17 @@
 [
   {
+    "level": "Verified",
+    "message": "Accepted task completed: 567 timeout recovery \u00b7 coder.",
+    "project": "Trace",
+    "timestamp": "2026-10-16T01:58:01.179833Z"
+  },
+  {
+    "level": "Verified",
+    "message": "Verification passed for 567 timeout recovery \u00b7 coder.",
+    "project": "Trace",
+    "timestamp": "2026-10-16T01:57:57.231278Z"
+  },
+  {
     "level": "Recorded",
     "message": "Controller recovery restored an interrupted task boundary.",
     "project": "Trace",
@@ -466,17 +478,5 @@
     "message": "Accepted task completed: task 545 vision gateway probe \u00b7 coder.",
     "project": "AI-Server",
     "timestamp": "2026-10-15T14:10:10.012941Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Verification passed for task 545 vision gateway probe \u00b7 coder.",
-    "project": "AI-Server",
-    "timestamp": "2026-10-15T14:10:03.675090Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "AI-Server",
-    "timestamp": "2026-10-15T14:08:39.969171Z"
   }
 ]
