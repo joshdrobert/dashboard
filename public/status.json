@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-16T20:48:23.478708Z",
+  "generatedAt": "2026-10-16T20:50:24.599258Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -1339,9 +1339,9 @@
       "status": "Failed / retrying"
     },
     {
-      "agentsNow": "Running",
+      "agentsNow": "No agent currently executing",
       "blocker": null,
-      "currentObjective": "task 596 cache cleanup \u00b7 coder",
+      "currentObjective": "task 597 exclusion \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "teer",
@@ -1354,7 +1354,7 @@
       "queueDepth": 3,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Running"
+      "status": "Queued"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T20:48:23.801869Z",
+  "publishedAt": "2026-10-16T20:50:24.955542Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1388,7 +1388,7 @@
   "queuedWork": [
     {
       "backend": "Local",
-      "heartbeatFresh": true,
+      "heartbeatFresh": false,
       "id": "628",
       "parent": "620",
       "project": "TEER",
@@ -1497,11 +1497,11 @@
     "verifiedMilestones24h": 56,
     "verifiedMilestones2h": 22
   },
-  "semanticHash": "0340aff5103bdc809505cf0bdc00f2c90f4f283199716e7ca6e77227dc1ba522",
+  "semanticHash": "7de2b15f5a9b10ac583e8c8d5a7667f79294ea03b7d9c56c463bebff473f4154",
   "snapshotVersion": "2.3",
   "sourceEventAt": "2026-10-16T20:46:15.765678Z",
   "system": {
-    "activeJobs": 1,
+    "activeJobs": 0,
     "autonomy": "DEGRADED",
     "status": "Needs attention"
   },
