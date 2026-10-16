@@ -1,6 +1,60 @@
 [
   {
     "level": "Recorded",
+    "message": "A Codex orientation was delivered.",
+    "project": "Trace",
+    "timestamp": "2026-10-16T19:21:24.525877Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "A Codex orientation was delivered.",
+    "project": "TEER",
+    "timestamp": "2026-10-16T19:21:24.524978Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "A Codex orientation was delivered.",
+    "project": "Papers",
+    "timestamp": "2026-10-16T19:21:24.524086Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "A Codex orientation was delivered.",
+    "project": "EchoNext",
+    "timestamp": "2026-10-16T19:21:24.523220Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "A Codex orientation was delivered.",
+    "project": "Ditto",
+    "timestamp": "2026-10-16T19:21:24.522314Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "A Codex orientation was delivered.",
+    "project": "CTBone",
+    "timestamp": "2026-10-16T19:21:24.521429Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "A Codex orientation was delivered.",
+    "project": "BCM-Neuromodulation",
+    "timestamp": "2026-10-16T19:21:24.520431Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "A Codex orientation was delivered.",
+    "project": "AortaPlan",
+    "timestamp": "2026-10-16T19:21:24.519357Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "A Codex orientation was delivered.",
+    "project": "AI-Server",
+    "timestamp": "2026-10-16T19:21:24.517935Z"
+  },
+  {
+    "level": "Recorded",
     "message": "Controller recovery restored an interrupted task boundary.",
     "project": "AortaPlan",
     "timestamp": "2026-10-16T19:14:24.066591Z"
@@ -424,59 +478,5 @@
     "message": "A bounded task failed and entered recovery.",
     "project": "Ditto",
     "timestamp": "2026-10-16T17:54:07.504234Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued local repair 580 1 \u00b7 planner.",
-    "project": "TEER",
-    "timestamp": "2026-10-16T17:53:25.183112Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "TEER",
-    "timestamp": "2026-10-16T17:53:23.682458Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T17:51:56.627432Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T17:51:56.627371Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Accepted task completed: local repair 577 1 \u00b7 planner.",
-    "project": "CTBone",
-    "timestamp": "2026-10-16T17:48:36.823170Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued ctbone extraction provenance root check \u00b7 coder.",
-    "project": "CTBone",
-    "timestamp": "2026-10-16T17:48:30.712100Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued ctbone continuation boundary check \u00b7 coder.",
-    "project": "CTBone",
-    "timestamp": "2026-10-16T17:48:30.712065Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued ctbone denominator consistency check 20261014 \u00b7 coder.",
-    "project": "CTBone",
-    "timestamp": "2026-10-16T17:48:30.711983Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Verification passed for local repair 577 1 \u00b7 planner.",
-    "project": "CTBone",
-    "timestamp": "2026-10-16T17:48:30.071574Z"
   }
 ]
