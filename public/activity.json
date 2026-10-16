@@ -1,6 +1,36 @@
 [
   {
     "level": "Recorded",
+    "message": "Queued local repair 596 2 \u00b7 planner.",
+    "project": "TEER",
+    "timestamp": "2026-10-16T19:49:12.726906Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Queued regenerate plan 612 \u00b7 planner.",
+    "project": "TEER",
+    "timestamp": "2026-10-16T19:49:03.936947Z"
+  },
+  {
+    "level": "Verified",
+    "message": "Verification passed for local repair 596 1 \u00b7 planner.",
+    "project": "TEER",
+    "timestamp": "2026-10-16T19:49:03.582033Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "TEER",
+    "timestamp": "2026-10-16T19:47:55.455826Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "TEER",
+    "timestamp": "2026-10-16T19:47:55.455737Z"
+  },
+  {
+    "level": "Recorded",
     "message": "Controller recovery restored an interrupted task boundary.",
     "project": "TEER",
     "timestamp": "2026-10-16T19:47:30.221545Z"
@@ -94,18 +124,6 @@
     "message": "A bounded task failed and entered recovery.",
     "project": "CTBone",
     "timestamp": "2026-10-16T19:29:07.014591Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "TEER",
-    "timestamp": "2026-10-16T19:27:26.912464Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "TEER",
-    "timestamp": "2026-10-16T19:27:26.912397Z"
   },
   {
     "level": "Recorded",
@@ -460,23 +478,5 @@
     "message": "Verification passed for plan after 584 \u00b7 planner.",
     "project": "Trace",
     "timestamp": "2026-10-16T18:02:50.772069Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued local repair 578 2 \u00b7 planner.",
-    "project": "Ditto",
-    "timestamp": "2026-10-16T17:58:07.253302Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued regenerate plan 589 \u00b7 planner.",
-    "project": "Ditto",
-    "timestamp": "2026-10-16T17:57:55.929073Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Verification passed for local repair 578 1 \u00b7 planner.",
-    "project": "Ditto",
-    "timestamp": "2026-10-16T17:57:54.981377Z"
   }
 ]
