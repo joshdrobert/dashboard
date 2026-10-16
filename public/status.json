@@ -11,15 +11,15 @@
   "blockedWork": [
     {
       "backend": "Local",
-      "heartbeatFresh": true,
+      "heartbeatFresh": false,
       "id": "625",
       "parent": "624",
       "project": "AortaPlan",
       "resource": "Local agent",
       "startedAt": "2026-10-16T20:20:24.888878Z",
-      "state": "STALE_UNKNOWN",
+      "state": "FAILED",
       "title": "plan after 624 \u00b7 planner",
-      "updatedAt": "2026-10-16T20:25:10.797507Z",
+      "updatedAt": "2026-10-16T20:26:22.956892Z",
       "workerType": "planner"
     },
     {
@@ -32,7 +32,7 @@
       "startedAt": "2026-10-16T19:51:07.019663Z",
       "state": "STALE_UNKNOWN",
       "title": "task 595 duplicate test file \u00b7 coder",
-      "updatedAt": "2026-10-16T20:23:42.897043Z",
+      "updatedAt": "2026-10-16T20:27:36.993807Z",
       "workerType": "coder"
     },
     {
@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-16T20:26:12.073335Z",
+  "generatedAt": "2026-10-16T20:28:13.793572Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -401,6 +401,16 @@
   },
   "meaningfulEvents": [
     {
+      "id": "142929",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "AortaPlan",
+      "timestamp": "2026-10-16T20:26:22.956912Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
+    {
       "id": "142793",
       "message": "Controller recovery restored an interrupted task boundary.",
       "next": "Continue through the next controller gate.",
@@ -409,16 +419,6 @@
       "type": "recovery",
       "verification": "Recorded",
       "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "142792",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "AortaPlan",
-      "timestamp": "2026-10-16T20:22:42.169707Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
     },
     {
       "id": "142671",
@@ -1231,7 +1231,7 @@
       "status": "Failed / retrying"
     },
     {
-      "agentsNow": "Running",
+      "agentsNow": "No agent currently executing",
       "blocker": null,
       "currentObjective": "plan after 624 \u00b7 planner",
       "deliverable": "A verified bounded project artifact.",
@@ -1239,14 +1239,14 @@
       "id": "aortaplan",
       "lastAccomplishment": "Verified local repair 608 invariant preserve \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T20:25:10.797507Z",
+      "lastMeaningfulActivity": "2026-10-16T20:26:22.956892Z",
       "name": "AortaPlan",
       "nextTask": null,
       "operationalState": "RUNNABLE",
-      "queueDepth": 1,
+      "queueDepth": 0,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Running"
+      "status": "Ready"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1347,7 +1347,7 @@
       "id": "teer",
       "lastAccomplishment": "Verified local repair 596 2 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T20:23:36.112186Z",
+      "lastMeaningfulActivity": "2026-10-16T20:27:29.864343Z",
       "name": "TEER",
       "nextTask": "task 596 cache cleanup \u00b7 coder",
       "operationalState": "RUNNABLE",
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T20:26:12.388887Z",
+  "publishedAt": "2026-10-16T20:28:14.103563Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1497,11 +1497,11 @@
     "verifiedMilestones24h": 60,
     "verifiedMilestones2h": 25
   },
-  "semanticHash": "7d7dd8ceb0f22328cc92c59c6689fc0176b411e0101ad0e4d1d2cea646745cab",
+  "semanticHash": "66cf94bee3f6302172729865628a7d69e970b899694135e70a5c7b056072b552",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-16T20:22:42.169785Z",
+  "sourceEventAt": "2026-10-16T20:26:22.956912Z",
   "system": {
-    "activeJobs": 2,
+    "activeJobs": 1,
     "autonomy": "DEGRADED",
     "status": "Needs attention"
   },
