@@ -1,5 +1,23 @@
 [
   {
+    "level": "Recorded",
+    "message": "Queued local repair 576 1 \u00b7 planner.",
+    "project": "AortaPlan",
+    "timestamp": "2026-10-16T18:27:53.365024Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "CTBone",
+    "timestamp": "2026-10-16T18:26:45.787190Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "CTBone",
+    "timestamp": "2026-10-16T18:26:45.787115Z"
+  },
+  {
     "level": "Attention",
     "message": "A bounded task failed and entered recovery.",
     "project": "EchoNext",
@@ -10,18 +28,6 @@
     "message": "Controller recovery restored an interrupted task boundary.",
     "project": "EchoNext",
     "timestamp": "2026-10-16T18:22:25.252827Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "CTBone",
-    "timestamp": "2026-10-16T18:18:47.412531Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "CTBone",
-    "timestamp": "2026-10-16T18:18:47.412452Z"
   },
   {
     "level": "Attention",
@@ -472,11 +478,5 @@
     "message": "A Codex orientation was delivered.",
     "project": "CTBone",
     "timestamp": "2026-10-16T17:14:29.989626Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "A Codex orientation was delivered.",
-    "project": "BCM-Neuromodulation",
-    "timestamp": "2026-10-16T17:14:29.987137Z"
   }
 ]

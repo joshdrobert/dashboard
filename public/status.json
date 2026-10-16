@@ -12,6 +12,19 @@
     {
       "backend": "Local",
       "heartbeatFresh": true,
+      "id": "602",
+      "parent": null,
+      "project": "AortaPlan",
+      "resource": "Local agent",
+      "startedAt": "2026-10-16T18:27:53.364936Z",
+      "state": "STALE_UNKNOWN",
+      "title": "local repair 576 1 \u00b7 planner",
+      "updatedAt": "2026-10-16T18:27:59.359737Z",
+      "workerType": "planner"
+    },
+    {
+      "backend": "Local",
+      "heartbeatFresh": true,
       "id": "601",
       "parent": null,
       "project": "CTBone",
@@ -19,12 +32,12 @@
       "startedAt": "2026-10-16T18:16:53.819891Z",
       "state": "STALE_UNKNOWN",
       "title": "local repair 586 1 \u00b7 planner",
-      "updatedAt": "2026-10-16T18:25:23.311079Z",
+      "updatedAt": "2026-10-16T18:27:55.626445Z",
       "workerType": "planner"
     },
     {
       "backend": "Local",
-      "heartbeatFresh": true,
+      "heartbeatFresh": false,
       "id": "600",
       "parent": null,
       "project": "EchoNext",
@@ -63,28 +76,15 @@
     },
     {
       "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "595",
-      "parent": "588",
+      "heartbeatFresh": false,
+      "id": "580",
+      "parent": "477",
       "project": "TEER",
       "resource": "Local agent",
-      "startedAt": "2026-10-16T18:03:57.159540Z",
-      "state": "STALE_UNKNOWN",
-      "title": "task 580 test isolation \u00b7 coder",
-      "updatedAt": "2026-10-16T18:22:11.557861Z",
-      "workerType": "coder"
-    },
-    {
-      "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "576",
-      "parent": "526",
-      "project": "AortaPlan",
-      "resource": "Local agent",
-      "startedAt": "2026-10-16T17:16:08.766328Z",
-      "state": "STALE_UNKNOWN",
-      "title": "integration repair physical coordinate invariants 20261016 \u00b7 coder",
-      "updatedAt": "2026-10-16T18:20:09.251844Z",
+      "startedAt": "2026-10-16T17:16:08.773222Z",
+      "state": "FAILED",
+      "title": "integration repair pytest collision 20261016 \u00b7 coder",
+      "updatedAt": "2026-10-16T17:53:23.682419Z",
       "workerType": "coder"
     },
     {
@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-16T18:26:38.318470Z",
+  "generatedAt": "2026-10-16T18:28:41.384144Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -400,6 +400,36 @@
     "verifiedPending": 0
   },
   "meaningfulEvents": [
+    {
+      "id": "137958",
+      "message": "Queued local repair 576 1 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "AortaPlan",
+      "timestamp": "2026-10-16T18:27:53.365024Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "137936",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "CTBone",
+      "timestamp": "2026-10-16T18:26:45.787190Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "137935",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "CTBone",
+      "timestamp": "2026-10-16T18:26:45.787115Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
     {
       "id": "137901",
       "message": "A bounded task failed and entered recovery.",
@@ -419,26 +449,6 @@
       "type": "recovery",
       "verification": "Recorded",
       "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "137596",
-      "message": "Controller recovery restored an interrupted task boundary.",
-      "next": "Continue through the next controller gate.",
-      "project": "CTBone",
-      "timestamp": "2026-10-16T18:18:47.412531Z",
-      "type": "recovery",
-      "verification": "Recorded",
-      "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "137595",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "CTBone",
-      "timestamp": "2026-10-16T18:18:47.412452Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
     },
     {
       "id": "137535",
@@ -1189,16 +1199,6 @@
       "type": "orientation_delivered",
       "verification": "Recorded",
       "whyItMatters": "Supervisory direction was updated."
-    },
-    {
-      "id": "134059",
-      "message": "A Codex orientation was delivered.",
-      "next": "Continue through the next controller gate.",
-      "project": "BCM-Neuromodulation",
-      "timestamp": "2026-10-16T17:14:29.987137Z",
-      "type": "orientation_delivered",
-      "verification": "Recorded",
-      "whyItMatters": "Supervisory direction was updated."
     }
   ],
   "portfolioSummary": {
@@ -1233,13 +1233,13 @@
     {
       "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "integration repair physical coordinate invariants 20261016 \u00b7 coder",
+      "currentObjective": "local repair 576 1 \u00b7 planner",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "aortaplan",
       "lastAccomplishment": "Verified a1 physical space regression bounds \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T18:20:09.251844Z",
+      "lastMeaningfulActivity": "2026-10-16T18:27:59.359737Z",
       "name": "AortaPlan",
       "nextTask": null,
       "operationalState": "RUNNABLE",
@@ -1275,7 +1275,7 @@
       "id": "ctbone",
       "lastAccomplishment": "Verified ctbone extraction provenance root check \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T18:25:23.311079Z",
+      "lastMeaningfulActivity": "2026-10-16T18:27:55.626445Z",
       "name": "CTBone",
       "nextTask": null,
       "operationalState": "RUNNABLE",
@@ -1339,9 +1339,9 @@
       "status": "Failed / retrying"
     },
     {
-      "agentsNow": "Running",
+      "agentsNow": "No agent currently executing",
       "blocker": null,
-      "currentObjective": "task 580 test isolation \u00b7 coder",
+      "currentObjective": "task 580 integration check \u00b7 research",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "teer",
@@ -1354,7 +1354,7 @@
       "queueDepth": 3,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Running"
+      "status": "Queued"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T18:26:38.773591Z",
+  "publishedAt": "2026-10-16T18:28:41.764336Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1497,11 +1497,11 @@
     "verifiedMilestones24h": 39,
     "verifiedMilestones2h": 16
   },
-  "semanticHash": "1987e2f32a0c9d1c93f6077dd6c48c11438abf53119403debad177ebf4107e66",
+  "semanticHash": "2a43299607a5d2d1a39cfba44a20b227821250fbb5b7e8627791d1dd209863e4",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-16T18:25:47.051303Z",
+  "sourceEventAt": "2026-10-16T18:27:53.365024Z",
   "system": {
-    "activeJobs": 3,
+    "activeJobs": 2,
     "autonomy": "DEGRADED",
     "status": "Needs attention"
   },
