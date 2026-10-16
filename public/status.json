@@ -155,7 +155,7 @@
     "state": "PHASE1_RUNNING",
     "summary": "The latest two-phase portfolio review is reflected in the controller ledger."
   },
-  "generatedAt": "2026-10-16T10:45:22.520266Z",
+  "generatedAt": "2026-10-16T10:47:23.350308Z",
   "meaningfulEvents": [
     {
       "id": "132600",
@@ -1114,7 +1114,7 @@
       "status": "Failed / retrying"
     },
     {
-      "agentsNow": "No agent currently executing",
+      "agentsNow": "Running",
       "blocker": null,
       "currentObjective": "trace browser e2e \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
@@ -1122,14 +1122,14 @@
       "id": "trace",
       "lastAccomplishment": "Verified 567 timeout recovery \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T10:42:35.320703Z",
+      "lastMeaningfulActivity": "2026-10-16T10:45:52.886256Z",
       "name": "Trace",
-      "nextTask": "trace browser e2e \u00b7 coder",
+      "nextTask": null,
       "operationalState": "RUNNABLE",
       "queueDepth": 1,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Queued"
+      "status": "Running"
     }
   ],
   "publicationHealth": {
@@ -1137,25 +1137,12 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T10:45:22.723955Z",
+  "publishedAt": "2026-10-16T10:47:23.576771Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
   },
   "queuedWork": [
-    {
-      "backend": "Local",
-      "heartbeatFresh": false,
-      "id": "537",
-      "parent": "569",
-      "project": "Trace",
-      "resource": "Local agent",
-      "startedAt": "2026-10-15T12:35:33.007726Z",
-      "state": "QUEUED",
-      "title": "trace browser e2e \u00b7 coder",
-      "updatedAt": "2026-10-16T10:43:52.792308Z",
-      "workerType": "coder"
-    },
     {
       "backend": "Local",
       "heartbeatFresh": false,
@@ -1264,11 +1251,11 @@
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0
   },
-  "semanticHash": "145a2e551385f05952dbe4d21126880ce1b151e66c13c1f9fd6a482e038e4b0c",
+  "semanticHash": "20eff6312f552f6c61b27aeecc8a35c49ac5758227b2e7d1776bfb46370b26db",
   "snapshotVersion": "2.1",
   "sourceEventAt": "2026-10-16T10:43:52.792353Z",
   "system": {
-    "activeJobs": 1,
+    "activeJobs": 2,
     "autonomy": "DEGRADED",
     "status": "Needs attention"
   },
