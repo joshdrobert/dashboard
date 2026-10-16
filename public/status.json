@@ -11,6 +11,19 @@
   "blockedWork": [
     {
       "backend": "Local",
+      "heartbeatFresh": true,
+      "id": "619",
+      "parent": null,
+      "project": "AortaPlan",
+      "resource": "Local agent",
+      "startedAt": "2026-10-16T19:58:07.702815Z",
+      "state": "STALE_UNKNOWN",
+      "title": "local repair 608 2 \u00b7 planner",
+      "updatedAt": "2026-10-16T20:02:14.910712Z",
+      "workerType": "planner"
+    },
+    {
+      "backend": "Local",
       "heartbeatFresh": false,
       "id": "613",
       "parent": "588",
@@ -34,19 +47,6 @@
       "title": "local repair 604 1 \u00b7 planner",
       "updatedAt": "2026-10-16T19:45:30.839989Z",
       "workerType": "planner"
-    },
-    {
-      "backend": "Local",
-      "heartbeatFresh": false,
-      "id": "608",
-      "parent": "616",
-      "project": "AortaPlan",
-      "resource": "Local agent",
-      "startedAt": "2026-10-16T18:47:56.720200Z",
-      "state": "FAILED",
-      "title": "task 576 repair coordinate invariants \u00b7 coder",
-      "updatedAt": "2026-10-16T19:57:51.871410Z",
-      "workerType": "coder"
     },
     {
       "backend": "Local",
@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-16T20:01:55.780370Z",
+  "generatedAt": "2026-10-16T20:03:57.192241Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -1231,7 +1231,7 @@
       "status": "Failed / retrying"
     },
     {
-      "agentsNow": "No agent currently executing",
+      "agentsNow": "Running",
       "blocker": null,
       "currentObjective": "local repair 608 2 \u00b7 planner",
       "deliverable": "A verified bounded project artifact.",
@@ -1239,14 +1239,14 @@
       "id": "aortaplan",
       "lastAccomplishment": "Verified task 608 repair plan decompose \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T20:01:38.727118Z",
+      "lastMeaningfulActivity": "2026-10-16T20:02:14.910712Z",
       "name": "AortaPlan",
-      "nextTask": "local repair 608 2 \u00b7 planner",
+      "nextTask": null,
       "operationalState": "RUNNABLE",
       "queueDepth": 1,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Queued"
+      "status": "Running"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T20:01:56.086672Z",
+  "publishedAt": "2026-10-16T20:03:57.497275Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1398,19 +1398,6 @@
       "title": "task 596 cache cleanup \u00b7 coder",
       "updatedAt": "2026-10-16T20:00:54.973894Z",
       "workerType": "coder"
-    },
-    {
-      "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "619",
-      "parent": null,
-      "project": "AortaPlan",
-      "resource": "Local agent",
-      "startedAt": "2026-10-16T19:58:07.702815Z",
-      "state": "QUEUED",
-      "title": "local repair 608 2 \u00b7 planner",
-      "updatedAt": "2026-10-16T20:01:37.098467Z",
-      "workerType": "planner"
     }
   ],
   "recentlyCompleted": [
@@ -1508,13 +1495,13 @@
     "resultsValidated": 0,
     "verifiedMilestones12h": 41,
     "verifiedMilestones24h": 54,
-    "verifiedMilestones2h": 24
+    "verifiedMilestones2h": 22
   },
-  "semanticHash": "0f8a0d61709616c9165612244a2cfbf715b60d92a1ae9654ae8d02182e2c17d9",
+  "semanticHash": "a04665d63e778405dbe9f7eeafa31ba3c2d17da54df44c8a5ba3739fe59594a9",
   "snapshotVersion": "2.3",
   "sourceEventAt": "2026-10-16T20:01:53.192624Z",
   "system": {
-    "activeJobs": 1,
+    "activeJobs": 2,
     "autonomy": "DEGRADED",
     "status": "Needs attention"
   },
