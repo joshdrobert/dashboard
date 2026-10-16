@@ -11,7 +11,7 @@
   "blockedWork": [
     {
       "backend": "Local",
-      "heartbeatFresh": true,
+      "heartbeatFresh": false,
       "id": "575",
       "parent": "572",
       "project": "Trace",
@@ -155,7 +155,7 @@
     "state": "COMPLETE",
     "summary": "The latest two-phase portfolio review is reflected in the controller ledger."
   },
-  "generatedAt": "2026-10-16T11:29:49.897615Z",
+  "generatedAt": "2026-10-16T11:31:50.267888Z",
   "meaningfulEvents": [
     {
       "id": "133646",
@@ -1137,7 +1137,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T11:29:50.206100Z",
+  "publishedAt": "2026-10-16T11:31:50.433252Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1237,7 +1237,7 @@
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0
   },
-  "semanticHash": "7537656da8394f67355268a63b9a4d9d4dd4db1b7c6f35b0a8526338c1db6b5d",
+  "semanticHash": "7ad3e3f0e063bf8df08370285a0a69a16639e03ef74c06be6d66c41c830d658d",
   "snapshotVersion": "2.1",
   "sourceEventAt": "2026-10-16T11:28:52.311962Z",
   "system": {
