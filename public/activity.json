@@ -1,6 +1,42 @@
 [
   {
     "level": "Recorded",
+    "message": "Queued integration repair pnpm build policy 20261016 \u00b7 coder.",
+    "project": "Trace",
+    "timestamp": "2026-10-16T17:16:08.775163Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Queued integration repair pytest collision 20261016 \u00b7 coder.",
+    "project": "TEER",
+    "timestamp": "2026-10-16T17:16:08.773883Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Queued integration repair pytest collision 20261016 \u00b7 coder.",
+    "project": "EchoNext",
+    "timestamp": "2026-10-16T17:16:08.772131Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Queued integration repair calibration validator 20261016 \u00b7 coder.",
+    "project": "Ditto",
+    "timestamp": "2026-10-16T17:16:08.770266Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Queued integration repair dataset provenance 20261016 \u00b7 coder.",
+    "project": "CTBone",
+    "timestamp": "2026-10-16T17:16:08.768752Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Queued integration repair physical coordinate invariants 20261016 \u00b7 coder.",
+    "project": "AortaPlan",
+    "timestamp": "2026-10-16T17:16:08.766977Z"
+  },
+  {
+    "level": "Recorded",
     "message": "A Codex orientation was delivered.",
     "project": "Trace",
     "timestamp": "2026-10-16T17:14:29.995378Z"
@@ -442,41 +478,5 @@
     "message": "Queued regenerate plan 560 \u00b7 planner.",
     "project": "Trace",
     "timestamp": "2026-10-16T00:53:16.590719Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Verification passed for local repair 559 1 \u00b7 planner.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T00:53:15.866295Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T00:51:30.257742Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T00:51:30.257711Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued local repair 559 1 \u00b7 planner.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T00:50:03.666730Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T00:43:17.265090Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T00:43:17.265063Z"
   }
 ]

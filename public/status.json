@@ -4,11 +4,76 @@
   "attentionRequired": [
     {
       "category": "Agents debugging",
-      "message": "5 task(s) are in repair or retry states.",
+      "message": "2 task(s) are in repair or retry states.",
       "project": "Portfolio"
     }
   ],
   "blockedWork": [
+    {
+      "backend": "Local",
+      "heartbeatFresh": true,
+      "id": "580",
+      "parent": "477",
+      "project": "TEER",
+      "resource": "Local agent",
+      "startedAt": "2026-10-16T17:16:08.773222Z",
+      "state": "STALE_UNKNOWN",
+      "title": "integration repair pytest collision 20261016 \u00b7 coder",
+      "updatedAt": "2026-10-16T17:16:16.838758Z",
+      "workerType": "coder"
+    },
+    {
+      "backend": "Local",
+      "heartbeatFresh": true,
+      "id": "579",
+      "parent": "514",
+      "project": "EchoNext",
+      "resource": "Local agent",
+      "startedAt": "2026-10-16T17:16:08.771322Z",
+      "state": "STALE_UNKNOWN",
+      "title": "integration repair pytest collision 20261016 \u00b7 coder",
+      "updatedAt": "2026-10-16T17:16:26.451774Z",
+      "workerType": "coder"
+    },
+    {
+      "backend": "Local",
+      "heartbeatFresh": true,
+      "id": "578",
+      "parent": "502",
+      "project": "Ditto",
+      "resource": "Local agent",
+      "startedAt": "2026-10-16T17:16:08.769708Z",
+      "state": "STALE_UNKNOWN",
+      "title": "integration repair calibration validator 20261016 \u00b7 coder",
+      "updatedAt": "2026-10-16T17:16:27.433187Z",
+      "workerType": "coder"
+    },
+    {
+      "backend": "Local",
+      "heartbeatFresh": true,
+      "id": "577",
+      "parent": "466",
+      "project": "CTBone",
+      "resource": "Local agent",
+      "startedAt": "2026-10-16T17:16:08.768100Z",
+      "state": "STALE_UNKNOWN",
+      "title": "integration repair dataset provenance 20261016 \u00b7 coder",
+      "updatedAt": "2026-10-16T17:16:17.020112Z",
+      "workerType": "coder"
+    },
+    {
+      "backend": "Local",
+      "heartbeatFresh": true,
+      "id": "576",
+      "parent": "526",
+      "project": "AortaPlan",
+      "resource": "Local agent",
+      "startedAt": "2026-10-16T17:16:08.766328Z",
+      "state": "STALE_UNKNOWN",
+      "title": "integration repair physical coordinate invariants 20261016 \u00b7 coder",
+      "updatedAt": "2026-10-16T17:16:17.286331Z",
+      "workerType": "coder"
+    },
     {
       "backend": "Local",
       "heartbeatFresh": false,
@@ -38,58 +103,6 @@
     {
       "backend": "Local",
       "heartbeatFresh": false,
-      "id": "533",
-      "parent": "526",
-      "project": "AortaPlan",
-      "resource": "Local agent",
-      "startedAt": "2026-10-15T04:34:08.964494Z",
-      "state": "FAILED",
-      "title": "regenerate plan 532 \u00b7 planner",
-      "updatedAt": "2026-10-15T04:38:59.940909Z",
-      "workerType": "planner"
-    },
-    {
-      "backend": "Local",
-      "heartbeatFresh": false,
-      "id": "523",
-      "parent": "466",
-      "project": "CTBone",
-      "resource": "Local agent",
-      "startedAt": "2026-10-14T22:19:07.590049Z",
-      "state": "FAILED",
-      "title": "regenerate plan 515 \u00b7 planner",
-      "updatedAt": "2026-10-14T22:25:40.210909Z",
-      "workerType": "planner"
-    },
-    {
-      "backend": "Local",
-      "heartbeatFresh": false,
-      "id": "516",
-      "parent": "514",
-      "project": "EchoNext",
-      "resource": "Local agent",
-      "startedAt": "2026-10-14T22:06:50.746265Z",
-      "state": "FAILED",
-      "title": "plan after 514 \u00b7 planner",
-      "updatedAt": "2026-10-16T10:41:02.932117Z",
-      "workerType": "planner"
-    },
-    {
-      "backend": "Local",
-      "heartbeatFresh": false,
-      "id": "501",
-      "parent": null,
-      "project": "Ditto",
-      "resource": "Local agent",
-      "startedAt": "2026-10-13T14:41:01.520344Z",
-      "state": "FAILED",
-      "title": "local repair 488 2 \u00b7 planner",
-      "updatedAt": "2026-10-13T14:58:27.715688Z",
-      "workerType": "planner"
-    },
-    {
-      "backend": "Local",
-      "heartbeatFresh": false,
       "id": "500",
       "parent": null,
       "project": "Papers",
@@ -98,19 +111,6 @@
       "state": "FAILED",
       "title": "local repair 460 2 \u00b7 planner",
       "updatedAt": "2026-10-13T15:16:11.461892Z",
-      "workerType": "planner"
-    },
-    {
-      "backend": "Local",
-      "heartbeatFresh": false,
-      "id": "490",
-      "parent": null,
-      "project": "TEER",
-      "resource": "Local agent",
-      "startedAt": "2026-10-13T14:18:26.667514Z",
-      "state": "FAILED",
-      "title": "local repair 455 2 \u00b7 planner",
-      "updatedAt": "2026-10-13T14:31:57.769333Z",
       "workerType": "planner"
     },
     {
@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-16T17:15:29.281352Z",
+  "generatedAt": "2026-10-16T17:17:49.928842Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -400,6 +400,66 @@
     "verifiedPending": 0
   },
   "meaningfulEvents": [
+    {
+      "id": "134097",
+      "message": "Queued integration repair pnpm build policy 20261016 \u00b7 coder.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-16T17:16:08.775163Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "134096",
+      "message": "Queued integration repair pytest collision 20261016 \u00b7 coder.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-16T17:16:08.773883Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "134095",
+      "message": "Queued integration repair pytest collision 20261016 \u00b7 coder.",
+      "next": "Continue through the next controller gate.",
+      "project": "EchoNext",
+      "timestamp": "2026-10-16T17:16:08.772131Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "134094",
+      "message": "Queued integration repair calibration validator 20261016 \u00b7 coder.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-16T17:16:08.770266Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "134093",
+      "message": "Queued integration repair dataset provenance 20261016 \u00b7 coder.",
+      "next": "Continue through the next controller gate.",
+      "project": "CTBone",
+      "timestamp": "2026-10-16T17:16:08.768752Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "134092",
+      "message": "Queued integration repair physical coordinate invariants 20261016 \u00b7 coder.",
+      "next": "Continue through the next controller gate.",
+      "project": "AortaPlan",
+      "timestamp": "2026-10-16T17:16:08.766977Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
     {
       "id": "134071",
       "message": "A Codex orientation was delivered.",
@@ -1139,66 +1199,6 @@
       "type": "task_queued",
       "verification": "Recorded",
       "whyItMatters": "The next unit of work is durable."
-    },
-    {
-      "id": "129929",
-      "message": "Verification passed for local repair 559 1 \u00b7 planner.",
-      "next": "Continue through the next controller gate.",
-      "project": "Trace",
-      "timestamp": "2026-10-16T00:53:15.866295Z",
-      "type": "accepted",
-      "verification": "Verified",
-      "whyItMatters": "Dependent work may advance."
-    },
-    {
-      "id": "129888",
-      "message": "Controller recovery restored an interrupted task boundary.",
-      "next": "Continue through the next controller gate.",
-      "project": "Trace",
-      "timestamp": "2026-10-16T00:51:30.257742Z",
-      "type": "recovery",
-      "verification": "Recorded",
-      "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "129887",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "Trace",
-      "timestamp": "2026-10-16T00:51:30.257711Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
-    },
-    {
-      "id": "129821",
-      "message": "Queued local repair 559 1 \u00b7 planner.",
-      "next": "Continue through the next controller gate.",
-      "project": "Trace",
-      "timestamp": "2026-10-16T00:50:03.666730Z",
-      "type": "task_queued",
-      "verification": "Recorded",
-      "whyItMatters": "The next unit of work is durable."
-    },
-    {
-      "id": "129667",
-      "message": "Controller recovery restored an interrupted task boundary.",
-      "next": "Continue through the next controller gate.",
-      "project": "Trace",
-      "timestamp": "2026-10-16T00:43:17.265090Z",
-      "type": "recovery",
-      "verification": "Recorded",
-      "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "129666",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "Trace",
-      "timestamp": "2026-10-16T00:43:17.265063Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
     }
   ],
   "portfolioSummary": {
@@ -1206,7 +1206,7 @@
     "activeLocalAgents": 0,
     "activeVisionJobs": 0,
     "executingProjects": 0,
-    "projectsNeedingTechnicalAttention": 5,
+    "projectsNeedingTechnicalAttention": 2,
     "registeredProjects": 9,
     "state": "Needs attention",
     "verifiedCompletions24h": 30
@@ -1231,22 +1231,22 @@
       "status": "Failed / retrying"
     },
     {
-      "agentsNow": "No agent currently executing",
+      "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "regenerate plan 532 \u00b7 planner",
+      "currentObjective": "integration repair physical coordinate invariants 20261016 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "aortaplan",
       "lastAccomplishment": "Verified a1 physical space regression bounds \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-15T04:38:59.940909Z",
+      "lastMeaningfulActivity": "2026-10-16T17:16:17.286331Z",
       "name": "AortaPlan",
       "nextTask": null,
       "operationalState": "RUNNABLE",
-      "queueDepth": 0,
+      "queueDepth": 1,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Ready"
+      "status": "Running"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1267,58 +1267,58 @@
       "status": "Ready"
     },
     {
-      "agentsNow": "No agent currently executing",
+      "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "regenerate plan 515 \u00b7 planner",
+      "currentObjective": "integration repair dataset provenance 20261016 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "ctbone",
       "lastAccomplishment": "Verified regenerate plan 465 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-14T22:25:40.210909Z",
+      "lastMeaningfulActivity": "2026-10-16T17:16:17.020112Z",
       "name": "CTBone",
       "nextTask": null,
       "operationalState": "RUNNABLE",
-      "queueDepth": 0,
+      "queueDepth": 1,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Ready"
+      "status": "Running"
     },
     {
-      "agentsNow": "No agent currently executing",
+      "agentsNow": "Running",
       "blocker": "Public-safe blocker recorded",
-      "currentObjective": "local repair 488 2 \u00b7 planner",
+      "currentObjective": "integration repair calibration validator 20261016 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "ditto",
       "lastAccomplishment": "Verified regenerate plan 501 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T11:09:32.732844Z",
+      "lastMeaningfulActivity": "2026-10-16T17:16:27.433187Z",
       "name": "Ditto",
       "nextTask": null,
       "operationalState": "RUNNABLE",
-      "queueDepth": 0,
+      "queueDepth": 1,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Failed / retrying"
+      "status": "Running"
     },
     {
-      "agentsNow": "No agent currently executing",
+      "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "plan after 514 \u00b7 planner",
+      "currentObjective": "integration repair pytest collision 20261016 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "echonext",
       "lastAccomplishment": "Verified local repair 487 milestone map \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T10:41:02.932117Z",
+      "lastMeaningfulActivity": "2026-10-16T17:16:26.451774Z",
       "name": "EchoNext",
       "nextTask": null,
       "operationalState": "RUNNABLE",
-      "queueDepth": 0,
+      "queueDepth": 1,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Ready"
+      "status": "Running"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1339,40 +1339,40 @@
       "status": "Failed / retrying"
     },
     {
-      "agentsNow": "No agent currently executing",
+      "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "local repair 455 2 \u00b7 planner",
+      "currentObjective": "integration repair pytest collision 20261016 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "teer",
       "lastAccomplishment": "Verified local repair 455 1 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-13T14:31:57.769333Z",
+      "lastMeaningfulActivity": "2026-10-16T17:16:16.838758Z",
       "name": "TEER",
       "nextTask": null,
       "operationalState": "RUNNABLE",
-      "queueDepth": 0,
+      "queueDepth": 1,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Failed / retrying"
+      "status": "Running"
     },
     {
       "agentsNow": "No agent currently executing",
       "blocker": null,
-      "currentObjective": "regenerate plan 574 \u00b7 planner",
+      "currentObjective": "integration repair pnpm build policy 20261016 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "trace",
       "lastAccomplishment": "Verified 537 upload manuscript export \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T11:28:52.311839Z",
+      "lastMeaningfulActivity": "2026-10-16T17:16:08.774680Z",
       "name": "Trace",
-      "nextTask": null,
+      "nextTask": "integration repair pnpm build policy 20261016 \u00b7 coder",
       "operationalState": "RUNNABLE",
-      "queueDepth": 0,
+      "queueDepth": 1,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Failed / retrying"
+      "status": "Queued"
     }
   ],
   "publicationHealth": {
@@ -1380,12 +1380,26 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T17:15:29.589356Z",
+  "publishedAt": "2026-10-16T17:17:50.086672Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
   },
-  "queuedWork": [],
+  "queuedWork": [
+    {
+      "backend": "Local",
+      "heartbeatFresh": false,
+      "id": "581",
+      "parent": "572",
+      "project": "Trace",
+      "resource": "Local agent",
+      "startedAt": "2026-10-16T17:16:08.774680Z",
+      "state": "QUEUED",
+      "title": "integration repair pnpm build policy 20261016 \u00b7 coder",
+      "updatedAt": "2026-10-16T17:16:08.774680Z",
+      "workerType": "coder"
+    }
+  ],
   "recentlyCompleted": [
     {
       "id": "572",
@@ -1483,11 +1497,11 @@
     "verifiedMilestones24h": 30,
     "verifiedMilestones2h": 0
   },
-  "semanticHash": "77052748f2772777f7d79b1596274e2f2e1c77b530c00d11f79966852b3469ed",
+  "semanticHash": "97890221cdf5b38e4a39125a2ca65419090768c3cb4f8c53960e75ad305989fe",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-16T17:14:29.995378Z",
+  "sourceEventAt": "2026-10-16T17:16:08.775163Z",
   "system": {
-    "activeJobs": 0,
+    "activeJobs": 5,
     "autonomy": "DEGRADED",
     "status": "Needs attention"
   },
