@@ -12,6 +12,19 @@
     {
       "backend": "Local",
       "heartbeatFresh": true,
+      "id": "606",
+      "parent": "526",
+      "project": "AortaPlan",
+      "resource": "Local agent",
+      "startedAt": "2026-10-16T18:37:47.074875Z",
+      "state": "STALE_UNKNOWN",
+      "title": "regenerate plan 602 \u00b7 planner",
+      "updatedAt": "2026-10-16T18:37:53.437022Z",
+      "workerType": "planner"
+    },
+    {
+      "backend": "Local",
+      "heartbeatFresh": true,
       "id": "603",
       "parent": "601",
       "project": "CTBone",
@@ -19,21 +32,8 @@
       "startedAt": "2026-10-16T18:30:35.603838Z",
       "state": "STALE_UNKNOWN",
       "title": "ctbone continuation boundary 586 \u00b7 coder",
-      "updatedAt": "2026-10-16T18:36:50.901589Z",
+      "updatedAt": "2026-10-16T18:36:59.347475Z",
       "workerType": "coder"
-    },
-    {
-      "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "602",
-      "parent": null,
-      "project": "AortaPlan",
-      "resource": "Local agent",
-      "startedAt": "2026-10-16T18:27:53.364936Z",
-      "state": "STALE_UNKNOWN",
-      "title": "local repair 576 1 \u00b7 planner",
-      "updatedAt": "2026-10-16T18:36:16.561246Z",
-      "workerType": "planner"
     },
     {
       "backend": "Local",
@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-16T18:36:53.266387Z",
+  "generatedAt": "2026-10-16T18:38:55.003375Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -400,6 +400,26 @@
     "verifiedPending": 0
   },
   "meaningfulEvents": [
+    {
+      "id": "138384",
+      "message": "Queued regenerate plan 602 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "AortaPlan",
+      "timestamp": "2026-10-16T18:37:47.074937Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "138383",
+      "message": "Verification passed for local repair 576 1 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "AortaPlan",
+      "timestamp": "2026-10-16T18:37:45.830309Z",
+      "type": "accepted",
+      "verification": "Verified",
+      "whyItMatters": "Dependent work may advance."
+    },
     {
       "id": "138285",
       "message": "Controller recovery restored an interrupted task boundary.",
@@ -1179,26 +1199,6 @@
       "type": "task_queued",
       "verification": "Recorded",
       "whyItMatters": "The next unit of work is durable."
-    },
-    {
-      "id": "134096",
-      "message": "Queued integration repair pytest collision 20261016 \u00b7 coder.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-16T17:16:08.773883Z",
-      "type": "task_queued",
-      "verification": "Recorded",
-      "whyItMatters": "The next unit of work is durable."
-    },
-    {
-      "id": "134095",
-      "message": "Queued integration repair pytest collision 20261016 \u00b7 coder.",
-      "next": "Continue through the next controller gate.",
-      "project": "EchoNext",
-      "timestamp": "2026-10-16T17:16:08.772131Z",
-      "type": "task_queued",
-      "verification": "Recorded",
-      "whyItMatters": "The next unit of work is durable."
     }
   ],
   "portfolioSummary": {
@@ -1209,7 +1209,7 @@
     "projectsNeedingTechnicalAttention": 4,
     "registeredProjects": 9,
     "state": "Needs attention",
-    "verifiedCompletions24h": 41
+    "verifiedCompletions24h": 42
   },
   "projects": [
     {
@@ -1233,13 +1233,13 @@
     {
       "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "local repair 576 1 \u00b7 planner",
+      "currentObjective": "regenerate plan 602 \u00b7 planner",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "aortaplan",
       "lastAccomplishment": "Verified a1 physical space regression bounds \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T18:36:16.561246Z",
+      "lastMeaningfulActivity": "2026-10-16T18:37:53.437022Z",
       "name": "AortaPlan",
       "nextTask": null,
       "operationalState": "RUNNABLE",
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T18:36:53.771181Z",
+  "publishedAt": "2026-10-16T18:38:55.300305Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1506,13 +1506,13 @@
     "manuscriptMilestones": 0,
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0,
-    "verifiedMilestones12h": 26,
-    "verifiedMilestones24h": 41,
-    "verifiedMilestones2h": 18
+    "verifiedMilestones12h": 27,
+    "verifiedMilestones24h": 42,
+    "verifiedMilestones2h": 19
   },
-  "semanticHash": "8698d5235e15cf2ffe6f7bef2e5c740ac822c7dc0b98028dfb9d5737c10c5263",
+  "semanticHash": "e5e2139ce9861e5904efae4db39647ab99be7ed9680da9178218c0e09dc6e28d",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-16T18:35:10.503023Z",
+  "sourceEventAt": "2026-10-16T18:37:47.074937Z",
   "system": {
     "activeJobs": 3,
     "autonomy": "DEGRADED",
