@@ -1,15 +1,21 @@
 [
   {
+    "level": "Verified",
+    "message": "Verification passed for regenerate plan 641 \u00b7 planner.",
+    "project": "TEER",
+    "timestamp": "2026-10-16T22:01:21.833144Z"
+  },
+  {
     "level": "Recorded",
     "message": "Controller recovery restored an interrupted task boundary.",
     "project": "TEER",
-    "timestamp": "2026-10-16T21:58:21.618141Z"
+    "timestamp": "2026-10-16T21:59:36.405660Z"
   },
   {
     "level": "Attention",
     "message": "A bounded task failed and entered recovery.",
     "project": "TEER",
-    "timestamp": "2026-10-16T21:58:21.618121Z"
+    "timestamp": "2026-10-16T21:59:36.405638Z"
   },
   {
     "level": "Recorded",
@@ -472,11 +478,5 @@
     "message": "Accepted task completed: task 608 repair plan decompose \u00b7 coder.",
     "project": "AortaPlan",
     "timestamp": "2026-10-16T20:01:53.192624Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Verification passed for task 608 repair plan decompose \u00b7 coder.",
-    "project": "AortaPlan",
-    "timestamp": "2026-10-16T20:01:47.192862Z"
   }
 ]

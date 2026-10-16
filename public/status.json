@@ -4,22 +4,22 @@
   "attentionRequired": [
     {
       "category": "Agents debugging",
-      "message": "4 task(s) are in repair or retry states.",
+      "message": "5 task(s) are in repair or retry states.",
       "project": "Portfolio"
     }
   ],
   "blockedWork": [
     {
       "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "642",
-      "parent": "640",
+      "heartbeatFresh": false,
+      "id": "641",
+      "parent": null,
       "project": "TEER",
       "resource": "Local agent",
-      "startedAt": "2026-10-16T21:57:27.958730Z",
-      "state": "STALE_UNKNOWN",
-      "title": "regenerate plan 641 \u00b7 planner",
-      "updatedAt": "2026-10-16T21:58:56.800954Z",
+      "startedAt": "2026-10-16T21:53:09.328524Z",
+      "state": "FAILED",
+      "title": "local repair 634 1 \u00b7 planner",
+      "updatedAt": "2026-10-16T21:57:25.707395Z",
       "workerType": "planner"
     },
     {
@@ -383,7 +383,7 @@
     "state": "FAILED",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-16T21:59:17.389121Z",
+  "generatedAt": "2026-10-16T22:01:22.026983Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -401,21 +401,31 @@
   },
   "meaningfulEvents": [
     {
-      "id": "146957",
+      "id": "147057",
+      "message": "Verification passed for regenerate plan 641 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-16T22:01:21.833144Z",
+      "type": "accepted",
+      "verification": "Verified",
+      "whyItMatters": "Dependent work may advance."
+    },
+    {
+      "id": "147015",
       "message": "Controller recovery restored an interrupted task boundary.",
       "next": "Continue through the next controller gate.",
       "project": "TEER",
-      "timestamp": "2026-10-16T21:58:21.618141Z",
+      "timestamp": "2026-10-16T21:59:36.405660Z",
       "type": "recovery",
       "verification": "Recorded",
       "whyItMatters": "Safe autonomous execution can resume."
     },
     {
-      "id": "146956",
+      "id": "147014",
       "message": "A bounded task failed and entered recovery.",
       "next": "Continue through the next controller gate.",
       "project": "TEER",
-      "timestamp": "2026-10-16T21:58:21.618121Z",
+      "timestamp": "2026-10-16T21:59:36.405638Z",
       "type": "failure",
       "verification": "Attention",
       "whyItMatters": "The failure remains visible until repaired."
@@ -1189,16 +1199,6 @@
       "type": "task_exit_accepted",
       "verification": "Verified",
       "whyItMatters": "The controller recorded the completion."
-    },
-    {
-      "id": "141917",
-      "message": "Verification passed for task 608 repair plan decompose \u00b7 coder.",
-      "next": "Continue through the next controller gate.",
-      "project": "AortaPlan",
-      "timestamp": "2026-10-16T20:01:47.192862Z",
-      "type": "accepted",
-      "verification": "Verified",
-      "whyItMatters": "Dependent work may advance."
     }
   ],
   "portfolioSummary": {
@@ -1206,10 +1206,10 @@
     "activeLocalAgents": 0,
     "activeVisionJobs": 0,
     "executingProjects": 0,
-    "projectsNeedingTechnicalAttention": 4,
+    "projectsNeedingTechnicalAttention": 5,
     "registeredProjects": 9,
     "state": "Needs attention",
-    "verifiedCompletions24h": 67
+    "verifiedCompletions24h": 68
   },
   "projects": [
     {
@@ -1339,22 +1339,22 @@
       "status": "Failed / retrying"
     },
     {
-      "agentsNow": "Running",
+      "agentsNow": "No agent currently executing",
       "blocker": null,
-      "currentObjective": "regenerate plan 641 \u00b7 planner",
+      "currentObjective": "local repair 634 1 \u00b7 planner",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "teer",
-      "lastAccomplishment": "Verified regenerate plan 637 \u00b7 planner.",
+      "lastAccomplishment": "Verified regenerate plan 641 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T21:58:56.800954Z",
+      "lastMeaningfulActivity": "2026-10-16T22:01:21.832993Z",
       "name": "TEER",
       "nextTask": null,
       "operationalState": "RUNNABLE",
-      "queueDepth": 1,
+      "queueDepth": 0,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Running"
+      "status": "Failed / retrying"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1380,13 +1380,20 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T21:59:17.573757Z",
+  "publishedAt": "2026-10-16T22:01:22.241325Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
   },
   "queuedWork": [],
   "recentlyCompleted": [
+    {
+      "id": "642",
+      "project": "TEER",
+      "state": "COMPLETED",
+      "title": "regenerate plan 641 \u00b7 planner",
+      "updatedAt": "2026-10-16T22:01:21.832993Z"
+    },
     {
       "id": "640",
       "project": "TEER",
@@ -1463,13 +1470,6 @@
       "state": "COMPLETED",
       "title": "task 608 repair plan decompose \u00b7 coder",
       "updatedAt": "2026-10-16T20:01:47.192608Z"
-    },
-    {
-      "id": "614",
-      "project": "TEER",
-      "state": "COMPLETED",
-      "title": "local repair 596 2 \u00b7 planner",
-      "updatedAt": "2026-10-16T20:00:54.936501Z"
     }
   ],
   "recoveryWork": [],
@@ -1479,15 +1479,15 @@
     "manuscriptMilestones": 0,
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0,
-    "verifiedMilestones12h": 67,
-    "verifiedMilestones24h": 67,
-    "verifiedMilestones2h": 30
+    "verifiedMilestones12h": 68,
+    "verifiedMilestones24h": 68,
+    "verifiedMilestones2h": 29
   },
-  "semanticHash": "9856c6cfaf57b63e91fb7af5d150068f14e15268748125f6aff74e280c11ff3e",
+  "semanticHash": "ec10903dc2258d6ddddb100727b59c89104b31db90f5737f8d3710cce2437c33",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-16T21:58:21.618141Z",
+  "sourceEventAt": "2026-10-16T22:01:21.833144Z",
   "system": {
-    "activeJobs": 1,
+    "activeJobs": 0,
     "autonomy": "DEGRADED",
     "status": "Needs attention"
   },
