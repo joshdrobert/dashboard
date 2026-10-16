@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-16T21:02:35.835555Z",
+  "generatedAt": "2026-10-16T21:04:37.491335Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -1347,7 +1347,7 @@
       "id": "teer",
       "lastAccomplishment": "Verified local repair 615 2 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T21:01:56.261614Z",
+      "lastMeaningfulActivity": "2026-10-16T21:03:23.189901Z",
       "name": "TEER",
       "nextTask": "task 621 integration check \u00b7 coder",
       "operationalState": "RUNNABLE",
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T21:02:36.026462Z",
+  "publishedAt": "2026-10-16T21:04:37.724882Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1497,7 +1497,7 @@
     "verifiedMilestones24h": 60,
     "verifiedMilestones2h": 27
   },
-  "semanticHash": "840c5482138be099f22855ab243ba9c6da2153fcb6a96fff47edfc0d41eee682",
+  "semanticHash": "5cc21adf91f50902c96a7ce56ad68111ef2e66ac873052b7ebf88201e95504ba",
   "snapshotVersion": "2.3",
   "sourceEventAt": "2026-10-16T21:00:34.444225Z",
   "system": {
