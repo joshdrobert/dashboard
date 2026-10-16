@@ -1,5 +1,41 @@
 [
   {
+    "level": "Verified",
+    "message": "Accepted task completed: local repair 559 2 \u00b7 planner.",
+    "project": "Trace",
+    "timestamp": "2026-10-16T00:53:57.853157Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Queued 559 reader editor export authorization \u00b7 coder.",
+    "project": "Trace",
+    "timestamp": "2026-10-16T00:53:55.063137Z"
+  },
+  {
+    "level": "Verified",
+    "message": "Verification passed for local repair 559 2 \u00b7 planner.",
+    "project": "Trace",
+    "timestamp": "2026-10-16T00:53:54.977667Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Queued local repair 559 2 \u00b7 planner.",
+    "project": "Trace",
+    "timestamp": "2026-10-16T00:53:26.489039Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Queued regenerate plan 560 \u00b7 planner.",
+    "project": "Trace",
+    "timestamp": "2026-10-16T00:53:16.590719Z"
+  },
+  {
+    "level": "Verified",
+    "message": "Verification passed for local repair 559 1 \u00b7 planner.",
+    "project": "Trace",
+    "timestamp": "2026-10-16T00:53:15.866295Z"
+  },
+  {
     "level": "Recorded",
     "message": "Controller recovery restored an interrupted task boundary.",
     "project": "Trace",
@@ -442,41 +478,5 @@
     "message": "Verification passed for regenerate plan 542 \u00b7 planner.",
     "project": "Trace",
     "timestamp": "2026-10-15T13:21:19.717258Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued regenerate plan 542 \u00b7 planner.",
-    "project": "Trace",
-    "timestamp": "2026-10-15T13:20:53.614557Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Verification passed for local repair 541 1 \u00b7 planner.",
-    "project": "Trace",
-    "timestamp": "2026-10-15T13:20:53.563048Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued local repair 541 1 \u00b7 planner.",
-    "project": "Trace",
-    "timestamp": "2026-10-15T13:19:23.257468Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "Trace",
-    "timestamp": "2026-10-15T13:19:17.997796Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "Trace",
-    "timestamp": "2026-10-15T13:07:12.418996Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Accepted task completed: 534 rights metadata store \u00b7 coder.",
-    "project": "Trace",
-    "timestamp": "2026-10-15T13:04:28.029063Z"
   }
 ]
