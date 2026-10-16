@@ -12,6 +12,19 @@
     {
       "backend": "Local",
       "heartbeatFresh": true,
+      "id": "594",
+      "parent": "584",
+      "project": "Trace",
+      "resource": "Local agent",
+      "startedAt": "2026-10-16T18:02:52.616049Z",
+      "state": "STALE_UNKNOWN",
+      "title": "regenerate plan 590 \u00b7 planner",
+      "updatedAt": "2026-10-16T18:03:05.048764Z",
+      "workerType": "planner"
+    },
+    {
+      "backend": "Local",
+      "heartbeatFresh": true,
       "id": "593",
       "parent": null,
       "project": "Ditto",
@@ -20,19 +33,6 @@
       "state": "STALE_UNKNOWN",
       "title": "local repair 578 2 \u00b7 planner",
       "updatedAt": "2026-10-16T17:58:51.681360Z",
-      "workerType": "planner"
-    },
-    {
-      "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "590",
-      "parent": "584",
-      "project": "Trace",
-      "resource": "Local agent",
-      "startedAt": "2026-10-16T17:54:25.999095Z",
-      "state": "STALE_UNKNOWN",
-      "title": "plan after 584 \u00b7 planner",
-      "updatedAt": "2026-10-16T17:54:53.345293Z",
       "workerType": "planner"
     },
     {
@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-16T18:01:53.744327Z",
+  "generatedAt": "2026-10-16T18:03:54.768604Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -400,6 +400,26 @@
     "verifiedPending": 0
   },
   "meaningfulEvents": [
+    {
+      "id": "136839",
+      "message": "Queued regenerate plan 590 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-16T18:02:52.616094Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "136836",
+      "message": "Verification passed for plan after 584 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-16T18:02:50.772069Z",
+      "type": "accepted",
+      "verification": "Verified",
+      "whyItMatters": "Dependent work may advance."
+    },
     {
       "id": "136716",
       "message": "Controller recovery restored an interrupted task boundary.",
@@ -1179,26 +1199,6 @@
       "type": "task_queued",
       "verification": "Recorded",
       "whyItMatters": "The next unit of work is durable."
-    },
-    {
-      "id": "133430",
-      "message": "Verification passed for plan after 572 \u00b7 planner.",
-      "next": "Continue through the next controller gate.",
-      "project": "Trace",
-      "timestamp": "2026-10-16T11:21:51.041076Z",
-      "type": "accepted",
-      "verification": "Verified",
-      "whyItMatters": "Dependent work may advance."
-    },
-    {
-      "id": "133399",
-      "message": "Accepted task completed: 537 upload manuscript export \u00b7 coder.",
-      "next": "Continue through the next controller gate.",
-      "project": "Trace",
-      "timestamp": "2026-10-16T11:20:32.168717Z",
-      "type": "task_exit_accepted",
-      "verification": "Verified",
-      "whyItMatters": "The controller recorded the completion."
     }
   ],
   "portfolioSummary": {
@@ -1209,7 +1209,7 @@
     "projectsNeedingTechnicalAttention": 2,
     "registeredProjects": 9,
     "state": "Needs attention",
-    "verifiedCompletions24h": 34
+    "verifiedCompletions24h": 35
   },
   "projects": [
     {
@@ -1359,13 +1359,13 @@
     {
       "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "plan after 584 \u00b7 planner",
+      "currentObjective": "regenerate plan 590 \u00b7 planner",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "trace",
       "lastAccomplishment": "Verified 581 pnpm supply chain gate repair \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T17:54:53.345293Z",
+      "lastMeaningfulActivity": "2026-10-16T18:03:05.048764Z",
       "name": "Trace",
       "nextTask": null,
       "operationalState": "RUNNABLE",
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T18:01:54.046715Z",
+  "publishedAt": "2026-10-16T18:03:55.059223Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1506,13 +1506,13 @@
     "manuscriptMilestones": 0,
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0,
-    "verifiedMilestones12h": 17,
-    "verifiedMilestones24h": 34,
-    "verifiedMilestones2h": 9
+    "verifiedMilestones12h": 18,
+    "verifiedMilestones24h": 35,
+    "verifiedMilestones2h": 10
   },
-  "semanticHash": "a9f0dd44ff996438646bf0be04cf968f82e11b17faf6e8b3d803d724e523943c",
+  "semanticHash": "07fa4b439a55c083476614b94d9f21973e887dccfcd28abaff4b372ba2a37457",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-16T17:58:59.526946Z",
+  "sourceEventAt": "2026-10-16T18:02:52.616094Z",
   "system": {
     "activeJobs": 5,
     "autonomy": "DEGRADED",

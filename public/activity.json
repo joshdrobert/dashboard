@@ -1,6 +1,18 @@
 [
   {
     "level": "Recorded",
+    "message": "Queued regenerate plan 590 \u00b7 planner.",
+    "project": "Trace",
+    "timestamp": "2026-10-16T18:02:52.616094Z"
+  },
+  {
+    "level": "Verified",
+    "message": "Verification passed for plan after 584 \u00b7 planner.",
+    "project": "Trace",
+    "timestamp": "2026-10-16T18:02:50.772069Z"
+  },
+  {
+    "level": "Recorded",
     "message": "Controller recovery restored an interrupted task boundary.",
     "project": "EchoNext",
     "timestamp": "2026-10-16T17:58:59.526946Z"
@@ -466,17 +478,5 @@
     "message": "Queued regenerate plan 573 \u00b7 planner.",
     "project": "Trace",
     "timestamp": "2026-10-16T11:21:52.071453Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Verification passed for plan after 572 \u00b7 planner.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T11:21:51.041076Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Accepted task completed: 537 upload manuscript export \u00b7 coder.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T11:20:32.168717Z"
   }
 ]
