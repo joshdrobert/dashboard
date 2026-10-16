@@ -355,21 +355,31 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-16T12:55:49.234457Z",
+  "generatedAt": "2026-10-16T12:57:43.146341Z",
   "gitIntegration": {
     "activeProtected": 0,
-    "alreadyIntegrated": 0,
-    "awaitingHuman": 0,
-    "awaitingTests": 0,
-    "branchesAudited": 0,
-    "conflicts": 0,
+    "alreadyIntegrated": 53,
+    "awaitingHuman": 99,
+    "awaitingTests": 205,
+    "branchesAudited": 474,
+    "conflicts": 55,
     "integrated24h": 0,
-    "lastReview": null,
+    "lastReview": "2026-10-16T12:56:46.173353Z",
     "mergeReady": 0,
-    "repositoriesMonitored": 0,
+    "repositoriesMonitored": 10,
     "stableValidation": "No integration completed in latest batch"
   },
   "meaningfulEvents": [
+    {
+      "id": "133789",
+      "message": "Controller recorded git integration complete.",
+      "next": "Continue through the next controller gate.",
+      "project": "AI-Server",
+      "timestamp": "2026-10-16T12:56:46.173804Z",
+      "type": "git_integration_complete",
+      "verification": "Recorded",
+      "whyItMatters": "The authoritative event log changed."
+    },
     {
       "id": "133646",
       "message": "Verification passed for regenerate plan 574 \u00b7 planner.",
@@ -1159,16 +1169,6 @@
       "type": "task_exit_accepted",
       "verification": "Verified",
       "whyItMatters": "The controller recorded the completion."
-    },
-    {
-      "id": "128274",
-      "message": "Verification passed for local repair 556 1 \u00b7 planner.",
-      "next": "Continue through the next controller gate.",
-      "project": "Trace",
-      "timestamp": "2026-10-15T18:09:15.124242Z",
-      "type": "accepted",
-      "verification": "Verified",
-      "whyItMatters": "Dependent work may advance."
     }
   ],
   "portfolioSummary": {
@@ -1350,7 +1350,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T12:55:49.396930Z",
+  "publishedAt": "2026-10-16T12:57:43.257523Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1453,9 +1453,9 @@
     "verifiedMilestones24h": 51,
     "verifiedMilestones2h": 8
   },
-  "semanticHash": "707109335fb44a34139af29f4e6dddf71d1f5ea78585e044cb96c877c09cbab0",
+  "semanticHash": "3d92326bed1508296d12a4a693fdc83c67f5e026fbc2c095e56cc1edd61db97d",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-16T11:28:52.311962Z",
+  "sourceEventAt": "2026-10-16T12:56:46.173804Z",
   "system": {
     "activeJobs": 0,
     "autonomy": "DEGRADED",
