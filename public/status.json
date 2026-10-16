@@ -12,15 +12,15 @@
     {
       "backend": "Local",
       "heartbeatFresh": true,
-      "id": "556",
-      "parent": "557",
+      "id": "558",
+      "parent": null,
       "project": "Trace",
       "resource": "Local agent",
-      "startedAt": "2026-10-15T17:55:09.494573Z",
+      "startedAt": "2026-10-16T00:21:53.055620Z",
       "state": "STALE_UNKNOWN",
-      "title": "536 reader editor export authorization \u00b7 coder",
-      "updatedAt": "2026-10-16T00:18:54.013119Z",
-      "workerType": "coder"
+      "title": "local repair 556 2 \u00b7 planner",
+      "updatedAt": "2026-10-16T00:21:56.561951Z",
+      "workerType": "planner"
     },
     {
       "backend": "Local",
@@ -155,8 +155,18 @@
     "state": "COMPLETE",
     "summary": "The latest two-phase portfolio review is reflected in the controller ledger."
   },
-  "generatedAt": "2026-10-16T00:20:16.779494Z",
+  "generatedAt": "2026-10-16T00:22:19.068000Z",
   "meaningfulEvents": [
+    {
+      "id": "129138",
+      "message": "Queued local repair 556 2 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-16T00:21:53.055672Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
     {
       "id": "128742",
       "message": "A Codex orientation was delivered.",
@@ -946,16 +956,6 @@
       "type": "task_exit_accepted",
       "verification": "Verified",
       "whyItMatters": "The controller recorded the completion."
-    },
-    {
-      "id": "121993",
-      "message": "Queued 534 object store determinism test \u00b7 coder.",
-      "next": "Continue through the next controller gate.",
-      "project": "Trace",
-      "timestamp": "2026-10-15T12:58:43.102443Z",
-      "type": "task_queued",
-      "verification": "Recorded",
-      "whyItMatters": "The next unit of work is durable."
     }
   ],
   "portfolioSummary": {
@@ -1116,13 +1116,13 @@
     {
       "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "536 reader editor export authorization \u00b7 coder",
+      "currentObjective": "local repair 556 2 \u00b7 planner",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "trace",
       "lastAccomplishment": "Verified local repair 556 1 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T00:18:49.892101Z",
+      "lastMeaningfulActivity": "2026-10-16T00:21:56.561951Z",
       "name": "Trace",
       "nextTask": "trace browser e2e \u00b7 coder",
       "operationalState": "RUNNABLE",
@@ -1137,7 +1137,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T00:20:17.064841Z",
+  "publishedAt": "2026-10-16T00:22:19.288140Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1251,9 +1251,9 @@
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0
   },
-  "semanticHash": "8bbd93a57f3e3c71d7ca9edf7b259474798eee5386bbde25dc99cef6449e2357",
+  "semanticHash": "6c707b5a3f5f405100b3170a11a51e1a69a35e17989ca1a4589c24b8c5a1fd50",
   "snapshotVersion": "2.1",
-  "sourceEventAt": "2026-10-16T00:05:24.777695Z",
+  "sourceEventAt": "2026-10-16T00:21:53.055672Z",
   "system": {
     "activeJobs": 1,
     "autonomy": "DEGRADED",
