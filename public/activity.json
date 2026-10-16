@@ -3,6 +3,24 @@
     "level": "Attention",
     "message": "A bounded task failed and entered recovery.",
     "project": "CTBone",
+    "timestamp": "2026-10-16T19:45:30.840020Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "AortaPlan",
+    "timestamp": "2026-10-16T19:43:43.393499Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "AortaPlan",
+    "timestamp": "2026-10-16T19:43:43.393452Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "CTBone",
     "timestamp": "2026-10-16T19:42:32.320512Z"
   },
   {
@@ -10,12 +28,6 @@
     "message": "Controller recovery restored an interrupted task boundary.",
     "project": "CTBone",
     "timestamp": "2026-10-16T19:41:47.677444Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "CTBone",
-    "timestamp": "2026-10-16T19:41:47.677353Z"
   },
   {
     "level": "Recorded",
@@ -166,18 +178,6 @@
     "message": "A Codex orientation was delivered.",
     "project": "AI-Server",
     "timestamp": "2026-10-16T19:21:24.517935Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "AortaPlan",
-    "timestamp": "2026-10-16T19:14:24.066591Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "AortaPlan",
-    "timestamp": "2026-10-16T19:14:24.066551Z"
   },
   {
     "level": "Recorded",
