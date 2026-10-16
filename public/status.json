@@ -19,7 +19,7 @@
       "startedAt": "2026-10-16T00:53:55.063109Z",
       "state": "STALE_UNKNOWN",
       "title": "559 reader editor export authorization \u00b7 coder",
-      "updatedAt": "2026-10-16T00:53:57.868832Z",
+      "updatedAt": "2026-10-16T00:56:29.160451Z",
       "workerType": "coder"
     },
     {
@@ -155,7 +155,7 @@
     "state": "COMPLETE",
     "summary": "The latest two-phase portfolio review is reflected in the controller ledger."
   },
-  "generatedAt": "2026-10-16T00:54:37.670387Z",
+  "generatedAt": "2026-10-16T00:56:38.944646Z",
   "meaningfulEvents": [
     {
       "id": "129980",
@@ -1122,7 +1122,7 @@
       "id": "trace",
       "lastAccomplishment": "Verified local repair 559 2 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T00:53:57.868832Z",
+      "lastMeaningfulActivity": "2026-10-16T00:56:29.160451Z",
       "name": "Trace",
       "nextTask": "trace browser e2e \u00b7 coder",
       "operationalState": "RUNNABLE",
@@ -1137,7 +1137,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T00:54:37.841333Z",
+  "publishedAt": "2026-10-16T00:56:39.137508Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1251,7 +1251,7 @@
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0
   },
-  "semanticHash": "67f6946b3e5423af2fcc8ba955574ddc4278af04b3ed3f0cfd08804a3fe2e039",
+  "semanticHash": "04bff90bf42b7a7fdc52e597a0e509b36063e15aec94e9c60294f55c8218cbc9",
   "snapshotVersion": "2.1",
   "sourceEventAt": "2026-10-16T00:53:57.853157Z",
   "system": {
