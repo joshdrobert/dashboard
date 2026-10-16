@@ -1,20 +1,6 @@
 {
   "actionRequired": [],
-  "activeWork": [
-    {
-      "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "634",
-      "parent": "629",
-      "project": "TEER",
-      "resource": "Local agent",
-      "startedAt": "2026-10-16T20:58:24.152690Z",
-      "state": "VERIFYING",
-      "title": "task 621 integration check \u00b7 coder",
-      "updatedAt": "2026-10-16T21:34:59.226419Z",
-      "workerType": "coder"
-    }
-  ],
+  "activeWork": [],
   "attentionRequired": [
     {
       "category": "Agents debugging",
@@ -25,15 +11,15 @@
   "blockedWork": [
     {
       "backend": "Local",
-      "heartbeatFresh": false,
-      "id": "632",
+      "heartbeatFresh": true,
+      "id": "633",
       "parent": "629",
       "project": "TEER",
       "resource": "Local agent",
-      "startedAt": "2026-10-16T20:58:24.152588Z",
-      "state": "FAILED",
-      "title": "task 621 import isolation \u00b7 coder",
-      "updatedAt": "2026-10-16T21:16:30.936630Z",
+      "startedAt": "2026-10-16T20:58:24.152669Z",
+      "state": "STALE_UNKNOWN",
+      "title": "task 621 cache cleanup \u00b7 coder",
+      "updatedAt": "2026-10-16T21:36:50.634346Z",
       "workerType": "coder"
     },
     {
@@ -397,7 +383,7 @@
     "state": "FAILED",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-16T21:34:59.275915Z",
+  "generatedAt": "2026-10-16T21:36:59.978954Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -1217,9 +1203,9 @@
   ],
   "portfolioSummary": {
     "actionsRequiringUser": 0,
-    "activeLocalAgents": 1,
+    "activeLocalAgents": 0,
     "activeVisionJobs": 0,
-    "executingProjects": 1,
+    "executingProjects": 0,
     "projectsNeedingTechnicalAttention": 4,
     "registeredProjects": 9,
     "state": "Needs attention",
@@ -1353,22 +1339,22 @@
       "status": "Failed / retrying"
     },
     {
-      "agentsNow": "Verifying",
+      "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "task 621 integration check \u00b7 coder",
+      "currentObjective": "task 621 cache cleanup \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "teer",
       "lastAccomplishment": "Verified local repair 615 2 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T21:34:53.085215Z",
+      "lastMeaningfulActivity": "2026-10-16T21:36:43.955523Z",
       "name": "TEER",
       "nextTask": "local repair 632 1 \u00b7 planner",
       "operationalState": "RUNNABLE",
       "queueDepth": 4,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Verifying"
+      "status": "Running"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1394,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T21:34:59.559317Z",
+  "publishedAt": "2026-10-16T21:37:00.302165Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1511,7 +1497,7 @@
     "verifiedMilestones24h": 57,
     "verifiedMilestones2h": 25
   },
-  "semanticHash": "94883db8a7cdf93ff38e21368acb1832933828257050a90963dfb87ef6d50903",
+  "semanticHash": "8bf6526b1fed89749011446ec4581e739c5e47ab7fef0a9c78d57fddd1d5d59c",
   "snapshotVersion": "2.3",
   "sourceEventAt": "2026-10-16T21:33:47.931310Z",
   "system": {
