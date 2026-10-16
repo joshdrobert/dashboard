@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-16T19:37:36.648124Z",
+  "generatedAt": "2026-10-16T19:39:39.001103Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T19:37:37.019486Z",
+  "publishedAt": "2026-10-16T19:39:39.288755Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1401,7 +1401,7 @@
     },
     {
       "backend": "Local",
-      "heartbeatFresh": true,
+      "heartbeatFresh": false,
       "id": "610",
       "parent": null,
       "project": "CTBone",
@@ -1510,7 +1510,7 @@
     "verifiedMilestones24h": 47,
     "verifiedMilestones2h": 24
   },
-  "semanticHash": "e566cc28fffed7aa3e0b4a2651bea114c7fe8c0efe295cace465f230581879be",
+  "semanticHash": "d09a9c890a5e75de5b23960db4e0d0db528c2c39edd30843324ef77d173e09d3",
   "snapshotVersion": "2.3",
   "sourceEventAt": "2026-10-16T19:36:23.502455Z",
   "system": {
