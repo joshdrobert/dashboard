@@ -19,7 +19,7 @@
       "startedAt": "2026-10-16T19:29:16.759744Z",
       "state": "STALE_UNKNOWN",
       "title": "local repair 604 1 \u00b7 planner",
-      "updatedAt": "2026-10-16T19:36:27.759154Z",
+      "updatedAt": "2026-10-16T19:41:00.790982Z",
       "workerType": "planner"
     },
     {
@@ -32,7 +32,7 @@
       "startedAt": "2026-10-16T18:47:56.720200Z",
       "state": "STALE_UNKNOWN",
       "title": "task 576 repair coordinate invariants \u00b7 coder",
-      "updatedAt": "2026-10-16T19:33:30.994758Z",
+      "updatedAt": "2026-10-16T19:40:45.116583Z",
       "workerType": "coder"
     },
     {
@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-16T19:39:39.001103Z",
+  "generatedAt": "2026-10-16T19:41:41.065877Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -1239,7 +1239,7 @@
       "id": "aortaplan",
       "lastAccomplishment": "Verified regenerate plan 606 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T19:33:30.994758Z",
+      "lastMeaningfulActivity": "2026-10-16T19:40:45.116583Z",
       "name": "AortaPlan",
       "nextTask": null,
       "operationalState": "RUNNABLE",
@@ -1275,7 +1275,7 @@
       "id": "ctbone",
       "lastAccomplishment": "Verified ctbone determinism recovery 586 \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T19:36:27.759154Z",
+      "lastMeaningfulActivity": "2026-10-16T19:41:00.790982Z",
       "name": "CTBone",
       "nextTask": "local repair 603 1 \u00b7 planner",
       "operationalState": "RUNNABLE",
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T19:39:39.288755Z",
+  "publishedAt": "2026-10-16T19:41:41.512460Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1510,7 +1510,7 @@
     "verifiedMilestones24h": 47,
     "verifiedMilestones2h": 24
   },
-  "semanticHash": "d09a9c890a5e75de5b23960db4e0d0db528c2c39edd30843324ef77d173e09d3",
+  "semanticHash": "494ddc8d317e0beb8f8a8a0d4cf38fcbb8d812eee85b78df23ddb05b2dad0bdd",
   "snapshotVersion": "2.3",
   "sourceEventAt": "2026-10-16T19:36:23.502455Z",
   "system": {
