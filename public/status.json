@@ -19,21 +19,21 @@
       "startedAt": "2026-10-16T20:05:35.819476Z",
       "state": "STALE_UNKNOWN",
       "title": "local repair 608 synthetic validation \u00b7 coder",
-      "updatedAt": "2026-10-16T20:11:34.807745Z",
+      "updatedAt": "2026-10-16T20:13:47.171883Z",
       "workerType": "coder"
     },
     {
       "backend": "Local",
-      "heartbeatFresh": false,
-      "id": "613",
-      "parent": "588",
+      "heartbeatFresh": true,
+      "id": "615",
+      "parent": "609",
       "project": "TEER",
       "resource": "Local agent",
-      "startedAt": "2026-10-16T19:49:03.936891Z",
-      "state": "FAILED",
-      "title": "regenerate plan 612 \u00b7 planner",
-      "updatedAt": "2026-10-16T19:49:03.936891Z",
-      "workerType": "planner"
+      "startedAt": "2026-10-16T19:51:07.019663Z",
+      "state": "STALE_UNKNOWN",
+      "title": "task 595 duplicate test file \u00b7 coder",
+      "updatedAt": "2026-10-16T20:13:01.428782Z",
+      "workerType": "coder"
     },
     {
       "backend": "Local",
@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-16T20:12:01.994886Z",
+  "generatedAt": "2026-10-16T20:14:02.881369Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -400,6 +400,56 @@
     "verifiedPending": 0
   },
   "meaningfulEvents": [
+    {
+      "id": "142359",
+      "message": "Accepted task completed: local repair 608 bounded steps \u00b7 coder.",
+      "next": "Continue through the next controller gate.",
+      "project": "AortaPlan",
+      "timestamp": "2026-10-16T20:13:47.676620Z",
+      "type": "task_exit_accepted",
+      "verification": "Verified",
+      "whyItMatters": "The controller recorded the completion."
+    },
+    {
+      "id": "142337",
+      "message": "Verification passed for local repair 608 bounded steps \u00b7 coder.",
+      "next": "Continue through the next controller gate.",
+      "project": "AortaPlan",
+      "timestamp": "2026-10-16T20:13:40.588809Z",
+      "type": "accepted",
+      "verification": "Verified",
+      "whyItMatters": "Dependent work may advance."
+    },
+    {
+      "id": "142290",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "AortaPlan",
+      "timestamp": "2026-10-16T20:12:56.853171Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "142289",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "AortaPlan",
+      "timestamp": "2026-10-16T20:12:56.853105Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
+    {
+      "id": "142283",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-16T20:12:53.340616Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
     {
       "id": "142133",
       "message": "Controller recovery restored an interrupted task boundary.",
@@ -871,16 +921,6 @@
       "whyItMatters": "The next unit of work is durable."
     },
     {
-      "id": "140269",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-16T19:31:12.260534Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
-    },
-    {
       "id": "140136",
       "message": "Queued local repair 604 1 \u00b7 planner.",
       "next": "Continue through the next controller gate.",
@@ -1159,46 +1199,6 @@
       "type": "recovery",
       "verification": "Recorded",
       "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "138284",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "AortaPlan",
-      "timestamp": "2026-10-16T18:35:10.502911Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
-    },
-    {
-      "id": "138085",
-      "message": "Accepted task completed: local repair 586 1 \u00b7 planner.",
-      "next": "Continue through the next controller gate.",
-      "project": "CTBone",
-      "timestamp": "2026-10-16T18:30:40.862476Z",
-      "type": "task_exit_accepted",
-      "verification": "Verified",
-      "whyItMatters": "The controller recorded the completion."
-    },
-    {
-      "id": "138075",
-      "message": "Queued ctbone determinism recovery 586 \u00b7 coder.",
-      "next": "Continue through the next controller gate.",
-      "project": "CTBone",
-      "timestamp": "2026-10-16T18:30:35.604055Z",
-      "type": "task_queued",
-      "verification": "Recorded",
-      "whyItMatters": "The next unit of work is durable."
-    },
-    {
-      "id": "138074",
-      "message": "Queued ctbone manifest integration verify \u00b7 coder.",
-      "next": "Continue through the next controller gate.",
-      "project": "CTBone",
-      "timestamp": "2026-10-16T18:30:35.604025Z",
-      "type": "task_queued",
-      "verification": "Recorded",
-      "whyItMatters": "The next unit of work is durable."
     }
   ],
   "portfolioSummary": {
@@ -1209,7 +1209,7 @@
     "projectsNeedingTechnicalAttention": 4,
     "registeredProjects": 9,
     "state": "Needs attention",
-    "verifiedCompletions24h": 56
+    "verifiedCompletions24h": 58
   },
   "projects": [
     {
@@ -1237,13 +1237,13 @@
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "aortaplan",
-      "lastAccomplishment": "Verified local repair 608 2 \u00b7 planner.",
+      "lastAccomplishment": "Verified local repair 608 bounded steps \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T20:07:30.549847Z",
+      "lastMeaningfulActivity": "2026-10-16T20:13:41.453041Z",
       "name": "AortaPlan",
       "nextTask": "local repair 608 invariant preserve \u00b7 coder",
       "operationalState": "RUNNABLE",
-      "queueDepth": 3,
+      "queueDepth": 2,
       "readyForHuman": false,
       "researchStage": "Active research program",
       "status": "Running"
@@ -1341,17 +1341,17 @@
     {
       "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "task 580 cache cleanup \u00b7 coder",
+      "currentObjective": "task 595 duplicate test file \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "teer",
       "lastAccomplishment": "Verified local repair 596 2 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T20:09:34.470133Z",
+      "lastMeaningfulActivity": "2026-10-16T20:12:54.257964Z",
       "name": "TEER",
       "nextTask": "task 596 cache cleanup \u00b7 coder",
       "operationalState": "RUNNABLE",
-      "queueDepth": 5,
+      "queueDepth": 4,
       "readyForHuman": false,
       "researchStage": "Active research program",
       "status": "Running"
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T20:12:02.402184Z",
+  "publishedAt": "2026-10-16T20:14:03.170746Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1414,6 +1414,13 @@
     }
   ],
   "recentlyCompleted": [
+    {
+      "id": "622",
+      "project": "AortaPlan",
+      "state": "COMPLETED",
+      "title": "local repair 608 bounded steps \u00b7 coder",
+      "updatedAt": "2026-10-16T20:13:40.588492Z"
+    },
     {
       "id": "619",
       "project": "AortaPlan",
@@ -1490,13 +1497,6 @@
       "state": "COMPLETED",
       "title": "ctbone denominator consistency check 20261014 \u00b7 coder",
       "updatedAt": "2026-10-16T17:55:45.053265Z"
-    },
-    {
-      "id": "584",
-      "project": "Trace",
-      "state": "COMPLETED",
-      "title": "581 pnpm supply chain gate repair \u00b7 coder",
-      "updatedAt": "2026-10-16T17:54:23.230663Z"
     }
   ],
   "recoveryWork": [],
@@ -1506,13 +1506,13 @@
     "manuscriptMilestones": 0,
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0,
-    "verifiedMilestones12h": 43,
-    "verifiedMilestones24h": 56,
-    "verifiedMilestones2h": 20
+    "verifiedMilestones12h": 45,
+    "verifiedMilestones24h": 58,
+    "verifiedMilestones2h": 21
   },
-  "semanticHash": "130077e498eb59c382c018b3cba4d57b239463240d6931516ed1a1820083d86f",
+  "semanticHash": "b1639f3d8091855bb2751df360a2dd19ff46df11a2a500e17f8b0b374d650668",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-16T20:07:29.665106Z",
+  "sourceEventAt": "2026-10-16T20:13:47.676620Z",
   "system": {
     "activeJobs": 2,
     "autonomy": "DEGRADED",

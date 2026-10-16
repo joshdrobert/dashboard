@@ -1,5 +1,35 @@
 [
   {
+    "level": "Verified",
+    "message": "Accepted task completed: local repair 608 bounded steps \u00b7 coder.",
+    "project": "AortaPlan",
+    "timestamp": "2026-10-16T20:13:47.676620Z"
+  },
+  {
+    "level": "Verified",
+    "message": "Verification passed for local repair 608 bounded steps \u00b7 coder.",
+    "project": "AortaPlan",
+    "timestamp": "2026-10-16T20:13:40.588809Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "AortaPlan",
+    "timestamp": "2026-10-16T20:12:56.853171Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "AortaPlan",
+    "timestamp": "2026-10-16T20:12:56.853105Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "TEER",
+    "timestamp": "2026-10-16T20:12:53.340616Z"
+  },
+  {
     "level": "Recorded",
     "message": "Controller recovery restored an interrupted task boundary.",
     "project": "AortaPlan",
@@ -282,12 +312,6 @@
     "timestamp": "2026-10-16T19:31:20.184280Z"
   },
   {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "TEER",
-    "timestamp": "2026-10-16T19:31:12.260534Z"
-  },
-  {
     "level": "Recorded",
     "message": "Queued local repair 604 1 \u00b7 planner.",
     "project": "CTBone",
@@ -454,29 +478,5 @@
     "message": "Controller recovery restored an interrupted task boundary.",
     "project": "AortaPlan",
     "timestamp": "2026-10-16T18:35:10.503023Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "AortaPlan",
-    "timestamp": "2026-10-16T18:35:10.502911Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Accepted task completed: local repair 586 1 \u00b7 planner.",
-    "project": "CTBone",
-    "timestamp": "2026-10-16T18:30:40.862476Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued ctbone determinism recovery 586 \u00b7 coder.",
-    "project": "CTBone",
-    "timestamp": "2026-10-16T18:30:35.604055Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued ctbone manifest integration verify \u00b7 coder.",
-    "project": "CTBone",
-    "timestamp": "2026-10-16T18:30:35.604025Z"
   }
 ]
