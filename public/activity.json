@@ -2,6 +2,18 @@
   {
     "level": "Recorded",
     "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "AortaPlan",
+    "timestamp": "2026-10-16T19:14:24.066591Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "AortaPlan",
+    "timestamp": "2026-10-16T19:14:24.066551Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
     "project": "CTBone",
     "timestamp": "2026-10-16T19:02:00.721288Z"
   },
@@ -466,17 +478,5 @@
     "message": "Verification passed for local repair 577 1 \u00b7 planner.",
     "project": "CTBone",
     "timestamp": "2026-10-16T17:48:30.071574Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "Ditto",
-    "timestamp": "2026-10-16T17:46:13.950449Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Accepted task completed: local repair 581 1 \u00b7 planner.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T17:45:51.127538Z"
   }
 ]
