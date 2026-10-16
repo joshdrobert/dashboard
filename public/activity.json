@@ -1,6 +1,54 @@
 [
   {
     "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "TEER",
+    "timestamp": "2026-10-16T21:55:07.107140Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "TEER",
+    "timestamp": "2026-10-16T21:55:07.107118Z"
+  },
+  {
+    "level": "Verified",
+    "message": "Accepted task completed: regenerate plan 637 \u00b7 planner.",
+    "project": "TEER",
+    "timestamp": "2026-10-16T21:54:43.469864Z"
+  },
+  {
+    "level": "Verified",
+    "message": "Verification passed for regenerate plan 637 \u00b7 planner.",
+    "project": "TEER",
+    "timestamp": "2026-10-16T21:54:38.419187Z"
+  },
+  {
+    "level": "Verified",
+    "message": "Accepted task completed: regenerate plan 636 \u00b7 planner.",
+    "project": "TEER",
+    "timestamp": "2026-10-16T21:54:15.949013Z"
+  },
+  {
+    "level": "Verified",
+    "message": "Verification passed for regenerate plan 636 \u00b7 planner.",
+    "project": "TEER",
+    "timestamp": "2026-10-16T21:54:10.173820Z"
+  },
+  {
+    "level": "Verified",
+    "message": "Accepted task completed: regenerate plan 635 \u00b7 planner.",
+    "project": "TEER",
+    "timestamp": "2026-10-16T21:53:39.456006Z"
+  },
+  {
+    "level": "Verified",
+    "message": "Verification passed for regenerate plan 635 \u00b7 planner.",
+    "project": "TEER",
+    "timestamp": "2026-10-16T21:53:33.145446Z"
+  },
+  {
+    "level": "Recorded",
     "message": "Queued local repair 634 1 \u00b7 planner.",
     "project": "TEER",
     "timestamp": "2026-10-16T21:53:09.328550Z"
@@ -430,53 +478,5 @@
     "message": "Queued task 596 cache cleanup \u00b7 coder.",
     "project": "TEER",
     "timestamp": "2026-10-16T20:00:54.973916Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Verification passed for local repair 596 2 \u00b7 planner.",
-    "project": "TEER",
-    "timestamp": "2026-10-16T20:00:54.936949Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "AortaPlan",
-    "timestamp": "2026-10-16T20:00:01.914048Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "AortaPlan",
-    "timestamp": "2026-10-16T20:00:01.914013Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued local repair 597 1 \u00b7 planner.",
-    "project": "TEER",
-    "timestamp": "2026-10-16T19:59:43.804083Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued local repair 608 2 \u00b7 planner.",
-    "project": "AortaPlan",
-    "timestamp": "2026-10-16T19:58:07.702876Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Accepted task completed: local repair 608 1 \u00b7 planner.",
-    "project": "AortaPlan",
-    "timestamp": "2026-10-16T19:53:31.924176Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued task 608 repair plan decompose \u00b7 coder.",
-    "project": "AortaPlan",
-    "timestamp": "2026-10-16T19:53:28.105062Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Verification passed for local repair 608 1 \u00b7 planner.",
-    "project": "AortaPlan",
-    "timestamp": "2026-10-16T19:53:26.912014Z"
   }
 ]
