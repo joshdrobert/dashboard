@@ -383,7 +383,7 @@
     "state": "FAILED",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-16T22:01:22.026983Z",
+  "generatedAt": "2026-10-16T22:03:22.912351Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -400,6 +400,16 @@
     "verifiedPending": 0
   },
   "meaningfulEvents": [
+    {
+      "id": "147062",
+      "message": "Accepted task completed: regenerate plan 641 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-16T22:01:26.050108Z",
+      "type": "task_exit_accepted",
+      "verification": "Verified",
+      "whyItMatters": "The controller recorded the completion."
+    },
     {
       "id": "147057",
       "message": "Verification passed for regenerate plan 641 \u00b7 planner.",
@@ -1189,16 +1199,6 @@
       "type": "accepted",
       "verification": "Verified",
       "whyItMatters": "Dependent work may advance."
-    },
-    {
-      "id": "141932",
-      "message": "Accepted task completed: task 608 repair plan decompose \u00b7 coder.",
-      "next": "Continue through the next controller gate.",
-      "project": "AortaPlan",
-      "timestamp": "2026-10-16T20:01:53.192624Z",
-      "type": "task_exit_accepted",
-      "verification": "Verified",
-      "whyItMatters": "The controller recorded the completion."
     }
   ],
   "portfolioSummary": {
@@ -1209,7 +1209,7 @@
     "projectsNeedingTechnicalAttention": 5,
     "registeredProjects": 9,
     "state": "Needs attention",
-    "verifiedCompletions24h": 68
+    "verifiedCompletions24h": 69
   },
   "projects": [
     {
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T22:01:22.241325Z",
+  "publishedAt": "2026-10-16T22:03:23.067230Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1479,13 +1479,13 @@
     "manuscriptMilestones": 0,
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0,
-    "verifiedMilestones12h": 68,
-    "verifiedMilestones24h": 68,
-    "verifiedMilestones2h": 29
+    "verifiedMilestones12h": 69,
+    "verifiedMilestones24h": 69,
+    "verifiedMilestones2h": 28
   },
-  "semanticHash": "ec10903dc2258d6ddddb100727b59c89104b31db90f5737f8d3710cce2437c33",
+  "semanticHash": "77c5b90bfbfb2c51d44840d3d2ace551e0f27bc1d06c7a562f42b3736202cba3",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-16T22:01:21.833144Z",
+  "sourceEventAt": "2026-10-16T22:01:26.050108Z",
   "system": {
     "activeJobs": 0,
     "autonomy": "DEGRADED",
