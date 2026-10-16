@@ -30,9 +30,9 @@
       "project": "CTBone",
       "resource": "Local agent",
       "startedAt": "2026-10-16T18:30:35.603838Z",
-      "state": "STALE_UNKNOWN",
+      "state": "FAILED",
       "title": "ctbone continuation boundary 586 \u00b7 coder",
-      "updatedAt": "2026-10-16T19:14:35.165055Z",
+      "updatedAt": "2026-10-16T19:25:26.319424Z",
       "workerType": "coder"
     },
     {
@@ -77,15 +77,15 @@
     {
       "backend": "Local",
       "heartbeatFresh": true,
-      "id": "596",
+      "id": "597",
       "parent": "588",
       "project": "TEER",
       "resource": "Local agent",
-      "startedAt": "2026-10-16T18:03:57.159706Z",
+      "startedAt": "2026-10-16T18:03:57.159743Z",
       "state": "STALE_UNKNOWN",
-      "title": "task 580 cache cleanup \u00b7 coder",
-      "updatedAt": "2026-10-16T19:10:24.264252Z",
-      "workerType": "coder"
+      "title": "task 580 integration check \u00b7 research",
+      "updatedAt": "2026-10-16T19:25:21.584919Z",
+      "workerType": "research"
     },
     {
       "backend": "Local",
@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-16T19:21:24.732746Z",
+  "generatedAt": "2026-10-16T19:25:26.518893Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -400,6 +400,36 @@
     "verifiedPending": 0
   },
   "meaningfulEvents": [
+    {
+      "id": "139891",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "CTBone",
+      "timestamp": "2026-10-16T19:25:26.319442Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
+    {
+      "id": "139879",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-16T19:25:14.069499Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "139878",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-16T19:25:14.069464Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
     {
       "id": "139862",
       "message": "A Codex orientation was delivered.",
@@ -559,36 +589,6 @@
       "type": "recovery",
       "verification": "Recorded",
       "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "139341",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "CTBone",
-      "timestamp": "2026-10-16T18:58:43.906402Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
-    },
-    {
-      "id": "138935",
-      "message": "Controller recovery restored an interrupted task boundary.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-16T18:48:30.781632Z",
-      "type": "recovery",
-      "verification": "Recorded",
-      "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "138934",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-16T18:48:30.781605Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
     },
     {
       "id": "138886",
@@ -1267,9 +1267,9 @@
       "status": "Ready"
     },
     {
-      "agentsNow": "Running",
+      "agentsNow": "No agent currently executing",
       "blocker": null,
-      "currentObjective": "ctbone continuation boundary 586 \u00b7 coder",
+      "currentObjective": "ctbone determinism recovery 586 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "ctbone",
@@ -1279,10 +1279,10 @@
       "name": "CTBone",
       "nextTask": "ctbone determinism recovery 586 \u00b7 coder",
       "operationalState": "RUNNABLE",
-      "queueDepth": 3,
+      "queueDepth": 2,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Running"
+      "status": "Queued"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1341,13 +1341,13 @@
     {
       "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "task 580 cache cleanup \u00b7 coder",
+      "currentObjective": "task 580 integration check \u00b7 research",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "teer",
       "lastAccomplishment": "Verified local repair 580 1 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T19:10:13.537268Z",
+      "lastMeaningfulActivity": "2026-10-16T19:25:14.626760Z",
       "name": "TEER",
       "nextTask": "local repair 595 1 \u00b7 planner",
       "operationalState": "RUNNABLE",
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T19:21:24.883880Z",
+  "publishedAt": "2026-10-16T19:25:26.664235Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1510,11 +1510,11 @@
     "verifiedMilestones24h": 45,
     "verifiedMilestones2h": 22
   },
-  "semanticHash": "13c96d24325b8236879e9edcb6f9a45eccf96ea0ca86d65dcdd3a050fc6cf033",
+  "semanticHash": "612db299fa13aecaeb3c221851fb4bbe7a7bce000e032583819bae48520a47c8",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-16T19:21:24.525877Z",
+  "sourceEventAt": "2026-10-16T19:25:26.319442Z",
   "system": {
-    "activeJobs": 3,
+    "activeJobs": 2,
     "autonomy": "DEGRADED",
     "status": "Needs attention"
   },

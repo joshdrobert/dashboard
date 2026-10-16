@@ -1,5 +1,23 @@
 [
   {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "CTBone",
+    "timestamp": "2026-10-16T19:25:26.319442Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "TEER",
+    "timestamp": "2026-10-16T19:25:14.069499Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "TEER",
+    "timestamp": "2026-10-16T19:25:14.069464Z"
+  },
+  {
     "level": "Recorded",
     "message": "A Codex orientation was delivered.",
     "project": "Trace",
@@ -94,24 +112,6 @@
     "message": "Controller recovery restored an interrupted task boundary.",
     "project": "CTBone",
     "timestamp": "2026-10-16T18:58:43.906442Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "CTBone",
-    "timestamp": "2026-10-16T18:58:43.906402Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "TEER",
-    "timestamp": "2026-10-16T18:48:30.781632Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "TEER",
-    "timestamp": "2026-10-16T18:48:30.781605Z"
   },
   {
     "level": "Verified",
