@@ -11,15 +11,15 @@
   "blockedWork": [
     {
       "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "559",
-      "parent": "558",
+      "heartbeatFresh": false,
+      "id": "556",
+      "parent": "557",
       "project": "Trace",
       "resource": "Local agent",
-      "startedAt": "2026-10-16T00:22:20.585513Z",
-      "state": "STALE_UNKNOWN",
-      "title": "556 reader editor export authorization \u00b7 coder",
-      "updatedAt": "2026-10-16T00:37:40.503617Z",
+      "startedAt": "2026-10-15T17:55:09.494573Z",
+      "state": "FAILED",
+      "title": "536 reader editor export authorization \u00b7 coder",
+      "updatedAt": "2026-10-16T00:21:31.966037Z",
       "workerType": "coder"
     },
     {
@@ -155,8 +155,28 @@
     "state": "COMPLETE",
     "summary": "The latest two-phase portfolio review is reflected in the controller ledger."
   },
-  "generatedAt": "2026-10-16T00:38:26.080691Z",
+  "generatedAt": "2026-10-16T00:40:26.260825Z",
   "meaningfulEvents": [
+    {
+      "id": "129574",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-16T00:38:35.904703Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "129573",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-16T00:38:35.904677Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
     {
       "id": "129176",
       "message": "Accepted task completed: local repair 556 2 \u00b7 planner.",
@@ -936,26 +956,6 @@
       "type": "accepted",
       "verification": "Verified",
       "whyItMatters": "Dependent work may advance."
-    },
-    {
-      "id": "122166",
-      "message": "Controller recovery restored an interrupted task boundary.",
-      "next": "Continue through the next controller gate.",
-      "project": "Trace",
-      "timestamp": "2026-10-15T13:02:40.182075Z",
-      "type": "recovery",
-      "verification": "Recorded",
-      "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "122165",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "Trace",
-      "timestamp": "2026-10-15T13:02:40.182053Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
     }
   ],
   "portfolioSummary": {
@@ -1114,7 +1114,7 @@
       "status": "Failed / retrying"
     },
     {
-      "agentsNow": "Running",
+      "agentsNow": "No agent currently executing",
       "blocker": null,
       "currentObjective": "556 reader editor export authorization \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
@@ -1122,14 +1122,14 @@
       "id": "trace",
       "lastAccomplishment": "Verified local repair 556 2 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T00:37:40.503617Z",
+      "lastMeaningfulActivity": "2026-10-16T00:38:35.904660Z",
       "name": "Trace",
-      "nextTask": "trace browser e2e \u00b7 coder",
+      "nextTask": "556 reader editor export authorization \u00b7 coder",
       "operationalState": "RUNNABLE",
       "queueDepth": 2,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Running"
+      "status": "Queued"
     }
   ],
   "publicationHealth": {
@@ -1137,7 +1137,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T00:38:26.282419Z",
+  "publishedAt": "2026-10-16T00:40:26.460019Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1146,14 +1146,14 @@
     {
       "backend": "Local",
       "heartbeatFresh": false,
-      "id": "537",
-      "parent": "536",
+      "id": "559",
+      "parent": "558",
       "project": "Trace",
       "resource": "Local agent",
-      "startedAt": "2026-10-15T12:35:33.007726Z",
-      "state": "WAITING_DEPENDENCY",
-      "title": "trace browser e2e \u00b7 coder",
-      "updatedAt": "2026-10-15T17:18:55.377404Z",
+      "startedAt": "2026-10-16T00:22:20.585513Z",
+      "state": "QUEUED",
+      "title": "556 reader editor export authorization \u00b7 coder",
+      "updatedAt": "2026-10-16T00:38:35.904660Z",
       "workerType": "coder"
     }
   ],
@@ -1251,11 +1251,11 @@
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0
   },
-  "semanticHash": "252a96bd7e9a5b9e7a1f554259d039630da99f73b4e40a8234f17b48588b86c7",
+  "semanticHash": "114fdbe1497d490d11bf57f0137ad7a115104a6a433c2e5434401daaac151356",
   "snapshotVersion": "2.1",
-  "sourceEventAt": "2026-10-16T00:22:23.387373Z",
+  "sourceEventAt": "2026-10-16T00:38:35.904703Z",
   "system": {
-    "activeJobs": 1,
+    "activeJobs": 0,
     "autonomy": "DEGRADED",
     "status": "Needs attention"
   },

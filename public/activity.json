@@ -1,5 +1,17 @@
 [
   {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "Trace",
+    "timestamp": "2026-10-16T00:38:35.904703Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "Trace",
+    "timestamp": "2026-10-16T00:38:35.904677Z"
+  },
+  {
     "level": "Verified",
     "message": "Accepted task completed: local repair 556 2 \u00b7 planner.",
     "project": "Trace",
@@ -466,17 +478,5 @@
     "message": "Verification passed for 534 content hash persist \u00b7 coder.",
     "project": "Trace",
     "timestamp": "2026-10-15T13:03:10.399818Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "Trace",
-    "timestamp": "2026-10-15T13:02:40.182075Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "Trace",
-    "timestamp": "2026-10-15T13:02:40.182053Z"
   }
 ]
