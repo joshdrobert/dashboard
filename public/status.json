@@ -11,68 +11,16 @@
   "blockedWork": [
     {
       "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "581",
+      "heartbeatFresh": false,
+      "id": "575",
       "parent": "572",
       "project": "Trace",
       "resource": "Local agent",
-      "startedAt": "2026-10-16T17:16:08.774680Z",
-      "state": "STALE_UNKNOWN",
-      "title": "integration repair pnpm build policy 20261016 \u00b7 coder",
-      "updatedAt": "2026-10-16T17:30:38.671461Z",
-      "workerType": "coder"
-    },
-    {
-      "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "580",
-      "parent": "477",
-      "project": "TEER",
-      "resource": "Local agent",
-      "startedAt": "2026-10-16T17:16:08.773222Z",
-      "state": "STALE_UNKNOWN",
-      "title": "integration repair pytest collision 20261016 \u00b7 coder",
-      "updatedAt": "2026-10-16T17:30:01.791537Z",
-      "workerType": "coder"
-    },
-    {
-      "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "578",
-      "parent": "502",
-      "project": "Ditto",
-      "resource": "Local agent",
-      "startedAt": "2026-10-16T17:16:08.769708Z",
-      "state": "STALE_UNKNOWN",
-      "title": "integration repair calibration validator 20261016 \u00b7 coder",
-      "updatedAt": "2026-10-16T17:28:16.751134Z",
-      "workerType": "coder"
-    },
-    {
-      "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "577",
-      "parent": "466",
-      "project": "CTBone",
-      "resource": "Local agent",
-      "startedAt": "2026-10-16T17:16:08.768100Z",
-      "state": "STALE_UNKNOWN",
-      "title": "integration repair dataset provenance 20261016 \u00b7 coder",
-      "updatedAt": "2026-10-16T17:26:00.908850Z",
-      "workerType": "coder"
-    },
-    {
-      "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "576",
-      "parent": "526",
-      "project": "AortaPlan",
-      "resource": "Local agent",
-      "startedAt": "2026-10-16T17:16:08.766328Z",
-      "state": "STALE_UNKNOWN",
-      "title": "integration repair physical coordinate invariants 20261016 \u00b7 coder",
-      "updatedAt": "2026-10-16T17:31:05.604076Z",
-      "workerType": "coder"
+      "startedAt": "2026-10-16T11:26:28.326911Z",
+      "state": "FAILED",
+      "title": "regenerate plan 574 \u00b7 planner",
+      "updatedAt": "2026-10-16T11:28:52.311839Z",
+      "workerType": "planner"
     },
     {
       "backend": "Local",
@@ -90,6 +38,32 @@
     {
       "backend": "Local",
       "heartbeatFresh": false,
+      "id": "533",
+      "parent": "526",
+      "project": "AortaPlan",
+      "resource": "Local agent",
+      "startedAt": "2026-10-15T04:34:08.964494Z",
+      "state": "FAILED",
+      "title": "regenerate plan 532 \u00b7 planner",
+      "updatedAt": "2026-10-15T04:38:59.940909Z",
+      "workerType": "planner"
+    },
+    {
+      "backend": "Local",
+      "heartbeatFresh": false,
+      "id": "523",
+      "parent": "466",
+      "project": "CTBone",
+      "resource": "Local agent",
+      "startedAt": "2026-10-14T22:19:07.590049Z",
+      "state": "FAILED",
+      "title": "regenerate plan 515 \u00b7 planner",
+      "updatedAt": "2026-10-14T22:25:40.210909Z",
+      "workerType": "planner"
+    },
+    {
+      "backend": "Local",
+      "heartbeatFresh": false,
       "id": "516",
       "parent": "514",
       "project": "EchoNext",
@@ -103,6 +77,19 @@
     {
       "backend": "Local",
       "heartbeatFresh": false,
+      "id": "501",
+      "parent": null,
+      "project": "Ditto",
+      "resource": "Local agent",
+      "startedAt": "2026-10-13T14:41:01.520344Z",
+      "state": "FAILED",
+      "title": "local repair 488 2 \u00b7 planner",
+      "updatedAt": "2026-10-13T14:58:27.715688Z",
+      "workerType": "planner"
+    },
+    {
+      "backend": "Local",
+      "heartbeatFresh": false,
       "id": "500",
       "parent": null,
       "project": "Papers",
@@ -111,6 +98,19 @@
       "state": "FAILED",
       "title": "local repair 460 2 \u00b7 planner",
       "updatedAt": "2026-10-13T15:16:11.461892Z",
+      "workerType": "planner"
+    },
+    {
+      "backend": "Local",
+      "heartbeatFresh": false,
+      "id": "490",
+      "parent": null,
+      "project": "TEER",
+      "resource": "Local agent",
+      "startedAt": "2026-10-13T14:18:26.667514Z",
+      "state": "FAILED",
+      "title": "local repair 455 2 \u00b7 planner",
+      "updatedAt": "2026-10-13T14:31:57.769333Z",
       "workerType": "planner"
     },
     {
@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-16T17:32:22.350856Z",
+  "generatedAt": "2026-10-16T17:33:22.632647Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -400,6 +400,56 @@
     "verifiedPending": 3
   },
   "meaningfulEvents": [
+    {
+      "id": "135267",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "AortaPlan",
+      "timestamp": "2026-10-16T17:33:21.920206Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "135266",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-16T17:33:21.903940Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "135265",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-16T17:33:21.863749Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "135264",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-16T17:33:21.822412Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "135263",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "CTBone",
+      "timestamp": "2026-10-16T17:33:21.801487Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
     {
       "id": "135057",
       "message": "Controller recovery restored an interrupted task boundary.",
@@ -421,16 +471,6 @@
       "whyItMatters": "The failure remains visible until repaired."
     },
     {
-      "id": "135055",
-      "message": "Controller recovery restored an interrupted task boundary.",
-      "next": "Continue through the next controller gate.",
-      "project": "Trace",
-      "timestamp": "2026-10-16T17:29:57.521207Z",
-      "type": "recovery",
-      "verification": "Recorded",
-      "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
       "id": "135048",
       "message": "Controller recovery restored an interrupted task boundary.",
       "next": "Continue through the next controller gate.",
@@ -449,16 +489,6 @@
       "type": "failure",
       "verification": "Attention",
       "whyItMatters": "The failure remains visible until repaired."
-    },
-    {
-      "id": "134941",
-      "message": "Controller recovery restored an interrupted task boundary.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-16T17:27:55.449001Z",
-      "type": "recovery",
-      "verification": "Recorded",
-      "whyItMatters": "Safe autonomous execution can resume."
     },
     {
       "id": "134940",
@@ -489,36 +519,6 @@
       "type": "failure",
       "verification": "Attention",
       "whyItMatters": "The failure remains visible until repaired."
-    },
-    {
-      "id": "134618",
-      "message": "Controller recovery restored an interrupted task boundary.",
-      "next": "Continue through the next controller gate.",
-      "project": "Ditto",
-      "timestamp": "2026-10-16T17:24:16.328045Z",
-      "type": "recovery",
-      "verification": "Recorded",
-      "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "134616",
-      "message": "Controller recovery restored an interrupted task boundary.",
-      "next": "Continue through the next controller gate.",
-      "project": "AortaPlan",
-      "timestamp": "2026-10-16T17:24:16.280638Z",
-      "type": "recovery",
-      "verification": "Recorded",
-      "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "134615",
-      "message": "Controller recovery restored an interrupted task boundary.",
-      "next": "Continue through the next controller gate.",
-      "project": "CTBone",
-      "timestamp": "2026-10-16T17:24:16.264726Z",
-      "type": "recovery",
-      "verification": "Recorded",
-      "whyItMatters": "Safe autonomous execution can resume."
     },
     {
       "id": "134455",
@@ -1231,7 +1231,7 @@
       "status": "Failed / retrying"
     },
     {
-      "agentsNow": "Running",
+      "agentsNow": "No agent currently executing",
       "blocker": null,
       "currentObjective": "integration repair physical coordinate invariants 20261016 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
@@ -1239,14 +1239,14 @@
       "id": "aortaplan",
       "lastAccomplishment": "Verified a1 physical space regression bounds \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T17:31:05.604076Z",
+      "lastMeaningfulActivity": "2026-10-16T17:33:21.914891Z",
       "name": "AortaPlan",
-      "nextTask": null,
+      "nextTask": "integration repair physical coordinate invariants 20261016 \u00b7 coder",
       "operationalState": "RUNNABLE",
       "queueDepth": 1,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Running"
+      "status": "Queued"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1267,7 +1267,7 @@
       "status": "Ready"
     },
     {
-      "agentsNow": "Running",
+      "agentsNow": "No agent currently executing",
       "blocker": null,
       "currentObjective": "integration repair dataset provenance 20261016 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
@@ -1275,17 +1275,17 @@
       "id": "ctbone",
       "lastAccomplishment": "Verified regenerate plan 465 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T17:26:00.908850Z",
+      "lastMeaningfulActivity": "2026-10-16T17:33:21.795458Z",
       "name": "CTBone",
-      "nextTask": null,
+      "nextTask": "integration repair dataset provenance 20261016 \u00b7 coder",
       "operationalState": "RUNNABLE",
       "queueDepth": 1,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Running"
+      "status": "Queued"
     },
     {
-      "agentsNow": "Running",
+      "agentsNow": "No agent currently executing",
       "blocker": "Public-safe blocker recorded",
       "currentObjective": "integration repair calibration validator 20261016 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
@@ -1293,14 +1293,14 @@
       "id": "ditto",
       "lastAccomplishment": "Verified regenerate plan 501 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T17:28:16.751134Z",
+      "lastMeaningfulActivity": "2026-10-16T17:33:21.815980Z",
       "name": "Ditto",
-      "nextTask": null,
+      "nextTask": "integration repair calibration validator 20261016 \u00b7 coder",
       "operationalState": "RUNNABLE",
       "queueDepth": 1,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Running"
+      "status": "Queued"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1339,7 +1339,7 @@
       "status": "Failed / retrying"
     },
     {
-      "agentsNow": "Running",
+      "agentsNow": "No agent currently executing",
       "blocker": null,
       "currentObjective": "integration repair pytest collision 20261016 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
@@ -1347,19 +1347,19 @@
       "id": "teer",
       "lastAccomplishment": "Verified local repair 455 1 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T17:30:01.791537Z",
+      "lastMeaningfulActivity": "2026-10-16T17:33:21.836011Z",
       "name": "TEER",
-      "nextTask": null,
+      "nextTask": "integration repair pytest collision 20261016 \u00b7 coder",
       "operationalState": "RUNNABLE",
       "queueDepth": 1,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Running"
+      "status": "Queued"
     },
     {
-      "agentsNow": "Running",
+      "agentsNow": "No agent currently executing",
       "blocker": null,
-      "currentObjective": "integration repair pnpm build policy 20261016 \u00b7 coder",
+      "currentObjective": "local repair 581 1 \u00b7 planner",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "trace",
@@ -1372,7 +1372,7 @@
       "queueDepth": 2,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Running"
+      "status": "Queued"
     }
   ],
   "publicationHealth": {
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T17:32:22.510500Z",
+  "publishedAt": "2026-10-16T17:33:22.772832Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1401,6 +1401,19 @@
     },
     {
       "backend": "Local",
+      "heartbeatFresh": true,
+      "id": "580",
+      "parent": "477",
+      "project": "TEER",
+      "resource": "Local agent",
+      "startedAt": "2026-10-16T17:16:08.773222Z",
+      "state": "QUEUED",
+      "title": "integration repair pytest collision 20261016 \u00b7 coder",
+      "updatedAt": "2026-10-16T17:33:21.836011Z",
+      "workerType": "coder"
+    },
+    {
+      "backend": "Local",
       "heartbeatFresh": false,
       "id": "579",
       "parent": "514",
@@ -1410,6 +1423,45 @@
       "state": "QUEUED",
       "title": "integration repair pytest collision 20261016 \u00b7 coder",
       "updatedAt": "2026-10-16T17:29:50.259370Z",
+      "workerType": "coder"
+    },
+    {
+      "backend": "Local",
+      "heartbeatFresh": true,
+      "id": "578",
+      "parent": "502",
+      "project": "Ditto",
+      "resource": "Local agent",
+      "startedAt": "2026-10-16T17:16:08.769708Z",
+      "state": "QUEUED",
+      "title": "integration repair calibration validator 20261016 \u00b7 coder",
+      "updatedAt": "2026-10-16T17:33:21.815980Z",
+      "workerType": "coder"
+    },
+    {
+      "backend": "Local",
+      "heartbeatFresh": true,
+      "id": "577",
+      "parent": "466",
+      "project": "CTBone",
+      "resource": "Local agent",
+      "startedAt": "2026-10-16T17:16:08.768100Z",
+      "state": "QUEUED",
+      "title": "integration repair dataset provenance 20261016 \u00b7 coder",
+      "updatedAt": "2026-10-16T17:33:21.795458Z",
+      "workerType": "coder"
+    },
+    {
+      "backend": "Local",
+      "heartbeatFresh": true,
+      "id": "576",
+      "parent": "526",
+      "project": "AortaPlan",
+      "resource": "Local agent",
+      "startedAt": "2026-10-16T17:16:08.766328Z",
+      "state": "QUEUED",
+      "title": "integration repair physical coordinate invariants 20261016 \u00b7 coder",
+      "updatedAt": "2026-10-16T17:33:21.914891Z",
       "workerType": "coder"
     }
   ],
@@ -1510,11 +1562,11 @@
     "verifiedMilestones24h": 28,
     "verifiedMilestones2h": 0
   },
-  "semanticHash": "22de554ca3122eea6f4750a7d1357d3364247f58d06263ed64bfc1e387527cac",
+  "semanticHash": "82b111e18535d335f46fc3f86d246e9ef025754819a607124662c9332e2d3a54",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-16T17:29:57.563303Z",
+  "sourceEventAt": "2026-10-16T17:33:21.920206Z",
   "system": {
-    "activeJobs": 5,
+    "activeJobs": 0,
     "autonomy": "DEGRADED",
     "status": "Needs attention"
   },
