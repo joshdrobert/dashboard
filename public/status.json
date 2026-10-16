@@ -11,16 +11,16 @@
   "blockedWork": [
     {
       "backend": "Local",
-      "heartbeatFresh": false,
-      "id": "606",
-      "parent": "526",
+      "heartbeatFresh": true,
+      "id": "608",
+      "parent": "607",
       "project": "AortaPlan",
       "resource": "Local agent",
-      "startedAt": "2026-10-16T18:37:47.074875Z",
-      "state": "FAILED",
-      "title": "regenerate plan 602 \u00b7 planner",
-      "updatedAt": "2026-10-16T18:39:48.103386Z",
-      "workerType": "planner"
+      "startedAt": "2026-10-16T18:47:56.720200Z",
+      "state": "STALE_UNKNOWN",
+      "title": "task 576 repair coordinate invariants \u00b7 coder",
+      "updatedAt": "2026-10-16T19:16:30.601737Z",
+      "workerType": "coder"
     },
     {
       "backend": "Local",
@@ -383,7 +383,7 @@
     "state": "PHASE1_RUNNING",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-16T19:15:22.920244Z",
+  "generatedAt": "2026-10-16T19:17:23.398788Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -1231,7 +1231,7 @@
       "status": "Failed / retrying"
     },
     {
-      "agentsNow": "No agent currently executing",
+      "agentsNow": "Running",
       "blocker": null,
       "currentObjective": "task 576 repair coordinate invariants \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
@@ -1239,14 +1239,14 @@
       "id": "aortaplan",
       "lastAccomplishment": "Verified regenerate plan 606 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T19:14:24.066508Z",
+      "lastMeaningfulActivity": "2026-10-16T19:16:30.601737Z",
       "name": "AortaPlan",
-      "nextTask": "task 576 repair coordinate invariants \u00b7 coder",
+      "nextTask": null,
       "operationalState": "RUNNABLE",
       "queueDepth": 1,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Queued"
+      "status": "Running"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T19:15:23.213387Z",
+  "publishedAt": "2026-10-16T19:17:23.607377Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1398,19 +1398,6 @@
       "title": "local repair 595 1 \u00b7 planner",
       "updatedAt": "2026-10-16T18:59:58.816869Z",
       "workerType": "planner"
-    },
-    {
-      "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "608",
-      "parent": "607",
-      "project": "AortaPlan",
-      "resource": "Local agent",
-      "startedAt": "2026-10-16T18:47:56.720200Z",
-      "state": "QUEUED",
-      "title": "task 576 repair coordinate invariants \u00b7 coder",
-      "updatedAt": "2026-10-16T19:14:24.066508Z",
-      "workerType": "coder"
     },
     {
       "backend": "Local",
@@ -1523,11 +1510,11 @@
     "verifiedMilestones24h": 45,
     "verifiedMilestones2h": 22
   },
-  "semanticHash": "525310154c2ee0401dd6078416934ab4126f9c65cf32d3a6eedebb30fa20efc8",
+  "semanticHash": "c8e7344ba63bbe80c1d4217e7b27b02bf6b522f1a2e09340af85f52c03bb0187",
   "snapshotVersion": "2.3",
   "sourceEventAt": "2026-10-16T19:14:24.066591Z",
   "system": {
-    "activeJobs": 2,
+    "activeJobs": 3,
     "autonomy": "DEGRADED",
     "status": "Needs attention"
   },
