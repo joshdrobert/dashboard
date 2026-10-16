@@ -155,8 +155,18 @@
     "state": "PHASE2_RUNNING",
     "summary": "The latest two-phase portfolio review is reflected in the controller ledger."
   },
-  "generatedAt": "2026-10-16T10:53:27.445541Z",
+  "generatedAt": "2026-10-16T10:55:27.956681Z",
   "meaningfulEvents": [
+    {
+      "id": "132643",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-16T10:54:04.748195Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
     {
       "id": "132600",
       "message": "Controller recovery restored an interrupted task boundary.",
@@ -946,16 +956,6 @@
       "type": "recovery",
       "verification": "Recorded",
       "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "124731",
-      "message": "Accepted task completed: local repair 549 1 \u00b7 planner.",
-      "next": "Continue through the next controller gate.",
-      "project": "Trace",
-      "timestamp": "2026-10-15T14:21:59.028244Z",
-      "type": "task_exit_accepted",
-      "verification": "Verified",
-      "whyItMatters": "The controller recorded the completion."
     }
   ],
   "portfolioSummary": {
@@ -1044,17 +1044,17 @@
     {
       "agentsNow": "Running",
       "blocker": "Public-safe blocker recorded",
-      "currentObjective": "ditto lineage roundtrip receipt 20261013 \u00b7 provenance validation",
+      "currentObjective": "ditto h1 input domain freeze 20261013 \u00b7 V1 milestone closure",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "ditto",
       "lastAccomplishment": "Verified regenerate plan 501 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T10:41:21.942158Z",
+      "lastMeaningfulActivity": "2026-10-16T10:54:07.082957Z",
       "name": "Ditto",
-      "nextTask": "ditto h1 input domain freeze 20261013 \u00b7 V1 milestone closure",
+      "nextTask": null,
       "operationalState": "RUNNABLE",
-      "queueDepth": 2,
+      "queueDepth": 1,
       "readyForHuman": false,
       "researchStage": "Active research program",
       "status": "Running"
@@ -1137,26 +1137,12 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T10:53:27.711298Z",
+  "publishedAt": "2026-10-16T10:55:28.120352Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
   },
-  "queuedWork": [
-    {
-      "backend": "Local",
-      "heartbeatFresh": false,
-      "id": "488",
-      "parent": null,
-      "project": "Ditto",
-      "resource": "Local agent",
-      "startedAt": "2026-10-13T14:17:14.369709Z",
-      "state": "QUEUED",
-      "title": "ditto h1 input domain freeze 20261013 \u00b7 V1 milestone closure",
-      "updatedAt": "2026-10-16T10:36:28.577406Z",
-      "workerType": "V1 milestone closure"
-    }
-  ],
+  "queuedWork": [],
   "recentlyCompleted": [
     {
       "id": "569",
@@ -1251,9 +1237,9 @@
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0
   },
-  "semanticHash": "1e8a249c6a75135dce9ceb9e92ae64db5a462497f03b430916fe9f11c66f9948",
+  "semanticHash": "b0e3bec7427f7feeb4449392250c3d95adcb09eeeeb799c9014fba764b6b8ad2",
   "snapshotVersion": "2.1",
-  "sourceEventAt": "2026-10-16T10:43:52.792353Z",
+  "sourceEventAt": "2026-10-16T10:54:04.748195Z",
   "system": {
     "activeJobs": 2,
     "autonomy": "DEGRADED",
