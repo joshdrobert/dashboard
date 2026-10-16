@@ -12,14 +12,14 @@
     {
       "backend": "Local",
       "heartbeatFresh": true,
-      "id": "633",
+      "id": "632",
       "parent": "629",
       "project": "TEER",
       "resource": "Local agent",
-      "startedAt": "2026-10-16T20:58:24.152669Z",
+      "startedAt": "2026-10-16T20:58:24.152588Z",
       "state": "STALE_UNKNOWN",
-      "title": "task 621 cache cleanup \u00b7 coder",
-      "updatedAt": "2026-10-16T21:12:31.178173Z",
+      "title": "task 621 import isolation \u00b7 coder",
+      "updatedAt": "2026-10-16T21:14:29.973358Z",
       "workerType": "coder"
     },
     {
@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-16T21:12:41.288163Z",
+  "generatedAt": "2026-10-16T21:14:41.945064Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -1341,13 +1341,13 @@
     {
       "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "task 621 cache cleanup \u00b7 coder",
+      "currentObjective": "task 621 import isolation \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "teer",
       "lastAccomplishment": "Verified local repair 615 2 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T21:12:25.969445Z",
+      "lastMeaningfulActivity": "2026-10-16T21:14:24.088441Z",
       "name": "TEER",
       "nextTask": "local repair 628 1 \u00b7 planner",
       "operationalState": "RUNNABLE",
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T21:12:41.458126Z",
+  "publishedAt": "2026-10-16T21:14:42.164285Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1497,7 +1497,7 @@
     "verifiedMilestones24h": 59,
     "verifiedMilestones2h": 27
   },
-  "semanticHash": "7dfbeba2f66aa2aa44c1b84d24027c982a1f1ed0208e4f23091a396412791dbf",
+  "semanticHash": "dd0034e811e01e179a5fadfec9d0bfbd38a9afd200c75a418d2a36c29dacacfd",
   "snapshotVersion": "2.3",
   "sourceEventAt": "2026-10-16T21:12:23.919072Z",
   "system": {
