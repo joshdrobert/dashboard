@@ -19,7 +19,7 @@
       "startedAt": "2026-10-16T18:39:48.159029Z",
       "state": "STALE_UNKNOWN",
       "title": "regenerate plan 606 \u00b7 planner",
-      "updatedAt": "2026-10-16T18:39:53.392737Z",
+      "updatedAt": "2026-10-16T18:41:50.937945Z",
       "workerType": "planner"
     },
     {
@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-16T18:40:56.880311Z",
+  "generatedAt": "2026-10-16T18:42:57.887057Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -400,6 +400,26 @@
     "verifiedPending": 0
   },
   "meaningfulEvents": [
+    {
+      "id": "138535",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "AortaPlan",
+      "timestamp": "2026-10-16T18:41:13.521404Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "138534",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "AortaPlan",
+      "timestamp": "2026-10-16T18:41:13.521348Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
     {
       "id": "138458",
       "message": "Queued regenerate plan 606 \u00b7 planner.",
@@ -1179,26 +1199,6 @@
       "type": "recovery",
       "verification": "Recorded",
       "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "135347",
-      "message": "Controller recorded git integration complete.",
-      "next": "Continue through the next controller gate.",
-      "project": "AI-Server",
-      "timestamp": "2026-10-16T17:34:19.060724Z",
-      "type": "git_integration_complete",
-      "verification": "Recorded",
-      "whyItMatters": "The authoritative event log changed."
-    },
-    {
-      "id": "135266",
-      "message": "Controller recovery restored an interrupted task boundary.",
-      "next": "Continue through the next controller gate.",
-      "project": "Trace",
-      "timestamp": "2026-10-16T17:33:21.903940Z",
-      "type": "recovery",
-      "verification": "Recorded",
-      "whyItMatters": "Safe autonomous execution can resume."
     }
   ],
   "portfolioSummary": {
@@ -1239,7 +1239,7 @@
       "id": "aortaplan",
       "lastAccomplishment": "Verified a1 physical space regression bounds \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T18:39:53.392737Z",
+      "lastMeaningfulActivity": "2026-10-16T18:41:50.937945Z",
       "name": "AortaPlan",
       "nextTask": null,
       "operationalState": "RUNNABLE",
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T18:40:57.202513Z",
+  "publishedAt": "2026-10-16T18:42:58.230369Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1510,9 +1510,9 @@
     "verifiedMilestones24h": 43,
     "verifiedMilestones2h": 20
   },
-  "semanticHash": "c7de615adcf9ef3d79f95ecc895c1787df43e95548044cf8d101e85f672ae929",
+  "semanticHash": "5234c03d83495cd94ab559bf60eea60d76161eead3dbb33dcfc47ab2e8c97796",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-16T18:39:48.159078Z",
+  "sourceEventAt": "2026-10-16T18:41:13.521404Z",
   "system": {
     "activeJobs": 3,
     "autonomy": "DEGRADED",
