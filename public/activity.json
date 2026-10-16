@@ -3,13 +3,19 @@
     "level": "Recorded",
     "message": "Controller recovery restored an interrupted task boundary.",
     "project": "Trace",
-    "timestamp": "2026-10-16T10:38:17.818553Z"
+    "timestamp": "2026-10-16T10:41:18.298410Z"
   },
   {
     "level": "Recorded",
     "message": "Controller recovery restored an interrupted task boundary.",
     "project": "Ditto",
-    "timestamp": "2026-10-16T10:38:17.789675Z"
+    "timestamp": "2026-10-16T10:41:18.282709Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "EchoNext",
+    "timestamp": "2026-10-16T10:41:02.932131Z"
   },
   {
     "level": "Recorded",
@@ -472,11 +478,5 @@
     "message": "Queued 549 object storage adapter failure repair \u00b7 coder.",
     "project": "Trace",
     "timestamp": "2026-10-15T14:21:56.192960Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Verification passed for local repair 549 1 \u00b7 planner.",
-    "project": "Trace",
-    "timestamp": "2026-10-15T14:21:54.015015Z"
   }
 ]

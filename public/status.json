@@ -69,9 +69,9 @@
       "project": "EchoNext",
       "resource": "Local agent",
       "startedAt": "2026-10-14T22:06:50.746265Z",
-      "state": "STALE_UNKNOWN",
+      "state": "FAILED",
       "title": "plan after 514 \u00b7 planner",
-      "updatedAt": "2026-10-16T10:39:50.374473Z",
+      "updatedAt": "2026-10-16T10:41:02.932117Z",
       "workerType": "planner"
     },
     {
@@ -155,27 +155,37 @@
     "state": "COMPLETE",
     "summary": "The latest two-phase portfolio review is reflected in the controller ledger."
   },
-  "generatedAt": "2026-10-16T10:40:19.566036Z",
+  "generatedAt": "2026-10-16T10:41:19.216749Z",
   "meaningfulEvents": [
     {
-      "id": "132183",
+      "id": "132393",
       "message": "Controller recovery restored an interrupted task boundary.",
       "next": "Continue through the next controller gate.",
       "project": "Trace",
-      "timestamp": "2026-10-16T10:38:17.818553Z",
+      "timestamp": "2026-10-16T10:41:18.298410Z",
       "type": "recovery",
       "verification": "Recorded",
       "whyItMatters": "Safe autonomous execution can resume."
     },
     {
-      "id": "132182",
+      "id": "132392",
       "message": "Controller recovery restored an interrupted task boundary.",
       "next": "Continue through the next controller gate.",
       "project": "Ditto",
-      "timestamp": "2026-10-16T10:38:17.789675Z",
+      "timestamp": "2026-10-16T10:41:18.282709Z",
       "type": "recovery",
       "verification": "Recorded",
       "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "132363",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "EchoNext",
+      "timestamp": "2026-10-16T10:41:02.932131Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
     },
     {
       "id": "132181",
@@ -946,16 +956,6 @@
       "type": "task_queued",
       "verification": "Recorded",
       "whyItMatters": "The next unit of work is durable."
-    },
-    {
-      "id": "124717",
-      "message": "Verification passed for local repair 549 1 \u00b7 planner.",
-      "next": "Continue through the next controller gate.",
-      "project": "Trace",
-      "timestamp": "2026-10-15T14:21:54.015015Z",
-      "type": "accepted",
-      "verification": "Verified",
-      "whyItMatters": "Dependent work may advance."
     }
   ],
   "portfolioSummary": {
@@ -1042,9 +1042,9 @@
       "status": "Ready"
     },
     {
-      "agentsNow": "Running",
+      "agentsNow": "No agent currently executing",
       "blocker": "Public-safe blocker recorded",
-      "currentObjective": "ditto lineage roundtrip receipt 20261013 \u00b7 provenance validation",
+      "currentObjective": "ditto h1 input domain freeze 20261013 \u00b7 V1 milestone closure",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "ditto",
@@ -1057,10 +1057,10 @@
       "queueDepth": 2,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Running"
+      "status": "Queued"
     },
     {
-      "agentsNow": "Running",
+      "agentsNow": "No agent currently executing",
       "blocker": null,
       "currentObjective": "plan after 514 \u00b7 planner",
       "deliverable": "A verified bounded project artifact.",
@@ -1068,14 +1068,14 @@
       "id": "echonext",
       "lastAccomplishment": "Verified local repair 487 milestone map \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T10:39:50.374473Z",
+      "lastMeaningfulActivity": "2026-10-16T10:41:02.932117Z",
       "name": "EchoNext",
       "nextTask": null,
       "operationalState": "RUNNABLE",
-      "queueDepth": 1,
+      "queueDepth": 0,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Running"
+      "status": "Ready"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1114,7 +1114,7 @@
       "status": "Failed / retrying"
     },
     {
-      "agentsNow": "Running",
+      "agentsNow": "No agent currently executing",
       "blocker": null,
       "currentObjective": "trace browser e2e \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
@@ -1124,12 +1124,12 @@
       "lastCodexReview": null,
       "lastMeaningfulActivity": "2026-10-16T10:38:29.872731Z",
       "name": "Trace",
-      "nextTask": null,
+      "nextTask": "trace browser e2e \u00b7 coder",
       "operationalState": "RUNNABLE",
       "queueDepth": 1,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Running"
+      "status": "Queued"
     }
   ],
   "publicationHealth": {
@@ -1137,12 +1137,25 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T10:40:19.797931Z",
+  "publishedAt": "2026-10-16T10:41:19.423003Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
   },
   "queuedWork": [
+    {
+      "backend": "Local",
+      "heartbeatFresh": true,
+      "id": "537",
+      "parent": "569",
+      "project": "Trace",
+      "resource": "Local agent",
+      "startedAt": "2026-10-15T12:35:33.007726Z",
+      "state": "QUEUED",
+      "title": "trace browser e2e \u00b7 coder",
+      "updatedAt": "2026-10-16T10:41:18.294242Z",
+      "workerType": "coder"
+    },
     {
       "backend": "Local",
       "heartbeatFresh": false,
@@ -1251,11 +1264,11 @@
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0
   },
-  "semanticHash": "73770707f111a56afafee792a6e91596ceb2ec5aa80e376ddadefc5ce059f2cc",
+  "semanticHash": "1af6940cca831e6050875c0ae508dd123ae7194b9afef1dd6ce270b13ed74c98",
   "snapshotVersion": "2.1",
-  "sourceEventAt": "2026-10-16T10:38:17.818553Z",
+  "sourceEventAt": "2026-10-16T10:41:18.298410Z",
   "system": {
-    "activeJobs": 3,
+    "activeJobs": 0,
     "autonomy": "DEGRADED",
     "status": "Needs attention"
   },
