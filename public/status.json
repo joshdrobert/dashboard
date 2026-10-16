@@ -130,109 +130,119 @@
   "decisionSummary": {
     "approvedDecisions": 0,
     "lastPhase1": "2026-10-16T08:35:48.652650Z",
-    "lastPhase2": null,
+    "lastPhase2": "2026-10-16T08:43:52.684062Z",
     "model": "Codex",
     "modifiedOrReversed": 0,
     "nextReview": null,
-    "orientationAcknowledgments": null,
+    "orientationAcknowledgments": 9,
     "pendingDecisions": 0,
-    "projectsReviewed": 0,
+    "projectsReviewed": 9,
     "reasoningEffort": "medium",
-    "state": "PHASE2_RUNNING",
+    "state": "COMPLETE",
     "summary": "The latest two-phase portfolio review is reflected in the controller ledger."
   },
   "director": {
     "approvedDecisions": 0,
     "lastPhase1": "2026-10-16T08:35:48.652650Z",
-    "lastPhase2": null,
+    "lastPhase2": "2026-10-16T08:43:52.684062Z",
     "model": "Codex",
     "modifiedOrReversed": 0,
     "nextReview": null,
-    "orientationAcknowledgments": null,
+    "orientationAcknowledgments": 9,
     "pendingDecisions": 0,
-    "projectsReviewed": 0,
+    "projectsReviewed": 9,
     "reasoningEffort": "medium",
-    "state": "PHASE2_RUNNING",
+    "state": "COMPLETE",
     "summary": "The latest two-phase portfolio review is reflected in the controller ledger."
   },
-  "generatedAt": "2026-10-16T08:39:16.729825Z",
+  "generatedAt": "2026-10-16T08:45:19.985415Z",
   "meaningfulEvents": [
     {
-      "id": "131902",
+      "id": "132006",
       "message": "A Codex orientation was delivered.",
       "next": "Continue through the next controller gate.",
       "project": "Trace",
-      "timestamp": "2026-10-16T06:35:47.884531Z",
+      "timestamp": "2026-10-16T08:43:52.687415Z",
       "type": "orientation_delivered",
       "verification": "Recorded",
       "whyItMatters": "Supervisory direction was updated."
     },
     {
-      "id": "131900",
+      "id": "132004",
       "message": "A Codex orientation was delivered.",
       "next": "Continue through the next controller gate.",
       "project": "TEER",
-      "timestamp": "2026-10-16T06:35:47.884464Z",
+      "timestamp": "2026-10-16T08:43:52.687338Z",
       "type": "orientation_delivered",
       "verification": "Recorded",
       "whyItMatters": "Supervisory direction was updated."
     },
     {
-      "id": "131898",
+      "id": "132002",
       "message": "A Codex orientation was delivered.",
       "next": "Continue through the next controller gate.",
       "project": "Papers",
-      "timestamp": "2026-10-16T06:35:47.884395Z",
+      "timestamp": "2026-10-16T08:43:52.687298Z",
       "type": "orientation_delivered",
       "verification": "Recorded",
       "whyItMatters": "Supervisory direction was updated."
     },
     {
-      "id": "131896",
+      "id": "132000",
       "message": "A Codex orientation was delivered.",
       "next": "Continue through the next controller gate.",
       "project": "EchoNext",
-      "timestamp": "2026-10-16T06:35:47.884323Z",
+      "timestamp": "2026-10-16T08:43:52.687258Z",
       "type": "orientation_delivered",
       "verification": "Recorded",
       "whyItMatters": "Supervisory direction was updated."
     },
     {
-      "id": "131894",
+      "id": "131998",
       "message": "A Codex orientation was delivered.",
       "next": "Continue through the next controller gate.",
       "project": "Ditto",
-      "timestamp": "2026-10-16T06:35:47.884255Z",
+      "timestamp": "2026-10-16T08:43:52.687217Z",
       "type": "orientation_delivered",
       "verification": "Recorded",
       "whyItMatters": "Supervisory direction was updated."
     },
     {
-      "id": "131892",
+      "id": "131996",
       "message": "A Codex orientation was delivered.",
       "next": "Continue through the next controller gate.",
       "project": "CTBone",
-      "timestamp": "2026-10-16T06:35:47.884161Z",
+      "timestamp": "2026-10-16T08:43:52.687156Z",
       "type": "orientation_delivered",
       "verification": "Recorded",
       "whyItMatters": "Supervisory direction was updated."
     },
     {
-      "id": "131890",
+      "id": "131994",
       "message": "A Codex orientation was delivered.",
       "next": "Continue through the next controller gate.",
       "project": "BCM-Neuromodulation",
-      "timestamp": "2026-10-16T06:35:47.884060Z",
+      "timestamp": "2026-10-16T08:43:52.687100Z",
       "type": "orientation_delivered",
       "verification": "Recorded",
       "whyItMatters": "Supervisory direction was updated."
     },
     {
-      "id": "131888",
+      "id": "131992",
       "message": "A Codex orientation was delivered.",
       "next": "Continue through the next controller gate.",
       "project": "AortaPlan",
-      "timestamp": "2026-10-16T06:35:47.883965Z",
+      "timestamp": "2026-10-16T08:43:52.687035Z",
+      "type": "orientation_delivered",
+      "verification": "Recorded",
+      "whyItMatters": "Supervisory direction was updated."
+    },
+    {
+      "id": "131990",
+      "message": "A Codex orientation was delivered.",
+      "next": "Continue through the next controller gate.",
+      "project": "AI-Server",
+      "timestamp": "2026-10-16T08:43:52.686855Z",
       "type": "orientation_delivered",
       "verification": "Recorded",
       "whyItMatters": "Supervisory direction was updated."
@@ -946,16 +956,6 @@
       "type": "recovery",
       "verification": "Recorded",
       "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "124291",
-      "message": "Accepted task completed: task 545 vision gateway probe \u00b7 coder.",
-      "next": "Continue through the next controller gate.",
-      "project": "AI-Server",
-      "timestamp": "2026-10-15T14:10:10.012941Z",
-      "type": "task_exit_accepted",
-      "verification": "Verified",
-      "whyItMatters": "The controller recorded the completion."
     }
   ],
   "portfolioSummary": {
@@ -1137,7 +1137,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T08:39:16.957943Z",
+  "publishedAt": "2026-10-16T08:45:20.295496Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1251,9 +1251,9 @@
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0
   },
-  "semanticHash": "4a7ce475cce3848a8488af731e536f2041c94721b91d540cd52301ad28651bfe",
+  "semanticHash": "65b387e8b1dfb4a3dc89a13c9af538ea88a905200877cb2d0458fbf17d4d13b3",
   "snapshotVersion": "2.1",
-  "sourceEventAt": "2026-10-16T06:35:47.884531Z",
+  "sourceEventAt": "2026-10-16T08:43:52.687415Z",
   "system": {
     "activeJobs": 0,
     "autonomy": "DEGRADED",
