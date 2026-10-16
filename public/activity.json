@@ -1,5 +1,17 @@
 [
   {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "AortaPlan",
+    "timestamp": "2026-10-16T18:32:41.167728Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "AortaPlan",
+    "timestamp": "2026-10-16T18:32:41.167650Z"
+  },
+  {
     "level": "Verified",
     "message": "Accepted task completed: local repair 586 1 \u00b7 planner.",
     "project": "CTBone",
@@ -466,17 +478,5 @@
     "message": "Queued integration repair dataset provenance 20261016 \u00b7 coder.",
     "project": "CTBone",
     "timestamp": "2026-10-16T17:16:08.768752Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued integration repair physical coordinate invariants 20261016 \u00b7 coder.",
-    "project": "AortaPlan",
-    "timestamp": "2026-10-16T17:16:08.766977Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "A Codex orientation was delivered.",
-    "project": "Trace",
-    "timestamp": "2026-10-16T17:14:29.995378Z"
   }
 ]
