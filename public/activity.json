@@ -1,6 +1,12 @@
 [
   {
     "level": "Recorded",
+    "message": "Queued local repair 628 1 \u00b7 planner.",
+    "project": "TEER",
+    "timestamp": "2026-10-16T21:05:50.508779Z"
+  },
+  {
+    "level": "Recorded",
     "message": "Controller recovery restored an interrupted task boundary.",
     "project": "TEER",
     "timestamp": "2026-10-16T21:00:34.444225Z"
@@ -472,11 +478,5 @@
     "message": "A bounded task failed and entered recovery.",
     "project": "TEER",
     "timestamp": "2026-10-16T19:47:55.455737Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "TEER",
-    "timestamp": "2026-10-16T19:47:30.221545Z"
   }
 ]

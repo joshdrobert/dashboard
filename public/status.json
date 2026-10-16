@@ -11,16 +11,16 @@
   "blockedWork": [
     {
       "backend": "Local",
-      "heartbeatFresh": false,
-      "id": "630",
-      "parent": "620",
+      "heartbeatFresh": true,
+      "id": "632",
+      "parent": "629",
       "project": "TEER",
       "resource": "Local agent",
-      "startedAt": "2026-10-16T20:55:25.470428Z",
-      "state": "FAILED",
-      "title": "regenerate plan 626 \u00b7 planner",
-      "updatedAt": "2026-10-16T20:55:25.470428Z",
-      "workerType": "planner"
+      "startedAt": "2026-10-16T20:58:24.152588Z",
+      "state": "STALE_UNKNOWN",
+      "title": "task 621 import isolation \u00b7 coder",
+      "updatedAt": "2026-10-16T21:05:50.828009Z",
+      "workerType": "coder"
     },
     {
       "backend": "Local",
@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-16T21:04:37.491335Z",
+  "generatedAt": "2026-10-16T21:06:38.780071Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -400,6 +400,16 @@
     "verifiedPending": 0
   },
   "meaningfulEvents": [
+    {
+      "id": "144768",
+      "message": "Queued local repair 628 1 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-16T21:05:50.508779Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
     {
       "id": "144451",
       "message": "Controller recovery restored an interrupted task boundary.",
@@ -1189,16 +1199,6 @@
       "type": "failure",
       "verification": "Attention",
       "whyItMatters": "The failure remains visible until repaired."
-    },
-    {
-      "id": "141104",
-      "message": "Controller recovery restored an interrupted task boundary.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-16T19:47:30.221545Z",
-      "type": "recovery",
-      "verification": "Recorded",
-      "whyItMatters": "Safe autonomous execution can resume."
     }
   ],
   "portfolioSummary": {
@@ -1341,15 +1341,15 @@
     {
       "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "task 597 exclusion \u00b7 coder",
+      "currentObjective": "task 621 import isolation \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "teer",
       "lastAccomplishment": "Verified local repair 615 2 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T21:03:23.189901Z",
+      "lastMeaningfulActivity": "2026-10-16T21:05:50.508751Z",
       "name": "TEER",
-      "nextTask": "task 621 integration check \u00b7 coder",
+      "nextTask": "local repair 628 1 \u00b7 planner",
       "operationalState": "RUNNABLE",
       "queueDepth": 4,
       "readyForHuman": false,
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T21:04:37.724882Z",
+  "publishedAt": "2026-10-16T21:06:38.981973Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1389,15 +1389,15 @@
     {
       "backend": "Local",
       "heartbeatFresh": false,
-      "id": "634",
-      "parent": "629",
+      "id": "635",
+      "parent": null,
       "project": "TEER",
       "resource": "Local agent",
-      "startedAt": "2026-10-16T20:58:24.152690Z",
+      "startedAt": "2026-10-16T21:05:50.508751Z",
       "state": "QUEUED",
-      "title": "task 621 integration check \u00b7 coder",
-      "updatedAt": "2026-10-16T20:58:24.152690Z",
-      "workerType": "coder"
+      "title": "local repair 628 1 \u00b7 planner",
+      "updatedAt": "2026-10-16T21:05:50.508751Z",
+      "workerType": "planner"
     }
   ],
   "recentlyCompleted": [
@@ -1497,9 +1497,9 @@
     "verifiedMilestones24h": 60,
     "verifiedMilestones2h": 27
   },
-  "semanticHash": "5cc21adf91f50902c96a7ce56ad68111ef2e66ac873052b7ebf88201e95504ba",
+  "semanticHash": "3cebe0667974d06c24bd9fd2fbbf7383b2ad18b8f7b53a92f66ea6cdf186fc37",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-16T21:00:34.444225Z",
+  "sourceEventAt": "2026-10-16T21:05:50.508779Z",
   "system": {
     "activeJobs": 1,
     "autonomy": "DEGRADED",
