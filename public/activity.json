@@ -1,5 +1,29 @@
 [
   {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "TEER",
+    "timestamp": "2026-10-16T20:46:15.765678Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "TEER",
+    "timestamp": "2026-10-16T20:46:15.765609Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "TEER",
+    "timestamp": "2026-10-16T20:45:52.422511Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "TEER",
+    "timestamp": "2026-10-16T20:45:52.422476Z"
+  },
+  {
     "level": "Verified",
     "message": "Accepted task completed: local repair 597 1 \u00b7 planner.",
     "project": "TEER",
@@ -16,18 +40,6 @@
     "message": "Verification passed for local repair 597 1 \u00b7 planner.",
     "project": "TEER",
     "timestamp": "2026-10-16T20:44:04.141402Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "TEER",
-    "timestamp": "2026-10-16T20:41:11.184152Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "TEER",
-    "timestamp": "2026-10-16T20:41:11.184125Z"
   },
   {
     "level": "Recorded",
@@ -466,17 +478,5 @@
     "message": "Queued local repair 603 1 \u00b7 planner.",
     "project": "CTBone",
     "timestamp": "2026-10-16T19:25:31.717977Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "CTBone",
-    "timestamp": "2026-10-16T19:25:26.319442Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "TEER",
-    "timestamp": "2026-10-16T19:25:14.069499Z"
   }
 ]

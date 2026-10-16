@@ -11,16 +11,16 @@
   "blockedWork": [
     {
       "backend": "Local",
-      "heartbeatFresh": false,
-      "id": "627",
-      "parent": "614",
+      "heartbeatFresh": true,
+      "id": "628",
+      "parent": "620",
       "project": "TEER",
       "resource": "Local agent",
-      "startedAt": "2026-10-16T20:37:56.080061Z",
-      "state": "FAILED",
-      "title": "regenerate plan 617 \u00b7 planner",
-      "updatedAt": "2026-10-16T20:37:56.080061Z",
-      "workerType": "planner"
+      "startedAt": "2026-10-16T20:44:04.513653Z",
+      "state": "STALE_UNKNOWN",
+      "title": "task 597 exclusion \u00b7 coder",
+      "updatedAt": "2026-10-16T20:46:22.986532Z",
+      "workerType": "coder"
     },
     {
       "backend": "Local",
@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-16T20:44:22.612569Z",
+  "generatedAt": "2026-10-16T20:46:23.090386Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -400,6 +400,46 @@
     "verifiedPending": 0
   },
   "meaningfulEvents": [
+    {
+      "id": "143778",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-16T20:46:15.765678Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "143777",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-16T20:46:15.765609Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
+    {
+      "id": "143748",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-16T20:45:52.422511Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "143747",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-16T20:45:52.422476Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
     {
       "id": "143692",
       "message": "Accepted task completed: local repair 597 1 \u00b7 planner.",
@@ -429,26 +469,6 @@
       "type": "accepted",
       "verification": "Verified",
       "whyItMatters": "Dependent work may advance."
-    },
-    {
-      "id": "143566",
-      "message": "Controller recovery restored an interrupted task boundary.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-16T20:41:11.184152Z",
-      "type": "recovery",
-      "verification": "Recorded",
-      "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "143565",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-16T20:41:11.184125Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
     },
     {
       "id": "143488",
@@ -1179,26 +1199,6 @@
       "type": "task_queued",
       "verification": "Recorded",
       "whyItMatters": "The next unit of work is durable."
-    },
-    {
-      "id": "139891",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "CTBone",
-      "timestamp": "2026-10-16T19:25:26.319442Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
-    },
-    {
-      "id": "139879",
-      "message": "Controller recovery restored an interrupted task boundary.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-16T19:25:14.069499Z",
-      "type": "recovery",
-      "verification": "Recorded",
-      "whyItMatters": "Safe autonomous execution can resume."
     }
   ],
   "portfolioSummary": {
@@ -1209,7 +1209,7 @@
     "projectsNeedingTechnicalAttention": 4,
     "registeredProjects": 9,
     "state": "Needs attention",
-    "verifiedCompletions24h": 58
+    "verifiedCompletions24h": 56
   },
   "projects": [
     {
@@ -1341,15 +1341,15 @@
     {
       "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "task 596 cache cleanup \u00b7 coder",
+      "currentObjective": "task 597 exclusion \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "teer",
       "lastAccomplishment": "Verified local repair 597 1 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T20:44:04.731892Z",
+      "lastMeaningfulActivity": "2026-10-16T20:46:22.986532Z",
       "name": "TEER",
-      "nextTask": "task 597 exclusion \u00b7 coder",
+      "nextTask": "local repair 615 1 \u00b7 planner",
       "operationalState": "RUNNABLE",
       "queueDepth": 3,
       "readyForHuman": false,
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T20:44:22.892659Z",
+  "publishedAt": "2026-10-16T20:46:23.234394Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1388,16 +1388,16 @@
   "queuedWork": [
     {
       "backend": "Local",
-      "heartbeatFresh": false,
-      "id": "628",
-      "parent": "620",
+      "heartbeatFresh": true,
+      "id": "626",
+      "parent": null,
       "project": "TEER",
       "resource": "Local agent",
-      "startedAt": "2026-10-16T20:44:04.513653Z",
+      "startedAt": "2026-10-16T20:36:59.027962Z",
       "state": "QUEUED",
-      "title": "task 597 exclusion \u00b7 coder",
-      "updatedAt": "2026-10-16T20:44:04.513653Z",
-      "workerType": "coder"
+      "title": "local repair 615 1 \u00b7 planner",
+      "updatedAt": "2026-10-16T20:46:15.765578Z",
+      "workerType": "planner"
     }
   ],
   "recentlyCompleted": [
@@ -1494,12 +1494,12 @@
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0,
     "verifiedMilestones12h": 52,
-    "verifiedMilestones24h": 58,
+    "verifiedMilestones24h": 56,
     "verifiedMilestones2h": 24
   },
-  "semanticHash": "6ad3d361fbd9f054df6f216b2583bfb9cb9a09582ca2a5fcbaee9c96f5100b76",
+  "semanticHash": "833123a53c9e4b2e4d0993d0fe26c3d33291b086cc51b9d21289474432bc1427",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-16T20:44:12.309084Z",
+  "sourceEventAt": "2026-10-16T20:46:15.765678Z",
   "system": {
     "activeJobs": 1,
     "autonomy": "DEGRADED",
