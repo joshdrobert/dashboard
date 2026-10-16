@@ -2,6 +2,36 @@
   {
     "level": "Recorded",
     "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "Ditto",
+    "timestamp": "2026-10-16T17:22:07.328302Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "EchoNext",
+    "timestamp": "2026-10-16T17:22:07.303165Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "AortaPlan",
+    "timestamp": "2026-10-16T17:22:07.286701Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "CTBone",
+    "timestamp": "2026-10-16T17:22:07.268848Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "TEER",
+    "timestamp": "2026-10-16T17:22:07.239924Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
     "project": "Trace",
     "timestamp": "2026-10-16T17:19:40.634074Z"
   },
@@ -10,36 +40,6 @@
     "message": "A bounded task failed and entered recovery.",
     "project": "Trace",
     "timestamp": "2026-10-16T17:19:40.634047Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "Ditto",
-    "timestamp": "2026-10-16T17:17:59.144353Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "EchoNext",
-    "timestamp": "2026-10-16T17:17:59.130286Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "AortaPlan",
-    "timestamp": "2026-10-16T17:17:59.115510Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "CTBone",
-    "timestamp": "2026-10-16T17:17:59.100535Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "TEER",
-    "timestamp": "2026-10-16T17:17:59.083990Z"
   },
   {
     "level": "Recorded",
