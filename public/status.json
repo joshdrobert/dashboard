@@ -11,15 +11,15 @@
   "blockedWork": [
     {
       "backend": "Local",
-      "heartbeatFresh": false,
-      "id": "637",
+      "heartbeatFresh": true,
+      "id": "641",
       "parent": null,
       "project": "TEER",
       "resource": "Local agent",
-      "startedAt": "2026-10-16T21:40:55.410696Z",
-      "state": "FAILED",
-      "title": "local repair 633 1 \u00b7 planner",
-      "updatedAt": "2026-10-16T21:48:14.437027Z",
+      "startedAt": "2026-10-16T21:53:09.328524Z",
+      "state": "STALE_UNKNOWN",
+      "title": "local repair 634 1 \u00b7 planner",
+      "updatedAt": "2026-10-16T21:56:57.747158Z",
       "workerType": "planner"
     },
     {
@@ -383,7 +383,7 @@
     "state": "FAILED",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-16T21:55:14.412787Z",
+  "generatedAt": "2026-10-16T21:57:15.571305Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -401,21 +401,21 @@
   },
   "meaningfulEvents": [
     {
-      "id": "146826",
+      "id": "146848",
       "message": "Controller recovery restored an interrupted task boundary.",
       "next": "Continue through the next controller gate.",
       "project": "TEER",
-      "timestamp": "2026-10-16T21:55:07.107140Z",
+      "timestamp": "2026-10-16T21:55:52.503814Z",
       "type": "recovery",
       "verification": "Recorded",
       "whyItMatters": "Safe autonomous execution can resume."
     },
     {
-      "id": "146825",
+      "id": "146847",
       "message": "A bounded task failed and entered recovery.",
       "next": "Continue through the next controller gate.",
       "project": "TEER",
-      "timestamp": "2026-10-16T21:55:07.107118Z",
+      "timestamp": "2026-10-16T21:55:52.503771Z",
       "type": "failure",
       "verification": "Attention",
       "whyItMatters": "The failure remains visible until repaired."
@@ -1339,7 +1339,7 @@
       "status": "Failed / retrying"
     },
     {
-      "agentsNow": "No agent currently executing",
+      "agentsNow": "Running",
       "blocker": null,
       "currentObjective": "local repair 634 1 \u00b7 planner",
       "deliverable": "A verified bounded project artifact.",
@@ -1347,14 +1347,14 @@
       "id": "teer",
       "lastAccomplishment": "Verified regenerate plan 637 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-16T21:55:07.107102Z",
+      "lastMeaningfulActivity": "2026-10-16T21:56:57.747158Z",
       "name": "TEER",
-      "nextTask": "local repair 634 1 \u00b7 planner",
+      "nextTask": null,
       "operationalState": "RUNNABLE",
       "queueDepth": 1,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Queued"
+      "status": "Running"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1380,26 +1380,12 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-16T21:55:14.573884Z",
+  "publishedAt": "2026-10-16T21:57:15.804704Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
   },
-  "queuedWork": [
-    {
-      "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "641",
-      "parent": null,
-      "project": "TEER",
-      "resource": "Local agent",
-      "startedAt": "2026-10-16T21:53:09.328524Z",
-      "state": "QUEUED",
-      "title": "local repair 634 1 \u00b7 planner",
-      "updatedAt": "2026-10-16T21:55:07.107102Z",
-      "workerType": "planner"
-    }
-  ],
+  "queuedWork": [],
   "recentlyCompleted": [
     {
       "id": "640",
@@ -1497,11 +1483,11 @@
     "verifiedMilestones24h": 66,
     "verifiedMilestones2h": 29
   },
-  "semanticHash": "e2537b99a41a5bd8f96521b0b6111e7dfb7a91ed34fe31b6fa4e35e8032c80b2",
+  "semanticHash": "d749999271dfd16d490c5b706ca0dc46ff1bc9cd79d172bc32d0547d6fa475d9",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-16T21:55:07.107140Z",
+  "sourceEventAt": "2026-10-16T21:55:52.503814Z",
   "system": {
-    "activeJobs": 0,
+    "activeJobs": 1,
     "autonomy": "DEGRADED",
     "status": "Needs attention"
   },
