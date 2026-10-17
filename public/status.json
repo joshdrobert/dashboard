@@ -1,6 +1,20 @@
 {
   "actionRequired": [],
-  "activeWork": [],
+  "activeWork": [
+    {
+      "backend": "Local",
+      "heartbeatFresh": true,
+      "id": "669",
+      "parent": "464",
+      "project": "Ditto",
+      "resource": "Local agent",
+      "startedAt": "2026-10-17T05:35:58.439761Z",
+      "state": "VERIFYING",
+      "title": "targeted repair 668 \u00b7 coder",
+      "updatedAt": "2026-10-17T06:03:37.751221Z",
+      "workerType": "coder"
+    }
+  ],
   "attentionRequired": [
     {
       "category": "Agents debugging",
@@ -11,15 +25,15 @@
   "blockedWork": [
     {
       "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "669",
+      "heartbeatFresh": false,
+      "id": "668",
       "parent": "464",
       "project": "Ditto",
       "resource": "Local agent",
-      "startedAt": "2026-10-17T05:35:58.439761Z",
-      "state": "STALE_UNKNOWN",
-      "title": "targeted repair 668 \u00b7 coder",
-      "updatedAt": "2026-10-17T06:02:23.968957Z",
+      "startedAt": "2026-10-17T05:17:46.360089Z",
+      "state": "FAILED",
+      "title": "targeted repair 667 \u00b7 coder",
+      "updatedAt": "2026-10-17T05:35:49.089419Z",
       "workerType": "coder"
     },
     {
@@ -383,7 +397,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-17T06:02:33.290427Z",
+  "generatedAt": "2026-10-17T06:04:34.464571Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -1203,9 +1217,9 @@
   ],
   "portfolioSummary": {
     "actionsRequiringUser": 0,
-    "activeLocalAgents": 0,
+    "activeLocalAgents": 1,
     "activeVisionJobs": 0,
-    "executingProjects": 0,
+    "executingProjects": 1,
     "projectsNeedingTechnicalAttention": 3,
     "registeredProjects": 9,
     "state": "Needs attention",
@@ -1285,7 +1299,7 @@
       "status": "Ready"
     },
     {
-      "agentsNow": "Running",
+      "agentsNow": "Verifying",
       "blocker": null,
       "currentObjective": "targeted repair 668 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
@@ -1293,14 +1307,14 @@
       "id": "ditto",
       "lastAccomplishment": "Verified regenerate plan 501 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T06:02:23.968957Z",
+      "lastMeaningfulActivity": "2026-10-17T06:03:37.751221Z",
       "name": "Ditto",
       "nextTask": null,
       "operationalState": "RUNNABLE",
       "queueDepth": 1,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Running"
+      "status": "Verifying"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1380,7 +1394,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-17T06:02:33.445523Z",
+  "publishedAt": "2026-10-17T06:04:34.646565Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1483,7 +1497,7 @@
     "verifiedMilestones24h": 68,
     "verifiedMilestones2h": 23
   },
-  "semanticHash": "57dffe80e5df1a80db0c723b4a432bf786725c7844f3d58d8d87422768bdd486",
+  "semanticHash": "8664ac85baf0396e8255ed71bb0af1189aff39da144e5fe8f2562dba7c1d603e",
   "snapshotVersion": "2.3",
   "sourceEventAt": "2026-10-17T05:53:46.027273Z",
   "system": {
