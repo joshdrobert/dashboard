@@ -12,19 +12,6 @@
     {
       "backend": "Local",
       "heartbeatFresh": true,
-      "id": "685",
-      "parent": "673",
-      "project": "Ditto",
-      "resource": "Local agent",
-      "startedAt": "2026-10-17T19:38:25.291173Z",
-      "state": "STALE_UNKNOWN",
-      "title": "targeted repair 677 \u00b7 coder",
-      "updatedAt": "2026-10-17T19:44:05.413213Z",
-      "workerType": "coder"
-    },
-    {
-      "backend": "Local",
-      "heartbeatFresh": true,
       "id": "683",
       "parent": "662",
       "project": "TEER",
@@ -32,7 +19,20 @@
       "startedAt": "2026-10-17T19:26:41.063878Z",
       "state": "STALE_UNKNOWN",
       "title": "targeted repair 680 \u00b7 coder",
-      "updatedAt": "2026-10-17T19:43:12.555749Z",
+      "updatedAt": "2026-10-17T19:49:41.756377Z",
+      "workerType": "coder"
+    },
+    {
+      "backend": "Local",
+      "heartbeatFresh": true,
+      "id": "682",
+      "parent": "673",
+      "project": "Ditto",
+      "resource": "Local agent",
+      "startedAt": "2026-10-17T19:24:28.545690Z",
+      "state": "STALE_UNKNOWN",
+      "title": "targeted repair 676 \u00b7 coder",
+      "updatedAt": "2026-10-17T19:49:38.743169Z",
       "workerType": "coder"
     },
     {
@@ -45,7 +45,7 @@
       "startedAt": "2026-10-17T19:22:59.570968Z",
       "state": "STALE_UNKNOWN",
       "title": "targeted repair 678 \u00b7 coder",
-      "updatedAt": "2026-10-17T19:46:57.677600Z",
+      "updatedAt": "2026-10-17T19:49:32.236943Z",
       "workerType": "coder"
     },
     {
@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-17T19:47:59.064243Z",
+  "generatedAt": "2026-10-17T19:50:00.181020Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 9,
@@ -1287,15 +1287,15 @@
     {
       "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "targeted repair 677 \u00b7 coder",
+      "currentObjective": "targeted repair 676 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "ditto",
       "lastAccomplishment": "Verified add error coverage tests \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T19:44:05.413213Z",
+      "lastMeaningfulActivity": "2026-10-17T19:49:32.222490Z",
       "name": "Ditto",
-      "nextTask": "targeted repair 676 \u00b7 coder",
+      "nextTask": "targeted repair 677 \u00b7 coder",
       "operationalState": "RUNNABLE",
       "queueDepth": 2,
       "readyForHuman": false,
@@ -1347,7 +1347,7 @@
       "id": "teer",
       "lastAccomplishment": "Verified repair 646 cache cleanup \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T19:43:12.555749Z",
+      "lastMeaningfulActivity": "2026-10-17T19:49:41.756377Z",
       "name": "TEER",
       "nextTask": null,
       "operationalState": "RUNNABLE",
@@ -1380,12 +1380,25 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-17T19:47:59.367434Z",
+  "publishedAt": "2026-10-17T19:50:00.658794Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
   },
   "queuedWork": [
+    {
+      "backend": "Local",
+      "heartbeatFresh": true,
+      "id": "685",
+      "parent": "673",
+      "project": "Ditto",
+      "resource": "Local agent",
+      "startedAt": "2026-10-17T19:38:25.291173Z",
+      "state": "QUEUED",
+      "title": "targeted repair 677 \u00b7 coder",
+      "updatedAt": "2026-10-17T19:49:29.594231Z",
+      "workerType": "coder"
+    },
     {
       "backend": "Local",
       "heartbeatFresh": false,
@@ -1397,19 +1410,6 @@
       "state": "QUEUED",
       "title": "targeted repair 679 \u00b7 coder",
       "updatedAt": "2026-10-17T19:39:22.613405Z",
-      "workerType": "coder"
-    },
-    {
-      "backend": "Local",
-      "heartbeatFresh": false,
-      "id": "682",
-      "parent": "673",
-      "project": "Ditto",
-      "resource": "Local agent",
-      "startedAt": "2026-10-17T19:24:28.545690Z",
-      "state": "QUEUED",
-      "title": "targeted repair 676 \u00b7 coder",
-      "updatedAt": "2026-10-17T19:43:56.164573Z",
       "workerType": "coder"
     }
   ],
@@ -1510,7 +1510,7 @@
     "verifiedMilestones24h": 51,
     "verifiedMilestones2h": 0
   },
-  "semanticHash": "6f3afc82d3b9e59542c57544f74f13d2d19c345e4800ea45c6ae9d8f709f434f",
+  "semanticHash": "02b8a323bee1a336277fa5d782ddce1ef7f4d49b202be047e3411239f9e5d2fb",
   "snapshotVersion": "2.3",
   "sourceEventAt": "2026-10-17T19:43:56.164635Z",
   "system": {
