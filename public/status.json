@@ -4,14 +4,14 @@
     {
       "backend": "Local",
       "heartbeatFresh": true,
-      "id": "644",
-      "parent": "514",
-      "project": "EchoNext",
+      "id": "643",
+      "parent": "464",
+      "project": "Ditto",
       "resource": "Local agent",
-      "startedAt": "2026-10-17T03:20:11.902567Z",
+      "startedAt": "2026-10-17T03:20:11.902455Z",
       "state": "VERIFYING",
-      "title": "targeted repair 579 \u00b7 coder",
-      "updatedAt": "2026-10-17T04:00:40.220895Z",
+      "title": "targeted repair 578 \u00b7 coder",
+      "updatedAt": "2026-10-17T04:02:30.139746Z",
       "workerType": "coder"
     }
   ],
@@ -39,14 +39,14 @@
     {
       "backend": "Local",
       "heartbeatFresh": true,
-      "id": "643",
-      "parent": "464",
-      "project": "Ditto",
+      "id": "644",
+      "parent": "514",
+      "project": "EchoNext",
       "resource": "Local agent",
-      "startedAt": "2026-10-17T03:20:11.902455Z",
+      "startedAt": "2026-10-17T03:20:11.902567Z",
       "state": "STALE_UNKNOWN",
-      "title": "targeted repair 578 \u00b7 coder",
-      "updatedAt": "2026-10-17T03:58:14.852513Z",
+      "title": "targeted repair 579 \u00b7 coder",
+      "updatedAt": "2026-10-17T04:02:28.923412Z",
       "workerType": "coder"
     },
     {
@@ -78,19 +78,6 @@
     {
       "backend": "Local",
       "heartbeatFresh": false,
-      "id": "600",
-      "parent": null,
-      "project": "EchoNext",
-      "resource": "Local agent",
-      "startedAt": "2026-10-16T18:11:08.586899Z",
-      "state": "FAILED",
-      "title": "local repair 579 2 \u00b7 planner",
-      "updatedAt": "2026-10-16T18:25:47.051255Z",
-      "workerType": "planner"
-    },
-    {
-      "backend": "Local",
-      "heartbeatFresh": false,
       "id": "599",
       "parent": "584",
       "project": "Trace",
@@ -99,6 +86,19 @@
       "state": "FAILED",
       "title": "regenerate plan 594 \u00b7 planner",
       "updatedAt": "2026-10-16T18:17:07.221482Z",
+      "workerType": "planner"
+    },
+    {
+      "backend": "Local",
+      "heartbeatFresh": false,
+      "id": "598",
+      "parent": "502",
+      "project": "Ditto",
+      "resource": "Local agent",
+      "startedAt": "2026-10-16T18:04:48.772726Z",
+      "state": "FAILED",
+      "title": "regenerate plan 593 \u00b7 planner",
+      "updatedAt": "2026-10-16T18:04:48.772726Z",
       "workerType": "planner"
     },
     {
@@ -397,7 +397,7 @@
     "state": "PHASE1_RUNNING",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-17T04:00:44.920984Z",
+  "generatedAt": "2026-10-17T04:02:45.932110Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -1299,7 +1299,7 @@
       "status": "Ready"
     },
     {
-      "agentsNow": "Running",
+      "agentsNow": "Verifying",
       "blocker": null,
       "currentObjective": "targeted repair 578 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
@@ -1307,17 +1307,17 @@
       "id": "ditto",
       "lastAccomplishment": "Verified regenerate plan 501 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T03:58:14.852513Z",
+      "lastMeaningfulActivity": "2026-10-17T04:02:30.139746Z",
       "name": "Ditto",
       "nextTask": null,
       "operationalState": "RUNNABLE",
       "queueDepth": 1,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Running"
+      "status": "Verifying"
     },
     {
-      "agentsNow": "Verifying",
+      "agentsNow": "Running",
       "blocker": null,
       "currentObjective": "targeted repair 579 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
@@ -1325,14 +1325,14 @@
       "id": "echonext",
       "lastAccomplishment": "Verified local repair 487 milestone map \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T04:00:40.220895Z",
+      "lastMeaningfulActivity": "2026-10-17T04:02:28.923412Z",
       "name": "EchoNext",
       "nextTask": null,
       "operationalState": "RUNNABLE",
       "queueDepth": 1,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Verifying"
+      "status": "Running"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1394,7 +1394,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-17T04:00:45.217798Z",
+  "publishedAt": "2026-10-17T04:02:46.158078Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1511,7 +1511,7 @@
     "verifiedMilestones24h": 61,
     "verifiedMilestones2h": 0
   },
-  "semanticHash": "654db444edb12a470b4636800eb6b2c707c15d54b1a76f3a3aa48bebaa0498df",
+  "semanticHash": "1ebfed1759fed76b48546a919be983c6be1ce3b8dbccb97e3ad173d461d7088f",
   "snapshotVersion": "2.3",
   "sourceEventAt": "2026-10-17T03:58:57.209347Z",
   "system": {
