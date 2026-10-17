@@ -1,6 +1,48 @@
 [
   {
     "level": "Verified",
+    "message": "Accepted task completed: regenerate plan 660 \u00b7 planner.",
+    "project": "TEER",
+    "timestamp": "2026-10-17T04:35:11.323049Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Queued repair 646 cache cleanup \u00b7 coder.",
+    "project": "TEER",
+    "timestamp": "2026-10-17T04:35:05.306157Z"
+  },
+  {
+    "level": "Verified",
+    "message": "Verification passed for regenerate plan 660 \u00b7 planner.",
+    "project": "TEER",
+    "timestamp": "2026-10-17T04:35:04.482671Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Queued regenerate plan 660 \u00b7 planner.",
+    "project": "TEER",
+    "timestamp": "2026-10-17T04:34:28.116496Z"
+  },
+  {
+    "level": "Verified",
+    "message": "Verification passed for regenerate plan 658 \u00b7 planner.",
+    "project": "TEER",
+    "timestamp": "2026-10-17T04:34:27.913443Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "EchoNext",
+    "timestamp": "2026-10-17T04:34:05.622982Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "EchoNext",
+    "timestamp": "2026-10-17T04:34:05.622932Z"
+  },
+  {
+    "level": "Verified",
     "message": "Accepted task completed: local repair 646 2 \u00b7 planner.",
     "project": "TEER",
     "timestamp": "2026-10-17T04:33:12.824009Z"
@@ -436,47 +478,5 @@
     "message": "Verification passed for regenerate plan 637 \u00b7 planner.",
     "project": "TEER",
     "timestamp": "2026-10-16T21:54:38.419187Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Accepted task completed: regenerate plan 636 \u00b7 planner.",
-    "project": "TEER",
-    "timestamp": "2026-10-16T21:54:15.949013Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Verification passed for regenerate plan 636 \u00b7 planner.",
-    "project": "TEER",
-    "timestamp": "2026-10-16T21:54:10.173820Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Accepted task completed: regenerate plan 635 \u00b7 planner.",
-    "project": "TEER",
-    "timestamp": "2026-10-16T21:53:39.456006Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Verification passed for regenerate plan 635 \u00b7 planner.",
-    "project": "TEER",
-    "timestamp": "2026-10-16T21:53:33.145446Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued local repair 634 1 \u00b7 planner.",
-    "project": "TEER",
-    "timestamp": "2026-10-16T21:53:09.328550Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued regenerate plan 637 \u00b7 planner.",
-    "project": "TEER",
-    "timestamp": "2026-10-16T21:48:15.854028Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Verification passed for local repair 633 1 \u00b7 planner.",
-    "project": "TEER",
-    "timestamp": "2026-10-16T21:48:14.437191Z"
   }
 ]
