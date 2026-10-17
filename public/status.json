@@ -1,6 +1,20 @@
 {
   "actionRequired": [],
-  "activeWork": [],
+  "activeWork": [
+    {
+      "backend": "Local",
+      "heartbeatFresh": true,
+      "id": "693",
+      "parent": "673",
+      "project": "Ditto",
+      "resource": "Local agent",
+      "startedAt": "2026-10-17T20:45:58.077897Z",
+      "state": "VERIFYING",
+      "title": "targeted repair 687 \u00b7 coder",
+      "updatedAt": "2026-10-17T21:09:54.453038Z",
+      "workerType": "coder"
+    }
+  ],
   "attentionRequired": [
     {
       "category": "Agents debugging",
@@ -19,20 +33,7 @@
       "startedAt": "2026-10-17T21:04:01.796659Z",
       "state": "STALE_UNKNOWN",
       "title": "targeted repair 695 \u00b7 coder",
-      "updatedAt": "2026-10-17T21:08:25.459155Z",
-      "workerType": "coder"
-    },
-    {
-      "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "693",
-      "parent": "673",
-      "project": "Ditto",
-      "resource": "Local agent",
-      "startedAt": "2026-10-17T20:45:58.077897Z",
-      "state": "STALE_UNKNOWN",
-      "title": "targeted repair 687 \u00b7 coder",
-      "updatedAt": "2026-10-17T21:04:34.038718Z",
+      "updatedAt": "2026-10-17T21:08:32.056474Z",
       "workerType": "coder"
     },
     {
@@ -45,7 +46,20 @@
       "startedAt": "2026-10-17T20:44:54.245517Z",
       "state": "STALE_UNKNOWN",
       "title": "targeted repair 686 \u00b7 coder",
-      "updatedAt": "2026-10-17T21:04:34.764743Z",
+      "updatedAt": "2026-10-17T21:09:58.415912Z",
+      "workerType": "coder"
+    },
+    {
+      "backend": "Local",
+      "heartbeatFresh": false,
+      "id": "691",
+      "parent": "673",
+      "project": "Ditto",
+      "resource": "Local agent",
+      "startedAt": "2026-10-17T20:24:39.343863Z",
+      "state": "FAILED",
+      "title": "targeted repair 685 \u00b7 coder",
+      "updatedAt": "2026-10-17T21:01:59.710483Z",
       "workerType": "coder"
     },
     {
@@ -383,7 +397,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-17T21:08:27.669971Z",
+  "generatedAt": "2026-10-17T21:10:28.547634Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 9,
@@ -392,7 +406,7 @@
     "lastSuccessfulDailyRun": "2026-10-17T18:38:24.644974Z",
     "missingTaskProvenance": 7,
     "newlyIntegrated24h": 0,
-    "oldestEligibleAgeHours": 2.6,
+    "oldestEligibleAgeHours": 2.7,
     "repositoriesMonitored": 10,
     "scientificReviewBlockers": 5,
     "stableVerification": "No stable update in latest batch",
@@ -1203,9 +1217,9 @@
   ],
   "portfolioSummary": {
     "actionsRequiringUser": 0,
-    "activeLocalAgents": 0,
+    "activeLocalAgents": 1,
     "activeVisionJobs": 0,
-    "executingProjects": 0,
+    "executingProjects": 1,
     "projectsNeedingTechnicalAttention": 2,
     "registeredProjects": 9,
     "state": "Needs attention",
@@ -1285,7 +1299,7 @@
       "status": "Ready"
     },
     {
-      "agentsNow": "Running",
+      "agentsNow": "Verifying",
       "blocker": null,
       "currentObjective": "targeted repair 687 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
@@ -1293,14 +1307,14 @@
       "id": "ditto",
       "lastAccomplishment": "Verified add error coverage tests \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T21:02:02.649636Z",
+      "lastMeaningfulActivity": "2026-10-17T21:09:44.680474Z",
       "name": "Ditto",
       "nextTask": "targeted repair 691 \u00b7 coder",
       "operationalState": "RUNNABLE",
       "queueDepth": 2,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Running"
+      "status": "Verifying"
     },
     {
       "agentsNow": "Running",
@@ -1311,7 +1325,7 @@
       "id": "echonext",
       "lastAccomplishment": "Verified local repair 648 validate fix \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T21:04:06.107333Z",
+      "lastMeaningfulActivity": "2026-10-17T21:09:28.279910Z",
       "name": "EchoNext",
       "nextTask": "targeted repair 688 \u00b7 coder",
       "operationalState": "RUNNABLE",
@@ -1347,7 +1361,7 @@
       "id": "teer",
       "lastAccomplishment": "Verified local repair 690 1 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T21:08:25.459155Z",
+      "lastMeaningfulActivity": "2026-10-17T21:08:32.056474Z",
       "name": "TEER",
       "nextTask": null,
       "operationalState": "RUNNABLE",
@@ -1380,7 +1394,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-17T21:08:28.007043Z",
+  "publishedAt": "2026-10-17T21:10:28.981420Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1510,7 +1524,7 @@
     "verifiedMilestones24h": 37,
     "verifiedMilestones2h": 4
   },
-  "semanticHash": "892303df3745939c5bc538ea62b2558eda58d287be99010289d2356a52d70641",
+  "semanticHash": "70c6550502de5d2d645c606772876da8562c532d23cec29a61ec75936065ab37",
   "snapshotVersion": "2.3",
   "sourceEventAt": "2026-10-17T21:04:01.796725Z",
   "system": {
