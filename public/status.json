@@ -45,7 +45,7 @@
       "startedAt": "2026-10-17T19:51:28.612833Z",
       "state": "STALE_UNKNOWN",
       "title": "targeted repair 681 \u00b7 coder",
-      "updatedAt": "2026-10-17T20:15:04.390468Z",
+      "updatedAt": "2026-10-17T20:21:01.644445Z",
       "workerType": "coder"
     },
     {
@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-17T20:16:53.849583Z",
+  "generatedAt": "2026-10-17T20:21:04.042137Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 9,
@@ -1311,7 +1311,7 @@
       "id": "echonext",
       "lastAccomplishment": "Verified local repair 648 validate fix \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T20:14:20.389156Z",
+      "lastMeaningfulActivity": "2026-10-17T20:20:39.154659Z",
       "name": "EchoNext",
       "nextTask": "targeted repair 684 \u00b7 coder",
       "operationalState": "RUNNABLE",
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-17T20:16:54.039924Z",
+  "publishedAt": "2026-10-17T20:21:04.437580Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1510,7 +1510,7 @@
     "verifiedMilestones24h": 49,
     "verifiedMilestones2h": 2
   },
-  "semanticHash": "993b52da50660aa5cc2ecc6c8854f240c39d1907e305a195599888282fb402ea",
+  "semanticHash": "75de8c7fcfb85db47aab3d717b4a191a30e9fb87ec6b0f03478b02c9da002759",
   "snapshotVersion": "2.3",
   "sourceEventAt": "2026-10-17T20:15:10.993779Z",
   "system": {
