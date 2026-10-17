@@ -1,6 +1,20 @@
 {
   "actionRequired": [],
-  "activeWork": [],
+  "activeWork": [
+    {
+      "backend": "Local",
+      "heartbeatFresh": true,
+      "id": "693",
+      "parent": "673",
+      "project": "Ditto",
+      "resource": "Local agent",
+      "startedAt": "2026-10-17T20:45:58.077897Z",
+      "state": "VERIFYING",
+      "title": "targeted repair 687 \u00b7 coder",
+      "updatedAt": "2026-10-17T20:57:05.692829Z",
+      "workerType": "coder"
+    }
+  ],
   "attentionRequired": [
     {
       "category": "Agents debugging",
@@ -19,20 +33,7 @@
       "startedAt": "2026-10-17T20:46:55.207474Z",
       "state": "STALE_UNKNOWN",
       "title": "repair 690 import collision \u00b7 coder",
-      "updatedAt": "2026-10-17T20:54:21.220427Z",
-      "workerType": "coder"
-    },
-    {
-      "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "693",
-      "parent": "673",
-      "project": "Ditto",
-      "resource": "Local agent",
-      "startedAt": "2026-10-17T20:45:58.077897Z",
-      "state": "STALE_UNKNOWN",
-      "title": "targeted repair 687 \u00b7 coder",
-      "updatedAt": "2026-10-17T20:54:48.478523Z",
+      "updatedAt": "2026-10-17T20:57:09.157173Z",
       "workerType": "coder"
     },
     {
@@ -46,6 +47,19 @@
       "state": "STALE_UNKNOWN",
       "title": "targeted repair 686 \u00b7 coder",
       "updatedAt": "2026-10-17T20:54:20.549024Z",
+      "workerType": "coder"
+    },
+    {
+      "backend": "Local",
+      "heartbeatFresh": false,
+      "id": "687",
+      "parent": "673",
+      "project": "Ditto",
+      "resource": "Local agent",
+      "startedAt": "2026-10-17T19:57:36.200893Z",
+      "state": "FAILED",
+      "title": "targeted repair 682 \u00b7 coder",
+      "updatedAt": "2026-10-17T20:45:49.095195Z",
       "workerType": "coder"
     },
     {
@@ -383,7 +397,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-17T20:56:18.223687Z",
+  "generatedAt": "2026-10-17T20:58:18.870088Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 9,
@@ -392,7 +406,7 @@
     "lastSuccessfulDailyRun": "2026-10-17T18:38:24.644974Z",
     "missingTaskProvenance": 7,
     "newlyIntegrated24h": 0,
-    "oldestEligibleAgeHours": 2.4,
+    "oldestEligibleAgeHours": 2.5,
     "repositoriesMonitored": 10,
     "scientificReviewBlockers": 5,
     "stableVerification": "No stable update in latest batch",
@@ -1203,9 +1217,9 @@
   ],
   "portfolioSummary": {
     "actionsRequiringUser": 0,
-    "activeLocalAgents": 0,
+    "activeLocalAgents": 1,
     "activeVisionJobs": 0,
-    "executingProjects": 0,
+    "executingProjects": 1,
     "projectsNeedingTechnicalAttention": 2,
     "registeredProjects": 9,
     "state": "Needs attention",
@@ -1285,7 +1299,7 @@
       "status": "Ready"
     },
     {
-      "agentsNow": "Running",
+      "agentsNow": "Verifying",
       "blocker": null,
       "currentObjective": "targeted repair 687 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
@@ -1293,14 +1307,14 @@
       "id": "ditto",
       "lastAccomplishment": "Verified add error coverage tests \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T20:54:48.478523Z",
+      "lastMeaningfulActivity": "2026-10-17T20:57:05.692829Z",
       "name": "Ditto",
       "nextTask": "targeted repair 685 \u00b7 coder",
       "operationalState": "RUNNABLE",
       "queueDepth": 2,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Running"
+      "status": "Verifying"
     },
     {
       "agentsNow": "Running",
@@ -1347,7 +1361,7 @@
       "id": "teer",
       "lastAccomplishment": "Verified local repair 690 1 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T20:54:21.220427Z",
+      "lastMeaningfulActivity": "2026-10-17T20:57:09.157173Z",
       "name": "TEER",
       "nextTask": null,
       "operationalState": "RUNNABLE",
@@ -1380,7 +1394,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-17T20:56:18.551804Z",
+  "publishedAt": "2026-10-17T20:58:19.104728Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1510,7 +1524,7 @@
     "verifiedMilestones24h": 38,
     "verifiedMilestones2h": 4
   },
-  "semanticHash": "9eca5a57cec286601f4a9a0d5ce4c357fd3f675f4239d776bb5dee2b4094dc39",
+  "semanticHash": "daf5b1a5792c82acd2f8a7f343d747ae88345301ce5c966dea13f5da61031409",
   "snapshotVersion": "2.3",
   "sourceEventAt": "2026-10-17T20:53:54.400818Z",
   "system": {
