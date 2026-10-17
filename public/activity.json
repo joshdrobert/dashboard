@@ -1,5 +1,11 @@
 [
   {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "TEER",
+    "timestamp": "2026-10-17T04:48:05.681201Z"
+  },
+  {
     "level": "Recorded",
     "message": "Queued targeted repair 655 \u00b7 coder.",
     "project": "Ditto",
@@ -16,12 +22,6 @@
     "message": "Controller recovery restored an interrupted task boundary.",
     "project": "TEER",
     "timestamp": "2026-10-17T04:43:45.128779Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "TEER",
-    "timestamp": "2026-10-17T04:43:45.128638Z"
   },
   {
     "level": "Verified",

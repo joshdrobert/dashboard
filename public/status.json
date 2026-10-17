@@ -19,7 +19,7 @@
       "startedAt": "2026-10-17T04:44:38.209538Z",
       "state": "STALE_UNKNOWN",
       "title": "targeted repair 655 \u00b7 coder",
-      "updatedAt": "2026-10-17T04:44:42.036037Z",
+      "updatedAt": "2026-10-17T04:49:51.497599Z",
       "workerType": "coder"
     },
     {
@@ -37,15 +37,15 @@
     },
     {
       "backend": "Local",
-      "heartbeatFresh": true,
+      "heartbeatFresh": false,
       "id": "664",
       "parent": "662",
       "project": "TEER",
       "resource": "Local agent",
       "startedAt": "2026-10-17T04:37:18.430439Z",
-      "state": "STALE_UNKNOWN",
+      "state": "FAILED",
       "title": "plan after 662 \u00b7 planner",
-      "updatedAt": "2026-10-17T04:47:30.882502Z",
+      "updatedAt": "2026-10-17T04:48:05.681162Z",
       "workerType": "planner"
     },
     {
@@ -383,7 +383,7 @@
     "state": "PHASE1_RUNNING",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-17T04:47:51.704349Z",
+  "generatedAt": "2026-10-17T04:49:54.654657Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -400,6 +400,16 @@
     "verifiedPending": 0
   },
   "meaningfulEvents": [
+    {
+      "id": "151837",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-17T04:48:05.681201Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
     {
       "id": "151722",
       "message": "Queued targeted repair 655 \u00b7 coder.",
@@ -429,16 +439,6 @@
       "type": "recovery",
       "verification": "Recorded",
       "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "151714",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-17T04:43:45.128638Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
     },
     {
       "id": "151623",
@@ -1293,7 +1293,7 @@
       "id": "ditto",
       "lastAccomplishment": "Verified regenerate plan 501 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T04:44:42.036037Z",
+      "lastMeaningfulActivity": "2026-10-17T04:49:51.497599Z",
       "name": "Ditto",
       "nextTask": null,
       "operationalState": "RUNNABLE",
@@ -1339,7 +1339,7 @@
       "status": "Failed / retrying"
     },
     {
-      "agentsNow": "Running",
+      "agentsNow": "No agent currently executing",
       "blocker": null,
       "currentObjective": "plan after 662 \u00b7 planner",
       "deliverable": "A verified bounded project artifact.",
@@ -1347,14 +1347,14 @@
       "id": "teer",
       "lastAccomplishment": "Verified repair 646 cache cleanup \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T04:47:30.882502Z",
+      "lastMeaningfulActivity": "2026-10-17T04:48:05.681162Z",
       "name": "TEER",
       "nextTask": null,
       "operationalState": "RUNNABLE",
-      "queueDepth": 1,
+      "queueDepth": 0,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Running"
+      "status": "Ready"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-17T04:47:52.107597Z",
+  "publishedAt": "2026-10-17T04:49:54.967714Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1483,11 +1483,11 @@
     "verifiedMilestones24h": 75,
     "verifiedMilestones2h": 23
   },
-  "semanticHash": "8b102740711f2b5675442934aa4277060bc7417374b3e4f7bd7a0e48bac7f4ce",
+  "semanticHash": "7e068f7001998eadf9e601d14c49103c1735d6d7de048e2d471668ab17d5eefc",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-17T04:44:38.209576Z",
+  "sourceEventAt": "2026-10-17T04:48:05.681201Z",
   "system": {
-    "activeJobs": 2,
+    "activeJobs": 1,
     "autonomy": "DEGRADED",
     "status": "Needs attention"
   },
