@@ -1,20 +1,6 @@
 {
   "actionRequired": [],
-  "activeWork": [
-    {
-      "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "681",
-      "parent": "652",
-      "project": "EchoNext",
-      "resource": "Local agent",
-      "startedAt": "2026-10-17T19:22:59.570968Z",
-      "state": "VERIFYING",
-      "title": "targeted repair 678 \u00b7 coder",
-      "updatedAt": "2026-10-17T19:33:37.510399Z",
-      "workerType": "coder"
-    }
-  ],
+  "activeWork": [],
   "attentionRequired": [
     {
       "category": "Agents debugging",
@@ -33,7 +19,7 @@
       "startedAt": "2026-10-17T19:26:41.063878Z",
       "state": "STALE_UNKNOWN",
       "title": "targeted repair 680 \u00b7 coder",
-      "updatedAt": "2026-10-17T19:26:48.368424Z",
+      "updatedAt": "2026-10-17T19:35:19.948745Z",
       "workerType": "coder"
     },
     {
@@ -46,20 +32,20 @@
       "startedAt": "2026-10-17T19:24:28.545690Z",
       "state": "STALE_UNKNOWN",
       "title": "targeted repair 676 \u00b7 coder",
-      "updatedAt": "2026-10-17T19:32:05.718601Z",
+      "updatedAt": "2026-10-17T19:34:35.591989Z",
       "workerType": "coder"
     },
     {
       "backend": "Local",
       "heartbeatFresh": true,
-      "id": "679",
-      "parent": null,
+      "id": "681",
+      "parent": "652",
       "project": "EchoNext",
       "resource": "Local agent",
-      "startedAt": "2026-10-17T18:31:57.117136Z",
-      "state": "FAILED",
-      "title": "stable repair collection 20261017 \u00b7 coder",
-      "updatedAt": "2026-10-17T19:33:16.734054Z",
+      "startedAt": "2026-10-17T19:22:59.570968Z",
+      "state": "STALE_UNKNOWN",
+      "title": "targeted repair 678 \u00b7 coder",
+      "updatedAt": "2026-10-17T19:35:33.753111Z",
       "workerType": "coder"
     },
     {
@@ -397,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-17T19:33:38.296070Z",
+  "generatedAt": "2026-10-17T19:35:40.025873Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 9,
@@ -406,7 +392,7 @@
     "lastSuccessfulDailyRun": "2026-10-17T18:38:24.644974Z",
     "missingTaskProvenance": 7,
     "newlyIntegrated24h": 0,
-    "oldestEligibleAgeHours": 1.0,
+    "oldestEligibleAgeHours": 1.1,
     "repositoriesMonitored": 10,
     "scientificReviewBlockers": 5,
     "stableVerification": "No stable update in latest batch",
@@ -1217,9 +1203,9 @@
   ],
   "portfolioSummary": {
     "actionsRequiringUser": 0,
-    "activeLocalAgents": 1,
+    "activeLocalAgents": 0,
     "activeVisionJobs": 0,
-    "executingProjects": 1,
+    "executingProjects": 0,
     "projectsNeedingTechnicalAttention": 2,
     "registeredProjects": 9,
     "state": "Needs attention",
@@ -1307,7 +1293,7 @@
       "id": "ditto",
       "lastAccomplishment": "Verified add error coverage tests \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T19:32:05.718601Z",
+      "lastMeaningfulActivity": "2026-10-17T19:34:35.591989Z",
       "name": "Ditto",
       "nextTask": "stable repair calibration contract 20261017 \u00b7 coder",
       "operationalState": "RUNNABLE",
@@ -1317,7 +1303,7 @@
       "status": "Running"
     },
     {
-      "agentsNow": "Verifying",
+      "agentsNow": "Running",
       "blocker": null,
       "currentObjective": "targeted repair 678 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
@@ -1332,7 +1318,7 @@
       "queueDepth": 2,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Verifying"
+      "status": "Running"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1361,7 +1347,7 @@
       "id": "teer",
       "lastAccomplishment": "Verified repair 646 cache cleanup \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T19:26:48.368424Z",
+      "lastMeaningfulActivity": "2026-10-17T19:35:19.948745Z",
       "name": "TEER",
       "nextTask": null,
       "operationalState": "RUNNABLE",
@@ -1394,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-17T19:33:38.479095Z",
+  "publishedAt": "2026-10-17T19:35:40.324677Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1524,7 +1510,7 @@
     "verifiedMilestones24h": 51,
     "verifiedMilestones2h": 0
   },
-  "semanticHash": "d6bc02ecb5893e0125fc6574c1f93b69ad6ca369542c20d99605c59166235aa1",
+  "semanticHash": "1db743b49e5a20fe8a9531ad9457730dbdaa12cc178bd3d0dd96b8e873f96702",
   "snapshotVersion": "2.3",
   "sourceEventAt": "2026-10-17T19:33:18.109656Z",
   "system": {
