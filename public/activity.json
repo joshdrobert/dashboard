@@ -1,6 +1,30 @@
 [
   {
     "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "EchoNext",
+    "timestamp": "2026-10-17T19:25:07.286175Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "EchoNext",
+    "timestamp": "2026-10-17T19:25:07.286140Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Queued targeted repair 676 \u00b7 coder.",
+    "project": "Ditto",
+    "timestamp": "2026-10-17T19:24:28.545756Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "Ditto",
+    "timestamp": "2026-10-17T19:24:19.749474Z"
+  },
+  {
+    "level": "Recorded",
     "message": "Queued targeted repair 678 \u00b7 coder.",
     "project": "EchoNext",
     "timestamp": "2026-10-17T19:22:59.571050Z"
@@ -10,18 +34,6 @@
     "message": "A bounded task failed and entered recovery.",
     "project": "EchoNext",
     "timestamp": "2026-10-17T19:22:32.415042Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "EchoNext",
-    "timestamp": "2026-10-17T19:19:28.525165Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "EchoNext",
-    "timestamp": "2026-10-17T19:19:28.525093Z"
   },
   {
     "level": "Recorded",
@@ -58,12 +70,6 @@
     "message": "Controller recovery restored an interrupted task boundary.",
     "project": "Ditto",
     "timestamp": "2026-10-17T19:01:43.178776Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "Ditto",
-    "timestamp": "2026-10-17T19:01:43.178740Z"
   },
   {
     "level": "Recorded",
@@ -472,11 +478,5 @@
     "message": "A bounded task failed and entered recovery.",
     "project": "Ditto",
     "timestamp": "2026-10-17T05:35:49.089440Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "Ditto",
-    "timestamp": "2026-10-17T05:30:39.078832Z"
   }
 ]
