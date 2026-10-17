@@ -1,6 +1,18 @@
 [
   {
     "level": "Recorded",
+    "message": "Queued targeted repair 695 \u00b7 coder.",
+    "project": "TEER",
+    "timestamp": "2026-10-17T21:04:01.796725Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "TEER",
+    "timestamp": "2026-10-17T21:03:58.088959Z"
+  },
+  {
+    "level": "Recorded",
     "message": "Queued targeted repair 691 \u00b7 coder.",
     "project": "Ditto",
     "timestamp": "2026-10-17T21:02:01.809762Z"
@@ -16,12 +28,6 @@
     "message": "Controller recovery restored an interrupted task boundary.",
     "project": "TEER",
     "timestamp": "2026-10-17T21:00:13.225092Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "TEER",
-    "timestamp": "2026-10-17T21:00:13.225034Z"
   },
   {
     "level": "Recorded",
@@ -472,11 +478,5 @@
     "message": "A Codex orientation was delivered.",
     "project": "Ditto",
     "timestamp": "2026-10-17T13:50:49.109223Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "A Codex orientation was delivered.",
-    "project": "CTBone",
-    "timestamp": "2026-10-17T13:50:49.108214Z"
   }
 ]

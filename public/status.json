@@ -26,14 +26,14 @@
     {
       "backend": "Local",
       "heartbeatFresh": true,
-      "id": "695",
-      "parent": "694",
+      "id": "698",
+      "parent": "662",
       "project": "TEER",
       "resource": "Local agent",
-      "startedAt": "2026-10-17T20:46:55.207474Z",
+      "startedAt": "2026-10-17T21:04:01.796659Z",
       "state": "STALE_UNKNOWN",
-      "title": "repair 690 import collision \u00b7 coder",
-      "updatedAt": "2026-10-17T21:02:20.882666Z",
+      "title": "targeted repair 695 \u00b7 coder",
+      "updatedAt": "2026-10-17T21:04:08.383792Z",
       "workerType": "coder"
     },
     {
@@ -46,12 +46,12 @@
       "startedAt": "2026-10-17T20:44:54.245517Z",
       "state": "STALE_UNKNOWN",
       "title": "targeted repair 686 \u00b7 coder",
-      "updatedAt": "2026-10-17T20:58:43.755106Z",
+      "updatedAt": "2026-10-17T21:04:21.931275Z",
       "workerType": "coder"
     },
     {
       "backend": "Local",
-      "heartbeatFresh": true,
+      "heartbeatFresh": false,
       "id": "691",
       "parent": "673",
       "project": "Ditto",
@@ -397,7 +397,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-17T21:02:23.068541Z",
+  "generatedAt": "2026-10-17T21:04:24.421000Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 9,
@@ -406,7 +406,7 @@
     "lastSuccessfulDailyRun": "2026-10-17T18:38:24.644974Z",
     "missingTaskProvenance": 7,
     "newlyIntegrated24h": 0,
-    "oldestEligibleAgeHours": 2.5,
+    "oldestEligibleAgeHours": 2.6,
     "repositoriesMonitored": 10,
     "scientificReviewBlockers": 5,
     "stableVerification": "No stable update in latest batch",
@@ -414,6 +414,26 @@
     "verifiedPending": 1
   },
   "meaningfulEvents": [
+    {
+      "id": "161202",
+      "message": "Queued targeted repair 695 \u00b7 coder.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-17T21:04:01.796725Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "161196",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-17T21:03:58.088959Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
     {
       "id": "161065",
       "message": "Queued targeted repair 691 \u00b7 coder.",
@@ -443,16 +463,6 @@
       "type": "recovery",
       "verification": "Recorded",
       "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "161039",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-17T21:00:13.225034Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
     },
     {
       "id": "161005",
@@ -1203,16 +1213,6 @@
       "type": "orientation_delivered",
       "verification": "Recorded",
       "whyItMatters": "Supervisory direction was updated."
-    },
-    {
-      "id": "154328",
-      "message": "A Codex orientation was delivered.",
-      "next": "Continue through the next controller gate.",
-      "project": "CTBone",
-      "timestamp": "2026-10-17T13:50:49.108214Z",
-      "type": "orientation_delivered",
-      "verification": "Recorded",
-      "whyItMatters": "Supervisory direction was updated."
     }
   ],
   "portfolioSummary": {
@@ -1325,7 +1325,7 @@
       "id": "echonext",
       "lastAccomplishment": "Verified local repair 648 validate fix \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T20:58:21.717462Z",
+      "lastMeaningfulActivity": "2026-10-17T21:04:06.107333Z",
       "name": "EchoNext",
       "nextTask": "targeted repair 688 \u00b7 coder",
       "operationalState": "RUNNABLE",
@@ -1355,13 +1355,13 @@
     {
       "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "repair 690 import collision \u00b7 coder",
+      "currentObjective": "targeted repair 695 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "teer",
       "lastAccomplishment": "Verified local repair 690 1 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T21:02:20.882666Z",
+      "lastMeaningfulActivity": "2026-10-17T21:04:08.383792Z",
       "name": "TEER",
       "nextTask": null,
       "operationalState": "RUNNABLE",
@@ -1394,7 +1394,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-17T21:02:23.438735Z",
+  "publishedAt": "2026-10-17T21:04:24.851767Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1524,9 +1524,9 @@
     "verifiedMilestones24h": 37,
     "verifiedMilestones2h": 4
   },
-  "semanticHash": "2b8d776dd9483dd0c69ac309ea9e2686076f9ea28a4d761ce13709bf2fcbc158",
+  "semanticHash": "bf4cf02ebddc93091869926a27d2d6a721e1f4a58daf00834c4c8f1bbac3e7e9",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-17T21:02:01.809762Z",
+  "sourceEventAt": "2026-10-17T21:04:01.796725Z",
   "system": {
     "activeJobs": 3,
     "autonomy": "DEGRADED",
