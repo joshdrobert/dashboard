@@ -1,6 +1,42 @@
 [
   {
     "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "Ditto",
+    "timestamp": "2026-10-17T22:13:44.849700Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "Ditto",
+    "timestamp": "2026-10-17T22:13:44.849634Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "EchoNext",
+    "timestamp": "2026-10-17T22:13:43.296810Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "EchoNext",
+    "timestamp": "2026-10-17T22:13:43.296775Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Queued regenerate plan 708 \u00b7 planner.",
+    "project": "TEER",
+    "timestamp": "2026-10-17T22:12:41.324903Z"
+  },
+  {
+    "level": "Verified",
+    "message": "Verification passed for plan after 701 \u00b7 planner.",
+    "project": "TEER",
+    "timestamp": "2026-10-17T22:12:40.783103Z"
+  },
+  {
+    "level": "Recorded",
     "message": "Queued targeted repair 702 \u00b7 coder.",
     "project": "Ditto",
     "timestamp": "2026-10-17T22:10:58.268294Z"
@@ -76,18 +112,6 @@
     "message": "Queued local repair 701 1 \u00b7 planner.",
     "project": "TEER",
     "timestamp": "2026-10-17T22:04:03.218871Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "EchoNext",
-    "timestamp": "2026-10-17T22:04:02.787582Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "EchoNext",
-    "timestamp": "2026-10-17T22:04:02.787536Z"
   },
   {
     "level": "Recorded",
@@ -454,29 +478,5 @@
     "message": "Queued repair 683 import collision \u00b7 coder.",
     "project": "TEER",
     "timestamp": "2026-10-17T20:12:52.042242Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Verification passed for local repair 683 1 \u00b7 planner.",
-    "project": "TEER",
-    "timestamp": "2026-10-17T20:12:49.643361Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued local repair 683 1 \u00b7 planner.",
-    "project": "TEER",
-    "timestamp": "2026-10-17T20:11:27.213667Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued targeted repair 684 \u00b7 coder.",
-    "project": "EchoNext",
-    "timestamp": "2026-10-17T20:09:09.143208Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "EchoNext",
-    "timestamp": "2026-10-17T20:08:46.877198Z"
   }
 ]

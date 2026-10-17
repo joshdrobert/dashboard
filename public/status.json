@@ -4,48 +4,48 @@
   "attentionRequired": [
     {
       "category": "Agents debugging",
-      "message": "2 task(s) are in repair or retry states.",
+      "message": "3 task(s) are in repair or retry states.",
       "project": "Portfolio"
     }
   ],
   "blockedWork": [
     {
       "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "708",
-      "parent": "701",
+      "heartbeatFresh": false,
+      "id": "710",
+      "parent": "706",
       "project": "TEER",
       "resource": "Local agent",
-      "startedAt": "2026-10-17T22:09:07.941503Z",
-      "state": "STALE_UNKNOWN",
-      "title": "plan after 701 \u00b7 planner",
-      "updatedAt": "2026-10-17T22:11:48.405084Z",
+      "startedAt": "2026-10-17T22:12:41.324852Z",
+      "state": "FAILED",
+      "title": "regenerate plan 708 \u00b7 planner",
+      "updatedAt": "2026-10-17T22:12:41.324852Z",
       "workerType": "planner"
     },
     {
       "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "705",
+      "heartbeatFresh": false,
+      "id": "702",
       "parent": "673",
       "project": "Ditto",
       "resource": "Local agent",
-      "startedAt": "2026-10-17T22:02:27.383273Z",
-      "state": "STALE_UNKNOWN",
-      "title": "targeted repair 699 \u00b7 coder",
-      "updatedAt": "2026-10-17T22:11:01.321943Z",
+      "startedAt": "2026-10-17T21:35:47.884106Z",
+      "state": "FAILED",
+      "title": "targeted repair 697 \u00b7 coder",
+      "updatedAt": "2026-10-17T22:10:53.268511Z",
       "workerType": "coder"
     },
     {
       "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "704",
+      "heartbeatFresh": false,
+      "id": "696",
       "parent": "652",
       "project": "EchoNext",
       "resource": "Local agent",
-      "startedAt": "2026-10-17T22:00:22.736101Z",
-      "state": "STALE_UNKNOWN",
-      "title": "targeted repair 696 \u00b7 coder",
-      "updatedAt": "2026-10-17T22:10:22.765617Z",
+      "startedAt": "2026-10-17T20:53:54.400759Z",
+      "state": "FAILED",
+      "title": "targeted repair 688 \u00b7 coder",
+      "updatedAt": "2026-10-17T22:00:21.097181Z",
       "workerType": "coder"
     },
     {
@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-17T22:12:15.648167Z",
+  "generatedAt": "2026-10-17T22:13:47.309403Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 9,
@@ -400,6 +400,66 @@
     "verifiedPending": 1
   },
   "meaningfulEvents": [
+    {
+      "id": "164530",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-17T22:13:44.849700Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "164529",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-17T22:13:44.849634Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
+    {
+      "id": "164522",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "EchoNext",
+      "timestamp": "2026-10-17T22:13:43.296810Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "164521",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "EchoNext",
+      "timestamp": "2026-10-17T22:13:43.296775Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
+    {
+      "id": "164435",
+      "message": "Queued regenerate plan 708 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-17T22:12:41.324903Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "164433",
+      "message": "Verification passed for plan after 701 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-17T22:12:40.783103Z",
+      "type": "accepted",
+      "verification": "Verified",
+      "whyItMatters": "Dependent work may advance."
+    },
     {
       "id": "164328",
       "message": "Queued targeted repair 702 \u00b7 coder.",
@@ -529,26 +589,6 @@
       "type": "task_queued",
       "verification": "Recorded",
       "whyItMatters": "The next unit of work is durable."
-    },
-    {
-      "id": "163936",
-      "message": "Controller recovery restored an interrupted task boundary.",
-      "next": "Continue through the next controller gate.",
-      "project": "EchoNext",
-      "timestamp": "2026-10-17T22:04:02.787582Z",
-      "type": "recovery",
-      "verification": "Recorded",
-      "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "163935",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "EchoNext",
-      "timestamp": "2026-10-17T22:04:02.787536Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
     },
     {
       "id": "163803",
@@ -1159,46 +1199,6 @@
       "type": "task_queued",
       "verification": "Recorded",
       "whyItMatters": "The next unit of work is durable."
-    },
-    {
-      "id": "158600",
-      "message": "Verification passed for local repair 683 1 \u00b7 planner.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-17T20:12:49.643361Z",
-      "type": "accepted",
-      "verification": "Verified",
-      "whyItMatters": "Dependent work may advance."
-    },
-    {
-      "id": "158514",
-      "message": "Queued local repair 683 1 \u00b7 planner.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-17T20:11:27.213667Z",
-      "type": "task_queued",
-      "verification": "Recorded",
-      "whyItMatters": "The next unit of work is durable."
-    },
-    {
-      "id": "158419",
-      "message": "Queued targeted repair 684 \u00b7 coder.",
-      "next": "Continue through the next controller gate.",
-      "project": "EchoNext",
-      "timestamp": "2026-10-17T20:09:09.143208Z",
-      "type": "task_queued",
-      "verification": "Recorded",
-      "whyItMatters": "The next unit of work is durable."
-    },
-    {
-      "id": "158398",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "EchoNext",
-      "timestamp": "2026-10-17T20:08:46.877198Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
     }
   ],
   "portfolioSummary": {
@@ -1206,10 +1206,10 @@
     "activeLocalAgents": 0,
     "activeVisionJobs": 0,
     "executingProjects": 0,
-    "projectsNeedingTechnicalAttention": 2,
+    "projectsNeedingTechnicalAttention": 3,
     "registeredProjects": 9,
     "state": "Needs attention",
-    "verifiedCompletions24h": 43
+    "verifiedCompletions24h": 44
   },
   "projects": [
     {
@@ -1285,9 +1285,9 @@
       "status": "Ready"
     },
     {
-      "agentsNow": "Running",
+      "agentsNow": "No agent currently executing",
       "blocker": null,
-      "currentObjective": "targeted repair 699 \u00b7 coder",
+      "currentObjective": "targeted repair 702 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "ditto",
@@ -1300,12 +1300,12 @@
       "queueDepth": 2,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Running"
+      "status": "Queued"
     },
     {
-      "agentsNow": "Running",
+      "agentsNow": "No agent currently executing",
       "blocker": null,
-      "currentObjective": "targeted repair 696 \u00b7 coder",
+      "currentObjective": "local repair 692 index fix \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "echonext",
@@ -1318,7 +1318,7 @@
       "queueDepth": 2,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Running"
+      "status": "Queued"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1339,22 +1339,22 @@
       "status": "Failed / retrying"
     },
     {
-      "agentsNow": "Running",
+      "agentsNow": "No agent currently executing",
       "blocker": null,
-      "currentObjective": "plan after 701 \u00b7 planner",
+      "currentObjective": "regenerate plan 708 \u00b7 planner",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "teer",
       "lastAccomplishment": "Verified local repair 701 1 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T22:11:48.405084Z",
+      "lastMeaningfulActivity": "2026-10-17T22:12:41.324852Z",
       "name": "TEER",
       "nextTask": null,
       "operationalState": "RUNNABLE",
-      "queueDepth": 1,
+      "queueDepth": 0,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Running"
+      "status": "Failed / retrying"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-17T22:12:16.067790Z",
+  "publishedAt": "2026-10-17T22:13:47.506578Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1506,15 +1506,15 @@
     "manuscriptMilestones": 0,
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0,
-    "verifiedMilestones12h": 12,
-    "verifiedMilestones24h": 43,
-    "verifiedMilestones2h": 12
+    "verifiedMilestones12h": 13,
+    "verifiedMilestones24h": 44,
+    "verifiedMilestones2h": 11
   },
-  "semanticHash": "5d46e710a6ac34f0a3560f9f0339cf52219647b45c8d1845ea8f0def0d546c3e",
+  "semanticHash": "6868875598b03647ad7f4ebfc280d122fda16a9d8e6b80c065c7fddc72bcbcd1",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-17T22:10:58.268294Z",
+  "sourceEventAt": "2026-10-17T22:13:44.849700Z",
   "system": {
-    "activeJobs": 3,
+    "activeJobs": 0,
     "autonomy": "DEGRADED",
     "status": "Needs attention"
   },
