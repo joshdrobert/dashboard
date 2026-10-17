@@ -19,7 +19,7 @@
       "startedAt": "2026-10-17T04:44:38.209538Z",
       "state": "STALE_UNKNOWN",
       "title": "targeted repair 655 \u00b7 coder",
-      "updatedAt": "2026-10-17T05:03:42.655960Z",
+      "updatedAt": "2026-10-17T05:05:58.320268Z",
       "workerType": "coder"
     },
     {
@@ -383,7 +383,7 @@
     "state": "PHASE1_RUNNING",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-17T05:04:00.072936Z",
+  "generatedAt": "2026-10-17T05:06:01.703566Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -1293,7 +1293,7 @@
       "id": "ditto",
       "lastAccomplishment": "Verified regenerate plan 501 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T05:03:42.655960Z",
+      "lastMeaningfulActivity": "2026-10-17T05:05:58.320268Z",
       "name": "Ditto",
       "nextTask": null,
       "operationalState": "RUNNABLE",
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-17T05:04:00.336595Z",
+  "publishedAt": "2026-10-17T05:06:01.920694Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1483,7 +1483,7 @@
     "verifiedMilestones24h": 74,
     "verifiedMilestones2h": 23
   },
-  "semanticHash": "72346ee8f71e4d20c853e615fae075c851196f4000b497c2ae6b0ffbd9329317",
+  "semanticHash": "356520387eb146b815e83a8b61c5496c546022a4e38de8d8747258521a9b0bbc",
   "snapshotVersion": "2.3",
   "sourceEventAt": "2026-10-17T05:01:09.987011Z",
   "system": {
