@@ -11,6 +11,19 @@
   "blockedWork": [
     {
       "backend": "Local",
+      "heartbeatFresh": true,
+      "id": "711",
+      "parent": "707",
+      "project": "EchoNext",
+      "resource": "Local agent",
+      "startedAt": "2026-10-17T22:20:22.156075Z",
+      "state": "STALE_UNKNOWN",
+      "title": "plan after 707 \u00b7 planner",
+      "updatedAt": "2026-10-17T22:42:48.407415Z",
+      "workerType": "planner"
+    },
+    {
+      "backend": "Local",
       "heartbeatFresh": false,
       "id": "710",
       "parent": "706",
@@ -24,28 +37,15 @@
     },
     {
       "backend": "Local",
-      "heartbeatFresh": false,
-      "id": "704",
-      "parent": "652",
-      "project": "EchoNext",
-      "resource": "Local agent",
-      "startedAt": "2026-10-17T22:00:22.736101Z",
-      "state": "FAILED",
-      "title": "targeted repair 696 \u00b7 coder",
-      "updatedAt": "2026-10-17T22:19:15.888836Z",
-      "workerType": "coder"
-    },
-    {
-      "backend": "Local",
-      "heartbeatFresh": false,
-      "id": "702",
+      "heartbeatFresh": true,
+      "id": "705",
       "parent": "673",
       "project": "Ditto",
       "resource": "Local agent",
-      "startedAt": "2026-10-17T21:35:47.884106Z",
-      "state": "FAILED",
-      "title": "targeted repair 697 \u00b7 coder",
-      "updatedAt": "2026-10-17T22:10:53.268511Z",
+      "startedAt": "2026-10-17T22:02:27.383273Z",
+      "state": "STALE_UNKNOWN",
+      "title": "targeted repair 699 \u00b7 coder",
+      "updatedAt": "2026-10-17T22:42:16.567793Z",
       "workerType": "coder"
     },
     {
@@ -144,10 +144,10 @@
         "completedAt": "2026-10-17T22:23:04.770271Z",
         "cycle": "e5b2993fea3a",
         "decided": 9,
-        "dispatched": 0,
-        "executed": 0,
+        "dispatched": 2,
+        "executed": 2,
         "failed": 0,
-        "matched": 2,
+        "matched": 0,
         "rejected": 0,
         "reviewed": 9,
         "startedAt": "2026-10-17T22:20:40.574056Z",
@@ -272,10 +272,10 @@
         "completedAt": "2026-10-17T22:23:04.770271Z",
         "cycle": "e5b2993fea3a",
         "decided": 9,
-        "dispatched": 0,
-        "executed": 0,
+        "dispatched": 2,
+        "executed": 2,
         "failed": 0,
-        "matched": 2,
+        "matched": 0,
         "rejected": 0,
         "reviewed": 9,
         "startedAt": "2026-10-17T22:20:40.574056Z",
@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-17T22:42:11.424339Z",
+  "generatedAt": "2026-10-17T22:44:12.234895Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -1285,25 +1285,25 @@
       "status": "Ready"
     },
     {
-      "agentsNow": "No agent currently executing",
+      "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "targeted repair 702 \u00b7 coder",
+      "currentObjective": "targeted repair 699 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "ditto",
       "lastAccomplishment": "Verified add error coverage tests \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T22:42:09.747166Z",
+      "lastMeaningfulActivity": "2026-10-17T22:42:13.136278Z",
       "name": "Ditto",
       "nextTask": "targeted repair 702 \u00b7 coder",
       "operationalState": "RUNNABLE",
       "queueDepth": 2,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Queued"
+      "status": "Running"
     },
     {
-      "agentsNow": "No agent currently executing",
+      "agentsNow": "Running",
       "blocker": null,
       "currentObjective": "plan after 707 \u00b7 planner",
       "deliverable": "A verified bounded project artifact.",
@@ -1311,14 +1311,14 @@
       "id": "echonext",
       "lastAccomplishment": "Verified local repair 692 index fix \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T22:41:37.850353Z",
+      "lastMeaningfulActivity": "2026-10-17T22:42:48.407415Z",
       "name": "EchoNext",
-      "nextTask": "plan after 707 \u00b7 planner",
+      "nextTask": null,
       "operationalState": "RUNNABLE",
       "queueDepth": 1,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Queued"
+      "status": "Running"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-17T22:42:11.597365Z",
+  "publishedAt": "2026-10-17T22:44:12.400956Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1388,20 +1388,7 @@
   "queuedWork": [
     {
       "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "711",
-      "parent": "707",
-      "project": "EchoNext",
-      "resource": "Local agent",
-      "startedAt": "2026-10-17T22:20:22.156075Z",
-      "state": "QUEUED",
-      "title": "plan after 707 \u00b7 planner",
-      "updatedAt": "2026-10-17T22:41:37.850353Z",
-      "workerType": "planner"
-    },
-    {
-      "backend": "Local",
-      "heartbeatFresh": true,
+      "heartbeatFresh": false,
       "id": "709",
       "parent": "673",
       "project": "Ditto",
@@ -1510,11 +1497,11 @@
     "verifiedMilestones24h": 46,
     "verifiedMilestones2h": 13
   },
-  "semanticHash": "8598f10857d942ed85c5de1af9597b95aca5d6c106a02357dbe9f34091d627c7",
+  "semanticHash": "2b8bb392ceb175994bbda6606ef1252cdab3bc8874509bb162f7e0825fae273d",
   "snapshotVersion": "2.3",
   "sourceEventAt": "2026-10-17T22:42:09.747201Z",
   "system": {
-    "activeJobs": 0,
+    "activeJobs": 2,
     "autonomy": "DEGRADED",
     "status": "Needs attention"
   },
