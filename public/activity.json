@@ -2,6 +2,30 @@
   {
     "level": "Recorded",
     "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "EchoNext",
+    "timestamp": "2026-10-17T21:22:13.390820Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "EchoNext",
+    "timestamp": "2026-10-17T21:22:13.390765Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Queued targeted repair 693 \u00b7 coder.",
+    "project": "Ditto",
+    "timestamp": "2026-10-17T21:22:07.581418Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "Ditto",
+    "timestamp": "2026-10-17T21:22:02.904164Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
     "project": "Ditto",
     "timestamp": "2026-10-17T21:18:50.789039Z"
   },
@@ -16,12 +40,6 @@
     "message": "Controller recovery restored an interrupted task boundary.",
     "project": "Ditto",
     "timestamp": "2026-10-17T21:12:48.422270Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "Ditto",
-    "timestamp": "2026-10-17T21:12:48.422208Z"
   },
   {
     "level": "Recorded",
@@ -460,23 +478,5 @@
     "message": "A Codex orientation was delivered.",
     "project": "Ditto",
     "timestamp": "2026-10-17T17:54:40.608022Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "A Codex orientation was delivered.",
-    "project": "Trace",
-    "timestamp": "2026-10-17T13:50:49.113676Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "A Codex orientation was delivered.",
-    "project": "TEER",
-    "timestamp": "2026-10-17T13:50:49.112631Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "A Codex orientation was delivered.",
-    "project": "Papers",
-    "timestamp": "2026-10-17T13:50:49.111589Z"
   }
 ]
