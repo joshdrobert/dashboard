@@ -1,5 +1,11 @@
 [
   {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "EchoNext",
+    "timestamp": "2026-10-17T22:19:15.888866Z"
+  },
+  {
     "level": "Recorded",
     "message": "Controller recovery restored an interrupted task boundary.",
     "project": "EchoNext",
@@ -40,12 +46,6 @@
     "message": "A bounded task failed and entered recovery.",
     "project": "Ditto",
     "timestamp": "2026-10-17T22:13:44.849634Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "EchoNext",
-    "timestamp": "2026-10-17T22:13:43.296775Z"
   },
   {
     "level": "Recorded",
