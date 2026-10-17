@@ -11,15 +11,15 @@
   "blockedWork": [
     {
       "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "667",
+      "heartbeatFresh": false,
+      "id": "666",
       "parent": "464",
       "project": "Ditto",
       "resource": "Local agent",
-      "startedAt": "2026-10-17T05:07:17.044707Z",
-      "state": "STALE_UNKNOWN",
-      "title": "targeted repair 666 \u00b7 coder",
-      "updatedAt": "2026-10-17T05:10:36.264296Z",
+      "startedAt": "2026-10-17T04:44:38.209538Z",
+      "state": "FAILED",
+      "title": "targeted repair 655 \u00b7 coder",
+      "updatedAt": "2026-10-17T05:07:12.404316Z",
       "workerType": "coder"
     },
     {
@@ -383,7 +383,7 @@
     "state": "PHASE1_RUNNING",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-17T05:12:05.222840Z",
+  "generatedAt": "2026-10-17T05:14:07.219378Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -401,21 +401,21 @@
   },
   "meaningfulEvents": [
     {
-      "id": "152173",
+      "id": "152210",
       "message": "Controller recovery restored an interrupted task boundary.",
       "next": "Continue through the next controller gate.",
       "project": "Ditto",
-      "timestamp": "2026-10-17T05:10:02.484925Z",
+      "timestamp": "2026-10-17T05:13:10.734506Z",
       "type": "recovery",
       "verification": "Recorded",
       "whyItMatters": "Safe autonomous execution can resume."
     },
     {
-      "id": "152172",
+      "id": "152209",
       "message": "A bounded task failed and entered recovery.",
       "next": "Continue through the next controller gate.",
       "project": "Ditto",
-      "timestamp": "2026-10-17T05:10:02.484889Z",
+      "timestamp": "2026-10-17T05:13:10.734469Z",
       "type": "failure",
       "verification": "Attention",
       "whyItMatters": "The failure remains visible until repaired."
@@ -1209,7 +1209,7 @@
     "projectsNeedingTechnicalAttention": 3,
     "registeredProjects": 9,
     "state": "Needs attention",
-    "verifiedCompletions24h": 73
+    "verifiedCompletions24h": 71
   },
   "projects": [
     {
@@ -1285,7 +1285,7 @@
       "status": "Ready"
     },
     {
-      "agentsNow": "Running",
+      "agentsNow": "No agent currently executing",
       "blocker": null,
       "currentObjective": "targeted repair 666 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
@@ -1293,14 +1293,14 @@
       "id": "ditto",
       "lastAccomplishment": "Verified regenerate plan 501 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T05:10:36.264296Z",
+      "lastMeaningfulActivity": "2026-10-17T05:13:10.734448Z",
       "name": "Ditto",
-      "nextTask": null,
+      "nextTask": "targeted repair 666 \u00b7 coder",
       "operationalState": "RUNNABLE",
       "queueDepth": 1,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Running"
+      "status": "Queued"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1380,12 +1380,26 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-17T05:12:05.380933Z",
+  "publishedAt": "2026-10-17T05:14:07.362036Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
   },
-  "queuedWork": [],
+  "queuedWork": [
+    {
+      "backend": "Local",
+      "heartbeatFresh": true,
+      "id": "667",
+      "parent": "464",
+      "project": "Ditto",
+      "resource": "Local agent",
+      "startedAt": "2026-10-17T05:07:17.044707Z",
+      "state": "QUEUED",
+      "title": "targeted repair 666 \u00b7 coder",
+      "updatedAt": "2026-10-17T05:13:10.734448Z",
+      "workerType": "coder"
+    }
+  ],
   "recentlyCompleted": [
     {
       "id": "662",
@@ -1479,15 +1493,15 @@
     "manuscriptMilestones": 0,
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0,
-    "verifiedMilestones12h": 73,
-    "verifiedMilestones24h": 73,
+    "verifiedMilestones12h": 71,
+    "verifiedMilestones24h": 71,
     "verifiedMilestones2h": 23
   },
-  "semanticHash": "370e6b159251c6575f3a200056d089bc8e4af4cebc7f3509f050f406df96e393",
+  "semanticHash": "183e92049f4d71194af1898dba37ef6dacbbc589cf6f5ed8d934c29b36e4ae74",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-17T05:10:02.484925Z",
+  "sourceEventAt": "2026-10-17T05:13:10.734506Z",
   "system": {
-    "activeJobs": 1,
+    "activeJobs": 0,
     "autonomy": "DEGRADED",
     "status": "Needs attention"
   },
