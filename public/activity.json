@@ -1,6 +1,18 @@
 [
   {
     "level": "Recorded",
+    "message": "Queued targeted repair 681 \u00b7 coder.",
+    "project": "EchoNext",
+    "timestamp": "2026-10-17T19:51:28.612936Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "EchoNext",
+    "timestamp": "2026-10-17T19:51:08.874112Z"
+  },
+  {
+    "level": "Recorded",
     "message": "Controller recovery restored an interrupted task boundary.",
     "project": "Ditto",
     "timestamp": "2026-10-17T19:43:56.164635Z"
@@ -40,12 +52,6 @@
     "message": "Controller recovery restored an interrupted task boundary.",
     "project": "EchoNext",
     "timestamp": "2026-10-17T19:36:57.520721Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "EchoNext",
-    "timestamp": "2026-10-17T19:36:57.520677Z"
   },
   {
     "level": "Recorded",
@@ -472,11 +478,5 @@
     "message": "Queued repair 670 \u00b7 coder.",
     "project": "Ditto",
     "timestamp": "2026-10-17T06:20:34.957792Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Verification passed for local repair 670 1 \u00b7 planner.",
-    "project": "Ditto",
-    "timestamp": "2026-10-17T06:20:34.904483Z"
   }
 ]
