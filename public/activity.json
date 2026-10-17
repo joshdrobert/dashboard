@@ -1,6 +1,30 @@
 [
   {
     "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "Ditto",
+    "timestamp": "2026-10-17T22:31:04.133791Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "Ditto",
+    "timestamp": "2026-10-17T22:31:04.133726Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "EchoNext",
+    "timestamp": "2026-10-17T22:30:54.829317Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "EchoNext",
+    "timestamp": "2026-10-17T22:30:54.829285Z"
+  },
+  {
+    "level": "Recorded",
     "message": "A Codex orientation was delivered.",
     "project": "Trace",
     "timestamp": "2026-10-17T22:23:04.794418Z"
@@ -72,12 +96,6 @@
     "timestamp": "2026-10-17T22:20:21.556631Z"
   },
   {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "Ditto",
-    "timestamp": "2026-10-17T22:20:00.617520Z"
-  },
-  {
     "level": "Attention",
     "message": "A bounded task failed and entered recovery.",
     "project": "EchoNext",
@@ -112,12 +130,6 @@
     "message": "A bounded task failed and entered recovery.",
     "project": "EchoNext",
     "timestamp": "2026-10-17T22:15:32.298674Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "Ditto",
-    "timestamp": "2026-10-17T22:13:44.849634Z"
   },
   {
     "level": "Recorded",
@@ -466,17 +478,5 @@
     "message": "A bounded task failed and entered recovery.",
     "project": "EchoNext",
     "timestamp": "2026-10-17T20:44:52.045938Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "A Codex orientation was delivered.",
-    "project": "TEER",
-    "timestamp": "2026-10-17T20:39:34.588152Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "A Codex orientation was delivered.",
-    "project": "EchoNext",
-    "timestamp": "2026-10-17T20:39:34.577593Z"
   }
 ]
