@@ -1,6 +1,20 @@
 {
   "actionRequired": [],
-  "activeWork": [],
+  "activeWork": [
+    {
+      "backend": "Local",
+      "heartbeatFresh": true,
+      "id": "677",
+      "parent": null,
+      "project": "Ditto",
+      "resource": "Local agent",
+      "startedAt": "2026-10-17T18:31:57.113405Z",
+      "state": "VERIFYING",
+      "title": "stable repair calibration contract 20261017 \u00b7 coder",
+      "updatedAt": "2026-10-17T19:07:57.973753Z",
+      "workerType": "coder"
+    }
+  ],
   "attentionRequired": [
     {
       "category": "Agents debugging",
@@ -32,21 +46,21 @@
       "startedAt": "2026-10-17T18:31:57.115297Z",
       "state": "STALE_UNKNOWN",
       "title": "stable repair test isolation 20261017 \u00b7 coder",
-      "updatedAt": "2026-10-17T19:03:45.183619Z",
+      "updatedAt": "2026-10-17T19:09:19.701578Z",
       "workerType": "coder"
     },
     {
       "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "677",
-      "parent": null,
+      "heartbeatFresh": false,
+      "id": "675",
+      "parent": "673",
       "project": "Ditto",
       "resource": "Local agent",
-      "startedAt": "2026-10-17T18:31:57.113405Z",
-      "state": "STALE_UNKNOWN",
-      "title": "stable repair calibration contract 20261017 \u00b7 coder",
-      "updatedAt": "2026-10-17T19:03:29.504408Z",
-      "workerType": "coder"
+      "startedAt": "2026-10-17T06:36:51.807083Z",
+      "state": "FAILED",
+      "title": "plan after 673 \u00b7 planner",
+      "updatedAt": "2026-10-17T06:40:20.375524Z",
+      "workerType": "planner"
     },
     {
       "backend": "Local",
@@ -383,7 +397,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-17T19:05:18.914650Z",
+  "generatedAt": "2026-10-17T19:09:22.171219Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 9,
@@ -1203,9 +1217,9 @@
   ],
   "portfolioSummary": {
     "actionsRequiringUser": 0,
-    "activeLocalAgents": 0,
+    "activeLocalAgents": 1,
     "activeVisionJobs": 0,
-    "executingProjects": 0,
+    "executingProjects": 1,
     "projectsNeedingTechnicalAttention": 2,
     "registeredProjects": 9,
     "state": "Needs attention",
@@ -1285,7 +1299,7 @@
       "status": "Ready"
     },
     {
-      "agentsNow": "Running",
+      "agentsNow": "Verifying",
       "blocker": null,
       "currentObjective": "stable repair calibration contract 20261017 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
@@ -1293,14 +1307,14 @@
       "id": "ditto",
       "lastAccomplishment": "Verified add error coverage tests \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T19:03:29.504408Z",
+      "lastMeaningfulActivity": "2026-10-17T19:07:57.973753Z",
       "name": "Ditto",
       "nextTask": "stable repair quantity api 20261017 \u00b7 coder",
       "operationalState": "RUNNABLE",
       "queueDepth": 2,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Running"
+      "status": "Verifying"
     },
     {
       "agentsNow": "Running",
@@ -1311,7 +1325,7 @@
       "id": "echonext",
       "lastAccomplishment": "Verified local repair 648 validate fix \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T19:03:24.991933Z",
+      "lastMeaningfulActivity": "2026-10-17T19:08:44.795253Z",
       "name": "EchoNext",
       "nextTask": "stable repair collection 20261017 \u00b7 coder",
       "operationalState": "RUNNABLE",
@@ -1380,7 +1394,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-17T19:05:19.071128Z",
+  "publishedAt": "2026-10-17T19:09:22.487078Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1510,7 +1524,7 @@
     "verifiedMilestones24h": 58,
     "verifiedMilestones2h": 0
   },
-  "semanticHash": "5e7c2b6a76e08fc1073e28ec1e74ab6badbb596393434102463306d3d74b3ffb",
+  "semanticHash": "06c2fa18ec57c160ad0084a9bd5aa055feb4830cfa2af8be1b6c44100c3b559f",
   "snapshotVersion": "2.3",
   "sourceEventAt": "2026-10-17T19:01:43.178776Z",
   "system": {
