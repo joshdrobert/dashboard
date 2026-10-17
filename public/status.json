@@ -1,20 +1,6 @@
 {
   "actionRequired": [],
-  "activeWork": [
-    {
-      "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "676",
-      "parent": null,
-      "project": "Ditto",
-      "resource": "Local agent",
-      "startedAt": "2026-10-17T18:31:57.111345Z",
-      "state": "VERIFYING",
-      "title": "stable repair quantity api 20261017 \u00b7 coder",
-      "updatedAt": "2026-10-17T18:56:26.288523Z",
-      "workerType": "coder"
-    }
-  ],
+  "activeWork": [],
   "attentionRequired": [
     {
       "category": "Agents debugging",
@@ -23,6 +9,19 @@
     }
   ],
   "blockedWork": [
+    {
+      "backend": "Local",
+      "heartbeatFresh": true,
+      "id": "680",
+      "parent": null,
+      "project": "TEER",
+      "resource": "Local agent",
+      "startedAt": "2026-10-17T18:31:57.118653Z",
+      "state": "STALE_UNKNOWN",
+      "title": "stable repair duplicate module 20261017 \u00b7 coder",
+      "updatedAt": "2026-10-17T18:57:41.587673Z",
+      "workerType": "coder"
+    },
     {
       "backend": "Local",
       "heartbeatFresh": true,
@@ -38,29 +37,16 @@
     },
     {
       "backend": "Local",
-      "heartbeatFresh": false,
-      "id": "675",
-      "parent": "673",
+      "heartbeatFresh": true,
+      "id": "676",
+      "parent": null,
       "project": "Ditto",
       "resource": "Local agent",
-      "startedAt": "2026-10-17T06:36:51.807083Z",
-      "state": "FAILED",
-      "title": "plan after 673 \u00b7 planner",
-      "updatedAt": "2026-10-17T06:40:20.375524Z",
-      "workerType": "planner"
-    },
-    {
-      "backend": "Local",
-      "heartbeatFresh": false,
-      "id": "664",
-      "parent": "662",
-      "project": "TEER",
-      "resource": "Local agent",
-      "startedAt": "2026-10-17T04:37:18.430439Z",
-      "state": "FAILED",
-      "title": "plan after 662 \u00b7 planner",
-      "updatedAt": "2026-10-17T04:48:05.681162Z",
-      "workerType": "planner"
+      "startedAt": "2026-10-17T18:31:57.111345Z",
+      "state": "STALE_UNKNOWN",
+      "title": "stable repair quantity api 20261017 \u00b7 coder",
+      "updatedAt": "2026-10-17T18:58:23.601744Z",
+      "workerType": "coder"
     },
     {
       "backend": "Local",
@@ -158,10 +144,10 @@
         "completedAt": "2026-10-17T18:36:34.562009Z",
         "cycle": "99fa3527d977",
         "decided": 9,
-        "dispatched": 2,
-        "executed": 2,
+        "dispatched": 3,
+        "executed": 3,
         "failed": 0,
-        "matched": 1,
+        "matched": 0,
         "rejected": 0,
         "reviewed": 9,
         "startedAt": "2026-10-17T18:33:13.595212Z",
@@ -286,10 +272,10 @@
         "completedAt": "2026-10-17T18:36:34.562009Z",
         "cycle": "99fa3527d977",
         "decided": 9,
-        "dispatched": 2,
-        "executed": 2,
+        "dispatched": 3,
+        "executed": 3,
         "failed": 0,
-        "matched": 1,
+        "matched": 0,
         "rejected": 0,
         "reviewed": 9,
         "startedAt": "2026-10-17T18:33:13.595212Z",
@@ -397,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-17T18:57:12.047932Z",
+  "generatedAt": "2026-10-17T18:59:13.202740Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 9,
@@ -406,7 +392,7 @@
     "lastSuccessfulDailyRun": "2026-10-17T18:38:24.644974Z",
     "missingTaskProvenance": 7,
     "newlyIntegrated24h": 0,
-    "oldestEligibleAgeHours": 0.4,
+    "oldestEligibleAgeHours": 0.5,
     "repositoriesMonitored": 10,
     "scientificReviewBlockers": 5,
     "stableVerification": "No stable update in latest batch",
@@ -1217,9 +1203,9 @@
   ],
   "portfolioSummary": {
     "actionsRequiringUser": 0,
-    "activeLocalAgents": 1,
+    "activeLocalAgents": 0,
     "activeVisionJobs": 0,
-    "executingProjects": 1,
+    "executingProjects": 0,
     "projectsNeedingTechnicalAttention": 2,
     "registeredProjects": 9,
     "state": "Needs attention",
@@ -1299,7 +1285,7 @@
       "status": "Ready"
     },
     {
-      "agentsNow": "Verifying",
+      "agentsNow": "Running",
       "blocker": null,
       "currentObjective": "stable repair quantity api 20261017 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
@@ -1314,7 +1300,7 @@
       "queueDepth": 2,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Verifying"
+      "status": "Running"
     },
     {
       "agentsNow": "Running",
@@ -1353,7 +1339,7 @@
       "status": "Failed / retrying"
     },
     {
-      "agentsNow": "No agent currently executing",
+      "agentsNow": "Running",
       "blocker": null,
       "currentObjective": "stable repair duplicate module 20261017 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
@@ -1361,14 +1347,14 @@
       "id": "teer",
       "lastAccomplishment": "Verified repair 646 cache cleanup \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T18:55:50.193947Z",
+      "lastMeaningfulActivity": "2026-10-17T18:57:41.587673Z",
       "name": "TEER",
-      "nextTask": "stable repair duplicate module 20261017 \u00b7 coder",
+      "nextTask": null,
       "operationalState": "RUNNABLE",
       "queueDepth": 1,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Queued"
+      "status": "Running"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1394,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-17T18:57:12.417736Z",
+  "publishedAt": "2026-10-17T18:59:13.406666Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1402,20 +1388,7 @@
   "queuedWork": [
     {
       "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "680",
-      "parent": null,
-      "project": "TEER",
-      "resource": "Local agent",
-      "startedAt": "2026-10-17T18:31:57.118653Z",
-      "state": "QUEUED",
-      "title": "stable repair duplicate module 20261017 \u00b7 coder",
-      "updatedAt": "2026-10-17T18:55:50.193947Z",
-      "workerType": "coder"
-    },
-    {
-      "backend": "Local",
-      "heartbeatFresh": true,
+      "heartbeatFresh": false,
       "id": "679",
       "parent": null,
       "project": "EchoNext",
@@ -1537,11 +1510,11 @@
     "verifiedMilestones24h": 58,
     "verifiedMilestones2h": 0
   },
-  "semanticHash": "9851d096c3398f0634a331802583d1e3a9b845f16236f87c1585751fe7eddf77",
+  "semanticHash": "9d715c9e0412f3f0179832bf6a2b67dad434f538b2f91728cf7241c753074157",
   "snapshotVersion": "2.3",
   "sourceEventAt": "2026-10-17T18:55:50.193988Z",
   "system": {
-    "activeJobs": 2,
+    "activeJobs": 3,
     "autonomy": "DEGRADED",
     "status": "Needs attention"
   },
