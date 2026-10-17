@@ -1,6 +1,20 @@
 {
   "actionRequired": [],
-  "activeWork": [],
+  "activeWork": [
+    {
+      "backend": "Local",
+      "heartbeatFresh": true,
+      "id": "677",
+      "parent": null,
+      "project": "Ditto",
+      "resource": "Local agent",
+      "startedAt": "2026-10-17T18:31:57.113405Z",
+      "state": "VERIFYING",
+      "title": "stable repair calibration contract 20261017 \u00b7 coder",
+      "updatedAt": "2026-10-17T19:36:15.281991Z",
+      "workerType": "coder"
+    }
+  ],
   "attentionRequired": [
     {
       "category": "Agents debugging",
@@ -9,6 +23,19 @@
     }
   ],
   "blockedWork": [
+    {
+      "backend": "Local",
+      "heartbeatFresh": true,
+      "id": "684",
+      "parent": "652",
+      "project": "EchoNext",
+      "resource": "Local agent",
+      "startedAt": "2026-10-17T19:33:18.109612Z",
+      "state": "STALE_UNKNOWN",
+      "title": "targeted repair 679 \u00b7 coder",
+      "updatedAt": "2026-10-17T19:37:32.387329Z",
+      "workerType": "coder"
+    },
     {
       "backend": "Local",
       "heartbeatFresh": true,
@@ -24,28 +51,15 @@
     },
     {
       "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "682",
-      "parent": "673",
+      "heartbeatFresh": false,
+      "id": "676",
+      "parent": null,
       "project": "Ditto",
       "resource": "Local agent",
-      "startedAt": "2026-10-17T19:24:28.545690Z",
-      "state": "STALE_UNKNOWN",
-      "title": "targeted repair 676 \u00b7 coder",
-      "updatedAt": "2026-10-17T19:34:35.591989Z",
-      "workerType": "coder"
-    },
-    {
-      "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "681",
-      "parent": "652",
-      "project": "EchoNext",
-      "resource": "Local agent",
-      "startedAt": "2026-10-17T19:22:59.570968Z",
-      "state": "STALE_UNKNOWN",
-      "title": "targeted repair 678 \u00b7 coder",
-      "updatedAt": "2026-10-17T19:35:33.753111Z",
+      "startedAt": "2026-10-17T18:31:57.111345Z",
+      "state": "FAILED",
+      "title": "stable repair quantity api 20261017 \u00b7 coder",
+      "updatedAt": "2026-10-17T19:24:19.749440Z",
       "workerType": "coder"
     },
     {
@@ -383,7 +397,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-17T19:35:40.025873Z",
+  "generatedAt": "2026-10-17T19:37:40.102846Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 9,
@@ -400,6 +414,46 @@
     "verifiedPending": 1
   },
   "meaningfulEvents": [
+    {
+      "id": "157118",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "EchoNext",
+      "timestamp": "2026-10-17T19:36:57.520721Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "157117",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "EchoNext",
+      "timestamp": "2026-10-17T19:36:57.520677Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
+    {
+      "id": "157085",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-17T19:36:07.288653Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "157084",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-17T19:36:07.288576Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
     {
       "id": "156951",
       "message": "Queued targeted repair 679 \u00b7 coder.",
@@ -436,26 +490,6 @@
       "next": "Continue through the next controller gate.",
       "project": "Ditto",
       "timestamp": "2026-10-17T19:31:58.284236Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
-    },
-    {
-      "id": "156788",
-      "message": "Controller recovery restored an interrupted task boundary.",
-      "next": "Continue through the next controller gate.",
-      "project": "EchoNext",
-      "timestamp": "2026-10-17T19:30:06.523595Z",
-      "type": "recovery",
-      "verification": "Recorded",
-      "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "156787",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "EchoNext",
-      "timestamp": "2026-10-17T19:30:06.523546Z",
       "type": "failure",
       "verification": "Attention",
       "whyItMatters": "The failure remains visible until repaired."
@@ -1179,33 +1213,13 @@
       "type": "recovery",
       "verification": "Recorded",
       "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "152983",
-      "message": "Queued targeted repair 669 \u00b7 coder.",
-      "next": "Continue through the next controller gate.",
-      "project": "Ditto",
-      "timestamp": "2026-10-17T06:04:41.167011Z",
-      "type": "task_queued",
-      "verification": "Recorded",
-      "whyItMatters": "The next unit of work is durable."
-    },
-    {
-      "id": "152979",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "Ditto",
-      "timestamp": "2026-10-17T06:04:36.574835Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
     }
   ],
   "portfolioSummary": {
     "actionsRequiringUser": 0,
-    "activeLocalAgents": 0,
+    "activeLocalAgents": 1,
     "activeVisionJobs": 0,
-    "executingProjects": 0,
+    "executingProjects": 1,
     "projectsNeedingTechnicalAttention": 2,
     "registeredProjects": 9,
     "state": "Needs attention",
@@ -1285,35 +1299,35 @@
       "status": "Ready"
     },
     {
-      "agentsNow": "Running",
+      "agentsNow": "Verifying",
       "blocker": null,
-      "currentObjective": "targeted repair 676 \u00b7 coder",
+      "currentObjective": "stable repair calibration contract 20261017 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "ditto",
       "lastAccomplishment": "Verified add error coverage tests \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T19:34:35.591989Z",
+      "lastMeaningfulActivity": "2026-10-17T19:36:08.911877Z",
       "name": "Ditto",
-      "nextTask": "stable repair calibration contract 20261017 \u00b7 coder",
+      "nextTask": "targeted repair 676 \u00b7 coder",
       "operationalState": "RUNNABLE",
       "queueDepth": 2,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Running"
+      "status": "Verifying"
     },
     {
       "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "targeted repair 678 \u00b7 coder",
+      "currentObjective": "targeted repair 679 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "echonext",
       "lastAccomplishment": "Verified local repair 648 validate fix \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T19:33:19.047052Z",
+      "lastMeaningfulActivity": "2026-10-17T19:37:32.387329Z",
       "name": "EchoNext",
-      "nextTask": "targeted repair 679 \u00b7 coder",
+      "nextTask": "targeted repair 678 \u00b7 coder",
       "operationalState": "RUNNABLE",
       "queueDepth": 2,
       "readyForHuman": false,
@@ -1380,7 +1394,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-17T19:35:40.324677Z",
+  "publishedAt": "2026-10-17T19:37:40.410459Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1389,27 +1403,27 @@
     {
       "backend": "Local",
       "heartbeatFresh": false,
-      "id": "684",
-      "parent": "652",
-      "project": "EchoNext",
+      "id": "682",
+      "parent": "673",
+      "project": "Ditto",
       "resource": "Local agent",
-      "startedAt": "2026-10-17T19:33:18.109612Z",
+      "startedAt": "2026-10-17T19:24:28.545690Z",
       "state": "QUEUED",
-      "title": "targeted repair 679 \u00b7 coder",
-      "updatedAt": "2026-10-17T19:33:18.109612Z",
+      "title": "targeted repair 676 \u00b7 coder",
+      "updatedAt": "2026-10-17T19:36:07.288546Z",
       "workerType": "coder"
     },
     {
       "backend": "Local",
-      "heartbeatFresh": false,
-      "id": "677",
-      "parent": null,
-      "project": "Ditto",
+      "heartbeatFresh": true,
+      "id": "681",
+      "parent": "652",
+      "project": "EchoNext",
       "resource": "Local agent",
-      "startedAt": "2026-10-17T18:31:57.113405Z",
+      "startedAt": "2026-10-17T19:22:59.570968Z",
       "state": "QUEUED",
-      "title": "stable repair calibration contract 20261017 \u00b7 coder",
-      "updatedAt": "2026-10-17T19:31:58.284195Z",
+      "title": "targeted repair 678 \u00b7 coder",
+      "updatedAt": "2026-10-17T19:36:57.520653Z",
       "workerType": "coder"
     }
   ],
@@ -1510,9 +1524,9 @@
     "verifiedMilestones24h": 51,
     "verifiedMilestones2h": 0
   },
-  "semanticHash": "1db743b49e5a20fe8a9531ad9457730dbdaa12cc178bd3d0dd96b8e873f96702",
+  "semanticHash": "8a1598ca9172002f5e086c527bb77aa01c21299b2a1f0c4596ae536b19a98268",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-17T19:33:18.109656Z",
+  "sourceEventAt": "2026-10-17T19:36:57.520721Z",
   "system": {
     "activeJobs": 3,
     "autonomy": "DEGRADED",
