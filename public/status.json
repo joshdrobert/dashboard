@@ -1,20 +1,6 @@
 {
   "actionRequired": [],
-  "activeWork": [
-    {
-      "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "692",
-      "parent": "652",
-      "project": "EchoNext",
-      "resource": "Local agent",
-      "startedAt": "2026-10-17T20:44:54.245517Z",
-      "state": "VERIFYING",
-      "title": "targeted repair 686 \u00b7 coder",
-      "updatedAt": "2026-10-17T20:54:14.106571Z",
-      "workerType": "coder"
-    }
-  ],
+  "activeWork": [],
   "attentionRequired": [
     {
       "category": "Agents debugging",
@@ -33,7 +19,7 @@
       "startedAt": "2026-10-17T20:46:55.207474Z",
       "state": "STALE_UNKNOWN",
       "title": "repair 690 import collision \u00b7 coder",
-      "updatedAt": "2026-10-17T20:54:15.596261Z",
+      "updatedAt": "2026-10-17T20:54:21.220427Z",
       "workerType": "coder"
     },
     {
@@ -46,20 +32,20 @@
       "startedAt": "2026-10-17T20:45:58.077897Z",
       "state": "STALE_UNKNOWN",
       "title": "targeted repair 687 \u00b7 coder",
-      "updatedAt": "2026-10-17T20:52:19.066372Z",
+      "updatedAt": "2026-10-17T20:54:48.478523Z",
       "workerType": "coder"
     },
     {
       "backend": "Local",
       "heartbeatFresh": true,
-      "id": "688",
+      "id": "692",
       "parent": "652",
       "project": "EchoNext",
       "resource": "Local agent",
-      "startedAt": "2026-10-17T20:09:09.143110Z",
-      "state": "FAILED",
-      "title": "targeted repair 684 \u00b7 coder",
-      "updatedAt": "2026-10-17T20:53:52.650412Z",
+      "startedAt": "2026-10-17T20:44:54.245517Z",
+      "state": "STALE_UNKNOWN",
+      "title": "targeted repair 686 \u00b7 coder",
+      "updatedAt": "2026-10-17T20:54:20.549024Z",
       "workerType": "coder"
     },
     {
@@ -397,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-17T20:54:18.051069Z",
+  "generatedAt": "2026-10-17T20:56:18.223687Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 9,
@@ -1217,9 +1203,9 @@
   ],
   "portfolioSummary": {
     "actionsRequiringUser": 0,
-    "activeLocalAgents": 1,
+    "activeLocalAgents": 0,
     "activeVisionJobs": 0,
-    "executingProjects": 1,
+    "executingProjects": 0,
     "projectsNeedingTechnicalAttention": 2,
     "registeredProjects": 9,
     "state": "Needs attention",
@@ -1307,7 +1293,7 @@
       "id": "ditto",
       "lastAccomplishment": "Verified add error coverage tests \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T20:52:19.066372Z",
+      "lastMeaningfulActivity": "2026-10-17T20:54:48.478523Z",
       "name": "Ditto",
       "nextTask": "targeted repair 685 \u00b7 coder",
       "operationalState": "RUNNABLE",
@@ -1317,7 +1303,7 @@
       "status": "Running"
     },
     {
-      "agentsNow": "Verifying",
+      "agentsNow": "Running",
       "blocker": null,
       "currentObjective": "targeted repair 686 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
@@ -1332,7 +1318,7 @@
       "queueDepth": 2,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Verifying"
+      "status": "Running"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1361,7 +1347,7 @@
       "id": "teer",
       "lastAccomplishment": "Verified local repair 690 1 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T20:54:15.596261Z",
+      "lastMeaningfulActivity": "2026-10-17T20:54:21.220427Z",
       "name": "TEER",
       "nextTask": null,
       "operationalState": "RUNNABLE",
@@ -1394,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-17T20:54:18.317349Z",
+  "publishedAt": "2026-10-17T20:56:18.551804Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1524,7 +1510,7 @@
     "verifiedMilestones24h": 38,
     "verifiedMilestones2h": 4
   },
-  "semanticHash": "9803ce8559c801b96ff065347abe62aeed663ca3db2add7906c79895aab25f89",
+  "semanticHash": "9eca5a57cec286601f4a9a0d5ce4c357fd3f675f4239d776bb5dee2b4094dc39",
   "snapshotVersion": "2.3",
   "sourceEventAt": "2026-10-17T20:53:54.400818Z",
   "system": {
