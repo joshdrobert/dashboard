@@ -1,20 +1,6 @@
 {
   "actionRequired": [],
-  "activeWork": [
-    {
-      "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "655",
-      "parent": "464",
-      "project": "Ditto",
-      "resource": "Local agent",
-      "startedAt": "2026-10-17T04:19:41.958080Z",
-      "state": "VERIFYING",
-      "title": "targeted repair 643 \u00b7 coder",
-      "updatedAt": "2026-10-17T04:37:26.347005Z",
-      "workerType": "coder"
-    }
-  ],
+  "activeWork": [],
   "attentionRequired": [
     {
       "category": "Agents debugging",
@@ -23,6 +9,19 @@
     }
   ],
   "blockedWork": [
+    {
+      "backend": "Local",
+      "heartbeatFresh": true,
+      "id": "665",
+      "parent": "653",
+      "project": "EchoNext",
+      "resource": "Local agent",
+      "startedAt": "2026-10-17T04:39:22.855246Z",
+      "state": "STALE_UNKNOWN",
+      "title": "regenerate plan 663 \u00b7 planner",
+      "updatedAt": "2026-10-17T04:39:47.642836Z",
+      "workerType": "planner"
+    },
     {
       "backend": "Local",
       "heartbeatFresh": true,
@@ -39,27 +38,14 @@
     {
       "backend": "Local",
       "heartbeatFresh": true,
-      "id": "663",
-      "parent": "653",
-      "project": "EchoNext",
-      "resource": "Local agent",
-      "startedAt": "2026-10-17T04:36:29.394956Z",
-      "state": "STALE_UNKNOWN",
-      "title": "regenerate plan 659 \u00b7 planner",
-      "updatedAt": "2026-10-17T04:37:46.819465Z",
-      "workerType": "planner"
-    },
-    {
-      "backend": "Local",
-      "heartbeatFresh": false,
-      "id": "643",
+      "id": "655",
       "parent": "464",
       "project": "Ditto",
       "resource": "Local agent",
-      "startedAt": "2026-10-17T03:20:11.902455Z",
-      "state": "FAILED",
-      "title": "targeted repair 578 \u00b7 coder",
-      "updatedAt": "2026-10-17T04:19:30.162836Z",
+      "startedAt": "2026-10-17T04:19:41.958080Z",
+      "state": "STALE_UNKNOWN",
+      "title": "targeted repair 643 \u00b7 coder",
+      "updatedAt": "2026-10-17T04:39:17.734134Z",
       "workerType": "coder"
     },
     {
@@ -397,7 +383,7 @@
     "state": "PHASE1_RUNNING",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-17T04:37:49.034671Z",
+  "generatedAt": "2026-10-17T04:39:50.188606Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -414,6 +400,26 @@
     "verifiedPending": 0
   },
   "meaningfulEvents": [
+    {
+      "id": "151497",
+      "message": "Queued regenerate plan 663 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "EchoNext",
+      "timestamp": "2026-10-17T04:39:22.855295Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "151491",
+      "message": "Verification passed for regenerate plan 659 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "EchoNext",
+      "timestamp": "2026-10-17T04:39:20.445618Z",
+      "type": "accepted",
+      "verification": "Verified",
+      "whyItMatters": "Dependent work may advance."
+    },
     {
       "id": "151400",
       "message": "Accepted task completed: repair 646 cache cleanup \u00b7 coder.",
@@ -1193,33 +1199,13 @@
       "type": "task_queued",
       "verification": "Recorded",
       "whyItMatters": "The next unit of work is durable."
-    },
-    {
-      "id": "147330",
-      "message": "Queued targeted repair 578 \u00b7 coder.",
-      "next": "Continue through the next controller gate.",
-      "project": "Ditto",
-      "timestamp": "2026-10-17T03:20:11.902480Z",
-      "type": "task_queued",
-      "verification": "Recorded",
-      "whyItMatters": "The next unit of work is durable."
-    },
-    {
-      "id": "147062",
-      "message": "Accepted task completed: regenerate plan 641 \u00b7 planner.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-16T22:01:26.050108Z",
-      "type": "task_exit_accepted",
-      "verification": "Verified",
-      "whyItMatters": "The controller recorded the completion."
     }
   ],
   "portfolioSummary": {
     "actionsRequiringUser": 0,
-    "activeLocalAgents": 1,
+    "activeLocalAgents": 0,
     "activeVisionJobs": 0,
-    "executingProjects": 1,
+    "executingProjects": 0,
     "projectsNeedingTechnicalAttention": 2,
     "registeredProjects": 9,
     "state": "Needs attention",
@@ -1299,7 +1285,7 @@
       "status": "Ready"
     },
     {
-      "agentsNow": "Verifying",
+      "agentsNow": "Running",
       "blocker": null,
       "currentObjective": "targeted repair 643 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
@@ -1307,25 +1293,25 @@
       "id": "ditto",
       "lastAccomplishment": "Verified regenerate plan 501 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T04:37:26.347005Z",
+      "lastMeaningfulActivity": "2026-10-17T04:39:17.734134Z",
       "name": "Ditto",
       "nextTask": null,
       "operationalState": "RUNNABLE",
       "queueDepth": 1,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Verifying"
+      "status": "Running"
     },
     {
       "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "regenerate plan 659 \u00b7 planner",
+      "currentObjective": "regenerate plan 663 \u00b7 planner",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "echonext",
       "lastAccomplishment": "Verified local repair 648 validate fix \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T04:37:46.819465Z",
+      "lastMeaningfulActivity": "2026-10-17T04:39:47.642836Z",
       "name": "EchoNext",
       "nextTask": null,
       "operationalState": "RUNNABLE",
@@ -1394,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-17T04:37:49.396614Z",
+  "publishedAt": "2026-10-17T04:39:50.435483Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1495,11 +1481,11 @@
     "resultsValidated": 0,
     "verifiedMilestones12h": 76,
     "verifiedMilestones24h": 76,
-    "verifiedMilestones2h": 21
+    "verifiedMilestones2h": 22
   },
-  "semanticHash": "3716e24493bbbab76360056257c16a370b800d4ab57790754fd5748f97e53cdd",
+  "semanticHash": "2720a0fe57c99748495492acc40295d42a9c7e1fa77e116b0b459159346c43fd",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-17T04:37:26.220814Z",
+  "sourceEventAt": "2026-10-17T04:39:22.855295Z",
   "system": {
     "activeJobs": 3,
     "autonomy": "DEGRADED",
