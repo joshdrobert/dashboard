@@ -33,7 +33,7 @@
       "startedAt": "2026-10-17T21:04:01.796659Z",
       "state": "STALE_UNKNOWN",
       "title": "targeted repair 695 \u00b7 coder",
-      "updatedAt": "2026-10-17T21:08:32.056474Z",
+      "updatedAt": "2026-10-17T21:11:28.856034Z",
       "workerType": "coder"
     },
     {
@@ -397,7 +397,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-17T21:10:28.547634Z",
+  "generatedAt": "2026-10-17T21:12:31.612684Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 9,
@@ -1361,7 +1361,7 @@
       "id": "teer",
       "lastAccomplishment": "Verified local repair 690 1 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T21:08:32.056474Z",
+      "lastMeaningfulActivity": "2026-10-17T21:11:28.856034Z",
       "name": "TEER",
       "nextTask": null,
       "operationalState": "RUNNABLE",
@@ -1394,7 +1394,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-17T21:10:28.981420Z",
+  "publishedAt": "2026-10-17T21:12:32.072753Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1524,7 +1524,7 @@
     "verifiedMilestones24h": 37,
     "verifiedMilestones2h": 4
   },
-  "semanticHash": "70c6550502de5d2d645c606772876da8562c532d23cec29a61ec75936065ab37",
+  "semanticHash": "ccfae432d4d1617713a8e25cf2b1305a9b74d318148f63ddf271924d2281e136",
   "snapshotVersion": "2.3",
   "sourceEventAt": "2026-10-17T21:04:01.796725Z",
   "system": {
