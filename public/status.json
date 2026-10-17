@@ -1,6 +1,20 @@
 {
   "actionRequired": [],
-  "activeWork": [],
+  "activeWork": [
+    {
+      "backend": "Local",
+      "heartbeatFresh": true,
+      "id": "676",
+      "parent": null,
+      "project": "Ditto",
+      "resource": "Local agent",
+      "startedAt": "2026-10-17T18:31:57.111345Z",
+      "state": "VERIFYING",
+      "title": "stable repair quantity api 20261017 \u00b7 coder",
+      "updatedAt": "2026-10-17T18:59:44.167008Z",
+      "workerType": "coder"
+    }
+  ],
   "attentionRequired": [
     {
       "category": "Agents debugging",
@@ -37,16 +51,16 @@
     },
     {
       "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "676",
-      "parent": null,
+      "heartbeatFresh": false,
+      "id": "675",
+      "parent": "673",
       "project": "Ditto",
       "resource": "Local agent",
-      "startedAt": "2026-10-17T18:31:57.111345Z",
-      "state": "STALE_UNKNOWN",
-      "title": "stable repair quantity api 20261017 \u00b7 coder",
-      "updatedAt": "2026-10-17T18:58:23.601744Z",
-      "workerType": "coder"
+      "startedAt": "2026-10-17T06:36:51.807083Z",
+      "state": "FAILED",
+      "title": "plan after 673 \u00b7 planner",
+      "updatedAt": "2026-10-17T06:40:20.375524Z",
+      "workerType": "planner"
     },
     {
       "backend": "Local",
@@ -383,7 +397,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-17T18:59:13.202740Z",
+  "generatedAt": "2026-10-17T19:01:15.342623Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 9,
@@ -1203,9 +1217,9 @@
   ],
   "portfolioSummary": {
     "actionsRequiringUser": 0,
-    "activeLocalAgents": 0,
+    "activeLocalAgents": 1,
     "activeVisionJobs": 0,
-    "executingProjects": 0,
+    "executingProjects": 1,
     "projectsNeedingTechnicalAttention": 2,
     "registeredProjects": 9,
     "state": "Needs attention",
@@ -1285,7 +1299,7 @@
       "status": "Ready"
     },
     {
-      "agentsNow": "Running",
+      "agentsNow": "Verifying",
       "blocker": null,
       "currentObjective": "stable repair quantity api 20261017 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
@@ -1300,7 +1314,7 @@
       "queueDepth": 2,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Running"
+      "status": "Verifying"
     },
     {
       "agentsNow": "Running",
@@ -1380,7 +1394,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-17T18:59:13.406666Z",
+  "publishedAt": "2026-10-17T19:01:15.555016Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1510,7 +1524,7 @@
     "verifiedMilestones24h": 58,
     "verifiedMilestones2h": 0
   },
-  "semanticHash": "9d715c9e0412f3f0179832bf6a2b67dad434f538b2f91728cf7241c753074157",
+  "semanticHash": "e05984114efa038846a7a3d5e866b70e0e94ef07b17f9e489e8f027842327b40",
   "snapshotVersion": "2.3",
   "sourceEventAt": "2026-10-17T18:55:50.193988Z",
   "system": {
