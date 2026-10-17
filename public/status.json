@@ -19,7 +19,7 @@
       "startedAt": "2026-10-17T05:17:46.360089Z",
       "state": "STALE_UNKNOWN",
       "title": "targeted repair 667 \u00b7 coder",
-      "updatedAt": "2026-10-17T05:18:46.825445Z",
+      "updatedAt": "2026-10-17T05:21:12.934826Z",
       "workerType": "coder"
     },
     {
@@ -383,7 +383,7 @@
     "state": "PHASE1_RUNNING",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-17T05:20:10.447349Z",
+  "generatedAt": "2026-10-17T05:22:11.328320Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -400,6 +400,26 @@
     "verifiedPending": 0
   },
   "meaningfulEvents": [
+    {
+      "id": "152293",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-17T05:20:38.227878Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "152292",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-17T05:20:38.227835Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
     {
       "id": "152260",
       "message": "Queued targeted repair 667 \u00b7 coder.",
@@ -1179,26 +1199,6 @@
       "type": "orientation_delivered",
       "verification": "Recorded",
       "whyItMatters": "Supervisory direction was updated."
-    },
-    {
-      "id": "148099",
-      "message": "A Codex orientation was delivered.",
-      "next": "Continue through the next controller gate.",
-      "project": "EchoNext",
-      "timestamp": "2026-10-17T03:41:50.256923Z",
-      "type": "orientation_delivered",
-      "verification": "Recorded",
-      "whyItMatters": "Supervisory direction was updated."
-    },
-    {
-      "id": "148097",
-      "message": "A Codex orientation was delivered.",
-      "next": "Continue through the next controller gate.",
-      "project": "Ditto",
-      "timestamp": "2026-10-17T03:41:50.256315Z",
-      "type": "orientation_delivered",
-      "verification": "Recorded",
-      "whyItMatters": "Supervisory direction was updated."
     }
   ],
   "portfolioSummary": {
@@ -1293,7 +1293,7 @@
       "id": "ditto",
       "lastAccomplishment": "Verified regenerate plan 501 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T05:18:46.825445Z",
+      "lastMeaningfulActivity": "2026-10-17T05:21:12.934826Z",
       "name": "Ditto",
       "nextTask": null,
       "operationalState": "RUNNABLE",
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-17T05:20:10.614159Z",
+  "publishedAt": "2026-10-17T05:22:11.542102Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1483,9 +1483,9 @@
     "verifiedMilestones24h": 70,
     "verifiedMilestones2h": 23
   },
-  "semanticHash": "ee29ad708551d527dfb83df7c4c733837076e41f67b8aa4f029783bfb957a0e8",
+  "semanticHash": "4c7928fa5effebedee1c1d8376fc656801ab05805503a86151f52d6106a27762",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-17T05:17:46.360151Z",
+  "sourceEventAt": "2026-10-17T05:20:38.227878Z",
   "system": {
     "activeJobs": 1,
     "autonomy": "DEGRADED",
