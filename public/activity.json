@@ -3,6 +3,24 @@
     "level": "Recorded",
     "message": "Controller recovery restored an interrupted task boundary.",
     "project": "EchoNext",
+    "timestamp": "2026-10-17T22:17:34.673651Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "Ditto",
+    "timestamp": "2026-10-17T22:17:34.638622Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Controller recorded git integration complete.",
+    "project": "AI-Server",
+    "timestamp": "2026-10-17T22:17:12.595062Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "EchoNext",
     "timestamp": "2026-10-17T22:15:32.298713Z"
   },
   {
@@ -10,12 +28,6 @@
     "message": "A bounded task failed and entered recovery.",
     "project": "EchoNext",
     "timestamp": "2026-10-17T22:15:32.298674Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recorded git integration complete.",
-    "project": "AI-Server",
-    "timestamp": "2026-10-17T22:15:06.976455Z"
   },
   {
     "level": "Recorded",
@@ -28,12 +40,6 @@
     "message": "A bounded task failed and entered recovery.",
     "project": "Ditto",
     "timestamp": "2026-10-17T22:13:44.849634Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "EchoNext",
-    "timestamp": "2026-10-17T22:13:43.296810Z"
   },
   {
     "level": "Attention",
@@ -472,11 +478,5 @@
     "message": "Queued targeted repair 685 \u00b7 coder.",
     "project": "Ditto",
     "timestamp": "2026-10-17T20:24:39.343902Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "Ditto",
-    "timestamp": "2026-10-17T20:24:31.858339Z"
   }
 ]
