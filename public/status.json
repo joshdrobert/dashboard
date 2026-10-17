@@ -19,7 +19,20 @@
       "startedAt": "2026-10-17T03:20:11.902648Z",
       "state": "STALE_UNKNOWN",
       "title": "targeted repair 595 \u00b7 coder",
-      "updatedAt": "2026-10-17T03:51:47.660651Z",
+      "updatedAt": "2026-10-17T03:53:09.577469Z",
+      "workerType": "coder"
+    },
+    {
+      "backend": "Local",
+      "heartbeatFresh": true,
+      "id": "644",
+      "parent": "514",
+      "project": "EchoNext",
+      "resource": "Local agent",
+      "startedAt": "2026-10-17T03:20:11.902567Z",
+      "state": "STALE_UNKNOWN",
+      "title": "targeted repair 579 \u00b7 coder",
+      "updatedAt": "2026-10-17T03:53:44.957061Z",
       "workerType": "coder"
     },
     {
@@ -59,19 +72,6 @@
       "state": "FAILED",
       "title": "local repair 604 1 \u00b7 planner",
       "updatedAt": "2026-10-16T19:45:30.839989Z",
-      "workerType": "planner"
-    },
-    {
-      "backend": "Local",
-      "heartbeatFresh": false,
-      "id": "600",
-      "parent": null,
-      "project": "EchoNext",
-      "resource": "Local agent",
-      "startedAt": "2026-10-16T18:11:08.586899Z",
-      "state": "FAILED",
-      "title": "local repair 579 2 \u00b7 planner",
-      "updatedAt": "2026-10-16T18:25:47.051255Z",
       "workerType": "planner"
     },
     {
@@ -144,10 +144,10 @@
         "completedAt": "2026-10-17T03:41:50.247139Z",
         "cycle": "6d3100b2bf47",
         "decided": 9,
-        "dispatched": 2,
-        "executed": 2,
+        "dispatched": 3,
+        "executed": 3,
         "failed": 0,
-        "matched": 1,
+        "matched": 0,
         "rejected": 6,
         "reviewed": 9,
         "startedAt": "2026-10-17T03:39:51.162541Z",
@@ -272,10 +272,10 @@
         "completedAt": "2026-10-17T03:41:50.247139Z",
         "cycle": "6d3100b2bf47",
         "decided": 9,
-        "dispatched": 2,
-        "executed": 2,
+        "dispatched": 3,
+        "executed": 3,
         "failed": 0,
-        "matched": 1,
+        "matched": 0,
         "rejected": 6,
         "reviewed": 9,
         "startedAt": "2026-10-17T03:39:51.162541Z",
@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-17T03:52:37.493982Z",
+  "generatedAt": "2026-10-17T03:54:38.509709Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -1303,7 +1303,7 @@
       "status": "Running"
     },
     {
-      "agentsNow": "No agent currently executing",
+      "agentsNow": "Running",
       "blocker": null,
       "currentObjective": "targeted repair 579 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
@@ -1311,14 +1311,14 @@
       "id": "echonext",
       "lastAccomplishment": "Verified local repair 487 milestone map \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T03:51:13.189488Z",
+      "lastMeaningfulActivity": "2026-10-17T03:53:44.957061Z",
       "name": "EchoNext",
-      "nextTask": "targeted repair 579 \u00b7 coder",
+      "nextTask": null,
       "operationalState": "RUNNABLE",
       "queueDepth": 1,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Queued"
+      "status": "Running"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1347,7 +1347,7 @@
       "id": "teer",
       "lastAccomplishment": "Verified regenerate plan 641 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T03:51:40.871556Z",
+      "lastMeaningfulActivity": "2026-10-17T03:53:02.461975Z",
       "name": "TEER",
       "nextTask": "targeted repair 596 \u00b7 coder",
       "operationalState": "RUNNABLE",
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-17T03:52:37.779200Z",
+  "publishedAt": "2026-10-17T03:54:38.747624Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1397,19 +1397,6 @@
       "state": "QUEUED",
       "title": "targeted repair 596 \u00b7 coder",
       "updatedAt": "2026-10-17T03:50:17.286829Z",
-      "workerType": "coder"
-    },
-    {
-      "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "644",
-      "parent": "514",
-      "project": "EchoNext",
-      "resource": "Local agent",
-      "startedAt": "2026-10-17T03:20:11.902567Z",
-      "state": "QUEUED",
-      "title": "targeted repair 579 \u00b7 coder",
-      "updatedAt": "2026-10-17T03:51:13.189488Z",
       "workerType": "coder"
     }
   ],
@@ -1510,11 +1497,11 @@
     "verifiedMilestones24h": 61,
     "verifiedMilestones2h": 0
   },
-  "semanticHash": "8ce2d56d54bc4e3f54e381e4efc4aa3b8b8b4ca0da6b715dfdebfeeaa7087343",
+  "semanticHash": "6d8e16bfb032acf7f412a32db952090e664d86d1916cf1a1fb8a7aa6cbfe3786",
   "snapshotVersion": "2.3",
   "sourceEventAt": "2026-10-17T03:51:13.189572Z",
   "system": {
-    "activeJobs": 2,
+    "activeJobs": 3,
     "autonomy": "DEGRADED",
     "status": "Needs attention"
   },
