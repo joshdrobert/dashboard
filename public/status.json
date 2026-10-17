@@ -32,7 +32,7 @@
       "startedAt": "2026-10-17T20:44:54.245517Z",
       "state": "STALE_UNKNOWN",
       "title": "targeted repair 686 \u00b7 coder",
-      "updatedAt": "2026-10-17T20:47:42.532672Z",
+      "updatedAt": "2026-10-17T20:47:46.207853Z",
       "workerType": "coder"
     },
     {
@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-17T20:47:44.854756Z",
+  "generatedAt": "2026-10-17T20:49:47.269527Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 9,
@@ -1311,7 +1311,7 @@
       "id": "echonext",
       "lastAccomplishment": "Verified local repair 648 validate fix \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T20:47:42.532672Z",
+      "lastMeaningfulActivity": "2026-10-17T20:47:46.207853Z",
       "name": "EchoNext",
       "nextTask": "targeted repair 684 \u00b7 coder",
       "operationalState": "RUNNABLE",
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-17T20:47:45.111115Z",
+  "publishedAt": "2026-10-17T20:49:47.515574Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1401,7 +1401,7 @@
     },
     {
       "backend": "Local",
-      "heartbeatFresh": true,
+      "heartbeatFresh": false,
       "id": "688",
       "parent": "652",
       "project": "EchoNext",
@@ -1510,7 +1510,7 @@
     "verifiedMilestones24h": 43,
     "verifiedMilestones2h": 4
   },
-  "semanticHash": "593972427b905297c37415b2e8dcaafe0108a4628523b9ade51cb0efd0720a96",
+  "semanticHash": "a448d653ce3a560e55dd75f33ea9ec4532df6d0beb2c49b25a61f709e74e76bb",
   "snapshotVersion": "2.3",
   "sourceEventAt": "2026-10-17T20:47:20.918967Z",
   "system": {
