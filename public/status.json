@@ -24,7 +24,7 @@
     },
     {
       "backend": "Local",
-      "heartbeatFresh": true,
+      "heartbeatFresh": false,
       "id": "711",
       "parent": "707",
       "project": "EchoNext",
@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-17T23:04:24.540159Z",
+  "generatedAt": "2026-10-17T23:06:24.652519Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-17T23:04:24.683930Z",
+  "publishedAt": "2026-10-17T23:06:24.830740Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1388,7 +1388,7 @@
   "queuedWork": [
     {
       "backend": "Local",
-      "heartbeatFresh": true,
+      "heartbeatFresh": false,
       "id": "709",
       "parent": "673",
       "project": "Ditto",
@@ -1497,7 +1497,7 @@
     "verifiedMilestones24h": 44,
     "verifiedMilestones2h": 11
   },
-  "semanticHash": "bff1e9f6d1ee1c7baeeaebb0bce297ac25e08141ce9f8ed4dfffa4cb884d3468",
+  "semanticHash": "d30d8603f515aeb822f4be3d81e21ee836f7cd9bc24300afadd6cdc9a757e09b",
   "snapshotVersion": "2.3",
   "sourceEventAt": "2026-10-17T23:03:21.526315Z",
   "system": {
