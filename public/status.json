@@ -1,6 +1,20 @@
 {
   "actionRequired": [],
-  "activeWork": [],
+  "activeWork": [
+    {
+      "backend": "Local",
+      "heartbeatFresh": true,
+      "id": "676",
+      "parent": null,
+      "project": "Ditto",
+      "resource": "Local agent",
+      "startedAt": "2026-10-17T18:31:57.111345Z",
+      "state": "VERIFYING",
+      "title": "stable repair quantity api 20261017 \u00b7 coder",
+      "updatedAt": "2026-10-17T18:42:55.032233Z",
+      "workerType": "coder"
+    }
+  ],
   "attentionRequired": [
     {
       "category": "Agents debugging",
@@ -32,21 +46,21 @@
       "startedAt": "2026-10-17T18:31:57.115297Z",
       "state": "STALE_UNKNOWN",
       "title": "stable repair test isolation 20261017 \u00b7 coder",
-      "updatedAt": "2026-10-17T18:32:09.327939Z",
+      "updatedAt": "2026-10-17T18:41:23.292160Z",
       "workerType": "coder"
     },
     {
       "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "676",
-      "parent": null,
+      "heartbeatFresh": false,
+      "id": "675",
+      "parent": "673",
       "project": "Ditto",
       "resource": "Local agent",
-      "startedAt": "2026-10-17T18:31:57.111345Z",
-      "state": "STALE_UNKNOWN",
-      "title": "stable repair quantity api 20261017 \u00b7 coder",
-      "updatedAt": "2026-10-17T18:32:13.007374Z",
-      "workerType": "coder"
+      "startedAt": "2026-10-17T06:36:51.807083Z",
+      "state": "FAILED",
+      "title": "plan after 673 \u00b7 planner",
+      "updatedAt": "2026-10-17T06:40:20.375524Z",
+      "workerType": "planner"
     },
     {
       "backend": "Local",
@@ -383,7 +397,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-17T18:41:02.077114Z",
+  "generatedAt": "2026-10-17T18:43:02.664965Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 9,
@@ -1203,9 +1217,9 @@
   ],
   "portfolioSummary": {
     "actionsRequiringUser": 0,
-    "activeLocalAgents": 0,
+    "activeLocalAgents": 1,
     "activeVisionJobs": 0,
-    "executingProjects": 0,
+    "executingProjects": 1,
     "projectsNeedingTechnicalAttention": 2,
     "registeredProjects": 9,
     "state": "Needs attention",
@@ -1285,7 +1299,7 @@
       "status": "Ready"
     },
     {
-      "agentsNow": "Running",
+      "agentsNow": "Verifying",
       "blocker": null,
       "currentObjective": "stable repair quantity api 20261017 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
@@ -1300,7 +1314,7 @@
       "queueDepth": 2,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Running"
+      "status": "Verifying"
     },
     {
       "agentsNow": "Running",
@@ -1311,7 +1325,7 @@
       "id": "echonext",
       "lastAccomplishment": "Verified local repair 648 validate fix \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T18:31:59.441294Z",
+      "lastMeaningfulActivity": "2026-10-17T18:41:04.544382Z",
       "name": "EchoNext",
       "nextTask": "stable repair collection 20261017 \u00b7 coder",
       "operationalState": "RUNNABLE",
@@ -1380,7 +1394,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-17T18:41:02.258551Z",
+  "publishedAt": "2026-10-17T18:43:03.028977Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1510,7 +1524,7 @@
     "verifiedMilestones24h": 62,
     "verifiedMilestones2h": 0
   },
-  "semanticHash": "abf658a82212ec2b127f7b46159406869be278d969872b1d937e426e4689a60b",
+  "semanticHash": "629fffd509737edae8404ec7075ae1cf078ff42da305b874a1857068dcaf68a9",
   "snapshotVersion": "2.3",
   "sourceEventAt": "2026-10-17T18:38:24.645368Z",
   "system": {
