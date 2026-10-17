@@ -1,6 +1,12 @@
 [
   {
     "level": "Recorded",
+    "message": "Queued local repair 692 1 \u00b7 planner.",
+    "project": "EchoNext",
+    "timestamp": "2026-10-17T21:43:02.750998Z"
+  },
+  {
+    "level": "Recorded",
     "message": "Controller recovery restored an interrupted task boundary.",
     "project": "Ditto",
     "timestamp": "2026-10-17T21:38:51.907109Z"
@@ -472,11 +478,5 @@
     "message": "Controller recovery restored an interrupted task boundary.",
     "project": "Ditto",
     "timestamp": "2026-10-17T19:01:43.178776Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recorded git integration complete.",
-    "project": "AI-Server",
-    "timestamp": "2026-10-17T18:38:24.645368Z"
   }
 ]

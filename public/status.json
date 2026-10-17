@@ -1,6 +1,20 @@
 {
   "actionRequired": [],
-  "activeWork": [],
+  "activeWork": [
+    {
+      "backend": "Local",
+      "heartbeatFresh": true,
+      "id": "696",
+      "parent": "652",
+      "project": "EchoNext",
+      "resource": "Local agent",
+      "startedAt": "2026-10-17T20:53:54.400759Z",
+      "state": "VERIFYING",
+      "title": "targeted repair 688 \u00b7 coder",
+      "updatedAt": "2026-10-17T21:43:06.261781Z",
+      "workerType": "coder"
+    }
+  ],
   "attentionRequired": [
     {
       "category": "Agents debugging",
@@ -43,9 +57,9 @@
       "project": "EchoNext",
       "resource": "Local agent",
       "startedAt": "2026-10-17T20:44:54.245517Z",
-      "state": "STALE_UNKNOWN",
+      "state": "FAILED",
       "title": "targeted repair 686 \u00b7 coder",
-      "updatedAt": "2026-10-17T21:38:21.684321Z",
+      "updatedAt": "2026-10-17T21:42:40.067527Z",
       "workerType": "coder"
     },
     {
@@ -383,7 +397,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-17T21:41:06.414510Z",
+  "generatedAt": "2026-10-17T21:43:08.796222Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 9,
@@ -400,6 +414,16 @@
     "verifiedPending": 1
   },
   "meaningfulEvents": [
+    {
+      "id": "162981",
+      "message": "Queued local repair 692 1 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "EchoNext",
+      "timestamp": "2026-10-17T21:43:02.750998Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
     {
       "id": "162811",
       "message": "Controller recovery restored an interrupted task boundary.",
@@ -1189,23 +1213,13 @@
       "type": "recovery",
       "verification": "Recorded",
       "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "154852",
-      "message": "Controller recorded git integration complete.",
-      "next": "Continue through the next controller gate.",
-      "project": "AI-Server",
-      "timestamp": "2026-10-17T18:38:24.645368Z",
-      "type": "git_integration_complete",
-      "verification": "Recorded",
-      "whyItMatters": "The authoritative event log changed."
     }
   ],
   "portfolioSummary": {
     "actionsRequiringUser": 0,
-    "activeLocalAgents": 0,
+    "activeLocalAgents": 1,
     "activeVisionJobs": 0,
-    "executingProjects": 0,
+    "executingProjects": 1,
     "projectsNeedingTechnicalAttention": 2,
     "registeredProjects": 9,
     "state": "Needs attention",
@@ -1303,22 +1317,22 @@
       "status": "Running"
     },
     {
-      "agentsNow": "Running",
+      "agentsNow": "Verifying",
       "blocker": null,
-      "currentObjective": "targeted repair 686 \u00b7 coder",
+      "currentObjective": "targeted repair 688 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "echonext",
       "lastAccomplishment": "Verified local repair 648 validate fix \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T21:37:38.863413Z",
+      "lastMeaningfulActivity": "2026-10-17T21:43:02.750928Z",
       "name": "EchoNext",
-      "nextTask": "targeted repair 688 \u00b7 coder",
+      "nextTask": "local repair 692 1 \u00b7 planner",
       "operationalState": "RUNNABLE",
       "queueDepth": 2,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Running"
+      "status": "Verifying"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1380,12 +1394,25 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-17T21:41:06.664454Z",
+  "publishedAt": "2026-10-17T21:43:09.155919Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
   },
   "queuedWork": [
+    {
+      "backend": "Local",
+      "heartbeatFresh": false,
+      "id": "703",
+      "parent": null,
+      "project": "EchoNext",
+      "resource": "Local agent",
+      "startedAt": "2026-10-17T21:43:02.750928Z",
+      "state": "QUEUED",
+      "title": "local repair 692 1 \u00b7 planner",
+      "updatedAt": "2026-10-17T21:43:02.750928Z",
+      "workerType": "planner"
+    },
     {
       "backend": "Local",
       "heartbeatFresh": false,
@@ -1397,19 +1424,6 @@
       "state": "QUEUED",
       "title": "targeted repair 693 \u00b7 coder",
       "updatedAt": "2026-10-17T21:38:51.907035Z",
-      "workerType": "coder"
-    },
-    {
-      "backend": "Local",
-      "heartbeatFresh": false,
-      "id": "696",
-      "parent": "652",
-      "project": "EchoNext",
-      "resource": "Local agent",
-      "startedAt": "2026-10-17T20:53:54.400759Z",
-      "state": "QUEUED",
-      "title": "targeted repair 688 \u00b7 coder",
-      "updatedAt": "2026-10-17T21:37:36.763994Z",
       "workerType": "coder"
     }
   ],
@@ -1510,9 +1524,9 @@
     "verifiedMilestones24h": 37,
     "verifiedMilestones2h": 6
   },
-  "semanticHash": "4ae1937b06bb888b77f38aa547767504e81719fb995ca910a7067d0cf92d4d5b",
+  "semanticHash": "34203bfef0cefada054ee88c7b1abff3f202cef7199a1d8c2e6763ba93e85603",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-17T21:38:51.907109Z",
+  "sourceEventAt": "2026-10-17T21:43:02.750998Z",
   "system": {
     "activeJobs": 3,
     "autonomy": "DEGRADED",
