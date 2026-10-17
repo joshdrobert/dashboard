@@ -2,6 +2,24 @@
   {
     "level": "Recorded",
     "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "EchoNext",
+    "timestamp": "2026-10-17T22:15:32.298713Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "EchoNext",
+    "timestamp": "2026-10-17T22:15:32.298674Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Controller recorded git integration complete.",
+    "project": "AI-Server",
+    "timestamp": "2026-10-17T22:15:06.976455Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
     "project": "Ditto",
     "timestamp": "2026-10-17T22:13:44.849700Z"
   },
@@ -460,23 +478,5 @@
     "message": "A bounded task failed and entered recovery.",
     "project": "Ditto",
     "timestamp": "2026-10-17T20:24:31.858339Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "Ditto",
-    "timestamp": "2026-10-17T20:15:10.993779Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Accepted task completed: local repair 683 1 \u00b7 planner.",
-    "project": "TEER",
-    "timestamp": "2026-10-17T20:13:00.086153Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued repair 683 import collision \u00b7 coder.",
-    "project": "TEER",
-    "timestamp": "2026-10-17T20:12:52.042242Z"
   }
 ]
