@@ -1,5 +1,23 @@
 [
   {
+    "level": "Verified",
+    "message": "Accepted task completed: local repair 692 index fix \u00b7 coder.",
+    "project": "EchoNext",
+    "timestamp": "2026-10-17T22:20:36.936637Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Queued plan after 707 \u00b7 planner.",
+    "project": "EchoNext",
+    "timestamp": "2026-10-17T22:20:22.157023Z"
+  },
+  {
+    "level": "Verified",
+    "message": "Verification passed for local repair 692 index fix \u00b7 coder.",
+    "project": "EchoNext",
+    "timestamp": "2026-10-17T22:20:21.556631Z"
+  },
+  {
     "level": "Recorded",
     "message": "Controller recovery restored an interrupted task boundary.",
     "project": "Ditto",
@@ -460,23 +478,5 @@
     "message": "A bounded task failed and entered recovery.",
     "project": "TEER",
     "timestamp": "2026-10-17T20:37:30.806723Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "Ditto",
-    "timestamp": "2026-10-17T20:32:31.496188Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "EchoNext",
-    "timestamp": "2026-10-17T20:26:22.471805Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued targeted repair 685 \u00b7 coder.",
-    "project": "Ditto",
-    "timestamp": "2026-10-17T20:24:39.343902Z"
   }
 ]
