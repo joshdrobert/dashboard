@@ -19,7 +19,7 @@
       "startedAt": "2026-10-17T05:17:46.360089Z",
       "state": "STALE_UNKNOWN",
       "title": "targeted repair 667 \u00b7 coder",
-      "updatedAt": "2026-10-17T05:29:36.389180Z",
+      "updatedAt": "2026-10-17T05:32:15.493189Z",
       "workerType": "coder"
     },
     {
@@ -383,7 +383,7 @@
     "state": "PHASE1_RUNNING",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-17T05:30:15.475666Z",
+  "generatedAt": "2026-10-17T05:32:15.818819Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -401,21 +401,21 @@
   },
   "meaningfulEvents": [
     {
-      "id": "152293",
+      "id": "152435",
       "message": "Controller recovery restored an interrupted task boundary.",
       "next": "Continue through the next controller gate.",
       "project": "Ditto",
-      "timestamp": "2026-10-17T05:20:38.227878Z",
+      "timestamp": "2026-10-17T05:30:39.078832Z",
       "type": "recovery",
       "verification": "Recorded",
       "whyItMatters": "Safe autonomous execution can resume."
     },
     {
-      "id": "152292",
+      "id": "152434",
       "message": "A bounded task failed and entered recovery.",
       "next": "Continue through the next controller gate.",
       "project": "Ditto",
-      "timestamp": "2026-10-17T05:20:38.227835Z",
+      "timestamp": "2026-10-17T05:30:39.078809Z",
       "type": "failure",
       "verification": "Attention",
       "whyItMatters": "The failure remains visible until repaired."
@@ -1293,7 +1293,7 @@
       "id": "ditto",
       "lastAccomplishment": "Verified regenerate plan 501 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T05:29:36.389180Z",
+      "lastMeaningfulActivity": "2026-10-17T05:32:15.493189Z",
       "name": "Ditto",
       "nextTask": null,
       "operationalState": "RUNNABLE",
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-17T05:30:15.804589Z",
+  "publishedAt": "2026-10-17T05:32:16.027757Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1483,9 +1483,9 @@
     "verifiedMilestones24h": 70,
     "verifiedMilestones2h": 23
   },
-  "semanticHash": "e5cd4585013a7f9f291f0c913ef64a52f3612b995c48bdd30fe241ca1ed38cbb",
+  "semanticHash": "9325a605d210e0918d4ceab5b2142eab8c6866e73a219f6303038d530730807c",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-17T05:20:38.227878Z",
+  "sourceEventAt": "2026-10-17T05:30:39.078832Z",
   "system": {
     "activeJobs": 1,
     "autonomy": "DEGRADED",
