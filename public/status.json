@@ -383,23 +383,33 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-17T18:36:59.052655Z",
+  "generatedAt": "2026-10-17T18:39:00.930899Z",
   "gitIntegration": {
     "activeProtected": 0,
-    "alreadyIntegrated": 53,
-    "awaitingTests": 5,
-    "branchesAudited": 474,
-    "lastSuccessfulDailyRun": "2026-10-16T17:34:19.060029Z",
-    "missingTaskProvenance": 11,
+    "alreadyIntegrated": 9,
+    "awaitingTests": 3,
+    "branchesAudited": 411,
+    "lastSuccessfulDailyRun": "2026-10-17T18:38:24.644974Z",
+    "missingTaskProvenance": 7,
     "newlyIntegrated24h": 0,
-    "oldestEligibleAgeHours": 0,
+    "oldestEligibleAgeHours": 0.1,
     "repositoriesMonitored": 10,
-    "scientificReviewBlockers": 3,
+    "scientificReviewBlockers": 5,
     "stableVerification": "No stable update in latest batch",
     "trueMergeConflicts": 0,
-    "verifiedPending": 0
+    "verifiedPending": 1
   },
   "meaningfulEvents": [
+    {
+      "id": "154852",
+      "message": "Controller recorded git integration complete.",
+      "next": "Continue through the next controller gate.",
+      "project": "AI-Server",
+      "timestamp": "2026-10-17T18:38:24.645368Z",
+      "type": "git_integration_complete",
+      "verification": "Recorded",
+      "whyItMatters": "The authoritative event log changed."
+    },
     {
       "id": "154799",
       "message": "A Codex orientation was delivered.",
@@ -1189,16 +1199,6 @@
       "type": "accepted",
       "verification": "Verified",
       "whyItMatters": "Dependent work may advance."
-    },
-    {
-      "id": "151497",
-      "message": "Queued regenerate plan 663 \u00b7 planner.",
-      "next": "Continue through the next controller gate.",
-      "project": "EchoNext",
-      "timestamp": "2026-10-17T04:39:22.855295Z",
-      "type": "task_queued",
-      "verification": "Recorded",
-      "whyItMatters": "The next unit of work is durable."
     }
   ],
   "portfolioSummary": {
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-17T18:36:59.343547Z",
+  "publishedAt": "2026-10-17T18:39:01.141916Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1510,9 +1510,9 @@
     "verifiedMilestones24h": 62,
     "verifiedMilestones2h": 0
   },
-  "semanticHash": "5e74d1ca490c107499060088cd0348d73394ac696d58ff3f3f8317ea48a3f700",
+  "semanticHash": "0668d39e9c3da052ef4988d232ed893e09f7f8f131a863737855972e57d68c2b",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-17T18:36:34.575284Z",
+  "sourceEventAt": "2026-10-17T18:38:24.645368Z",
   "system": {
     "activeJobs": 3,
     "autonomy": "DEGRADED",
