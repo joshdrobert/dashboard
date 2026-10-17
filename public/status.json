@@ -32,7 +32,7 @@
       "startedAt": "2026-10-17T03:20:11.902567Z",
       "state": "STALE_UNKNOWN",
       "title": "targeted repair 579 \u00b7 coder",
-      "updatedAt": "2026-10-17T03:45:34.553160Z",
+      "updatedAt": "2026-10-17T03:48:21.636022Z",
       "workerType": "coder"
     },
     {
@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-17T03:46:33.313941Z",
+  "generatedAt": "2026-10-17T03:48:33.998122Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -1311,7 +1311,7 @@
       "id": "echonext",
       "lastAccomplishment": "Verified local repair 487 milestone map \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T03:45:34.553160Z",
+      "lastMeaningfulActivity": "2026-10-17T03:48:21.636022Z",
       "name": "EchoNext",
       "nextTask": null,
       "operationalState": "RUNNABLE",
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-17T03:46:33.557735Z",
+  "publishedAt": "2026-10-17T03:48:34.275652Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1388,7 +1388,7 @@
   "queuedWork": [
     {
       "backend": "Local",
-      "heartbeatFresh": true,
+      "heartbeatFresh": false,
       "id": "645",
       "parent": "431",
       "project": "TEER",
@@ -1497,7 +1497,7 @@
     "verifiedMilestones24h": 61,
     "verifiedMilestones2h": 0
   },
-  "semanticHash": "1133385e0f7ce28a749515729868f1e8534e92358a4aa830d617382e9fa15a4c",
+  "semanticHash": "f80bd0fbf27230d504c253a136814f63dbede588487a61b12ee048759bf0cfef",
   "snapshotVersion": "2.3",
   "sourceEventAt": "2026-10-17T03:46:15.065589Z",
   "system": {
