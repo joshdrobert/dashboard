@@ -2,6 +2,36 @@
   {
     "level": "Recorded",
     "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "TEER",
+    "timestamp": "2026-10-17T21:25:31.026742Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "TEER",
+    "timestamp": "2026-10-17T21:25:31.026657Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Queued local repair 698 1 \u00b7 planner.",
+    "project": "TEER",
+    "timestamp": "2026-10-17T21:25:02.075494Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "EchoNext",
+    "timestamp": "2026-10-17T21:24:48.370271Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "EchoNext",
+    "timestamp": "2026-10-17T21:24:48.370225Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
     "project": "EchoNext",
     "timestamp": "2026-10-17T21:22:13.390820Z"
   },
@@ -448,35 +478,5 @@
     "message": "Queued stable repair test isolation 20261017 \u00b7 coder.",
     "project": "EchoNext",
     "timestamp": "2026-10-17T18:31:57.116063Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued stable repair calibration contract 20261017 \u00b7 coder.",
-    "project": "Ditto",
-    "timestamp": "2026-10-17T18:31:57.114014Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued stable repair quantity api 20261017 \u00b7 coder.",
-    "project": "Ditto",
-    "timestamp": "2026-10-17T18:31:57.112053Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "A Codex orientation was delivered.",
-    "project": "TEER",
-    "timestamp": "2026-10-17T17:54:40.612175Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "A Codex orientation was delivered.",
-    "project": "EchoNext",
-    "timestamp": "2026-10-17T17:54:40.609066Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "A Codex orientation was delivered.",
-    "project": "Ditto",
-    "timestamp": "2026-10-17T17:54:40.608022Z"
   }
 ]
