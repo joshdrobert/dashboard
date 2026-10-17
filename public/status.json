@@ -1,14 +1,6 @@
 {
   "actionRequired": [],
-  "activeWork": [],
-  "attentionRequired": [
-    {
-      "category": "Agents debugging",
-      "message": "2 task(s) are in repair or retry states.",
-      "project": "Portfolio"
-    }
-  ],
-  "blockedWork": [
+  "activeWork": [
     {
       "backend": "Local",
       "heartbeatFresh": true,
@@ -17,11 +9,20 @@
       "project": "Ditto",
       "resource": "Local agent",
       "startedAt": "2026-10-17T21:35:47.884106Z",
-      "state": "STALE_UNKNOWN",
+      "state": "VERIFYING",
       "title": "targeted repair 697 \u00b7 coder",
-      "updatedAt": "2026-10-17T21:54:11.670789Z",
+      "updatedAt": "2026-10-17T21:57:24.357931Z",
       "workerType": "coder"
-    },
+    }
+  ],
+  "attentionRequired": [
+    {
+      "category": "Agents debugging",
+      "message": "2 task(s) are in repair or retry states.",
+      "project": "Portfolio"
+    }
+  ],
+  "blockedWork": [
     {
       "backend": "Local",
       "heartbeatFresh": true,
@@ -37,6 +38,19 @@
     },
     {
       "backend": "Local",
+      "heartbeatFresh": false,
+      "id": "697",
+      "parent": "673",
+      "project": "Ditto",
+      "resource": "Local agent",
+      "startedAt": "2026-10-17T21:02:01.809728Z",
+      "state": "FAILED",
+      "title": "targeted repair 691 \u00b7 coder",
+      "updatedAt": "2026-10-17T21:35:37.642338Z",
+      "workerType": "coder"
+    },
+    {
+      "backend": "Local",
       "heartbeatFresh": true,
       "id": "696",
       "parent": "652",
@@ -45,7 +59,7 @@
       "startedAt": "2026-10-17T20:53:54.400759Z",
       "state": "STALE_UNKNOWN",
       "title": "targeted repair 688 \u00b7 coder",
-      "updatedAt": "2026-10-17T21:53:52.967079Z",
+      "updatedAt": "2026-10-17T21:57:42.313211Z",
       "workerType": "coder"
     },
     {
@@ -383,7 +397,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-17T21:55:17.458644Z",
+  "generatedAt": "2026-10-17T21:57:44.538974Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 9,
@@ -1203,9 +1217,9 @@
   ],
   "portfolioSummary": {
     "actionsRequiringUser": 0,
-    "activeLocalAgents": 0,
+    "activeLocalAgents": 1,
     "activeVisionJobs": 0,
-    "executingProjects": 0,
+    "executingProjects": 1,
     "projectsNeedingTechnicalAttention": 2,
     "registeredProjects": 9,
     "state": "Needs attention",
@@ -1285,7 +1299,7 @@
       "status": "Ready"
     },
     {
-      "agentsNow": "Running",
+      "agentsNow": "Verifying",
       "blocker": null,
       "currentObjective": "targeted repair 697 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
@@ -1293,14 +1307,14 @@
       "id": "ditto",
       "lastAccomplishment": "Verified add error coverage tests \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T21:54:11.670789Z",
+      "lastMeaningfulActivity": "2026-10-17T21:57:24.357931Z",
       "name": "Ditto",
       "nextTask": "targeted repair 693 \u00b7 coder",
       "operationalState": "RUNNABLE",
       "queueDepth": 2,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Running"
+      "status": "Verifying"
     },
     {
       "agentsNow": "Running",
@@ -1311,7 +1325,7 @@
       "id": "echonext",
       "lastAccomplishment": "Verified local repair 648 validate fix \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T21:53:28.393827Z",
+      "lastMeaningfulActivity": "2026-10-17T21:57:15.510023Z",
       "name": "EchoNext",
       "nextTask": "local repair 692 1 \u00b7 planner",
       "operationalState": "RUNNABLE",
@@ -1380,7 +1394,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-17T21:55:17.772758Z",
+  "publishedAt": "2026-10-17T21:57:45.037189Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1510,7 +1524,7 @@
     "verifiedMilestones24h": 37,
     "verifiedMilestones2h": 6
   },
-  "semanticHash": "0b4ee4a7be435c42667ce0cd07b974650549cce0c0436efebb5b274ec9c9568d",
+  "semanticHash": "f7f5bb48ef72c921f58e132ea7f450d66da0cf3e50fab6831636cbbc07c7e9af",
   "snapshotVersion": "2.3",
   "sourceEventAt": "2026-10-17T21:53:27.812970Z",
   "system": {
