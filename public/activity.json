@@ -1,6 +1,24 @@
 [
   {
     "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "TEER",
+    "timestamp": "2026-10-17T04:41:41.238495Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "TEER",
+    "timestamp": "2026-10-17T04:41:41.238448Z"
+  },
+  {
+    "level": "Verified",
+    "message": "Verification passed for regenerate plan 663 \u00b7 planner.",
+    "project": "EchoNext",
+    "timestamp": "2026-10-17T04:41:28.916711Z"
+  },
+  {
+    "level": "Recorded",
     "message": "Queued regenerate plan 663 \u00b7 planner.",
     "project": "EchoNext",
     "timestamp": "2026-10-17T04:39:22.855295Z"
@@ -460,23 +478,5 @@
     "message": "A Codex orientation was delivered.",
     "project": "Ditto",
     "timestamp": "2026-10-17T03:30:43.926199Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued targeted repair 596 \u00b7 coder.",
-    "project": "TEER",
-    "timestamp": "2026-10-17T03:20:11.902710Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued targeted repair 595 \u00b7 coder.",
-    "project": "TEER",
-    "timestamp": "2026-10-17T03:20:11.902659Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued targeted repair 579 \u00b7 coder.",
-    "project": "EchoNext",
-    "timestamp": "2026-10-17T03:20:11.902583Z"
   }
 ]
