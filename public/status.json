@@ -11,6 +11,19 @@
   "blockedWork": [
     {
       "backend": "Local",
+      "heartbeatFresh": true,
+      "id": "712",
+      "parent": null,
+      "project": "Ditto",
+      "resource": "Local agent",
+      "startedAt": "2026-10-17T22:52:25.151681Z",
+      "state": "STALE_UNKNOWN",
+      "title": "local repair 705 1 \u00b7 planner",
+      "updatedAt": "2026-10-17T23:24:33.503945Z",
+      "workerType": "planner"
+    },
+    {
+      "backend": "Local",
       "heartbeatFresh": false,
       "id": "711",
       "parent": "707",
@@ -34,19 +47,6 @@
       "title": "regenerate plan 708 \u00b7 planner",
       "updatedAt": "2026-10-17T22:12:41.324852Z",
       "workerType": "planner"
-    },
-    {
-      "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "709",
-      "parent": "673",
-      "project": "Ditto",
-      "resource": "Local agent",
-      "startedAt": "2026-10-17T22:10:58.268229Z",
-      "state": "STALE_UNKNOWN",
-      "title": "targeted repair 702 \u00b7 coder",
-      "updatedAt": "2026-10-17T23:14:28.356408Z",
-      "workerType": "coder"
     },
     {
       "backend": "Local",
@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-17T23:16:30.933686Z",
+  "generatedAt": "2026-10-17T23:24:35.702223Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -400,6 +400,16 @@
     "verifiedPending": 0
   },
   "meaningfulEvents": [
+    {
+      "id": "165136",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-17T23:24:28.590898Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
     {
       "id": "165116",
       "message": "Controller recovery restored an interrupted task boundary.",
@@ -429,16 +439,6 @@
       "type": "recovery",
       "verification": "Recorded",
       "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "165098",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "Ditto",
-      "timestamp": "2026-10-17T23:03:21.526294Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
     },
     {
       "id": "165092",
@@ -1287,17 +1287,17 @@
     {
       "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "targeted repair 702 \u00b7 coder",
+      "currentObjective": "local repair 705 1 \u00b7 planner",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "ditto",
       "lastAccomplishment": "Verified add error coverage tests \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T23:13:27.402626Z",
+      "lastMeaningfulActivity": "2026-10-17T23:24:33.503945Z",
       "name": "Ditto",
-      "nextTask": "local repair 705 1 \u00b7 planner",
+      "nextTask": null,
       "operationalState": "RUNNABLE",
-      "queueDepth": 2,
+      "queueDepth": 1,
       "readyForHuman": false,
       "researchStage": "Active research program",
       "status": "Running"
@@ -1380,26 +1380,12 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-17T23:16:31.079813Z",
+  "publishedAt": "2026-10-17T23:24:35.946298Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
   },
-  "queuedWork": [
-    {
-      "backend": "Local",
-      "heartbeatFresh": false,
-      "id": "712",
-      "parent": null,
-      "project": "Ditto",
-      "resource": "Local agent",
-      "startedAt": "2026-10-17T22:52:25.151681Z",
-      "state": "QUEUED",
-      "title": "local repair 705 1 \u00b7 planner",
-      "updatedAt": "2026-10-17T23:13:26.504613Z",
-      "workerType": "planner"
-    }
-  ],
+  "queuedWork": [],
   "recentlyCompleted": [
     {
       "id": "707",
@@ -1497,9 +1483,9 @@
     "verifiedMilestones24h": 43,
     "verifiedMilestones2h": 11
   },
-  "semanticHash": "0667fb9b1c79d4608922001c9425e608a1722e4254eb6973cf31a9a4b7ac8981",
+  "semanticHash": "728ba26311c9b871543dd5b8a5a35065e5387a3e1f392834cade9f6277af0002",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-17T23:13:26.504668Z",
+  "sourceEventAt": "2026-10-17T23:24:28.590898Z",
   "system": {
     "activeJobs": 1,
     "autonomy": "DEGRADED",
