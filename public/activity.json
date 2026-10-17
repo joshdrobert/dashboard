@@ -1,5 +1,11 @@
 [
   {
+    "level": "Recorded",
+    "message": "Queued local repair 709 1 \u00b7 planner.",
+    "project": "Ditto",
+    "timestamp": "2026-10-17T23:24:37.423469Z"
+  },
+  {
     "level": "Attention",
     "message": "A bounded task failed and entered recovery.",
     "project": "Ditto",
@@ -472,11 +478,5 @@
     "message": "Verification passed for local repair 690 1 \u00b7 planner.",
     "project": "TEER",
     "timestamp": "2026-10-17T20:46:55.107228Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued local repair 690 1 \u00b7 planner.",
-    "project": "TEER",
-    "timestamp": "2026-10-17T20:46:08.791076Z"
   }
 ]
