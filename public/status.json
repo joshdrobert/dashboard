@@ -12,15 +12,15 @@
     {
       "backend": "Local",
       "heartbeatFresh": true,
-      "id": "673",
-      "parent": "671",
+      "id": "675",
+      "parent": "673",
       "project": "Ditto",
       "resource": "Local agent",
-      "startedAt": "2026-10-17T06:20:34.957822Z",
+      "startedAt": "2026-10-17T06:36:51.807083Z",
       "state": "STALE_UNKNOWN",
-      "title": "add bias validation \u00b7 coder",
-      "updatedAt": "2026-10-17T06:34:17.116763Z",
-      "workerType": "coder"
+      "title": "plan after 673 \u00b7 planner",
+      "updatedAt": "2026-10-17T06:36:54.700279Z",
+      "workerType": "planner"
     },
     {
       "backend": "Local",
@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-17T06:34:54.652161Z",
+  "generatedAt": "2026-10-17T06:36:54.754362Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -400,6 +400,76 @@
     "verifiedPending": 0
   },
   "meaningfulEvents": [
+    {
+      "id": "153798",
+      "message": "Accepted task completed: add bias validation \u00b7 coder.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-17T06:36:54.692479Z",
+      "type": "task_exit_accepted",
+      "verification": "Verified",
+      "whyItMatters": "The controller recorded the completion."
+    },
+    {
+      "id": "153790",
+      "message": "Queued plan after 673 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-17T06:36:51.807542Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "153788",
+      "message": "Verification passed for add bias validation \u00b7 coder.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-17T06:36:50.723656Z",
+      "type": "accepted",
+      "verification": "Verified",
+      "whyItMatters": "Dependent work may advance."
+    },
+    {
+      "id": "153779",
+      "message": "Accepted task completed: add error coverage tests \u00b7 coder.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-17T06:35:26.076295Z",
+      "type": "task_exit_accepted",
+      "verification": "Verified",
+      "whyItMatters": "The controller recorded the completion."
+    },
+    {
+      "id": "153775",
+      "message": "Verification passed for add error coverage tests \u00b7 coder.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-17T06:35:21.151929Z",
+      "type": "accepted",
+      "verification": "Verified",
+      "whyItMatters": "Dependent work may advance."
+    },
+    {
+      "id": "153765",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-17T06:35:15.717756Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "153764",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-17T06:35:15.717733Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
     {
       "id": "153705",
       "message": "Controller recovery restored an interrupted task boundary.",
@@ -439,26 +509,6 @@
       "type": "accepted",
       "verification": "Verified",
       "whyItMatters": "Dependent work may advance."
-    },
-    {
-      "id": "153606",
-      "message": "Controller recovery restored an interrupted task boundary.",
-      "next": "Continue through the next controller gate.",
-      "project": "Ditto",
-      "timestamp": "2026-10-17T06:31:59.242473Z",
-      "type": "recovery",
-      "verification": "Recorded",
-      "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "153605",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "Ditto",
-      "timestamp": "2026-10-17T06:31:59.242439Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
     },
     {
       "id": "153504",
@@ -1149,56 +1199,6 @@
       "type": "failure",
       "verification": "Attention",
       "whyItMatters": "The failure remains visible until repaired."
-    },
-    {
-      "id": "150872",
-      "message": "Controller recovery restored an interrupted task boundary.",
-      "next": "Continue through the next controller gate.",
-      "project": "EchoNext",
-      "timestamp": "2026-10-17T04:27:58.760682Z",
-      "type": "recovery",
-      "verification": "Recorded",
-      "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "150871",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "EchoNext",
-      "timestamp": "2026-10-17T04:27:58.760638Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
-    },
-    {
-      "id": "150726",
-      "message": "Controller recovery restored an interrupted task boundary.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-17T04:23:40.917939Z",
-      "type": "recovery",
-      "verification": "Recorded",
-      "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "150666",
-      "message": "Accepted task completed: regenerate plan 647 \u00b7 planner.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-17T04:22:56.703427Z",
-      "type": "task_exit_accepted",
-      "verification": "Verified",
-      "whyItMatters": "The controller recorded the completion."
-    },
-    {
-      "id": "150656",
-      "message": "Queued repair 645 remove duplicate test \u00b7 coder.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-17T04:22:48.264358Z",
-      "type": "task_queued",
-      "verification": "Recorded",
-      "whyItMatters": "The next unit of work is durable."
     }
   ],
   "portfolioSummary": {
@@ -1209,7 +1209,7 @@
     "projectsNeedingTechnicalAttention": 3,
     "registeredProjects": 9,
     "state": "Needs attention",
-    "verifiedCompletions24h": 68
+    "verifiedCompletions24h": 70
   },
   "projects": [
     {
@@ -1287,17 +1287,17 @@
     {
       "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "add bias validation \u00b7 coder",
+      "currentObjective": "plan after 673 \u00b7 planner",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "ditto",
-      "lastAccomplishment": "Verified repair 670 \u00b7 coder.",
+      "lastAccomplishment": "Verified add error coverage tests \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T06:34:13.957653Z",
+      "lastMeaningfulActivity": "2026-10-17T06:36:54.700279Z",
       "name": "Ditto",
-      "nextTask": "add error coverage tests \u00b7 coder",
+      "nextTask": null,
       "operationalState": "RUNNABLE",
-      "queueDepth": 2,
+      "queueDepth": 1,
       "readyForHuman": false,
       "researchStage": "Active research program",
       "status": "Running"
@@ -1380,27 +1380,27 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-17T06:34:54.812007Z",
+  "publishedAt": "2026-10-17T06:36:54.912844Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
   },
-  "queuedWork": [
-    {
-      "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "674",
-      "parent": "671",
-      "project": "Ditto",
-      "resource": "Local agent",
-      "startedAt": "2026-10-17T06:20:34.957838Z",
-      "state": "QUEUED",
-      "title": "add error coverage tests \u00b7 coder",
-      "updatedAt": "2026-10-17T06:34:13.549632Z",
-      "workerType": "coder"
-    }
-  ],
+  "queuedWork": [],
   "recentlyCompleted": [
+    {
+      "id": "673",
+      "project": "Ditto",
+      "state": "COMPLETED",
+      "title": "add bias validation \u00b7 coder",
+      "updatedAt": "2026-10-17T06:36:50.723465Z"
+    },
+    {
+      "id": "674",
+      "project": "Ditto",
+      "state": "COMPLETED",
+      "title": "add error coverage tests \u00b7 coder",
+      "updatedAt": "2026-10-17T06:35:21.151773Z"
+    },
     {
       "id": "672",
       "project": "Ditto",
@@ -1470,20 +1470,6 @@
       "state": "COMPLETED",
       "title": "local repair 648 2 \u00b7 planner",
       "updatedAt": "2026-10-17T04:18:39.431406Z"
-    },
-    {
-      "id": "642",
-      "project": "TEER",
-      "state": "COMPLETED",
-      "title": "regenerate plan 641 \u00b7 planner",
-      "updatedAt": "2026-10-16T22:01:21.832993Z"
-    },
-    {
-      "id": "640",
-      "project": "TEER",
-      "state": "COMPLETED",
-      "title": "regenerate plan 637 \u00b7 planner",
-      "updatedAt": "2026-10-16T21:54:38.419030Z"
     }
   ],
   "recoveryWork": [],
@@ -1493,13 +1479,13 @@
     "manuscriptMilestones": 0,
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0,
-    "verifiedMilestones12h": 68,
-    "verifiedMilestones24h": 68,
-    "verifiedMilestones2h": 11
+    "verifiedMilestones12h": 70,
+    "verifiedMilestones24h": 70,
+    "verifiedMilestones2h": 12
   },
-  "semanticHash": "32aad52a8865625ad37822e11ccc6214d24111c7e8b6c5635ec7b7509047636a",
+  "semanticHash": "ddf96814a3b7ceda776e455e45942151dcb660811618d9f6a072d8d3746075f1",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-17T06:34:13.549670Z",
+  "sourceEventAt": "2026-10-17T06:36:54.692479Z",
   "system": {
     "activeJobs": 1,
     "autonomy": "DEGRADED",
