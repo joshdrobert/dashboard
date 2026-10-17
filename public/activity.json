@@ -1,6 +1,24 @@
 [
   {
     "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "TEER",
+    "timestamp": "2026-10-17T03:23:21.426784Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "EchoNext",
+    "timestamp": "2026-10-17T03:23:21.406520Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "Ditto",
+    "timestamp": "2026-10-17T03:23:21.351065Z"
+  },
+  {
+    "level": "Recorded",
     "message": "Queued targeted repair 596 \u00b7 coder.",
     "project": "TEER",
     "timestamp": "2026-10-17T03:20:11.902710Z"
@@ -460,23 +478,5 @@
     "message": "Verification passed for local repair 608 invariant preserve \u00b7 coder.",
     "project": "AortaPlan",
     "timestamp": "2026-10-16T20:20:22.778304Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "AortaPlan",
-    "timestamp": "2026-10-16T20:18:57.422285Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "AortaPlan",
-    "timestamp": "2026-10-16T20:18:57.422203Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Accepted task completed: local repair 608 synthetic validation \u00b7 coder.",
-    "project": "AortaPlan",
-    "timestamp": "2026-10-16T20:17:05.147776Z"
   }
 ]
