@@ -2,6 +2,18 @@
   {
     "level": "Recorded",
     "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "EchoNext",
+    "timestamp": "2026-10-17T03:51:13.189572Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "EchoNext",
+    "timestamp": "2026-10-17T03:51:13.189520Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
     "project": "TEER",
     "timestamp": "2026-10-17T03:46:15.065589Z"
   },
@@ -64,12 +76,6 @@
     "message": "A Codex orientation was delivered.",
     "project": "AI-Server",
     "timestamp": "2026-10-17T03:41:50.251722Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "EchoNext",
-    "timestamp": "2026-10-17T03:36:26.094383Z"
   },
   {
     "level": "Recorded",
@@ -472,11 +478,5 @@
     "message": "Controller recovery restored an interrupted task boundary.",
     "project": "TEER",
     "timestamp": "2026-10-16T20:29:31.941230Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "AortaPlan",
-    "timestamp": "2026-10-16T20:26:22.956912Z"
   }
 ]
