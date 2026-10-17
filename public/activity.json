@@ -3,6 +3,30 @@
     "level": "Recorded",
     "message": "Controller recovery restored an interrupted task boundary.",
     "project": "Ditto",
+    "timestamp": "2026-10-17T22:42:09.747201Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "Ditto",
+    "timestamp": "2026-10-17T22:42:09.747180Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "EchoNext",
+    "timestamp": "2026-10-17T22:41:37.850404Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "EchoNext",
+    "timestamp": "2026-10-17T22:41:37.850370Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "Ditto",
     "timestamp": "2026-10-17T22:31:04.133791Z"
   },
   {
@@ -10,18 +34,6 @@
     "message": "A bounded task failed and entered recovery.",
     "project": "Ditto",
     "timestamp": "2026-10-17T22:31:04.133726Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "EchoNext",
-    "timestamp": "2026-10-17T22:30:54.829317Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "EchoNext",
-    "timestamp": "2026-10-17T22:30:54.829285Z"
   },
   {
     "level": "Recorded",
@@ -106,12 +118,6 @@
     "message": "Controller recovery restored an interrupted task boundary.",
     "project": "EchoNext",
     "timestamp": "2026-10-17T22:17:34.673651Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "Ditto",
-    "timestamp": "2026-10-17T22:17:34.638622Z"
   },
   {
     "level": "Recorded",
@@ -472,11 +478,5 @@
     "message": "Queued targeted repair 686 \u00b7 coder.",
     "project": "EchoNext",
     "timestamp": "2026-10-17T20:44:54.245619Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "EchoNext",
-    "timestamp": "2026-10-17T20:44:52.045938Z"
   }
 ]
