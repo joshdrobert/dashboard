@@ -43,9 +43,9 @@
       "project": "Ditto",
       "resource": "Local agent",
       "startedAt": "2026-10-17T22:02:27.383273Z",
-      "state": "STALE_UNKNOWN",
+      "state": "FAILED",
       "title": "targeted repair 699 \u00b7 coder",
-      "updatedAt": "2026-10-17T22:42:16.567793Z",
+      "updatedAt": "2026-10-17T22:52:16.832722Z",
       "workerType": "coder"
     },
     {
@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-17T22:48:16.988884Z",
+  "generatedAt": "2026-10-17T22:52:17.939504Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -400,6 +400,16 @@
     "verifiedPending": 0
   },
   "meaningfulEvents": [
+    {
+      "id": "165052",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-17T22:52:16.832738Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
     {
       "id": "165026",
       "message": "Controller recovery restored an interrupted task boundary.",
@@ -449,16 +459,6 @@
       "type": "recovery",
       "verification": "Recorded",
       "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "164988",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "Ditto",
-      "timestamp": "2026-10-17T22:31:04.133726Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
     },
     {
       "id": "164965",
@@ -1209,7 +1209,7 @@
     "projectsNeedingTechnicalAttention": 3,
     "registeredProjects": 9,
     "state": "Needs attention",
-    "verifiedCompletions24h": 46
+    "verifiedCompletions24h": 45
   },
   "projects": [
     {
@@ -1285,9 +1285,9 @@
       "status": "Ready"
     },
     {
-      "agentsNow": "Running",
+      "agentsNow": "No agent currently executing",
       "blocker": null,
-      "currentObjective": "targeted repair 699 \u00b7 coder",
+      "currentObjective": "targeted repair 702 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "ditto",
@@ -1297,10 +1297,10 @@
       "name": "Ditto",
       "nextTask": "targeted repair 702 \u00b7 coder",
       "operationalState": "RUNNABLE",
-      "queueDepth": 2,
+      "queueDepth": 1,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Running"
+      "status": "Queued"
     },
     {
       "agentsNow": "Running",
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-17T22:48:17.155088Z",
+  "publishedAt": "2026-10-17T22:52:18.083617Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1494,14 +1494,14 @@
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0,
     "verifiedMilestones12h": 15,
-    "verifiedMilestones24h": 46,
+    "verifiedMilestones24h": 45,
     "verifiedMilestones2h": 11
   },
-  "semanticHash": "f5fed472517dd02b57da2ad7aa72f31a7c2aa8e084bcfd8d57639e491d6c90d8",
+  "semanticHash": "6926ad62f3118c73f3f28ecce3a8035bacff927aab96d7772a72fc6dbaeb2b18",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-17T22:42:09.747201Z",
+  "sourceEventAt": "2026-10-17T22:52:16.832738Z",
   "system": {
-    "activeJobs": 2,
+    "activeJobs": 1,
     "autonomy": "DEGRADED",
     "status": "Needs attention"
   },
