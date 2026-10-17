@@ -45,7 +45,7 @@
       "startedAt": "2026-10-17T20:44:54.245517Z",
       "state": "STALE_UNKNOWN",
       "title": "targeted repair 686 \u00b7 coder",
-      "updatedAt": "2026-10-17T21:25:05.425732Z",
+      "updatedAt": "2026-10-17T21:31:41.588309Z",
       "workerType": "coder"
     },
     {
@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-17T21:30:47.406483Z",
+  "generatedAt": "2026-10-17T21:32:48.724997Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 9,
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-17T21:30:47.805878Z",
+  "publishedAt": "2026-10-17T21:32:48.954153Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1510,7 +1510,7 @@
     "verifiedMilestones24h": 37,
     "verifiedMilestones2h": 6
   },
-  "semanticHash": "1266412dbce3478cdbe17cccd9d2932fda80a9541f010e319f583b715e14a17c",
+  "semanticHash": "8fbfdf6cad3bc88c66d5746887160a514b7beed7c11a164e417c95e747ee1c9d",
   "snapshotVersion": "2.3",
   "sourceEventAt": "2026-10-17T21:28:39.391985Z",
   "system": {
