@@ -1,5 +1,17 @@
 [
   {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "Ditto",
+    "timestamp": "2026-10-17T04:51:46.037781Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "Ditto",
+    "timestamp": "2026-10-17T04:51:46.037760Z"
+  },
+  {
     "level": "Attention",
     "message": "A bounded task failed and entered recovery.",
     "project": "TEER",
@@ -466,17 +478,5 @@
     "message": "A Codex orientation was delivered.",
     "project": "AI-Server",
     "timestamp": "2026-10-17T03:41:50.251722Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "A Codex orientation was delivered.",
-    "project": "TEER",
-    "timestamp": "2026-10-17T03:30:43.927097Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "A Codex orientation was delivered.",
-    "project": "EchoNext",
-    "timestamp": "2026-10-17T03:30:43.926526Z"
   }
 ]
