@@ -2,14 +2,26 @@
   {
     "level": "Recorded",
     "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "Ditto",
+    "timestamp": "2026-10-17T04:15:18.744573Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "Ditto",
+    "timestamp": "2026-10-17T04:15:18.744512Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
     "project": "EchoNext",
-    "timestamp": "2026-10-17T04:13:23.720776Z"
+    "timestamp": "2026-10-17T04:15:17.272324Z"
   },
   {
     "level": "Attention",
     "message": "A bounded task failed and entered recovery.",
     "project": "EchoNext",
-    "timestamp": "2026-10-17T04:13:23.720658Z"
+    "timestamp": "2026-10-17T04:15:17.272265Z"
   },
   {
     "level": "Recorded",
@@ -28,18 +40,6 @@
     "message": "Controller recovery restored an interrupted task boundary.",
     "project": "EchoNext",
     "timestamp": "2026-10-17T04:08:05.359667Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "Ditto",
-    "timestamp": "2026-10-17T04:06:21.053812Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "Ditto",
-    "timestamp": "2026-10-17T04:06:21.053771Z"
   },
   {
     "level": "Recorded",
