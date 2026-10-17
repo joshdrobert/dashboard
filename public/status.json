@@ -11,19 +11,6 @@
   "blockedWork": [
     {
       "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "666",
-      "parent": "464",
-      "project": "Ditto",
-      "resource": "Local agent",
-      "startedAt": "2026-10-17T04:44:38.209538Z",
-      "state": "STALE_UNKNOWN",
-      "title": "targeted repair 655 \u00b7 coder",
-      "updatedAt": "2026-10-17T04:59:56.650086Z",
-      "workerType": "coder"
-    },
-    {
-      "backend": "Local",
       "heartbeatFresh": false,
       "id": "665",
       "parent": "653",
@@ -47,6 +34,19 @@
       "title": "plan after 662 \u00b7 planner",
       "updatedAt": "2026-10-17T04:48:05.681162Z",
       "workerType": "planner"
+    },
+    {
+      "backend": "Local",
+      "heartbeatFresh": false,
+      "id": "655",
+      "parent": "464",
+      "project": "Ditto",
+      "resource": "Local agent",
+      "startedAt": "2026-10-17T04:19:41.958080Z",
+      "state": "FAILED",
+      "title": "targeted repair 643 \u00b7 coder",
+      "updatedAt": "2026-10-17T04:44:32.852245Z",
+      "workerType": "coder"
     },
     {
       "backend": "Local",
@@ -383,7 +383,7 @@
     "state": "PHASE1_RUNNING",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-17T04:59:59.274740Z",
+  "generatedAt": "2026-10-17T05:01:59.968334Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -401,21 +401,21 @@
   },
   "meaningfulEvents": [
     {
-      "id": "151852",
+      "id": "152031",
       "message": "Controller recovery restored an interrupted task boundary.",
       "next": "Continue through the next controller gate.",
       "project": "Ditto",
-      "timestamp": "2026-10-17T04:51:46.037781Z",
+      "timestamp": "2026-10-17T05:01:09.987011Z",
       "type": "recovery",
       "verification": "Recorded",
       "whyItMatters": "Safe autonomous execution can resume."
     },
     {
-      "id": "151851",
+      "id": "152030",
       "message": "A bounded task failed and entered recovery.",
       "next": "Continue through the next controller gate.",
       "project": "Ditto",
-      "timestamp": "2026-10-17T04:51:46.037760Z",
+      "timestamp": "2026-10-17T05:01:09.986982Z",
       "type": "failure",
       "verification": "Attention",
       "whyItMatters": "The failure remains visible until repaired."
@@ -1209,7 +1209,7 @@
     "projectsNeedingTechnicalAttention": 3,
     "registeredProjects": 9,
     "state": "Needs attention",
-    "verifiedCompletions24h": 75
+    "verifiedCompletions24h": 74
   },
   "projects": [
     {
@@ -1285,7 +1285,7 @@
       "status": "Ready"
     },
     {
-      "agentsNow": "Running",
+      "agentsNow": "No agent currently executing",
       "blocker": null,
       "currentObjective": "targeted repair 655 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
@@ -1293,14 +1293,14 @@
       "id": "ditto",
       "lastAccomplishment": "Verified regenerate plan 501 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T04:59:56.650086Z",
+      "lastMeaningfulActivity": "2026-10-17T05:01:09.986965Z",
       "name": "Ditto",
-      "nextTask": null,
+      "nextTask": "targeted repair 655 \u00b7 coder",
       "operationalState": "RUNNABLE",
       "queueDepth": 1,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Running"
+      "status": "Queued"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1380,12 +1380,26 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-17T04:59:59.574070Z",
+  "publishedAt": "2026-10-17T05:02:00.127664Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
   },
-  "queuedWork": [],
+  "queuedWork": [
+    {
+      "backend": "Local",
+      "heartbeatFresh": true,
+      "id": "666",
+      "parent": "464",
+      "project": "Ditto",
+      "resource": "Local agent",
+      "startedAt": "2026-10-17T04:44:38.209538Z",
+      "state": "QUEUED",
+      "title": "targeted repair 655 \u00b7 coder",
+      "updatedAt": "2026-10-17T05:01:09.986965Z",
+      "workerType": "coder"
+    }
+  ],
   "recentlyCompleted": [
     {
       "id": "662",
@@ -1479,15 +1493,15 @@
     "manuscriptMilestones": 0,
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0,
-    "verifiedMilestones12h": 75,
-    "verifiedMilestones24h": 75,
+    "verifiedMilestones12h": 74,
+    "verifiedMilestones24h": 74,
     "verifiedMilestones2h": 23
   },
-  "semanticHash": "d373d7361e00edf609dd8bee3a984800d64641fbb2b3e75c3a8f70313a36ef7b",
+  "semanticHash": "732bfe20a19cd1af0c9ecf705bc1c5901d1b38163cad6badf2a7287df677aece",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-17T04:51:46.037781Z",
+  "sourceEventAt": "2026-10-17T05:01:09.987011Z",
   "system": {
-    "activeJobs": 1,
+    "activeJobs": 0,
     "autonomy": "DEGRADED",
     "status": "Needs attention"
   },
