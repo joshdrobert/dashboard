@@ -11,7 +11,7 @@
       "startedAt": "2026-10-17T04:19:41.958080Z",
       "state": "VERIFYING",
       "title": "targeted repair 643 \u00b7 coder",
-      "updatedAt": "2026-10-17T04:41:46.628153Z",
+      "updatedAt": "2026-10-17T04:43:16.342849Z",
       "workerType": "coder"
     }
   ],
@@ -25,7 +25,7 @@
   "blockedWork": [
     {
       "backend": "Local",
-      "heartbeatFresh": true,
+      "heartbeatFresh": false,
       "id": "665",
       "parent": "653",
       "project": "EchoNext",
@@ -397,7 +397,7 @@
     "state": "PHASE1_RUNNING",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-17T04:41:50.245548Z",
+  "generatedAt": "2026-10-17T04:43:51.295415Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -415,21 +415,21 @@
   },
   "meaningfulEvents": [
     {
-      "id": "151646",
+      "id": "151715",
       "message": "Controller recovery restored an interrupted task boundary.",
       "next": "Continue through the next controller gate.",
       "project": "TEER",
-      "timestamp": "2026-10-17T04:41:41.238495Z",
+      "timestamp": "2026-10-17T04:43:45.128779Z",
       "type": "recovery",
       "verification": "Recorded",
       "whyItMatters": "Safe autonomous execution can resume."
     },
     {
-      "id": "151645",
+      "id": "151714",
       "message": "A bounded task failed and entered recovery.",
       "next": "Continue through the next controller gate.",
       "project": "TEER",
-      "timestamp": "2026-10-17T04:41:41.238448Z",
+      "timestamp": "2026-10-17T04:43:45.128638Z",
       "type": "failure",
       "verification": "Attention",
       "whyItMatters": "The failure remains visible until repaired."
@@ -1223,7 +1223,7 @@
     "projectsNeedingTechnicalAttention": 3,
     "registeredProjects": 9,
     "state": "Needs attention",
-    "verifiedCompletions24h": 76
+    "verifiedCompletions24h": 75
   },
   "projects": [
     {
@@ -1307,7 +1307,7 @@
       "id": "ditto",
       "lastAccomplishment": "Verified regenerate plan 501 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T04:41:46.628153Z",
+      "lastMeaningfulActivity": "2026-10-17T04:43:16.342849Z",
       "name": "Ditto",
       "nextTask": null,
       "operationalState": "RUNNABLE",
@@ -1361,7 +1361,7 @@
       "id": "teer",
       "lastAccomplishment": "Verified repair 646 cache cleanup \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T04:41:41.238431Z",
+      "lastMeaningfulActivity": "2026-10-17T04:43:45.128577Z",
       "name": "TEER",
       "nextTask": "plan after 662 \u00b7 planner",
       "operationalState": "RUNNABLE",
@@ -1394,7 +1394,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-17T04:41:50.463483Z",
+  "publishedAt": "2026-10-17T04:43:51.482875Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1410,7 +1410,7 @@
       "startedAt": "2026-10-17T04:37:18.430439Z",
       "state": "QUEUED",
       "title": "plan after 662 \u00b7 planner",
-      "updatedAt": "2026-10-17T04:41:41.238431Z",
+      "updatedAt": "2026-10-17T04:43:45.128577Z",
       "workerType": "planner"
     }
   ],
@@ -1507,13 +1507,13 @@
     "manuscriptMilestones": 0,
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0,
-    "verifiedMilestones12h": 76,
-    "verifiedMilestones24h": 76,
+    "verifiedMilestones12h": 75,
+    "verifiedMilestones24h": 75,
     "verifiedMilestones2h": 23
   },
-  "semanticHash": "9268b5655ee5e6c7e0df8f255090d11976fa55b799c8e57de146c95ad4cbfea3",
+  "semanticHash": "14bc17b0f40490fc00843a7cf31a87e812f82f9cd8a9796bbd2d6a25a979311b",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-17T04:41:41.238495Z",
+  "sourceEventAt": "2026-10-17T04:43:45.128779Z",
   "system": {
     "activeJobs": 1,
     "autonomy": "DEGRADED",
