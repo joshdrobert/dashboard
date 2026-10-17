@@ -1,5 +1,17 @@
 [
   {
+    "level": "Recorded",
+    "message": "Queued targeted repair 702 \u00b7 coder.",
+    "project": "Ditto",
+    "timestamp": "2026-10-17T22:10:58.268294Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "Ditto",
+    "timestamp": "2026-10-17T22:10:53.268547Z"
+  },
+  {
     "level": "Verified",
     "message": "Accepted task completed: repair 698 import collision \u00b7 coder.",
     "project": "TEER",
@@ -118,12 +130,6 @@
     "message": "Controller recovery restored an interrupted task boundary.",
     "project": "Ditto",
     "timestamp": "2026-10-17T21:59:27.658551Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "Ditto",
-    "timestamp": "2026-10-17T21:59:27.658501Z"
   },
   {
     "level": "Recorded",
@@ -472,11 +478,5 @@
     "message": "A bounded task failed and entered recovery.",
     "project": "EchoNext",
     "timestamp": "2026-10-17T20:08:46.877198Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued targeted repair 682 \u00b7 coder.",
-    "project": "Ditto",
-    "timestamp": "2026-10-17T19:57:36.200932Z"
   }
 ]
