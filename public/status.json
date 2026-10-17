@@ -4,14 +4,14 @@
     {
       "backend": "Local",
       "heartbeatFresh": true,
-      "id": "684",
-      "parent": "652",
-      "project": "EchoNext",
+      "id": "682",
+      "parent": "673",
+      "project": "Ditto",
       "resource": "Local agent",
-      "startedAt": "2026-10-17T19:33:18.109612Z",
+      "startedAt": "2026-10-17T19:24:28.545690Z",
       "state": "VERIFYING",
-      "title": "targeted repair 679 \u00b7 coder",
-      "updatedAt": "2026-10-17T19:54:20.638118Z",
+      "title": "targeted repair 676 \u00b7 coder",
+      "updatedAt": "2026-10-17T19:54:25.354660Z",
       "workerType": "coder"
     }
   ],
@@ -23,6 +23,19 @@
     }
   ],
   "blockedWork": [
+    {
+      "backend": "Local",
+      "heartbeatFresh": true,
+      "id": "684",
+      "parent": "652",
+      "project": "EchoNext",
+      "resource": "Local agent",
+      "startedAt": "2026-10-17T19:33:18.109612Z",
+      "state": "STALE_UNKNOWN",
+      "title": "targeted repair 679 \u00b7 coder",
+      "updatedAt": "2026-10-17T19:56:22.516145Z",
+      "workerType": "coder"
+    },
     {
       "backend": "Local",
       "heartbeatFresh": true,
@@ -38,28 +51,15 @@
     },
     {
       "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "682",
-      "parent": "673",
+      "heartbeatFresh": false,
+      "id": "677",
+      "parent": null,
       "project": "Ditto",
       "resource": "Local agent",
-      "startedAt": "2026-10-17T19:24:28.545690Z",
-      "state": "STALE_UNKNOWN",
-      "title": "targeted repair 676 \u00b7 coder",
-      "updatedAt": "2026-10-17T19:54:18.604182Z",
-      "workerType": "coder"
-    },
-    {
-      "backend": "Local",
-      "heartbeatFresh": false,
-      "id": "681",
-      "parent": "652",
-      "project": "EchoNext",
-      "resource": "Local agent",
-      "startedAt": "2026-10-17T19:22:59.570968Z",
+      "startedAt": "2026-10-17T18:31:57.113405Z",
       "state": "FAILED",
-      "title": "targeted repair 678 \u00b7 coder",
-      "updatedAt": "2026-10-17T19:51:08.874058Z",
+      "title": "stable repair calibration contract 20261017 \u00b7 coder",
+      "updatedAt": "2026-10-17T19:38:17.704230Z",
       "workerType": "coder"
     },
     {
@@ -397,7 +397,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-17T19:54:20.961455Z",
+  "generatedAt": "2026-10-17T19:56:23.509967Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 9,
@@ -1299,7 +1299,7 @@
       "status": "Ready"
     },
     {
-      "agentsNow": "Running",
+      "agentsNow": "Verifying",
       "blocker": null,
       "currentObjective": "targeted repair 676 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
@@ -1314,10 +1314,10 @@
       "queueDepth": 2,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Running"
+      "status": "Verifying"
     },
     {
-      "agentsNow": "Verifying",
+      "agentsNow": "Running",
       "blocker": null,
       "currentObjective": "targeted repair 679 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
@@ -1332,7 +1332,7 @@
       "queueDepth": 2,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Verifying"
+      "status": "Running"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1394,7 +1394,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-17T19:54:21.437472Z",
+  "publishedAt": "2026-10-17T19:56:23.752267Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1524,7 +1524,7 @@
     "verifiedMilestones24h": 50,
     "verifiedMilestones2h": 0
   },
-  "semanticHash": "d975dfe1409d04fe43f37722d7fc48e80f0a2db92ae94747f71a6a8e9128a07f",
+  "semanticHash": "cc182a6dfd4a5e052cadde3e9cfe4b3d72c3cb8e76b2fa727046bb457c0798d7",
   "snapshotVersion": "2.3",
   "sourceEventAt": "2026-10-17T19:51:28.612936Z",
   "system": {
