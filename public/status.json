@@ -12,14 +12,14 @@
     {
       "backend": "Local",
       "heartbeatFresh": true,
-      "id": "712",
+      "id": "713",
       "parent": null,
       "project": "Ditto",
       "resource": "Local agent",
-      "startedAt": "2026-10-17T22:52:25.151681Z",
+      "startedAt": "2026-10-17T23:24:37.423443Z",
       "state": "STALE_UNKNOWN",
-      "title": "local repair 705 1 \u00b7 planner",
-      "updatedAt": "2026-10-17T23:44:40.227019Z",
+      "title": "local repair 709 1 \u00b7 planner",
+      "updatedAt": "2026-10-17T23:54:43.398254Z",
       "workerType": "planner"
     },
     {
@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-17T23:46:53.264278Z",
+  "generatedAt": "2026-10-17T23:54:59.543706Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -400,6 +400,16 @@
     "verifiedPending": 0
   },
   "meaningfulEvents": [
+    {
+      "id": "165191",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-17T23:54:40.424463Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
     {
       "id": "165175",
       "message": "Controller recovery restored an interrupted task boundary.",
@@ -429,16 +439,6 @@
       "type": "recovery",
       "verification": "Recorded",
       "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "165157",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "Ditto",
-      "timestamp": "2026-10-17T23:34:33.805994Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
     },
     {
       "id": "165148",
@@ -1287,15 +1287,15 @@
     {
       "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "local repair 705 1 \u00b7 planner",
+      "currentObjective": "local repair 709 1 \u00b7 planner",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "ditto",
       "lastAccomplishment": "Verified add error coverage tests \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T23:44:37.349682Z",
+      "lastMeaningfulActivity": "2026-10-17T23:54:43.398254Z",
       "name": "Ditto",
-      "nextTask": "local repair 709 1 \u00b7 planner",
+      "nextTask": "local repair 705 1 \u00b7 planner",
       "operationalState": "RUNNABLE",
       "queueDepth": 2,
       "readyForHuman": false,
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-17T23:46:53.436722Z",
+  "publishedAt": "2026-10-17T23:54:59.707551Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1388,15 +1388,15 @@
   "queuedWork": [
     {
       "backend": "Local",
-      "heartbeatFresh": false,
-      "id": "713",
+      "heartbeatFresh": true,
+      "id": "712",
       "parent": null,
       "project": "Ditto",
       "resource": "Local agent",
-      "startedAt": "2026-10-17T23:24:37.423443Z",
+      "startedAt": "2026-10-17T22:52:25.151681Z",
       "state": "QUEUED",
-      "title": "local repair 709 1 \u00b7 planner",
-      "updatedAt": "2026-10-17T23:44:37.277662Z",
+      "title": "local repair 705 1 \u00b7 planner",
+      "updatedAt": "2026-10-17T23:54:45.838120Z",
       "workerType": "planner"
     }
   ],
@@ -1497,9 +1497,9 @@
     "verifiedMilestones24h": 41,
     "verifiedMilestones2h": 9
   },
-  "semanticHash": "ce4bc91709a31087cc57252edb2cc450b8850bbba8eb5a86c62462d80e03b6d8",
+  "semanticHash": "714c40025054608cd9e5836cb1f6269d9a5a52424e1466315cff5b766e98a3ff",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-17T23:44:37.277707Z",
+  "sourceEventAt": "2026-10-17T23:54:40.424463Z",
   "system": {
     "activeJobs": 1,
     "autonomy": "DEGRADED",
