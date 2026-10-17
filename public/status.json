@@ -11,7 +11,7 @@
       "startedAt": "2026-10-17T04:19:41.958080Z",
       "state": "VERIFYING",
       "title": "targeted repair 643 \u00b7 coder",
-      "updatedAt": "2026-10-17T04:34:20.737878Z",
+      "updatedAt": "2026-10-17T04:37:26.347005Z",
       "workerType": "coder"
     }
   ],
@@ -26,27 +26,27 @@
     {
       "backend": "Local",
       "heartbeatFresh": true,
-      "id": "662",
-      "parent": "661",
+      "id": "664",
+      "parent": "662",
       "project": "TEER",
       "resource": "Local agent",
-      "startedAt": "2026-10-17T04:35:05.306112Z",
+      "startedAt": "2026-10-17T04:37:18.430439Z",
       "state": "STALE_UNKNOWN",
-      "title": "repair 646 cache cleanup \u00b7 coder",
-      "updatedAt": "2026-10-17T04:35:11.896812Z",
-      "workerType": "coder"
+      "title": "plan after 662 \u00b7 planner",
+      "updatedAt": "2026-10-17T04:37:24.338853Z",
+      "workerType": "planner"
     },
     {
       "backend": "Local",
       "heartbeatFresh": true,
-      "id": "659",
-      "parent": "652",
+      "id": "663",
+      "parent": "653",
       "project": "EchoNext",
       "resource": "Local agent",
-      "startedAt": "2026-10-17T04:32:45.187284Z",
+      "startedAt": "2026-10-17T04:36:29.394956Z",
       "state": "STALE_UNKNOWN",
-      "title": "plan after 652 \u00b7 planner",
-      "updatedAt": "2026-10-17T04:35:30.766909Z",
+      "title": "regenerate plan 659 \u00b7 planner",
+      "updatedAt": "2026-10-17T04:37:46.819465Z",
       "workerType": "planner"
     },
     {
@@ -397,7 +397,7 @@
     "state": "PHASE1_RUNNING",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-17T04:35:40.430554Z",
+  "generatedAt": "2026-10-17T04:37:49.034671Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -414,6 +414,116 @@
     "verifiedPending": 0
   },
   "meaningfulEvents": [
+    {
+      "id": "151400",
+      "message": "Accepted task completed: repair 646 cache cleanup \u00b7 coder.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-17T04:37:26.220814Z",
+      "type": "task_exit_accepted",
+      "verification": "Verified",
+      "whyItMatters": "The controller recorded the completion."
+    },
+    {
+      "id": "151384",
+      "message": "Queued plan after 662 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-17T04:37:18.430961Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "151382",
+      "message": "Verification passed for repair 646 cache cleanup \u00b7 coder.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-17T04:37:18.070903Z",
+      "type": "accepted",
+      "verification": "Verified",
+      "whyItMatters": "Dependent work may advance."
+    },
+    {
+      "id": "151372",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "EchoNext",
+      "timestamp": "2026-10-17T04:37:00.223047Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "151371",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "EchoNext",
+      "timestamp": "2026-10-17T04:37:00.222965Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
+    {
+      "id": "151343",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-17T04:36:37.913314Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "151342",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-17T04:36:37.913278Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
+    {
+      "id": "151329",
+      "message": "Queued regenerate plan 659 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "EchoNext",
+      "timestamp": "2026-10-17T04:36:29.394997Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "151326",
+      "message": "Verification passed for plan after 652 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "EchoNext",
+      "timestamp": "2026-10-17T04:36:29.201683Z",
+      "type": "accepted",
+      "verification": "Verified",
+      "whyItMatters": "Dependent work may advance."
+    },
+    {
+      "id": "151308",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-17T04:36:21.198906Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "151307",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-17T04:36:21.198855Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
     {
       "id": "151266",
       "message": "Accepted task completed: regenerate plan 660 \u00b7 planner.",
@@ -683,26 +793,6 @@
       "type": "accepted",
       "verification": "Verified",
       "whyItMatters": "Dependent work may advance."
-    },
-    {
-      "id": "150649",
-      "message": "Controller recovery restored an interrupted task boundary.",
-      "next": "Continue through the next controller gate.",
-      "project": "Ditto",
-      "timestamp": "2026-10-17T04:22:43.968540Z",
-      "type": "recovery",
-      "verification": "Recorded",
-      "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "150648",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "Ditto",
-      "timestamp": "2026-10-17T04:22:43.968438Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
     },
     {
       "id": "150602",
@@ -1123,96 +1213,6 @@
       "type": "task_exit_accepted",
       "verification": "Verified",
       "whyItMatters": "The controller recorded the completion."
-    },
-    {
-      "id": "147057",
-      "message": "Verification passed for regenerate plan 641 \u00b7 planner.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-16T22:01:21.833144Z",
-      "type": "accepted",
-      "verification": "Verified",
-      "whyItMatters": "Dependent work may advance."
-    },
-    {
-      "id": "147015",
-      "message": "Controller recovery restored an interrupted task boundary.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-16T21:59:36.405660Z",
-      "type": "recovery",
-      "verification": "Recorded",
-      "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "147014",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-16T21:59:36.405638Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
-    },
-    {
-      "id": "146896",
-      "message": "Queued regenerate plan 641 \u00b7 planner.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-16T21:57:27.958767Z",
-      "type": "task_queued",
-      "verification": "Recorded",
-      "whyItMatters": "The next unit of work is durable."
-    },
-    {
-      "id": "146894",
-      "message": "Verification passed for local repair 634 1 \u00b7 planner.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-16T21:57:25.707543Z",
-      "type": "accepted",
-      "verification": "Verified",
-      "whyItMatters": "Dependent work may advance."
-    },
-    {
-      "id": "146848",
-      "message": "Controller recovery restored an interrupted task boundary.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-16T21:55:52.503814Z",
-      "type": "recovery",
-      "verification": "Recorded",
-      "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "146847",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-16T21:55:52.503771Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
-    },
-    {
-      "id": "146795",
-      "message": "Accepted task completed: regenerate plan 637 \u00b7 planner.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-16T21:54:43.469864Z",
-      "type": "task_exit_accepted",
-      "verification": "Verified",
-      "whyItMatters": "The controller recorded the completion."
-    },
-    {
-      "id": "146783",
-      "message": "Verification passed for regenerate plan 637 \u00b7 planner.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-16T21:54:38.419187Z",
-      "type": "accepted",
-      "verification": "Verified",
-      "whyItMatters": "Dependent work may advance."
     }
   ],
   "portfolioSummary": {
@@ -1223,7 +1223,7 @@
     "projectsNeedingTechnicalAttention": 2,
     "registeredProjects": 9,
     "state": "Needs attention",
-    "verifiedCompletions24h": 75
+    "verifiedCompletions24h": 76
   },
   "projects": [
     {
@@ -1307,7 +1307,7 @@
       "id": "ditto",
       "lastAccomplishment": "Verified regenerate plan 501 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T04:34:20.737878Z",
+      "lastMeaningfulActivity": "2026-10-17T04:37:26.347005Z",
       "name": "Ditto",
       "nextTask": null,
       "operationalState": "RUNNABLE",
@@ -1319,13 +1319,13 @@
     {
       "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "plan after 652 \u00b7 planner",
+      "currentObjective": "regenerate plan 659 \u00b7 planner",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "echonext",
       "lastAccomplishment": "Verified local repair 648 validate fix \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T04:35:30.766909Z",
+      "lastMeaningfulActivity": "2026-10-17T04:37:46.819465Z",
       "name": "EchoNext",
       "nextTask": null,
       "operationalState": "RUNNABLE",
@@ -1355,13 +1355,13 @@
     {
       "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "repair 646 cache cleanup \u00b7 coder",
+      "currentObjective": "plan after 662 \u00b7 planner",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "teer",
-      "lastAccomplishment": "Verified regenerate plan 660 \u00b7 planner.",
+      "lastAccomplishment": "Verified repair 646 cache cleanup \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T04:35:11.896812Z",
+      "lastMeaningfulActivity": "2026-10-17T04:37:24.338853Z",
       "name": "TEER",
       "nextTask": null,
       "operationalState": "RUNNABLE",
@@ -1394,13 +1394,20 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-17T04:35:40.964590Z",
+  "publishedAt": "2026-10-17T04:37:49.396614Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
   },
   "queuedWork": [],
   "recentlyCompleted": [
+    {
+      "id": "662",
+      "project": "TEER",
+      "state": "COMPLETED",
+      "title": "repair 646 cache cleanup \u00b7 coder",
+      "updatedAt": "2026-10-17T04:37:18.070735Z"
+    },
     {
       "id": "661",
       "project": "TEER",
@@ -1477,13 +1484,6 @@
       "state": "COMPLETED",
       "title": "regenerate plan 635 \u00b7 planner",
       "updatedAt": "2026-10-16T21:53:33.145299Z"
-    },
-    {
-      "id": "631",
-      "project": "TEER",
-      "state": "COMPLETED",
-      "title": "local repair 615 2 \u00b7 planner",
-      "updatedAt": "2026-10-16T20:59:15.102526Z"
     }
   ],
   "recoveryWork": [],
@@ -1493,13 +1493,13 @@
     "manuscriptMilestones": 0,
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0,
-    "verifiedMilestones12h": 75,
-    "verifiedMilestones24h": 75,
-    "verifiedMilestones2h": 18
+    "verifiedMilestones12h": 76,
+    "verifiedMilestones24h": 76,
+    "verifiedMilestones2h": 21
   },
-  "semanticHash": "4c26bb8bb799b8c41be93c9f05d94744174773861947008b6c2b9872c9917bac",
+  "semanticHash": "3716e24493bbbab76360056257c16a370b800d4ab57790754fd5748f97e53cdd",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-17T04:35:11.323049Z",
+  "sourceEventAt": "2026-10-17T04:37:26.220814Z",
   "system": {
     "activeJobs": 3,
     "autonomy": "DEGRADED",

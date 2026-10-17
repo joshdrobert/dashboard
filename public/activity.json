@@ -1,6 +1,72 @@
 [
   {
     "level": "Verified",
+    "message": "Accepted task completed: repair 646 cache cleanup \u00b7 coder.",
+    "project": "TEER",
+    "timestamp": "2026-10-17T04:37:26.220814Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Queued plan after 662 \u00b7 planner.",
+    "project": "TEER",
+    "timestamp": "2026-10-17T04:37:18.430961Z"
+  },
+  {
+    "level": "Verified",
+    "message": "Verification passed for repair 646 cache cleanup \u00b7 coder.",
+    "project": "TEER",
+    "timestamp": "2026-10-17T04:37:18.070903Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "EchoNext",
+    "timestamp": "2026-10-17T04:37:00.223047Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "EchoNext",
+    "timestamp": "2026-10-17T04:37:00.222965Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "TEER",
+    "timestamp": "2026-10-17T04:36:37.913314Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "TEER",
+    "timestamp": "2026-10-17T04:36:37.913278Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Queued regenerate plan 659 \u00b7 planner.",
+    "project": "EchoNext",
+    "timestamp": "2026-10-17T04:36:29.394997Z"
+  },
+  {
+    "level": "Verified",
+    "message": "Verification passed for plan after 652 \u00b7 planner.",
+    "project": "EchoNext",
+    "timestamp": "2026-10-17T04:36:29.201683Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "Ditto",
+    "timestamp": "2026-10-17T04:36:21.198906Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "Ditto",
+    "timestamp": "2026-10-17T04:36:21.198855Z"
+  },
+  {
+    "level": "Verified",
     "message": "Accepted task completed: regenerate plan 660 \u00b7 planner.",
     "project": "TEER",
     "timestamp": "2026-10-17T04:35:11.323049Z"
@@ -160,18 +226,6 @@
     "message": "Verification passed for regenerate plan 647 \u00b7 planner.",
     "project": "TEER",
     "timestamp": "2026-10-17T04:22:48.149696Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "Ditto",
-    "timestamp": "2026-10-17T04:22:43.968540Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "Ditto",
-    "timestamp": "2026-10-17T04:22:43.968438Z"
   },
   {
     "level": "Verified",
@@ -424,59 +478,5 @@
     "message": "Accepted task completed: regenerate plan 641 \u00b7 planner.",
     "project": "TEER",
     "timestamp": "2026-10-16T22:01:26.050108Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Verification passed for regenerate plan 641 \u00b7 planner.",
-    "project": "TEER",
-    "timestamp": "2026-10-16T22:01:21.833144Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "TEER",
-    "timestamp": "2026-10-16T21:59:36.405660Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "TEER",
-    "timestamp": "2026-10-16T21:59:36.405638Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued regenerate plan 641 \u00b7 planner.",
-    "project": "TEER",
-    "timestamp": "2026-10-16T21:57:27.958767Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Verification passed for local repair 634 1 \u00b7 planner.",
-    "project": "TEER",
-    "timestamp": "2026-10-16T21:57:25.707543Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "TEER",
-    "timestamp": "2026-10-16T21:55:52.503814Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "TEER",
-    "timestamp": "2026-10-16T21:55:52.503771Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Accepted task completed: regenerate plan 637 \u00b7 planner.",
-    "project": "TEER",
-    "timestamp": "2026-10-16T21:54:43.469864Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Verification passed for regenerate plan 637 \u00b7 planner.",
-    "project": "TEER",
-    "timestamp": "2026-10-16T21:54:38.419187Z"
   }
 ]
