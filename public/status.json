@@ -11,16 +11,16 @@
   "blockedWork": [
     {
       "backend": "Local",
-      "heartbeatFresh": false,
-      "id": "670",
-      "parent": "464",
+      "heartbeatFresh": true,
+      "id": "675",
+      "parent": "673",
       "project": "Ditto",
       "resource": "Local agent",
-      "startedAt": "2026-10-17T06:04:41.166951Z",
+      "startedAt": "2026-10-17T06:36:51.807083Z",
       "state": "FAILED",
-      "title": "targeted repair 669 \u00b7 coder",
-      "updatedAt": "2026-10-17T06:19:40.474223Z",
-      "workerType": "coder"
+      "title": "plan after 673 \u00b7 planner",
+      "updatedAt": "2026-10-17T06:40:20.375524Z",
+      "workerType": "planner"
     },
     {
       "backend": "Local",
@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-17T06:38:57.721499Z",
+  "generatedAt": "2026-10-17T06:40:59.667725Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -401,6 +401,16 @@
   },
   "meaningfulEvents": [
     {
+      "id": "153938",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-17T06:40:20.375539Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
+    {
       "id": "153855",
       "message": "Controller recovery restored an interrupted task boundary.",
       "next": "Continue through the next controller gate.",
@@ -409,16 +419,6 @@
       "type": "recovery",
       "verification": "Recorded",
       "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "153854",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "Ditto",
-      "timestamp": "2026-10-17T06:38:05.436268Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
     },
     {
       "id": "153798",
@@ -1293,14 +1293,14 @@
       "id": "ditto",
       "lastAccomplishment": "Verified add error coverage tests \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T06:38:05.436254Z",
+      "lastMeaningfulActivity": "2026-10-17T06:40:20.375524Z",
       "name": "Ditto",
-      "nextTask": "plan after 673 \u00b7 planner",
+      "nextTask": null,
       "operationalState": "RUNNABLE",
-      "queueDepth": 1,
+      "queueDepth": 0,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Queued"
+      "status": "Ready"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1380,26 +1380,12 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-17T06:38:58.034735Z",
+  "publishedAt": "2026-10-17T06:40:59.821007Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
   },
-  "queuedWork": [
-    {
-      "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "675",
-      "parent": "673",
-      "project": "Ditto",
-      "resource": "Local agent",
-      "startedAt": "2026-10-17T06:36:51.807083Z",
-      "state": "QUEUED",
-      "title": "plan after 673 \u00b7 planner",
-      "updatedAt": "2026-10-17T06:38:05.436254Z",
-      "workerType": "planner"
-    }
-  ],
+  "queuedWork": [],
   "recentlyCompleted": [
     {
       "id": "673",
@@ -1495,11 +1481,11 @@
     "resultsValidated": 0,
     "verifiedMilestones12h": 70,
     "verifiedMilestones24h": 70,
-    "verifiedMilestones2h": 10
+    "verifiedMilestones2h": 9
   },
-  "semanticHash": "a3bec34882257966c180ec92345a89d27f623fec5f50d7f238728dfedddef856",
+  "semanticHash": "1f9f4758c53870f0a2d592aecc2ff87da9914a7dc0a70598a737b90dceb3e521",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-17T06:38:05.436299Z",
+  "sourceEventAt": "2026-10-17T06:40:20.375539Z",
   "system": {
     "activeJobs": 0,
     "autonomy": "DEGRADED",
