@@ -1,20 +1,6 @@
 {
   "actionRequired": [],
-  "activeWork": [
-    {
-      "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "676",
-      "parent": null,
-      "project": "Ditto",
-      "resource": "Local agent",
-      "startedAt": "2026-10-17T18:31:57.111345Z",
-      "state": "VERIFYING",
-      "title": "stable repair quantity api 20261017 \u00b7 coder",
-      "updatedAt": "2026-10-17T19:13:34.550944Z",
-      "workerType": "coder"
-    }
-  ],
+  "activeWork": [],
   "attentionRequired": [
     {
       "category": "Agents debugging",
@@ -26,41 +12,41 @@
     {
       "backend": "Local",
       "heartbeatFresh": true,
-      "id": "678",
+      "id": "680",
       "parent": null,
-      "project": "EchoNext",
+      "project": "TEER",
       "resource": "Local agent",
-      "startedAt": "2026-10-17T18:31:57.115297Z",
+      "startedAt": "2026-10-17T18:31:57.118653Z",
       "state": "STALE_UNKNOWN",
-      "title": "stable repair test isolation 20261017 \u00b7 coder",
-      "updatedAt": "2026-10-17T19:09:19.701578Z",
+      "title": "stable repair duplicate module 20261017 \u00b7 coder",
+      "updatedAt": "2026-10-17T19:17:24.236718Z",
       "workerType": "coder"
     },
     {
       "backend": "Local",
-      "heartbeatFresh": false,
-      "id": "675",
-      "parent": "673",
-      "project": "Ditto",
+      "heartbeatFresh": true,
+      "id": "679",
+      "parent": null,
+      "project": "EchoNext",
       "resource": "Local agent",
-      "startedAt": "2026-10-17T06:36:51.807083Z",
-      "state": "FAILED",
-      "title": "plan after 673 \u00b7 planner",
-      "updatedAt": "2026-10-17T06:40:20.375524Z",
-      "workerType": "planner"
+      "startedAt": "2026-10-17T18:31:57.117136Z",
+      "state": "STALE_UNKNOWN",
+      "title": "stable repair collection 20261017 \u00b7 coder",
+      "updatedAt": "2026-10-17T19:16:46.563358Z",
+      "workerType": "coder"
     },
     {
       "backend": "Local",
-      "heartbeatFresh": false,
-      "id": "664",
-      "parent": "662",
-      "project": "TEER",
+      "heartbeatFresh": true,
+      "id": "676",
+      "parent": null,
+      "project": "Ditto",
       "resource": "Local agent",
-      "startedAt": "2026-10-17T04:37:18.430439Z",
-      "state": "FAILED",
-      "title": "plan after 662 \u00b7 planner",
-      "updatedAt": "2026-10-17T04:48:05.681162Z",
-      "workerType": "planner"
+      "startedAt": "2026-10-17T18:31:57.111345Z",
+      "state": "STALE_UNKNOWN",
+      "title": "stable repair quantity api 20261017 \u00b7 coder",
+      "updatedAt": "2026-10-17T19:16:14.280861Z",
+      "workerType": "coder"
     },
     {
       "backend": "Local",
@@ -397,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-17T19:15:26.403486Z",
+  "generatedAt": "2026-10-17T19:17:28.489045Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 9,
@@ -406,7 +392,7 @@
     "lastSuccessfulDailyRun": "2026-10-17T18:38:24.644974Z",
     "missingTaskProvenance": 7,
     "newlyIntegrated24h": 0,
-    "oldestEligibleAgeHours": 0.7,
+    "oldestEligibleAgeHours": 0.8,
     "repositoriesMonitored": 10,
     "scientificReviewBlockers": 5,
     "stableVerification": "No stable update in latest batch",
@@ -414,6 +400,26 @@
     "verifiedPending": 1
   },
   "meaningfulEvents": [
+    {
+      "id": "156179",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "EchoNext",
+      "timestamp": "2026-10-17T19:16:19.044947Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "156178",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "EchoNext",
+      "timestamp": "2026-10-17T19:16:19.044909Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
     {
       "id": "156130",
       "message": "Controller recovery restored an interrupted task boundary.",
@@ -470,26 +476,6 @@
       "next": "Continue through the next controller gate.",
       "project": "Ditto",
       "timestamp": "2026-10-17T19:01:43.178740Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
-    },
-    {
-      "id": "155364",
-      "message": "Controller recovery restored an interrupted task boundary.",
-      "next": "Continue through the next controller gate.",
-      "project": "EchoNext",
-      "timestamp": "2026-10-17T18:54:34.849803Z",
-      "type": "recovery",
-      "verification": "Recorded",
-      "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "155363",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "EchoNext",
-      "timestamp": "2026-10-17T18:54:34.849750Z",
       "type": "failure",
       "verification": "Attention",
       "whyItMatters": "The failure remains visible until repaired."
@@ -1217,9 +1203,9 @@
   ],
   "portfolioSummary": {
     "actionsRequiringUser": 0,
-    "activeLocalAgents": 1,
+    "activeLocalAgents": 0,
     "activeVisionJobs": 0,
-    "executingProjects": 1,
+    "executingProjects": 0,
     "projectsNeedingTechnicalAttention": 2,
     "registeredProjects": 9,
     "state": "Needs attention",
@@ -1299,7 +1285,7 @@
       "status": "Ready"
     },
     {
-      "agentsNow": "Verifying",
+      "agentsNow": "Running",
       "blocker": null,
       "currentObjective": "stable repair quantity api 20261017 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
@@ -1314,20 +1300,20 @@
       "queueDepth": 2,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Verifying"
+      "status": "Running"
     },
     {
       "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "stable repair test isolation 20261017 \u00b7 coder",
+      "currentObjective": "stable repair collection 20261017 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "echonext",
       "lastAccomplishment": "Verified local repair 648 validate fix \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T19:08:44.795253Z",
+      "lastMeaningfulActivity": "2026-10-17T19:16:46.563358Z",
       "name": "EchoNext",
-      "nextTask": "stable repair collection 20261017 \u00b7 coder",
+      "nextTask": "stable repair test isolation 20261017 \u00b7 coder",
       "operationalState": "RUNNABLE",
       "queueDepth": 2,
       "readyForHuman": false,
@@ -1353,7 +1339,7 @@
       "status": "Failed / retrying"
     },
     {
-      "agentsNow": "No agent currently executing",
+      "agentsNow": "Running",
       "blocker": null,
       "currentObjective": "stable repair duplicate module 20261017 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
@@ -1361,14 +1347,14 @@
       "id": "teer",
       "lastAccomplishment": "Verified repair 646 cache cleanup \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T19:15:10.776084Z",
+      "lastMeaningfulActivity": "2026-10-17T19:17:24.236718Z",
       "name": "TEER",
-      "nextTask": "stable repair duplicate module 20261017 \u00b7 coder",
+      "nextTask": null,
       "operationalState": "RUNNABLE",
       "queueDepth": 1,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Queued"
+      "status": "Running"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1394,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-17T19:15:26.771924Z",
+  "publishedAt": "2026-10-17T19:17:28.714932Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1403,27 +1389,14 @@
     {
       "backend": "Local",
       "heartbeatFresh": true,
-      "id": "680",
-      "parent": null,
-      "project": "TEER",
-      "resource": "Local agent",
-      "startedAt": "2026-10-17T18:31:57.118653Z",
-      "state": "QUEUED",
-      "title": "stable repair duplicate module 20261017 \u00b7 coder",
-      "updatedAt": "2026-10-17T19:15:10.776084Z",
-      "workerType": "coder"
-    },
-    {
-      "backend": "Local",
-      "heartbeatFresh": false,
-      "id": "679",
+      "id": "678",
       "parent": null,
       "project": "EchoNext",
       "resource": "Local agent",
-      "startedAt": "2026-10-17T18:31:57.117136Z",
+      "startedAt": "2026-10-17T18:31:57.115297Z",
       "state": "QUEUED",
-      "title": "stable repair collection 20261017 \u00b7 coder",
-      "updatedAt": "2026-10-17T18:56:40.681221Z",
+      "title": "stable repair test isolation 20261017 \u00b7 coder",
+      "updatedAt": "2026-10-17T19:16:19.044887Z",
       "workerType": "coder"
     },
     {
@@ -1537,11 +1510,11 @@
     "verifiedMilestones24h": 57,
     "verifiedMilestones2h": 0
   },
-  "semanticHash": "b5db1a91d97e22f4f17db9a6ea687dead9dd48e6a83fbc2791b1d513de336fd9",
+  "semanticHash": "da3cac64daf07b7b97ef6b7756459d1c88c164d79f2571f1299a636e1bd3684b",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-17T19:15:10.776195Z",
+  "sourceEventAt": "2026-10-17T19:16:19.044947Z",
   "system": {
-    "activeJobs": 2,
+    "activeJobs": 3,
     "autonomy": "DEGRADED",
     "status": "Needs attention"
   },
