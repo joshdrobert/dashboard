@@ -12,14 +12,14 @@
     {
       "backend": "Local",
       "heartbeatFresh": true,
-      "id": "667",
+      "id": "668",
       "parent": "464",
       "project": "Ditto",
       "resource": "Local agent",
-      "startedAt": "2026-10-17T05:07:17.044707Z",
+      "startedAt": "2026-10-17T05:17:46.360089Z",
       "state": "STALE_UNKNOWN",
-      "title": "targeted repair 666 \u00b7 coder",
-      "updatedAt": "2026-10-17T05:15:14.134091Z",
+      "title": "targeted repair 667 \u00b7 coder",
+      "updatedAt": "2026-10-17T05:17:50.098413Z",
       "workerType": "coder"
     },
     {
@@ -383,7 +383,7 @@
     "state": "PHASE1_RUNNING",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-17T05:16:08.738231Z",
+  "generatedAt": "2026-10-17T05:18:10.423029Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -401,6 +401,26 @@
   },
   "meaningfulEvents": [
     {
+      "id": "152260",
+      "message": "Queued targeted repair 667 \u00b7 coder.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-17T05:17:46.360151Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "152257",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-17T05:17:35.882424Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
+    {
       "id": "152210",
       "message": "Controller recovery restored an interrupted task boundary.",
       "next": "Continue through the next controller gate.",
@@ -409,16 +429,6 @@
       "type": "recovery",
       "verification": "Recorded",
       "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "152209",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "Ditto",
-      "timestamp": "2026-10-17T05:13:10.734469Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
     },
     {
       "id": "152134",
@@ -1189,16 +1199,6 @@
       "type": "orientation_delivered",
       "verification": "Recorded",
       "whyItMatters": "Supervisory direction was updated."
-    },
-    {
-      "id": "148095",
-      "message": "A Codex orientation was delivered.",
-      "next": "Continue through the next controller gate.",
-      "project": "CTBone",
-      "timestamp": "2026-10-17T03:41:50.255475Z",
-      "type": "orientation_delivered",
-      "verification": "Recorded",
-      "whyItMatters": "Supervisory direction was updated."
     }
   ],
   "portfolioSummary": {
@@ -1209,7 +1209,7 @@
     "projectsNeedingTechnicalAttention": 3,
     "registeredProjects": 9,
     "state": "Needs attention",
-    "verifiedCompletions24h": 71
+    "verifiedCompletions24h": 70
   },
   "projects": [
     {
@@ -1287,13 +1287,13 @@
     {
       "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "targeted repair 666 \u00b7 coder",
+      "currentObjective": "targeted repair 667 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "ditto",
       "lastAccomplishment": "Verified regenerate plan 501 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T05:15:14.134091Z",
+      "lastMeaningfulActivity": "2026-10-17T05:17:50.098413Z",
       "name": "Ditto",
       "nextTask": null,
       "operationalState": "RUNNABLE",
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-17T05:16:08.938586Z",
+  "publishedAt": "2026-10-17T05:18:10.575750Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1479,13 +1479,13 @@
     "manuscriptMilestones": 0,
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0,
-    "verifiedMilestones12h": 71,
-    "verifiedMilestones24h": 71,
+    "verifiedMilestones12h": 70,
+    "verifiedMilestones24h": 70,
     "verifiedMilestones2h": 23
   },
-  "semanticHash": "538b82fa98a65b185ad865f681b3d32c83394924634164045ee9a36aed984b99",
+  "semanticHash": "524fa73cd01987a4b90d631357497f32cb4b022ab9af91eba0ae2827ae2647e5",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-17T05:13:10.734506Z",
+  "sourceEventAt": "2026-10-17T05:17:46.360151Z",
   "system": {
     "activeJobs": 1,
     "autonomy": "DEGRADED",
