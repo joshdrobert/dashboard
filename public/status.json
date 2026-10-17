@@ -37,16 +37,16 @@
     },
     {
       "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "677",
-      "parent": null,
+      "heartbeatFresh": false,
+      "id": "675",
+      "parent": "673",
       "project": "Ditto",
       "resource": "Local agent",
-      "startedAt": "2026-10-17T18:31:57.113405Z",
-      "state": "STALE_UNKNOWN",
-      "title": "stable repair calibration contract 20261017 \u00b7 coder",
-      "updatedAt": "2026-10-17T19:09:54.931700Z",
-      "workerType": "coder"
+      "startedAt": "2026-10-17T06:36:51.807083Z",
+      "state": "FAILED",
+      "title": "plan after 673 \u00b7 planner",
+      "updatedAt": "2026-10-17T06:40:20.375524Z",
+      "workerType": "planner"
     },
     {
       "backend": "Local",
@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-17T19:11:23.766863Z",
+  "generatedAt": "2026-10-17T19:13:26.178585Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 9,
@@ -400,6 +400,26 @@
     "verifiedPending": 1
   },
   "meaningfulEvents": [
+    {
+      "id": "156051",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-17T19:13:25.467201Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "156050",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-17T19:13:25.467151Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
     {
       "id": "155678",
       "message": "Controller recovery restored an interrupted task boundary.",
@@ -1179,26 +1199,6 @@
       "type": "recovery",
       "verification": "Recorded",
       "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "152134",
-      "message": "Queued targeted repair 666 \u00b7 coder.",
-      "next": "Continue through the next controller gate.",
-      "project": "Ditto",
-      "timestamp": "2026-10-17T05:07:17.044751Z",
-      "type": "task_queued",
-      "verification": "Recorded",
-      "whyItMatters": "The next unit of work is durable."
-    },
-    {
-      "id": "152131",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "Ditto",
-      "timestamp": "2026-10-17T05:07:12.404333Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
     }
   ],
   "portfolioSummary": {
@@ -1209,7 +1209,7 @@
     "projectsNeedingTechnicalAttention": 2,
     "registeredProjects": 9,
     "state": "Needs attention",
-    "verifiedCompletions24h": 58
+    "verifiedCompletions24h": 57
   },
   "projects": [
     {
@@ -1285,7 +1285,7 @@
       "status": "Ready"
     },
     {
-      "agentsNow": "Running",
+      "agentsNow": "No agent currently executing",
       "blocker": null,
       "currentObjective": "stable repair calibration contract 20261017 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
@@ -1293,14 +1293,14 @@
       "id": "ditto",
       "lastAccomplishment": "Verified add error coverage tests \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T19:09:54.931700Z",
+      "lastMeaningfulActivity": "2026-10-17T19:13:25.467118Z",
       "name": "Ditto",
-      "nextTask": "stable repair quantity api 20261017 \u00b7 coder",
+      "nextTask": "stable repair calibration contract 20261017 \u00b7 coder",
       "operationalState": "RUNNABLE",
       "queueDepth": 2,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Running"
+      "status": "Queued"
     },
     {
       "agentsNow": "Running",
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-17T19:11:24.049087Z",
+  "publishedAt": "2026-10-17T19:13:26.527261Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1401,15 +1401,15 @@
     },
     {
       "backend": "Local",
-      "heartbeatFresh": false,
-      "id": "676",
+      "heartbeatFresh": true,
+      "id": "677",
       "parent": null,
       "project": "Ditto",
       "resource": "Local agent",
-      "startedAt": "2026-10-17T18:31:57.111345Z",
+      "startedAt": "2026-10-17T18:31:57.113405Z",
       "state": "QUEUED",
-      "title": "stable repair quantity api 20261017 \u00b7 coder",
-      "updatedAt": "2026-10-17T19:01:43.178709Z",
+      "title": "stable repair calibration contract 20261017 \u00b7 coder",
+      "updatedAt": "2026-10-17T19:13:25.467118Z",
       "workerType": "coder"
     }
   ],
@@ -1507,14 +1507,14 @@
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0,
     "verifiedMilestones12h": 0,
-    "verifiedMilestones24h": 58,
+    "verifiedMilestones24h": 57,
     "verifiedMilestones2h": 0
   },
-  "semanticHash": "e0d7d55dbac2da7022e717543238c9398804cb8d8922b5967b9fced588718488",
+  "semanticHash": "4964a8969210112a2d83bda1abfd6a8b2f9bdb10ab1e691d75205bba42afe439",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-17T19:01:43.178776Z",
+  "sourceEventAt": "2026-10-17T19:13:25.467201Z",
   "system": {
-    "activeJobs": 3,
+    "activeJobs": 2,
     "autonomy": "DEGRADED",
     "status": "Needs attention"
   },
