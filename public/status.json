@@ -12,15 +12,15 @@
     {
       "backend": "Local",
       "heartbeatFresh": true,
-      "id": "648",
-      "parent": "514",
+      "id": "649",
+      "parent": null,
       "project": "EchoNext",
       "resource": "Local agent",
-      "startedAt": "2026-10-17T04:03:05.229092Z",
+      "startedAt": "2026-10-17T04:11:54.357194Z",
       "state": "STALE_UNKNOWN",
-      "title": "targeted repair 644 \u00b7 coder",
-      "updatedAt": "2026-10-17T04:09:39.735099Z",
-      "workerType": "coder"
+      "title": "local repair 648 1 \u00b7 planner",
+      "updatedAt": "2026-10-17T04:12:08.674664Z",
+      "workerType": "planner"
     },
     {
       "backend": "Local",
@@ -383,7 +383,7 @@
     "state": "PHASE1_RUNNING",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-17T04:10:51.418693Z",
+  "generatedAt": "2026-10-17T04:12:52.199663Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -401,6 +401,26 @@
   },
   "meaningfulEvents": [
     {
+      "id": "150084",
+      "message": "Queued local repair 648 1 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "EchoNext",
+      "timestamp": "2026-10-17T04:11:54.357231Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "150076",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "EchoNext",
+      "timestamp": "2026-10-17T04:11:46.454511Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
+    {
       "id": "149866",
       "message": "Controller recovery restored an interrupted task boundary.",
       "next": "Continue through the next controller gate.",
@@ -409,16 +429,6 @@
       "type": "recovery",
       "verification": "Recorded",
       "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "149865",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "EchoNext",
-      "timestamp": "2026-10-17T04:08:05.359595Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
     },
     {
       "id": "149754",
@@ -1189,16 +1199,6 @@
       "type": "task_queued",
       "verification": "Recorded",
       "whyItMatters": "The next unit of work is durable."
-    },
-    {
-      "id": "143442",
-      "message": "Verification passed for local repair 595 2 \u00b7 planner.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-16T20:37:55.650418Z",
-      "type": "accepted",
-      "verification": "Verified",
-      "whyItMatters": "Dependent work may advance."
     }
   ],
   "portfolioSummary": {
@@ -1305,13 +1305,13 @@
     {
       "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "targeted repair 644 \u00b7 coder",
+      "currentObjective": "local repair 648 1 \u00b7 planner",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "echonext",
       "lastAccomplishment": "Verified local repair 487 milestone map \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T04:09:39.735099Z",
+      "lastMeaningfulActivity": "2026-10-17T04:12:08.674664Z",
       "name": "EchoNext",
       "nextTask": null,
       "operationalState": "RUNNABLE",
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-17T04:10:51.757123Z",
+  "publishedAt": "2026-10-17T04:12:52.506839Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1497,9 +1497,9 @@
     "verifiedMilestones24h": 61,
     "verifiedMilestones2h": 0
   },
-  "semanticHash": "01d5246024af329c97ac102c3e632dc119696b7e1e9908965318648736fa088d",
+  "semanticHash": "95adce33d3628602371dfaea852de4333c11c53e60166f4ccb78237ead6aae71",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-17T04:08:05.359667Z",
+  "sourceEventAt": "2026-10-17T04:11:54.357231Z",
   "system": {
     "activeJobs": 3,
     "autonomy": "DEGRADED",
