@@ -3,6 +3,18 @@
     "level": "Recorded",
     "message": "Controller recovery restored an interrupted task boundary.",
     "project": "Ditto",
+    "timestamp": "2026-10-17T23:13:26.504668Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "Ditto",
+    "timestamp": "2026-10-17T23:13:26.504634Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "Ditto",
     "timestamp": "2026-10-17T23:03:21.526315Z"
   },
   {
@@ -466,17 +478,5 @@
     "message": "Queued local repair 690 1 \u00b7 planner.",
     "project": "TEER",
     "timestamp": "2026-10-17T20:46:08.791076Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued targeted repair 687 \u00b7 coder.",
-    "project": "Ditto",
-    "timestamp": "2026-10-17T20:45:58.077934Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "Ditto",
-    "timestamp": "2026-10-17T20:45:49.095214Z"
   }
 ]
