@@ -12,14 +12,14 @@
     {
       "backend": "Local",
       "heartbeatFresh": true,
-      "id": "713",
+      "id": "712",
       "parent": null,
       "project": "Ditto",
       "resource": "Local agent",
-      "startedAt": "2026-10-17T23:24:37.423443Z",
+      "startedAt": "2026-10-17T22:52:25.151681Z",
       "state": "STALE_UNKNOWN",
-      "title": "local repair 709 1 \u00b7 planner",
-      "updatedAt": "2026-10-17T23:34:37.045046Z",
+      "title": "local repair 705 1 \u00b7 planner",
+      "updatedAt": "2026-10-17T23:44:40.227019Z",
       "workerType": "planner"
     },
     {
@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-17T23:36:44.011653Z",
+  "generatedAt": "2026-10-17T23:44:50.893292Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -400,6 +400,26 @@
     "verifiedPending": 0
   },
   "meaningfulEvents": [
+    {
+      "id": "165175",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-17T23:44:37.277707Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "165174",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-17T23:44:37.277675Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
     {
       "id": "165158",
       "message": "Controller recovery restored an interrupted task boundary.",
@@ -1179,26 +1199,6 @@
       "type": "task_exit_accepted",
       "verification": "Verified",
       "whyItMatters": "The controller recorded the completion."
-    },
-    {
-      "id": "160151",
-      "message": "Queued repair 690 import collision \u00b7 coder.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-17T20:46:55.207519Z",
-      "type": "task_queued",
-      "verification": "Recorded",
-      "whyItMatters": "The next unit of work is durable."
-    },
-    {
-      "id": "160150",
-      "message": "Verification passed for local repair 690 1 \u00b7 planner.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-17T20:46:55.107228Z",
-      "type": "accepted",
-      "verification": "Verified",
-      "whyItMatters": "Dependent work may advance."
     }
   ],
   "portfolioSummary": {
@@ -1209,7 +1209,7 @@
     "projectsNeedingTechnicalAttention": 3,
     "registeredProjects": 9,
     "state": "Needs attention",
-    "verifiedCompletions24h": 42
+    "verifiedCompletions24h": 41
   },
   "projects": [
     {
@@ -1287,15 +1287,15 @@
     {
       "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "local repair 709 1 \u00b7 planner",
+      "currentObjective": "local repair 705 1 \u00b7 planner",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "ditto",
       "lastAccomplishment": "Verified add error coverage tests \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T23:34:37.045046Z",
+      "lastMeaningfulActivity": "2026-10-17T23:44:37.349682Z",
       "name": "Ditto",
-      "nextTask": "local repair 705 1 \u00b7 planner",
+      "nextTask": "local repair 709 1 \u00b7 planner",
       "operationalState": "RUNNABLE",
       "queueDepth": 2,
       "readyForHuman": false,
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-17T23:36:44.197844Z",
+  "publishedAt": "2026-10-17T23:44:51.036723Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1388,15 +1388,15 @@
   "queuedWork": [
     {
       "backend": "Local",
-      "heartbeatFresh": false,
-      "id": "712",
+      "heartbeatFresh": true,
+      "id": "713",
       "parent": null,
       "project": "Ditto",
       "resource": "Local agent",
-      "startedAt": "2026-10-17T22:52:25.151681Z",
+      "startedAt": "2026-10-17T23:24:37.423443Z",
       "state": "QUEUED",
-      "title": "local repair 705 1 \u00b7 planner",
-      "updatedAt": "2026-10-17T23:34:33.805976Z",
+      "title": "local repair 709 1 \u00b7 planner",
+      "updatedAt": "2026-10-17T23:44:37.277662Z",
       "workerType": "planner"
     }
   ],
@@ -1494,12 +1494,12 @@
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0,
     "verifiedMilestones12h": 15,
-    "verifiedMilestones24h": 42,
+    "verifiedMilestones24h": 41,
     "verifiedMilestones2h": 9
   },
-  "semanticHash": "b42e26ca50d4d0aeb28817c6467d8201bd8b05450271fd4251ec523bc9d2ab01",
+  "semanticHash": "4736b689d41a5fc249f9daddb4b7e0e32ff5b0729de5d07bc2b7cc48186a373e",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-17T23:34:33.806026Z",
+  "sourceEventAt": "2026-10-17T23:44:37.277707Z",
   "system": {
     "activeJobs": 1,
     "autonomy": "DEGRADED",
