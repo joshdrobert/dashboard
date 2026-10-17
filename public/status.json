@@ -11,16 +11,16 @@
   "blockedWork": [
     {
       "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "675",
-      "parent": "673",
+      "heartbeatFresh": false,
+      "id": "670",
+      "parent": "464",
       "project": "Ditto",
       "resource": "Local agent",
-      "startedAt": "2026-10-17T06:36:51.807083Z",
-      "state": "STALE_UNKNOWN",
-      "title": "plan after 673 \u00b7 planner",
-      "updatedAt": "2026-10-17T06:36:54.700279Z",
-      "workerType": "planner"
+      "startedAt": "2026-10-17T06:04:41.166951Z",
+      "state": "FAILED",
+      "title": "targeted repair 669 \u00b7 coder",
+      "updatedAt": "2026-10-17T06:19:40.474223Z",
+      "workerType": "coder"
     },
     {
       "backend": "Local",
@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-17T06:36:54.754362Z",
+  "generatedAt": "2026-10-17T06:38:57.721499Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -400,6 +400,26 @@
     "verifiedPending": 0
   },
   "meaningfulEvents": [
+    {
+      "id": "153855",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-17T06:38:05.436299Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "153854",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-17T06:38:05.436268Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
     {
       "id": "153798",
       "message": "Accepted task completed: add bias validation \u00b7 coder.",
@@ -1179,26 +1199,6 @@
       "type": "failure",
       "verification": "Attention",
       "whyItMatters": "The failure remains visible until repaired."
-    },
-    {
-      "id": "150962",
-      "message": "Controller recovery restored an interrupted task boundary.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-17T04:30:40.573818Z",
-      "type": "recovery",
-      "verification": "Recorded",
-      "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "150961",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-17T04:30:40.573792Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
     }
   ],
   "portfolioSummary": {
@@ -1285,7 +1285,7 @@
       "status": "Ready"
     },
     {
-      "agentsNow": "Running",
+      "agentsNow": "No agent currently executing",
       "blocker": null,
       "currentObjective": "plan after 673 \u00b7 planner",
       "deliverable": "A verified bounded project artifact.",
@@ -1293,14 +1293,14 @@
       "id": "ditto",
       "lastAccomplishment": "Verified add error coverage tests \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T06:36:54.700279Z",
+      "lastMeaningfulActivity": "2026-10-17T06:38:05.436254Z",
       "name": "Ditto",
-      "nextTask": null,
+      "nextTask": "plan after 673 \u00b7 planner",
       "operationalState": "RUNNABLE",
       "queueDepth": 1,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Running"
+      "status": "Queued"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1380,12 +1380,26 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-17T06:36:54.912844Z",
+  "publishedAt": "2026-10-17T06:38:58.034735Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
   },
-  "queuedWork": [],
+  "queuedWork": [
+    {
+      "backend": "Local",
+      "heartbeatFresh": true,
+      "id": "675",
+      "parent": "673",
+      "project": "Ditto",
+      "resource": "Local agent",
+      "startedAt": "2026-10-17T06:36:51.807083Z",
+      "state": "QUEUED",
+      "title": "plan after 673 \u00b7 planner",
+      "updatedAt": "2026-10-17T06:38:05.436254Z",
+      "workerType": "planner"
+    }
+  ],
   "recentlyCompleted": [
     {
       "id": "673",
@@ -1481,13 +1495,13 @@
     "resultsValidated": 0,
     "verifiedMilestones12h": 70,
     "verifiedMilestones24h": 70,
-    "verifiedMilestones2h": 12
+    "verifiedMilestones2h": 10
   },
-  "semanticHash": "ddf96814a3b7ceda776e455e45942151dcb660811618d9f6a072d8d3746075f1",
+  "semanticHash": "a3bec34882257966c180ec92345a89d27f623fec5f50d7f238728dfedddef856",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-17T06:36:54.692479Z",
+  "sourceEventAt": "2026-10-17T06:38:05.436299Z",
   "system": {
-    "activeJobs": 1,
+    "activeJobs": 0,
     "autonomy": "DEGRADED",
     "status": "Needs attention"
   },

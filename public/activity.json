@@ -1,5 +1,17 @@
 [
   {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "Ditto",
+    "timestamp": "2026-10-17T06:38:05.436299Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "Ditto",
+    "timestamp": "2026-10-17T06:38:05.436268Z"
+  },
+  {
     "level": "Verified",
     "message": "Accepted task completed: add bias validation \u00b7 coder.",
     "project": "Ditto",
@@ -466,17 +478,5 @@
     "message": "A bounded task failed and entered recovery.",
     "project": "TEER",
     "timestamp": "2026-10-17T04:31:20.886787Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "TEER",
-    "timestamp": "2026-10-17T04:30:40.573818Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "TEER",
-    "timestamp": "2026-10-17T04:30:40.573792Z"
   }
 ]
