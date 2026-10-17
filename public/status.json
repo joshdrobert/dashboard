@@ -1,6 +1,20 @@
 {
   "actionRequired": [],
-  "activeWork": [],
+  "activeWork": [
+    {
+      "backend": "Local",
+      "heartbeatFresh": true,
+      "id": "685",
+      "parent": "673",
+      "project": "Ditto",
+      "resource": "Local agent",
+      "startedAt": "2026-10-17T19:38:25.291173Z",
+      "state": "VERIFYING",
+      "title": "targeted repair 677 \u00b7 coder",
+      "updatedAt": "2026-10-17T20:06:50.241505Z",
+      "workerType": "coder"
+    }
+  ],
   "attentionRequired": [
     {
       "category": "Agents debugging",
@@ -12,19 +26,6 @@
     {
       "backend": "Local",
       "heartbeatFresh": true,
-      "id": "685",
-      "parent": "673",
-      "project": "Ditto",
-      "resource": "Local agent",
-      "startedAt": "2026-10-17T19:38:25.291173Z",
-      "state": "STALE_UNKNOWN",
-      "title": "targeted repair 677 \u00b7 coder",
-      "updatedAt": "2026-10-17T19:59:31.862830Z",
-      "workerType": "coder"
-    },
-    {
-      "backend": "Local",
-      "heartbeatFresh": true,
       "id": "684",
       "parent": "652",
       "project": "EchoNext",
@@ -32,7 +33,7 @@
       "startedAt": "2026-10-17T19:33:18.109612Z",
       "state": "STALE_UNKNOWN",
       "title": "targeted repair 679 \u00b7 coder",
-      "updatedAt": "2026-10-17T20:06:10.727180Z",
+      "updatedAt": "2026-10-17T20:08:21.243517Z",
       "workerType": "coder"
     },
     {
@@ -46,6 +47,19 @@
       "state": "STALE_UNKNOWN",
       "title": "targeted repair 680 \u00b7 coder",
       "updatedAt": "2026-10-17T20:05:28.752920Z",
+      "workerType": "coder"
+    },
+    {
+      "backend": "Local",
+      "heartbeatFresh": false,
+      "id": "682",
+      "parent": "673",
+      "project": "Ditto",
+      "resource": "Local agent",
+      "startedAt": "2026-10-17T19:24:28.545690Z",
+      "state": "FAILED",
+      "title": "targeted repair 676 \u00b7 coder",
+      "updatedAt": "2026-10-17T19:57:29.910999Z",
       "workerType": "coder"
     },
     {
@@ -383,7 +397,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-17T20:06:39.900118Z",
+  "generatedAt": "2026-10-17T20:08:40.535297Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 9,
@@ -1203,9 +1217,9 @@
   ],
   "portfolioSummary": {
     "actionsRequiringUser": 0,
-    "activeLocalAgents": 0,
+    "activeLocalAgents": 1,
     "activeVisionJobs": 0,
-    "executingProjects": 0,
+    "executingProjects": 1,
     "projectsNeedingTechnicalAttention": 2,
     "registeredProjects": 9,
     "state": "Needs attention",
@@ -1285,7 +1299,7 @@
       "status": "Ready"
     },
     {
-      "agentsNow": "Running",
+      "agentsNow": "Verifying",
       "blocker": null,
       "currentObjective": "targeted repair 677 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
@@ -1293,14 +1307,14 @@
       "id": "ditto",
       "lastAccomplishment": "Verified add error coverage tests \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T19:57:36.200893Z",
+      "lastMeaningfulActivity": "2026-10-17T20:06:42.049857Z",
       "name": "Ditto",
       "nextTask": "targeted repair 682 \u00b7 coder",
       "operationalState": "RUNNABLE",
       "queueDepth": 2,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Running"
+      "status": "Verifying"
     },
     {
       "agentsNow": "Running",
@@ -1380,7 +1394,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-17T20:06:40.264498Z",
+  "publishedAt": "2026-10-17T20:08:40.914415Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1510,7 +1524,7 @@
     "verifiedMilestones24h": 49,
     "verifiedMilestones2h": 0
   },
-  "semanticHash": "98f945c65a62d858ebb299d19bc32cf82f85777bf004750dd2bf33cb7777794a",
+  "semanticHash": "cd522d58e8a7c26759132b62ab4b5c498b4b5f12cebb5f817a22de1db43f7d2d",
   "snapshotVersion": "2.3",
   "sourceEventAt": "2026-10-17T20:00:12.253327Z",
   "system": {
