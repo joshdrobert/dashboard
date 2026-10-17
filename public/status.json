@@ -19,7 +19,7 @@
       "startedAt": "2026-10-17T03:20:11.902648Z",
       "state": "STALE_UNKNOWN",
       "title": "targeted repair 595 \u00b7 coder",
-      "updatedAt": "2026-10-17T03:36:51.024077Z",
+      "updatedAt": "2026-10-17T03:39:37.676167Z",
       "workerType": "coder"
     },
     {
@@ -32,7 +32,7 @@
       "startedAt": "2026-10-17T03:20:11.902567Z",
       "state": "STALE_UNKNOWN",
       "title": "targeted repair 579 \u00b7 coder",
-      "updatedAt": "2026-10-17T03:36:49.400551Z",
+      "updatedAt": "2026-10-17T03:39:34.470549Z",
       "workerType": "coder"
     },
     {
@@ -129,14 +129,14 @@
   ],
   "decisionSummary": {
     "approvedDecisions": 0,
-    "lastPhase1": "2026-10-17T03:28:52.731724Z",
-    "lastPhase2": "2026-10-17T03:30:43.923871Z",
+    "lastPhase1": "2026-10-17T03:39:51.162541Z",
+    "lastPhase2": null,
     "model": "Codex",
     "modifiedOrReversed": 0,
     "nextReview": null,
-    "orientationAcknowledgments": 9,
+    "orientationAcknowledgments": null,
     "pendingDecisions": 0,
-    "projectsReviewed": 9,
+    "projectsReviewed": 0,
     "reasoningEffort": "configured",
     "reviewHistory": [
       {
@@ -252,19 +252,19 @@
         "verified": 0
       }
     ],
-    "state": "COMPLETE",
+    "state": "PHASE1_RUNNING",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
   "director": {
     "approvedDecisions": 0,
-    "lastPhase1": "2026-10-17T03:28:52.731724Z",
-    "lastPhase2": "2026-10-17T03:30:43.923871Z",
+    "lastPhase1": "2026-10-17T03:39:51.162541Z",
+    "lastPhase2": null,
     "model": "Codex",
     "modifiedOrReversed": 0,
     "nextReview": null,
-    "orientationAcknowledgments": 9,
+    "orientationAcknowledgments": null,
     "pendingDecisions": 0,
-    "projectsReviewed": 9,
+    "projectsReviewed": 0,
     "reasoningEffort": "configured",
     "reviewHistory": [
       {
@@ -380,10 +380,10 @@
         "verified": 0
       }
     ],
-    "state": "COMPLETE",
+    "state": "PHASE1_RUNNING",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-17T03:38:29.117046Z",
+  "generatedAt": "2026-10-17T03:40:31.357344Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -1311,7 +1311,7 @@
       "id": "echonext",
       "lastAccomplishment": "Verified local repair 487 milestone map \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T03:36:49.400551Z",
+      "lastMeaningfulActivity": "2026-10-17T03:39:34.470549Z",
       "name": "EchoNext",
       "nextTask": null,
       "operationalState": "RUNNABLE",
@@ -1347,7 +1347,7 @@
       "id": "teer",
       "lastAccomplishment": "Verified regenerate plan 641 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T03:36:42.100121Z",
+      "lastMeaningfulActivity": "2026-10-17T03:39:28.711466Z",
       "name": "TEER",
       "nextTask": "targeted repair 596 \u00b7 coder",
       "operationalState": "RUNNABLE",
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-17T03:38:29.303479Z",
+  "publishedAt": "2026-10-17T03:40:31.547810Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1497,7 +1497,7 @@
     "verifiedMilestones24h": 61,
     "verifiedMilestones2h": 0
   },
-  "semanticHash": "64609335c513787faccb471180c952cc0c37d8c1fd94b7bb7e213fe07a465a01",
+  "semanticHash": "643d2f050fc5c9771efda98a76b649eb8e992e89c01c8922cbdcb993b2346443",
   "snapshotVersion": "2.3",
   "sourceEventAt": "2026-10-17T03:36:26.115457Z",
   "system": {
