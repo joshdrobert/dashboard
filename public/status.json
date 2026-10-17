@@ -32,7 +32,7 @@
       "startedAt": "2026-10-17T21:22:07.581357Z",
       "state": "STALE_UNKNOWN",
       "title": "targeted repair 693 \u00b7 coder",
-      "updatedAt": "2026-10-17T21:28:43.356233Z",
+      "updatedAt": "2026-10-17T21:28:48.653519Z",
       "workerType": "coder"
     },
     {
@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-17T21:28:45.731105Z",
+  "generatedAt": "2026-10-17T21:30:47.406483Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 9,
@@ -1293,7 +1293,7 @@
       "id": "ditto",
       "lastAccomplishment": "Verified add error coverage tests \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T21:28:43.356233Z",
+      "lastMeaningfulActivity": "2026-10-17T21:28:48.653519Z",
       "name": "Ditto",
       "nextTask": "targeted repair 691 \u00b7 coder",
       "operationalState": "RUNNABLE",
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-17T21:28:46.081350Z",
+  "publishedAt": "2026-10-17T21:30:47.805878Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1388,7 +1388,7 @@
   "queuedWork": [
     {
       "backend": "Local",
-      "heartbeatFresh": true,
+      "heartbeatFresh": false,
       "id": "697",
       "parent": "673",
       "project": "Ditto",
@@ -1510,7 +1510,7 @@
     "verifiedMilestones24h": 37,
     "verifiedMilestones2h": 6
   },
-  "semanticHash": "8d4c088665734eb7cbef736d77a99374a4935eb23fd2aea18716807ae5f62314",
+  "semanticHash": "1266412dbce3478cdbe17cccd9d2932fda80a9541f010e319f583b715e14a17c",
   "snapshotVersion": "2.3",
   "sourceEventAt": "2026-10-17T21:28:39.391985Z",
   "system": {
