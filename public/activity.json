@@ -1,6 +1,18 @@
 [
   {
     "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "EchoNext",
+    "timestamp": "2026-10-17T20:26:22.471805Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "EchoNext",
+    "timestamp": "2026-10-17T20:26:22.471749Z"
+  },
+  {
+    "level": "Recorded",
     "message": "Queued targeted repair 685 \u00b7 coder.",
     "project": "Ditto",
     "timestamp": "2026-10-17T20:24:39.343902Z"
@@ -76,18 +88,6 @@
     "message": "A bounded task failed and entered recovery.",
     "project": "EchoNext",
     "timestamp": "2026-10-17T20:08:46.877198Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "EchoNext",
-    "timestamp": "2026-10-17T20:00:12.253327Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "EchoNext",
-    "timestamp": "2026-10-17T20:00:12.253278Z"
   },
   {
     "level": "Recorded",
