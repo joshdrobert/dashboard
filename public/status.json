@@ -12,14 +12,14 @@
     {
       "backend": "Local",
       "heartbeatFresh": true,
-      "id": "673",
+      "id": "674",
       "parent": "671",
       "project": "Ditto",
       "resource": "Local agent",
-      "startedAt": "2026-10-17T06:20:34.957822Z",
+      "startedAt": "2026-10-17T06:20:34.957838Z",
       "state": "STALE_UNKNOWN",
-      "title": "add bias validation \u00b7 coder",
-      "updatedAt": "2026-10-17T06:28:21.089511Z",
+      "title": "add error coverage tests \u00b7 coder",
+      "updatedAt": "2026-10-17T06:32:46.529441Z",
       "workerType": "coder"
     },
     {
@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-17T06:28:51.101890Z",
+  "generatedAt": "2026-10-17T06:32:54.258445Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -400,6 +400,46 @@
     "verifiedPending": 0
   },
   "meaningfulEvents": [
+    {
+      "id": "153665",
+      "message": "Accepted task completed: repair 670 \u00b7 coder.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-17T06:32:49.561723Z",
+      "type": "task_exit_accepted",
+      "verification": "Verified",
+      "whyItMatters": "The controller recorded the completion."
+    },
+    {
+      "id": "153649",
+      "message": "Verification passed for repair 670 \u00b7 coder.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-17T06:32:43.406181Z",
+      "type": "accepted",
+      "verification": "Verified",
+      "whyItMatters": "Dependent work may advance."
+    },
+    {
+      "id": "153606",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-17T06:31:59.242473Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "153605",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-17T06:31:59.242439Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
     {
       "id": "153504",
       "message": "Controller recovery restored an interrupted task boundary.",
@@ -1159,46 +1199,6 @@
       "type": "task_exit_accepted",
       "verification": "Verified",
       "whyItMatters": "The controller recorded the completion."
-    },
-    {
-      "id": "150570",
-      "message": "Verification passed for local repair 648 pytest duplicates \u00b7 coder.",
-      "next": "Continue through the next controller gate.",
-      "project": "EchoNext",
-      "timestamp": "2026-10-17T04:21:00.013170Z",
-      "type": "accepted",
-      "verification": "Verified",
-      "whyItMatters": "Dependent work may advance."
-    },
-    {
-      "id": "150483",
-      "message": "Queued regenerate plan 647 \u00b7 planner.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-17T04:19:42.655154Z",
-      "type": "task_queued",
-      "verification": "Recorded",
-      "whyItMatters": "The next unit of work is durable."
-    },
-    {
-      "id": "150480",
-      "message": "Queued targeted repair 643 \u00b7 coder.",
-      "next": "Continue through the next controller gate.",
-      "project": "Ditto",
-      "timestamp": "2026-10-17T04:19:41.958109Z",
-      "type": "task_queued",
-      "verification": "Recorded",
-      "whyItMatters": "The next unit of work is durable."
-    },
-    {
-      "id": "150476",
-      "message": "Verification passed for local repair 645 1 \u00b7 planner.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-17T04:19:41.861100Z",
-      "type": "accepted",
-      "verification": "Verified",
-      "whyItMatters": "Dependent work may advance."
     }
   ],
   "portfolioSummary": {
@@ -1209,7 +1209,7 @@
     "projectsNeedingTechnicalAttention": 3,
     "registeredProjects": 9,
     "state": "Needs attention",
-    "verifiedCompletions24h": 68
+    "verifiedCompletions24h": 69
   },
   "projects": [
     {
@@ -1287,17 +1287,17 @@
     {
       "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "add bias validation \u00b7 coder",
+      "currentObjective": "add error coverage tests \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "ditto",
-      "lastAccomplishment": "Verified local repair 670 1 \u00b7 planner.",
+      "lastAccomplishment": "Verified repair 670 \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T06:28:16.607638Z",
+      "lastMeaningfulActivity": "2026-10-17T06:32:46.529441Z",
       "name": "Ditto",
-      "nextTask": "add error coverage tests \u00b7 coder",
+      "nextTask": "add bias validation \u00b7 coder",
       "operationalState": "RUNNABLE",
-      "queueDepth": 3,
+      "queueDepth": 2,
       "readyForHuman": false,
       "researchStage": "Active research program",
       "status": "Running"
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-17T06:28:51.318508Z",
+  "publishedAt": "2026-10-17T06:32:54.479996Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1388,19 +1388,26 @@
   "queuedWork": [
     {
       "backend": "Local",
-      "heartbeatFresh": false,
-      "id": "674",
+      "heartbeatFresh": true,
+      "id": "673",
       "parent": "671",
       "project": "Ditto",
       "resource": "Local agent",
-      "startedAt": "2026-10-17T06:20:34.957838Z",
+      "startedAt": "2026-10-17T06:20:34.957822Z",
       "state": "QUEUED",
-      "title": "add error coverage tests \u00b7 coder",
-      "updatedAt": "2026-10-17T06:20:34.957838Z",
+      "title": "add bias validation \u00b7 coder",
+      "updatedAt": "2026-10-17T06:31:59.242415Z",
       "workerType": "coder"
     }
   ],
   "recentlyCompleted": [
+    {
+      "id": "672",
+      "project": "Ditto",
+      "state": "COMPLETED",
+      "title": "repair 670 \u00b7 coder",
+      "updatedAt": "2026-10-17T06:32:43.406022Z"
+    },
     {
       "id": "671",
       "project": "Ditto",
@@ -1477,13 +1484,6 @@
       "state": "COMPLETED",
       "title": "regenerate plan 637 \u00b7 planner",
       "updatedAt": "2026-10-16T21:54:38.419030Z"
-    },
-    {
-      "id": "639",
-      "project": "TEER",
-      "state": "COMPLETED",
-      "title": "regenerate plan 636 \u00b7 planner",
-      "updatedAt": "2026-10-16T21:54:10.173667Z"
     }
   ],
   "recoveryWork": [],
@@ -1493,13 +1493,13 @@
     "manuscriptMilestones": 0,
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0,
-    "verifiedMilestones12h": 68,
-    "verifiedMilestones24h": 68,
-    "verifiedMilestones2h": 18
+    "verifiedMilestones12h": 69,
+    "verifiedMilestones24h": 69,
+    "verifiedMilestones2h": 15
   },
-  "semanticHash": "d2b5c6cf9dafac1918752b0f7336fcb1f9c15f8144549b99393737cab40d17e6",
+  "semanticHash": "2119428ea737f4d31cd87d22e6e79c34cb6870f47ee728911bef1ef297f8060a",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-17T06:28:16.489812Z",
+  "sourceEventAt": "2026-10-17T06:32:49.561723Z",
   "system": {
     "activeJobs": 1,
     "autonomy": "DEGRADED",
