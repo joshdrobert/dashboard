@@ -1,6 +1,20 @@
 {
   "actionRequired": [],
-  "activeWork": [],
+  "activeWork": [
+    {
+      "backend": "Local",
+      "heartbeatFresh": true,
+      "id": "677",
+      "parent": null,
+      "project": "Ditto",
+      "resource": "Local agent",
+      "startedAt": "2026-10-17T18:31:57.113405Z",
+      "state": "VERIFYING",
+      "title": "stable repair calibration contract 20261017 \u00b7 coder",
+      "updatedAt": "2026-10-17T19:29:55.755285Z",
+      "workerType": "coder"
+    }
+  ],
   "attentionRequired": [
     {
       "category": "Agents debugging",
@@ -25,27 +39,27 @@
     {
       "backend": "Local",
       "heartbeatFresh": true,
-      "id": "681",
-      "parent": "652",
+      "id": "679",
+      "parent": null,
       "project": "EchoNext",
       "resource": "Local agent",
-      "startedAt": "2026-10-17T19:22:59.570968Z",
+      "startedAt": "2026-10-17T18:31:57.117136Z",
       "state": "STALE_UNKNOWN",
-      "title": "targeted repair 678 \u00b7 coder",
-      "updatedAt": "2026-10-17T19:28:18.109915Z",
+      "title": "stable repair collection 20261017 \u00b7 coder",
+      "updatedAt": "2026-10-17T19:30:49.798905Z",
       "workerType": "coder"
     },
     {
       "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "677",
+      "heartbeatFresh": false,
+      "id": "676",
       "parent": null,
       "project": "Ditto",
       "resource": "Local agent",
-      "startedAt": "2026-10-17T18:31:57.113405Z",
-      "state": "STALE_UNKNOWN",
-      "title": "stable repair calibration contract 20261017 \u00b7 coder",
-      "updatedAt": "2026-10-17T19:26:21.585847Z",
+      "startedAt": "2026-10-17T18:31:57.111345Z",
+      "state": "FAILED",
+      "title": "stable repair quantity api 20261017 \u00b7 coder",
+      "updatedAt": "2026-10-17T19:24:19.749440Z",
       "workerType": "coder"
     },
     {
@@ -383,7 +397,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-17T19:29:35.267958Z",
+  "generatedAt": "2026-10-17T19:31:37.642277Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 9,
@@ -400,6 +414,26 @@
     "verifiedPending": 1
   },
   "meaningfulEvents": [
+    {
+      "id": "156788",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "EchoNext",
+      "timestamp": "2026-10-17T19:30:06.523595Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "156787",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "EchoNext",
+      "timestamp": "2026-10-17T19:30:06.523546Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
     {
       "id": "156663",
       "message": "Queued targeted repair 680 \u00b7 coder.",
@@ -1179,37 +1213,17 @@
       "type": "recovery",
       "verification": "Recorded",
       "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "152717",
-      "message": "A Codex orientation was delivered.",
-      "next": "Continue through the next controller gate.",
-      "project": "Ditto",
-      "timestamp": "2026-10-17T05:43:36.171365Z",
-      "type": "orientation_delivered",
-      "verification": "Recorded",
-      "whyItMatters": "Supervisory direction was updated."
-    },
-    {
-      "id": "152536",
-      "message": "Queued targeted repair 668 \u00b7 coder.",
-      "next": "Continue through the next controller gate.",
-      "project": "Ditto",
-      "timestamp": "2026-10-17T05:35:58.439819Z",
-      "type": "task_queued",
-      "verification": "Recorded",
-      "whyItMatters": "The next unit of work is durable."
     }
   ],
   "portfolioSummary": {
     "actionsRequiringUser": 0,
-    "activeLocalAgents": 0,
+    "activeLocalAgents": 1,
     "activeVisionJobs": 0,
-    "executingProjects": 0,
+    "executingProjects": 1,
     "projectsNeedingTechnicalAttention": 2,
     "registeredProjects": 9,
     "state": "Needs attention",
-    "verifiedCompletions24h": 53
+    "verifiedCompletions24h": 52
   },
   "projects": [
     {
@@ -1285,7 +1299,7 @@
       "status": "Ready"
     },
     {
-      "agentsNow": "Running",
+      "agentsNow": "Verifying",
       "blocker": null,
       "currentObjective": "stable repair calibration contract 20261017 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
@@ -1300,20 +1314,20 @@
       "queueDepth": 2,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Running"
+      "status": "Verifying"
     },
     {
       "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "targeted repair 678 \u00b7 coder",
+      "currentObjective": "stable repair collection 20261017 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "echonext",
       "lastAccomplishment": "Verified local repair 648 validate fix \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T19:28:18.109915Z",
+      "lastMeaningfulActivity": "2026-10-17T19:30:07.140151Z",
       "name": "EchoNext",
-      "nextTask": "stable repair collection 20261017 \u00b7 coder",
+      "nextTask": "targeted repair 678 \u00b7 coder",
       "operationalState": "RUNNABLE",
       "queueDepth": 2,
       "readyForHuman": false,
@@ -1380,7 +1394,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-17T19:29:35.451643Z",
+  "publishedAt": "2026-10-17T19:31:38.021304Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1402,14 +1416,14 @@
     {
       "backend": "Local",
       "heartbeatFresh": false,
-      "id": "679",
-      "parent": null,
+      "id": "681",
+      "parent": "652",
       "project": "EchoNext",
       "resource": "Local agent",
-      "startedAt": "2026-10-17T18:31:57.117136Z",
+      "startedAt": "2026-10-17T19:22:59.570968Z",
       "state": "QUEUED",
-      "title": "stable repair collection 20261017 \u00b7 coder",
-      "updatedAt": "2026-10-17T19:25:07.286117Z",
+      "title": "targeted repair 678 \u00b7 coder",
+      "updatedAt": "2026-10-17T19:30:06.523495Z",
       "workerType": "coder"
     }
   ],
@@ -1507,12 +1521,12 @@
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0,
     "verifiedMilestones12h": 0,
-    "verifiedMilestones24h": 53,
+    "verifiedMilestones24h": 52,
     "verifiedMilestones2h": 0
   },
-  "semanticHash": "7cf1d6647edeef0ac46ebb3a062d664c277d08ff4568105a75123f2a7231ce73",
+  "semanticHash": "dfc60ac567c59363575a503193496784d3f0e83c0c7d92c4f4b79b38958df96b",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-17T19:26:41.063907Z",
+  "sourceEventAt": "2026-10-17T19:30:06.523595Z",
   "system": {
     "activeJobs": 3,
     "autonomy": "DEGRADED",
