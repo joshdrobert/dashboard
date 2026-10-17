@@ -1,6 +1,18 @@
 [
   {
     "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "Ditto",
+    "timestamp": "2026-10-17T18:44:30.551329Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "Ditto",
+    "timestamp": "2026-10-17T18:44:30.551297Z"
+  },
+  {
+    "level": "Recorded",
     "message": "Controller recorded git integration complete.",
     "project": "AI-Server",
     "timestamp": "2026-10-17T18:38:24.645368Z"
@@ -466,17 +478,5 @@
     "message": "A bounded task failed and entered recovery.",
     "project": "Ditto",
     "timestamp": "2026-10-17T04:44:32.852259Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "TEER",
-    "timestamp": "2026-10-17T04:43:45.128779Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Verification passed for regenerate plan 663 \u00b7 planner.",
-    "project": "EchoNext",
-    "timestamp": "2026-10-17T04:41:28.916711Z"
   }
 ]
