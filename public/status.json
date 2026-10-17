@@ -129,14 +129,14 @@
   ],
   "decisionSummary": {
     "approvedDecisions": 0,
-    "lastPhase1": "2026-10-17T07:43:36.826280Z",
-    "lastPhase2": "2026-10-17T07:45:36.420336Z",
+    "lastPhase1": "2026-10-17T09:45:37.065689Z",
+    "lastPhase2": null,
     "model": "Codex",
     "modifiedOrReversed": 0,
     "nextReview": null,
-    "orientationAcknowledgments": 9,
+    "orientationAcknowledgments": null,
     "pendingDecisions": 0,
-    "projectsReviewed": 9,
+    "projectsReviewed": 0,
     "reasoningEffort": "configured",
     "reviewHistory": [
       {
@@ -252,19 +252,19 @@
         "verified": 0
       }
     ],
-    "state": "COMPLETE",
+    "state": "PHASE2_RUNNING",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
   "director": {
     "approvedDecisions": 0,
-    "lastPhase1": "2026-10-17T07:43:36.826280Z",
-    "lastPhase2": "2026-10-17T07:45:36.420336Z",
+    "lastPhase1": "2026-10-17T09:45:37.065689Z",
+    "lastPhase2": null,
     "model": "Codex",
     "modifiedOrReversed": 0,
     "nextReview": null,
-    "orientationAcknowledgments": 9,
+    "orientationAcknowledgments": null,
     "pendingDecisions": 0,
-    "projectsReviewed": 9,
+    "projectsReviewed": 0,
     "reasoningEffort": "configured",
     "reviewHistory": [
       {
@@ -380,10 +380,10 @@
         "verified": 0
       }
     ],
-    "state": "COMPLETE",
+    "state": "PHASE2_RUNNING",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-17T09:00:40.861796Z",
+  "generatedAt": "2026-10-17T09:47:22.812081Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-17T09:00:41.010686Z",
+  "publishedAt": "2026-10-17T09:47:22.977441Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1479,11 +1479,11 @@
     "manuscriptMilestones": 0,
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0,
-    "verifiedMilestones12h": 43,
+    "verifiedMilestones12h": 42,
     "verifiedMilestones24h": 70,
     "verifiedMilestones2h": 0
   },
-  "semanticHash": "d1401952d9c1accab65b317638e94ec58e8acfa9987c772a919cd8f107d3d649",
+  "semanticHash": "d842f0dfe87af40278613ec32837d36545e12789347087a97aa6b066605f0791",
   "snapshotVersion": "2.3",
   "sourceEventAt": "2026-10-17T07:45:36.433386Z",
   "system": {
