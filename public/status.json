@@ -1,20 +1,6 @@
 {
   "actionRequired": [],
-  "activeWork": [
-    {
-      "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "699",
-      "parent": "673",
-      "project": "Ditto",
-      "resource": "Local agent",
-      "startedAt": "2026-10-17T21:22:07.581357Z",
-      "state": "VERIFYING",
-      "title": "targeted repair 693 \u00b7 coder",
-      "updatedAt": "2026-10-17T21:35:48.089901Z",
-      "workerType": "coder"
-    }
-  ],
+  "activeWork": [],
   "attentionRequired": [
     {
       "category": "Agents debugging",
@@ -23,6 +9,19 @@
     }
   ],
   "blockedWork": [
+    {
+      "backend": "Local",
+      "heartbeatFresh": true,
+      "id": "702",
+      "parent": "673",
+      "project": "Ditto",
+      "resource": "Local agent",
+      "startedAt": "2026-10-17T21:35:47.884106Z",
+      "state": "STALE_UNKNOWN",
+      "title": "targeted repair 697 \u00b7 coder",
+      "updatedAt": "2026-10-17T21:39:00.300625Z",
+      "workerType": "coder"
+    },
     {
       "backend": "Local",
       "heartbeatFresh": true,
@@ -39,27 +38,14 @@
     {
       "backend": "Local",
       "heartbeatFresh": true,
-      "id": "697",
-      "parent": "673",
-      "project": "Ditto",
-      "resource": "Local agent",
-      "startedAt": "2026-10-17T21:02:01.809728Z",
-      "state": "FAILED",
-      "title": "targeted repair 691 \u00b7 coder",
-      "updatedAt": "2026-10-17T21:35:37.642338Z",
-      "workerType": "coder"
-    },
-    {
-      "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "696",
+      "id": "692",
       "parent": "652",
       "project": "EchoNext",
       "resource": "Local agent",
-      "startedAt": "2026-10-17T20:53:54.400759Z",
+      "startedAt": "2026-10-17T20:44:54.245517Z",
       "state": "STALE_UNKNOWN",
-      "title": "targeted repair 688 \u00b7 coder",
-      "updatedAt": "2026-10-17T21:35:16.432541Z",
+      "title": "targeted repair 686 \u00b7 coder",
+      "updatedAt": "2026-10-17T21:38:21.684321Z",
       "workerType": "coder"
     },
     {
@@ -397,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-17T21:37:04.401604Z",
+  "generatedAt": "2026-10-17T21:39:05.846974Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 9,
@@ -414,6 +400,26 @@
     "verifiedPending": 1
   },
   "meaningfulEvents": [
+    {
+      "id": "162811",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-17T21:38:51.907109Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "162810",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-17T21:38:51.907064Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
     {
       "id": "162704",
       "message": "Queued targeted repair 697 \u00b7 coder.",
@@ -1193,33 +1199,13 @@
       "type": "git_integration_complete",
       "verification": "Recorded",
       "whyItMatters": "The authoritative event log changed."
-    },
-    {
-      "id": "154797",
-      "message": "A Codex orientation was delivered.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-17T18:36:34.573999Z",
-      "type": "orientation_delivered",
-      "verification": "Recorded",
-      "whyItMatters": "Supervisory direction was updated."
-    },
-    {
-      "id": "154793",
-      "message": "A Codex orientation was delivered.",
-      "next": "Continue through the next controller gate.",
-      "project": "EchoNext",
-      "timestamp": "2026-10-17T18:36:34.571909Z",
-      "type": "orientation_delivered",
-      "verification": "Recorded",
-      "whyItMatters": "Supervisory direction was updated."
     }
   ],
   "portfolioSummary": {
     "actionsRequiringUser": 0,
-    "activeLocalAgents": 1,
+    "activeLocalAgents": 0,
     "activeVisionJobs": 0,
-    "executingProjects": 1,
+    "executingProjects": 0,
     "projectsNeedingTechnicalAttention": 2,
     "registeredProjects": 9,
     "state": "Needs attention",
@@ -1299,35 +1285,35 @@
       "status": "Ready"
     },
     {
-      "agentsNow": "Verifying",
+      "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "targeted repair 693 \u00b7 coder",
+      "currentObjective": "targeted repair 697 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "ditto",
       "lastAccomplishment": "Verified add error coverage tests \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T21:35:47.884106Z",
+      "lastMeaningfulActivity": "2026-10-17T21:39:00.300625Z",
       "name": "Ditto",
-      "nextTask": "targeted repair 697 \u00b7 coder",
+      "nextTask": "targeted repair 693 \u00b7 coder",
       "operationalState": "RUNNABLE",
       "queueDepth": 2,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Verifying"
+      "status": "Running"
     },
     {
       "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "targeted repair 688 \u00b7 coder",
+      "currentObjective": "targeted repair 686 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "echonext",
       "lastAccomplishment": "Verified local repair 648 validate fix \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T21:35:16.432541Z",
+      "lastMeaningfulActivity": "2026-10-17T21:37:38.863413Z",
       "name": "EchoNext",
-      "nextTask": "targeted repair 686 \u00b7 coder",
+      "nextTask": "targeted repair 688 \u00b7 coder",
       "operationalState": "RUNNABLE",
       "queueDepth": 2,
       "readyForHuman": false,
@@ -1394,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-17T21:37:04.609666Z",
+  "publishedAt": "2026-10-17T21:39:06.032678Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1402,28 +1388,28 @@
   "queuedWork": [
     {
       "backend": "Local",
-      "heartbeatFresh": false,
-      "id": "702",
+      "heartbeatFresh": true,
+      "id": "699",
       "parent": "673",
       "project": "Ditto",
       "resource": "Local agent",
-      "startedAt": "2026-10-17T21:35:47.884106Z",
+      "startedAt": "2026-10-17T21:22:07.581357Z",
       "state": "QUEUED",
-      "title": "targeted repair 697 \u00b7 coder",
-      "updatedAt": "2026-10-17T21:35:47.884106Z",
+      "title": "targeted repair 693 \u00b7 coder",
+      "updatedAt": "2026-10-17T21:38:51.907035Z",
       "workerType": "coder"
     },
     {
       "backend": "Local",
       "heartbeatFresh": false,
-      "id": "692",
+      "id": "696",
       "parent": "652",
       "project": "EchoNext",
       "resource": "Local agent",
-      "startedAt": "2026-10-17T20:44:54.245517Z",
+      "startedAt": "2026-10-17T20:53:54.400759Z",
       "state": "QUEUED",
-      "title": "targeted repair 686 \u00b7 coder",
-      "updatedAt": "2026-10-17T21:34:27.169017Z",
+      "title": "targeted repair 688 \u00b7 coder",
+      "updatedAt": "2026-10-17T21:37:36.763994Z",
       "workerType": "coder"
     }
   ],
@@ -1524,9 +1510,9 @@
     "verifiedMilestones24h": 37,
     "verifiedMilestones2h": 6
   },
-  "semanticHash": "cf8b38d79a49c6d13a23e42a1f5fec918ce7b3171e42c941a75d3c7a89236a98",
+  "semanticHash": "5a189a9a030a609820686c0948f650dd045a5ab5856d8ec55d080f7463f943c7",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-17T21:35:47.884172Z",
+  "sourceEventAt": "2026-10-17T21:38:51.907109Z",
   "system": {
     "activeJobs": 3,
     "autonomy": "DEGRADED",
