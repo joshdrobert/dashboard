@@ -12,14 +12,14 @@
     {
       "backend": "Local",
       "heartbeatFresh": true,
-      "id": "672",
+      "id": "673",
       "parent": "671",
       "project": "Ditto",
       "resource": "Local agent",
-      "startedAt": "2026-10-17T06:20:34.957763Z",
+      "startedAt": "2026-10-17T06:20:34.957822Z",
       "state": "STALE_UNKNOWN",
-      "title": "repair 670 \u00b7 coder",
-      "updatedAt": "2026-10-17T06:22:09.107810Z",
+      "title": "add bias validation \u00b7 coder",
+      "updatedAt": "2026-10-17T06:23:06.323186Z",
       "workerType": "coder"
     },
     {
@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-17T06:22:48.894888Z",
+  "generatedAt": "2026-10-17T06:24:50.642176Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -400,6 +400,26 @@
     "verifiedPending": 0
   },
   "meaningfulEvents": [
+    {
+      "id": "153332",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-17T06:23:02.563158Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "153331",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-17T06:23:02.563121Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
     {
       "id": "153298",
       "message": "Accepted task completed: local repair 670 1 \u00b7 planner.",
@@ -1179,26 +1199,6 @@
       "type": "accepted",
       "verification": "Verified",
       "whyItMatters": "Dependent work may advance."
-    },
-    {
-      "id": "150463",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "Ditto",
-      "timestamp": "2026-10-17T04:19:30.162872Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
-    },
-    {
-      "id": "150426",
-      "message": "Queued local repair 646 1 \u00b7 planner.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-17T04:19:07.084246Z",
-      "type": "task_queued",
-      "verification": "Recorded",
-      "whyItMatters": "The next unit of work is durable."
     }
   ],
   "portfolioSummary": {
@@ -1287,13 +1287,13 @@
     {
       "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "repair 670 \u00b7 coder",
+      "currentObjective": "add bias validation \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "ditto",
       "lastAccomplishment": "Verified local repair 670 1 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T06:20:35.138759Z",
+      "lastMeaningfulActivity": "2026-10-17T06:23:03.416781Z",
       "name": "Ditto",
       "nextTask": "add error coverage tests \u00b7 coder",
       "operationalState": "RUNNABLE",
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-17T06:22:49.060450Z",
+  "publishedAt": "2026-10-17T06:24:50.882856Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1495,11 +1495,11 @@
     "resultsValidated": 0,
     "verifiedMilestones12h": 68,
     "verifiedMilestones24h": 68,
-    "verifiedMilestones2h": 19
+    "verifiedMilestones2h": 18
   },
-  "semanticHash": "7d1af29cbd965d0d9f6451859085ab63537ac13d8cbafcd08737afe92f66bd44",
+  "semanticHash": "2af6b918f94ffc34fb1dd0c0eb1b0d07a7c04eabb3c4f2c7f2a0beed2dcea682",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-17T06:20:40.363592Z",
+  "sourceEventAt": "2026-10-17T06:23:02.563158Z",
   "system": {
     "activeJobs": 1,
     "autonomy": "DEGRADED",

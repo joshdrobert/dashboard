@@ -1,5 +1,17 @@
 [
   {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "Ditto",
+    "timestamp": "2026-10-17T06:23:02.563158Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "Ditto",
+    "timestamp": "2026-10-17T06:23:02.563121Z"
+  },
+  {
     "level": "Verified",
     "message": "Accepted task completed: local repair 670 1 \u00b7 planner.",
     "project": "Ditto",
@@ -466,17 +478,5 @@
     "message": "Verification passed for local repair 645 1 \u00b7 planner.",
     "project": "TEER",
     "timestamp": "2026-10-17T04:19:41.861100Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "Ditto",
-    "timestamp": "2026-10-17T04:19:30.162872Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued local repair 646 1 \u00b7 planner.",
-    "project": "TEER",
-    "timestamp": "2026-10-17T04:19:07.084246Z"
   }
 ]
