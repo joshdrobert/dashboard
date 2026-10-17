@@ -32,7 +32,7 @@
       "startedAt": "2026-10-17T19:33:18.109612Z",
       "state": "STALE_UNKNOWN",
       "title": "targeted repair 679 \u00b7 coder",
-      "updatedAt": "2026-10-17T20:00:31.246993Z",
+      "updatedAt": "2026-10-17T20:00:41.908593Z",
       "workerType": "coder"
     },
     {
@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-17T20:00:33.596780Z",
+  "generatedAt": "2026-10-17T20:02:35.236884Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 9,
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-17T20:00:33.904379Z",
+  "publishedAt": "2026-10-17T20:02:35.520293Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1401,7 +1401,7 @@
     },
     {
       "backend": "Local",
-      "heartbeatFresh": true,
+      "heartbeatFresh": false,
       "id": "686",
       "parent": "652",
       "project": "EchoNext",
@@ -1510,7 +1510,7 @@
     "verifiedMilestones24h": 49,
     "verifiedMilestones2h": 0
   },
-  "semanticHash": "624689beebb8c2b9cf2cb5d5de1c9736983d50744bc5c0c4476b11705f1f8c8a",
+  "semanticHash": "0d77671a172aa1ffa761b719b5d736f7fd2e6bd0b1d03351ac17d6ac3aeb481a",
   "snapshotVersion": "2.3",
   "sourceEventAt": "2026-10-17T20:00:12.253327Z",
   "system": {
