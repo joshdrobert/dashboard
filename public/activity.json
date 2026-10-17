@@ -1,6 +1,30 @@
 [
   {
     "level": "Recorded",
+    "message": "Queued targeted repair 596 \u00b7 coder.",
+    "project": "TEER",
+    "timestamp": "2026-10-17T03:20:11.902710Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Queued targeted repair 595 \u00b7 coder.",
+    "project": "TEER",
+    "timestamp": "2026-10-17T03:20:11.902659Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Queued targeted repair 579 \u00b7 coder.",
+    "project": "EchoNext",
+    "timestamp": "2026-10-17T03:20:11.902583Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Queued targeted repair 578 \u00b7 coder.",
+    "project": "Ditto",
+    "timestamp": "2026-10-17T03:20:11.902480Z"
+  },
+  {
+    "level": "Recorded",
     "message": "A Codex orientation was delivered.",
     "project": "Papers",
     "timestamp": "2026-10-17T01:39:50.410292Z"
@@ -454,29 +478,5 @@
     "message": "Accepted task completed: local repair 608 synthetic validation \u00b7 coder.",
     "project": "AortaPlan",
     "timestamp": "2026-10-16T20:17:05.147776Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Verification passed for local repair 608 synthetic validation \u00b7 coder.",
-    "project": "AortaPlan",
-    "timestamp": "2026-10-16T20:17:01.095039Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Accepted task completed: local repair 608 bounded steps \u00b7 coder.",
-    "project": "AortaPlan",
-    "timestamp": "2026-10-16T20:13:47.676620Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Verification passed for local repair 608 bounded steps \u00b7 coder.",
-    "project": "AortaPlan",
-    "timestamp": "2026-10-16T20:13:40.588809Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "AortaPlan",
-    "timestamp": "2026-10-16T20:12:56.853171Z"
   }
 ]
