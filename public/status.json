@@ -12,6 +12,19 @@
     {
       "backend": "Local",
       "heartbeatFresh": true,
+      "id": "657",
+      "parent": "656",
+      "project": "TEER",
+      "resource": "Local agent",
+      "startedAt": "2026-10-17T04:22:48.264271Z",
+      "state": "STALE_UNKNOWN",
+      "title": "repair 645 remove duplicate test \u00b7 coder",
+      "updatedAt": "2026-10-17T04:23:53.629253Z",
+      "workerType": "coder"
+    },
+    {
+      "backend": "Local",
+      "heartbeatFresh": true,
       "id": "655",
       "parent": "464",
       "project": "Ditto",
@@ -25,19 +38,6 @@
     {
       "backend": "Local",
       "heartbeatFresh": true,
-      "id": "654",
-      "parent": null,
-      "project": "TEER",
-      "resource": "Local agent",
-      "startedAt": "2026-10-17T04:19:07.084185Z",
-      "state": "STALE_UNKNOWN",
-      "title": "local repair 646 1 \u00b7 planner",
-      "updatedAt": "2026-10-17T04:23:31.773425Z",
-      "workerType": "planner"
-    },
-    {
-      "backend": "Local",
-      "heartbeatFresh": true,
       "id": "652",
       "parent": "650",
       "project": "EchoNext",
@@ -45,7 +45,7 @@
       "startedAt": "2026-10-17T04:18:39.746571Z",
       "state": "STALE_UNKNOWN",
       "title": "local repair 648 integration check \u00b7 coder",
-      "updatedAt": "2026-10-17T04:21:29.124986Z",
+      "updatedAt": "2026-10-17T04:25:33.295225Z",
       "workerType": "coder"
     },
     {
@@ -383,7 +383,7 @@
     "state": "PHASE1_RUNNING",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-17T04:23:32.311715Z",
+  "generatedAt": "2026-10-17T04:25:35.605649Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -400,6 +400,26 @@
     "verifiedPending": 0
   },
   "meaningfulEvents": [
+    {
+      "id": "150726",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-17T04:23:40.917939Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "150725",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-17T04:23:40.917900Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
     {
       "id": "150666",
       "message": "Accepted task completed: regenerate plan 647 \u00b7 planner.",
@@ -459,26 +479,6 @@
       "type": "task_exit_accepted",
       "verification": "Verified",
       "whyItMatters": "The controller recorded the completion."
-    },
-    {
-      "id": "150581",
-      "message": "Controller recovery restored an interrupted task boundary.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-17T04:21:12.392420Z",
-      "type": "recovery",
-      "verification": "Recorded",
-      "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "150580",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-17T04:21:12.392357Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
     },
     {
       "id": "150570",
@@ -1311,7 +1311,7 @@
       "id": "echonext",
       "lastAccomplishment": "Verified local repair 648 pytest duplicates \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T04:21:01.355991Z",
+      "lastMeaningfulActivity": "2026-10-17T04:25:02.699650Z",
       "name": "EchoNext",
       "nextTask": "local repair 648 validate fix \u00b7 coder",
       "operationalState": "RUNNABLE",
@@ -1341,15 +1341,15 @@
     {
       "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "local repair 646 1 \u00b7 planner",
+      "currentObjective": "repair 645 remove duplicate test \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "teer",
       "lastAccomplishment": "Verified regenerate plan 647 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T04:22:48.708447Z",
+      "lastMeaningfulActivity": "2026-10-17T04:23:53.629253Z",
       "name": "TEER",
-      "nextTask": "repair 645 remove duplicate test \u00b7 coder",
+      "nextTask": "local repair 646 1 \u00b7 planner",
       "operationalState": "RUNNABLE",
       "queueDepth": 2,
       "readyForHuman": false,
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-17T04:23:32.663431Z",
+  "publishedAt": "2026-10-17T04:25:36.025689Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1389,15 +1389,15 @@
     {
       "backend": "Local",
       "heartbeatFresh": false,
-      "id": "657",
-      "parent": "656",
+      "id": "654",
+      "parent": null,
       "project": "TEER",
       "resource": "Local agent",
-      "startedAt": "2026-10-17T04:22:48.264271Z",
+      "startedAt": "2026-10-17T04:19:07.084185Z",
       "state": "QUEUED",
-      "title": "repair 645 remove duplicate test \u00b7 coder",
-      "updatedAt": "2026-10-17T04:22:48.264271Z",
-      "workerType": "coder"
+      "title": "local repair 646 1 \u00b7 planner",
+      "updatedAt": "2026-10-17T04:23:40.917874Z",
+      "workerType": "planner"
     },
     {
       "backend": "Local",
@@ -1510,9 +1510,9 @@
     "verifiedMilestones24h": 68,
     "verifiedMilestones2h": 7
   },
-  "semanticHash": "61c078f0fb432db4dff370a3c3e97dc62b8a6bbaf21ed2c9fd39bcdb2617cbc3",
+  "semanticHash": "2d8adffde1e072583b13c625ee72ef3677810eaf691ccbde3491104928431951",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-17T04:22:56.703427Z",
+  "sourceEventAt": "2026-10-17T04:23:40.917939Z",
   "system": {
     "activeJobs": 3,
     "autonomy": "DEGRADED",
