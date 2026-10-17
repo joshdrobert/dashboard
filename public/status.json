@@ -45,7 +45,7 @@
       "startedAt": "2026-10-17T04:18:39.746571Z",
       "state": "STALE_UNKNOWN",
       "title": "local repair 648 integration check \u00b7 coder",
-      "updatedAt": "2026-10-17T04:25:33.295225Z",
+      "updatedAt": "2026-10-17T04:25:49.725605Z",
       "workerType": "coder"
     },
     {
@@ -383,7 +383,7 @@
     "state": "PHASE1_RUNNING",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-17T04:25:35.605649Z",
+  "generatedAt": "2026-10-17T04:27:35.863916Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-17T04:25:36.025689Z",
+  "publishedAt": "2026-10-17T04:27:36.197051Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1510,7 +1510,7 @@
     "verifiedMilestones24h": 68,
     "verifiedMilestones2h": 7
   },
-  "semanticHash": "2d8adffde1e072583b13c625ee72ef3677810eaf691ccbde3491104928431951",
+  "semanticHash": "bb32a423f4d0819e994941a7c27282d7ca7d290233621fc415a01314af5e3ac1",
   "snapshotVersion": "2.3",
   "sourceEventAt": "2026-10-17T04:23:40.917939Z",
   "system": {
