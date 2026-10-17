@@ -4,14 +4,14 @@
     {
       "backend": "Local",
       "heartbeatFresh": true,
-      "id": "677",
-      "parent": null,
-      "project": "Ditto",
+      "id": "681",
+      "parent": "652",
+      "project": "EchoNext",
       "resource": "Local agent",
-      "startedAt": "2026-10-17T18:31:57.113405Z",
+      "startedAt": "2026-10-17T19:22:59.570968Z",
       "state": "VERIFYING",
-      "title": "stable repair calibration contract 20261017 \u00b7 coder",
-      "updatedAt": "2026-10-17T19:29:55.755285Z",
+      "title": "targeted repair 678 \u00b7 coder",
+      "updatedAt": "2026-10-17T19:33:37.510399Z",
       "workerType": "coder"
     }
   ],
@@ -39,27 +39,27 @@
     {
       "backend": "Local",
       "heartbeatFresh": true,
+      "id": "682",
+      "parent": "673",
+      "project": "Ditto",
+      "resource": "Local agent",
+      "startedAt": "2026-10-17T19:24:28.545690Z",
+      "state": "STALE_UNKNOWN",
+      "title": "targeted repair 676 \u00b7 coder",
+      "updatedAt": "2026-10-17T19:32:05.718601Z",
+      "workerType": "coder"
+    },
+    {
+      "backend": "Local",
+      "heartbeatFresh": true,
       "id": "679",
       "parent": null,
       "project": "EchoNext",
       "resource": "Local agent",
       "startedAt": "2026-10-17T18:31:57.117136Z",
-      "state": "STALE_UNKNOWN",
-      "title": "stable repair collection 20261017 \u00b7 coder",
-      "updatedAt": "2026-10-17T19:30:49.798905Z",
-      "workerType": "coder"
-    },
-    {
-      "backend": "Local",
-      "heartbeatFresh": false,
-      "id": "676",
-      "parent": null,
-      "project": "Ditto",
-      "resource": "Local agent",
-      "startedAt": "2026-10-17T18:31:57.111345Z",
       "state": "FAILED",
-      "title": "stable repair quantity api 20261017 \u00b7 coder",
-      "updatedAt": "2026-10-17T19:24:19.749440Z",
+      "title": "stable repair collection 20261017 \u00b7 coder",
+      "updatedAt": "2026-10-17T19:33:16.734054Z",
       "workerType": "coder"
     },
     {
@@ -397,7 +397,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-17T19:31:37.642277Z",
+  "generatedAt": "2026-10-17T19:33:38.296070Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 9,
@@ -414,6 +414,46 @@
     "verifiedPending": 1
   },
   "meaningfulEvents": [
+    {
+      "id": "156951",
+      "message": "Queued targeted repair 679 \u00b7 coder.",
+      "next": "Continue through the next controller gate.",
+      "project": "EchoNext",
+      "timestamp": "2026-10-17T19:33:18.109656Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "156947",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "EchoNext",
+      "timestamp": "2026-10-17T19:33:16.734075Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
+    {
+      "id": "156862",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-17T19:31:58.284283Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "156861",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-17T19:31:58.284236Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
     {
       "id": "156788",
       "message": "Controller recovery restored an interrupted task boundary.",
@@ -463,16 +503,6 @@
       "type": "recovery",
       "verification": "Recorded",
       "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "156588",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "EchoNext",
-      "timestamp": "2026-10-17T19:25:07.286140Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
     },
     {
       "id": "156561",
@@ -533,26 +563,6 @@
       "type": "recovery",
       "verification": "Recorded",
       "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "156051",
-      "message": "Controller recovery restored an interrupted task boundary.",
-      "next": "Continue through the next controller gate.",
-      "project": "Ditto",
-      "timestamp": "2026-10-17T19:13:25.467201Z",
-      "type": "recovery",
-      "verification": "Recorded",
-      "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "156050",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "Ditto",
-      "timestamp": "2026-10-17T19:13:25.467151Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
     },
     {
       "id": "155678",
@@ -1203,16 +1213,6 @@
       "type": "failure",
       "verification": "Attention",
       "whyItMatters": "The failure remains visible until repaired."
-    },
-    {
-      "id": "152875",
-      "message": "Controller recovery restored an interrupted task boundary.",
-      "next": "Continue through the next controller gate.",
-      "project": "Ditto",
-      "timestamp": "2026-10-17T05:53:46.027273Z",
-      "type": "recovery",
-      "verification": "Recorded",
-      "whyItMatters": "Safe autonomous execution can resume."
     }
   ],
   "portfolioSummary": {
@@ -1223,7 +1223,7 @@
     "projectsNeedingTechnicalAttention": 2,
     "registeredProjects": 9,
     "state": "Needs attention",
-    "verifiedCompletions24h": 52
+    "verifiedCompletions24h": 51
   },
   "projects": [
     {
@@ -1299,40 +1299,40 @@
       "status": "Ready"
     },
     {
-      "agentsNow": "Verifying",
+      "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "stable repair calibration contract 20261017 \u00b7 coder",
+      "currentObjective": "targeted repair 676 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "ditto",
       "lastAccomplishment": "Verified add error coverage tests \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T19:24:28.545690Z",
+      "lastMeaningfulActivity": "2026-10-17T19:32:05.718601Z",
       "name": "Ditto",
-      "nextTask": "targeted repair 676 \u00b7 coder",
-      "operationalState": "RUNNABLE",
-      "queueDepth": 2,
-      "readyForHuman": false,
-      "researchStage": "Active research program",
-      "status": "Verifying"
-    },
-    {
-      "agentsNow": "Running",
-      "blocker": null,
-      "currentObjective": "stable repair collection 20261017 \u00b7 coder",
-      "deliverable": "A verified bounded project artifact.",
-      "goal": "Advance the next verified research milestone.",
-      "id": "echonext",
-      "lastAccomplishment": "Verified local repair 648 validate fix \u00b7 coder.",
-      "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T19:30:07.140151Z",
-      "name": "EchoNext",
-      "nextTask": "targeted repair 678 \u00b7 coder",
+      "nextTask": "stable repair calibration contract 20261017 \u00b7 coder",
       "operationalState": "RUNNABLE",
       "queueDepth": 2,
       "readyForHuman": false,
       "researchStage": "Active research program",
       "status": "Running"
+    },
+    {
+      "agentsNow": "Verifying",
+      "blocker": null,
+      "currentObjective": "targeted repair 678 \u00b7 coder",
+      "deliverable": "A verified bounded project artifact.",
+      "goal": "Advance the next verified research milestone.",
+      "id": "echonext",
+      "lastAccomplishment": "Verified local repair 648 validate fix \u00b7 coder.",
+      "lastCodexReview": null,
+      "lastMeaningfulActivity": "2026-10-17T19:33:19.047052Z",
+      "name": "EchoNext",
+      "nextTask": "targeted repair 679 \u00b7 coder",
+      "operationalState": "RUNNABLE",
+      "queueDepth": 2,
+      "readyForHuman": false,
+      "researchStage": "Active research program",
+      "status": "Verifying"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1394,7 +1394,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-17T19:31:38.021304Z",
+  "publishedAt": "2026-10-17T19:33:38.479095Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1403,27 +1403,27 @@
     {
       "backend": "Local",
       "heartbeatFresh": false,
-      "id": "682",
-      "parent": "673",
-      "project": "Ditto",
+      "id": "684",
+      "parent": "652",
+      "project": "EchoNext",
       "resource": "Local agent",
-      "startedAt": "2026-10-17T19:24:28.545690Z",
+      "startedAt": "2026-10-17T19:33:18.109612Z",
       "state": "QUEUED",
-      "title": "targeted repair 676 \u00b7 coder",
-      "updatedAt": "2026-10-17T19:24:28.545690Z",
+      "title": "targeted repair 679 \u00b7 coder",
+      "updatedAt": "2026-10-17T19:33:18.109612Z",
       "workerType": "coder"
     },
     {
       "backend": "Local",
       "heartbeatFresh": false,
-      "id": "681",
-      "parent": "652",
-      "project": "EchoNext",
+      "id": "677",
+      "parent": null,
+      "project": "Ditto",
       "resource": "Local agent",
-      "startedAt": "2026-10-17T19:22:59.570968Z",
+      "startedAt": "2026-10-17T18:31:57.113405Z",
       "state": "QUEUED",
-      "title": "targeted repair 678 \u00b7 coder",
-      "updatedAt": "2026-10-17T19:30:06.523495Z",
+      "title": "stable repair calibration contract 20261017 \u00b7 coder",
+      "updatedAt": "2026-10-17T19:31:58.284195Z",
       "workerType": "coder"
     }
   ],
@@ -1521,12 +1521,12 @@
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0,
     "verifiedMilestones12h": 0,
-    "verifiedMilestones24h": 52,
+    "verifiedMilestones24h": 51,
     "verifiedMilestones2h": 0
   },
-  "semanticHash": "dfc60ac567c59363575a503193496784d3f0e83c0c7d92c4f4b79b38958df96b",
+  "semanticHash": "d6bc02ecb5893e0125fc6574c1f93b69ad6ca369542c20d99605c59166235aa1",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-17T19:30:06.523595Z",
+  "sourceEventAt": "2026-10-17T19:33:18.109656Z",
   "system": {
     "activeJobs": 3,
     "autonomy": "DEGRADED",
