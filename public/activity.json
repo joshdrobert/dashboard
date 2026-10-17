@@ -1,5 +1,17 @@
 [
   {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "Ditto",
+    "timestamp": "2026-10-17T06:34:13.549670Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "Ditto",
+    "timestamp": "2026-10-17T06:34:13.549647Z"
+  },
+  {
     "level": "Verified",
     "message": "Accepted task completed: repair 670 \u00b7 coder.",
     "project": "Ditto",
@@ -466,17 +478,5 @@
     "message": "Queued repair 645 remove duplicate test \u00b7 coder.",
     "project": "TEER",
     "timestamp": "2026-10-17T04:22:48.264358Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Verification passed for regenerate plan 647 \u00b7 planner.",
-    "project": "TEER",
-    "timestamp": "2026-10-17T04:22:48.149696Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Accepted task completed: local repair 648 pytest duplicates \u00b7 coder.",
-    "project": "EchoNext",
-    "timestamp": "2026-10-17T04:21:31.452184Z"
   }
 ]
