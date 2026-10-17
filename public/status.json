@@ -130,15 +130,29 @@
   "decisionSummary": {
     "approvedDecisions": 0,
     "lastPhase1": "2026-10-17T13:49:36.731048Z",
-    "lastPhase2": null,
+    "lastPhase2": "2026-10-17T13:50:49.099972Z",
     "model": "Codex",
     "modifiedOrReversed": 0,
     "nextReview": null,
-    "orientationAcknowledgments": null,
+    "orientationAcknowledgments": 9,
     "pendingDecisions": 0,
-    "projectsReviewed": 0,
+    "projectsReviewed": 9,
     "reasoningEffort": "configured",
     "reviewHistory": [
+      {
+        "blocked": 0,
+        "completedAt": "2026-10-17T13:50:49.099972Z",
+        "cycle": "a284538e857b",
+        "decided": 9,
+        "dispatched": 0,
+        "executed": 0,
+        "failed": 0,
+        "matched": 9,
+        "rejected": 0,
+        "reviewed": 9,
+        "startedAt": "2026-10-17T13:49:36.731048Z",
+        "verified": 0
+      },
       {
         "blocked": 0,
         "completedAt": "2026-10-17T11:49:35.853083Z",
@@ -236,37 +250,37 @@
         "reviewed": 9,
         "startedAt": "2026-10-17T03:21:59.927239Z",
         "verified": 0
-      },
-      {
-        "blocked": 0,
-        "completedAt": "2026-10-17T01:39:50.398165Z",
-        "cycle": "08ed4a30ab3e",
-        "decided": 9,
-        "dispatched": 0,
-        "executed": 0,
-        "failed": 0,
-        "matched": 0,
-        "rejected": 9,
-        "reviewed": 9,
-        "startedAt": "2026-10-17T01:30:44.933474Z",
-        "verified": 0
       }
     ],
-    "state": "PHASE2_RUNNING",
+    "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
   "director": {
     "approvedDecisions": 0,
     "lastPhase1": "2026-10-17T13:49:36.731048Z",
-    "lastPhase2": null,
+    "lastPhase2": "2026-10-17T13:50:49.099972Z",
     "model": "Codex",
     "modifiedOrReversed": 0,
     "nextReview": null,
-    "orientationAcknowledgments": null,
+    "orientationAcknowledgments": 9,
     "pendingDecisions": 0,
-    "projectsReviewed": 0,
+    "projectsReviewed": 9,
     "reasoningEffort": "configured",
     "reviewHistory": [
+      {
+        "blocked": 0,
+        "completedAt": "2026-10-17T13:50:49.099972Z",
+        "cycle": "a284538e857b",
+        "decided": 9,
+        "dispatched": 0,
+        "executed": 0,
+        "failed": 0,
+        "matched": 9,
+        "rejected": 0,
+        "reviewed": 9,
+        "startedAt": "2026-10-17T13:49:36.731048Z",
+        "verified": 0
+      },
       {
         "blocked": 0,
         "completedAt": "2026-10-17T11:49:35.853083Z",
@@ -364,26 +378,12 @@
         "reviewed": 9,
         "startedAt": "2026-10-17T03:21:59.927239Z",
         "verified": 0
-      },
-      {
-        "blocked": 0,
-        "completedAt": "2026-10-17T01:39:50.398165Z",
-        "cycle": "08ed4a30ab3e",
-        "decided": 9,
-        "dispatched": 0,
-        "executed": 0,
-        "failed": 0,
-        "matched": 0,
-        "rejected": 9,
-        "reviewed": 9,
-        "startedAt": "2026-10-17T01:30:44.933474Z",
-        "verified": 0
       }
     ],
-    "state": "PHASE2_RUNNING",
+    "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-17T13:50:41.330809Z",
+  "generatedAt": "2026-10-17T13:52:42.478612Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -401,21 +401,101 @@
   },
   "meaningfulEvents": [
     {
-      "id": "154229",
+      "id": "154338",
       "message": "A Codex orientation was delivered.",
       "next": "Continue through the next controller gate.",
       "project": "Trace",
-      "timestamp": "2026-10-17T11:49:35.865079Z",
+      "timestamp": "2026-10-17T13:50:49.113676Z",
       "type": "orientation_delivered",
       "verification": "Recorded",
       "whyItMatters": "Supervisory direction was updated."
     },
     {
-      "id": "154227",
+      "id": "154336",
       "message": "A Codex orientation was delivered.",
       "next": "Continue through the next controller gate.",
       "project": "TEER",
-      "timestamp": "2026-10-17T11:49:35.864722Z",
+      "timestamp": "2026-10-17T13:50:49.112631Z",
+      "type": "orientation_delivered",
+      "verification": "Recorded",
+      "whyItMatters": "Supervisory direction was updated."
+    },
+    {
+      "id": "154334",
+      "message": "A Codex orientation was delivered.",
+      "next": "Continue through the next controller gate.",
+      "project": "Papers",
+      "timestamp": "2026-10-17T13:50:49.111589Z",
+      "type": "orientation_delivered",
+      "verification": "Recorded",
+      "whyItMatters": "Supervisory direction was updated."
+    },
+    {
+      "id": "154332",
+      "message": "A Codex orientation was delivered.",
+      "next": "Continue through the next controller gate.",
+      "project": "EchoNext",
+      "timestamp": "2026-10-17T13:50:49.110459Z",
+      "type": "orientation_delivered",
+      "verification": "Recorded",
+      "whyItMatters": "Supervisory direction was updated."
+    },
+    {
+      "id": "154330",
+      "message": "A Codex orientation was delivered.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-17T13:50:49.109223Z",
+      "type": "orientation_delivered",
+      "verification": "Recorded",
+      "whyItMatters": "Supervisory direction was updated."
+    },
+    {
+      "id": "154328",
+      "message": "A Codex orientation was delivered.",
+      "next": "Continue through the next controller gate.",
+      "project": "CTBone",
+      "timestamp": "2026-10-17T13:50:49.108214Z",
+      "type": "orientation_delivered",
+      "verification": "Recorded",
+      "whyItMatters": "Supervisory direction was updated."
+    },
+    {
+      "id": "154326",
+      "message": "A Codex orientation was delivered.",
+      "next": "Continue through the next controller gate.",
+      "project": "BCM-Neuromodulation",
+      "timestamp": "2026-10-17T13:50:49.106543Z",
+      "type": "orientation_delivered",
+      "verification": "Recorded",
+      "whyItMatters": "Supervisory direction was updated."
+    },
+    {
+      "id": "154324",
+      "message": "A Codex orientation was delivered.",
+      "next": "Continue through the next controller gate.",
+      "project": "AortaPlan",
+      "timestamp": "2026-10-17T13:50:49.105556Z",
+      "type": "orientation_delivered",
+      "verification": "Recorded",
+      "whyItMatters": "Supervisory direction was updated."
+    },
+    {
+      "id": "154322",
+      "message": "A Codex orientation was delivered.",
+      "next": "Continue through the next controller gate.",
+      "project": "AI-Server",
+      "timestamp": "2026-10-17T13:50:49.104199Z",
+      "type": "orientation_delivered",
+      "verification": "Recorded",
+      "whyItMatters": "Supervisory direction was updated."
+    },
+    {
+      "id": "154229",
+      "message": "A Codex orientation was delivered.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-17T11:49:35.865079Z",
       "type": "orientation_delivered",
       "verification": "Recorded",
       "whyItMatters": "Supervisory direction was updated."
@@ -451,31 +531,11 @@
       "whyItMatters": "Supervisory direction was updated."
     },
     {
-      "id": "154219",
-      "message": "A Codex orientation was delivered.",
-      "next": "Continue through the next controller gate.",
-      "project": "CTBone",
-      "timestamp": "2026-10-17T11:49:35.861269Z",
-      "type": "orientation_delivered",
-      "verification": "Recorded",
-      "whyItMatters": "Supervisory direction was updated."
-    },
-    {
       "id": "154217",
       "message": "A Codex orientation was delivered.",
       "next": "Continue through the next controller gate.",
       "project": "BCM-Neuromodulation",
       "timestamp": "2026-10-17T11:49:35.860677Z",
-      "type": "orientation_delivered",
-      "verification": "Recorded",
-      "whyItMatters": "Supervisory direction was updated."
-    },
-    {
-      "id": "154215",
-      "message": "A Codex orientation was delivered.",
-      "next": "Continue through the next controller gate.",
-      "project": "AortaPlan",
-      "timestamp": "2026-10-17T11:49:35.859825Z",
       "type": "orientation_delivered",
       "verification": "Recorded",
       "whyItMatters": "Supervisory direction was updated."
@@ -901,61 +961,11 @@
       "whyItMatters": "Safe autonomous execution can resume."
     },
     {
-      "id": "152725",
-      "message": "A Codex orientation was delivered.",
-      "next": "Continue through the next controller gate.",
-      "project": "Trace",
-      "timestamp": "2026-10-17T05:43:36.174616Z",
-      "type": "orientation_delivered",
-      "verification": "Recorded",
-      "whyItMatters": "Supervisory direction was updated."
-    },
-    {
-      "id": "152721",
-      "message": "A Codex orientation was delivered.",
-      "next": "Continue through the next controller gate.",
-      "project": "Papers",
-      "timestamp": "2026-10-17T05:43:36.172936Z",
-      "type": "orientation_delivered",
-      "verification": "Recorded",
-      "whyItMatters": "Supervisory direction was updated."
-    },
-    {
-      "id": "152719",
-      "message": "A Codex orientation was delivered.",
-      "next": "Continue through the next controller gate.",
-      "project": "EchoNext",
-      "timestamp": "2026-10-17T05:43:36.172129Z",
-      "type": "orientation_delivered",
-      "verification": "Recorded",
-      "whyItMatters": "Supervisory direction was updated."
-    },
-    {
       "id": "152717",
       "message": "A Codex orientation was delivered.",
       "next": "Continue through the next controller gate.",
       "project": "Ditto",
       "timestamp": "2026-10-17T05:43:36.171365Z",
-      "type": "orientation_delivered",
-      "verification": "Recorded",
-      "whyItMatters": "Supervisory direction was updated."
-    },
-    {
-      "id": "152713",
-      "message": "A Codex orientation was delivered.",
-      "next": "Continue through the next controller gate.",
-      "project": "BCM-Neuromodulation",
-      "timestamp": "2026-10-17T05:43:36.169768Z",
-      "type": "orientation_delivered",
-      "verification": "Recorded",
-      "whyItMatters": "Supervisory direction was updated."
-    },
-    {
-      "id": "152709",
-      "message": "A Codex orientation was delivered.",
-      "next": "Continue through the next controller gate.",
-      "project": "AI-Server",
-      "timestamp": "2026-10-17T05:43:36.168285Z",
       "type": "orientation_delivered",
       "verification": "Recorded",
       "whyItMatters": "Supervisory direction was updated."
@@ -1189,16 +1199,6 @@
       "type": "failure",
       "verification": "Attention",
       "whyItMatters": "The failure remains visible until repaired."
-    },
-    {
-      "id": "151329",
-      "message": "Queued regenerate plan 659 \u00b7 planner.",
-      "next": "Continue through the next controller gate.",
-      "project": "EchoNext",
-      "timestamp": "2026-10-17T04:36:29.394997Z",
-      "type": "task_queued",
-      "verification": "Recorded",
-      "whyItMatters": "The next unit of work is durable."
     }
   ],
   "portfolioSummary": {
@@ -1209,7 +1209,7 @@
     "projectsNeedingTechnicalAttention": 3,
     "registeredProjects": 9,
     "state": "Needs attention",
-    "verifiedCompletions24h": 70
+    "verifiedCompletions24h": 68
   },
   "projects": [
     {
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-17T13:50:41.500042Z",
+  "publishedAt": "2026-10-17T13:52:42.797520Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1480,12 +1480,12 @@
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0,
     "verifiedMilestones12h": 31,
-    "verifiedMilestones24h": 70,
+    "verifiedMilestones24h": 68,
     "verifiedMilestones2h": 0
   },
-  "semanticHash": "86f7ab925c0311a55e21d9d3e8e6c34fdd45d367fccbd8db6cdd0a6d091cf18c",
+  "semanticHash": "12bfb264454f28968e65223d55745e91c42714f235c03c66f41a26ab80ba8cf4",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-17T11:49:35.865079Z",
+  "sourceEventAt": "2026-10-17T13:50:49.113676Z",
   "system": {
     "activeJobs": 0,
     "autonomy": "DEGRADED",
