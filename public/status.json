@@ -19,7 +19,7 @@
       "startedAt": "2026-10-17T06:04:41.166951Z",
       "state": "STALE_UNKNOWN",
       "title": "targeted repair 669 \u00b7 coder",
-      "updatedAt": "2026-10-17T06:04:45.803120Z",
+      "updatedAt": "2026-10-17T06:08:30.497897Z",
       "workerType": "coder"
     },
     {
@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-17T06:06:34.510846Z",
+  "generatedAt": "2026-10-17T06:08:35.913194Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -400,6 +400,26 @@
     "verifiedPending": 0
   },
   "meaningfulEvents": [
+    {
+      "id": "153046",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-17T06:07:56.014715Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "153045",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-17T06:07:56.014682Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
     {
       "id": "152983",
       "message": "Queued targeted repair 669 \u00b7 coder.",
@@ -1179,26 +1199,6 @@
       "type": "task_queued",
       "verification": "Recorded",
       "whyItMatters": "The next unit of work is durable."
-    },
-    {
-      "id": "150307",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "EchoNext",
-      "timestamp": "2026-10-17T04:17:22.353616Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
-    },
-    {
-      "id": "150225",
-      "message": "Controller recovery restored an interrupted task boundary.",
-      "next": "Continue through the next controller gate.",
-      "project": "Ditto",
-      "timestamp": "2026-10-17T04:15:18.744573Z",
-      "type": "recovery",
-      "verification": "Recorded",
-      "whyItMatters": "Safe autonomous execution can resume."
     }
   ],
   "portfolioSummary": {
@@ -1293,7 +1293,7 @@
       "id": "ditto",
       "lastAccomplishment": "Verified regenerate plan 501 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T06:04:45.803120Z",
+      "lastMeaningfulActivity": "2026-10-17T06:08:30.497897Z",
       "name": "Ditto",
       "nextTask": null,
       "operationalState": "RUNNABLE",
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-17T06:06:34.727663Z",
+  "publishedAt": "2026-10-17T06:08:36.186807Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1483,9 +1483,9 @@
     "verifiedMilestones24h": 68,
     "verifiedMilestones2h": 23
   },
-  "semanticHash": "3d7994981000b41aad5855e8456d5e8021f17bd1153baf668cd83c7b7b5c7adb",
+  "semanticHash": "e2c09e3afce72394a3825c2ecead023d31357dd882b79e1605ce6afc27384a86",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-17T06:04:41.167011Z",
+  "sourceEventAt": "2026-10-17T06:07:56.014715Z",
   "system": {
     "activeJobs": 1,
     "autonomy": "DEGRADED",
