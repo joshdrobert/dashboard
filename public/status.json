@@ -1,20 +1,6 @@
 {
   "actionRequired": [],
-  "activeWork": [
-    {
-      "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "693",
-      "parent": "673",
-      "project": "Ditto",
-      "resource": "Local agent",
-      "startedAt": "2026-10-17T20:45:58.077897Z",
-      "state": "VERIFYING",
-      "title": "targeted repair 687 \u00b7 coder",
-      "updatedAt": "2026-10-17T21:02:08.282602Z",
-      "workerType": "coder"
-    }
-  ],
+  "activeWork": [],
   "attentionRequired": [
     {
       "category": "Agents debugging",
@@ -39,6 +25,19 @@
     {
       "backend": "Local",
       "heartbeatFresh": true,
+      "id": "693",
+      "parent": "673",
+      "project": "Ditto",
+      "resource": "Local agent",
+      "startedAt": "2026-10-17T20:45:58.077897Z",
+      "state": "STALE_UNKNOWN",
+      "title": "targeted repair 687 \u00b7 coder",
+      "updatedAt": "2026-10-17T21:04:34.038718Z",
+      "workerType": "coder"
+    },
+    {
+      "backend": "Local",
+      "heartbeatFresh": true,
       "id": "692",
       "parent": "652",
       "project": "EchoNext",
@@ -46,20 +45,7 @@
       "startedAt": "2026-10-17T20:44:54.245517Z",
       "state": "STALE_UNKNOWN",
       "title": "targeted repair 686 \u00b7 coder",
-      "updatedAt": "2026-10-17T21:04:21.931275Z",
-      "workerType": "coder"
-    },
-    {
-      "backend": "Local",
-      "heartbeatFresh": false,
-      "id": "691",
-      "parent": "673",
-      "project": "Ditto",
-      "resource": "Local agent",
-      "startedAt": "2026-10-17T20:24:39.343863Z",
-      "state": "FAILED",
-      "title": "targeted repair 685 \u00b7 coder",
-      "updatedAt": "2026-10-17T21:01:59.710483Z",
+      "updatedAt": "2026-10-17T21:04:34.764743Z",
       "workerType": "coder"
     },
     {
@@ -397,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-17T21:04:24.421000Z",
+  "generatedAt": "2026-10-17T21:06:25.529646Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 9,
@@ -1217,9 +1203,9 @@
   ],
   "portfolioSummary": {
     "actionsRequiringUser": 0,
-    "activeLocalAgents": 1,
+    "activeLocalAgents": 0,
     "activeVisionJobs": 0,
-    "executingProjects": 1,
+    "executingProjects": 0,
     "projectsNeedingTechnicalAttention": 2,
     "registeredProjects": 9,
     "state": "Needs attention",
@@ -1299,7 +1285,7 @@
       "status": "Ready"
     },
     {
-      "agentsNow": "Verifying",
+      "agentsNow": "Running",
       "blocker": null,
       "currentObjective": "targeted repair 687 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
@@ -1314,7 +1300,7 @@
       "queueDepth": 2,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Verifying"
+      "status": "Running"
     },
     {
       "agentsNow": "Running",
@@ -1394,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-17T21:04:24.851767Z",
+  "publishedAt": "2026-10-17T21:06:25.681319Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1524,7 +1510,7 @@
     "verifiedMilestones24h": 37,
     "verifiedMilestones2h": 4
   },
-  "semanticHash": "bf4cf02ebddc93091869926a27d2d6a721e1f4a58daf00834c4c8f1bbac3e7e9",
+  "semanticHash": "4fcea7a5c0eb205d6f7f10c0fd00907be6c01668f9b54fb71bdec8fde190cc32",
   "snapshotVersion": "2.3",
   "sourceEventAt": "2026-10-17T21:04:01.796725Z",
   "system": {
