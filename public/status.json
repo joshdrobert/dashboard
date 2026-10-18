@@ -4,7 +4,7 @@
   "attentionRequired": [
     {
       "category": "Agents debugging",
-      "message": "3 task(s) are in repair or retry states.",
+      "message": "4 task(s) are in repair or retry states.",
       "project": "Portfolio"
     }
   ],
@@ -17,9 +17,9 @@
       "project": "Ditto",
       "resource": "Local agent",
       "startedAt": "2026-10-18T00:45:00.470068Z",
-      "state": "STALE_UNKNOWN",
+      "state": "FAILED",
       "title": "local repair 709 2 \u00b7 planner",
-      "updatedAt": "2026-10-18T01:45:33.517757Z",
+      "updatedAt": "2026-10-18T01:55:33.807646Z",
       "workerType": "planner"
     },
     {
@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-18T01:46:31.090979Z",
+  "generatedAt": "2026-10-18T01:56:36.041234Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -401,11 +401,11 @@
   },
   "meaningfulEvents": [
     {
-      "id": "165443",
+      "id": "165461",
       "message": "A bounded task failed and entered recovery.",
       "next": "Continue through the next controller gate.",
       "project": "Ditto",
-      "timestamp": "2026-10-18T01:45:23.764500Z",
+      "timestamp": "2026-10-18T01:55:33.807661Z",
       "type": "failure",
       "verification": "Attention",
       "whyItMatters": "The failure remains visible until repaired."
@@ -1206,7 +1206,7 @@
     "activeLocalAgents": 0,
     "activeVisionJobs": 0,
     "executingProjects": 0,
-    "projectsNeedingTechnicalAttention": 3,
+    "projectsNeedingTechnicalAttention": 4,
     "registeredProjects": 9,
     "state": "Needs attention",
     "verifiedCompletions24h": 29
@@ -1285,7 +1285,7 @@
       "status": "Ready"
     },
     {
-      "agentsNow": "Running",
+      "agentsNow": "No agent currently executing",
       "blocker": null,
       "currentObjective": "local repair 709 2 \u00b7 planner",
       "deliverable": "A verified bounded project artifact.",
@@ -1293,14 +1293,14 @@
       "id": "ditto",
       "lastAccomplishment": "Verified add error coverage tests \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-18T01:45:33.517757Z",
+      "lastMeaningfulActivity": "2026-10-18T01:55:33.807646Z",
       "name": "Ditto",
       "nextTask": null,
       "operationalState": "RUNNABLE",
-      "queueDepth": 1,
+      "queueDepth": 0,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Running"
+      "status": "Failed / retrying"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-18T01:46:31.402860Z",
+  "publishedAt": "2026-10-18T01:56:36.194198Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1483,11 +1483,11 @@
     "verifiedMilestones24h": 29,
     "verifiedMilestones2h": 0
   },
-  "semanticHash": "94fac9f4f0771097452bd43d8752dd99bf09d81b4efc9d86291efd7cfd78db56",
+  "semanticHash": "3ea99866b0ea6fb8647792ae05b1ba65b97dbc28b44d5542e54a885e8a6c51b1",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-18T01:45:23.764500Z",
+  "sourceEventAt": "2026-10-18T01:55:33.807661Z",
   "system": {
-    "activeJobs": 1,
+    "activeJobs": 0,
     "autonomy": "DEGRADED",
     "status": "Needs attention"
   },
