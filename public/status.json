@@ -19,7 +19,7 @@
       "startedAt": "2026-10-18T00:45:00.470068Z",
       "state": "STALE_UNKNOWN",
       "title": "local repair 709 2 \u00b7 planner",
-      "updatedAt": "2026-10-18T01:35:23.502665Z",
+      "updatedAt": "2026-10-18T01:45:33.517757Z",
       "workerType": "planner"
     },
     {
@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-18T01:36:23.703049Z",
+  "generatedAt": "2026-10-18T01:46:31.090979Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -400,6 +400,16 @@
     "verifiedPending": 0
   },
   "meaningfulEvents": [
+    {
+      "id": "165443",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-18T01:45:23.764500Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
     {
       "id": "165424",
       "message": "A bounded task failed and entered recovery.",
@@ -419,16 +429,6 @@
       "type": "recovery",
       "verification": "Recorded",
       "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "165405",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "Ditto",
-      "timestamp": "2026-10-18T01:25:17.232419Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
     },
     {
       "id": "165351",
@@ -1209,7 +1209,7 @@
     "projectsNeedingTechnicalAttention": 3,
     "registeredProjects": 9,
     "state": "Needs attention",
-    "verifiedCompletions24h": 30
+    "verifiedCompletions24h": 29
   },
   "projects": [
     {
@@ -1293,7 +1293,7 @@
       "id": "ditto",
       "lastAccomplishment": "Verified add error coverage tests \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-18T01:35:23.502665Z",
+      "lastMeaningfulActivity": "2026-10-18T01:45:33.517757Z",
       "name": "Ditto",
       "nextTask": null,
       "operationalState": "RUNNABLE",
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-18T01:36:23.837061Z",
+  "publishedAt": "2026-10-18T01:46:31.402860Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1480,12 +1480,12 @@
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0,
     "verifiedMilestones12h": 15,
-    "verifiedMilestones24h": 30,
+    "verifiedMilestones24h": 29,
     "verifiedMilestones2h": 0
   },
-  "semanticHash": "fea5d7da8a75b07fc5a1803eada95a456215f4312b1680a9851765afb4725da8",
+  "semanticHash": "94fac9f4f0771097452bd43d8752dd99bf09d81b4efc9d86291efd7cfd78db56",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-18T01:35:20.482790Z",
+  "sourceEventAt": "2026-10-18T01:45:23.764500Z",
   "system": {
     "activeJobs": 1,
     "autonomy": "DEGRADED",
