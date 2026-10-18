@@ -12,14 +12,14 @@
     {
       "backend": "Local",
       "heartbeatFresh": true,
-      "id": "713",
+      "id": "714",
       "parent": null,
       "project": "Ditto",
       "resource": "Local agent",
-      "startedAt": "2026-10-17T23:24:37.423443Z",
+      "startedAt": "2026-10-18T00:14:57.627766Z",
       "state": "STALE_UNKNOWN",
-      "title": "local repair 709 1 \u00b7 planner",
-      "updatedAt": "2026-10-18T00:14:50.291574Z",
+      "title": "local repair 705 2 \u00b7 planner",
+      "updatedAt": "2026-10-18T00:24:53.676485Z",
       "workerType": "planner"
     },
     {
@@ -130,15 +130,29 @@
   "decisionSummary": {
     "approvedDecisions": 0,
     "lastPhase1": "2026-10-18T00:23:05.716733Z",
-    "lastPhase2": null,
+    "lastPhase2": "2026-10-18T00:25:23.267168Z",
     "model": "Codex",
     "modifiedOrReversed": 0,
     "nextReview": null,
-    "orientationAcknowledgments": null,
+    "orientationAcknowledgments": 9,
     "pendingDecisions": 0,
-    "projectsReviewed": 0,
+    "projectsReviewed": 9,
     "reasoningEffort": "configured",
     "reviewHistory": [
+      {
+        "blocked": 8,
+        "completedAt": "2026-10-18T00:25:23.267168Z",
+        "cycle": "a0abf069f3a5",
+        "decided": 9,
+        "dispatched": 1,
+        "executed": 1,
+        "failed": 0,
+        "matched": 0,
+        "rejected": 0,
+        "reviewed": 9,
+        "startedAt": "2026-10-18T00:23:05.716733Z",
+        "verified": 0
+      },
       {
         "blocked": 7,
         "completedAt": "2026-10-17T22:23:04.770271Z",
@@ -236,37 +250,37 @@
         "reviewed": 9,
         "startedAt": "2026-10-17T11:47:40.435297Z",
         "verified": 0
-      },
-      {
-        "blocked": 4,
-        "completedAt": "2026-10-17T09:47:39.662234Z",
-        "cycle": "5f35a7fd46e4",
-        "decided": 9,
-        "dispatched": 0,
-        "executed": 0,
-        "failed": 0,
-        "matched": 0,
-        "rejected": 5,
-        "reviewed": 9,
-        "startedAt": "2026-10-17T09:45:37.065689Z",
-        "verified": 0
       }
     ],
-    "state": "PHASE1_RUNNING",
+    "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
   "director": {
     "approvedDecisions": 0,
     "lastPhase1": "2026-10-18T00:23:05.716733Z",
-    "lastPhase2": null,
+    "lastPhase2": "2026-10-18T00:25:23.267168Z",
     "model": "Codex",
     "modifiedOrReversed": 0,
     "nextReview": null,
-    "orientationAcknowledgments": null,
+    "orientationAcknowledgments": 9,
     "pendingDecisions": 0,
-    "projectsReviewed": 0,
+    "projectsReviewed": 9,
     "reasoningEffort": "configured",
     "reviewHistory": [
+      {
+        "blocked": 8,
+        "completedAt": "2026-10-18T00:25:23.267168Z",
+        "cycle": "a0abf069f3a5",
+        "decided": 9,
+        "dispatched": 1,
+        "executed": 1,
+        "failed": 0,
+        "matched": 0,
+        "rejected": 0,
+        "reviewed": 9,
+        "startedAt": "2026-10-18T00:23:05.716733Z",
+        "verified": 0
+      },
       {
         "blocked": 7,
         "completedAt": "2026-10-17T22:23:04.770271Z",
@@ -364,26 +378,12 @@
         "reviewed": 9,
         "startedAt": "2026-10-17T11:47:40.435297Z",
         "verified": 0
-      },
-      {
-        "blocked": 4,
-        "completedAt": "2026-10-17T09:47:39.662234Z",
-        "cycle": "5f35a7fd46e4",
-        "decided": 9,
-        "dispatched": 0,
-        "executed": 0,
-        "failed": 0,
-        "matched": 0,
-        "rejected": 5,
-        "reviewed": 9,
-        "startedAt": "2026-10-17T09:45:37.065689Z",
-        "verified": 0
       }
     ],
-    "state": "PHASE1_RUNNING",
+    "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-18T00:23:24.537368Z",
+  "generatedAt": "2026-10-18T00:25:26.172443Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 53,
@@ -400,6 +400,106 @@
     "verifiedPending": 0
   },
   "meaningfulEvents": [
+    {
+      "id": "165293",
+      "message": "A Codex orientation was delivered.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-18T00:25:23.326398Z",
+      "type": "orientation_delivered",
+      "verification": "Recorded",
+      "whyItMatters": "Supervisory direction was updated."
+    },
+    {
+      "id": "165291",
+      "message": "A Codex orientation was delivered.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-18T00:25:23.324665Z",
+      "type": "orientation_delivered",
+      "verification": "Recorded",
+      "whyItMatters": "Supervisory direction was updated."
+    },
+    {
+      "id": "165289",
+      "message": "A Codex orientation was delivered.",
+      "next": "Continue through the next controller gate.",
+      "project": "Papers",
+      "timestamp": "2026-10-18T00:25:23.322800Z",
+      "type": "orientation_delivered",
+      "verification": "Recorded",
+      "whyItMatters": "Supervisory direction was updated."
+    },
+    {
+      "id": "165287",
+      "message": "A Codex orientation was delivered.",
+      "next": "Continue through the next controller gate.",
+      "project": "EchoNext",
+      "timestamp": "2026-10-18T00:25:23.321118Z",
+      "type": "orientation_delivered",
+      "verification": "Recorded",
+      "whyItMatters": "Supervisory direction was updated."
+    },
+    {
+      "id": "165285",
+      "message": "A Codex orientation was delivered.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-18T00:25:23.319073Z",
+      "type": "orientation_delivered",
+      "verification": "Recorded",
+      "whyItMatters": "Supervisory direction was updated."
+    },
+    {
+      "id": "165283",
+      "message": "A Codex orientation was delivered.",
+      "next": "Continue through the next controller gate.",
+      "project": "CTBone",
+      "timestamp": "2026-10-18T00:25:23.318122Z",
+      "type": "orientation_delivered",
+      "verification": "Recorded",
+      "whyItMatters": "Supervisory direction was updated."
+    },
+    {
+      "id": "165281",
+      "message": "A Codex orientation was delivered.",
+      "next": "Continue through the next controller gate.",
+      "project": "BCM-Neuromodulation",
+      "timestamp": "2026-10-18T00:25:23.316065Z",
+      "type": "orientation_delivered",
+      "verification": "Recorded",
+      "whyItMatters": "Supervisory direction was updated."
+    },
+    {
+      "id": "165279",
+      "message": "A Codex orientation was delivered.",
+      "next": "Continue through the next controller gate.",
+      "project": "AortaPlan",
+      "timestamp": "2026-10-18T00:25:23.314729Z",
+      "type": "orientation_delivered",
+      "verification": "Recorded",
+      "whyItMatters": "Supervisory direction was updated."
+    },
+    {
+      "id": "165277",
+      "message": "A Codex orientation was delivered.",
+      "next": "Continue through the next controller gate.",
+      "project": "AI-Server",
+      "timestamp": "2026-10-18T00:25:23.312450Z",
+      "type": "orientation_delivered",
+      "verification": "Recorded",
+      "whyItMatters": "Supervisory direction was updated."
+    },
+    {
+      "id": "165265",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-18T00:24:50.506789Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
     {
       "id": "165237",
       "message": "Queued local repair 705 2 \u00b7 planner.",
@@ -429,16 +529,6 @@
       "type": "recovery",
       "verification": "Recorded",
       "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "165209",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "Ditto",
-      "timestamp": "2026-10-18T00:04:43.651098Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
     },
     {
       "id": "165158",
@@ -531,36 +621,6 @@
       "whyItMatters": "Safe autonomous execution can resume."
     },
     {
-      "id": "164965",
-      "message": "A Codex orientation was delivered.",
-      "next": "Continue through the next controller gate.",
-      "project": "Trace",
-      "timestamp": "2026-10-17T22:23:04.794418Z",
-      "type": "orientation_delivered",
-      "verification": "Recorded",
-      "whyItMatters": "Supervisory direction was updated."
-    },
-    {
-      "id": "164963",
-      "message": "A Codex orientation was delivered.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-17T22:23:04.791967Z",
-      "type": "orientation_delivered",
-      "verification": "Recorded",
-      "whyItMatters": "Supervisory direction was updated."
-    },
-    {
-      "id": "164961",
-      "message": "A Codex orientation was delivered.",
-      "next": "Continue through the next controller gate.",
-      "project": "Papers",
-      "timestamp": "2026-10-17T22:23:04.788222Z",
-      "type": "orientation_delivered",
-      "verification": "Recorded",
-      "whyItMatters": "Supervisory direction was updated."
-    },
-    {
       "id": "164959",
       "message": "A Codex orientation was delivered.",
       "next": "Continue through the next controller gate.",
@@ -576,46 +636,6 @@
       "next": "Continue through the next controller gate.",
       "project": "Ditto",
       "timestamp": "2026-10-17T22:23:04.785358Z",
-      "type": "orientation_delivered",
-      "verification": "Recorded",
-      "whyItMatters": "Supervisory direction was updated."
-    },
-    {
-      "id": "164955",
-      "message": "A Codex orientation was delivered.",
-      "next": "Continue through the next controller gate.",
-      "project": "CTBone",
-      "timestamp": "2026-10-17T22:23:04.784088Z",
-      "type": "orientation_delivered",
-      "verification": "Recorded",
-      "whyItMatters": "Supervisory direction was updated."
-    },
-    {
-      "id": "164953",
-      "message": "A Codex orientation was delivered.",
-      "next": "Continue through the next controller gate.",
-      "project": "BCM-Neuromodulation",
-      "timestamp": "2026-10-17T22:23:04.782247Z",
-      "type": "orientation_delivered",
-      "verification": "Recorded",
-      "whyItMatters": "Supervisory direction was updated."
-    },
-    {
-      "id": "164951",
-      "message": "A Codex orientation was delivered.",
-      "next": "Continue through the next controller gate.",
-      "project": "AortaPlan",
-      "timestamp": "2026-10-17T22:23:04.780649Z",
-      "type": "orientation_delivered",
-      "verification": "Recorded",
-      "whyItMatters": "Supervisory direction was updated."
-    },
-    {
-      "id": "164949",
-      "message": "A Codex orientation was delivered.",
-      "next": "Continue through the next controller gate.",
-      "project": "AI-Server",
-      "timestamp": "2026-10-17T22:23:04.777743Z",
       "type": "orientation_delivered",
       "verification": "Recorded",
       "whyItMatters": "Supervisory direction was updated."
@@ -1179,26 +1199,6 @@
       "type": "failure",
       "verification": "Attention",
       "whyItMatters": "The failure remains visible until repaired."
-    },
-    {
-      "id": "160471",
-      "message": "Controller recovery restored an interrupted task boundary.",
-      "next": "Continue through the next controller gate.",
-      "project": "Ditto",
-      "timestamp": "2026-10-17T20:52:11.694008Z",
-      "type": "recovery",
-      "verification": "Recorded",
-      "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "160192",
-      "message": "Controller recovery restored an interrupted task boundary.",
-      "next": "Continue through the next controller gate.",
-      "project": "EchoNext",
-      "timestamp": "2026-10-17T20:47:20.918967Z",
-      "type": "recovery",
-      "verification": "Recorded",
-      "whyItMatters": "Safe autonomous execution can resume."
     }
   ],
   "portfolioSummary": {
@@ -1209,7 +1209,7 @@
     "projectsNeedingTechnicalAttention": 3,
     "registeredProjects": 9,
     "state": "Needs attention",
-    "verifiedCompletions24h": 39
+    "verifiedCompletions24h": 36
   },
   "projects": [
     {
@@ -1287,15 +1287,15 @@
     {
       "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "local repair 709 1 \u00b7 planner",
+      "currentObjective": "local repair 705 2 \u00b7 planner",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "ditto",
       "lastAccomplishment": "Verified add error coverage tests \u00b7 coder.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-18T00:14:57.627766Z",
+      "lastMeaningfulActivity": "2026-10-18T00:24:53.676485Z",
       "name": "Ditto",
-      "nextTask": "local repair 705 2 \u00b7 planner",
+      "nextTask": "local repair 709 1 \u00b7 planner",
       "operationalState": "RUNNABLE",
       "queueDepth": 2,
       "readyForHuman": false,
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-18T00:23:24.729567Z",
+  "publishedAt": "2026-10-18T00:25:26.323522Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1388,15 +1388,15 @@
   "queuedWork": [
     {
       "backend": "Local",
-      "heartbeatFresh": false,
-      "id": "714",
+      "heartbeatFresh": true,
+      "id": "713",
       "parent": null,
       "project": "Ditto",
       "resource": "Local agent",
-      "startedAt": "2026-10-18T00:14:57.627766Z",
+      "startedAt": "2026-10-17T23:24:37.423443Z",
       "state": "QUEUED",
-      "title": "local repair 705 2 \u00b7 planner",
-      "updatedAt": "2026-10-18T00:14:57.627766Z",
+      "title": "local repair 709 1 \u00b7 planner",
+      "updatedAt": "2026-10-18T00:24:53.507427Z",
       "workerType": "planner"
     }
   ],
@@ -1494,12 +1494,12 @@
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0,
     "verifiedMilestones12h": 15,
-    "verifiedMilestones24h": 39,
+    "verifiedMilestones24h": 36,
     "verifiedMilestones2h": 0
   },
-  "semanticHash": "ec5dd000598b80ed03ae7f796f814f326152344e38146c3094bd7abff905aea6",
+  "semanticHash": "a7cafa9f3a033f904c186a11d3ec6c260b81b7c909ce7f3f937585e4f5673d5a",
   "snapshotVersion": "2.3",
-  "sourceEventAt": "2026-10-18T00:14:57.627792Z",
+  "sourceEventAt": "2026-10-18T00:25:23.326398Z",
   "system": {
     "activeJobs": 1,
     "autonomy": "DEGRADED",
