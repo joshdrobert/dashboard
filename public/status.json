@@ -1,6 +1,22 @@
 {
   "actionRequired": [],
-  "activeWork": [],
+  "activeWork": [
+    {
+      "backend": "VISION",
+      "branch": null,
+      "heartbeatFresh": null,
+      "id": "vision-2",
+      "parent": null,
+      "project": "AortaPlan",
+      "pullRequest": null,
+      "resource": "VISION Slurm",
+      "startedAt": "2026-10-18T18:53:52.397538Z",
+      "state": "RUNNING",
+      "title": "Implement GitHub issue #9: approved DICOM ingestion and physical-geometry validation pipeline",
+      "updatedAt": "2026-10-18T19:02:24.581083Z",
+      "workerType": "OpenCode implementation agent"
+    }
+  ],
   "attentionRequired": [
     {
       "category": "Agents debugging",
@@ -383,7 +399,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-18T19:03:24.044401Z",
+  "generatedAt": "2026-10-18T19:04:25.983679Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 54,
@@ -1204,8 +1220,8 @@
   "portfolioSummary": {
     "actionsRequiringUser": 0,
     "activeLocalAgents": 0,
-    "activeVisionJobs": 0,
-    "executingProjects": 0,
+    "activeVisionJobs": 1,
+    "executingProjects": 1,
     "projectsNeedingTechnicalAttention": 4,
     "registeredProjects": 9,
     "state": "Needs attention",
@@ -1380,7 +1396,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-18T19:03:24.211357Z",
+  "publishedAt": "2026-10-18T19:04:49.566707Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1470,6 +1486,21 @@
       "state": "COMPLETED",
       "title": "repair 646 cache cleanup \u00b7 coder",
       "updatedAt": "2026-10-17T04:37:18.070735Z"
+    },
+    {
+      "backend": "VISION",
+      "branch": "codex/vision-1",
+      "heartbeatFresh": null,
+      "id": "vision-1",
+      "parent": null,
+      "project": "Ditto",
+      "pullRequest": "https://github.com/joshdrobert/Ditto/pull/1",
+      "resource": "VISION Slurm",
+      "startedAt": "2026-10-18T04:17:54.702842Z",
+      "state": "COMPLETED",
+      "title": "Restore Quantity API compatibility required by the latest stable combined-tree regression without re",
+      "updatedAt": "2026-10-18T18:52:20.658034Z",
+      "workerType": "OpenCode implementation agent"
     }
   ],
   "recoveryWork": [],
@@ -1483,7 +1514,7 @@
     "verifiedMilestones24h": 15,
     "verifiedMilestones2h": 0
   },
-  "semanticHash": "796308704de7487b1d4372cf5ce10fb5738e4c6265437b73b8a68579575798c2",
+  "semanticHash": "7ccdac1b63df6ccd59d74171ab34c7eee06c25926ffd4389342bd08cd930b07b",
   "snapshotVersion": "2.3",
   "sourceEventAt": "2026-10-18T17:39:44.870378Z",
   "system": {
@@ -1498,12 +1529,65 @@
   },
   "visionSummary": {
     "active": 0,
+    "activeAgentTasks": 1,
     "completed": 4,
+    "completedTasks": 1,
     "connection": "Available",
     "consumed": 0,
+    "controllerPaused": false,
+    "currentGpuAllocations": 1,
+    "draftPullRequests": 1,
     "failed": 3,
+    "failedTasks": 0,
+    "pendingSlurmJobs": 0,
     "queued": 0,
     "scheduler": "Reachable",
+    "selectedModel": "Qwen/Qwen3-Coder-Next-FP8",
     "validated": 0
+  },
+  "visionV2": {
+    "counts": {
+      "COMPLETED": 1,
+      "RUNNING": 1
+    },
+    "paused": false,
+    "selectedModel": "Qwen/Qwen3-Coder-Next-FP8",
+    "tasks": [
+      {
+        "acceptance": "Follow https://github.com/joshdrobert/AortaPlan/issues/9. Handle ImageOrientationPatient, ImagePositionPatient, PixelSpacing, ordered slice geometry, explicit LPS/RAS conversion, series selection, consistency validation, pseudonymous manifests, and PHI-safe logs. Add synthetic geometry tests and fail closed on inconsistent slice order or spacing. Use only de-identified or repository-provided approved fixtures; do not access clinical data. All applicable tests must pass. Create a draft PR requiring expert review.",
+        "attempts": 1,
+        "branch": null,
+        "created": 1792349632.397538,
+        "error": null,
+        "goal": "Implement GitHub issue #9: approved DICOM ingestion and physical-geometry validation pipeline",
+        "id": 2,
+        "max_attempts": 2,
+        "model_job": "782234",
+        "pr_url": null,
+        "priority": 20,
+        "repository": "AortaPlan",
+        "run_id": "36805",
+        "state": "RUNNING",
+        "updated": 1792350144.5810828
+      },
+      {
+        "acceptance": "Preserve units, uncertainty, provenance, identifiability, range validation, scalar access, and license tags. Run the complete Ditto pytest suite; all tests must pass. Independent model review must report no substantial issues.",
+        "attempts": 2,
+        "branch": "codex/vision-1",
+        "created": 1792297074.702842,
+        "error": null,
+        "goal": "Restore Quantity API compatibility required by the latest stable combined-tree regression without reverting accepted calibration work",
+        "id": 1,
+        "max_attempts": 2,
+        "model_job": "781451",
+        "pr_url": "https://github.com/joshdrobert/Ditto/pull/1",
+        "priority": 10,
+        "repository": "Ditto",
+        "run_id": "73109",
+        "state": "COMPLETED",
+        "updated": 1792349540.6580338
+      }
+    ],
+    "updatedAt": 1792350145.191091
   }
 }
