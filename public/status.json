@@ -1,22 +1,6 @@
 {
   "actionRequired": [],
-  "activeWork": [
-    {
-      "backend": "VISION",
-      "branch": null,
-      "heartbeatFresh": null,
-      "id": "vision-3",
-      "parent": null,
-      "project": "AortaPlan",
-      "pullRequest": null,
-      "resource": "VISION Slurm",
-      "startedAt": "2026-10-19T13:18:25.865396Z",
-      "state": "RUNNING",
-      "title": "Implement GitHub issue #10: define the Month-12 locked validation protocol as an executable, version",
-      "updatedAt": "2026-10-19T13:26:53.152417Z",
-      "workerType": "OpenCode implementation agent"
-    }
-  ],
+  "activeWork": [],
   "attentionRequired": [
     {
       "category": "Agents debugging",
@@ -399,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-19T13:28:05.950378Z",
+  "generatedAt": "2026-10-19T13:32:08.017160Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 54,
@@ -1220,8 +1204,8 @@
   "portfolioSummary": {
     "actionsRequiringUser": 0,
     "activeLocalAgents": 0,
-    "activeVisionJobs": 1,
-    "executingProjects": 1,
+    "activeVisionJobs": 0,
+    "executingProjects": 0,
     "projectsNeedingTechnicalAttention": 4,
     "registeredProjects": 9,
     "state": "Needs attention",
@@ -1396,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-19T13:28:06.101542Z",
+  "publishedAt": "2026-10-19T13:32:08.172765Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1489,6 +1473,21 @@
     },
     {
       "backend": "VISION",
+      "branch": "codex/vision-3",
+      "heartbeatFresh": null,
+      "id": "vision-3",
+      "parent": null,
+      "project": "AortaPlan",
+      "pullRequest": "https://github.com/joshdrobert/AortaPlan/pull/14",
+      "resource": "VISION Slurm",
+      "startedAt": "2026-10-19T13:18:25.865396Z",
+      "state": "COMPLETED",
+      "title": "Implement GitHub issue #10: define the Month-12 locked validation protocol as an executable, version",
+      "updatedAt": "2026-10-19T13:31:57.806048Z",
+      "workerType": "OpenCode implementation agent"
+    },
+    {
+      "backend": "VISION",
       "branch": "codex/vision-2-recovery",
       "heartbeatFresh": null,
       "id": "vision-2",
@@ -1529,7 +1528,7 @@
     "verifiedMilestones24h": 0,
     "verifiedMilestones2h": 0
   },
-  "semanticHash": "248506ea173a487586ba12326f45ed4301c3ab1909424344195bc941e1e46ddf",
+  "semanticHash": "b8b9e32317464987f8ed54f6133eea6f1a683e3317568d60dd2edb1aba13e9d0",
   "snapshotVersion": "2.3",
   "sourceEventAt": "2026-10-19T12:01:22.734929Z",
   "system": {
@@ -1544,14 +1543,14 @@
   },
   "visionSummary": {
     "active": 0,
-    "activeAgentTasks": 1,
+    "activeAgentTasks": 0,
     "completed": 4,
-    "completedTasks": 2,
+    "completedTasks": 3,
     "connection": "Available",
     "consumed": 0,
     "controllerPaused": false,
-    "currentGpuAllocations": 1,
-    "draftPullRequests": 2,
+    "currentGpuAllocations": 0,
+    "draftPullRequests": 3,
     "failed": 3,
     "failedTasks": 0,
     "pendingSlurmJobs": 0,
@@ -1562,8 +1561,7 @@
   },
   "visionV2": {
     "counts": {
-      "COMPLETED": 2,
-      "RUNNING": 1
+      "COMPLETED": 3
     },
     "paused": false,
     "selectedModel": "Qwen/Qwen3-Coder-Next-FP8",
@@ -1571,19 +1569,19 @@
       {
         "acceptance": "Follow https://github.com/joshdrobert/AortaPlan/issues/10. Produce a precise versioned protocol and deterministic validation checks where applicable; do not use or invent clinical results, do not access PHI, keep release subject to expert review, run the full repository test suite, and create a reviewable draft PR.",
         "attempts": 1,
-        "branch": null,
+        "branch": "codex/vision-3",
         "created": 1792415905.865396,
         "error": null,
         "goal": "Implement GitHub issue #10: define the Month-12 locked validation protocol as an executable, versioned research protocol",
         "id": 3,
         "max_attempts": 2,
         "model_job": "786801",
-        "pr_url": null,
+        "pr_url": "https://github.com/joshdrobert/AortaPlan/pull/14",
         "priority": 30,
         "repository": "AortaPlan",
         "run_id": "39639",
-        "state": "RUNNING",
-        "updated": 1792416413.152417
+        "state": "COMPLETED",
+        "updated": 1792416717.806048
       },
       {
         "acceptance": "Follow https://github.com/joshdrobert/AortaPlan/issues/9. Handle ImageOrientationPatient, ImagePositionPatient, PixelSpacing, ordered slice geometry, explicit LPS/RAS conversion, series selection, consistency validation, pseudonymous manifests, and PHI-safe logs. Add synthetic geometry tests and fail closed on inconsistent slice order or spacing. Use only de-identified or repository-provided approved fixtures; do not access clinical data. All applicable tests must pass. Create a draft PR requiring expert review.",
@@ -1620,6 +1618,6 @@
         "updated": 1792349540.6580338
       }
     ],
-    "updatedAt": 1792416413.724205
+    "updatedAt": 1792416718.481668
   }
 }
