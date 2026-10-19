@@ -125,21 +125,6 @@
       "title": "bcm real vision auth preflight 20261013 \u00b7 research",
       "updatedAt": "2026-10-13T12:02:05.477981Z",
       "workerType": "research"
-    },
-    {
-      "backend": "VISION",
-      "branch": null,
-      "heartbeatFresh": null,
-      "id": "vision-2",
-      "parent": null,
-      "project": "AortaPlan",
-      "pullRequest": null,
-      "resource": "VISION Slurm",
-      "startedAt": "2026-10-18T18:53:52.397538Z",
-      "state": "FAILED",
-      "title": "Implement GitHub issue #9: approved DICOM ingestion and physical-geometry validation pipeline",
-      "updatedAt": "2026-10-18T19:56:28.737518Z",
-      "workerType": "OpenCode implementation agent"
     }
   ],
   "decisionSummary": {
@@ -398,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-19T13:15:57.734393Z",
+  "generatedAt": "2026-10-19T13:17:59.452080Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 54,
@@ -1395,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-19T13:15:57.882314Z",
+  "publishedAt": "2026-10-19T13:17:59.599191Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1488,6 +1473,21 @@
     },
     {
       "backend": "VISION",
+      "branch": "codex/vision-2-recovery",
+      "heartbeatFresh": null,
+      "id": "vision-2",
+      "parent": null,
+      "project": "AortaPlan",
+      "pullRequest": "https://github.com/joshdrobert/AortaPlan/pull/13",
+      "resource": "VISION Slurm",
+      "startedAt": "2026-10-18T18:53:52.397538Z",
+      "state": "COMPLETED",
+      "title": "Implement GitHub issue #9: approved DICOM ingestion and physical-geometry validation pipeline",
+      "updatedAt": "2026-10-19T13:12:21Z",
+      "workerType": "OpenCode implementation agent"
+    },
+    {
+      "backend": "VISION",
       "branch": "codex/vision-1",
       "heartbeatFresh": null,
       "id": "vision-1",
@@ -1513,7 +1513,7 @@
     "verifiedMilestones24h": 0,
     "verifiedMilestones2h": 0
   },
-  "semanticHash": "a1dcf4c00fe88d1845acd1b14346eb212c59c5b879b0b72e23d9d47b00ccadac",
+  "semanticHash": "e1fe6c2db5b6e86e87de88caec5ecc67de9adf51efc1162f99280a8f21ceeac7",
   "snapshotVersion": "2.3",
   "sourceEventAt": "2026-10-19T12:01:22.734929Z",
   "system": {
@@ -1530,14 +1530,14 @@
     "active": 0,
     "activeAgentTasks": 0,
     "completed": 4,
-    "completedTasks": 1,
+    "completedTasks": 2,
     "connection": "Available",
     "consumed": 0,
     "controllerPaused": false,
     "currentGpuAllocations": 0,
-    "draftPullRequests": 1,
+    "draftPullRequests": 2,
     "failed": 3,
-    "failedTasks": 1,
+    "failedTasks": 0,
     "pendingSlurmJobs": 0,
     "queued": 0,
     "scheduler": "Reachable",
@@ -1546,8 +1546,7 @@
   },
   "visionV2": {
     "counts": {
-      "COMPLETED": 1,
-      "FAILED": 1
+      "COMPLETED": 2
     },
     "paused": false,
     "selectedModel": "Qwen/Qwen3-Coder-Next-FP8",
@@ -1555,19 +1554,19 @@
       {
         "acceptance": "Follow https://github.com/joshdrobert/AortaPlan/issues/9. Handle ImageOrientationPatient, ImagePositionPatient, PixelSpacing, ordered slice geometry, explicit LPS/RAS conversion, series selection, consistency validation, pseudonymous manifests, and PHI-safe logs. Add synthetic geometry tests and fail closed on inconsistent slice order or spacing. Use only de-identified or repository-provided approved fixtures; do not access clinical data. All applicable tests must pass. Create a draft PR requiring expert review.",
         "attempts": 2,
-        "branch": null,
+        "branch": "codex/vision-2-recovery",
         "created": 1792349632.397538,
-        "error": "Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.\nPreparing worktree (new branch 'codex/vision-2')\nsrun: error: dgx048: task 0: Exited with exit code 124\n",
+        "error": null,
         "goal": "Implement GitHub issue #9: approved DICOM ingestion and physical-geometry validation pipeline",
         "id": 2,
         "max_attempts": 2,
         "model_job": "782234",
-        "pr_url": null,
+        "pr_url": "https://github.com/joshdrobert/AortaPlan/pull/13",
         "priority": 20,
         "repository": "AortaPlan",
         "run_id": "38401",
-        "state": "FAILED",
-        "updated": 1792353388.737518
+        "state": "COMPLETED",
+        "updated": 1792415541.0
       },
       {
         "acceptance": "Preserve units, uncertainty, provenance, identifiability, range validation, scalar access, and license tags. Run the complete Ditto pytest suite; all tests must pass. Independent model review must report no substantial issues.",
@@ -1587,6 +1586,6 @@
         "updated": 1792349540.6580338
       }
     ],
-    "updatedAt": 1792415508.5706072
+    "updatedAt": 1792415809.543807
   }
 }
