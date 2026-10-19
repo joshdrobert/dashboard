@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-19T13:32:08.017160Z",
+  "generatedAt": "2026-10-19T13:32:35.989958Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 54,
