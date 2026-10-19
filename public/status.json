@@ -383,7 +383,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-19T18:40:33.104318Z",
+  "generatedAt": "2026-10-19T18:46:36.452941Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 54,
@@ -392,7 +392,7 @@
     "lastSuccessfulDailyRun": "2026-10-19T12:01:22.734520Z",
     "missingTaskProvenance": 18,
     "newlyIntegrated24h": 0,
-    "oldestEligibleAgeHours": 6.7,
+    "oldestEligibleAgeHours": 6.8,
     "repositoriesMonitored": 10,
     "scientificReviewBlockers": 3,
     "stableVerification": "No stable update in latest batch",
@@ -1380,12 +1380,28 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-19T18:40:33.267994Z",
+  "publishedAt": "2026-10-19T18:46:36.600846Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
   },
-  "queuedWork": [],
+  "queuedWork": [
+    {
+      "backend": "VISION",
+      "branch": null,
+      "heartbeatFresh": null,
+      "id": "vision-4",
+      "parent": null,
+      "project": "AortaPlan",
+      "pullRequest": null,
+      "resource": "VISION Slurm",
+      "startedAt": "2026-10-19T18:45:12.099810Z",
+      "state": "QUEUED",
+      "title": "Implement AortaPlan issue #5: establish a reproducible VMTK reference geometry workflow using synthe",
+      "updatedAt": "2026-10-19T18:45:12.099810Z",
+      "workerType": "OpenCode implementation agent"
+    }
+  ],
   "recentlyCompleted": [
     {
       "id": "707",
@@ -1528,7 +1544,7 @@
     "verifiedMilestones24h": 0,
     "verifiedMilestones2h": 0
   },
-  "semanticHash": "e37c4dac75a5b60dada813d443bd1a802f9a904b3eabedbf69928c751b29606a",
+  "semanticHash": "8b4e3f82e86f4472430a2b7a881d3b4a59a567dc2ed150d79162ce57c9ac1f40",
   "snapshotVersion": "2.3",
   "sourceEventAt": "2026-10-19T13:56:53.738896Z",
   "system": {
@@ -1553,19 +1569,88 @@
     "draftPullRequests": 3,
     "failed": 3,
     "failedTasks": 0,
-    "pendingSlurmJobs": 0,
+    "pendingSlurmJobs": 1,
     "queued": 0,
     "scheduler": "Reachable",
     "selectedModel": "Qwen/Qwen3-Coder-Next-FP8",
     "validated": 0
   },
   "visionV2": {
+    "backlogSources": {
+      "ADMITTED": 1,
+      "BLOCKED": 9
+    },
+    "blockedMilestones": [
+      {
+        "reason": "orientation is not explicitly executable or has unresolved blockers",
+        "repository": "AI-Server",
+        "source": "orientation:397"
+      },
+      {
+        "reason": "orientation is not explicitly executable or has unresolved blockers",
+        "repository": "AortaPlan",
+        "source": "orientation:398"
+      },
+      {
+        "reason": "orientation is not explicitly executable or has unresolved blockers",
+        "repository": "BCM-Neuromodulation",
+        "source": "orientation:399"
+      },
+      {
+        "reason": "orientation is not explicitly executable or has unresolved blockers",
+        "repository": "CTBone",
+        "source": "orientation:400"
+      },
+      {
+        "reason": "orientation is not explicitly executable or has unresolved blockers",
+        "repository": "Ditto",
+        "source": "orientation:401"
+      },
+      {
+        "reason": "orientation is not explicitly executable or has unresolved blockers",
+        "repository": "EchoNext",
+        "source": "orientation:402"
+      },
+      {
+        "reason": "orientation is not explicitly executable or has unresolved blockers",
+        "repository": "Papers",
+        "source": "orientation:403"
+      },
+      {
+        "reason": "orientation is not explicitly executable or has unresolved blockers",
+        "repository": "TEER",
+        "source": "orientation:404"
+      },
+      {
+        "reason": "orientation is not explicitly executable or has unresolved blockers",
+        "repository": "Trace",
+        "source": "orientation:405"
+      }
+    ],
     "counts": {
-      "COMPLETED": 3
+      "COMPLETED": 3,
+      "QUEUED": 1
     },
     "paused": false,
     "selectedModel": "Qwen/Qwen3-Coder-Next-FP8",
     "tasks": [
+      {
+        "acceptance": "Record the exact VMTK or SlicerVMTK version; document synthetic straight and curved vessel cases; compare AortaPlan and VMTK centerline length; add an orthogonal-plane agreement check; document failure cases; record which VMTK components are suitable reference utilities; run the full applicable repository test suite; create a draft PR requiring independent expert review; do not access clinical data or make clinical-performance claims.",
+        "attempts": 0,
+        "branch": null,
+        "created": 1792435512.0998101,
+        "error": null,
+        "goal": "Implement AortaPlan issue #5: establish a reproducible VMTK reference geometry workflow using synthetic straight and curved vessel cases",
+        "id": 4,
+        "max_attempts": 2,
+        "model_job": null,
+        "pr_url": null,
+        "priority": 40,
+        "repository": "AortaPlan",
+        "run_id": null,
+        "state": "QUEUED",
+        "updated": 1792435512.0998101
+      },
       {
         "acceptance": "Follow https://github.com/joshdrobert/AortaPlan/issues/10. Produce a precise versioned protocol and deterministic validation checks where applicable; do not use or invent clinical results, do not access PHI, keep release subject to expert review, run the full repository test suite, and create a reviewable draft PR.",
         "attempts": 1,
@@ -1618,6 +1703,11 @@
         "updated": 1792349540.6580338
       }
     ],
-    "updatedAt": 1792434934.112288
+    "updatedAt": 1792435514.55518,
+    "visionAuth": {
+      "deferred": false,
+      "failures": 0,
+      "retryAt": 0.0
+    }
   }
 }
