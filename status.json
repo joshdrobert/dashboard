@@ -1,0 +1,1763 @@
+{
+  "actionRequired": [],
+  "activeWork": [],
+  "attentionRequired": [
+    {
+      "category": "Agents debugging",
+      "message": "4 task(s) are in repair or retry states.",
+      "project": "Portfolio"
+    }
+  ],
+  "autonomyLoop": {
+    "actualExecution": {
+      "activeTasks": 0,
+      "gpuAllocations": 0,
+      "queuedTasks": 1
+    },
+    "blockedProjects": [
+      "AI-Server",
+      "AortaPlan",
+      "BCM-Neuromodulation",
+      "CTBone",
+      "Ditto",
+      "EchoNext",
+      "Papers",
+      "TEER",
+      "Trace"
+    ],
+    "completedMilestones": 3,
+    "scheduledReview": {
+      "completedReviews24h": 2,
+      "dailyReviewLimit": 12,
+      "intervalSeconds": 7200,
+      "lastReview": {
+        "endedAt": "2026-10-19T17:16:04.498060Z",
+        "id": "sol-20261019T171550Z-7aeaa5fa",
+        "state": "COMPLETE"
+      },
+      "model": "gpt-5.6-sol",
+      "nextReviewDue": "2026-10-19T19:16:04.498060Z",
+      "reasoningEffort": "medium"
+    }
+  },
+  "blockedWork": [
+    {
+      "backend": "Local",
+      "heartbeatFresh": false,
+      "id": "715",
+      "parent": null,
+      "project": "Ditto",
+      "resource": "Local agent",
+      "startedAt": "2026-10-18T00:45:00.470068Z",
+      "state": "FAILED",
+      "title": "local repair 709 2 \u00b7 planner",
+      "updatedAt": "2026-10-18T01:55:33.807646Z",
+      "workerType": "planner"
+    },
+    {
+      "backend": "Local",
+      "heartbeatFresh": false,
+      "id": "711",
+      "parent": "707",
+      "project": "EchoNext",
+      "resource": "Local agent",
+      "startedAt": "2026-10-17T22:20:22.156075Z",
+      "state": "FAILED",
+      "title": "plan after 707 \u00b7 planner",
+      "updatedAt": "2026-10-17T23:03:07.870175Z",
+      "workerType": "planner"
+    },
+    {
+      "backend": "Local",
+      "heartbeatFresh": false,
+      "id": "710",
+      "parent": "706",
+      "project": "TEER",
+      "resource": "Local agent",
+      "startedAt": "2026-10-17T22:12:41.324852Z",
+      "state": "FAILED",
+      "title": "regenerate plan 708 \u00b7 planner",
+      "updatedAt": "2026-10-17T22:12:41.324852Z",
+      "workerType": "planner"
+    },
+    {
+      "backend": "Local",
+      "heartbeatFresh": false,
+      "id": "625",
+      "parent": "624",
+      "project": "AortaPlan",
+      "resource": "Local agent",
+      "startedAt": "2026-10-16T20:20:24.888878Z",
+      "state": "FAILED",
+      "title": "plan after 624 \u00b7 planner",
+      "updatedAt": "2026-10-16T20:26:22.956892Z",
+      "workerType": "planner"
+    },
+    {
+      "backend": "Local",
+      "heartbeatFresh": false,
+      "id": "611",
+      "parent": null,
+      "project": "CTBone",
+      "resource": "Local agent",
+      "startedAt": "2026-10-16T19:29:16.759744Z",
+      "state": "FAILED",
+      "title": "local repair 604 1 \u00b7 planner",
+      "updatedAt": "2026-10-16T19:45:30.839989Z",
+      "workerType": "planner"
+    },
+    {
+      "backend": "Local",
+      "heartbeatFresh": false,
+      "id": "599",
+      "parent": "584",
+      "project": "Trace",
+      "resource": "Local agent",
+      "startedAt": "2026-10-16T18:05:48.875920Z",
+      "state": "FAILED",
+      "title": "regenerate plan 594 \u00b7 planner",
+      "updatedAt": "2026-10-16T18:17:07.221482Z",
+      "workerType": "planner"
+    },
+    {
+      "backend": "Local",
+      "heartbeatFresh": false,
+      "id": "545",
+      "parent": null,
+      "project": "AI-Server",
+      "resource": "Local agent",
+      "startedAt": "2026-10-15T13:25:10.419467Z",
+      "state": "FAILED",
+      "title": "vision shared gateway smoke 20261015 \u00b7 coder",
+      "updatedAt": "2026-10-15T14:03:22.573182Z",
+      "workerType": "coder"
+    },
+    {
+      "backend": "Local",
+      "heartbeatFresh": false,
+      "id": "500",
+      "parent": null,
+      "project": "Papers",
+      "resource": "Local agent",
+      "startedAt": "2026-10-13T14:36:57.097333Z",
+      "state": "FAILED",
+      "title": "local repair 460 2 \u00b7 planner",
+      "updatedAt": "2026-10-13T15:16:11.461892Z",
+      "workerType": "planner"
+    },
+    {
+      "backend": "Local",
+      "heartbeatFresh": false,
+      "id": "435",
+      "parent": "427",
+      "project": "BCM-Neuromodulation",
+      "resource": "Local agent",
+      "startedAt": "2026-10-13T01:27:59.998118Z",
+      "state": "FAILED",
+      "title": "bcm real vision auth preflight 20261013 \u00b7 research",
+      "updatedAt": "2026-10-13T12:02:05.477981Z",
+      "workerType": "research"
+    }
+  ],
+  "decisionSummary": {
+    "approvedDecisions": 0,
+    "lastPhase1": "2026-10-19T13:55:12.236551Z",
+    "lastPhase2": "2026-10-19T13:56:53.718761Z",
+    "model": "Codex",
+    "modifiedOrReversed": 0,
+    "nextReview": null,
+    "orientationAcknowledgments": 9,
+    "pendingDecisions": 0,
+    "projectsReviewed": 9,
+    "reasoningEffort": "configured",
+    "reviewHistory": [
+      {
+        "blocked": 9,
+        "completedAt": "2026-10-19T13:56:53.718761Z",
+        "cycle": "437ef8862366",
+        "decided": 9,
+        "dispatched": 0,
+        "executed": 0,
+        "failed": 0,
+        "matched": 0,
+        "rejected": 0,
+        "reviewed": 9,
+        "startedAt": "2026-10-19T13:55:12.236551Z",
+        "verified": 0
+      },
+      {
+        "blocked": 9,
+        "completedAt": "2026-10-19T11:55:11.602900Z",
+        "cycle": "24a117132910",
+        "decided": 9,
+        "dispatched": 0,
+        "executed": 0,
+        "failed": 0,
+        "matched": 0,
+        "rejected": 0,
+        "reviewed": 9,
+        "startedAt": "2026-10-19T11:54:00.547771Z",
+        "verified": 0
+      },
+      {
+        "blocked": 9,
+        "completedAt": "2026-10-19T09:53:59.737521Z",
+        "cycle": "80c3e188622f",
+        "decided": 9,
+        "dispatched": 0,
+        "executed": 0,
+        "failed": 0,
+        "matched": 0,
+        "rejected": 0,
+        "reviewed": 9,
+        "startedAt": "2026-10-19T09:51:20.496945Z",
+        "verified": 0
+      },
+      {
+        "blocked": 9,
+        "completedAt": "2026-10-19T07:51:19.673777Z",
+        "cycle": "a0d7867649f7",
+        "decided": 9,
+        "dispatched": 0,
+        "executed": 0,
+        "failed": 0,
+        "matched": 0,
+        "rejected": 0,
+        "reviewed": 9,
+        "startedAt": "2026-10-19T07:49:10.421587Z",
+        "verified": 0
+      },
+      {
+        "blocked": 9,
+        "completedAt": "2026-10-19T05:49:09.571464Z",
+        "cycle": "99cfef71a73f",
+        "decided": 9,
+        "dispatched": 0,
+        "executed": 0,
+        "failed": 0,
+        "matched": 0,
+        "rejected": 0,
+        "reviewed": 9,
+        "startedAt": "2026-10-19T05:47:35.285691Z",
+        "verified": 0
+      },
+      {
+        "blocked": 9,
+        "completedAt": "2026-10-19T03:47:34.462173Z",
+        "cycle": "87830808f00e",
+        "decided": 9,
+        "dispatched": 0,
+        "executed": 0,
+        "failed": 0,
+        "matched": 0,
+        "rejected": 0,
+        "reviewed": 9,
+        "startedAt": "2026-10-19T03:46:14.503944Z",
+        "verified": 0
+      },
+      {
+        "blocked": 9,
+        "completedAt": "2026-10-19T01:46:13.592903Z",
+        "cycle": "a51ced0b444c",
+        "decided": 9,
+        "dispatched": 0,
+        "executed": 0,
+        "failed": 0,
+        "matched": 0,
+        "rejected": 0,
+        "reviewed": 9,
+        "startedAt": "2026-10-19T01:44:57.066082Z",
+        "verified": 0
+      },
+      {
+        "blocked": 9,
+        "completedAt": "2026-10-18T23:44:56.330079Z",
+        "cycle": "ad42ae564673",
+        "decided": 9,
+        "dispatched": 0,
+        "executed": 0,
+        "failed": 0,
+        "matched": 0,
+        "rejected": 0,
+        "reviewed": 9,
+        "startedAt": "2026-10-18T23:43:16.178777Z",
+        "verified": 0
+      }
+    ],
+    "state": "COMPLETE",
+    "summary": "Review acknowledgment is tracked separately from dispatch and verification."
+  },
+  "director": {
+    "approvedDecisions": 0,
+    "lastPhase1": "2026-10-19T13:55:12.236551Z",
+    "lastPhase2": "2026-10-19T13:56:53.718761Z",
+    "model": "Codex",
+    "modifiedOrReversed": 0,
+    "nextReview": null,
+    "orientationAcknowledgments": 9,
+    "pendingDecisions": 0,
+    "projectsReviewed": 9,
+    "reasoningEffort": "configured",
+    "reviewHistory": [
+      {
+        "blocked": 9,
+        "completedAt": "2026-10-19T13:56:53.718761Z",
+        "cycle": "437ef8862366",
+        "decided": 9,
+        "dispatched": 0,
+        "executed": 0,
+        "failed": 0,
+        "matched": 0,
+        "rejected": 0,
+        "reviewed": 9,
+        "startedAt": "2026-10-19T13:55:12.236551Z",
+        "verified": 0
+      },
+      {
+        "blocked": 9,
+        "completedAt": "2026-10-19T11:55:11.602900Z",
+        "cycle": "24a117132910",
+        "decided": 9,
+        "dispatched": 0,
+        "executed": 0,
+        "failed": 0,
+        "matched": 0,
+        "rejected": 0,
+        "reviewed": 9,
+        "startedAt": "2026-10-19T11:54:00.547771Z",
+        "verified": 0
+      },
+      {
+        "blocked": 9,
+        "completedAt": "2026-10-19T09:53:59.737521Z",
+        "cycle": "80c3e188622f",
+        "decided": 9,
+        "dispatched": 0,
+        "executed": 0,
+        "failed": 0,
+        "matched": 0,
+        "rejected": 0,
+        "reviewed": 9,
+        "startedAt": "2026-10-19T09:51:20.496945Z",
+        "verified": 0
+      },
+      {
+        "blocked": 9,
+        "completedAt": "2026-10-19T07:51:19.673777Z",
+        "cycle": "a0d7867649f7",
+        "decided": 9,
+        "dispatched": 0,
+        "executed": 0,
+        "failed": 0,
+        "matched": 0,
+        "rejected": 0,
+        "reviewed": 9,
+        "startedAt": "2026-10-19T07:49:10.421587Z",
+        "verified": 0
+      },
+      {
+        "blocked": 9,
+        "completedAt": "2026-10-19T05:49:09.571464Z",
+        "cycle": "99cfef71a73f",
+        "decided": 9,
+        "dispatched": 0,
+        "executed": 0,
+        "failed": 0,
+        "matched": 0,
+        "rejected": 0,
+        "reviewed": 9,
+        "startedAt": "2026-10-19T05:47:35.285691Z",
+        "verified": 0
+      },
+      {
+        "blocked": 9,
+        "completedAt": "2026-10-19T03:47:34.462173Z",
+        "cycle": "87830808f00e",
+        "decided": 9,
+        "dispatched": 0,
+        "executed": 0,
+        "failed": 0,
+        "matched": 0,
+        "rejected": 0,
+        "reviewed": 9,
+        "startedAt": "2026-10-19T03:46:14.503944Z",
+        "verified": 0
+      },
+      {
+        "blocked": 9,
+        "completedAt": "2026-10-19T01:46:13.592903Z",
+        "cycle": "a51ced0b444c",
+        "decided": 9,
+        "dispatched": 0,
+        "executed": 0,
+        "failed": 0,
+        "matched": 0,
+        "rejected": 0,
+        "reviewed": 9,
+        "startedAt": "2026-10-19T01:44:57.066082Z",
+        "verified": 0
+      },
+      {
+        "blocked": 9,
+        "completedAt": "2026-10-18T23:44:56.330079Z",
+        "cycle": "ad42ae564673",
+        "decided": 9,
+        "dispatched": 0,
+        "executed": 0,
+        "failed": 0,
+        "matched": 0,
+        "rejected": 0,
+        "reviewed": 9,
+        "startedAt": "2026-10-18T23:43:16.178777Z",
+        "verified": 0
+      }
+    ],
+    "state": "COMPLETE",
+    "summary": "Review acknowledgment is tracked separately from dispatch and verification."
+  },
+  "generatedAt": "2026-10-19T21:10:09.496334Z",
+  "gitIntegration": {
+    "activeProtected": 0,
+    "alreadyIntegrated": 54,
+    "awaitingTests": 3,
+    "branchesAudited": 541,
+    "lastSuccessfulDailyRun": "2026-10-19T12:01:22.734520Z",
+    "missingTaskProvenance": 18,
+    "newlyIntegrated24h": 0,
+    "oldestEligibleAgeHours": 9.2,
+    "repositoriesMonitored": 10,
+    "scientificReviewBlockers": 3,
+    "stableVerification": "No stable update in latest batch",
+    "trueMergeConflicts": 0,
+    "verifiedPending": 2
+  },
+  "meaningfulEvents": [
+    {
+      "id": "167412",
+      "message": "A Codex orientation was delivered.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-19T13:56:53.738896Z",
+      "type": "orientation_delivered",
+      "verification": "Recorded",
+      "whyItMatters": "Supervisory direction was updated."
+    },
+    {
+      "id": "167410",
+      "message": "A Codex orientation was delivered.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-19T13:56:53.737410Z",
+      "type": "orientation_delivered",
+      "verification": "Recorded",
+      "whyItMatters": "Supervisory direction was updated."
+    },
+    {
+      "id": "167408",
+      "message": "A Codex orientation was delivered.",
+      "next": "Continue through the next controller gate.",
+      "project": "Papers",
+      "timestamp": "2026-10-19T13:56:53.735697Z",
+      "type": "orientation_delivered",
+      "verification": "Recorded",
+      "whyItMatters": "Supervisory direction was updated."
+    },
+    {
+      "id": "167406",
+      "message": "A Codex orientation was delivered.",
+      "next": "Continue through the next controller gate.",
+      "project": "EchoNext",
+      "timestamp": "2026-10-19T13:56:53.733937Z",
+      "type": "orientation_delivered",
+      "verification": "Recorded",
+      "whyItMatters": "Supervisory direction was updated."
+    },
+    {
+      "id": "167404",
+      "message": "A Codex orientation was delivered.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-19T13:56:53.731751Z",
+      "type": "orientation_delivered",
+      "verification": "Recorded",
+      "whyItMatters": "Supervisory direction was updated."
+    },
+    {
+      "id": "167402",
+      "message": "A Codex orientation was delivered.",
+      "next": "Continue through the next controller gate.",
+      "project": "CTBone",
+      "timestamp": "2026-10-19T13:56:53.729721Z",
+      "type": "orientation_delivered",
+      "verification": "Recorded",
+      "whyItMatters": "Supervisory direction was updated."
+    },
+    {
+      "id": "167400",
+      "message": "A Codex orientation was delivered.",
+      "next": "Continue through the next controller gate.",
+      "project": "BCM-Neuromodulation",
+      "timestamp": "2026-10-19T13:56:53.727651Z",
+      "type": "orientation_delivered",
+      "verification": "Recorded",
+      "whyItMatters": "Supervisory direction was updated."
+    },
+    {
+      "id": "167398",
+      "message": "A Codex orientation was delivered.",
+      "next": "Continue through the next controller gate.",
+      "project": "AortaPlan",
+      "timestamp": "2026-10-19T13:56:53.725916Z",
+      "type": "orientation_delivered",
+      "verification": "Recorded",
+      "whyItMatters": "Supervisory direction was updated."
+    },
+    {
+      "id": "167396",
+      "message": "A Codex orientation was delivered.",
+      "next": "Continue through the next controller gate.",
+      "project": "AI-Server",
+      "timestamp": "2026-10-19T13:56:53.723634Z",
+      "type": "orientation_delivered",
+      "verification": "Recorded",
+      "whyItMatters": "Supervisory direction was updated."
+    },
+    {
+      "id": "167317",
+      "message": "Controller recorded git integration complete.",
+      "next": "Continue through the next controller gate.",
+      "project": "AI-Server",
+      "timestamp": "2026-10-19T12:01:22.734929Z",
+      "type": "git_integration_complete",
+      "verification": "Recorded",
+      "whyItMatters": "The authoritative event log changed."
+    },
+    {
+      "id": "166176",
+      "message": "A Codex orientation was delivered.",
+      "next": "Continue through the next controller gate.",
+      "project": "Trace",
+      "timestamp": "2026-10-18T14:39:26.894106Z",
+      "type": "orientation_delivered",
+      "verification": "Recorded",
+      "whyItMatters": "Supervisory direction was updated."
+    },
+    {
+      "id": "166174",
+      "message": "A Codex orientation was delivered.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-18T14:39:26.893279Z",
+      "type": "orientation_delivered",
+      "verification": "Recorded",
+      "whyItMatters": "Supervisory direction was updated."
+    },
+    {
+      "id": "166172",
+      "message": "A Codex orientation was delivered.",
+      "next": "Continue through the next controller gate.",
+      "project": "Papers",
+      "timestamp": "2026-10-18T14:39:26.892296Z",
+      "type": "orientation_delivered",
+      "verification": "Recorded",
+      "whyItMatters": "Supervisory direction was updated."
+    },
+    {
+      "id": "166170",
+      "message": "A Codex orientation was delivered.",
+      "next": "Continue through the next controller gate.",
+      "project": "EchoNext",
+      "timestamp": "2026-10-18T14:39:26.891110Z",
+      "type": "orientation_delivered",
+      "verification": "Recorded",
+      "whyItMatters": "Supervisory direction was updated."
+    },
+    {
+      "id": "166168",
+      "message": "A Codex orientation was delivered.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-18T14:39:26.890442Z",
+      "type": "orientation_delivered",
+      "verification": "Recorded",
+      "whyItMatters": "Supervisory direction was updated."
+    },
+    {
+      "id": "166166",
+      "message": "A Codex orientation was delivered.",
+      "next": "Continue through the next controller gate.",
+      "project": "CTBone",
+      "timestamp": "2026-10-18T14:39:26.889649Z",
+      "type": "orientation_delivered",
+      "verification": "Recorded",
+      "whyItMatters": "Supervisory direction was updated."
+    },
+    {
+      "id": "166164",
+      "message": "A Codex orientation was delivered.",
+      "next": "Continue through the next controller gate.",
+      "project": "BCM-Neuromodulation",
+      "timestamp": "2026-10-18T14:39:26.888780Z",
+      "type": "orientation_delivered",
+      "verification": "Recorded",
+      "whyItMatters": "Supervisory direction was updated."
+    },
+    {
+      "id": "166162",
+      "message": "A Codex orientation was delivered.",
+      "next": "Continue through the next controller gate.",
+      "project": "AortaPlan",
+      "timestamp": "2026-10-18T14:39:26.887942Z",
+      "type": "orientation_delivered",
+      "verification": "Recorded",
+      "whyItMatters": "Supervisory direction was updated."
+    },
+    {
+      "id": "166160",
+      "message": "A Codex orientation was delivered.",
+      "next": "Continue through the next controller gate.",
+      "project": "AI-Server",
+      "timestamp": "2026-10-18T14:39:26.886533Z",
+      "type": "orientation_delivered",
+      "verification": "Recorded",
+      "whyItMatters": "Supervisory direction was updated."
+    },
+    {
+      "id": "165461",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-18T01:55:33.807661Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
+    {
+      "id": "165424",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-18T01:35:20.482790Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
+    {
+      "id": "165406",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-18T01:25:17.232457Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "165351",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-18T00:55:04.434838Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "165332",
+      "message": "Queued local repair 709 2 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-18T00:45:00.470094Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "165330",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-18T00:45:00.087977Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
+    {
+      "id": "165285",
+      "message": "A Codex orientation was delivered.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-18T00:25:23.319073Z",
+      "type": "orientation_delivered",
+      "verification": "Recorded",
+      "whyItMatters": "Supervisory direction was updated."
+    },
+    {
+      "id": "165237",
+      "message": "Queued local repair 705 2 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-18T00:14:57.627792Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "165226",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-18T00:14:47.082403Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
+    {
+      "id": "165210",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-18T00:04:43.651130Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "165158",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-17T23:34:33.806026Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "165148",
+      "message": "Queued local repair 709 1 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-17T23:24:37.423469Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "165136",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-17T23:24:28.590898Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
+    {
+      "id": "165099",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-17T23:03:21.526315Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "165092",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "EchoNext",
+      "timestamp": "2026-10-17T23:03:07.870191Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
+    {
+      "id": "165064",
+      "message": "Queued local repair 705 1 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-17T22:52:25.151704Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "165052",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-17T22:52:16.832738Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
+    {
+      "id": "165020",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "EchoNext",
+      "timestamp": "2026-10-17T22:41:37.850404Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "164989",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-17T22:31:04.133791Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "164957",
+      "message": "A Codex orientation was delivered.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-17T22:23:04.785358Z",
+      "type": "orientation_delivered",
+      "verification": "Recorded",
+      "whyItMatters": "Supervisory direction was updated."
+    },
+    {
+      "id": "164916",
+      "message": "Accepted task completed: local repair 692 index fix \u00b7 coder.",
+      "next": "Continue through the next controller gate.",
+      "project": "EchoNext",
+      "timestamp": "2026-10-17T22:20:36.936637Z",
+      "type": "task_exit_accepted",
+      "verification": "Verified",
+      "whyItMatters": "The controller recorded the completion."
+    },
+    {
+      "id": "164903",
+      "message": "Queued plan after 707 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "EchoNext",
+      "timestamp": "2026-10-17T22:20:22.157023Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "164900",
+      "message": "Verification passed for local repair 692 index fix \u00b7 coder.",
+      "next": "Continue through the next controller gate.",
+      "project": "EchoNext",
+      "timestamp": "2026-10-17T22:20:21.556631Z",
+      "type": "accepted",
+      "verification": "Verified",
+      "whyItMatters": "Dependent work may advance."
+    },
+    {
+      "id": "164828",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "EchoNext",
+      "timestamp": "2026-10-17T22:19:15.888866Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
+    {
+      "id": "164699",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "EchoNext",
+      "timestamp": "2026-10-17T22:17:34.673651Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "164613",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "EchoNext",
+      "timestamp": "2026-10-17T22:15:32.298713Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "164612",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "EchoNext",
+      "timestamp": "2026-10-17T22:15:32.298674Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
+    {
+      "id": "164435",
+      "message": "Queued regenerate plan 708 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-17T22:12:41.324903Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "164433",
+      "message": "Verification passed for plan after 701 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-17T22:12:40.783103Z",
+      "type": "accepted",
+      "verification": "Verified",
+      "whyItMatters": "Dependent work may advance."
+    },
+    {
+      "id": "164328",
+      "message": "Queued targeted repair 702 \u00b7 coder.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-17T22:10:58.268294Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "164316",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-17T22:10:53.268547Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
+    {
+      "id": "164227",
+      "message": "Accepted task completed: repair 698 import collision \u00b7 coder.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-17T22:09:16.195547Z",
+      "type": "task_exit_accepted",
+      "verification": "Verified",
+      "whyItMatters": "The controller recorded the completion."
+    },
+    {
+      "id": "164214",
+      "message": "Queued plan after 701 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-17T22:09:07.942355Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "164209",
+      "message": "Verification passed for repair 698 import collision \u00b7 coder.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-17T22:09:06.651589Z",
+      "type": "accepted",
+      "verification": "Verified",
+      "whyItMatters": "Dependent work may advance."
+    },
+    {
+      "id": "164204",
+      "message": "Accepted task completed: local repair 701 1 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-17T22:09:01.661847Z",
+      "type": "task_exit_accepted",
+      "verification": "Verified",
+      "whyItMatters": "The controller recorded the completion."
+    },
+    {
+      "id": "164185",
+      "message": "Verification passed for local repair 701 1 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-17T22:08:49.072288Z",
+      "type": "accepted",
+      "verification": "Verified",
+      "whyItMatters": "Dependent work may advance."
+    },
+    {
+      "id": "164085",
+      "message": "Accepted task completed: local repair 692 1 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "EchoNext",
+      "timestamp": "2026-10-17T22:07:05.357989Z",
+      "type": "task_exit_accepted",
+      "verification": "Verified",
+      "whyItMatters": "The controller recorded the completion."
+    },
+    {
+      "id": "164080",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-17T22:06:48.436475Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "164079",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-17T22:06:48.436414Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
+    {
+      "id": "164063",
+      "message": "Queued local repair 692 index fix \u00b7 coder.",
+      "next": "Continue through the next controller gate.",
+      "project": "EchoNext",
+      "timestamp": "2026-10-17T22:06:39.509935Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "164062",
+      "message": "Verification passed for local repair 692 1 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "EchoNext",
+      "timestamp": "2026-10-17T22:06:38.912008Z",
+      "type": "accepted",
+      "verification": "Verified",
+      "whyItMatters": "Dependent work may advance."
+    },
+    {
+      "id": "163937",
+      "message": "Queued local repair 701 1 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-17T22:04:03.218871Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "163803",
+      "message": "Queued targeted repair 699 \u00b7 coder.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-17T22:02:27.383332Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "163799",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-17T22:02:25.954079Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
+    {
+      "id": "163773",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "EchoNext",
+      "timestamp": "2026-10-17T22:01:51.951860Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "163772",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "EchoNext",
+      "timestamp": "2026-10-17T22:01:51.951778Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
+    {
+      "id": "163711",
+      "message": "Queued targeted repair 696 \u00b7 coder.",
+      "next": "Continue through the next controller gate.",
+      "project": "EchoNext",
+      "timestamp": "2026-10-17T22:00:22.736174Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "163709",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "EchoNext",
+      "timestamp": "2026-10-17T22:00:21.097205Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
+    {
+      "id": "163656",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-17T21:59:27.658551Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "163435",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-17T21:53:20.527174Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "163377",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "EchoNext",
+      "timestamp": "2026-10-17T21:51:20.630573Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "163284",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-17T21:48:15.418914Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "163283",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-17T21:48:15.418856Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
+    {
+      "id": "162981",
+      "message": "Queued local repair 692 1 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "EchoNext",
+      "timestamp": "2026-10-17T21:43:02.750998Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "162704",
+      "message": "Queued targeted repair 697 \u00b7 coder.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-17T21:35:47.884172Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "162683",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-17T21:35:37.642370Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
+    {
+      "id": "162634",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "EchoNext",
+      "timestamp": "2026-10-17T21:34:27.169109Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "162633",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "EchoNext",
+      "timestamp": "2026-10-17T21:34:27.169059Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
+    {
+      "id": "162375",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "Ditto",
+      "timestamp": "2026-10-17T21:28:39.391985Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "162351",
+      "message": "Accepted task completed: local repair 698 1 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-17T21:27:01.664424Z",
+      "type": "task_exit_accepted",
+      "verification": "Verified",
+      "whyItMatters": "The controller recorded the completion."
+    },
+    {
+      "id": "162343",
+      "message": "Queued repair 698 import collision \u00b7 coder.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-17T21:26:52.328925Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    }
+  ],
+  "portfolioSummary": {
+    "actionsRequiringUser": 0,
+    "activeLocalAgents": 0,
+    "activeVisionJobs": 0,
+    "executingProjects": 0,
+    "projectsNeedingTechnicalAttention": 4,
+    "registeredProjects": 9,
+    "state": "Needs attention",
+    "verifiedCompletions24h": 0
+  },
+  "projects": [
+    {
+      "agentsNow": "No agent currently executing",
+      "blocker": null,
+      "currentObjective": "vision shared gateway smoke 20261015 \u00b7 coder",
+      "deliverable": "A verified bounded project artifact.",
+      "goal": "Operate and improve the autonomous research platform.",
+      "id": "ai-server",
+      "lastAccomplishment": "Verified task 545 vision gateway probe \u00b7 coder.",
+      "lastCodexReview": null,
+      "lastMeaningfulActivity": "2026-10-15T14:10:03.674940Z",
+      "name": "AI-Server",
+      "nextTask": null,
+      "operationalState": "RUNNABLE",
+      "queueDepth": 0,
+      "readyForHuman": false,
+      "researchStage": "Research infrastructure",
+      "status": "Failed / retrying"
+    },
+    {
+      "agentsNow": "No agent currently executing",
+      "blocker": null,
+      "currentObjective": "plan after 624 \u00b7 planner",
+      "deliverable": "A verified bounded project artifact.",
+      "goal": "Advance the next verified research milestone.",
+      "id": "aortaplan",
+      "lastAccomplishment": "Verified local repair 608 invariant preserve \u00b7 coder.",
+      "lastCodexReview": null,
+      "lastMeaningfulActivity": "2026-10-16T20:26:22.956892Z",
+      "name": "AortaPlan",
+      "nextTask": null,
+      "operationalState": "RUNNABLE",
+      "queueDepth": 0,
+      "readyForHuman": false,
+      "researchStage": "Active research program",
+      "status": "Ready"
+    },
+    {
+      "agentsNow": "No agent currently executing",
+      "blocker": "Public-safe blocker recorded",
+      "currentObjective": "bcm real vision auth preflight 20261013 \u00b7 research",
+      "deliverable": "A verified bounded project artifact.",
+      "goal": "Advance the next verified research milestone.",
+      "id": "bcm-neuromodulation",
+      "lastAccomplishment": "Verified bcm actual bridge preflight 20261013 \u00b7 research.",
+      "lastCodexReview": null,
+      "lastMeaningfulActivity": "2026-10-15T10:40:35.665419Z",
+      "name": "BCM-Neuromodulation",
+      "nextTask": null,
+      "operationalState": "RUNNABLE",
+      "queueDepth": 0,
+      "readyForHuman": false,
+      "researchStage": "Active research program",
+      "status": "Ready"
+    },
+    {
+      "agentsNow": "No agent currently executing",
+      "blocker": null,
+      "currentObjective": "local repair 604 1 \u00b7 planner",
+      "deliverable": "A verified bounded project artifact.",
+      "goal": "Advance the next verified research milestone.",
+      "id": "ctbone",
+      "lastAccomplishment": "Verified ctbone determinism recovery 586 \u00b7 coder.",
+      "lastCodexReview": null,
+      "lastMeaningfulActivity": "2026-10-16T19:45:30.839989Z",
+      "name": "CTBone",
+      "nextTask": null,
+      "operationalState": "RUNNABLE",
+      "queueDepth": 0,
+      "readyForHuman": false,
+      "researchStage": "Active research program",
+      "status": "Ready"
+    },
+    {
+      "agentsNow": "No agent currently executing",
+      "blocker": null,
+      "currentObjective": "local repair 709 2 \u00b7 planner",
+      "deliverable": "A verified bounded project artifact.",
+      "goal": "Advance the next verified research milestone.",
+      "id": "ditto",
+      "lastAccomplishment": "Verified add error coverage tests \u00b7 coder.",
+      "lastCodexReview": null,
+      "lastMeaningfulActivity": "2026-10-18T01:55:33.807646Z",
+      "name": "Ditto",
+      "nextTask": null,
+      "operationalState": "RUNNABLE",
+      "queueDepth": 0,
+      "readyForHuman": false,
+      "researchStage": "Active research program",
+      "status": "Failed / retrying"
+    },
+    {
+      "agentsNow": "No agent currently executing",
+      "blocker": null,
+      "currentObjective": "plan after 707 \u00b7 planner",
+      "deliverable": "A verified bounded project artifact.",
+      "goal": "Advance the next verified research milestone.",
+      "id": "echonext",
+      "lastAccomplishment": "Verified local repair 692 index fix \u00b7 coder.",
+      "lastCodexReview": null,
+      "lastMeaningfulActivity": "2026-10-17T23:03:07.870175Z",
+      "name": "EchoNext",
+      "nextTask": null,
+      "operationalState": "RUNNABLE",
+      "queueDepth": 0,
+      "readyForHuman": false,
+      "researchStage": "Active research program",
+      "status": "Ready"
+    },
+    {
+      "agentsNow": "No agent currently executing",
+      "blocker": null,
+      "currentObjective": "local repair 460 2 \u00b7 planner",
+      "deliverable": "A verified bounded project artifact.",
+      "goal": "Advance the next verified research milestone.",
+      "id": "papers",
+      "lastAccomplishment": "Verified local repair 462 2 \u00b7 planner.",
+      "lastCodexReview": null,
+      "lastMeaningfulActivity": "2026-10-15T19:52:26.719784Z",
+      "name": "Papers",
+      "nextTask": null,
+      "operationalState": "RUNNABLE",
+      "queueDepth": 0,
+      "readyForHuman": false,
+      "researchStage": "Active research program",
+      "status": "Failed / retrying"
+    },
+    {
+      "agentsNow": "No agent currently executing",
+      "blocker": null,
+      "currentObjective": "regenerate plan 708 \u00b7 planner",
+      "deliverable": "A verified bounded project artifact.",
+      "goal": "Advance the next verified research milestone.",
+      "id": "teer",
+      "lastAccomplishment": "Verified local repair 701 1 \u00b7 planner.",
+      "lastCodexReview": null,
+      "lastMeaningfulActivity": "2026-10-17T22:12:41.324852Z",
+      "name": "TEER",
+      "nextTask": null,
+      "operationalState": "RUNNABLE",
+      "queueDepth": 0,
+      "readyForHuman": false,
+      "researchStage": "Active research program",
+      "status": "Failed / retrying"
+    },
+    {
+      "agentsNow": "No agent currently executing",
+      "blocker": null,
+      "currentObjective": "regenerate plan 594 \u00b7 planner",
+      "deliverable": "A verified bounded project artifact.",
+      "goal": "Advance the next verified research milestone.",
+      "id": "trace",
+      "lastAccomplishment": "Verified 581 pnpm supply chain gate repair \u00b7 coder.",
+      "lastCodexReview": null,
+      "lastMeaningfulActivity": "2026-10-16T18:17:07.221482Z",
+      "name": "Trace",
+      "nextTask": null,
+      "operationalState": "RUNNABLE",
+      "queueDepth": 0,
+      "readyForHuman": false,
+      "researchStage": "Active research program",
+      "status": "Ready"
+    }
+  ],
+  "publicationHealth": {
+    "deployment": "Pending repository publication",
+    "lastPublishedCommit": null,
+    "state": "Publishing"
+  },
+  "publishedAt": "2026-10-19T21:10:09.662030Z",
+  "queueHealth": {
+    "orphanedCount": 0,
+    "orphanedRoadmaps": []
+  },
+  "queuedWork": [
+    {
+      "backend": "VISION",
+      "branch": null,
+      "heartbeatFresh": null,
+      "id": "vision-4",
+      "parent": null,
+      "project": "AortaPlan",
+      "pullRequest": null,
+      "resource": "VISION Slurm",
+      "startedAt": "2026-10-19T18:45:12.099810Z",
+      "state": "QUEUED",
+      "title": "Implement AortaPlan issue #5: establish a reproducible VMTK reference geometry workflow using synthe",
+      "updatedAt": "2026-10-19T20:21:39.267921Z",
+      "workerType": "OpenCode implementation agent"
+    }
+  ],
+  "recentlyCompleted": [
+    {
+      "id": "707",
+      "project": "EchoNext",
+      "state": "COMPLETED",
+      "title": "local repair 692 index fix \u00b7 coder",
+      "updatedAt": "2026-10-17T22:20:21.556278Z"
+    },
+    {
+      "id": "701",
+      "project": "TEER",
+      "state": "COMPLETED",
+      "title": "repair 698 import collision \u00b7 coder",
+      "updatedAt": "2026-10-17T22:09:06.651205Z"
+    },
+    {
+      "id": "706",
+      "project": "TEER",
+      "state": "COMPLETED",
+      "title": "local repair 701 1 \u00b7 planner",
+      "updatedAt": "2026-10-17T22:08:49.071968Z"
+    },
+    {
+      "id": "703",
+      "project": "EchoNext",
+      "state": "COMPLETED",
+      "title": "local repair 692 1 \u00b7 planner",
+      "updatedAt": "2026-10-17T22:06:38.911554Z"
+    },
+    {
+      "id": "700",
+      "project": "TEER",
+      "state": "COMPLETED",
+      "title": "local repair 698 1 \u00b7 planner",
+      "updatedAt": "2026-10-17T21:26:52.233015Z"
+    },
+    {
+      "id": "694",
+      "project": "TEER",
+      "state": "COMPLETED",
+      "title": "local repair 690 1 \u00b7 planner",
+      "updatedAt": "2026-10-17T20:46:55.107067Z"
+    },
+    {
+      "id": "689",
+      "project": "TEER",
+      "state": "COMPLETED",
+      "title": "local repair 683 1 \u00b7 planner",
+      "updatedAt": "2026-10-17T20:12:49.643089Z"
+    },
+    {
+      "id": "673",
+      "project": "Ditto",
+      "state": "COMPLETED",
+      "title": "add bias validation \u00b7 coder",
+      "updatedAt": "2026-10-17T06:36:50.723465Z"
+    },
+    {
+      "id": "674",
+      "project": "Ditto",
+      "state": "COMPLETED",
+      "title": "add error coverage tests \u00b7 coder",
+      "updatedAt": "2026-10-17T06:35:21.151773Z"
+    },
+    {
+      "id": "672",
+      "project": "Ditto",
+      "state": "COMPLETED",
+      "title": "repair 670 \u00b7 coder",
+      "updatedAt": "2026-10-17T06:32:43.406022Z"
+    },
+    {
+      "id": "671",
+      "project": "Ditto",
+      "state": "COMPLETED",
+      "title": "local repair 670 1 \u00b7 planner",
+      "updatedAt": "2026-10-17T06:20:34.904313Z"
+    },
+    {
+      "id": "662",
+      "project": "TEER",
+      "state": "COMPLETED",
+      "title": "repair 646 cache cleanup \u00b7 coder",
+      "updatedAt": "2026-10-17T04:37:18.070735Z"
+    },
+    {
+      "backend": "VISION",
+      "branch": "codex/vision-3",
+      "heartbeatFresh": null,
+      "id": "vision-3",
+      "parent": null,
+      "project": "AortaPlan",
+      "pullRequest": "https://github.com/joshdrobert/AortaPlan/pull/14",
+      "resource": "VISION Slurm",
+      "startedAt": "2026-10-19T13:18:25.865396Z",
+      "state": "COMPLETED",
+      "title": "Implement GitHub issue #10: define the Month-12 locked validation protocol as an executable, version",
+      "updatedAt": "2026-10-19T13:31:57.806048Z",
+      "workerType": "OpenCode implementation agent"
+    },
+    {
+      "backend": "VISION",
+      "branch": "codex/vision-2-recovery",
+      "heartbeatFresh": null,
+      "id": "vision-2",
+      "parent": null,
+      "project": "AortaPlan",
+      "pullRequest": "https://github.com/joshdrobert/AortaPlan/pull/13",
+      "resource": "VISION Slurm",
+      "startedAt": "2026-10-18T18:53:52.397538Z",
+      "state": "COMPLETED",
+      "title": "Implement GitHub issue #9: approved DICOM ingestion and physical-geometry validation pipeline",
+      "updatedAt": "2026-10-19T13:12:21Z",
+      "workerType": "OpenCode implementation agent"
+    },
+    {
+      "backend": "VISION",
+      "branch": "codex/vision-1",
+      "heartbeatFresh": null,
+      "id": "vision-1",
+      "parent": null,
+      "project": "Ditto",
+      "pullRequest": "https://github.com/joshdrobert/Ditto/pull/1",
+      "resource": "VISION Slurm",
+      "startedAt": "2026-10-18T04:17:54.702842Z",
+      "state": "COMPLETED",
+      "title": "Restore Quantity API compatibility required by the latest stable combined-tree regression without re",
+      "updatedAt": "2026-10-18T18:52:20.658034Z",
+      "workerType": "OpenCode implementation agent"
+    }
+  ],
+  "recoveryWork": [],
+  "scientificProgress": {
+    "analysesCompleted": 0,
+    "datasetsVerified": 0,
+    "manuscriptMilestones": 0,
+    "note": "Task completion is not counted as scientific completion.",
+    "resultsValidated": 0,
+    "verifiedMilestones12h": 0,
+    "verifiedMilestones24h": 0,
+    "verifiedMilestones2h": 0
+  },
+  "semanticHash": "aa963b94074bf8f0d04eeef10d192f03845b15ab0670c2e02bf9efcd6a68192f",
+  "snapshotVersion": "2.3",
+  "solSupervisor": {
+    "completedReviews24h": 2,
+    "dailyReviewLimit": 12,
+    "intervalSeconds": 7200,
+    "lastReview": {
+      "endedAt": "2026-10-19T17:16:04.498060Z",
+      "id": "sol-20261019T171550Z-7aeaa5fa",
+      "state": "COMPLETE"
+    },
+    "model": "gpt-5.6-sol",
+    "nextReviewDue": "2026-10-19T19:16:04.498060Z",
+    "reasoningEffort": "medium"
+  },
+  "sourceEventAt": "2026-10-19T13:56:53.738896Z",
+  "system": {
+    "activeJobs": 0,
+    "autonomy": "DEGRADED",
+    "status": "Needs attention"
+  },
+  "systemHealth": {
+    "autonomy": "Degraded",
+    "controller": "Operational",
+    "state": "Needs attention"
+  },
+  "visionSummary": {
+    "active": 0,
+    "activeAgentTasks": 0,
+    "authRetryAt": "2026-10-19T22:06:57.533085Z",
+    "backlogSources": {
+      "ADMITTED": 1,
+      "BLOCKED": 9
+    },
+    "completed": 4,
+    "completedTasks": 3,
+    "connection": "Authentication deferred",
+    "consumed": 0,
+    "controllerPaused": false,
+    "currentGpuAllocations": 0,
+    "draftPullRequests": 3,
+    "failed": 3,
+    "failedTasks": 0,
+    "pendingSlurmJobs": 1,
+    "queued": 0,
+    "scheduler": "Awaiting authorized SSH renewal",
+    "selectedModel": "Qwen/Qwen3-Coder-Next-FP8",
+    "validated": 0
+  },
+  "visionV2": {
+    "backlogSources": {
+      "ADMITTED": 1,
+      "BLOCKED": 9
+    },
+    "blockedMilestones": [
+      {
+        "reason": "orientation is not explicitly executable or has unresolved blockers",
+        "repository": "AI-Server",
+        "source": "orientation:397"
+      },
+      {
+        "reason": "orientation is not explicitly executable or has unresolved blockers",
+        "repository": "AortaPlan",
+        "source": "orientation:398"
+      },
+      {
+        "reason": "orientation is not explicitly executable or has unresolved blockers",
+        "repository": "BCM-Neuromodulation",
+        "source": "orientation:399"
+      },
+      {
+        "reason": "orientation is not explicitly executable or has unresolved blockers",
+        "repository": "CTBone",
+        "source": "orientation:400"
+      },
+      {
+        "reason": "orientation is not explicitly executable or has unresolved blockers",
+        "repository": "Ditto",
+        "source": "orientation:401"
+      },
+      {
+        "reason": "orientation is not explicitly executable or has unresolved blockers",
+        "repository": "EchoNext",
+        "source": "orientation:402"
+      },
+      {
+        "reason": "orientation is not explicitly executable or has unresolved blockers",
+        "repository": "Papers",
+        "source": "orientation:403"
+      },
+      {
+        "reason": "orientation is not explicitly executable or has unresolved blockers",
+        "repository": "TEER",
+        "source": "orientation:404"
+      },
+      {
+        "reason": "orientation is not explicitly executable or has unresolved blockers",
+        "repository": "Trace",
+        "source": "orientation:405"
+      }
+    ],
+    "counts": {
+      "COMPLETED": 3,
+      "QUEUED": 1
+    },
+    "paused": false,
+    "selectedModel": "Qwen/Qwen3-Coder-Next-FP8",
+    "tasks": [
+      {
+        "acceptance": "Record the exact VMTK or SlicerVMTK version; document synthetic straight and curved vessel cases; compare AortaPlan and VMTK centerline length; add an orthogonal-plane agreement check; document failure cases; record which VMTK components are suitable reference utilities; run the full applicable repository test suite; create a draft PR requiring independent expert review; do not access clinical data or make clinical-performance claims.",
+        "attempts": 1,
+        "branch": null,
+        "created": 1792435512.0998101,
+        "error": "interrupted worker recovered",
+        "goal": "Implement AortaPlan issue #5: establish a reproducible VMTK reference geometry workflow using synthetic straight and curved vessel cases",
+        "id": 4,
+        "max_attempts": 2,
+        "model_job": "787791",
+        "pr_url": null,
+        "priority": 40,
+        "repository": "AortaPlan",
+        "run_id": "12493",
+        "state": "QUEUED",
+        "updated": 1792441299.267921
+      },
+      {
+        "acceptance": "Follow https://github.com/joshdrobert/AortaPlan/issues/10. Produce a precise versioned protocol and deterministic validation checks where applicable; do not use or invent clinical results, do not access PHI, keep release subject to expert review, run the full repository test suite, and create a reviewable draft PR.",
+        "attempts": 1,
+        "branch": "codex/vision-3",
+        "created": 1792415905.865396,
+        "error": null,
+        "goal": "Implement GitHub issue #10: define the Month-12 locked validation protocol as an executable, versioned research protocol",
+        "id": 3,
+        "max_attempts": 2,
+        "model_job": "786801",
+        "pr_url": "https://github.com/joshdrobert/AortaPlan/pull/14",
+        "priority": 30,
+        "repository": "AortaPlan",
+        "run_id": "39639",
+        "state": "COMPLETED",
+        "updated": 1792416717.806048
+      },
+      {
+        "acceptance": "Follow https://github.com/joshdrobert/AortaPlan/issues/9. Handle ImageOrientationPatient, ImagePositionPatient, PixelSpacing, ordered slice geometry, explicit LPS/RAS conversion, series selection, consistency validation, pseudonymous manifests, and PHI-safe logs. Add synthetic geometry tests and fail closed on inconsistent slice order or spacing. Use only de-identified or repository-provided approved fixtures; do not access clinical data. All applicable tests must pass. Create a draft PR requiring expert review.",
+        "attempts": 2,
+        "branch": "codex/vision-2-recovery",
+        "created": 1792349632.397538,
+        "error": null,
+        "goal": "Implement GitHub issue #9: approved DICOM ingestion and physical-geometry validation pipeline",
+        "id": 2,
+        "max_attempts": 2,
+        "model_job": "782234",
+        "pr_url": "https://github.com/joshdrobert/AortaPlan/pull/13",
+        "priority": 20,
+        "repository": "AortaPlan",
+        "run_id": "38401",
+        "state": "COMPLETED",
+        "updated": 1792415541.0
+      },
+      {
+        "acceptance": "Preserve units, uncertainty, provenance, identifiability, range validation, scalar access, and license tags. Run the complete Ditto pytest suite; all tests must pass. Independent model review must report no substantial issues.",
+        "attempts": 2,
+        "branch": "codex/vision-1",
+        "created": 1792297074.702842,
+        "error": null,
+        "goal": "Restore Quantity API compatibility required by the latest stable combined-tree regression without reverting accepted calibration work",
+        "id": 1,
+        "max_attempts": 2,
+        "model_job": "781451",
+        "pr_url": "https://github.com/joshdrobert/Ditto/pull/1",
+        "priority": 10,
+        "repository": "Ditto",
+        "run_id": "73109",
+        "state": "COMPLETED",
+        "updated": 1792349540.6580338
+      }
+    ],
+    "updatedAt": 1792444017.7924638,
+    "visionAuth": {
+      "deferred": true,
+      "failures": 3,
+      "retryAt": 1792447617.5330849
+    }
+  }
+}

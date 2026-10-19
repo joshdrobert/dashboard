@@ -1,0 +1,45 @@
+{
+  "at": 1791847824.89043,
+  "projects": {
+    "AortaPlan": {
+      "progress": "2026-10-12T23:24:23.498946Z",
+      "status": "Blocked",
+      "task": "aortaplan-public-dataset-decision-20261011"
+    },
+    "BCM-Neuromodulation": {
+      "progress": "2026-10-12T23:26:45.812969Z",
+      "status": "Blocked",
+      "task": "vision-dryad-v4-full-stage"
+    },
+    "CTBone": {
+      "progress": "2026-10-12T23:29:30.442880Z",
+      "status": "Blocked",
+      "task": "regenerate-plan-392"
+    },
+    "Ditto": {
+      "progress": "2026-10-12T16:21:37.075267Z",
+      "status": "Active",
+      "task": "ditto-quantity-gap-recovery-20261012"
+    },
+    "EchoNext": {
+      "progress": "2026-10-12T23:28:04.381033Z",
+      "status": "Blocked",
+      "task": "regenerate-plan-382"
+    },
+    "Papers": {
+      "progress": "2026-10-12T23:24:14.115991Z",
+      "status": "Ready",
+      "task": "papers-derm001-evidence-screen-recovery-20261012"
+    },
+    "TEER": {
+      "progress": "2026-10-12T23:16:50.422774Z",
+      "status": "Blocked",
+      "task": "regenerate-plan-393"
+    },
+    "Trace": {
+      "progress": "2026-10-12T23:28:43.920013Z",
+      "status": "Blocked",
+      "task": "1.1.5-audit-persistence"
+    }
+  }
+}

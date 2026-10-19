@@ -1,0 +1,46 @@
+{
+  "at": 1791856886.2806132,
+  "hour": "20261013T02",
+  "projects": {
+    "AortaPlan": {
+      "progress": "2026-10-13T01:38:03.750118Z",
+      "status": "Ready",
+      "task": "aortaplan-repeatability-receipt-20261013"
+    },
+    "BCM-Neuromodulation": {
+      "progress": "2026-10-13T01:16:42.440935Z",
+      "status": "Attention",
+      "task": "bcm-real-vision-auth-preflight-20261013"
+    },
+    "CTBone": {
+      "progress": "2026-10-13T01:40:32.763097Z",
+      "status": "Ready",
+      "task": "ctbone-extraction-manifest-records-20261013"
+    },
+    "Ditto": {
+      "progress": "2026-10-13T01:40:18.407953Z",
+      "status": "Ready",
+      "task": "ditto-provenance-transition-audit-20261013"
+    },
+    "EchoNext": {
+      "progress": "2026-10-13T01:15:25.046876Z",
+      "status": "Active",
+      "task": "local-repair-439-1"
+    },
+    "Papers": {
+      "progress": "2026-10-13T01:57:43.791397Z",
+      "status": "Active",
+      "task": "papers-source-receipt-audit-20261013"
+    },
+    "TEER": {
+      "progress": "2026-10-13T01:14:56.715330Z",
+      "status": "Active",
+      "task": "teer-benchmark-qc-receipt-20261013"
+    },
+    "Trace": {
+      "progress": "2026-10-13T01:15:35.197690Z",
+      "status": "Queued",
+      "task": "trace-fingerprint-malformed-fixtures-20261013"
+    }
+  }
+}

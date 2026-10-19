@@ -1,0 +1,45 @@
+{
+  "at": 1791846966.815285,
+  "projects": {
+    "AortaPlan": {
+      "progress": "2026-10-12T16:20:47.243802Z",
+      "status": "Active",
+      "task": "aortaplan-physical-space-recovery-20261012"
+    },
+    "BCM-Neuromodulation": {
+      "progress": "2026-10-12T16:21:05.776474Z",
+      "status": "Active",
+      "task": "bcm-transfer-failure-classification-20261012"
+    },
+    "CTBone": {
+      "progress": "2026-10-12T15:59:46.243311Z",
+      "status": "Active",
+      "task": "ctbone-real-manifest-recovery-20261012"
+    },
+    "Ditto": {
+      "progress": "2026-10-12T16:21:37.075267Z",
+      "status": "Queued",
+      "task": "ditto-quantity-gap-recovery-20261012"
+    },
+    "EchoNext": {
+      "progress": "2026-10-12T16:29:14.289686Z",
+      "status": "Queued",
+      "task": "echonext-patient-split-recovery-20261012"
+    },
+    "Papers": {
+      "progress": "2026-10-12T16:21:03.989232Z",
+      "status": "Active",
+      "task": "papers-derm001-evidence-screen-recovery-20261012"
+    },
+    "TEER": {
+      "progress": "2026-10-12T15:52:35.644470Z",
+      "status": "Active",
+      "task": "teer-validation-matrix-recovery-20261012"
+    },
+    "Trace": {
+      "progress": "2026-10-12T16:29:40.632531Z",
+      "status": "Queued",
+      "task": "trace-papers-contract-recovery-20261012"
+    }
+  }
+}
