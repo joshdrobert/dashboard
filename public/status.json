@@ -1,6 +1,22 @@
 {
   "actionRequired": [],
-  "activeWork": [],
+  "activeWork": [
+    {
+      "backend": "VISION",
+      "branch": null,
+      "heartbeatFresh": null,
+      "id": "vision-4",
+      "parent": null,
+      "project": "AortaPlan",
+      "pullRequest": null,
+      "resource": "VISION Slurm",
+      "startedAt": "2026-10-19T18:45:12.099810Z",
+      "state": "RUNNING",
+      "title": "Implement AortaPlan issue #5: establish a reproducible VMTK reference geometry workflow using synthe",
+      "updatedAt": "2026-10-19T18:48:25.466310Z",
+      "workerType": "OpenCode implementation agent"
+    }
+  ],
   "attentionRequired": [
     {
       "category": "Agents debugging",
@@ -383,7 +399,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-19T18:46:36.452941Z",
+  "generatedAt": "2026-10-19T18:48:37.971518Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 54,
@@ -1204,8 +1220,8 @@
   "portfolioSummary": {
     "actionsRequiringUser": 0,
     "activeLocalAgents": 0,
-    "activeVisionJobs": 0,
-    "executingProjects": 0,
+    "activeVisionJobs": 1,
+    "executingProjects": 1,
     "projectsNeedingTechnicalAttention": 4,
     "registeredProjects": 9,
     "state": "Needs attention",
@@ -1380,28 +1396,12 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-19T18:46:36.600846Z",
+  "publishedAt": "2026-10-19T18:48:38.135387Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
   },
-  "queuedWork": [
-    {
-      "backend": "VISION",
-      "branch": null,
-      "heartbeatFresh": null,
-      "id": "vision-4",
-      "parent": null,
-      "project": "AortaPlan",
-      "pullRequest": null,
-      "resource": "VISION Slurm",
-      "startedAt": "2026-10-19T18:45:12.099810Z",
-      "state": "QUEUED",
-      "title": "Implement AortaPlan issue #5: establish a reproducible VMTK reference geometry workflow using synthe",
-      "updatedAt": "2026-10-19T18:45:12.099810Z",
-      "workerType": "OpenCode implementation agent"
-    }
-  ],
+  "queuedWork": [],
   "recentlyCompleted": [
     {
       "id": "707",
@@ -1544,7 +1544,7 @@
     "verifiedMilestones24h": 0,
     "verifiedMilestones2h": 0
   },
-  "semanticHash": "8b4e3f82e86f4472430a2b7a881d3b4a59a567dc2ed150d79162ce57c9ac1f40",
+  "semanticHash": "e1a23af24b3a28596b6d013eb3bf49ec24d43739dc860e4d82ca81f57a12f763",
   "snapshotVersion": "2.3",
   "sourceEventAt": "2026-10-19T13:56:53.738896Z",
   "system": {
@@ -1559,17 +1559,17 @@
   },
   "visionSummary": {
     "active": 0,
-    "activeAgentTasks": 0,
+    "activeAgentTasks": 1,
     "completed": 4,
     "completedTasks": 3,
     "connection": "Available",
     "consumed": 0,
     "controllerPaused": false,
-    "currentGpuAllocations": 0,
+    "currentGpuAllocations": 1,
     "draftPullRequests": 3,
     "failed": 3,
     "failedTasks": 0,
-    "pendingSlurmJobs": 1,
+    "pendingSlurmJobs": 0,
     "queued": 0,
     "scheduler": "Reachable",
     "selectedModel": "Qwen/Qwen3-Coder-Next-FP8",
@@ -1629,27 +1629,27 @@
     ],
     "counts": {
       "COMPLETED": 3,
-      "QUEUED": 1
+      "RUNNING": 1
     },
     "paused": false,
     "selectedModel": "Qwen/Qwen3-Coder-Next-FP8",
     "tasks": [
       {
         "acceptance": "Record the exact VMTK or SlicerVMTK version; document synthetic straight and curved vessel cases; compare AortaPlan and VMTK centerline length; add an orthogonal-plane agreement check; document failure cases; record which VMTK components are suitable reference utilities; run the full applicable repository test suite; create a draft PR requiring independent expert review; do not access clinical data or make clinical-performance claims.",
-        "attempts": 0,
+        "attempts": 1,
         "branch": null,
         "created": 1792435512.0998101,
         "error": null,
         "goal": "Implement AortaPlan issue #5: establish a reproducible VMTK reference geometry workflow using synthetic straight and curved vessel cases",
         "id": 4,
         "max_attempts": 2,
-        "model_job": null,
+        "model_job": "787791",
         "pr_url": null,
         "priority": 40,
         "repository": "AortaPlan",
-        "run_id": null,
-        "state": "QUEUED",
-        "updated": 1792435512.0998101
+        "run_id": "12493",
+        "state": "RUNNING",
+        "updated": 1792435705.4663098
       },
       {
         "acceptance": "Follow https://github.com/joshdrobert/AortaPlan/issues/10. Produce a precise versioned protocol and deterministic validation checks where applicable; do not use or invent clinical results, do not access PHI, keep release subject to expert review, run the full repository test suite, and create a reviewable draft PR.",
@@ -1703,7 +1703,7 @@
         "updated": 1792349540.6580338
       }
     ],
-    "updatedAt": 1792435514.55518,
+    "updatedAt": 1792435706.027277,
     "visionAuth": {
       "deferred": false,
       "failures": 0,
