@@ -24,6 +24,38 @@
       "project": "Portfolio"
     }
   ],
+  "autonomyLoop": {
+    "actualExecution": {
+      "activeTasks": 1,
+      "gpuAllocations": 1,
+      "queuedTasks": 0
+    },
+    "blockedProjects": [
+      "AI-Server",
+      "AortaPlan",
+      "BCM-Neuromodulation",
+      "CTBone",
+      "Ditto",
+      "EchoNext",
+      "Papers",
+      "TEER",
+      "Trace"
+    ],
+    "completedMilestones": 3,
+    "scheduledReview": {
+      "completedReviews24h": 2,
+      "dailyReviewLimit": 12,
+      "intervalSeconds": 7200,
+      "lastReview": {
+        "endedAt": "2026-10-19T17:16:04.498060Z",
+        "id": "sol-20261019T171550Z-7aeaa5fa",
+        "state": "COMPLETE"
+      },
+      "model": "gpt-5.6-sol",
+      "nextReviewDue": "2026-10-19T19:16:04.498060Z",
+      "reasoningEffort": "medium"
+    }
+  },
   "blockedWork": [
     {
       "backend": "Local",
@@ -399,7 +431,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-19T18:52:42.438226Z",
+  "generatedAt": "2026-10-19T18:57:39.428067Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 54,
@@ -408,7 +440,7 @@
     "lastSuccessfulDailyRun": "2026-10-19T12:01:22.734520Z",
     "missingTaskProvenance": 18,
     "newlyIntegrated24h": 0,
-    "oldestEligibleAgeHours": 6.9,
+    "oldestEligibleAgeHours": 7.0,
     "repositoriesMonitored": 10,
     "scientificReviewBlockers": 3,
     "stableVerification": "No stable update in latest batch",
@@ -1396,7 +1428,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-19T18:52:42.599688Z",
+  "publishedAt": "2026-10-19T18:57:51.014866Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1544,8 +1576,21 @@
     "verifiedMilestones24h": 0,
     "verifiedMilestones2h": 0
   },
-  "semanticHash": "13086c4a43001278ea3c7ddc84b6efbd5827774efea0a0db3703d5184971d75f",
+  "semanticHash": "137a0ae70dbb524c79c0023ad21a843f8de7e4f3cb8423734f54eed4bc60ea84",
   "snapshotVersion": "2.3",
+  "solSupervisor": {
+    "completedReviews24h": 2,
+    "dailyReviewLimit": 12,
+    "intervalSeconds": 7200,
+    "lastReview": {
+      "endedAt": "2026-10-19T17:16:04.498060Z",
+      "id": "sol-20261019T171550Z-7aeaa5fa",
+      "state": "COMPLETE"
+    },
+    "model": "gpt-5.6-sol",
+    "nextReviewDue": "2026-10-19T19:16:04.498060Z",
+    "reasoningEffort": "medium"
+  },
   "sourceEventAt": "2026-10-19T13:56:53.738896Z",
   "system": {
     "activeJobs": 0,
@@ -1560,6 +1605,11 @@
   "visionSummary": {
     "active": 0,
     "activeAgentTasks": 1,
+    "authRetryAt": null,
+    "backlogSources": {
+      "ADMITTED": 1,
+      "BLOCKED": 9
+    },
     "completed": 4,
     "completedTasks": 3,
     "connection": "Available",
@@ -1703,7 +1753,7 @@
         "updated": 1792349540.6580338
       }
     ],
-    "updatedAt": 1792435706.027277,
+    "updatedAt": 1792436007.126781,
     "visionAuth": {
       "deferred": false,
       "failures": 0,
