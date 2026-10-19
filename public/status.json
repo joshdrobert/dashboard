@@ -415,7 +415,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-19T20:33:42.867918Z",
+  "generatedAt": "2026-10-19T20:37:46.498818Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 54,
@@ -1412,7 +1412,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-19T20:33:42.986582Z",
+  "publishedAt": "2026-10-19T20:37:46.668679Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1576,7 +1576,7 @@
     "verifiedMilestones24h": 0,
     "verifiedMilestones2h": 0
   },
-  "semanticHash": "f34fe0cb1ac60ab0e263f171770ee73a076b47456c05d172d15481272ff25a06",
+  "semanticHash": "2906ec062b4b86559a2bfae62049ff499b4a29340baa2e2102b227f4cd562a39",
   "snapshotVersion": "2.3",
   "solSupervisor": {
     "completedReviews24h": 2,
@@ -1605,7 +1605,7 @@
   "visionSummary": {
     "active": 0,
     "activeAgentTasks": 0,
-    "authRetryAt": "2026-10-19T20:36:43.561885Z",
+    "authRetryAt": "2026-10-19T21:06:49.622781Z",
     "backlogSources": {
       "ADMITTED": 1,
       "BLOCKED": 9
@@ -1753,11 +1753,11 @@
         "updated": 1792349540.6580338
       }
     ],
-    "updatedAt": 1792441905.257906,
+    "updatedAt": 1792442209.772937,
     "visionAuth": {
       "deferred": true,
-      "failures": 1,
-      "retryAt": 1792442203.5618849
+      "failures": 2,
+      "retryAt": 1792444009.622781
     }
   }
 }
