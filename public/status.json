@@ -129,14 +129,14 @@
   ],
   "decisionSummary": {
     "approvedDecisions": 0,
-    "lastPhase1": "2026-10-19T01:44:57.066082Z",
-    "lastPhase2": "2026-10-19T01:46:13.592903Z",
+    "lastPhase1": "2026-10-19T03:46:14.503944Z",
+    "lastPhase2": null,
     "model": "Codex",
     "modifiedOrReversed": 0,
     "nextReview": null,
-    "orientationAcknowledgments": 9,
+    "orientationAcknowledgments": null,
     "pendingDecisions": 0,
-    "projectsReviewed": 9,
+    "projectsReviewed": 0,
     "reasoningEffort": "configured",
     "reviewHistory": [
       {
@@ -252,19 +252,19 @@
         "verified": 0
       }
     ],
-    "state": "COMPLETE",
+    "state": "PHASE2_RUNNING",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
   "director": {
     "approvedDecisions": 0,
-    "lastPhase1": "2026-10-19T01:44:57.066082Z",
-    "lastPhase2": "2026-10-19T01:46:13.592903Z",
+    "lastPhase1": "2026-10-19T03:46:14.503944Z",
+    "lastPhase2": null,
     "model": "Codex",
     "modifiedOrReversed": 0,
     "nextReview": null,
-    "orientationAcknowledgments": 9,
+    "orientationAcknowledgments": null,
     "pendingDecisions": 0,
-    "projectsReviewed": 9,
+    "projectsReviewed": 0,
     "reasoningEffort": "configured",
     "reviewHistory": [
       {
@@ -380,10 +380,10 @@
         "verified": 0
       }
     ],
-    "state": "COMPLETE",
+    "state": "PHASE2_RUNNING",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-19T03:45:25.301264Z",
+  "generatedAt": "2026-10-19T03:47:26.233620Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 54,
@@ -1380,7 +1380,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-19T03:45:25.462351Z",
+  "publishedAt": "2026-10-19T03:47:26.423490Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1483,7 +1483,7 @@
     "verifiedMilestones24h": 0,
     "verifiedMilestones2h": 0
   },
-  "semanticHash": "83036cf7bc00b2e05bd1089b85fb0573f63a919d14fee1fbd0f8df7df645c761",
+  "semanticHash": "5e538aede05ab5e065eef8f2fcc7a34de7d61c4f30d2b06f29e766044e242118",
   "snapshotVersion": "2.3",
   "sourceEventAt": "2026-10-19T01:46:13.612543Z",
   "system": {
