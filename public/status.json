@@ -43,15 +43,15 @@
   "blockedWork": [
     {
       "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "718",
-      "parent": "717",
+      "heartbeatFresh": false,
+      "id": "716",
+      "parent": "701",
       "project": "TEER",
       "resource": "Local agent",
-      "startedAt": "2026-10-20T22:47:41.955900Z",
-      "state": "STALE_UNKNOWN",
-      "title": "repair 716 duplicate test module \u00b7 coder",
-      "updatedAt": "2026-10-20T22:47:48.120719Z",
+      "startedAt": "2026-10-20T22:36:39.731188Z",
+      "state": "FAILED",
+      "title": "integration repair 701 import collision v2 \u00b7 coder",
+      "updatedAt": "2026-10-20T22:47:08.149163Z",
       "workerType": "coder"
     },
     {
@@ -415,7 +415,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-20T22:49:10.394074Z",
+  "generatedAt": "2026-10-20T22:49:29.235742Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 60,
@@ -1371,7 +1371,7 @@
       "status": "Failed / retrying"
     },
     {
-      "agentsNow": "Running",
+      "agentsNow": "No agent currently executing",
       "blocker": null,
       "currentObjective": "repair 716 duplicate test module \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
@@ -1379,14 +1379,14 @@
       "id": "teer",
       "lastAccomplishment": "Verified local repair 716 1 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-20T22:47:48.120719Z",
+      "lastMeaningfulActivity": "2026-10-20T22:49:24.684812Z",
       "name": "TEER",
-      "nextTask": null,
+      "nextTask": "repair 716 duplicate test module \u00b7 coder",
       "operationalState": "RUNNABLE",
       "queueDepth": 1,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Running"
+      "status": "Queued"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1412,12 +1412,25 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-20T22:49:10.815313Z",
+  "publishedAt": "2026-10-20T22:49:29.468339Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
   },
   "queuedWork": [
+    {
+      "backend": "Local",
+      "heartbeatFresh": true,
+      "id": "718",
+      "parent": "717",
+      "project": "TEER",
+      "resource": "Local agent",
+      "startedAt": "2026-10-20T22:47:41.955900Z",
+      "state": "QUEUED",
+      "title": "repair 716 duplicate test module \u00b7 coder",
+      "updatedAt": "2026-10-20T22:49:24.684812Z",
+      "workerType": "coder"
+    },
     {
       "backend": "VISION",
       "branch": null,
@@ -1576,7 +1589,7 @@
     "verifiedMilestones24h": 2,
     "verifiedMilestones2h": 2
   },
-  "semanticHash": "c98534ca494ce2a668c72643cc6659a802d9c383b9f518020c9112de1de11f06",
+  "semanticHash": "a101f90ae649faf176b225b2b33de7d75d89e856a351cca62bdd264815c062c9",
   "snapshotVersion": "2.3",
   "solSupervisor": {
     "completedReviews24h": 2,
@@ -1593,7 +1606,7 @@
   },
   "sourceEventAt": "2026-10-20T22:47:47.720382Z",
   "system": {
-    "activeJobs": 1,
+    "activeJobs": 0,
     "autonomy": "DEGRADED",
     "status": "Needs attention"
   },
