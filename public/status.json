@@ -415,16 +415,16 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-20T22:22:39.126010Z",
+  "generatedAt": "2026-10-20T22:28:43.296981Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 59,
     "awaitingTests": 3,
     "branchesAudited": 550,
-    "lastSuccessfulDailyRun": "2026-10-20T12:01:35.449465Z",
+    "lastSuccessfulDailyRun": "2026-10-20T22:27:21.024337Z",
     "missingTaskProvenance": 22,
     "newlyIntegrated24h": 0,
-    "oldestEligibleAgeHours": 10.4,
+    "oldestEligibleAgeHours": 0.0,
     "repositoriesMonitored": 10,
     "scientificReviewBlockers": 3,
     "stableVerification": "No stable update in latest batch",
@@ -432,6 +432,16 @@
     "verifiedPending": 2
   },
   "meaningfulEvents": [
+    {
+      "id": "168477",
+      "message": "Controller recorded git integration complete.",
+      "next": "Continue through the next controller gate.",
+      "project": "AI-Server",
+      "timestamp": "2026-10-20T22:27:21.024657Z",
+      "type": "git_integration_complete",
+      "verification": "Recorded",
+      "whyItMatters": "The authoritative event log changed."
+    },
     {
       "id": "168456",
       "message": "A Codex orientation was delivered.",
@@ -521,16 +531,6 @@
       "type": "orientation_delivered",
       "verification": "Recorded",
       "whyItMatters": "Supervisory direction was updated."
-    },
-    {
-      "id": "168106",
-      "message": "Controller recorded git integration complete.",
-      "next": "Continue through the next controller gate.",
-      "project": "AI-Server",
-      "timestamp": "2026-10-20T12:01:35.449844Z",
-      "type": "git_integration_complete",
-      "verification": "Recorded",
-      "whyItMatters": "The authoritative event log changed."
     },
     {
       "id": "166176",
@@ -1412,7 +1412,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-20T22:22:39.393028Z",
+  "publishedAt": "2026-10-20T22:28:43.475103Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1576,7 +1576,7 @@
     "verifiedMilestones24h": 0,
     "verifiedMilestones2h": 0
   },
-  "semanticHash": "e248093c739763c5d2bcf0171e3af8425c32cd6677b1618b76a891a1d5eaba63",
+  "semanticHash": "0cbdc1e231169c324fc4fc3ef8d5958888809ba534dfaff3f3dc2b927a0a53d2",
   "snapshotVersion": "2.3",
   "solSupervisor": {
     "completedReviews24h": 2,
@@ -1591,7 +1591,7 @@
     "nextReviewDue": "2026-10-19T19:16:04.498060Z",
     "reasoningEffort": "medium"
   },
-  "sourceEventAt": "2026-10-20T22:15:10.136142Z",
+  "sourceEventAt": "2026-10-20T22:27:21.024657Z",
   "system": {
     "activeJobs": 0,
     "autonomy": "DEGRADED",
@@ -1798,7 +1798,7 @@
         "updated": 1792349540.6580338
       }
     ],
-    "updatedAt": 1792534870.445198,
+    "updatedAt": 1792535171.100885,
     "visionAuth": {
       "deferred": true,
       "failures": 16,
