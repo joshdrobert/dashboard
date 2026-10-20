@@ -51,7 +51,7 @@
       "startedAt": "2026-10-20T22:36:39.731188Z",
       "state": "STALE_UNKNOWN",
       "title": "integration repair 701 import collision v2 \u00b7 coder",
-      "updatedAt": "2026-10-20T22:36:46.410656Z",
+      "updatedAt": "2026-10-20T22:39:34.253855Z",
       "workerType": "coder"
     },
     {
@@ -415,7 +415,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-20T22:37:04.202017Z",
+  "generatedAt": "2026-10-20T22:41:05.700158Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 60,
@@ -1379,7 +1379,7 @@
       "id": "teer",
       "lastAccomplishment": "Verified local repair 701 1 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-20T22:36:46.410656Z",
+      "lastMeaningfulActivity": "2026-10-20T22:39:34.253855Z",
       "name": "TEER",
       "nextTask": null,
       "operationalState": "RUNNABLE",
@@ -1412,7 +1412,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-20T22:37:04.397656Z",
+  "publishedAt": "2026-10-20T22:41:05.919306Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1576,7 +1576,7 @@
     "verifiedMilestones24h": 0,
     "verifiedMilestones2h": 0
   },
-  "semanticHash": "1387b18595c87e9186c3a9a39964d8f207ee0dc11b2d65feb748818117a984d5",
+  "semanticHash": "ea9dbab2258e1412a625d4b470770d9dfa94c1ee14781f13aed7cbe75ca48700",
   "snapshotVersion": "2.3",
   "solSupervisor": {
     "completedReviews24h": 2,
