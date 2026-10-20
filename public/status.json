@@ -43,19 +43,6 @@
   "blockedWork": [
     {
       "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "716",
-      "parent": "701",
-      "project": "TEER",
-      "resource": "Local agent",
-      "startedAt": "2026-10-20T22:36:39.731188Z",
-      "state": "STALE_UNKNOWN",
-      "title": "integration repair 701 import collision v2 \u00b7 coder",
-      "updatedAt": "2026-10-20T22:41:49.394215Z",
-      "workerType": "coder"
-    },
-    {
-      "backend": "Local",
       "heartbeatFresh": false,
       "id": "715",
       "parent": null,
@@ -78,6 +65,19 @@
       "state": "FAILED",
       "title": "plan after 707 \u00b7 planner",
       "updatedAt": "2026-10-17T23:03:07.870175Z",
+      "workerType": "planner"
+    },
+    {
+      "backend": "Local",
+      "heartbeatFresh": false,
+      "id": "710",
+      "parent": "706",
+      "project": "TEER",
+      "resource": "Local agent",
+      "startedAt": "2026-10-17T22:12:41.324852Z",
+      "state": "FAILED",
+      "title": "regenerate plan 708 \u00b7 planner",
+      "updatedAt": "2026-10-17T22:12:41.324852Z",
       "workerType": "planner"
     },
     {
@@ -415,7 +415,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-20T22:43:07.887697Z",
+  "generatedAt": "2026-10-20T22:43:20.821731Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 60,
@@ -432,6 +432,16 @@
     "verifiedPending": 1
   },
   "meaningfulEvents": [
+    {
+      "id": "168707",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-20T22:43:19.980623Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
     {
       "id": "168505",
       "message": "Queued integration repair 701 import collision v2 \u00b7 coder.",
@@ -1221,16 +1231,6 @@
       "type": "failure",
       "verification": "Attention",
       "whyItMatters": "The failure remains visible until repaired."
-    },
-    {
-      "id": "162375",
-      "message": "Controller recovery restored an interrupted task boundary.",
-      "next": "Continue through the next controller gate.",
-      "project": "Ditto",
-      "timestamp": "2026-10-17T21:28:39.391985Z",
-      "type": "recovery",
-      "verification": "Recorded",
-      "whyItMatters": "Safe autonomous execution can resume."
     }
   ],
   "portfolioSummary": {
@@ -1371,7 +1371,7 @@
       "status": "Failed / retrying"
     },
     {
-      "agentsNow": "Running",
+      "agentsNow": "No agent currently executing",
       "blocker": null,
       "currentObjective": "integration repair 701 import collision v2 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
@@ -1379,14 +1379,14 @@
       "id": "teer",
       "lastAccomplishment": "Verified local repair 701 1 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-20T22:41:49.394215Z",
+      "lastMeaningfulActivity": "2026-10-20T22:43:19.966124Z",
       "name": "TEER",
-      "nextTask": null,
+      "nextTask": "integration repair 701 import collision v2 \u00b7 coder",
       "operationalState": "RUNNABLE",
       "queueDepth": 1,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Running"
+      "status": "Queued"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1412,12 +1412,25 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-20T22:43:08.263336Z",
+  "publishedAt": "2026-10-20T22:43:21.053841Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
   },
   "queuedWork": [
+    {
+      "backend": "Local",
+      "heartbeatFresh": true,
+      "id": "716",
+      "parent": "701",
+      "project": "TEER",
+      "resource": "Local agent",
+      "startedAt": "2026-10-20T22:36:39.731188Z",
+      "state": "QUEUED",
+      "title": "integration repair 701 import collision v2 \u00b7 coder",
+      "updatedAt": "2026-10-20T22:43:19.966124Z",
+      "workerType": "coder"
+    },
     {
       "backend": "VISION",
       "branch": null,
@@ -1576,7 +1589,7 @@
     "verifiedMilestones24h": 0,
     "verifiedMilestones2h": 0
   },
-  "semanticHash": "a52f2f30577177cb4558f27c6956a3bb44356fc467ca1324b33f545710f7a7ad",
+  "semanticHash": "1596f05d76f37bf87dbed648d88f604e3b664c1f408f8287e482775a877de7e3",
   "snapshotVersion": "2.3",
   "solSupervisor": {
     "completedReviews24h": 2,
@@ -1591,9 +1604,9 @@
     "nextReviewDue": "2026-10-19T19:16:04.498060Z",
     "reasoningEffort": "medium"
   },
-  "sourceEventAt": "2026-10-20T22:36:39.731754Z",
+  "sourceEventAt": "2026-10-20T22:43:19.980623Z",
   "system": {
-    "activeJobs": 1,
+    "activeJobs": 0,
     "autonomy": "DEGRADED",
     "status": "Needs attention"
   },
