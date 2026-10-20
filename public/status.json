@@ -51,7 +51,7 @@
       "startedAt": "2026-10-20T22:36:39.731188Z",
       "state": "STALE_UNKNOWN",
       "title": "integration repair 701 import collision v2 \u00b7 coder",
-      "updatedAt": "2026-10-20T22:39:34.253855Z",
+      "updatedAt": "2026-10-20T22:41:49.394215Z",
       "workerType": "coder"
     },
     {
@@ -415,7 +415,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-20T22:41:05.700158Z",
+  "generatedAt": "2026-10-20T22:43:07.887697Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 60,
@@ -424,7 +424,7 @@
     "lastSuccessfulDailyRun": "2026-10-20T22:35:39.779427Z",
     "missingTaskProvenance": 21,
     "newlyIntegrated24h": 1,
-    "oldestEligibleAgeHours": 0.1,
+    "oldestEligibleAgeHours": 0.2,
     "repositoriesMonitored": 10,
     "scientificReviewBlockers": 3,
     "stableVerification": "Passing for every integrated candidate",
@@ -1379,7 +1379,7 @@
       "id": "teer",
       "lastAccomplishment": "Verified local repair 701 1 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-20T22:39:34.253855Z",
+      "lastMeaningfulActivity": "2026-10-20T22:41:49.394215Z",
       "name": "TEER",
       "nextTask": null,
       "operationalState": "RUNNABLE",
@@ -1412,7 +1412,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-20T22:41:05.919306Z",
+  "publishedAt": "2026-10-20T22:43:08.263336Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1576,7 +1576,7 @@
     "verifiedMilestones24h": 0,
     "verifiedMilestones2h": 0
   },
-  "semanticHash": "ea9dbab2258e1412a625d4b470770d9dfa94c1ee14781f13aed7cbe75ca48700",
+  "semanticHash": "a52f2f30577177cb4558f27c6956a3bb44356fc467ca1324b33f545710f7a7ad",
   "snapshotVersion": "2.3",
   "solSupervisor": {
     "completedReviews24h": 2,
@@ -1798,7 +1798,7 @@
         "updated": 1792349540.6580338
       }
     ],
-    "updatedAt": 1792535772.124439,
+    "updatedAt": 1792536072.597924,
     "visionAuth": {
       "deferred": true,
       "failures": 16,
