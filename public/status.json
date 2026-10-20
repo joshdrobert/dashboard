@@ -415,29 +415,29 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-20T22:28:43.296981Z",
+  "generatedAt": "2026-10-20T22:30:43.547638Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 59,
-    "awaitingTests": 3,
+    "awaitingTests": 5,
     "branchesAudited": 550,
-    "lastSuccessfulDailyRun": "2026-10-20T22:27:21.024337Z",
+    "lastSuccessfulDailyRun": "2026-10-20T22:28:48.897689Z",
     "missingTaskProvenance": 22,
     "newlyIntegrated24h": 0,
-    "oldestEligibleAgeHours": 0.0,
+    "oldestEligibleAgeHours": 0,
     "repositoriesMonitored": 10,
     "scientificReviewBlockers": 3,
     "stableVerification": "No stable update in latest batch",
     "trueMergeConflicts": 0,
-    "verifiedPending": 2
+    "verifiedPending": 0
   },
   "meaningfulEvents": [
     {
-      "id": "168477",
+      "id": "168484",
       "message": "Controller recorded git integration complete.",
       "next": "Continue through the next controller gate.",
       "project": "AI-Server",
-      "timestamp": "2026-10-20T22:27:21.024657Z",
+      "timestamp": "2026-10-20T22:28:48.898174Z",
       "type": "git_integration_complete",
       "verification": "Recorded",
       "whyItMatters": "The authoritative event log changed."
@@ -1412,7 +1412,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-20T22:28:43.475103Z",
+  "publishedAt": "2026-10-20T22:30:43.894338Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1576,7 +1576,7 @@
     "verifiedMilestones24h": 0,
     "verifiedMilestones2h": 0
   },
-  "semanticHash": "0cbdc1e231169c324fc4fc3ef8d5958888809ba534dfaff3f3dc2b927a0a53d2",
+  "semanticHash": "f62b30b84f9ad0078986d6bf49f5d8463bb993428389561891d2184249ee58e6",
   "snapshotVersion": "2.3",
   "solSupervisor": {
     "completedReviews24h": 2,
@@ -1591,7 +1591,7 @@
     "nextReviewDue": "2026-10-19T19:16:04.498060Z",
     "reasoningEffort": "medium"
   },
-  "sourceEventAt": "2026-10-20T22:27:21.024657Z",
+  "sourceEventAt": "2026-10-20T22:28:48.898174Z",
   "system": {
     "activeJobs": 0,
     "autonomy": "DEGRADED",
