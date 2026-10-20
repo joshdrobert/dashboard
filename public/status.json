@@ -415,7 +415,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-20T23:23:48.205718Z",
+  "generatedAt": "2026-10-20T23:29:51.499445Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 60,
@@ -424,7 +424,7 @@
     "lastSuccessfulDailyRun": "2026-10-20T22:35:39.779427Z",
     "missingTaskProvenance": 21,
     "newlyIntegrated24h": 1,
-    "oldestEligibleAgeHours": 0.9,
+    "oldestEligibleAgeHours": 1.0,
     "repositoriesMonitored": 10,
     "scientificReviewBlockers": 3,
     "stableVerification": "Passing for every integrated candidate",
@@ -1412,7 +1412,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-20T23:23:48.389726Z",
+  "publishedAt": "2026-10-20T23:29:51.690280Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1576,7 +1576,7 @@
     "verifiedMilestones24h": 5,
     "verifiedMilestones2h": 5
   },
-  "semanticHash": "01a31b35a75c092c22e906bb2976f0d7baf9f19bb16cca77927d48384814778a",
+  "semanticHash": "4f2a682c635ae55958b7097f66c16457c8c7c382c590c74e96971c7e849868af",
   "snapshotVersion": "2.3",
   "solSupervisor": {
     "completedReviews24h": 2,
@@ -1808,7 +1808,7 @@
         "updated": 1792349540.6580338
       }
     ],
-    "updatedAt": 1792538477.8295171,
+    "updatedAt": 1792538778.550818,
     "visionAuth": {
       "deferred": true,
       "failures": 16,
