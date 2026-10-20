@@ -43,6 +43,19 @@
   "blockedWork": [
     {
       "backend": "Local",
+      "heartbeatFresh": true,
+      "id": "716",
+      "parent": "701",
+      "project": "TEER",
+      "resource": "Local agent",
+      "startedAt": "2026-10-20T22:36:39.731188Z",
+      "state": "STALE_UNKNOWN",
+      "title": "integration repair 701 import collision v2 \u00b7 coder",
+      "updatedAt": "2026-10-20T22:43:32.578696Z",
+      "workerType": "coder"
+    },
+    {
+      "backend": "Local",
       "heartbeatFresh": false,
       "id": "715",
       "parent": null,
@@ -65,19 +78,6 @@
       "state": "FAILED",
       "title": "plan after 707 \u00b7 planner",
       "updatedAt": "2026-10-17T23:03:07.870175Z",
-      "workerType": "planner"
-    },
-    {
-      "backend": "Local",
-      "heartbeatFresh": false,
-      "id": "710",
-      "parent": "706",
-      "project": "TEER",
-      "resource": "Local agent",
-      "startedAt": "2026-10-17T22:12:41.324852Z",
-      "state": "FAILED",
-      "title": "regenerate plan 708 \u00b7 planner",
-      "updatedAt": "2026-10-17T22:12:41.324852Z",
       "workerType": "planner"
     },
     {
@@ -161,14 +161,14 @@
   ],
   "decisionSummary": {
     "approvedDecisions": 0,
-    "lastPhase1": "2026-10-20T22:13:37.230717Z",
-    "lastPhase2": "2026-10-20T22:15:10.126041Z",
+    "lastPhase1": "2026-10-20T22:44:50.157626Z",
+    "lastPhase2": null,
     "model": "Codex",
     "modifiedOrReversed": 0,
     "nextReview": null,
-    "orientationAcknowledgments": 9,
+    "orientationAcknowledgments": null,
     "pendingDecisions": 0,
-    "projectsReviewed": 9,
+    "projectsReviewed": 0,
     "reasoningEffort": "configured",
     "reviewHistory": [
       {
@@ -284,19 +284,19 @@
         "verified": 0
       }
     ],
-    "state": "COMPLETE",
+    "state": "PHASE1_RUNNING",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
   "director": {
     "approvedDecisions": 0,
-    "lastPhase1": "2026-10-20T22:13:37.230717Z",
-    "lastPhase2": "2026-10-20T22:15:10.126041Z",
+    "lastPhase1": "2026-10-20T22:44:50.157626Z",
+    "lastPhase2": null,
     "model": "Codex",
     "modifiedOrReversed": 0,
     "nextReview": null,
-    "orientationAcknowledgments": 9,
+    "orientationAcknowledgments": null,
     "pendingDecisions": 0,
-    "projectsReviewed": 9,
+    "projectsReviewed": 0,
     "reasoningEffort": "configured",
     "reviewHistory": [
       {
@@ -412,10 +412,10 @@
         "verified": 0
       }
     ],
-    "state": "COMPLETE",
+    "state": "PHASE1_RUNNING",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-20T22:43:20.821731Z",
+  "generatedAt": "2026-10-20T22:45:21.746311Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 60,
@@ -1371,7 +1371,7 @@
       "status": "Failed / retrying"
     },
     {
-      "agentsNow": "No agent currently executing",
+      "agentsNow": "Running",
       "blocker": null,
       "currentObjective": "integration repair 701 import collision v2 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
@@ -1379,14 +1379,14 @@
       "id": "teer",
       "lastAccomplishment": "Verified local repair 701 1 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-20T22:43:19.966124Z",
+      "lastMeaningfulActivity": "2026-10-20T22:43:32.578696Z",
       "name": "TEER",
-      "nextTask": "integration repair 701 import collision v2 \u00b7 coder",
+      "nextTask": null,
       "operationalState": "RUNNABLE",
       "queueDepth": 1,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Queued"
+      "status": "Running"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1412,25 +1412,12 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-20T22:43:21.053841Z",
+  "publishedAt": "2026-10-20T22:45:22.006577Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
   },
   "queuedWork": [
-    {
-      "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "716",
-      "parent": "701",
-      "project": "TEER",
-      "resource": "Local agent",
-      "startedAt": "2026-10-20T22:36:39.731188Z",
-      "state": "QUEUED",
-      "title": "integration repair 701 import collision v2 \u00b7 coder",
-      "updatedAt": "2026-10-20T22:43:19.966124Z",
-      "workerType": "coder"
-    },
     {
       "backend": "VISION",
       "branch": null,
@@ -1589,7 +1576,7 @@
     "verifiedMilestones24h": 0,
     "verifiedMilestones2h": 0
   },
-  "semanticHash": "1596f05d76f37bf87dbed648d88f604e3b664c1f408f8287e482775a877de7e3",
+  "semanticHash": "820d780643e5d471cf2a72be13269dc6ffa1e830a6478129fa303c8b461fb6d2",
   "snapshotVersion": "2.3",
   "solSupervisor": {
     "completedReviews24h": 2,
@@ -1606,7 +1593,7 @@
   },
   "sourceEventAt": "2026-10-20T22:43:19.980623Z",
   "system": {
-    "activeJobs": 0,
+    "activeJobs": 1,
     "autonomy": "DEGRADED",
     "status": "Needs attention"
   },
