@@ -4,7 +4,7 @@
   "attentionRequired": [
     {
       "category": "Agents debugging",
-      "message": "3 task(s) are in repair or retry states.",
+      "message": "4 task(s) are in repair or retry states.",
       "project": "Portfolio"
     }
   ],
@@ -44,15 +44,15 @@
     {
       "backend": "Local",
       "heartbeatFresh": false,
-      "id": "716",
-      "parent": "701",
+      "id": "719",
+      "parent": null,
       "project": "TEER",
       "resource": "Local agent",
-      "startedAt": "2026-10-20T22:36:39.731188Z",
+      "startedAt": "2026-10-20T22:49:31.073985Z",
       "state": "FAILED",
-      "title": "integration repair 701 import collision v2 \u00b7 coder",
-      "updatedAt": "2026-10-20T22:47:08.149163Z",
-      "workerType": "coder"
+      "title": "local repair 718 1 \u00b7 planner",
+      "updatedAt": "2026-10-20T22:49:56.102792Z",
+      "workerType": "planner"
     },
     {
       "backend": "Local",
@@ -415,7 +415,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-20T22:49:29.235742Z",
+  "generatedAt": "2026-10-20T22:51:30.633992Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 60,
@@ -432,6 +432,56 @@
     "verifiedPending": 1
   },
   "meaningfulEvents": [
+    {
+      "id": "169020",
+      "message": "Accepted task completed: regenerate plan 719 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-20T22:50:21.976570Z",
+      "type": "task_exit_accepted",
+      "verification": "Verified",
+      "whyItMatters": "The controller recorded the completion."
+    },
+    {
+      "id": "169016",
+      "message": "Verification passed for regenerate plan 719 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-20T22:50:18.869905Z",
+      "type": "accepted",
+      "verification": "Verified",
+      "whyItMatters": "Dependent work may advance."
+    },
+    {
+      "id": "168985",
+      "message": "Queued regenerate plan 719 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-20T22:49:56.141164Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "168984",
+      "message": "Verification passed for local repair 718 1 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-20T22:49:56.102902Z",
+      "type": "accepted",
+      "verification": "Verified",
+      "whyItMatters": "Dependent work may advance."
+    },
+    {
+      "id": "168954",
+      "message": "Queued local repair 718 1 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-20T22:49:31.074012Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
     {
       "id": "168878",
       "message": "Accepted task completed: local repair 716 1 \u00b7 planner.",
@@ -1181,56 +1231,6 @@
       "type": "failure",
       "verification": "Attention",
       "whyItMatters": "The failure remains visible until repaired."
-    },
-    {
-      "id": "163656",
-      "message": "Controller recovery restored an interrupted task boundary.",
-      "next": "Continue through the next controller gate.",
-      "project": "Ditto",
-      "timestamp": "2026-10-17T21:59:27.658551Z",
-      "type": "recovery",
-      "verification": "Recorded",
-      "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "163435",
-      "message": "Controller recovery restored an interrupted task boundary.",
-      "next": "Continue through the next controller gate.",
-      "project": "Ditto",
-      "timestamp": "2026-10-17T21:53:20.527174Z",
-      "type": "recovery",
-      "verification": "Recorded",
-      "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "163377",
-      "message": "Controller recovery restored an interrupted task boundary.",
-      "next": "Continue through the next controller gate.",
-      "project": "EchoNext",
-      "timestamp": "2026-10-17T21:51:20.630573Z",
-      "type": "recovery",
-      "verification": "Recorded",
-      "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "163284",
-      "message": "Controller recovery restored an interrupted task boundary.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-17T21:48:15.418914Z",
-      "type": "recovery",
-      "verification": "Recorded",
-      "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "163283",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-17T21:48:15.418856Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
     }
   ],
   "portfolioSummary": {
@@ -1238,10 +1238,10 @@
     "activeLocalAgents": 0,
     "activeVisionJobs": 0,
     "executingProjects": 0,
-    "projectsNeedingTechnicalAttention": 3,
+    "projectsNeedingTechnicalAttention": 4,
     "registeredProjects": 9,
     "state": "Needs attention",
-    "verifiedCompletions24h": 2
+    "verifiedCompletions24h": 5
   },
   "projects": [
     {
@@ -1373,20 +1373,20 @@
     {
       "agentsNow": "No agent currently executing",
       "blocker": null,
-      "currentObjective": "repair 716 duplicate test module \u00b7 coder",
+      "currentObjective": "local repair 718 1 \u00b7 planner",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "teer",
-      "lastAccomplishment": "Verified local repair 716 1 \u00b7 planner.",
+      "lastAccomplishment": "Verified regenerate plan 719 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-20T22:49:24.684812Z",
+      "lastMeaningfulActivity": "2026-10-20T22:50:18.869748Z",
       "name": "TEER",
-      "nextTask": "repair 716 duplicate test module \u00b7 coder",
+      "nextTask": null,
       "operationalState": "RUNNABLE",
-      "queueDepth": 1,
+      "queueDepth": 0,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Queued"
+      "status": "Failed / retrying"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1412,25 +1412,12 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-20T22:49:29.468339Z",
+  "publishedAt": "2026-10-20T22:51:31.008661Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
   },
   "queuedWork": [
-    {
-      "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "718",
-      "parent": "717",
-      "project": "TEER",
-      "resource": "Local agent",
-      "startedAt": "2026-10-20T22:47:41.955900Z",
-      "state": "QUEUED",
-      "title": "repair 716 duplicate test module \u00b7 coder",
-      "updatedAt": "2026-10-20T22:49:24.684812Z",
-      "workerType": "coder"
-    },
     {
       "backend": "VISION",
       "branch": null,
@@ -1448,6 +1435,13 @@
     }
   ],
   "recentlyCompleted": [
+    {
+      "id": "720",
+      "project": "TEER",
+      "state": "COMPLETED",
+      "title": "regenerate plan 719 \u00b7 planner",
+      "updatedAt": "2026-10-20T22:50:18.869748Z"
+    },
     {
       "id": "717",
       "project": "TEER",
@@ -1526,13 +1520,6 @@
       "updatedAt": "2026-10-17T06:32:43.406022Z"
     },
     {
-      "id": "671",
-      "project": "Ditto",
-      "state": "COMPLETED",
-      "title": "local repair 670 1 \u00b7 planner",
-      "updatedAt": "2026-10-17T06:20:34.904313Z"
-    },
-    {
       "backend": "VISION",
       "branch": "codex/vision-3",
       "heartbeatFresh": null,
@@ -1585,11 +1572,11 @@
     "manuscriptMilestones": 0,
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0,
-    "verifiedMilestones12h": 2,
-    "verifiedMilestones24h": 2,
-    "verifiedMilestones2h": 2
+    "verifiedMilestones12h": 5,
+    "verifiedMilestones24h": 5,
+    "verifiedMilestones2h": 5
   },
-  "semanticHash": "a101f90ae649faf176b225b2b33de7d75d89e856a351cca62bdd264815c062c9",
+  "semanticHash": "5a3b2a6dad4ad6bbc44724aeedc9bc87e31ff0e3419ee458dec0a46f7345445c",
   "snapshotVersion": "2.3",
   "solSupervisor": {
     "completedReviews24h": 2,
@@ -1604,7 +1591,7 @@
     "nextReviewDue": "2026-10-19T19:16:04.498060Z",
     "reasoningEffort": "medium"
   },
-  "sourceEventAt": "2026-10-20T22:47:47.720382Z",
+  "sourceEventAt": "2026-10-20T22:50:21.976570Z",
   "system": {
     "activeJobs": 0,
     "autonomy": "DEGRADED",
@@ -1621,7 +1608,7 @@
     "authRetryAt": "2026-10-21T00:11:09.149626Z",
     "backlogSources": {
       "ADMITTED": 1,
-      "BLOCKED": 18
+      "BLOCKED": 27
     },
     "completed": 4,
     "completedTasks": 3,
@@ -1641,9 +1628,54 @@
   "visionV2": {
     "backlogSources": {
       "ADMITTED": 1,
-      "BLOCKED": 18
+      "BLOCKED": 27
     },
     "blockedMilestones": [
+      {
+        "reason": "orientation is not explicitly executable or has unresolved blockers",
+        "repository": "AI-Server",
+        "source": "orientation:415"
+      },
+      {
+        "reason": "orientation is not explicitly executable or has unresolved blockers",
+        "repository": "AortaPlan",
+        "source": "orientation:416"
+      },
+      {
+        "reason": "orientation is not explicitly executable or has unresolved blockers",
+        "repository": "BCM-Neuromodulation",
+        "source": "orientation:417"
+      },
+      {
+        "reason": "orientation is not explicitly executable or has unresolved blockers",
+        "repository": "CTBone",
+        "source": "orientation:418"
+      },
+      {
+        "reason": "orientation is not explicitly executable or has unresolved blockers",
+        "repository": "Ditto",
+        "source": "orientation:419"
+      },
+      {
+        "reason": "orientation is not explicitly executable or has unresolved blockers",
+        "repository": "EchoNext",
+        "source": "orientation:420"
+      },
+      {
+        "reason": "orientation is not explicitly executable or has unresolved blockers",
+        "repository": "Papers",
+        "source": "orientation:421"
+      },
+      {
+        "reason": "orientation is not explicitly executable or has unresolved blockers",
+        "repository": "TEER",
+        "source": "orientation:422"
+      },
+      {
+        "reason": "orientation is not explicitly executable or has unresolved blockers",
+        "repository": "Trace",
+        "source": "orientation:423"
+      },
       {
         "reason": "orientation is not explicitly executable or has unresolved blockers",
         "repository": "AI-Server",
@@ -1698,41 +1730,6 @@
         "reason": "orientation is not explicitly executable or has unresolved blockers",
         "repository": "AortaPlan",
         "source": "orientation:398"
-      },
-      {
-        "reason": "orientation is not explicitly executable or has unresolved blockers",
-        "repository": "BCM-Neuromodulation",
-        "source": "orientation:399"
-      },
-      {
-        "reason": "orientation is not explicitly executable or has unresolved blockers",
-        "repository": "CTBone",
-        "source": "orientation:400"
-      },
-      {
-        "reason": "orientation is not explicitly executable or has unresolved blockers",
-        "repository": "Ditto",
-        "source": "orientation:401"
-      },
-      {
-        "reason": "orientation is not explicitly executable or has unresolved blockers",
-        "repository": "EchoNext",
-        "source": "orientation:402"
-      },
-      {
-        "reason": "orientation is not explicitly executable or has unresolved blockers",
-        "repository": "Papers",
-        "source": "orientation:403"
-      },
-      {
-        "reason": "orientation is not explicitly executable or has unresolved blockers",
-        "repository": "TEER",
-        "source": "orientation:404"
-      },
-      {
-        "reason": "orientation is not explicitly executable or has unresolved blockers",
-        "repository": "Trace",
-        "source": "orientation:405"
       }
     ],
     "counts": {
@@ -1811,7 +1808,7 @@
         "updated": 1792349540.6580338
       }
     ],
-    "updatedAt": 1792536373.131949,
+    "updatedAt": 1792536673.815657,
     "visionAuth": {
       "deferred": true,
       "failures": 16,
