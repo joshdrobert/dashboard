@@ -49,9 +49,9 @@
       "project": "TEER",
       "resource": "Local agent",
       "startedAt": "2026-10-20T22:36:39.731188Z",
-      "state": "STALE_UNKNOWN",
+      "state": "FAILED",
       "title": "integration repair 701 import collision v2 \u00b7 coder",
-      "updatedAt": "2026-10-20T22:43:32.578696Z",
+      "updatedAt": "2026-10-20T22:47:08.149163Z",
       "workerType": "coder"
     },
     {
@@ -284,7 +284,7 @@
         "verified": 0
       }
     ],
-    "state": "PHASE1_RUNNING",
+    "state": "PHASE2_RUNNING",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
   "director": {
@@ -412,10 +412,10 @@
         "verified": 0
       }
     ],
-    "state": "PHASE1_RUNNING",
+    "state": "PHASE2_RUNNING",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-20T22:45:21.746311Z",
+  "generatedAt": "2026-10-20T22:47:09.434907Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 60,
@@ -1371,7 +1371,7 @@
       "status": "Failed / retrying"
     },
     {
-      "agentsNow": "Running",
+      "agentsNow": "No agent currently executing",
       "blocker": null,
       "currentObjective": "integration repair 701 import collision v2 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
@@ -1379,14 +1379,14 @@
       "id": "teer",
       "lastAccomplishment": "Verified local repair 701 1 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-20T22:43:32.578696Z",
+      "lastMeaningfulActivity": "2026-10-20T22:47:08.149163Z",
       "name": "TEER",
       "nextTask": null,
       "operationalState": "RUNNABLE",
-      "queueDepth": 1,
+      "queueDepth": 0,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Running"
+      "status": "Ready"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1412,7 +1412,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-20T22:45:22.006577Z",
+  "publishedAt": "2026-10-20T22:47:09.705524Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1576,7 +1576,7 @@
     "verifiedMilestones24h": 0,
     "verifiedMilestones2h": 0
   },
-  "semanticHash": "820d780643e5d471cf2a72be13269dc6ffa1e830a6478129fa303c8b461fb6d2",
+  "semanticHash": "7b8b4b759d1c8b8c2823fd3ffd9a5859da48a5b8c2a61f13d74eb36c98d04435",
   "snapshotVersion": "2.3",
   "solSupervisor": {
     "completedReviews24h": 2,
@@ -1593,7 +1593,7 @@
   },
   "sourceEventAt": "2026-10-20T22:43:19.980623Z",
   "system": {
-    "activeJobs": 1,
+    "activeJobs": 0,
     "autonomy": "DEGRADED",
     "status": "Needs attention"
   },
@@ -1798,7 +1798,7 @@
         "updated": 1792349540.6580338
       }
     ],
-    "updatedAt": 1792536072.597924,
+    "updatedAt": 1792536373.131949,
     "visionAuth": {
       "deferred": true,
       "failures": 16,
