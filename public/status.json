@@ -415,15 +415,15 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-20T22:30:43.547638Z",
+  "generatedAt": "2026-10-20T22:33:01.537357Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 59,
     "awaitingTests": 5,
     "branchesAudited": 550,
-    "lastSuccessfulDailyRun": "2026-10-20T22:28:48.897689Z",
+    "lastSuccessfulDailyRun": "2026-10-20T22:31:59.356134Z",
     "missingTaskProvenance": 22,
-    "newlyIntegrated24h": 0,
+    "newlyIntegrated24h": 1,
     "oldestEligibleAgeHours": 0,
     "repositoriesMonitored": 10,
     "scientificReviewBlockers": 3,
@@ -433,11 +433,21 @@
   },
   "meaningfulEvents": [
     {
-      "id": "168484",
+      "id": "168496",
+      "message": "Controller recorded git integrated.",
+      "next": "Continue through the next controller gate.",
+      "project": "AortaPlan",
+      "timestamp": "2026-10-20T22:32:24.986826Z",
+      "type": "git_integrated",
+      "verification": "Recorded",
+      "whyItMatters": "The authoritative event log changed."
+    },
+    {
+      "id": "168495",
       "message": "Controller recorded git integration complete.",
       "next": "Continue through the next controller gate.",
       "project": "AI-Server",
-      "timestamp": "2026-10-20T22:28:48.898174Z",
+      "timestamp": "2026-10-20T22:31:59.356577Z",
       "type": "git_integration_complete",
       "verification": "Recorded",
       "whyItMatters": "The authoritative event log changed."
@@ -1221,16 +1231,6 @@
       "type": "task_exit_accepted",
       "verification": "Verified",
       "whyItMatters": "The controller recorded the completion."
-    },
-    {
-      "id": "162343",
-      "message": "Queued repair 698 import collision \u00b7 coder.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-17T21:26:52.328925Z",
-      "type": "task_queued",
-      "verification": "Recorded",
-      "whyItMatters": "The next unit of work is durable."
     }
   ],
   "portfolioSummary": {
@@ -1412,7 +1412,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-20T22:30:43.894338Z",
+  "publishedAt": "2026-10-20T22:33:01.728233Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1576,7 +1576,7 @@
     "verifiedMilestones24h": 0,
     "verifiedMilestones2h": 0
   },
-  "semanticHash": "f62b30b84f9ad0078986d6bf49f5d8463bb993428389561891d2184249ee58e6",
+  "semanticHash": "20c4c8cd33c9b81afc7fb1dbd782dcfdad2117c7c99d01dbb6c938d07c3478d1",
   "snapshotVersion": "2.3",
   "solSupervisor": {
     "completedReviews24h": 2,
@@ -1591,7 +1591,7 @@
     "nextReviewDue": "2026-10-19T19:16:04.498060Z",
     "reasoningEffort": "medium"
   },
-  "sourceEventAt": "2026-10-20T22:28:48.898174Z",
+  "sourceEventAt": "2026-10-20T22:32:24.986826Z",
   "system": {
     "activeJobs": 0,
     "autonomy": "DEGRADED",
@@ -1798,7 +1798,7 @@
         "updated": 1792349540.6580338
       }
     ],
-    "updatedAt": 1792535171.100885,
+    "updatedAt": 1792535471.487692,
     "visionAuth": {
       "deferred": true,
       "failures": 16,
