@@ -4,7 +4,7 @@
   "attentionRequired": [
     {
       "category": "Agents debugging",
-      "message": "4 task(s) are in repair or retry states.",
+      "message": "3 task(s) are in repair or retry states.",
       "project": "Portfolio"
     }
   ],
@@ -43,6 +43,19 @@
   "blockedWork": [
     {
       "backend": "Local",
+      "heartbeatFresh": true,
+      "id": "716",
+      "parent": "701",
+      "project": "TEER",
+      "resource": "Local agent",
+      "startedAt": "2026-10-20T22:36:39.731188Z",
+      "state": "STALE_UNKNOWN",
+      "title": "integration repair 701 import collision v2 \u00b7 coder",
+      "updatedAt": "2026-10-20T22:36:46.410656Z",
+      "workerType": "coder"
+    },
+    {
+      "backend": "Local",
       "heartbeatFresh": false,
       "id": "715",
       "parent": null,
@@ -65,19 +78,6 @@
       "state": "FAILED",
       "title": "plan after 707 \u00b7 planner",
       "updatedAt": "2026-10-17T23:03:07.870175Z",
-      "workerType": "planner"
-    },
-    {
-      "backend": "Local",
-      "heartbeatFresh": false,
-      "id": "710",
-      "parent": "706",
-      "project": "TEER",
-      "resource": "Local agent",
-      "startedAt": "2026-10-17T22:12:41.324852Z",
-      "state": "FAILED",
-      "title": "regenerate plan 708 \u00b7 planner",
-      "updatedAt": "2026-10-17T22:12:41.324852Z",
       "workerType": "planner"
     },
     {
@@ -415,23 +415,43 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-20T22:33:01.537357Z",
+  "generatedAt": "2026-10-20T22:37:04.202017Z",
   "gitIntegration": {
     "activeProtected": 0,
-    "alreadyIntegrated": 59,
-    "awaitingTests": 5,
+    "alreadyIntegrated": 60,
+    "awaitingTests": 4,
     "branchesAudited": 550,
-    "lastSuccessfulDailyRun": "2026-10-20T22:31:59.356134Z",
-    "missingTaskProvenance": 22,
+    "lastSuccessfulDailyRun": "2026-10-20T22:35:39.779427Z",
+    "missingTaskProvenance": 21,
     "newlyIntegrated24h": 1,
-    "oldestEligibleAgeHours": 0,
+    "oldestEligibleAgeHours": 0.1,
     "repositoriesMonitored": 10,
     "scientificReviewBlockers": 3,
-    "stableVerification": "No stable update in latest batch",
+    "stableVerification": "Passing for every integrated candidate",
     "trueMergeConflicts": 0,
-    "verifiedPending": 0
+    "verifiedPending": 1
   },
   "meaningfulEvents": [
+    {
+      "id": "168505",
+      "message": "Queued integration repair 701 import collision v2 \u00b7 coder.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-20T22:36:39.731754Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "168503",
+      "message": "Controller recorded git integration complete.",
+      "next": "Continue through the next controller gate.",
+      "project": "AI-Server",
+      "timestamp": "2026-10-20T22:35:39.779762Z",
+      "type": "git_integration_complete",
+      "verification": "Recorded",
+      "whyItMatters": "The authoritative event log changed."
+    },
     {
       "id": "168496",
       "message": "Controller recorded git integrated.",
@@ -439,16 +459,6 @@
       "project": "AortaPlan",
       "timestamp": "2026-10-20T22:32:24.986826Z",
       "type": "git_integrated",
-      "verification": "Recorded",
-      "whyItMatters": "The authoritative event log changed."
-    },
-    {
-      "id": "168495",
-      "message": "Controller recorded git integration complete.",
-      "next": "Continue through the next controller gate.",
-      "project": "AI-Server",
-      "timestamp": "2026-10-20T22:31:59.356577Z",
-      "type": "git_integration_complete",
       "verification": "Recorded",
       "whyItMatters": "The authoritative event log changed."
     },
@@ -1221,16 +1231,6 @@
       "type": "recovery",
       "verification": "Recorded",
       "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "162351",
-      "message": "Accepted task completed: local repair 698 1 \u00b7 planner.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-17T21:27:01.664424Z",
-      "type": "task_exit_accepted",
-      "verification": "Verified",
-      "whyItMatters": "The controller recorded the completion."
     }
   ],
   "portfolioSummary": {
@@ -1238,7 +1238,7 @@
     "activeLocalAgents": 0,
     "activeVisionJobs": 0,
     "executingProjects": 0,
-    "projectsNeedingTechnicalAttention": 4,
+    "projectsNeedingTechnicalAttention": 3,
     "registeredProjects": 9,
     "state": "Needs attention",
     "verifiedCompletions24h": 0
@@ -1371,22 +1371,22 @@
       "status": "Failed / retrying"
     },
     {
-      "agentsNow": "No agent currently executing",
+      "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "regenerate plan 708 \u00b7 planner",
+      "currentObjective": "integration repair 701 import collision v2 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "teer",
       "lastAccomplishment": "Verified local repair 701 1 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-17T22:12:41.324852Z",
+      "lastMeaningfulActivity": "2026-10-20T22:36:46.410656Z",
       "name": "TEER",
       "nextTask": null,
       "operationalState": "RUNNABLE",
-      "queueDepth": 0,
+      "queueDepth": 1,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Failed / retrying"
+      "status": "Running"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1412,7 +1412,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-20T22:33:01.728233Z",
+  "publishedAt": "2026-10-20T22:37:04.397656Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1576,7 +1576,7 @@
     "verifiedMilestones24h": 0,
     "verifiedMilestones2h": 0
   },
-  "semanticHash": "20c4c8cd33c9b81afc7fb1dbd782dcfdad2117c7c99d01dbb6c938d07c3478d1",
+  "semanticHash": "1387b18595c87e9186c3a9a39964d8f207ee0dc11b2d65feb748818117a984d5",
   "snapshotVersion": "2.3",
   "solSupervisor": {
     "completedReviews24h": 2,
@@ -1591,9 +1591,9 @@
     "nextReviewDue": "2026-10-19T19:16:04.498060Z",
     "reasoningEffort": "medium"
   },
-  "sourceEventAt": "2026-10-20T22:32:24.986826Z",
+  "sourceEventAt": "2026-10-20T22:36:39.731754Z",
   "system": {
-    "activeJobs": 0,
+    "activeJobs": 1,
     "autonomy": "DEGRADED",
     "status": "Needs attention"
   },
@@ -1798,7 +1798,7 @@
         "updated": 1792349540.6580338
       }
     ],
-    "updatedAt": 1792535471.487692,
+    "updatedAt": 1792535772.124439,
     "visionAuth": {
       "deferred": true,
       "failures": 16,
