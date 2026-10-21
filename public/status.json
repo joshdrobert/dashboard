@@ -43,16 +43,16 @@
   "blockedWork": [
     {
       "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "721",
-      "parent": "701",
+      "heartbeatFresh": false,
+      "id": "719",
+      "parent": null,
       "project": "TEER",
       "resource": "Local agent",
-      "startedAt": "2026-10-21T14:24:43.723377Z",
-      "state": "STALE_UNKNOWN",
-      "title": "teer import collision direct repair v3 \u00b7 coder",
-      "updatedAt": "2026-10-21T14:39:57.387654Z",
-      "workerType": "coder"
+      "startedAt": "2026-10-20T22:49:31.073985Z",
+      "state": "FAILED",
+      "title": "local repair 718 1 \u00b7 planner",
+      "updatedAt": "2026-10-20T22:49:56.102792Z",
+      "workerType": "planner"
     },
     {
       "backend": "Local",
@@ -415,7 +415,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-21T14:39:59.296245Z",
+  "generatedAt": "2026-10-21T14:42:01.316620Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 91,
@@ -433,21 +433,21 @@
   },
   "meaningfulEvents": [
     {
-      "id": "170461",
+      "id": "170645",
       "message": "Controller recovery restored an interrupted task boundary.",
       "next": "Continue through the next controller gate.",
       "project": "TEER",
-      "timestamp": "2026-10-21T14:36:06.128069Z",
+      "timestamp": "2026-10-21T14:40:09.876331Z",
       "type": "recovery",
       "verification": "Recorded",
       "whyItMatters": "Safe autonomous execution can resume."
     },
     {
-      "id": "170460",
+      "id": "170644",
       "message": "A bounded task failed and entered recovery.",
       "next": "Continue through the next controller gate.",
       "project": "TEER",
-      "timestamp": "2026-10-21T14:36:06.128044Z",
+      "timestamp": "2026-10-21T14:40:09.876307Z",
       "type": "failure",
       "verification": "Attention",
       "whyItMatters": "The failure remains visible until repaired."
@@ -1371,7 +1371,7 @@
       "status": "Failed / retrying"
     },
     {
-      "agentsNow": "Running",
+      "agentsNow": "No agent currently executing",
       "blocker": null,
       "currentObjective": "teer import collision direct repair v3 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
@@ -1379,14 +1379,14 @@
       "id": "teer",
       "lastAccomplishment": "Verified regenerate plan 719 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-21T14:39:57.387654Z",
+      "lastMeaningfulActivity": "2026-10-21T14:40:09.876290Z",
       "name": "TEER",
-      "nextTask": null,
+      "nextTask": "teer import collision direct repair v3 \u00b7 coder",
       "operationalState": "RUNNABLE",
       "queueDepth": 1,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Running"
+      "status": "Queued"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1412,12 +1412,25 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-21T14:39:59.557258Z",
+  "publishedAt": "2026-10-21T14:42:01.662748Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
   },
   "queuedWork": [
+    {
+      "backend": "Local",
+      "heartbeatFresh": false,
+      "id": "721",
+      "parent": "701",
+      "project": "TEER",
+      "resource": "Local agent",
+      "startedAt": "2026-10-21T14:24:43.723377Z",
+      "state": "QUEUED",
+      "title": "teer import collision direct repair v3 \u00b7 coder",
+      "updatedAt": "2026-10-21T14:40:09.876290Z",
+      "workerType": "coder"
+    },
     {
       "backend": "VISION",
       "branch": null,
@@ -1576,7 +1589,7 @@
     "verifiedMilestones24h": 5,
     "verifiedMilestones2h": 0
   },
-  "semanticHash": "09e5a7166d3d833f54db8275441295768eaedbeb8ebac1d3cc664989a716fd0a",
+  "semanticHash": "e9d808526d3b5071d0eb7b15877872358ed2c1aec4fc2067ffa3f78c5596621d",
   "snapshotVersion": "2.3",
   "solSupervisor": {
     "completedReviews24h": 2,
@@ -1591,9 +1604,9 @@
     "nextReviewDue": "2026-10-19T19:16:04.498060Z",
     "reasoningEffort": "medium"
   },
-  "sourceEventAt": "2026-10-21T14:36:06.128069Z",
+  "sourceEventAt": "2026-10-21T14:40:09.876331Z",
   "system": {
-    "activeJobs": 1,
+    "activeJobs": 0,
     "autonomy": "DEGRADED",
     "status": "Needs attention"
   },
