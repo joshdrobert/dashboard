@@ -415,7 +415,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-21T04:55:04.740413Z",
+  "generatedAt": "2026-10-21T04:59:05.419960Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 60,
@@ -1412,7 +1412,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-21T04:55:04.929565Z",
+  "publishedAt": "2026-10-21T04:59:05.598259Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1576,7 +1576,7 @@
     "verifiedMilestones24h": 5,
     "verifiedMilestones2h": 0
   },
-  "semanticHash": "4db53e6b101c60437a1bc318b40f32aa3c1439bdcfbd0e88ab02379f26b15be8",
+  "semanticHash": "d76224085ac9072d5b6195652ad9a171a2087ca9148b3e3cd1307aca3f025f1e",
   "snapshotVersion": "2.3",
   "solSupervisor": {
     "completedReviews24h": 2,
@@ -1608,7 +1608,7 @@
     "authRetryAt": "2026-10-21T06:12:07.196777Z",
     "backlogSources": {
       "ADMITTED": 1,
-      "BLOCKED": 45
+      "BLOCKED": 54
     },
     "completed": 4,
     "completedTasks": 3,
@@ -1628,9 +1628,54 @@
   "visionV2": {
     "backlogSources": {
       "ADMITTED": 1,
-      "BLOCKED": 45
+      "BLOCKED": 54
     },
     "blockedMilestones": [
+      {
+        "reason": "orientation is not explicitly executable or has unresolved blockers",
+        "repository": "AI-Server",
+        "source": "orientation:442"
+      },
+      {
+        "reason": "orientation is not explicitly executable or has unresolved blockers",
+        "repository": "AortaPlan",
+        "source": "orientation:443"
+      },
+      {
+        "reason": "orientation is not explicitly executable or has unresolved blockers",
+        "repository": "BCM-Neuromodulation",
+        "source": "orientation:444"
+      },
+      {
+        "reason": "orientation is not explicitly executable or has unresolved blockers",
+        "repository": "CTBone",
+        "source": "orientation:445"
+      },
+      {
+        "reason": "orientation is not explicitly executable or has unresolved blockers",
+        "repository": "Ditto",
+        "source": "orientation:446"
+      },
+      {
+        "reason": "orientation is not explicitly executable or has unresolved blockers",
+        "repository": "EchoNext",
+        "source": "orientation:447"
+      },
+      {
+        "reason": "orientation is not explicitly executable or has unresolved blockers",
+        "repository": "Papers",
+        "source": "orientation:448"
+      },
+      {
+        "reason": "orientation is not explicitly executable or has unresolved blockers",
+        "repository": "TEER",
+        "source": "orientation:449"
+      },
+      {
+        "reason": "orientation is not explicitly executable or has unresolved blockers",
+        "repository": "Trace",
+        "source": "orientation:450"
+      },
       {
         "reason": "orientation is not explicitly executable or has unresolved blockers",
         "repository": "AI-Server",
@@ -1685,51 +1730,6 @@
         "reason": "orientation is not explicitly executable or has unresolved blockers",
         "repository": "AortaPlan",
         "source": "orientation:425"
-      },
-      {
-        "reason": "orientation is not explicitly executable or has unresolved blockers",
-        "repository": "BCM-Neuromodulation",
-        "source": "orientation:426"
-      },
-      {
-        "reason": "orientation is not explicitly executable or has unresolved blockers",
-        "repository": "CTBone",
-        "source": "orientation:427"
-      },
-      {
-        "reason": "orientation is not explicitly executable or has unresolved blockers",
-        "repository": "Ditto",
-        "source": "orientation:428"
-      },
-      {
-        "reason": "orientation is not explicitly executable or has unresolved blockers",
-        "repository": "EchoNext",
-        "source": "orientation:429"
-      },
-      {
-        "reason": "orientation is not explicitly executable or has unresolved blockers",
-        "repository": "Papers",
-        "source": "orientation:430"
-      },
-      {
-        "reason": "orientation is not explicitly executable or has unresolved blockers",
-        "repository": "TEER",
-        "source": "orientation:431"
-      },
-      {
-        "reason": "orientation is not explicitly executable or has unresolved blockers",
-        "repository": "Trace",
-        "source": "orientation:432"
-      },
-      {
-        "reason": "orientation is not explicitly executable or has unresolved blockers",
-        "repository": "AI-Server",
-        "source": "orientation:415"
-      },
-      {
-        "reason": "orientation is not explicitly executable or has unresolved blockers",
-        "repository": "AortaPlan",
-        "source": "orientation:416"
       }
     ],
     "counts": {
@@ -1808,7 +1808,7 @@
         "updated": 1792349540.6580338
       }
     ],
-    "updatedAt": 1792558332.663208,
+    "updatedAt": 1792558633.342645,
     "visionAuth": {
       "deferred": true,
       "failures": 19,
