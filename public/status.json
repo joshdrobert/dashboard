@@ -44,14 +44,14 @@
     {
       "backend": "Local",
       "heartbeatFresh": true,
-      "id": "722",
+      "id": "723",
       "parent": "701",
       "project": "TEER",
       "resource": "Local agent",
-      "startedAt": "2026-10-21T14:43:43.835212Z",
+      "startedAt": "2026-10-21T14:51:22.150959Z",
       "state": "STALE_UNKNOWN",
-      "title": "targeted repair 721 \u00b7 coder",
-      "updatedAt": "2026-10-21T14:50:15.379139Z",
+      "title": "targeted repair 722 \u00b7 coder",
+      "updatedAt": "2026-10-21T14:51:27.950108Z",
       "workerType": "coder"
     },
     {
@@ -415,7 +415,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-21T14:50:34.779819Z",
+  "generatedAt": "2026-10-21T14:52:35.492992Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 91,
@@ -433,6 +433,26 @@
   },
   "meaningfulEvents": [
     {
+      "id": "171147",
+      "message": "Queued targeted repair 722 \u00b7 coder.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-21T14:51:22.150994Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "171144",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-21T14:51:14.256014Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
+    {
       "id": "171041",
       "message": "Controller recovery restored an interrupted task boundary.",
       "next": "Continue through the next controller gate.",
@@ -441,16 +461,6 @@
       "type": "recovery",
       "verification": "Recorded",
       "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "171040",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-21T14:48:35.216485Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
     },
     {
       "id": "170762",
@@ -1221,16 +1231,6 @@
       "type": "accepted",
       "verification": "Verified",
       "whyItMatters": "Dependent work may advance."
-    },
-    {
-      "id": "163937",
-      "message": "Queued local repair 701 1 \u00b7 planner.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-17T22:04:03.218871Z",
-      "type": "task_queued",
-      "verification": "Recorded",
-      "whyItMatters": "The next unit of work is durable."
     }
   ],
   "portfolioSummary": {
@@ -1373,13 +1373,13 @@
     {
       "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "targeted repair 721 \u00b7 coder",
+      "currentObjective": "targeted repair 722 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "teer",
       "lastAccomplishment": "Verified regenerate plan 719 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-21T14:50:15.379139Z",
+      "lastMeaningfulActivity": "2026-10-21T14:51:27.950108Z",
       "name": "TEER",
       "nextTask": null,
       "operationalState": "RUNNABLE",
@@ -1412,7 +1412,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-21T14:50:35.023455Z",
+  "publishedAt": "2026-10-21T14:52:35.861985Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1576,7 +1576,7 @@
     "verifiedMilestones24h": 5,
     "verifiedMilestones2h": 0
   },
-  "semanticHash": "4433323fdffd3ca0524d59d07ebd58e34ddf61a529e9a767fb9fa48c22f69d6e",
+  "semanticHash": "106fd68d35a9ab1842311519eaca4491790ca1faaff65c9959dcc191a2d772a6",
   "snapshotVersion": "2.3",
   "solSupervisor": {
     "completedReviews24h": 2,
@@ -1591,7 +1591,7 @@
     "nextReviewDue": "2026-10-19T19:16:04.498060Z",
     "reasoningEffort": "medium"
   },
-  "sourceEventAt": "2026-10-21T14:48:35.216507Z",
+  "sourceEventAt": "2026-10-21T14:51:22.150994Z",
   "system": {
     "activeJobs": 1,
     "autonomy": "DEGRADED",

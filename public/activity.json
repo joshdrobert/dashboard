@@ -1,15 +1,21 @@
 [
   {
     "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
+    "message": "Queued targeted repair 722 \u00b7 coder.",
     "project": "TEER",
-    "timestamp": "2026-10-21T14:48:35.216507Z"
+    "timestamp": "2026-10-21T14:51:22.150994Z"
   },
   {
     "level": "Attention",
     "message": "A bounded task failed and entered recovery.",
     "project": "TEER",
-    "timestamp": "2026-10-21T14:48:35.216485Z"
+    "timestamp": "2026-10-21T14:51:14.256014Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "TEER",
+    "timestamp": "2026-10-21T14:48:35.216507Z"
   },
   {
     "level": "Recorded",
@@ -472,11 +478,5 @@
     "message": "Verification passed for local repair 692 1 \u00b7 planner.",
     "project": "EchoNext",
     "timestamp": "2026-10-17T22:06:38.912008Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued local repair 701 1 \u00b7 planner.",
-    "project": "TEER",
-    "timestamp": "2026-10-17T22:04:03.218871Z"
   }
 ]
