@@ -415,7 +415,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-21T14:37:02.705419Z",
+  "generatedAt": "2026-10-21T14:37:58.712595Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 91,
@@ -1412,7 +1412,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-21T14:37:03.080660Z",
+  "publishedAt": "2026-10-21T14:37:58.944194Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1420,7 +1420,7 @@
   "queuedWork": [
     {
       "backend": "Local",
-      "heartbeatFresh": true,
+      "heartbeatFresh": false,
       "id": "721",
       "parent": "701",
       "project": "TEER",
@@ -1589,7 +1589,7 @@
     "verifiedMilestones24h": 5,
     "verifiedMilestones2h": 0
   },
-  "semanticHash": "d90a1ffa44eecf8f73582831f5d9a94e24e5d4c44054cc262a4ac9b8c743ae5b",
+  "semanticHash": "8dc77a06c2c1003e087a4be1098d186d36f370ee67590b70f2c6e7fb36bd0c2f",
   "snapshotVersion": "2.3",
   "solSupervisor": {
     "completedReviews24h": 2,
