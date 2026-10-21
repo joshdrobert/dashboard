@@ -51,7 +51,7 @@
       "startedAt": "2026-10-21T14:51:22.150959Z",
       "state": "STALE_UNKNOWN",
       "title": "targeted repair 722 \u00b7 coder",
-      "updatedAt": "2026-10-21T14:59:09.348197Z",
+      "updatedAt": "2026-10-21T15:01:25.321647Z",
       "workerType": "coder"
     },
     {
@@ -161,14 +161,14 @@
   ],
   "decisionSummary": {
     "approvedDecisions": 0,
-    "lastPhase1": "2026-10-21T12:59:59.734145Z",
-    "lastPhase2": "2026-10-21T13:01:51.973717Z",
+    "lastPhase1": "2026-10-21T15:01:52.663858Z",
+    "lastPhase2": null,
     "model": "Codex",
     "modifiedOrReversed": 0,
     "nextReview": null,
-    "orientationAcknowledgments": 9,
+    "orientationAcknowledgments": null,
     "pendingDecisions": 0,
-    "projectsReviewed": 9,
+    "projectsReviewed": 0,
     "reasoningEffort": "configured",
     "reviewHistory": [
       {
@@ -284,19 +284,19 @@
         "verified": 1
       }
     ],
-    "state": "COMPLETE",
+    "state": "PHASE1_RUNNING",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
   "director": {
     "approvedDecisions": 0,
-    "lastPhase1": "2026-10-21T12:59:59.734145Z",
-    "lastPhase2": "2026-10-21T13:01:51.973717Z",
+    "lastPhase1": "2026-10-21T15:01:52.663858Z",
+    "lastPhase2": null,
     "model": "Codex",
     "modifiedOrReversed": 0,
     "nextReview": null,
-    "orientationAcknowledgments": 9,
+    "orientationAcknowledgments": null,
     "pendingDecisions": 0,
-    "projectsReviewed": 9,
+    "projectsReviewed": 0,
     "reasoningEffort": "configured",
     "reviewHistory": [
       {
@@ -412,10 +412,10 @@
         "verified": 1
       }
     ],
-    "state": "COMPLETE",
+    "state": "PHASE1_RUNNING",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-21T15:00:41.550875Z",
+  "generatedAt": "2026-10-21T15:02:43.287502Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 91,
@@ -1379,7 +1379,7 @@
       "id": "teer",
       "lastAccomplishment": "Verified regenerate plan 719 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-21T14:59:09.348197Z",
+      "lastMeaningfulActivity": "2026-10-21T15:01:25.321647Z",
       "name": "TEER",
       "nextTask": null,
       "operationalState": "RUNNABLE",
@@ -1412,7 +1412,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-21T15:00:41.811649Z",
+  "publishedAt": "2026-10-21T15:02:43.648710Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1576,7 +1576,7 @@
     "verifiedMilestones24h": 5,
     "verifiedMilestones2h": 0
   },
-  "semanticHash": "8ecfcf21d1603a7b80c8e18e5c2358c06505b9a0efc16311a098749a70007e6b",
+  "semanticHash": "9990608fe5bb39138fbb68618c04803ed305c1f4702fcf0f0a6c06f01b3cbf9f",
   "snapshotVersion": "2.3",
   "solSupervisor": {
     "completedReviews24h": 2,
