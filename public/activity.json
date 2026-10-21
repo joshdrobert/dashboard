@@ -1,5 +1,29 @@
 [
   {
+    "level": "Verified",
+    "message": "Accepted task completed: local repair 723 1 \u00b7 planner.",
+    "project": "TEER",
+    "timestamp": "2026-10-21T15:05:52.568081Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Queued repair 723 duplicate test file \u00b7 coder.",
+    "project": "TEER",
+    "timestamp": "2026-10-21T15:05:46.907145Z"
+  },
+  {
+    "level": "Verified",
+    "message": "Verification passed for local repair 723 1 \u00b7 planner.",
+    "project": "TEER",
+    "timestamp": "2026-10-21T15:05:46.845059Z"
+  },
+  {
+    "level": "Recorded",
+    "message": "Queued local repair 723 1 \u00b7 planner.",
+    "project": "TEER",
+    "timestamp": "2026-10-21T15:04:48.694543Z"
+  },
+  {
     "level": "Recorded",
     "message": "A Codex orientation was delivered.",
     "project": "Trace",
@@ -454,29 +478,5 @@
     "message": "Verification passed for local repair 701 1 \u00b7 planner.",
     "project": "TEER",
     "timestamp": "2026-10-17T22:08:49.072288Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Accepted task completed: local repair 692 1 \u00b7 planner.",
-    "project": "EchoNext",
-    "timestamp": "2026-10-17T22:07:05.357989Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Controller recovery restored an interrupted task boundary.",
-    "project": "TEER",
-    "timestamp": "2026-10-17T22:06:48.436475Z"
-  },
-  {
-    "level": "Attention",
-    "message": "A bounded task failed and entered recovery.",
-    "project": "TEER",
-    "timestamp": "2026-10-17T22:06:48.436414Z"
-  },
-  {
-    "level": "Recorded",
-    "message": "Queued local repair 692 index fix \u00b7 coder.",
-    "project": "EchoNext",
-    "timestamp": "2026-10-17T22:06:39.509935Z"
   }
 ]

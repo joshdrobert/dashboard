@@ -44,14 +44,14 @@
     {
       "backend": "Local",
       "heartbeatFresh": true,
-      "id": "723",
-      "parent": "701",
+      "id": "725",
+      "parent": "724",
       "project": "TEER",
       "resource": "Local agent",
-      "startedAt": "2026-10-21T14:51:22.150959Z",
-      "state": "FAILED",
-      "title": "targeted repair 722 \u00b7 coder",
-      "updatedAt": "2026-10-21T15:04:37.669665Z",
+      "startedAt": "2026-10-21T15:05:46.907107Z",
+      "state": "STALE_UNKNOWN",
+      "title": "repair 723 duplicate test file \u00b7 coder",
+      "updatedAt": "2026-10-21T15:05:52.651098Z",
       "workerType": "coder"
     },
     {
@@ -176,9 +176,9 @@
         "completedAt": "2026-10-21T15:04:17.352839Z",
         "cycle": "c3d7b061064c",
         "decided": 9,
-        "dispatched": 1,
-        "executed": 1,
-        "failed": 0,
+        "dispatched": 0,
+        "executed": 0,
+        "failed": 1,
         "matched": 0,
         "rejected": 0,
         "reviewed": 9,
@@ -304,9 +304,9 @@
         "completedAt": "2026-10-21T15:04:17.352839Z",
         "cycle": "c3d7b061064c",
         "decided": 9,
-        "dispatched": 1,
-        "executed": 1,
-        "failed": 0,
+        "dispatched": 0,
+        "executed": 0,
+        "failed": 1,
         "matched": 0,
         "rejected": 0,
         "reviewed": 9,
@@ -415,7 +415,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-21T15:04:43.675779Z",
+  "generatedAt": "2026-10-21T15:06:45.682488Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 91,
@@ -432,6 +432,46 @@
     "verifiedPending": 0
   },
   "meaningfulEvents": [
+    {
+      "id": "171715",
+      "message": "Accepted task completed: local repair 723 1 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-21T15:05:52.568081Z",
+      "type": "task_exit_accepted",
+      "verification": "Verified",
+      "whyItMatters": "The controller recorded the completion."
+    },
+    {
+      "id": "171706",
+      "message": "Queued repair 723 duplicate test file \u00b7 coder.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-21T15:05:46.907145Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "171705",
+      "message": "Verification passed for local repair 723 1 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-21T15:05:46.845059Z",
+      "type": "accepted",
+      "verification": "Verified",
+      "whyItMatters": "Dependent work may advance."
+    },
+    {
+      "id": "171656",
+      "message": "Queued local repair 723 1 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-21T15:04:48.694543Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
     {
       "id": "171637",
       "message": "A Codex orientation was delivered.",
@@ -1191,46 +1231,6 @@
       "type": "accepted",
       "verification": "Verified",
       "whyItMatters": "Dependent work may advance."
-    },
-    {
-      "id": "164085",
-      "message": "Accepted task completed: local repair 692 1 \u00b7 planner.",
-      "next": "Continue through the next controller gate.",
-      "project": "EchoNext",
-      "timestamp": "2026-10-17T22:07:05.357989Z",
-      "type": "task_exit_accepted",
-      "verification": "Verified",
-      "whyItMatters": "The controller recorded the completion."
-    },
-    {
-      "id": "164080",
-      "message": "Controller recovery restored an interrupted task boundary.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-17T22:06:48.436475Z",
-      "type": "recovery",
-      "verification": "Recorded",
-      "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "164079",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-17T22:06:48.436414Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
-    },
-    {
-      "id": "164063",
-      "message": "Queued local repair 692 index fix \u00b7 coder.",
-      "next": "Continue through the next controller gate.",
-      "project": "EchoNext",
-      "timestamp": "2026-10-17T22:06:39.509935Z",
-      "type": "task_queued",
-      "verification": "Recorded",
-      "whyItMatters": "The next unit of work is durable."
     }
   ],
   "portfolioSummary": {
@@ -1241,7 +1241,7 @@
     "projectsNeedingTechnicalAttention": 3,
     "registeredProjects": 9,
     "state": "Needs attention",
-    "verifiedCompletions24h": 5
+    "verifiedCompletions24h": 7
   },
   "projects": [
     {
@@ -1371,22 +1371,22 @@
       "status": "Failed / retrying"
     },
     {
-      "agentsNow": "No agent currently executing",
+      "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "targeted repair 722 \u00b7 coder",
+      "currentObjective": "repair 723 duplicate test file \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "teer",
-      "lastAccomplishment": "Verified regenerate plan 719 \u00b7 planner.",
+      "lastAccomplishment": "Verified local repair 723 1 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-21T15:04:37.669665Z",
+      "lastMeaningfulActivity": "2026-10-21T15:05:52.651098Z",
       "name": "TEER",
       "nextTask": null,
       "operationalState": "RUNNABLE",
-      "queueDepth": 0,
+      "queueDepth": 1,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Ready"
+      "status": "Running"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1412,7 +1412,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-21T15:04:43.932848Z",
+  "publishedAt": "2026-10-21T15:06:46.126260Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1435,6 +1435,13 @@
     }
   ],
   "recentlyCompleted": [
+    {
+      "id": "724",
+      "project": "TEER",
+      "state": "COMPLETED",
+      "title": "local repair 723 1 \u00b7 planner",
+      "updatedAt": "2026-10-21T15:05:46.844923Z"
+    },
     {
       "id": "720",
       "project": "TEER",
@@ -1513,13 +1520,6 @@
       "updatedAt": "2026-10-17T06:35:21.151773Z"
     },
     {
-      "id": "672",
-      "project": "Ditto",
-      "state": "COMPLETED",
-      "title": "repair 670 \u00b7 coder",
-      "updatedAt": "2026-10-17T06:32:43.406022Z"
-    },
-    {
       "backend": "VISION",
       "branch": "codex/vision-3",
       "heartbeatFresh": null,
@@ -1572,11 +1572,11 @@
     "manuscriptMilestones": 0,
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0,
-    "verifiedMilestones12h": 0,
-    "verifiedMilestones24h": 5,
-    "verifiedMilestones2h": 0
+    "verifiedMilestones12h": 2,
+    "verifiedMilestones24h": 7,
+    "verifiedMilestones2h": 2
   },
-  "semanticHash": "e36c1955c916275b7cb39bc360302e8c50a585ec46348c894768a3f17d479dc2",
+  "semanticHash": "e5d1d03d0fc51c0e2ec86bb7b2342ed0eb20d209747bdba6ec043e7102f5d488",
   "snapshotVersion": "2.3",
   "solSupervisor": {
     "completedReviews24h": 2,
@@ -1591,9 +1591,9 @@
     "nextReviewDue": "2026-10-19T19:16:04.498060Z",
     "reasoningEffort": "medium"
   },
-  "sourceEventAt": "2026-10-21T15:04:17.369366Z",
+  "sourceEventAt": "2026-10-21T15:05:52.568081Z",
   "system": {
-    "activeJobs": 0,
+    "activeJobs": 1,
     "autonomy": "DEGRADED",
     "status": "Needs attention"
   },
