@@ -51,7 +51,7 @@
       "startedAt": "2026-10-21T15:05:46.907107Z",
       "state": "STALE_UNKNOWN",
       "title": "repair 723 duplicate test file \u00b7 coder",
-      "updatedAt": "2026-10-21T15:08:53.376336Z",
+      "updatedAt": "2026-10-21T15:11:58.701873Z",
       "workerType": "coder"
     },
     {
@@ -415,7 +415,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-21T15:10:50.533815Z",
+  "generatedAt": "2026-10-21T15:12:50.617577Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 91,
@@ -1379,7 +1379,7 @@
       "id": "teer",
       "lastAccomplishment": "Verified local repair 723 1 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-21T15:08:53.376336Z",
+      "lastMeaningfulActivity": "2026-10-21T15:11:58.701873Z",
       "name": "TEER",
       "nextTask": null,
       "operationalState": "RUNNABLE",
@@ -1412,7 +1412,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-21T15:10:50.827724Z",
+  "publishedAt": "2026-10-21T15:12:51.004730Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1576,7 +1576,7 @@
     "verifiedMilestones24h": 7,
     "verifiedMilestones2h": 2
   },
-  "semanticHash": "b545ce36d5ada14b5178a04d86d2e1951e0d485cc7dffcbccd5fd6b8b46077ac",
+  "semanticHash": "ae8478c8ba9be67ad8a2e7278a7ecbc3f904865089cdd325567d1c8a59f271a2",
   "snapshotVersion": "2.3",
   "solSupervisor": {
     "completedReviews24h": 2,
