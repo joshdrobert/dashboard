@@ -1,20 +1,6 @@
 {
   "actionRequired": [],
-  "activeWork": [
-    {
-      "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "722",
-      "parent": "701",
-      "project": "TEER",
-      "resource": "Local agent",
-      "startedAt": "2026-10-21T14:43:43.835212Z",
-      "state": "VERIFYING",
-      "title": "targeted repair 721 \u00b7 coder",
-      "updatedAt": "2026-10-21T14:48:32.231109Z",
-      "workerType": "coder"
-    }
-  ],
+  "activeWork": [],
   "attentionRequired": [
     {
       "category": "Agents debugging",
@@ -57,15 +43,15 @@
   "blockedWork": [
     {
       "backend": "Local",
-      "heartbeatFresh": false,
-      "id": "721",
+      "heartbeatFresh": true,
+      "id": "722",
       "parent": "701",
       "project": "TEER",
       "resource": "Local agent",
-      "startedAt": "2026-10-21T14:24:43.723377Z",
-      "state": "FAILED",
-      "title": "teer import collision direct repair v3 \u00b7 coder",
-      "updatedAt": "2026-10-21T14:43:40.902772Z",
+      "startedAt": "2026-10-21T14:43:43.835212Z",
+      "state": "STALE_UNKNOWN",
+      "title": "targeted repair 721 \u00b7 coder",
+      "updatedAt": "2026-10-21T14:50:15.379139Z",
       "workerType": "coder"
     },
     {
@@ -429,7 +415,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-21T14:48:33.612316Z",
+  "generatedAt": "2026-10-21T14:50:34.779819Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 91,
@@ -447,21 +433,21 @@
   },
   "meaningfulEvents": [
     {
-      "id": "170939",
+      "id": "171041",
       "message": "Controller recovery restored an interrupted task boundary.",
       "next": "Continue through the next controller gate.",
       "project": "TEER",
-      "timestamp": "2026-10-21T14:46:20.541878Z",
+      "timestamp": "2026-10-21T14:48:35.216507Z",
       "type": "recovery",
       "verification": "Recorded",
       "whyItMatters": "Safe autonomous execution can resume."
     },
     {
-      "id": "170938",
+      "id": "171040",
       "message": "A bounded task failed and entered recovery.",
       "next": "Continue through the next controller gate.",
       "project": "TEER",
-      "timestamp": "2026-10-21T14:46:20.541855Z",
+      "timestamp": "2026-10-21T14:48:35.216485Z",
       "type": "failure",
       "verification": "Attention",
       "whyItMatters": "The failure remains visible until repaired."
@@ -1249,9 +1235,9 @@
   ],
   "portfolioSummary": {
     "actionsRequiringUser": 0,
-    "activeLocalAgents": 1,
+    "activeLocalAgents": 0,
     "activeVisionJobs": 0,
-    "executingProjects": 1,
+    "executingProjects": 0,
     "projectsNeedingTechnicalAttention": 3,
     "registeredProjects": 9,
     "state": "Needs attention",
@@ -1385,7 +1371,7 @@
       "status": "Failed / retrying"
     },
     {
-      "agentsNow": "Verifying",
+      "agentsNow": "Running",
       "blocker": null,
       "currentObjective": "targeted repair 721 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
@@ -1393,14 +1379,14 @@
       "id": "teer",
       "lastAccomplishment": "Verified regenerate plan 719 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-21T14:48:32.231109Z",
+      "lastMeaningfulActivity": "2026-10-21T14:50:15.379139Z",
       "name": "TEER",
       "nextTask": null,
       "operationalState": "RUNNABLE",
       "queueDepth": 1,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Verifying"
+      "status": "Running"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1426,7 +1412,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-21T14:48:33.853253Z",
+  "publishedAt": "2026-10-21T14:50:35.023455Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1590,7 +1576,7 @@
     "verifiedMilestones24h": 5,
     "verifiedMilestones2h": 0
   },
-  "semanticHash": "01da04d91d0a35f5a4ad9f32c55e39c851c0000c55acb3d30056136407bfb214",
+  "semanticHash": "4433323fdffd3ca0524d59d07ebd58e34ddf61a529e9a767fb9fa48c22f69d6e",
   "snapshotVersion": "2.3",
   "solSupervisor": {
     "completedReviews24h": 2,
@@ -1605,7 +1591,7 @@
     "nextReviewDue": "2026-10-19T19:16:04.498060Z",
     "reasoningEffort": "medium"
   },
-  "sourceEventAt": "2026-10-21T14:46:20.541878Z",
+  "sourceEventAt": "2026-10-21T14:48:35.216507Z",
   "system": {
     "activeJobs": 1,
     "autonomy": "DEGRADED",
@@ -1822,7 +1808,7 @@
         "updated": 1792349540.6580338
       }
     ],
-    "updatedAt": 1792593829.4398441,
+    "updatedAt": 1792594130.0050108,
     "visionAuth": {
       "deferred": true,
       "failures": 24,
