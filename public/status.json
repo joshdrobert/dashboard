@@ -161,14 +161,14 @@
   ],
   "decisionSummary": {
     "approvedDecisions": 0,
-    "lastPhase1": "2026-10-20T22:44:50.157626Z",
-    "lastPhase2": "2026-10-20T22:47:28.768672Z",
+    "lastPhase1": "2026-10-21T00:47:29.580793Z",
+    "lastPhase2": null,
     "model": "Codex",
     "modifiedOrReversed": 0,
     "nextReview": null,
-    "orientationAcknowledgments": 9,
+    "orientationAcknowledgments": null,
     "pendingDecisions": 0,
-    "projectsReviewed": 9,
+    "projectsReviewed": 0,
     "reasoningEffort": "configured",
     "reviewHistory": [
       {
@@ -284,19 +284,19 @@
         "verified": 0
       }
     ],
-    "state": "COMPLETE",
+    "state": "PHASE1_RUNNING",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
   "director": {
     "approvedDecisions": 0,
-    "lastPhase1": "2026-10-20T22:44:50.157626Z",
-    "lastPhase2": "2026-10-20T22:47:28.768672Z",
+    "lastPhase1": "2026-10-21T00:47:29.580793Z",
+    "lastPhase2": null,
     "model": "Codex",
     "modifiedOrReversed": 0,
     "nextReview": null,
-    "orientationAcknowledgments": 9,
+    "orientationAcknowledgments": null,
     "pendingDecisions": 0,
-    "projectsReviewed": 9,
+    "projectsReviewed": 0,
     "reasoningEffort": "configured",
     "reviewHistory": [
       {
@@ -412,10 +412,10 @@
         "verified": 0
       }
     ],
-    "state": "COMPLETE",
+    "state": "PHASE1_RUNNING",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-21T00:42:34.160124Z",
+  "generatedAt": "2026-10-21T00:48:37.647488Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 60,
@@ -424,7 +424,7 @@
     "lastSuccessfulDailyRun": "2026-10-20T22:35:39.779427Z",
     "missingTaskProvenance": 21,
     "newlyIntegrated24h": 1,
-    "oldestEligibleAgeHours": 2.2,
+    "oldestEligibleAgeHours": 2.3,
     "repositoriesMonitored": 10,
     "scientificReviewBlockers": 3,
     "stableVerification": "Passing for every integrated candidate",
@@ -1412,7 +1412,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-21T00:42:34.360098Z",
+  "publishedAt": "2026-10-21T00:48:37.856118Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1574,9 +1574,9 @@
     "resultsValidated": 0,
     "verifiedMilestones12h": 5,
     "verifiedMilestones24h": 5,
-    "verifiedMilestones2h": 5
+    "verifiedMilestones2h": 3
   },
-  "semanticHash": "7dfcfe23bc91feded55354361fc1b8f00792761ae4567d71bd8fbdd719e2e64f",
+  "semanticHash": "1778cdb22182eab4196d950829bfd9f3ba093b8c384cbe2fd57894469d54b6f5",
   "snapshotVersion": "2.3",
   "solSupervisor": {
     "completedReviews24h": 2,
@@ -1808,7 +1808,7 @@
         "updated": 1792349540.6580338
       }
     ],
-    "updatedAt": 1792543292.261776,
+    "updatedAt": 1792543592.9082701,
     "visionAuth": {
       "deferred": true,
       "failures": 17,
