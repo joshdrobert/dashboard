@@ -51,7 +51,7 @@
       "startedAt": "2026-10-21T14:51:22.150959Z",
       "state": "STALE_UNKNOWN",
       "title": "targeted repair 722 \u00b7 coder",
-      "updatedAt": "2026-10-21T14:51:27.950108Z",
+      "updatedAt": "2026-10-21T14:54:17.262959Z",
       "workerType": "coder"
     },
     {
@@ -415,7 +415,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-21T14:52:35.492992Z",
+  "generatedAt": "2026-10-21T14:54:36.474138Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 91,
@@ -1379,7 +1379,7 @@
       "id": "teer",
       "lastAccomplishment": "Verified regenerate plan 719 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-21T14:51:27.950108Z",
+      "lastMeaningfulActivity": "2026-10-21T14:54:17.262959Z",
       "name": "TEER",
       "nextTask": null,
       "operationalState": "RUNNABLE",
@@ -1412,7 +1412,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-21T14:52:35.861985Z",
+  "publishedAt": "2026-10-21T14:54:36.691907Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1576,7 +1576,7 @@
     "verifiedMilestones24h": 5,
     "verifiedMilestones2h": 0
   },
-  "semanticHash": "106fd68d35a9ab1842311519eaca4491790ca1faaff65c9959dcc191a2d772a6",
+  "semanticHash": "02eb6ea9d3d527fcde0f43911345a026d2a2ddac80329b4822b33992e1a07826",
   "snapshotVersion": "2.3",
   "solSupervisor": {
     "completedReviews24h": 2,
@@ -1808,7 +1808,7 @@
         "updated": 1792349540.6580338
       }
     ],
-    "updatedAt": 1792594130.0050108,
+    "updatedAt": 1792594430.571072,
     "visionAuth": {
       "deferred": true,
       "failures": 24,
