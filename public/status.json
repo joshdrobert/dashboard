@@ -43,16 +43,16 @@
   "blockedWork": [
     {
       "backend": "Local",
-      "heartbeatFresh": false,
-      "id": "719",
-      "parent": null,
+      "heartbeatFresh": true,
+      "id": "721",
+      "parent": "701",
       "project": "TEER",
       "resource": "Local agent",
-      "startedAt": "2026-10-20T22:49:31.073985Z",
-      "state": "FAILED",
-      "title": "local repair 718 1 \u00b7 planner",
-      "updatedAt": "2026-10-20T22:49:56.102792Z",
-      "workerType": "planner"
+      "startedAt": "2026-10-21T14:24:43.723377Z",
+      "state": "STALE_UNKNOWN",
+      "title": "teer import collision direct repair v3 \u00b7 coder",
+      "updatedAt": "2026-10-21T14:32:23.522858Z",
+      "workerType": "coder"
     },
     {
       "backend": "Local",
@@ -415,7 +415,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-21T14:30:49.029984Z",
+  "generatedAt": "2026-10-21T14:32:50.322313Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 91,
@@ -1371,7 +1371,7 @@
       "status": "Failed / retrying"
     },
     {
-      "agentsNow": "No agent currently executing",
+      "agentsNow": "Running",
       "blocker": null,
       "currentObjective": "teer import collision direct repair v3 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
@@ -1379,14 +1379,14 @@
       "id": "teer",
       "lastAccomplishment": "Verified regenerate plan 719 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-21T14:29:22.518358Z",
+      "lastMeaningfulActivity": "2026-10-21T14:32:23.522858Z",
       "name": "TEER",
-      "nextTask": "teer import collision direct repair v3 \u00b7 coder",
+      "nextTask": null,
       "operationalState": "RUNNABLE",
       "queueDepth": 1,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Queued"
+      "status": "Running"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1412,25 +1412,12 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-21T14:30:49.406943Z",
+  "publishedAt": "2026-10-21T14:32:50.577944Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
   },
   "queuedWork": [
-    {
-      "backend": "Local",
-      "heartbeatFresh": false,
-      "id": "721",
-      "parent": "701",
-      "project": "TEER",
-      "resource": "Local agent",
-      "startedAt": "2026-10-21T14:24:43.723377Z",
-      "state": "QUEUED",
-      "title": "teer import collision direct repair v3 \u00b7 coder",
-      "updatedAt": "2026-10-21T14:29:22.518358Z",
-      "workerType": "coder"
-    },
     {
       "backend": "VISION",
       "branch": null,
@@ -1589,7 +1576,7 @@
     "verifiedMilestones24h": 5,
     "verifiedMilestones2h": 0
   },
-  "semanticHash": "cd09fafa096b3fdb3d006e7e72cd86b3c227b15bb942e2868c76f0c48a6bcddb",
+  "semanticHash": "7d86f44a684666af79492e784c68eb1e9f464f4cc9e12e4c65c5ef35588b3895",
   "snapshotVersion": "2.3",
   "solSupervisor": {
     "completedReviews24h": 2,
@@ -1606,7 +1593,7 @@
   },
   "sourceEventAt": "2026-10-21T14:29:22.518398Z",
   "system": {
-    "activeJobs": 0,
+    "activeJobs": 1,
     "autonomy": "DEGRADED",
     "status": "Needs attention"
   },
