@@ -51,7 +51,7 @@
       "startedAt": "2026-10-21T14:24:43.723377Z",
       "state": "STALE_UNKNOWN",
       "title": "teer import collision direct repair v3 \u00b7 coder",
-      "updatedAt": "2026-10-21T14:26:09.332666Z",
+      "updatedAt": "2026-10-21T14:28:09.041061Z",
       "workerType": "coder"
     },
     {
@@ -415,7 +415,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-21T14:26:45.538617Z",
+  "generatedAt": "2026-10-21T14:28:47.911740Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 91,
@@ -1379,7 +1379,7 @@
       "id": "teer",
       "lastAccomplishment": "Verified regenerate plan 719 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-21T14:26:09.332666Z",
+      "lastMeaningfulActivity": "2026-10-21T14:28:09.041061Z",
       "name": "TEER",
       "nextTask": null,
       "operationalState": "RUNNABLE",
@@ -1412,7 +1412,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-21T14:26:45.736676Z",
+  "publishedAt": "2026-10-21T14:28:48.114464Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1576,7 +1576,7 @@
     "verifiedMilestones24h": 5,
     "verifiedMilestones2h": 0
   },
-  "semanticHash": "c25b7e9d0c06ef953135f912518e8a906d78d86cf0a53d82bf34adada0eb97da",
+  "semanticHash": "4698a71a7fbc9afaf73137ec4ea494c1a4d069cdee632a5b74231adbad0b382f",
   "snapshotVersion": "2.3",
   "solSupervisor": {
     "completedReviews24h": 2,
@@ -1808,7 +1808,7 @@
         "updated": 1792349540.6580338
       }
     ],
-    "updatedAt": 1792592626.852113,
+    "updatedAt": 1792592927.360139,
     "visionAuth": {
       "deferred": true,
       "failures": 24,
