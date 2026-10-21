@@ -1,0 +1,8 @@
+{
+  "artifact_sha256": "8edda3392e2c786e5192485dae2721c2e7d6a264b52977c9749b6ef05de12fab",
+  "base_path": "/dashboard/",
+  "built_at": 1792622145.784776,
+  "schema_version": 1,
+  "site": "Dashboard",
+  "source_commit": "0af4b42315eace0db948fbefcffefc4a62d71be0"
+}
