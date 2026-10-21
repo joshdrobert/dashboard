@@ -43,16 +43,16 @@
   "blockedWork": [
     {
       "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "721",
-      "parent": "701",
+      "heartbeatFresh": false,
+      "id": "719",
+      "parent": null,
       "project": "TEER",
       "resource": "Local agent",
-      "startedAt": "2026-10-21T14:24:43.723377Z",
-      "state": "STALE_UNKNOWN",
-      "title": "teer import collision direct repair v3 \u00b7 coder",
-      "updatedAt": "2026-10-21T14:28:09.041061Z",
-      "workerType": "coder"
+      "startedAt": "2026-10-20T22:49:31.073985Z",
+      "state": "FAILED",
+      "title": "local repair 718 1 \u00b7 planner",
+      "updatedAt": "2026-10-20T22:49:56.102792Z",
+      "workerType": "planner"
     },
     {
       "backend": "Local",
@@ -415,7 +415,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-21T14:28:47.911740Z",
+  "generatedAt": "2026-10-21T14:30:49.029984Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 91,
@@ -432,6 +432,26 @@
     "verifiedPending": 0
   },
   "meaningfulEvents": [
+    {
+      "id": "170175",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-21T14:29:22.518398Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "170174",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-21T14:29:22.518376Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
     {
       "id": "169844",
       "message": "Queued teer import collision direct repair v3 \u00b7 coder.",
@@ -1211,26 +1231,6 @@
       "type": "recovery",
       "verification": "Recorded",
       "whyItMatters": "Safe autonomous execution can resume."
-    },
-    {
-      "id": "163772",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "EchoNext",
-      "timestamp": "2026-10-17T22:01:51.951778Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
-    },
-    {
-      "id": "163711",
-      "message": "Queued targeted repair 696 \u00b7 coder.",
-      "next": "Continue through the next controller gate.",
-      "project": "EchoNext",
-      "timestamp": "2026-10-17T22:00:22.736174Z",
-      "type": "task_queued",
-      "verification": "Recorded",
-      "whyItMatters": "The next unit of work is durable."
     }
   ],
   "portfolioSummary": {
@@ -1371,7 +1371,7 @@
       "status": "Failed / retrying"
     },
     {
-      "agentsNow": "Running",
+      "agentsNow": "No agent currently executing",
       "blocker": null,
       "currentObjective": "teer import collision direct repair v3 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
@@ -1379,14 +1379,14 @@
       "id": "teer",
       "lastAccomplishment": "Verified regenerate plan 719 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-21T14:28:09.041061Z",
+      "lastMeaningfulActivity": "2026-10-21T14:29:22.518358Z",
       "name": "TEER",
-      "nextTask": null,
+      "nextTask": "teer import collision direct repair v3 \u00b7 coder",
       "operationalState": "RUNNABLE",
       "queueDepth": 1,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Running"
+      "status": "Queued"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1412,12 +1412,25 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-21T14:28:48.114464Z",
+  "publishedAt": "2026-10-21T14:30:49.406943Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
   },
   "queuedWork": [
+    {
+      "backend": "Local",
+      "heartbeatFresh": false,
+      "id": "721",
+      "parent": "701",
+      "project": "TEER",
+      "resource": "Local agent",
+      "startedAt": "2026-10-21T14:24:43.723377Z",
+      "state": "QUEUED",
+      "title": "teer import collision direct repair v3 \u00b7 coder",
+      "updatedAt": "2026-10-21T14:29:22.518358Z",
+      "workerType": "coder"
+    },
     {
       "backend": "VISION",
       "branch": null,
@@ -1576,7 +1589,7 @@
     "verifiedMilestones24h": 5,
     "verifiedMilestones2h": 0
   },
-  "semanticHash": "4698a71a7fbc9afaf73137ec4ea494c1a4d069cdee632a5b74231adbad0b382f",
+  "semanticHash": "cd09fafa096b3fdb3d006e7e72cd86b3c227b15bb942e2868c76f0c48a6bcddb",
   "snapshotVersion": "2.3",
   "solSupervisor": {
     "completedReviews24h": 2,
@@ -1591,9 +1604,9 @@
     "nextReviewDue": "2026-10-19T19:16:04.498060Z",
     "reasoningEffort": "medium"
   },
-  "sourceEventAt": "2026-10-21T14:24:43.723489Z",
+  "sourceEventAt": "2026-10-21T14:29:22.518398Z",
   "system": {
-    "activeJobs": 1,
+    "activeJobs": 0,
     "autonomy": "DEGRADED",
     "status": "Needs attention"
   },
