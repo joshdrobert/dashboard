@@ -4,7 +4,7 @@
   "attentionRequired": [
     {
       "category": "Agents debugging",
-      "message": "4 task(s) are in repair or retry states.",
+      "message": "3 task(s) are in repair or retry states.",
       "project": "Portfolio"
     }
   ],
@@ -43,16 +43,16 @@
   "blockedWork": [
     {
       "backend": "Local",
-      "heartbeatFresh": false,
-      "id": "719",
-      "parent": null,
+      "heartbeatFresh": true,
+      "id": "721",
+      "parent": "701",
       "project": "TEER",
       "resource": "Local agent",
-      "startedAt": "2026-10-20T22:49:31.073985Z",
-      "state": "FAILED",
-      "title": "local repair 718 1 \u00b7 planner",
-      "updatedAt": "2026-10-20T22:49:56.102792Z",
-      "workerType": "planner"
+      "startedAt": "2026-10-21T14:24:43.723377Z",
+      "state": "STALE_UNKNOWN",
+      "title": "teer import collision direct repair v3 \u00b7 coder",
+      "updatedAt": "2026-10-21T14:26:09.332666Z",
+      "workerType": "coder"
     },
     {
       "backend": "Local",
@@ -415,7 +415,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-21T14:14:23.826225Z",
+  "generatedAt": "2026-10-21T14:26:45.538617Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 91,
@@ -432,6 +432,16 @@
     "verifiedPending": 0
   },
   "meaningfulEvents": [
+    {
+      "id": "169844",
+      "message": "Queued teer import collision direct repair v3 \u00b7 coder.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-21T14:24:43.723489Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
     {
       "id": "169779",
       "message": "A Codex orientation was delivered.",
@@ -1221,16 +1231,6 @@
       "type": "task_queued",
       "verification": "Recorded",
       "whyItMatters": "The next unit of work is durable."
-    },
-    {
-      "id": "163709",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "EchoNext",
-      "timestamp": "2026-10-17T22:00:21.097205Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
     }
   ],
   "portfolioSummary": {
@@ -1238,7 +1238,7 @@
     "activeLocalAgents": 0,
     "activeVisionJobs": 0,
     "executingProjects": 0,
-    "projectsNeedingTechnicalAttention": 4,
+    "projectsNeedingTechnicalAttention": 3,
     "registeredProjects": 9,
     "state": "Needs attention",
     "verifiedCompletions24h": 5
@@ -1371,22 +1371,22 @@
       "status": "Failed / retrying"
     },
     {
-      "agentsNow": "No agent currently executing",
+      "agentsNow": "Running",
       "blocker": null,
-      "currentObjective": "local repair 718 1 \u00b7 planner",
+      "currentObjective": "teer import collision direct repair v3 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "teer",
       "lastAccomplishment": "Verified regenerate plan 719 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-20T22:50:18.869748Z",
+      "lastMeaningfulActivity": "2026-10-21T14:26:09.332666Z",
       "name": "TEER",
       "nextTask": null,
       "operationalState": "RUNNABLE",
-      "queueDepth": 0,
+      "queueDepth": 1,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Failed / retrying"
+      "status": "Running"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1412,7 +1412,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-21T14:14:24.019587Z",
+  "publishedAt": "2026-10-21T14:26:45.736676Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1576,7 +1576,7 @@
     "verifiedMilestones24h": 5,
     "verifiedMilestones2h": 0
   },
-  "semanticHash": "744be3a7b7b5d11fcfea91a6aae1d39d3db09ee586abd0b3515abb12308becda",
+  "semanticHash": "c25b7e9d0c06ef953135f912518e8a906d78d86cf0a53d82bf34adada0eb97da",
   "snapshotVersion": "2.3",
   "solSupervisor": {
     "completedReviews24h": 2,
@@ -1591,9 +1591,9 @@
     "nextReviewDue": "2026-10-19T19:16:04.498060Z",
     "reasoningEffort": "medium"
   },
-  "sourceEventAt": "2026-10-21T13:01:51.994320Z",
+  "sourceEventAt": "2026-10-21T14:24:43.723489Z",
   "system": {
-    "activeJobs": 0,
+    "activeJobs": 1,
     "autonomy": "DEGRADED",
     "status": "Needs attention"
   },
@@ -1808,7 +1808,7 @@
         "updated": 1792349540.6580338
       }
     ],
-    "updatedAt": 1792592025.533421,
+    "updatedAt": 1792592626.852113,
     "visionAuth": {
       "deferred": true,
       "failures": 24,
