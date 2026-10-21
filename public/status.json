@@ -1,6 +1,20 @@
 {
   "actionRequired": [],
-  "activeWork": [],
+  "activeWork": [
+    {
+      "backend": "Local",
+      "heartbeatFresh": true,
+      "id": "722",
+      "parent": "701",
+      "project": "TEER",
+      "resource": "Local agent",
+      "startedAt": "2026-10-21T14:43:43.835212Z",
+      "state": "VERIFYING",
+      "title": "targeted repair 721 \u00b7 coder",
+      "updatedAt": "2026-10-21T14:48:32.231109Z",
+      "workerType": "coder"
+    }
+  ],
   "attentionRequired": [
     {
       "category": "Agents debugging",
@@ -415,7 +429,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-21T14:46:33.305858Z",
+  "generatedAt": "2026-10-21T14:48:33.612316Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 91,
@@ -1235,9 +1249,9 @@
   ],
   "portfolioSummary": {
     "actionsRequiringUser": 0,
-    "activeLocalAgents": 0,
+    "activeLocalAgents": 1,
     "activeVisionJobs": 0,
-    "executingProjects": 0,
+    "executingProjects": 1,
     "projectsNeedingTechnicalAttention": 3,
     "registeredProjects": 9,
     "state": "Needs attention",
@@ -1371,7 +1385,7 @@
       "status": "Failed / retrying"
     },
     {
-      "agentsNow": "No agent currently executing",
+      "agentsNow": "Verifying",
       "blocker": null,
       "currentObjective": "targeted repair 721 \u00b7 coder",
       "deliverable": "A verified bounded project artifact.",
@@ -1379,14 +1393,14 @@
       "id": "teer",
       "lastAccomplishment": "Verified regenerate plan 719 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-21T14:46:20.541839Z",
+      "lastMeaningfulActivity": "2026-10-21T14:48:32.231109Z",
       "name": "TEER",
-      "nextTask": "targeted repair 721 \u00b7 coder",
+      "nextTask": null,
       "operationalState": "RUNNABLE",
       "queueDepth": 1,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Queued"
+      "status": "Verifying"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1412,25 +1426,12 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-21T14:46:33.491234Z",
+  "publishedAt": "2026-10-21T14:48:33.853253Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
   },
   "queuedWork": [
-    {
-      "backend": "Local",
-      "heartbeatFresh": true,
-      "id": "722",
-      "parent": "701",
-      "project": "TEER",
-      "resource": "Local agent",
-      "startedAt": "2026-10-21T14:43:43.835212Z",
-      "state": "QUEUED",
-      "title": "targeted repair 721 \u00b7 coder",
-      "updatedAt": "2026-10-21T14:46:20.541839Z",
-      "workerType": "coder"
-    },
     {
       "backend": "VISION",
       "branch": null,
@@ -1589,7 +1590,7 @@
     "verifiedMilestones24h": 5,
     "verifiedMilestones2h": 0
   },
-  "semanticHash": "94c0d6610d4c1801674eb9b3799cfc2b4ba5c6118e07690319cd7e3fb760f12e",
+  "semanticHash": "01da04d91d0a35f5a4ad9f32c55e39c851c0000c55acb3d30056136407bfb214",
   "snapshotVersion": "2.3",
   "solSupervisor": {
     "completedReviews24h": 2,
@@ -1606,7 +1607,7 @@
   },
   "sourceEventAt": "2026-10-21T14:46:20.541878Z",
   "system": {
-    "activeJobs": 0,
+    "activeJobs": 1,
     "autonomy": "DEGRADED",
     "status": "Needs attention"
   },
