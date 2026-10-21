@@ -1,5 +1,17 @@
 [
   {
+    "level": "Recorded",
+    "message": "Controller recovery restored an interrupted task boundary.",
+    "project": "TEER",
+    "timestamp": "2026-10-21T15:08:13.138056Z"
+  },
+  {
+    "level": "Attention",
+    "message": "A bounded task failed and entered recovery.",
+    "project": "TEER",
+    "timestamp": "2026-10-21T15:08:13.138034Z"
+  },
+  {
     "level": "Verified",
     "message": "Accepted task completed: local repair 723 1 \u00b7 planner.",
     "project": "TEER",
@@ -466,17 +478,5 @@
     "message": "Verification passed for repair 698 import collision \u00b7 coder.",
     "project": "TEER",
     "timestamp": "2026-10-17T22:09:06.651589Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Accepted task completed: local repair 701 1 \u00b7 planner.",
-    "project": "TEER",
-    "timestamp": "2026-10-17T22:09:01.661847Z"
-  },
-  {
-    "level": "Verified",
-    "message": "Verification passed for local repair 701 1 \u00b7 planner.",
-    "project": "TEER",
-    "timestamp": "2026-10-17T22:08:49.072288Z"
   }
 ]

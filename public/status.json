@@ -51,7 +51,7 @@
       "startedAt": "2026-10-21T15:05:46.907107Z",
       "state": "STALE_UNKNOWN",
       "title": "repair 723 duplicate test file \u00b7 coder",
-      "updatedAt": "2026-10-21T15:05:52.651098Z",
+      "updatedAt": "2026-10-21T15:08:49.993676Z",
       "workerType": "coder"
     },
     {
@@ -415,7 +415,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-21T15:06:45.682488Z",
+  "generatedAt": "2026-10-21T15:08:50.015662Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 91,
@@ -432,6 +432,26 @@
     "verifiedPending": 0
   },
   "meaningfulEvents": [
+    {
+      "id": "171797",
+      "message": "Controller recovery restored an interrupted task boundary.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-21T15:08:13.138056Z",
+      "type": "recovery",
+      "verification": "Recorded",
+      "whyItMatters": "Safe autonomous execution can resume."
+    },
+    {
+      "id": "171796",
+      "message": "A bounded task failed and entered recovery.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-21T15:08:13.138034Z",
+      "type": "failure",
+      "verification": "Attention",
+      "whyItMatters": "The failure remains visible until repaired."
+    },
     {
       "id": "171715",
       "message": "Accepted task completed: local repair 723 1 \u00b7 planner.",
@@ -1211,26 +1231,6 @@
       "type": "accepted",
       "verification": "Verified",
       "whyItMatters": "Dependent work may advance."
-    },
-    {
-      "id": "164204",
-      "message": "Accepted task completed: local repair 701 1 \u00b7 planner.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-17T22:09:01.661847Z",
-      "type": "task_exit_accepted",
-      "verification": "Verified",
-      "whyItMatters": "The controller recorded the completion."
-    },
-    {
-      "id": "164185",
-      "message": "Verification passed for local repair 701 1 \u00b7 planner.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-17T22:08:49.072288Z",
-      "type": "accepted",
-      "verification": "Verified",
-      "whyItMatters": "Dependent work may advance."
     }
   ],
   "portfolioSummary": {
@@ -1379,7 +1379,7 @@
       "id": "teer",
       "lastAccomplishment": "Verified local repair 723 1 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-21T15:05:52.651098Z",
+      "lastMeaningfulActivity": "2026-10-21T15:08:49.993676Z",
       "name": "TEER",
       "nextTask": null,
       "operationalState": "RUNNABLE",
@@ -1412,7 +1412,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-21T15:06:46.126260Z",
+  "publishedAt": "2026-10-21T15:08:50.202068Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1576,7 +1576,7 @@
     "verifiedMilestones24h": 7,
     "verifiedMilestones2h": 2
   },
-  "semanticHash": "e5d1d03d0fc51c0e2ec86bb7b2342ed0eb20d209747bdba6ec043e7102f5d488",
+  "semanticHash": "974eeb363c68b368e5b65e0a6c7c1d5a885ce5e368e475bee421e548c20c13b4",
   "snapshotVersion": "2.3",
   "solSupervisor": {
     "completedReviews24h": 2,
@@ -1591,7 +1591,7 @@
     "nextReviewDue": "2026-10-19T19:16:04.498060Z",
     "reasoningEffort": "medium"
   },
-  "sourceEventAt": "2026-10-21T15:05:52.568081Z",
+  "sourceEventAt": "2026-10-21T15:08:13.138056Z",
   "system": {
     "activeJobs": 1,
     "autonomy": "DEGRADED",
