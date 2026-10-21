@@ -4,7 +4,7 @@
   "attentionRequired": [
     {
       "category": "Agents debugging",
-      "message": "3 task(s) are in repair or retry states.",
+      "message": "4 task(s) are in repair or retry states.",
       "project": "Portfolio"
     }
   ],
@@ -44,15 +44,15 @@
     {
       "backend": "Local",
       "heartbeatFresh": true,
-      "id": "725",
-      "parent": "724",
+      "id": "726",
+      "parent": null,
       "project": "TEER",
       "resource": "Local agent",
-      "startedAt": "2026-10-21T15:05:46.907107Z",
-      "state": "STALE_UNKNOWN",
-      "title": "repair 723 duplicate test file \u00b7 coder",
-      "updatedAt": "2026-10-21T15:20:48.899108Z",
-      "workerType": "coder"
+      "startedAt": "2026-10-21T15:21:47.180359Z",
+      "state": "FAILED",
+      "title": "local repair 725 1 \u00b7 planner",
+      "updatedAt": "2026-10-21T15:22:12.716585Z",
+      "workerType": "planner"
     },
     {
       "backend": "Local",
@@ -415,7 +415,7 @@
     "state": "COMPLETE",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-21T15:20:55.299740Z",
+  "generatedAt": "2026-10-21T15:22:55.509796Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 91,
@@ -432,6 +432,56 @@
     "verifiedPending": 0
   },
   "meaningfulEvents": [
+    {
+      "id": "172333",
+      "message": "Accepted task completed: regenerate plan 726 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-21T15:22:44.974654Z",
+      "type": "task_exit_accepted",
+      "verification": "Verified",
+      "whyItMatters": "The controller recorded the completion."
+    },
+    {
+      "id": "172329",
+      "message": "Verification passed for regenerate plan 726 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-21T15:22:40.095060Z",
+      "type": "accepted",
+      "verification": "Verified",
+      "whyItMatters": "Dependent work may advance."
+    },
+    {
+      "id": "172294",
+      "message": "Queued regenerate plan 726 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-21T15:22:13.141237Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
+    {
+      "id": "172293",
+      "message": "Verification passed for local repair 725 1 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-21T15:22:12.716724Z",
+      "type": "accepted",
+      "verification": "Verified",
+      "whyItMatters": "Dependent work may advance."
+    },
+    {
+      "id": "172259",
+      "message": "Queued local repair 725 1 \u00b7 planner.",
+      "next": "Continue through the next controller gate.",
+      "project": "TEER",
+      "timestamp": "2026-10-21T15:21:47.180386Z",
+      "type": "task_queued",
+      "verification": "Recorded",
+      "whyItMatters": "The next unit of work is durable."
+    },
     {
       "id": "171797",
       "message": "Controller recovery restored an interrupted task boundary.",
@@ -1181,56 +1231,6 @@
       "type": "accepted",
       "verification": "Verified",
       "whyItMatters": "Dependent work may advance."
-    },
-    {
-      "id": "164328",
-      "message": "Queued targeted repair 702 \u00b7 coder.",
-      "next": "Continue through the next controller gate.",
-      "project": "Ditto",
-      "timestamp": "2026-10-17T22:10:58.268294Z",
-      "type": "task_queued",
-      "verification": "Recorded",
-      "whyItMatters": "The next unit of work is durable."
-    },
-    {
-      "id": "164316",
-      "message": "A bounded task failed and entered recovery.",
-      "next": "Continue through the next controller gate.",
-      "project": "Ditto",
-      "timestamp": "2026-10-17T22:10:53.268547Z",
-      "type": "failure",
-      "verification": "Attention",
-      "whyItMatters": "The failure remains visible until repaired."
-    },
-    {
-      "id": "164227",
-      "message": "Accepted task completed: repair 698 import collision \u00b7 coder.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-17T22:09:16.195547Z",
-      "type": "task_exit_accepted",
-      "verification": "Verified",
-      "whyItMatters": "The controller recorded the completion."
-    },
-    {
-      "id": "164214",
-      "message": "Queued plan after 701 \u00b7 planner.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-17T22:09:07.942355Z",
-      "type": "task_queued",
-      "verification": "Recorded",
-      "whyItMatters": "The next unit of work is durable."
-    },
-    {
-      "id": "164209",
-      "message": "Verification passed for repair 698 import collision \u00b7 coder.",
-      "next": "Continue through the next controller gate.",
-      "project": "TEER",
-      "timestamp": "2026-10-17T22:09:06.651589Z",
-      "type": "accepted",
-      "verification": "Verified",
-      "whyItMatters": "Dependent work may advance."
     }
   ],
   "portfolioSummary": {
@@ -1238,10 +1238,10 @@
     "activeLocalAgents": 0,
     "activeVisionJobs": 0,
     "executingProjects": 0,
-    "projectsNeedingTechnicalAttention": 3,
+    "projectsNeedingTechnicalAttention": 4,
     "registeredProjects": 9,
     "state": "Needs attention",
-    "verifiedCompletions24h": 7
+    "verifiedCompletions24h": 10
   },
   "projects": [
     {
@@ -1371,22 +1371,22 @@
       "status": "Failed / retrying"
     },
     {
-      "agentsNow": "Running",
+      "agentsNow": "No agent currently executing",
       "blocker": null,
-      "currentObjective": "repair 723 duplicate test file \u00b7 coder",
+      "currentObjective": "local repair 725 1 \u00b7 planner",
       "deliverable": "A verified bounded project artifact.",
       "goal": "Advance the next verified research milestone.",
       "id": "teer",
-      "lastAccomplishment": "Verified local repair 723 1 \u00b7 planner.",
+      "lastAccomplishment": "Verified regenerate plan 726 \u00b7 planner.",
       "lastCodexReview": null,
-      "lastMeaningfulActivity": "2026-10-21T15:20:48.899108Z",
+      "lastMeaningfulActivity": "2026-10-21T15:22:40.094936Z",
       "name": "TEER",
       "nextTask": null,
       "operationalState": "RUNNABLE",
-      "queueDepth": 1,
+      "queueDepth": 0,
       "readyForHuman": false,
       "researchStage": "Active research program",
-      "status": "Running"
+      "status": "Failed / retrying"
     },
     {
       "agentsNow": "No agent currently executing",
@@ -1412,7 +1412,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-21T15:20:55.532618Z",
+  "publishedAt": "2026-10-21T15:22:55.686464Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1435,6 +1435,13 @@
     }
   ],
   "recentlyCompleted": [
+    {
+      "id": "727",
+      "project": "TEER",
+      "state": "COMPLETED",
+      "title": "regenerate plan 726 \u00b7 planner",
+      "updatedAt": "2026-10-21T15:22:40.094936Z"
+    },
     {
       "id": "724",
       "project": "TEER",
@@ -1513,13 +1520,6 @@
       "updatedAt": "2026-10-17T06:36:50.723465Z"
     },
     {
-      "id": "674",
-      "project": "Ditto",
-      "state": "COMPLETED",
-      "title": "add error coverage tests \u00b7 coder",
-      "updatedAt": "2026-10-17T06:35:21.151773Z"
-    },
-    {
       "backend": "VISION",
       "branch": "codex/vision-3",
       "heartbeatFresh": null,
@@ -1572,11 +1572,11 @@
     "manuscriptMilestones": 0,
     "note": "Task completion is not counted as scientific completion.",
     "resultsValidated": 0,
-    "verifiedMilestones12h": 2,
-    "verifiedMilestones24h": 7,
-    "verifiedMilestones2h": 2
+    "verifiedMilestones12h": 5,
+    "verifiedMilestones24h": 10,
+    "verifiedMilestones2h": 5
   },
-  "semanticHash": "9b094a1717f4ca77acafdaf47bdf816e43de3157df611f711502e2ec6c786cec",
+  "semanticHash": "6e2bbfe12fd26dd3693f4b190a7fd7934f9bace1dd424362f8da4345df6bf724",
   "snapshotVersion": "2.3",
   "solSupervisor": {
     "completedReviews24h": 2,
@@ -1591,9 +1591,9 @@
     "nextReviewDue": "2026-10-19T19:16:04.498060Z",
     "reasoningEffort": "medium"
   },
-  "sourceEventAt": "2026-10-21T15:08:13.138056Z",
+  "sourceEventAt": "2026-10-21T15:22:44.974654Z",
   "system": {
-    "activeJobs": 1,
+    "activeJobs": 0,
     "autonomy": "DEGRADED",
     "status": "Needs attention"
   },
