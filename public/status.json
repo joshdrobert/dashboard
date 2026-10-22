@@ -284,7 +284,7 @@
         "verified": 0
       }
     ],
-    "state": "PHASE1_RUNNING",
+    "state": "PHASE2_RUNNING",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
   "director": {
@@ -412,10 +412,10 @@
         "verified": 0
       }
     ],
-    "state": "PHASE1_RUNNING",
+    "state": "PHASE2_RUNNING",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-22T13:29:22.627856Z",
+  "generatedAt": "2026-10-22T13:31:24.899443Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 94,
@@ -1222,7 +1222,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-22T13:29:22.921883Z",
+  "publishedAt": "2026-10-22T13:31:25.251724Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1386,7 +1386,7 @@
     "verifiedMilestones24h": 5,
     "verifiedMilestones2h": 0
   },
-  "semanticHash": "47e2cfecd89867d467d22b738203fc29e03c6f49b426313a438d16e545dcb0a1",
+  "semanticHash": "87be37ad12d0d85bb45dbcd0d07558c7ef5ba798dd2e733bd72f8f2fe70651a3",
   "snapshotVersion": "2.3",
   "solSupervisor": {
     "completedReviews24h": 2,
