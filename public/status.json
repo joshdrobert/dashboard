@@ -161,14 +161,14 @@
   ],
   "decisionSummary": {
     "approvedDecisions": 0,
-    "lastPhase1": "2026-10-22T07:23:17.989454Z",
-    "lastPhase2": "2026-10-22T07:25:08.774464Z",
+    "lastPhase1": "2026-10-22T09:25:09.601617Z",
+    "lastPhase2": null,
     "model": "Codex",
     "modifiedOrReversed": 0,
     "nextReview": null,
-    "orientationAcknowledgments": 9,
+    "orientationAcknowledgments": null,
     "pendingDecisions": 0,
-    "projectsReviewed": 9,
+    "projectsReviewed": 0,
     "reasoningEffort": "configured",
     "reviewHistory": [
       {
@@ -284,19 +284,19 @@
         "verified": 0
       }
     ],
-    "state": "COMPLETE",
+    "state": "PHASE1_RUNNING",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
   "director": {
     "approvedDecisions": 0,
-    "lastPhase1": "2026-10-22T07:23:17.989454Z",
-    "lastPhase2": "2026-10-22T07:25:08.774464Z",
+    "lastPhase1": "2026-10-22T09:25:09.601617Z",
+    "lastPhase2": null,
     "model": "Codex",
     "modifiedOrReversed": 0,
     "nextReview": null,
-    "orientationAcknowledgments": 9,
+    "orientationAcknowledgments": null,
     "pendingDecisions": 0,
-    "projectsReviewed": 9,
+    "projectsReviewed": 0,
     "reasoningEffort": "configured",
     "reviewHistory": [
       {
@@ -412,10 +412,10 @@
         "verified": 0
       }
     ],
-    "state": "COMPLETE",
+    "state": "PHASE1_RUNNING",
     "summary": "Review acknowledgment is tracked separately from dispatch and verification."
   },
-  "generatedAt": "2026-10-22T08:17:27.427921Z",
+  "generatedAt": "2026-10-22T09:26:20.168535Z",
   "gitIntegration": {
     "activeProtected": 0,
     "alreadyIntegrated": 91,
@@ -1282,7 +1282,7 @@
     "lastPublishedCommit": null,
     "state": "Publishing"
   },
-  "publishedAt": "2026-10-22T08:17:27.615221Z",
+  "publishedAt": "2026-10-22T09:26:20.417293Z",
   "queueHealth": {
     "orphanedCount": 0,
     "orphanedRoadmaps": []
@@ -1446,7 +1446,7 @@
     "verifiedMilestones24h": 5,
     "verifiedMilestones2h": 0
   },
-  "semanticHash": "f3ae9f54101e7d7095093d7a1b19cf02614bd99eb2424a4878c2300b3d39e389",
+  "semanticHash": "eab3c09da288c2a4c7a1703dbffbf5b555b78eb5ad4587c02036ddfd0e898d38",
   "snapshotVersion": "2.3",
   "solSupervisor": {
     "completedReviews24h": 2,
@@ -1678,7 +1678,7 @@
         "updated": 1792349540.6580338
       }
     ],
-    "updatedAt": 1792656999.668861,
+    "updatedAt": 1792660907.924952,
     "visionAuth": {
       "deferred": true,
       "failures": 33,
